@@ -1,0 +1,94 @@
+2017/01/20 12:50:18 - Connecting to AWS region us-east-1.
+2017/01/20 12:50:18 - Calculating new unique cluster name for request 1272.
+2017/01/20 12:50:18 - Creating new cluster name, Hpcc-WMCU.
+2017/01/20 12:50:18 - Creating Hpcc-WMCU security group.
+2017/01/20 12:50:20 - Creating Hpcc-WMCU key pair.
+2017/01/20 12:50:20 - Launching 1 m1.large nodes using ami-3c3f382b.
+2017/01/20 12:50:22 - Reservation ID r-0ae7ac401e5d2a754 created.
+2017/01/20 12:50:22 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:27 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:32 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:37 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:42 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:47 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:52 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:50:57 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:02 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:07 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:12 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:17 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:23 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:28 - Waiting for 1 of 1 nodes to launch.
+2017/01/20 12:51:33 - Pending instances have completed.
+2017/01/20 12:51:33 - Checking each node launched properly.
+2017/01/20 12:51:33 - 54.198.76.190:   Checking EC2 instance i-0284f4f02af230b14.
+2017/01/20 12:51:33 - 54.198.76.190:   Checking EC2 instance is running.
+2017/01/20 12:51:33 - 54.198.76.190:   Connecting via SSH.
+2017/01/20 12:51:41 - 54.198.76.190:   Waiting on SSH connection.
+2017/01/20 12:51:53 - 54.198.76.190:   Checking software installation completed.
+2017/01/20 12:51:53 - 54.198.76.190:   Software installation finished.
+2017/01/20 12:51:53 - 54.198.76.190:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/20 12:51:53 - 54.198.76.190:   Checking file contents.
+2017/01/20 12:51:53 - 54.198.76.190:   Remote file contents confirmed.
+2017/01/20 12:51:53 - 54.198.76.190:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/20 12:51:53 - 54.198.76.190:   Completed check of node 54.198.76.190.
+2017/01/20 12:51:53 - Determining availability zone.
+2017/01/20 12:51:53 - Gathering public and private ip addresses.
+2017/01/20 12:51:53 - Connecting to node 54.198.76.190 for cluster configuration.
+2017/01/20 12:51:53 - Connecting via SSH.
+2017/01/20 12:51:54 - Checking software installation completed.
+2017/01/20 12:51:54 - Software installation finished.
+2017/01/20 12:51:54 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/20 12:51:54 - Checking file contents.
+2017/01/20 12:51:54 - Remote file contents confirmed.
+2017/01/20 12:51:54 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/20 12:51:54 - Writing cluster private ip addresses to file on instance.
+2017/01/20 12:51:54 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/01/20 12:51:54 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/01/20 12:51:54 - Checking file contents.
+2017/01/20 12:51:55 - Remote file contents confirmed.
+2017/01/20 12:51:55 - Running envgen
+2017/01/20 12:51:56 - Reading the config file.
+2017/01/20 12:51:56 - Retrieving IP address of ESP Server.
+2017/01/20 12:51:56 - ESP Server private IP address: 10.113.18.224.
+2017/01/20 12:51:56 - ESP Server public IP address: 54.198.76.190.
+2017/01/20 12:51:56 - 54.198.76.190:   Starting node configuration.
+2017/01/20 12:51:56 - 54.198.76.190:   Connecting via SSH.
+2017/01/20 12:51:57 - 54.198.76.190:   Checking software installation completed.
+2017/01/20 12:51:57 - 54.198.76.190:   Software installation finished.
+2017/01/20 12:51:57 - 54.198.76.190:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/20 12:51:57 - 54.198.76.190:   Checking file contents.
+2017/01/20 12:51:57 - 54.198.76.190:   Remote file contents confirmed.
+2017/01/20 12:51:57 - 54.198.76.190:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/20 12:51:57 - 54.198.76.190:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/01/20 12:51:57 - 54.198.76.190:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/01/20 12:51:57 - 54.198.76.190:   Checking file contents.
+2017/01/20 12:51:57 - 54.198.76.190:   Remote file contents confirmed.
+2017/01/20 12:51:57 - 54.198.76.190:   Starting HPCC Platform Community Edition: 6.0.8-1.
+2017/01/20 12:52:17 - 54.198.76.190:   Starting mydafilesrv ...       [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting mydali ...            [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting mydfuserver ...       [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting myeclagent ...        [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting myeclccserver ...     [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting myeclscheduler ...    [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting myesp ...             [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting mysasha ...           [   OK    ]   
+2017/01/20 12:52:17 - 54.198.76.190:   Starting mythor ...            [   OK    ]  
+2017/01/20 12:52:17 - 54.198.76.190:   Start node is complete.
+2017/01/20 12:52:17 - Done.
+2017/01/20 13:26:13 - Terminating cluster.
+2017/01/20 13:26:13 - Connecting to AWS region us-east-1.
+2017/01/20 13:26:13 - Gathering instances for Hpcc-WMCU.
+2017/01/20 13:26:14 - Terminating instances.
+2017/01/20 13:26:14 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:19 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:25 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:30 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:35 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:40 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:45 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:50 - Waiting for 1 instances to terminate.
+2017/01/20 13:26:55 - Waiting for 1 instances to terminate.
+2017/01/20 13:27:00 - Deleting Access Key Hpcc-WMCU.
+2017/01/20 13:27:00 - Deleting Security group Hpcc-WMCU.
+2017/01/20 13:27:01 - Done.

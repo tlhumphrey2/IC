@@ -1,0 +1,491 @@
+2013/09/14 15:09:13 - Connecting to AWS region us-west-2.
+2013/09/14 15:09:13 - Calculating new unique cluster name for request 687.
+2013/09/14 15:09:14 - Creating new cluster name, Hpcc-WB82.
+2013/09/14 15:09:14 - Creating Hpcc-WB82 security group.
+2013/09/14 15:09:17 - Creating Hpcc-WB82 key pair.
+2013/09/14 15:09:18 - Launching 17 m1.large nodes using ami-4dc7577d.
+2013/09/14 15:09:19 - Reservation ID r-d98723ed created.
+2013/09/14 15:09:19 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:09:29 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:09:37 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:09:46 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:09:54 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:10:03 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:10:12 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:10:20 - Waiting for 17 of 17 nodes to launch.
+2013/09/14 15:10:30 - Waiting for 15 of 17 nodes to launch.
+2013/09/14 15:10:39 - Waiting for 11 of 17 nodes to launch.
+2013/09/14 15:10:47 - Waiting for 1 of 17 nodes to launch.
+2013/09/14 15:10:52 - Pending instances have completed.
+2013/09/14 15:10:52 - Checking each node launched properly.
+2013/09/14 15:10:52 - 54.200.48.109:   Checking EC2 instance i-b1114485.
+2013/09/14 15:10:52 - 54.200.48.121:   Checking EC2 instance i-a4114490.
+2013/09/14 15:10:52 - 54.200.49.204:   Checking EC2 instance i-a5114491.
+2013/09/14 15:10:52 - 54.200.49.241:   Checking EC2 instance i-a6114492.
+2013/09/14 15:10:52 - 54.200.48.104:   Checking EC2 instance i-a7114493.
+2013/09/14 15:10:52 - 54.200.34.110:   Checking EC2 instance i-a0114494.
+2013/09/14 15:10:52 - 54.200.50.25:    Checking EC2 instance i-a1114495.
+2013/09/14 15:10:52 - 54.200.37.104:   Checking EC2 instance i-a2114496.
+2013/09/14 15:10:52 - 54.200.49.251:   Checking EC2 instance i-a3114497.
+2013/09/14 15:10:52 - 54.200.50.28:    Checking EC2 instance i-ac114498.
+2013/09/14 15:10:52 - 54.200.48.101:   Checking EC2 instance i-ad114499.
+2013/09/14 15:10:52 - 54.200.49.185:   Checking EC2 instance i-ae11449a.
+2013/09/14 15:10:52 - 54.200.50.24:    Checking EC2 instance i-af11449b.
+2013/09/14 15:10:52 - 54.200.48.90:    Checking EC2 instance i-a811449c.
+2013/09/14 15:10:52 - 54.200.50.11:    Checking EC2 instance i-a911449d.
+2013/09/14 15:10:52 - 54.200.49.192:   Checking EC2 instance i-aa11449e.
+2013/09/14 15:10:52 - 54.200.50.12:    Checking EC2 instance i-ab11449f.
+2013/09/14 15:10:52 - 54.200.48.109:   Checking EC2 instance is running.
+2013/09/14 15:10:52 - 54.200.48.109:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.50.24:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.24:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.241:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.49.241:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.48.121:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.48.121:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.34.110:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.34.110:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.37.104:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.37.104:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.50.11:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.11:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.204:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.49.204:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.50.12:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.12:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.185:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.49.192:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.28:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.28:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.251:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.49.251:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.192:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.49.185:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.48.104:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.48.104:   Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.50.25:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.50.25:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.48.90:    Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.48.90:    Connecting via SSH.
+2013/09/14 15:10:53 - 54.200.48.101:   Checking EC2 instance is running.
+2013/09/14 15:10:53 - 54.200.48.101:   Connecting via SSH.
+2013/09/14 15:11:00 - 54.200.48.109:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.25:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.28:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.48.90:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.24:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.48.109:   Software installation finished.
+2013/09/14 15:11:00 - 54.200.48.109:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.49.241:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.34.110:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.11:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.12:    Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.50.25:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.50.25:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.50.28:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.50.28:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.50.24:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.50.24:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.49.251:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.49.241:   Software installation finished.
+2013/09/14 15:11:00 - 54.200.49.241:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.48.90:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.48.90:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.48.101:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.49.192:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.49.185:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.48.104:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.34.110:   Software installation finished.
+2013/09/14 15:11:00 - 54.200.34.110:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.50.11:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.50.11:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.48.121:   Checking software installation completed.
+2013/09/14 15:11:00 - 54.200.48.109:   Checking file contents.
+2013/09/14 15:11:00 - 54.200.50.12:    Software installation finished.
+2013/09/14 15:11:00 - 54.200.50.12:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:00 - 54.200.49.251:   Software installation finished.
+2013/09/14 15:11:00 - 54.200.49.251:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.49.185:   Software installation finished.
+2013/09/14 15:11:01 - 54.200.49.185:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.48.101:   Software installation finished.
+2013/09/14 15:11:01 - 54.200.48.101:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.48.104:   Software installation finished.
+2013/09/14 15:11:01 - 54.200.48.104:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.50.28:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.50.25:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.49.192:   Software installation finished.
+2013/09/14 15:11:01 - 54.200.49.192:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.48.121:   Software installation finished.
+2013/09/14 15:11:01 - 54.200.48.121:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:01 - 54.200.50.24:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.48.109:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.48.90:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.34.110:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.49.241:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.50.11:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.50.28:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.50.25:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.50.12:    Checking file contents.
+2013/09/14 15:11:01 - 54.200.50.24:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.185:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.34.110:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.50.11:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.251:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.48.90:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.241:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.48.104:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.49.192:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.48.101:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.48.121:   Checking file contents.
+2013/09/14 15:11:01 - 54.200.50.12:    Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.185:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.251:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.49.192:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.48.104:   Remote file contents confirmed.
+2013/09/14 15:11:01 - 54.200.48.109:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:01 - 54.200.48.109:   Completed check of node 54.200.48.109.
+2013/09/14 15:11:01 - 54.200.48.101:   Remote file contents confirmed.
+2013/09/14 15:11:02 - 54.200.48.121:   Remote file contents confirmed.
+2013/09/14 15:11:02 - 54.200.50.28:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.50.28:    Completed check of node 54.200.50.28.
+2013/09/14 15:11:02 - 54.200.50.25:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.50.25:    Completed check of node 54.200.50.25.
+2013/09/14 15:11:02 - 54.200.50.24:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.50.24:    Completed check of node 54.200.50.24.
+2013/09/14 15:11:02 - 54.200.50.11:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.50.11:    Completed check of node 54.200.50.11.
+2013/09/14 15:11:02 - 54.200.48.90:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.48.90:    Completed check of node 54.200.48.90.
+2013/09/14 15:11:02 - 54.200.34.110:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.34.110:   Completed check of node 54.200.34.110.
+2013/09/14 15:11:02 - 54.200.49.241:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.49.241:   Completed check of node 54.200.49.241.
+2013/09/14 15:11:02 - 54.200.50.12:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.50.12:    Completed check of node 54.200.50.12.
+2013/09/14 15:11:02 - 54.200.49.185:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.49.192:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.49.192:   Completed check of node 54.200.49.192.
+2013/09/14 15:11:02 - 54.200.48.104:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.48.104:   Completed check of node 54.200.48.104.
+2013/09/14 15:11:02 - 54.200.49.251:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.49.251:   Completed check of node 54.200.49.251.
+2013/09/14 15:11:02 - 54.200.49.185:   Completed check of node 54.200.49.185.
+2013/09/14 15:11:02 - 54.200.48.121:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.48.121:   Completed check of node 54.200.48.121.
+2013/09/14 15:11:02 - 54.200.48.101:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:02 - 54.200.48.101:   Completed check of node 54.200.48.101.
+2013/09/14 15:11:04 - 54.200.49.204:   Checking software installation completed.
+2013/09/14 15:11:04 - 54.200.49.204:   Waiting for software to install.
+2013/09/14 15:11:14 - 54.200.37.104:   Waiting on SSH connection.
+2013/09/14 15:11:15 - 54.200.49.204:   Software installation finished.
+2013/09/14 15:11:15 - 54.200.49.204:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:15 - 54.200.49.204:   Checking file contents.
+2013/09/14 15:11:15 - 54.200.49.204:   Remote file contents confirmed.
+2013/09/14 15:11:16 - 54.200.49.204:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:16 - 54.200.49.204:   Completed check of node 54.200.49.204.
+2013/09/14 15:11:25 - 54.200.37.104:   Checking software installation completed.
+2013/09/14 15:11:25 - 54.200.37.104:   Software installation finished.
+2013/09/14 15:11:25 - 54.200.37.104:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:26 - 54.200.37.104:   Checking file contents.
+2013/09/14 15:11:26 - 54.200.37.104:   Remote file contents confirmed.
+2013/09/14 15:11:27 - 54.200.37.104:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:27 - 54.200.37.104:   Completed check of node 54.200.37.104.
+2013/09/14 15:11:27 - Determining availability zone.
+2013/09/14 15:11:27 - Gathering public and private ip addresses.
+2013/09/14 15:11:27 - Connecting to node 54.200.48.109 for cluster configuration.
+2013/09/14 15:11:27 - Connecting via SSH.
+2013/09/14 15:11:28 - Checking software installation completed.
+2013/09/14 15:11:28 - Software installation finished.
+2013/09/14 15:11:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:29 - Checking file contents.
+2013/09/14 15:11:29 - Remote file contents confirmed.
+2013/09/14 15:11:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:30 - Writing cluster private ip addresses to file on instance.
+2013/09/14 15:11:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/09/14 15:11:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/09/14 15:11:30 - Checking file contents.
+2013/09/14 15:11:31 - Remote file contents confirmed.
+2013/09/14 15:11:31 - Running envgen
+2013/09/14 15:11:32 - Reading the config file.
+2013/09/14 15:11:32 - Retrieving IP address of ESP Server.
+2013/09/14 15:11:33 - ESP Server private IP address: 172.31.42.114.
+2013/09/14 15:11:33 - ESP Server public IP address: 54.200.48.109.
+2013/09/14 15:11:33 - 54.200.49.204:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.48.109:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.49.204:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.48.109:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.48.121:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.48.121:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.48.104:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.48.104:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.49.241:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.49.241:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.34.110:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.25:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.25:    Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.34.110:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.37.104:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.24:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.24:    Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.49.251:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.37.104:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.49.192:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.49.251:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.48.90:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.48.101:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.48.101:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.49.192:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.50.11:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.49.185:   Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.12:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.12:    Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.49.185:   Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.50.11:    Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.50.28:    Starting node configuration.
+2013/09/14 15:11:33 - 54.200.50.28:    Connecting via SSH.
+2013/09/14 15:11:33 - 54.200.48.90:    Connecting via SSH.
+2013/09/14 15:11:35 - 54.200.48.109:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.34.110:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.50.11:    Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.49.192:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.50.28:    Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.50.24:    Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.48.109:   Software installation finished.
+2013/09/14 15:11:35 - 54.200.48.109:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:35 - 54.200.49.241:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.50.25:    Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.49.251:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.48.101:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.48.104:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.37.104:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.34.110:   Software installation finished.
+2013/09/14 15:11:35 - 54.200.34.110:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:35 - 54.200.48.121:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.49.185:   Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.48.90:    Checking software installation completed.
+2013/09/14 15:11:35 - 54.200.50.11:    Software installation finished.
+2013/09/14 15:11:35 - 54.200.50.11:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.50.12:    Checking software installation completed.
+2013/09/14 15:11:36 - 54.200.49.192:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.49.192:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.50.28:    Software installation finished.
+2013/09/14 15:11:36 - 54.200.50.28:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.50.24:    Software installation finished.
+2013/09/14 15:11:36 - 54.200.50.24:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.49.241:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.49.241:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.49.251:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.49.251:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.50.25:    Software installation finished.
+2013/09/14 15:11:36 - 54.200.50.25:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.48.104:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.48.104:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.37.104:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.37.104:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.48.101:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.48.101:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.50.12:    Software installation finished.
+2013/09/14 15:11:36 - 54.200.50.12:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.48.121:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.48.121:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.48.90:    Software installation finished.
+2013/09/14 15:11:36 - 54.200.48.90:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.49.185:   Software installation finished.
+2013/09/14 15:11:36 - 54.200.49.185:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:36 - 54.200.34.110:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.48.109:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.28:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.11:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.49.192:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.24:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.25:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.49.241:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.49.251:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.48.104:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.37.104:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.34.110:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.48.101:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.48.109:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.50.28:    Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.50.12:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.48.121:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.11:    Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.48.90:    Checking file contents.
+2013/09/14 15:11:36 - 54.200.49.192:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.49.185:   Checking file contents.
+2013/09/14 15:11:36 - 54.200.50.24:    Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.50.25:    Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.49.251:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.48.104:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.49.241:   Remote file contents confirmed.
+2013/09/14 15:11:36 - 54.200.37.104:   Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.48.101:   Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.48.121:   Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.50.12:    Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.48.90:    Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.49.185:   Remote file contents confirmed.
+2013/09/14 15:11:37 - 54.200.50.28:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.50.28:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.34.110:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.34.110:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.48.109:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.48.109:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.50.11:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.50.11:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.49.192:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.49.192:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.50.24:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.50.24:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.50.25:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.50.25:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.49.251:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.49.251:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.48.104:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.48.104:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.49.241:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.49.241:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.37.104:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.37.104:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.48.101:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.48.101:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.48.121:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.48.121:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.48.90:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.48.90:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.50.12:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.50.12:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:37 - 54.200.49.185:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:37 - 54.200.49.185:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:38 - 54.200.50.28:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.34.110:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.11:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.48.109:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.49.192:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.24:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.25:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.48.104:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.28:    Checking file contents.
+2013/09/14 15:11:38 - 54.200.49.241:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.49.251:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.34.110:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.50.11:    Checking file contents.
+2013/09/14 15:11:38 - 54.200.48.109:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.37.104:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.24:    Checking file contents.
+2013/09/14 15:11:38 - 54.200.49.192:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.48.101:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.25:    Checking file contents.
+2013/09/14 15:11:38 - 54.200.48.121:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.48.104:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.49.251:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.48.90:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.50.12:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:38 - 54.200.49.241:   Checking file contents.
+2013/09/14 15:11:38 - 54.200.49.185:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:39 - 54.200.37.104:   Checking file contents.
+2013/09/14 15:11:39 - 54.200.48.101:   Checking file contents.
+2013/09/14 15:11:39 - 54.200.34.110:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.34.110:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.50.28:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.50.28:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.121:   Checking file contents.
+2013/09/14 15:11:39 - 54.200.50.11:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.50.11:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.50.24:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.50.24:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.109:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.48.109:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.50.12:    Checking file contents.
+2013/09/14 15:11:39 - 54.200.48.90:    Checking file contents.
+2013/09/14 15:11:39 - 54.200.49.185:   Checking file contents.
+2013/09/14 15:11:39 - 54.200.49.192:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.49.192:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.50.25:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.50.25:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.49.251:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.49.251:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.104:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.48.104:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.49.241:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.49.241:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.37.104:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.37.104:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.101:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.48.101:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.121:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.48.121:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.50.12:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.50.12:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.48.90:    Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.48.90:    Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:39 - 54.200.49.185:   Remote file contents confirmed.
+2013/09/14 15:11:39 - 54.200.49.185:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:40 - 54.200.49.204:   Checking software installation completed.
+2013/09/14 15:11:40 - 54.200.49.204:   Software installation finished.
+2013/09/14 15:11:40 - 54.200.49.204:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/09/14 15:11:40 - 54.200.49.204:   Checking file contents.
+2013/09/14 15:11:41 - 54.200.49.204:   Remote file contents confirmed.
+2013/09/14 15:11:41 - 54.200.49.204:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/09/14 15:11:41 - 54.200.49.204:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/09/14 15:11:42 - 54.200.50.28:    Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.50.28:    Start node is complete.
+2013/09/14 15:11:42 - 54.200.50.24:    Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.50.11:    Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.49.192:   Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.50.24:    Start node is complete.
+2013/09/14 15:11:42 - 54.200.50.11:    Start node is complete.
+2013/09/14 15:11:42 - 54.200.49.192:   Start node is complete.
+2013/09/14 15:11:42 - 54.200.49.251:   Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.49.251:   Start node is complete.
+2013/09/14 15:11:42 - 54.200.37.104:   Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.37.104:   Start node is complete.
+2013/09/14 15:11:42 - 54.200.48.101:   Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:42 - 54.200.50.12:    Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:43 - 54.200.48.101:   Start node is complete.
+2013/09/14 15:11:43 - 54.200.49.185:   Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:43 - 54.200.50.12:    Start node is complete.
+2013/09/14 15:11:43 - 54.200.48.90:    Starting mydafilesrv....       [  OK  ]  
+2013/09/14 15:11:43 - 54.200.48.90:    Start node is complete.
+2013/09/14 15:11:43 - 54.200.49.204:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/09/14 15:11:43 - 54.200.49.185:   Start node is complete.
+2013/09/14 15:11:43 - 54.200.49.204:   Checking file contents.
+2013/09/14 15:11:43 - 54.200.50.25:    Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:43 - 54.200.50.25:    Starting mysasha....           [  OK  ]  
+2013/09/14 15:11:43 - 54.200.49.204:   Remote file contents confirmed.
+2013/09/14 15:11:43 - 54.200.49.204:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/09/14 15:11:44 - 54.200.50.25:    Start node is complete.
+2013/09/14 15:11:44 - 54.200.48.109:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:44 - 54.200.48.109:   Starting myesp....             [  OK  ]   
+2013/09/14 15:11:44 - 54.200.48.109:   Starting myroxie....           [  OK  ]  
+2013/09/14 15:11:44 - 54.200.48.109:   Start node is complete.
+2013/09/14 15:11:45 - 54.200.49.241:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:45 - 54.200.49.241:   Starting myeclagent....        [  OK  ]   
+2013/09/14 15:11:45 - 54.200.49.241:   Starting myroxie....           [  OK  ]  
+2013/09/14 15:11:45 - 54.200.48.104:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:45 - 54.200.48.104:   Starting myeclccserver....     [  OK  ]   
+2013/09/14 15:11:45 - 54.200.48.104:   Starting myroxie....           [  OK  ]  
+2013/09/14 15:11:45 - 54.200.49.241:   Start node is complete.
+2013/09/14 15:11:45 - 54.200.48.104:   Start node is complete.
+2013/09/14 15:11:45 - 54.200.48.121:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:45 - 54.200.48.121:   Starting mydali....            [  OK  ]   
+2013/09/14 15:11:45 - 54.200.48.121:   Starting myroxie....           [  OK  ]  
+2013/09/14 15:11:45 - 54.200.48.121:   Start node is complete.
+2013/09/14 15:11:49 - 54.200.49.204:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:49 - 54.200.49.204:   Starting mydfuserver....       [  OK  ]   
+2013/09/14 15:11:49 - 54.200.49.204:   Starting myroxie....           [  OK  ]  
+2013/09/14 15:11:49 - 54.200.49.204:   Start node is complete.
+2013/09/14 15:11:58 - 54.200.34.110:   Starting mydafilesrv....       [  OK  ]   
+2013/09/14 15:11:58 - 54.200.34.110:   Starting myeclscheduler....    [  OK  ]   
+2013/09/14 15:11:58 - 54.200.34.110:   Starting mythor....            [  OK  ]  
+2013/09/14 15:11:58 - 54.200.34.110:   Start node is complete.
+2013/09/14 15:11:58 - Done.
+2013/09/14 16:29:59 - Terminating cluster.
+2013/09/14 16:29:59 - Connecting to AWS region us-west-2.
+2013/09/14 16:29:59 - Gathering instances for Hpcc-WB82.
+2013/09/14 16:30:00 - Terminating instances.
+2013/09/14 16:30:00 - Deleting Access Key Hpcc-WB82.
+2013/09/14 16:30:00 - Deleting Security group Hpcc-WB82.
+2013/09/14 16:30:01 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-e346ac8c has a dependent object
+                      requestId: ece7c677-9e98-4df5-a5d0-658c00853869

@@ -1,0 +1,93 @@
+2015/04/01 09:27:17 - Connecting to AWS region us-west-2.
+2015/04/01 09:27:17 - Calculating new unique cluster name for request 1056.
+2015/04/01 09:27:17 - Creating new cluster name, Hpcc-TMEP.
+2015/04/01 09:27:17 - Creating Hpcc-TMEP security group.
+2015/04/01 09:27:19 - Creating Hpcc-TMEP key pair.
+2015/04/01 09:27:19 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/04/01 09:27:20 - Reservation ID r-5ff89b55 created.
+2015/04/01 09:27:20 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:25 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:30 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:36 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:41 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:46 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:51 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:27:56 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:28:01 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:28:06 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 09:28:11 - Pending instances have completed.
+2015/04/01 09:28:11 - Checking each node launched properly.
+2015/04/01 09:28:11 - 54.189.71.32:    Checking EC2 instance i-8c02aa81.
+2015/04/01 09:28:12 - 54.189.71.32:    Checking EC2 instance is running.
+2015/04/01 09:28:12 - 54.189.71.32:    Connecting via SSH.
+2015/04/01 09:28:14 - 54.189.71.32:    Waiting on SSH connection.
+2015/04/01 09:28:25 - 54.189.71.32:    Checking software installation completed.
+2015/04/01 09:28:25 - 54.189.71.32:    Software installation finished.
+2015/04/01 09:28:25 - 54.189.71.32:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 09:28:26 - 54.189.71.32:    Checking file contents.
+2015/04/01 09:28:26 - 54.189.71.32:    Remote file contents confirmed.
+2015/04/01 09:28:26 - 54.189.71.32:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 09:28:26 - 54.189.71.32:    Completed check of node 54.189.71.32.
+2015/04/01 09:28:26 - Determining availability zone.
+2015/04/01 09:28:26 - Gathering public and private ip addresses.
+2015/04/01 09:28:26 - Connecting to node 54.189.71.32 for cluster configuration.
+2015/04/01 09:28:26 - Connecting via SSH.
+2015/04/01 09:28:28 - Checking software installation completed.
+2015/04/01 09:28:28 - Software installation finished.
+2015/04/01 09:28:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 09:28:29 - Checking file contents.
+2015/04/01 09:28:29 - Remote file contents confirmed.
+2015/04/01 09:28:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 09:28:30 - Writing cluster private ip addresses to file on instance.
+2015/04/01 09:28:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/01 09:28:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/01 09:28:30 - Checking file contents.
+2015/04/01 09:28:31 - Remote file contents confirmed.
+2015/04/01 09:28:31 - Running envgen
+2015/04/01 09:28:32 - Reading the config file.
+2015/04/01 09:28:32 - Retrieving IP address of ESP Server.
+2015/04/01 09:28:32 - ESP Server private IP address: 10.253.108.31.
+2015/04/01 09:28:32 - ESP Server public IP address: 54.189.71.32.
+2015/04/01 09:28:32 - 54.189.71.32:    Starting node configuration.
+2015/04/01 09:28:32 - 54.189.71.32:    Connecting via SSH.
+2015/04/01 09:28:34 - 54.189.71.32:    Checking software installation completed.
+2015/04/01 09:28:34 - 54.189.71.32:    Software installation finished.
+2015/04/01 09:28:34 - 54.189.71.32:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 09:28:34 - 54.189.71.32:    Checking file contents.
+2015/04/01 09:28:35 - 54.189.71.32:    Remote file contents confirmed.
+2015/04/01 09:28:35 - 54.189.71.32:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 09:28:35 - 54.189.71.32:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/01 09:28:36 - 54.189.71.32:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/01 09:28:36 - 54.189.71.32:    Checking file contents.
+2015/04/01 09:28:36 - 54.189.71.32:    Remote file contents confirmed.
+2015/04/01 09:28:36 - 54.189.71.32:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/04/01 09:29:03 - 54.189.71.32:    Starting mydafilesrv....       [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting mydali....            [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting mydfuserver....       [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting myeclagent....        [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting myeclccserver....     [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting myeclscheduler....    [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting myesp....             [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting mysasha....           [  OK  ]   
+2015/04/01 09:29:03 - 54.189.71.32:    Starting mythor....            [  OK  ]  
+2015/04/01 09:29:03 - 54.189.71.32:    Start node is complete.
+2015/04/01 09:29:03 - Done.
+2015/04/01 17:39:25 - Terminating cluster.
+2015/04/01 17:39:25 - Connecting to AWS region us-west-2.
+2015/04/01 17:39:25 - Gathering instances for Hpcc-TMEP.
+2015/04/01 17:39:26 - Terminating instances.
+2015/04/01 17:39:26 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:31 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:37 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:42 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:47 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:52 - Waiting for 1 instances to terminate.
+2015/04/01 17:39:57 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:02 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:07 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:13 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:18 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:23 - Waiting for 1 instances to terminate.
+2015/04/01 17:40:28 - Deleting Access Key Hpcc-TMEP.
+2015/04/01 17:40:28 - Deleting Security group Hpcc-TMEP.
+2015/04/01 17:40:29 - Done.

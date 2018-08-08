@@ -1,0 +1,2535 @@
+2012/01/31 12:58:25 - Connecting to AWS region us-east-1.
+2012/01/31 12:58:25 - Calculating new unique cluster name for request 56.
+2012/01/31 12:58:25 - Creating new cluster name, Thor-BW58.
+2012/01/31 12:58:25 - Creating Thor-BW58 security group.
+2012/01/31 12:58:26 - Creating Thor-BW58 key pair.
+2012/01/31 12:58:27 - Launching 104 m1.large nodes using ami-fbbf7892.
+2012/01/31 12:58:30 - Reservation ID r-1aae567a created
+2012/01/31 12:58:30 - Waiting for 104 of 104 nodes to launch.
+2012/01/31 12:58:44 - Waiting for 104 of 104 nodes to launch.
+2012/01/31 12:58:55 - Waiting for 104 of 104 nodes to launch.
+2012/01/31 12:59:08 - Waiting for 99 of 104 nodes to launch.
+2012/01/31 12:59:21 - Waiting for 49 of 104 nodes to launch.
+2012/01/31 12:59:30 - Waiting for 19 of 104 nodes to launch.
+2012/01/31 12:59:37 - Waiting for 6 of 104 nodes to launch.
+2012/01/31 12:59:43 - Waiting for 2 of 104 nodes to launch.
+2012/01/31 12:59:48 - Waiting for 1 of 104 nodes to launch.
+2012/01/31 12:59:53 - Waiting for 1 of 104 nodes to launch.
+2012/01/31 12:59:58 - Waiting for 1 of 104 nodes to launch.
+2012/01/31 13:00:03 - Waiting for 1 of 104 nodes to launch.
+2012/01/31 13:00:08 - Pending instances have completed.
+2012/01/31 13:00:08 - Checking each node launched properly.
+2012/01/31 13:00:08 - 23.20.20.13:     Checking EC2 instance i-55973230.
+2012/01/31 13:00:08 - 50.19.43.72:     Checking EC2 instance i-57973232.
+2012/01/31 13:00:08 - 107.21.145.56:   Checking EC2 instance i-51973234.
+2012/01/31 13:00:08 - 50.19.134.137:   Checking EC2 instance i-53973236.
+2012/01/31 13:00:08 - 107.20.77.149:   Checking EC2 instance i-5d973238.
+2012/01/31 13:00:08 - 107.22.55.230:   Checking EC2 instance i-5f97323a.
+2012/01/31 13:00:08 - 184.73.85.145:   Checking EC2 instance i-5997323c.
+2012/01/31 13:00:08 - 50.17.124.85:    Checking EC2 instance i-5b97323e.
+2012/01/31 13:00:08 - 107.20.56.244:   Checking EC2 instance i-25973240.
+2012/01/31 13:00:08 - 184.72.194.148:  Checking EC2 instance i-27973242.
+2012/01/31 13:00:08 - 50.17.112.196:   Checking EC2 instance i-21973244.
+2012/01/31 13:00:08 - 184.73.21.179:   Checking EC2 instance i-23973246.
+2012/01/31 13:00:08 - 107.22.40.213:   Checking EC2 instance i-2d973248.
+2012/01/31 13:00:08 - 50.17.10.214:    Checking EC2 instance i-2f97324a.
+2012/01/31 13:00:08 - 174.129.180.72:  Checking EC2 instance i-2997324c.
+2012/01/31 13:00:08 - 107.21.196.247:  Checking EC2 instance i-2b97324e.
+2012/01/31 13:00:08 - 50.16.113.35:    Checking EC2 instance i-35973250.
+2012/01/31 13:00:08 - 184.72.131.179:  Checking EC2 instance i-37973252.
+2012/01/31 13:00:08 - 107.20.104.84:   Checking EC2 instance i-31973254.
+2012/01/31 13:00:08 - 184.72.174.28:   Checking EC2 instance i-33973256.
+2012/01/31 13:00:08 - 50.19.200.82:    Checking EC2 instance i-3d973258.
+2012/01/31 13:00:08 - 184.73.8.101:    Checking EC2 instance i-3f97325a.
+2012/01/31 13:00:08 - 23.20.21.90:     Checking EC2 instance i-3997325c.
+2012/01/31 13:00:08 - 107.21.182.253:  Checking EC2 instance i-3b97325e.
+2012/01/31 13:00:08 - 107.22.72.236:   Checking EC2 instance i-05973260.
+2012/01/31 13:00:08 - 23.20.20.13:     Checking EC2 instance is running.
+2012/01/31 13:00:08 - 23.20.20.13:     Connecting via SSH.
+2012/01/31 13:00:08 - 50.19.134.137:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.19.134.137:   Connecting via SSH.
+2012/01/31 13:00:08 - 50.17.124.85:    Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.17.124.85:    Connecting via SSH.
+2012/01/31 13:00:08 - 107.21.145.56:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.21.145.56:   Connecting via SSH.
+2012/01/31 13:00:08 - 50.19.43.72:     Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.19.43.72:     Connecting via SSH.
+2012/01/31 13:00:08 - 107.22.55.230:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.73.21.179:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.73.21.179:   Connecting via SSH.
+2012/01/31 13:00:08 - 50.17.112.196:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.17.112.196:   Connecting via SSH.
+2012/01/31 13:00:08 - 107.22.55.230:   Connecting via SSH.
+2012/01/31 13:00:08 - 107.22.72.236:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.22.72.236:   Connecting via SSH.
+2012/01/31 13:00:08 - 174.129.180.72:  Checking EC2 instance is running.
+2012/01/31 13:00:08 - 174.129.180.72:  Connecting via SSH.
+2012/01/31 13:00:08 - 184.72.131.179:  Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.72.131.179:  Connecting via SSH.
+2012/01/31 13:00:08 - 184.73.85.145:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.72.174.28:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.20.77.149:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.20.77.149:   Connecting via SSH.
+2012/01/31 13:00:08 - 184.73.85.145:   Connecting via SSH.
+2012/01/31 13:00:08 - 107.20.104.84:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.72.174.28:   Connecting via SSH.
+2012/01/31 13:00:08 - 107.20.104.84:   Connecting via SSH.
+2012/01/31 13:00:08 - 184.73.8.101:    Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.17.10.214:    Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.73.8.101:    Connecting via SSH.
+2012/01/31 13:00:08 - 50.17.10.214:    Connecting via SSH.
+2012/01/31 13:00:08 - 50.19.200.82:    Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.21.196.247:  Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.19.200.82:    Connecting via SSH.
+2012/01/31 13:00:08 - 107.22.40.213:   Checking EC2 instance is running.
+2012/01/31 13:00:08 - 107.22.40.213:   Connecting via SSH.
+2012/01/31 13:00:08 - 107.21.196.247:  Connecting via SSH.
+2012/01/31 13:00:08 - 23.20.21.90:     Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.72.194.148:  Checking EC2 instance is running.
+2012/01/31 13:00:08 - 184.72.194.148:  Connecting via SSH.
+2012/01/31 13:00:08 - 23.20.21.90:     Connecting via SSH.
+2012/01/31 13:00:08 - 50.16.113.35:    Checking EC2 instance is running.
+2012/01/31 13:00:08 - 50.16.113.35:    Connecting via SSH.
+2012/01/31 13:00:09 - 107.20.56.244:   Checking EC2 instance is running.
+2012/01/31 13:00:09 - 107.20.56.244:   Connecting via SSH.
+2012/01/31 13:00:09 - 107.21.182.253:  Checking EC2 instance is running.
+2012/01/31 13:00:09 - 107.21.182.253:  Connecting via SSH.
+2012/01/31 13:00:12 - 23.20.20.13:     Checking network mask is compatible.
+2012/01/31 13:00:12 - 23.20.20.13:     Checking disk I/O
+2012/01/31 13:00:12 - 23.20.20.13:     Checking software installation completed.
+2012/01/31 13:00:12 - 23.20.20.13:     Software installation finished.
+2012/01/31 13:00:12 - 23.20.20.13:     Completed check of node 23.20.20.13.
+2012/01/31 13:00:12 - 23.20.36.105:    Checking EC2 instance i-07973262.
+2012/01/31 13:00:12 - 23.20.36.105:    Checking EC2 instance is running.
+2012/01/31 13:00:12 - 23.20.36.105:    Connecting via SSH.
+2012/01/31 13:00:12 - 50.19.134.137:   Checking network mask is compatible.
+2012/01/31 13:00:12 - 50.19.134.137:   Checking disk I/O
+2012/01/31 13:00:12 - 50.19.134.137:   Checking software installation completed.
+2012/01/31 13:00:13 - 50.19.134.137:   Waiting for software to install.
+2012/01/31 13:00:13 - 107.21.145.56:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 107.21.145.56:   Checking disk I/O
+2012/01/31 13:00:13 - 107.21.145.56:   Checking software installation completed.
+2012/01/31 13:00:13 - 184.73.85.145:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 184.73.85.145:   Checking disk I/O
+2012/01/31 13:00:13 - 184.73.85.145:   Checking software installation completed.
+2012/01/31 13:00:13 - 107.21.145.56:   Waiting for software to install.
+2012/01/31 13:00:13 - 107.21.196.247:  Checking network mask is compatible.
+2012/01/31 13:00:13 - 107.21.196.247:  Checking disk I/O
+2012/01/31 13:00:13 - 184.73.85.145:   Waiting for software to install.
+2012/01/31 13:00:13 - 107.21.196.247:  Checking software installation completed.
+2012/01/31 13:00:13 - 184.72.194.148:  Checking network mask is compatible.
+2012/01/31 13:00:13 - 184.72.194.148:  Checking disk I/O
+2012/01/31 13:00:13 - 107.20.104.84:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 107.20.104.84:   Checking disk I/O
+2012/01/31 13:00:13 - 184.72.194.148:  Checking software installation completed.
+2012/01/31 13:00:13 - 107.22.55.230:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 107.22.55.230:   Checking disk I/O
+2012/01/31 13:00:13 - 184.72.194.148:  Waiting for software to install.
+2012/01/31 13:00:13 - 184.72.131.179:  Checking network mask is compatible.
+2012/01/31 13:00:13 - 184.72.131.179:  Checking disk I/O
+2012/01/31 13:00:13 - 184.73.21.179:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 184.73.21.179:   Checking disk I/O
+2012/01/31 13:00:13 - 107.21.196.247:  Software installation finished.
+2012/01/31 13:00:13 - 107.21.196.247:  Completed check of node 107.21.196.247.
+2012/01/31 13:00:13 - 107.20.57.115:   Checking EC2 instance i-01973264.
+2012/01/31 13:00:13 - 107.20.104.84:   Checking software installation completed.
+2012/01/31 13:00:13 - 107.22.55.230:   Checking software installation completed.
+2012/01/31 13:00:13 - 184.72.131.179:  Checking software installation completed.
+2012/01/31 13:00:13 - 184.73.21.179:   Checking software installation completed.
+2012/01/31 13:00:13 - 107.20.57.115:   Checking EC2 instance is running.
+2012/01/31 13:00:13 - 107.20.57.115:   Connecting via SSH.
+2012/01/31 13:00:13 - 184.73.21.179:   Software installation finished.
+2012/01/31 13:00:13 - 184.73.21.179:   Completed check of node 184.73.21.179.
+2012/01/31 13:00:13 - 50.16.149.56:    Checking EC2 instance i-03973266.
+2012/01/31 13:00:13 - 50.19.200.82:    Checking network mask is compatible.
+2012/01/31 13:00:13 - 50.19.200.82:    Checking disk I/O
+2012/01/31 13:00:13 - 50.17.112.196:   Checking network mask is compatible.
+2012/01/31 13:00:13 - 107.20.104.84:   Waiting for software to install.
+2012/01/31 13:00:13 - 50.17.112.196:   Checking disk I/O
+2012/01/31 13:00:13 - 107.22.55.230:   Waiting for software to install.
+2012/01/31 13:00:13 - 184.72.131.179:  Waiting for software to install.
+2012/01/31 13:00:13 - 50.16.149.56:    Checking EC2 instance is running.
+2012/01/31 13:00:13 - 50.16.149.56:    Connecting via SSH.
+2012/01/31 13:00:13 - 50.19.200.82:    Checking software installation completed.
+2012/01/31 13:00:14 - 50.17.112.196:   Checking software installation completed.
+2012/01/31 13:00:14 - 107.20.77.149:   Checking network mask is compatible.
+2012/01/31 13:00:14 - 107.20.77.149:   Checking disk I/O
+2012/01/31 13:00:14 - 23.20.21.90:     Checking network mask is compatible.
+2012/01/31 13:00:14 - 23.20.21.90:     Checking disk I/O
+2012/01/31 13:00:14 - 107.20.77.149:   Checking software installation completed.
+2012/01/31 13:00:14 - 50.19.200.82:    Waiting for software to install.
+2012/01/31 13:00:14 - 50.17.112.196:   Waiting for software to install.
+2012/01/31 13:00:14 - 107.21.182.253:  Checking network mask is compatible.
+2012/01/31 13:00:14 - 107.21.182.253:  Checking disk I/O
+2012/01/31 13:00:14 - 107.20.77.149:   Waiting for software to install.
+2012/01/31 13:00:14 - 50.19.43.72:     Checking network mask is compatible.
+2012/01/31 13:00:14 - 50.19.43.72:     Checking disk I/O
+2012/01/31 13:00:14 - 107.21.182.253:  Checking software installation completed.
+2012/01/31 13:00:14 - 23.20.21.90:     Checking software installation completed.
+2012/01/31 13:00:14 - 50.19.43.72:     Checking software installation completed.
+2012/01/31 13:00:14 - 107.22.72.236:   Checking network mask is compatible.
+2012/01/31 13:00:14 - 107.22.72.236:   Checking disk I/O
+2012/01/31 13:00:14 - 107.20.56.244:   Checking network mask is compatible.
+2012/01/31 13:00:14 - 107.20.56.244:   Checking disk I/O
+2012/01/31 13:00:14 - 50.16.113.35:    Checking network mask is compatible.
+2012/01/31 13:00:14 - 50.16.113.35:    Checking disk I/O
+2012/01/31 13:00:14 - 107.21.182.253:  Waiting for software to install.
+2012/01/31 13:00:14 - 50.19.43.72:     Waiting for software to install.
+2012/01/31 13:00:14 - 50.16.113.35:    Checking software installation completed.
+2012/01/31 13:00:14 - 23.20.21.90:     Waiting for software to install.
+2012/01/31 13:00:14 - 107.22.72.236:   Checking software installation completed.
+2012/01/31 13:00:14 - 107.20.56.244:   Checking software installation completed.
+2012/01/31 13:00:14 - 107.22.40.213:   Checking network mask is compatible.
+2012/01/31 13:00:14 - 107.22.40.213:   Checking disk I/O
+2012/01/31 13:00:14 - 184.73.8.101:    Checking network mask is compatible.
+2012/01/31 13:00:14 - 184.73.8.101:    Checking disk I/O
+2012/01/31 13:00:14 - 50.16.113.35:    Waiting for software to install.
+2012/01/31 13:00:14 - 50.17.10.214:    Checking network mask is compatible.
+2012/01/31 13:00:14 - 50.17.10.214:    Checking disk I/O
+2012/01/31 13:00:14 - 184.73.8.101:    Checking software installation completed.
+2012/01/31 13:00:14 - 107.22.40.213:   Checking software installation completed.
+2012/01/31 13:00:14 - 107.20.56.244:   Waiting for software to install.
+2012/01/31 13:00:14 - 50.17.10.214:    Checking software installation completed.
+2012/01/31 13:00:14 - 184.73.8.101:    Waiting for software to install.
+2012/01/31 13:00:14 - 50.17.10.214:    Waiting for software to install.
+2012/01/31 13:00:15 - 50.17.124.85:    Checking network mask is compatible.
+2012/01/31 13:00:15 - 50.17.124.85:    Checking disk I/O
+2012/01/31 13:00:15 - 107.22.72.236:   Waiting for software to install.
+2012/01/31 13:00:15 - 107.22.40.213:   Waiting for software to install.
+2012/01/31 13:00:15 - 184.72.174.28:   Checking network mask is compatible.
+2012/01/31 13:00:15 - 184.72.174.28:   Checking disk I/O
+2012/01/31 13:00:15 - 184.72.174.28:   Checking software installation completed.
+2012/01/31 13:00:15 - 23.20.36.105:    Checking network mask is compatible.
+2012/01/31 13:00:15 - 23.20.36.105:    Checking disk I/O
+2012/01/31 13:00:15 - 184.72.174.28:   Waiting for software to install.
+2012/01/31 13:00:15 - 23.20.36.105:    Checking software installation completed.
+2012/01/31 13:00:15 - 23.20.36.105:    Waiting for software to install.
+2012/01/31 13:00:16 - 50.17.124.85:    Checking software installation completed.
+2012/01/31 13:00:16 - 174.129.180.72:  Checking network mask is compatible.
+2012/01/31 13:00:16 - 174.129.180.72:  Checking disk I/O
+2012/01/31 13:00:16 - 50.17.124.85:    Waiting for software to install.
+2012/01/31 13:00:16 - 174.129.180.72:  Checking software installation completed.
+2012/01/31 13:00:16 - 107.20.57.115:   Checking network mask is compatible.
+2012/01/31 13:00:16 - 107.20.57.115:   Checking disk I/O
+2012/01/31 13:00:16 - 174.129.180.72:  Software installation finished.
+2012/01/31 13:00:16 - 174.129.180.72:  Completed check of node 174.129.180.72.
+2012/01/31 13:00:16 - 204.236.248.249: Checking EC2 instance i-0d973268.
+2012/01/31 13:00:17 - 204.236.248.249: Checking EC2 instance is running.
+2012/01/31 13:00:17 - 204.236.248.249: Connecting via SSH.
+2012/01/31 13:00:17 - 107.20.57.115:   Checking software installation completed.
+2012/01/31 13:00:17 - 50.16.149.56:    Checking network mask is compatible.
+2012/01/31 13:00:17 - 50.16.149.56:    Checking disk I/O
+2012/01/31 13:00:17 - 107.20.57.115:   Waiting for software to install.
+2012/01/31 13:00:17 - 50.16.149.56:    Checking software installation completed.
+2012/01/31 13:00:17 - 50.16.149.56:    Waiting for software to install.
+2012/01/31 13:00:19 - 204.236.248.249: Checking network mask is compatible.
+2012/01/31 13:00:19 - 204.236.248.249: Checking disk I/O
+2012/01/31 13:00:19 - 204.236.248.249: Checking software installation completed.
+2012/01/31 13:00:20 - 204.236.248.249: Waiting for software to install.
+2012/01/31 13:00:23 - 50.19.134.137:   Waiting for software to install.
+2012/01/31 13:00:23 - 107.21.145.56:   Waiting for software to install.
+2012/01/31 13:00:23 - 184.73.85.145:   Software installation finished.
+2012/01/31 13:00:23 - 184.73.85.145:   Completed check of node 184.73.85.145.
+2012/01/31 13:00:23 - 107.21.198.63:   Checking EC2 instance i-0f97326a.
+2012/01/31 13:00:23 - 107.21.198.63:   Checking EC2 instance is running.
+2012/01/31 13:00:23 - 107.21.198.63:   Connecting via SSH.
+2012/01/31 13:00:23 - 184.72.194.148:  Software installation finished.
+2012/01/31 13:00:23 - 184.72.194.148:  Completed check of node 184.72.194.148.
+2012/01/31 13:00:23 - 174.129.73.243:  Checking EC2 instance i-0997326c.
+2012/01/31 13:00:23 - 107.22.55.230:   Waiting for software to install.
+2012/01/31 13:00:23 - 107.20.104.84:   Waiting for software to install.
+2012/01/31 13:00:23 - 174.129.73.243:  Checking EC2 instance is running.
+2012/01/31 13:00:23 - 174.129.73.243:  Connecting via SSH.
+2012/01/31 13:00:24 - 184.72.131.179:  Software installation finished.
+2012/01/31 13:00:24 - 184.72.131.179:  Completed check of node 184.72.131.179.
+2012/01/31 13:00:24 - 50.16.30.190:    Checking EC2 instance i-0b97326e.
+2012/01/31 13:00:24 - 50.16.30.190:    Checking EC2 instance is running.
+2012/01/31 13:00:24 - 50.16.30.190:    Connecting via SSH.
+2012/01/31 13:00:24 - 50.19.200.82:    Waiting for software to install.
+2012/01/31 13:00:24 - 50.17.112.196:   Waiting for software to install.
+2012/01/31 13:00:24 - 107.20.77.149:   Software installation finished.
+2012/01/31 13:00:24 - 107.20.77.149:   Completed check of node 107.20.77.149.
+2012/01/31 13:00:24 - 23.20.0.95:      Checking EC2 instance i-15973270.
+2012/01/31 13:00:24 - 23.20.0.95:      Checking EC2 instance is running.
+2012/01/31 13:00:24 - 23.20.0.95:      Connecting via SSH.
+2012/01/31 13:00:24 - 107.21.182.253:  Waiting for software to install.
+2012/01/31 13:00:24 - 50.19.43.72:     Waiting for software to install.
+2012/01/31 13:00:24 - 23.20.21.90:     Software installation finished.
+2012/01/31 13:00:24 - 23.20.21.90:     Completed check of node 23.20.21.90.
+2012/01/31 13:00:24 - 107.21.149.115:  Checking EC2 instance i-17973272.
+2012/01/31 13:00:24 - 107.21.149.115:  Checking EC2 instance is running.
+2012/01/31 13:00:24 - 107.21.149.115:  Connecting via SSH.
+2012/01/31 13:00:24 - 50.16.113.35:    Waiting for software to install.
+2012/01/31 13:00:24 - 107.20.56.244:   Waiting for software to install.
+2012/01/31 13:00:24 - 184.73.8.101:    Waiting for software to install.
+2012/01/31 13:00:24 - 50.17.10.214:    Waiting for software to install.
+2012/01/31 13:00:25 - 107.22.72.236:   Software installation finished.
+2012/01/31 13:00:25 - 107.22.72.236:   Completed check of node 107.22.72.236.
+2012/01/31 13:00:25 - 184.72.72.75:    Checking EC2 instance i-11973274.
+2012/01/31 13:00:25 - 107.22.40.213:   Software installation finished.
+2012/01/31 13:00:25 - 184.72.72.75:    Checking EC2 instance is running.
+2012/01/31 13:00:25 - 184.72.72.75:    Connecting via SSH.
+2012/01/31 13:00:25 - 107.22.40.213:   Completed check of node 107.22.40.213.
+2012/01/31 13:00:25 - 75.101.203.164:  Checking EC2 instance i-13973276.
+2012/01/31 13:00:25 - 75.101.203.164:  Checking EC2 instance is running.
+2012/01/31 13:00:25 - 75.101.203.164:  Connecting via SSH.
+2012/01/31 13:00:25 - 184.72.174.28:   Waiting for software to install.
+2012/01/31 13:00:25 - 23.20.36.105:    Waiting for software to install.
+2012/01/31 13:00:26 - 174.129.73.243:  Checking network mask is compatible.
+2012/01/31 13:00:26 - 174.129.73.243:  Checking disk I/O
+2012/01/31 13:00:26 - 174.129.73.243:  Checking software installation completed.
+2012/01/31 13:00:26 - 174.129.73.243:  Software installation finished.
+2012/01/31 13:00:26 - 174.129.73.243:  Completed check of node 174.129.73.243.
+2012/01/31 13:00:26 - 67.202.33.147:   Checking EC2 instance i-1d973278.
+2012/01/31 13:00:26 - 67.202.33.147:   Checking EC2 instance is running.
+2012/01/31 13:00:26 - 67.202.33.147:   Connecting via SSH.
+2012/01/31 13:00:26 - 50.16.30.190:    Checking network mask is compatible.
+2012/01/31 13:00:26 - 50.16.30.190:    Checking disk I/O
+2012/01/31 13:00:26 - 107.21.149.115:  Checking network mask is compatible.
+2012/01/31 13:00:26 - 107.21.149.115:  Checking disk I/O
+2012/01/31 13:00:26 - 50.16.30.190:    Checking software installation completed.
+2012/01/31 13:00:26 - 50.17.124.85:    Waiting for software to install.
+2012/01/31 13:00:26 - 107.21.149.115:  Checking software installation completed.
+2012/01/31 13:00:26 - 50.16.30.190:    Software installation finished.
+2012/01/31 13:00:26 - 107.21.149.115:  Software installation finished.
+2012/01/31 13:00:26 - 107.21.149.115:  Completed check of node 107.21.149.115.
+2012/01/31 13:00:26 - 184.72.95.10:    Checking EC2 instance i-1f97327a.
+2012/01/31 13:00:26 - 50.16.30.190:    Completed check of node 50.16.30.190.
+2012/01/31 13:00:26 - 107.21.70.217:   Checking EC2 instance i-1997327c.
+2012/01/31 13:00:27 - 107.21.70.217:   Checking EC2 instance is running.
+2012/01/31 13:00:27 - 107.21.70.217:   Connecting via SSH.
+2012/01/31 13:00:27 - 184.72.95.10:    Checking EC2 instance is running.
+2012/01/31 13:00:27 - 184.72.95.10:    Connecting via SSH.
+2012/01/31 13:00:27 - 107.20.57.115:   Waiting for software to install.
+2012/01/31 13:00:27 - 184.72.72.75:    Checking network mask is compatible.
+2012/01/31 13:00:27 - 184.72.72.75:    Checking disk I/O
+2012/01/31 13:00:27 - 50.16.149.56:    Waiting for software to install.
+2012/01/31 13:00:27 - 184.72.72.75:    Checking software installation completed.
+2012/01/31 13:00:27 - 107.21.198.63:   Checking network mask is compatible.
+2012/01/31 13:00:27 - 107.21.198.63:   Checking disk I/O
+2012/01/31 13:00:27 - 184.72.72.75:    Software installation finished.
+2012/01/31 13:00:27 - 184.72.72.75:    Completed check of node 184.72.72.75.
+2012/01/31 13:00:27 - 184.72.202.72:   Checking EC2 instance i-1b97327e.
+2012/01/31 13:00:27 - 184.72.202.72:   Checking EC2 instance is running.
+2012/01/31 13:00:27 - 184.72.202.72:   Connecting via SSH.
+2012/01/31 13:00:27 - 107.21.198.63:   Checking software installation completed.
+2012/01/31 13:00:27 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:00:28 - 23.20.0.95:      Checking network mask is compatible.
+2012/01/31 13:00:28 - 23.20.0.95:      Checking disk I/O
+2012/01/31 13:00:28 - 23.20.0.95:      Checking software installation completed.
+2012/01/31 13:00:28 - 23.20.0.95:      Software installation finished.
+2012/01/31 13:00:28 - 23.20.0.95:      Completed check of node 23.20.0.95.
+2012/01/31 13:00:28 - 50.17.44.35:     Checking EC2 instance i-e5973280.
+2012/01/31 13:00:29 - 50.17.44.35:     Checking EC2 instance is running.
+2012/01/31 13:00:29 - 50.17.44.35:     Connecting via SSH.
+2012/01/31 13:00:29 - 75.101.203.164:  Checking network mask is compatible.
+2012/01/31 13:00:29 - 75.101.203.164:  Checking disk I/O
+2012/01/31 13:00:29 - 107.21.70.217:   Checking network mask is compatible.
+2012/01/31 13:00:29 - 107.21.70.217:   Checking disk I/O
+2012/01/31 13:00:29 - 107.21.70.217:   Checking software installation completed.
+2012/01/31 13:00:29 - 107.21.70.217:   Software installation finished.
+2012/01/31 13:00:29 - 107.21.70.217:   Completed check of node 107.21.70.217.
+2012/01/31 13:00:29 - 50.16.68.20:     Checking EC2 instance i-e7973282.
+2012/01/31 13:00:29 - 50.16.68.20:     Checking EC2 instance is running.
+2012/01/31 13:00:29 - 50.16.68.20:     Connecting via SSH.
+2012/01/31 13:00:29 - 67.202.33.147:   Checking network mask is compatible.
+2012/01/31 13:00:29 - 67.202.33.147:   Checking disk I/O
+2012/01/31 13:00:29 - 67.202.33.147:   Checking software installation completed.
+2012/01/31 13:00:29 - 184.72.95.10:    Checking network mask is compatible.
+2012/01/31 13:00:29 - 184.72.95.10:    Checking disk I/O
+2012/01/31 13:00:29 - 184.72.95.10:    Checking software installation completed.
+2012/01/31 13:00:29 - 184.72.95.10:    Waiting for software to install.
+2012/01/31 13:00:30 - 67.202.33.147:   Waiting for software to install.
+2012/01/31 13:00:30 - 204.236.248.249: Software installation finished.
+2012/01/31 13:00:30 - 204.236.248.249: Completed check of node 204.236.248.249.
+2012/01/31 13:00:30 - 107.22.133.125:  Checking EC2 instance i-e1973284.
+2012/01/31 13:00:30 - 107.22.133.125:  Checking EC2 instance is running.
+2012/01/31 13:00:30 - 107.22.133.125:  Connecting via SSH.
+2012/01/31 13:00:30 - 75.101.203.164:  Checking software installation completed.
+2012/01/31 13:00:30 - 184.72.202.72:   Checking network mask is compatible.
+2012/01/31 13:00:30 - 184.72.202.72:   Checking disk I/O
+2012/01/31 13:00:30 - 50.17.44.35:     Checking network mask is compatible.
+2012/01/31 13:00:31 - 50.17.44.35:     Checking disk I/O
+2012/01/31 13:00:31 - 50.17.44.35:     Checking software installation completed.
+2012/01/31 13:00:31 - 184.72.202.72:   Checking software installation completed.
+2012/01/31 13:00:31 - 50.17.44.35:     Software installation finished.
+2012/01/31 13:00:31 - 50.17.44.35:     Completed check of node 50.17.44.35.
+2012/01/31 13:00:31 - 107.22.112.65:   Checking EC2 instance i-e3973286.
+2012/01/31 13:00:31 - 75.101.203.164:  Waiting for software to install.
+2012/01/31 13:00:31 - 107.22.112.65:   Checking EC2 instance is running.
+2012/01/31 13:00:31 - 107.22.112.65:   Connecting via SSH.
+2012/01/31 13:00:32 - 107.22.133.125:  Checking network mask is compatible.
+2012/01/31 13:00:32 - 107.22.133.125:  Checking disk I/O
+2012/01/31 13:00:32 - 107.22.133.125:  Checking software installation completed.
+2012/01/31 13:00:32 - 107.22.133.125:  Software installation finished.
+2012/01/31 13:00:32 - 107.22.133.125:  Completed check of node 107.22.133.125.
+2012/01/31 13:00:32 - 50.19.66.154:    Checking EC2 instance i-ed973288.
+2012/01/31 13:00:32 - 50.16.68.20:     Checking network mask is compatible.
+2012/01/31 13:00:32 - 50.16.68.20:     Checking disk I/O
+2012/01/31 13:00:32 - 50.19.66.154:    Checking EC2 instance is running.
+2012/01/31 13:00:32 - 50.19.66.154:    Connecting via SSH.
+2012/01/31 13:00:32 - 50.16.68.20:     Checking software installation completed.
+2012/01/31 13:00:32 - 50.16.68.20:     Waiting for software to install.
+2012/01/31 13:00:33 - 184.72.202.72:   Waiting for software to install.
+2012/01/31 13:00:33 - 50.19.134.137:   Software installation finished.
+2012/01/31 13:00:33 - 50.19.134.137:   Completed check of node 50.19.134.137.
+2012/01/31 13:00:33 - 107.22.85.169:   Checking EC2 instance i-ef97328a.
+2012/01/31 13:00:33 - 107.22.85.169:   Checking EC2 instance is running.
+2012/01/31 13:00:33 - 107.22.85.169:   Connecting via SSH.
+2012/01/31 13:00:33 - 107.21.145.56:   Waiting for software to install.
+2012/01/31 13:00:33 - 107.22.112.65:   Checking network mask is compatible.
+2012/01/31 13:00:33 - 107.22.112.65:   Checking disk I/O
+2012/01/31 13:00:33 - 107.20.104.84:   Software installation finished.
+2012/01/31 13:00:33 - 107.22.55.230:   Waiting for software to install.
+2012/01/31 13:00:34 - 107.22.112.65:   Checking software installation completed.
+2012/01/31 13:00:34 - 107.20.104.84:   Completed check of node 107.20.104.84.
+2012/01/31 13:00:34 - 107.21.150.11:   Checking EC2 instance i-e997328c.
+2012/01/31 13:00:34 - 107.21.150.11:   Checking EC2 instance is running.
+2012/01/31 13:00:34 - 107.21.150.11:   Connecting via SSH.
+2012/01/31 13:00:34 - 107.22.112.65:   Software installation finished.
+2012/01/31 13:00:34 - 107.22.112.65:   Completed check of node 107.22.112.65.
+2012/01/31 13:00:34 - 107.20.123.196:  Checking EC2 instance i-eb97328e.
+2012/01/31 13:00:34 - 107.20.123.196:  Checking EC2 instance is running.
+2012/01/31 13:00:34 - 107.20.123.196:  Connecting via SSH.
+2012/01/31 13:00:34 - 50.19.200.82:    Waiting for software to install.
+2012/01/31 13:00:34 - 50.17.112.196:   Waiting for software to install.
+2012/01/31 13:00:34 - 107.21.182.253:  Software installation finished.
+2012/01/31 13:00:34 - 50.19.43.72:     Software installation finished.
+2012/01/31 13:00:34 - 107.21.182.253:  Completed check of node 107.21.182.253.
+2012/01/31 13:00:34 - 23.20.5.123:     Checking EC2 instance i-f5973290.
+2012/01/31 13:00:34 - 23.20.5.123:     Checking EC2 instance is running.
+2012/01/31 13:00:34 - 23.20.5.123:     Connecting via SSH.
+2012/01/31 13:00:34 - 50.16.113.35:    Waiting for software to install.
+2012/01/31 13:00:34 - 50.19.43.72:     Completed check of node 50.19.43.72.
+2012/01/31 13:00:34 - 107.21.148.166:  Checking EC2 instance i-f7973292.
+2012/01/31 13:00:34 - 107.21.148.166:  Checking EC2 instance is running.
+2012/01/31 13:00:34 - 107.21.148.166:  Connecting via SSH.
+2012/01/31 13:00:34 - 50.19.66.154:    Checking network mask is compatible.
+2012/01/31 13:00:34 - 50.19.66.154:    Checking disk I/O
+2012/01/31 13:00:34 - 107.20.56.244:   Waiting for software to install.
+2012/01/31 13:00:34 - 184.73.8.101:    Waiting for software to install.
+2012/01/31 13:00:34 - 50.19.66.154:    Checking software installation completed.
+2012/01/31 13:00:34 - 50.19.66.154:    Software installation finished.
+2012/01/31 13:00:34 - 50.19.66.154:    Completed check of node 50.19.66.154.
+2012/01/31 13:00:34 - 50.19.198.188:   Checking EC2 instance i-f1973294.
+2012/01/31 13:00:34 - 50.17.10.214:    Waiting for software to install.
+2012/01/31 13:00:35 - 50.19.198.188:   Checking EC2 instance is running.
+2012/01/31 13:00:35 - 50.19.198.188:   Connecting via SSH.
+2012/01/31 13:00:35 - 184.72.174.28:   Waiting for software to install.
+2012/01/31 13:00:35 - 23.20.36.105:    Software installation finished.
+2012/01/31 13:00:35 - 23.20.36.105:    Completed check of node 23.20.36.105.
+2012/01/31 13:00:35 - 107.21.133.224:  Checking EC2 instance i-f3973296.
+2012/01/31 13:00:36 - 107.21.133.224:  Checking EC2 instance is running.
+2012/01/31 13:00:36 - 107.21.133.224:  Connecting via SSH.
+2012/01/31 13:00:36 - 107.20.123.196:  Checking network mask is compatible.
+2012/01/31 13:00:36 - 107.20.123.196:  Checking disk I/O
+2012/01/31 13:00:36 - 107.20.123.196:  Checking software installation completed.
+2012/01/31 13:00:36 - 107.21.150.11:   Checking network mask is compatible.
+2012/01/31 13:00:36 - 107.21.150.11:   Checking disk I/O
+2012/01/31 13:00:36 - 107.21.150.11:   Checking software installation completed.
+2012/01/31 13:00:36 - 107.20.123.196:  Software installation finished.
+2012/01/31 13:00:36 - 107.20.123.196:  Completed check of node 107.20.123.196.
+2012/01/31 13:00:36 - 50.16.2.204:     Checking EC2 instance i-fd973298.
+2012/01/31 13:00:36 - 50.16.2.204:     Checking EC2 instance is running.
+2012/01/31 13:00:36 - 50.16.2.204:     Connecting via SSH.
+2012/01/31 13:00:36 - 50.17.124.85:    Waiting for software to install.
+2012/01/31 13:00:37 - 107.20.57.115:   Software installation finished.
+2012/01/31 13:00:37 - 107.20.57.115:   Completed check of node 107.20.57.115.
+2012/01/31 13:00:37 - 23.20.31.152:    Checking EC2 instance i-ff97329a.
+2012/01/31 13:00:37 - 23.20.31.152:    Checking EC2 instance is running.
+2012/01/31 13:00:37 - 23.20.31.152:    Connecting via SSH.
+2012/01/31 13:00:37 - 50.16.149.56:    Software installation finished.
+2012/01/31 13:00:37 - 50.16.149.56:    Completed check of node 50.16.149.56.
+2012/01/31 13:00:37 - 50.16.116.84:    Checking EC2 instance i-f997329c.
+2012/01/31 13:00:37 - 50.19.198.188:   Checking network mask is compatible.
+2012/01/31 13:00:37 - 50.19.198.188:   Checking disk I/O
+2012/01/31 13:00:37 - 50.16.116.84:    Checking EC2 instance is running.
+2012/01/31 13:00:37 - 50.16.116.84:    Connecting via SSH.
+2012/01/31 13:00:37 - 50.19.198.188:   Checking software installation completed.
+2012/01/31 13:00:37 - 50.19.198.188:   Software installation finished.
+2012/01/31 13:00:37 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:00:37 - 50.19.198.188:   Completed check of node 50.19.198.188.
+2012/01/31 13:00:37 - 50.19.181.15:    Checking EC2 instance i-fb97329e.
+2012/01/31 13:00:37 - 50.19.181.15:    Checking EC2 instance is running.
+2012/01/31 13:00:37 - 50.19.181.15:    Connecting via SSH.
+2012/01/31 13:00:38 - 107.21.148.166:  Checking network mask is compatible.
+2012/01/31 13:00:38 - 107.21.148.166:  Checking disk I/O
+2012/01/31 13:00:38 - 107.21.133.224:  Checking network mask is compatible.
+2012/01/31 13:00:38 - 107.21.133.224:  Checking disk I/O
+2012/01/31 13:00:38 - 107.21.148.166:  Checking software installation completed.
+2012/01/31 13:00:38 - 107.21.133.224:  Checking software installation completed.
+2012/01/31 13:00:38 - 107.21.148.166:  Waiting for software to install.
+2012/01/31 13:00:38 - 107.21.133.224:  Software installation finished.
+2012/01/31 13:00:38 - 107.21.133.224:  Completed check of node 107.21.133.224.
+2012/01/31 13:00:38 - 50.19.151.6:     Checking EC2 instance i-c59732a0.
+2012/01/31 13:00:38 - 50.19.151.6:     Checking EC2 instance is running.
+2012/01/31 13:00:38 - 50.19.151.6:     Connecting via SSH.
+2012/01/31 13:00:38 - 50.16.2.204:     Checking network mask is compatible.
+2012/01/31 13:00:38 - 50.16.2.204:     Checking disk I/O
+2012/01/31 13:00:39 - 50.16.2.204:     Checking software installation completed.
+2012/01/31 13:00:39 - 50.16.2.204:     Software installation finished.
+2012/01/31 13:00:39 - 50.16.2.204:     Completed check of node 50.16.2.204.
+2012/01/31 13:00:39 - 107.21.128.93:   Checking EC2 instance i-c79732a2.
+2012/01/31 13:00:39 - 107.21.128.93:   Checking EC2 instance is running.
+2012/01/31 13:00:39 - 107.21.128.93:   Connecting via SSH.
+2012/01/31 13:00:39 - 23.20.31.152:    Checking network mask is compatible.
+2012/01/31 13:00:39 - 23.20.31.152:    Checking disk I/O
+2012/01/31 13:00:39 - 23.20.31.152:    Checking software installation completed.
+2012/01/31 13:00:39 - 50.16.116.84:    Checking network mask is compatible.
+2012/01/31 13:00:39 - 50.16.116.84:    Checking disk I/O
+2012/01/31 13:00:39 - 107.21.150.11:   Software installation finished.
+2012/01/31 13:00:39 - 107.21.150.11:   Completed check of node 107.21.150.11.
+2012/01/31 13:00:39 - 107.21.66.186:   Checking EC2 instance i-c19732a4.
+2012/01/31 13:00:39 - 50.16.116.84:    Checking software installation completed.
+2012/01/31 13:00:39 - 23.20.31.152:    Software installation finished.
+2012/01/31 13:00:39 - 23.20.31.152:    Completed check of node 23.20.31.152.
+2012/01/31 13:00:39 - 107.21.180.189:  Checking EC2 instance i-c39732a6.
+2012/01/31 13:00:39 - 23.20.5.123:     Checking network mask is compatible.
+2012/01/31 13:00:39 - 23.20.5.123:     Checking disk I/O
+2012/01/31 13:00:40 - 107.21.66.186:   Checking EC2 instance is running.
+2012/01/31 13:00:40 - 107.21.66.186:   Connecting via SSH.
+2012/01/31 13:00:40 - 50.16.116.84:    Software installation finished.
+2012/01/31 13:00:40 - 184.72.95.10:    Waiting for software to install.
+2012/01/31 13:00:40 - 107.21.180.189:  Checking EC2 instance is running.
+2012/01/31 13:00:40 - 107.21.180.189:  Connecting via SSH.
+2012/01/31 13:00:40 - 50.16.116.84:    Completed check of node 50.16.116.84.
+2012/01/31 13:00:40 - 23.20.25.1:      Checking EC2 instance i-cd9732a8.
+2012/01/31 13:00:40 - 67.202.33.147:   Software installation finished.
+2012/01/31 13:00:40 - 67.202.33.147:   Completed check of node 67.202.33.147.
+2012/01/31 13:00:40 - 50.16.142.122:   Checking EC2 instance i-cb9732ae.
+2012/01/31 13:00:40 - 50.19.181.15:    Checking network mask is compatible.
+2012/01/31 13:00:40 - 50.19.181.15:    Checking disk I/O
+2012/01/31 13:00:40 - 23.20.25.1:      Checking EC2 instance is running.
+2012/01/31 13:00:40 - 23.20.25.1:      Connecting via SSH.
+2012/01/31 13:00:40 - 50.16.142.122:   Checking EC2 instance is running.
+2012/01/31 13:00:40 - 50.16.142.122:   Connecting via SSH.
+2012/01/31 13:00:40 - 50.19.181.15:    Checking software installation completed.
+2012/01/31 13:00:40 - 23.20.5.123:     Checking software installation completed.
+2012/01/31 13:00:40 - 50.19.181.15:    Software installation finished.
+2012/01/31 13:00:40 - 50.19.181.15:    Completed check of node 50.19.181.15.
+2012/01/31 13:00:40 - 204.236.200.154: Checking EC2 instance i-d59732b0.
+2012/01/31 13:00:40 - 204.236.200.154: Checking EC2 instance is running.
+2012/01/31 13:00:40 - 204.236.200.154: Connecting via SSH.
+2012/01/31 13:00:40 - 50.19.151.6:     Checking network mask is compatible.
+2012/01/31 13:00:40 - 50.19.151.6:     Checking disk I/O
+2012/01/31 13:00:40 - 23.20.5.123:     Waiting for software to install.
+2012/01/31 13:00:40 - 50.19.151.6:     Checking software installation completed.
+2012/01/31 13:00:40 - 50.19.151.6:     Software installation finished.
+2012/01/31 13:00:40 - 50.19.151.6:     Completed check of node 50.19.151.6.
+2012/01/31 13:00:40 - 107.22.13.205:   Checking EC2 instance i-d79732b2.
+2012/01/31 13:00:41 - 107.22.13.205:   Checking EC2 instance is running.
+2012/01/31 13:00:41 - 107.22.13.205:   Connecting via SSH.
+2012/01/31 13:00:41 - 75.101.203.164:  Software installation finished.
+2012/01/31 13:00:41 - 75.101.203.164:  Completed check of node 75.101.203.164.
+2012/01/31 13:00:41 - 107.22.40.243:   Checking EC2 instance i-d19732b4.
+2012/01/31 13:00:41 - 107.22.85.169:   Checking network mask is compatible.
+2012/01/31 13:00:41 - 107.22.85.169:   Checking disk I/O
+2012/01/31 13:00:41 - 107.22.40.243:   Checking EC2 instance is running.
+2012/01/31 13:00:41 - 107.22.40.243:   Connecting via SSH.
+2012/01/31 13:00:42 - 107.21.66.186:   Checking network mask is compatible.
+2012/01/31 13:00:42 - 107.21.66.186:   Checking disk I/O
+2012/01/31 13:00:42 - 107.21.66.186:   Checking software installation completed.
+2012/01/31 13:00:42 - 107.21.180.189:  Checking network mask is compatible.
+2012/01/31 13:00:42 - 107.21.180.189:  Checking disk I/O
+2012/01/31 13:00:42 - 107.21.66.186:   Software installation finished.
+2012/01/31 13:00:42 - 107.21.180.189:  Checking software installation completed.
+2012/01/31 13:00:42 - 107.21.66.186:   Completed check of node 107.21.66.186.
+2012/01/31 13:00:42 - 107.22.105.49:   Checking EC2 instance i-d39732b6.
+2012/01/31 13:00:42 - 107.21.180.189:  Software installation finished.
+2012/01/31 13:00:42 - 107.21.180.189:  Completed check of node 107.21.180.189.
+2012/01/31 13:00:42 - 23.20.26.253:    Checking EC2 instance i-dd9732b8.
+2012/01/31 13:00:42 - 23.20.25.1:      Checking network mask is compatible.
+2012/01/31 13:00:42 - 23.20.25.1:      Checking disk I/O
+2012/01/31 13:00:42 - 107.22.105.49:   Checking EC2 instance is running.
+2012/01/31 13:00:42 - 107.22.105.49:   Connecting via SSH.
+2012/01/31 13:00:42 - 23.20.26.253:    Checking EC2 instance is running.
+2012/01/31 13:00:42 - 23.20.26.253:    Connecting via SSH.
+2012/01/31 13:00:42 - 23.20.25.1:      Checking software installation completed.
+2012/01/31 13:00:42 - 50.16.68.20:     Software installation finished.
+2012/01/31 13:00:42 - 50.16.68.20:     Completed check of node 50.16.68.20.
+2012/01/31 13:00:42 - 50.19.38.38:     Checking EC2 instance i-df9732ba.
+2012/01/31 13:00:42 - 23.20.25.1:      Software installation finished.
+2012/01/31 13:00:42 - 23.20.25.1:      Completed check of node 23.20.25.1.
+2012/01/31 13:00:42 - 50.19.75.229:    Checking EC2 instance i-d99732bc.
+2012/01/31 13:00:43 - 50.19.75.229:    Checking EC2 instance is running.
+2012/01/31 13:00:43 - 50.19.75.229:    Connecting via SSH.
+2012/01/31 13:00:43 - 204.236.200.154: Checking network mask is compatible.
+2012/01/31 13:00:43 - 204.236.200.154: Checking disk I/O
+2012/01/31 13:00:43 - 107.22.13.205:   Checking network mask is compatible.
+2012/01/31 13:00:43 - 107.22.13.205:   Checking disk I/O
+2012/01/31 13:00:43 - 204.236.200.154: Checking software installation completed.
+2012/01/31 13:00:43 - 107.22.13.205:   Checking software installation completed.
+2012/01/31 13:00:43 - 184.72.202.72:   Software installation finished.
+2012/01/31 13:00:43 - 107.22.85.169:   Checking software installation completed.
+2012/01/31 13:00:43 - 204.236.200.154: Software installation finished.
+2012/01/31 13:00:43 - 107.22.13.205:   Software installation finished.
+2012/01/31 13:00:43 - 107.22.13.205:   Completed check of node 107.22.13.205.
+2012/01/31 13:00:43 - 184.73.140.221:  Checking EC2 instance i-db9732be.
+2012/01/31 13:00:43 - 204.236.200.154: Completed check of node 204.236.200.154.
+2012/01/31 13:00:43 - 204.236.210.153: Checking EC2 instance i-a59732c0.
+2012/01/31 13:00:43 - 50.19.38.38:     Checking EC2 instance is running.
+2012/01/31 13:00:43 - 50.19.38.38:     Connecting via SSH.
+2012/01/31 13:00:43 - 204.236.210.153: Checking EC2 instance is running.
+2012/01/31 13:00:43 - 204.236.210.153: Connecting via SSH.
+2012/01/31 13:00:43 - 184.73.140.221:  Checking EC2 instance is running.
+2012/01/31 13:00:43 - 184.73.140.221:  Connecting via SSH.
+2012/01/31 13:00:43 - 107.22.85.169:   Software installation finished.
+2012/01/31 13:00:43 - 184.72.202.72:   Completed check of node 184.72.202.72.
+2012/01/31 13:00:43 - 107.21.198.170:  Checking EC2 instance i-a79732c2.
+2012/01/31 13:00:43 - 107.22.85.169:   Completed check of node 107.22.85.169.
+2012/01/31 13:00:43 - 107.22.18.100:   Checking EC2 instance i-a19732c4.
+2012/01/31 13:00:43 - 107.21.198.170:  Checking EC2 instance is running.
+2012/01/31 13:00:43 - 107.21.198.170:  Connecting via SSH.
+2012/01/31 13:00:43 - 107.21.128.93:   Checking network mask is compatible.
+2012/01/31 13:00:43 - 107.21.128.93:   Checking disk I/O
+2012/01/31 13:00:43 - 107.22.18.100:   Checking EC2 instance is running.
+2012/01/31 13:00:43 - 107.22.18.100:   Connecting via SSH.
+2012/01/31 13:00:43 - 107.22.40.243:   Checking network mask is compatible.
+2012/01/31 13:00:43 - 107.22.40.243:   Checking disk I/O
+2012/01/31 13:00:43 - 107.21.145.56:   Waiting for software to install.
+2012/01/31 13:00:43 - 107.22.40.243:   Checking software installation completed.
+2012/01/31 13:00:44 - 107.22.40.243:   Software installation finished.
+2012/01/31 13:00:44 - 107.22.55.230:   Software installation finished.
+2012/01/31 13:00:44 - 107.22.55.230:   Completed check of node 107.22.55.230.
+2012/01/31 13:00:44 - 107.20.21.231:   Checking EC2 instance i-a39732c6.
+2012/01/31 13:00:44 - 107.22.40.243:   Completed check of node 107.22.40.243.
+2012/01/31 13:00:44 - 184.73.51.83:    Checking EC2 instance i-ad9732c8.
+2012/01/31 13:00:44 - 107.20.21.231:   Checking EC2 instance is running.
+2012/01/31 13:00:44 - 107.20.21.231:   Connecting via SSH.
+2012/01/31 13:00:44 - 107.21.128.93:   Checking software installation completed.
+2012/01/31 13:00:44 - 50.19.200.82:    Software installation finished.
+2012/01/31 13:00:44 - 184.73.51.83:    Checking EC2 instance is running.
+2012/01/31 13:00:44 - 184.73.51.83:    Connecting via SSH.
+2012/01/31 13:00:44 - 50.19.200.82:    Completed check of node 50.19.200.82.
+2012/01/31 13:00:44 - 174.129.166.216: Checking EC2 instance i-af9732ca.
+2012/01/31 13:00:44 - 50.17.112.196:   Software installation finished.
+2012/01/31 13:00:44 - 107.21.128.93:   Software installation finished.
+2012/01/31 13:00:44 - 107.21.128.93:   Completed check of node 107.21.128.93.
+2012/01/31 13:00:44 - 107.20.54.93:    Checking EC2 instance i-a99732cc.
+2012/01/31 13:00:44 - 174.129.166.216: Checking EC2 instance is running.
+2012/01/31 13:00:44 - 174.129.166.216: Connecting via SSH.
+2012/01/31 13:00:44 - 50.17.112.196:   Completed check of node 50.17.112.196.
+2012/01/31 13:00:44 - 184.73.151.231:  Checking EC2 instance i-ab9732ce.
+2012/01/31 13:00:44 - 107.20.54.93:    Checking EC2 instance is running.
+2012/01/31 13:00:44 - 107.20.54.93:    Connecting via SSH.
+2012/01/31 13:00:44 - 184.73.151.231:  Checking EC2 instance is running.
+2012/01/31 13:00:44 - 184.73.151.231:  Connecting via SSH.
+2012/01/31 13:00:44 - 50.16.113.35:    Waiting for software to install.
+2012/01/31 13:00:44 - 184.73.8.101:    Waiting for software to install.
+2012/01/31 13:00:44 - 107.20.56.244:   Software installation finished.
+2012/01/31 13:00:44 - 107.20.56.244:   Completed check of node 107.20.56.244.
+2012/01/31 13:00:44 - 50.16.141.254:   Checking EC2 instance i-b59732d0.
+2012/01/31 13:00:45 - 50.17.10.214:    Software installation finished.
+2012/01/31 13:00:45 - 50.16.141.254:   Checking EC2 instance is running.
+2012/01/31 13:00:45 - 50.16.141.254:   Connecting via SSH.
+2012/01/31 13:00:45 - 107.22.105.49:   Checking network mask is compatible.
+2012/01/31 13:00:45 - 107.22.105.49:   Checking disk I/O
+2012/01/31 13:00:45 - 23.20.26.253:    Checking network mask is compatible.
+2012/01/31 13:00:45 - 23.20.26.253:    Checking disk I/O
+2012/01/31 13:00:45 - 50.17.10.214:    Completed check of node 50.17.10.214.
+2012/01/31 13:00:45 - 50.16.23.233:    Checking EC2 instance i-b79732d2.
+2012/01/31 13:00:45 - 23.20.26.253:    Checking software installation completed.
+2012/01/31 13:00:45 - 107.22.105.49:   Checking software installation completed.
+2012/01/31 13:00:45 - 50.16.23.233:    Checking EC2 instance is running.
+2012/01/31 13:00:45 - 50.16.23.233:    Connecting via SSH.
+2012/01/31 13:00:45 - 23.20.26.253:    Software installation finished.
+2012/01/31 13:00:45 - 23.20.26.253:    Completed check of node 23.20.26.253.
+2012/01/31 13:00:45 - 50.17.64.168:    Checking EC2 instance i-b19732d4.
+2012/01/31 13:00:45 - 107.22.105.49:   Software installation finished.
+2012/01/31 13:00:45 - 107.22.105.49:   Completed check of node 107.22.105.49.
+2012/01/31 13:00:45 - 107.22.123.120:  Checking EC2 instance i-b39732d6.
+2012/01/31 13:00:45 - 50.17.64.168:    Checking EC2 instance is running.
+2012/01/31 13:00:45 - 50.17.64.168:    Connecting via SSH.
+2012/01/31 13:00:45 - 107.22.123.120:  Checking EC2 instance is running.
+2012/01/31 13:00:45 - 107.22.123.120:  Connecting via SSH.
+2012/01/31 13:00:45 - 50.19.75.229:    Checking network mask is compatible.
+2012/01/31 13:00:45 - 50.19.75.229:    Checking disk I/O
+2012/01/31 13:00:45 - 50.19.38.38:     Checking network mask is compatible.
+2012/01/31 13:00:45 - 50.19.38.38:     Checking disk I/O
+2012/01/31 13:00:45 - 184.73.140.221:  Checking network mask is compatible.
+2012/01/31 13:00:45 - 184.73.140.221:  Checking disk I/O
+2012/01/31 13:00:45 - 50.19.75.229:    Checking software installation completed.
+2012/01/31 13:00:45 - 184.73.140.221:  Checking software installation completed.
+2012/01/31 13:00:45 - 50.19.38.38:     Checking software installation completed.
+2012/01/31 13:00:45 - 184.72.174.28:   Waiting for software to install.
+2012/01/31 13:00:45 - 184.73.140.221:  Software installation finished.
+2012/01/31 13:00:45 - 184.73.140.221:  Completed check of node 184.73.140.221.
+2012/01/31 13:00:45 - 50.17.123.127:   Checking EC2 instance i-bd9732d8.
+2012/01/31 13:00:45 - 50.19.38.38:     Software installation finished.
+2012/01/31 13:00:45 - 50.19.38.38:     Completed check of node 50.19.38.38.
+2012/01/31 13:00:45 - 107.20.126.58:   Checking EC2 instance i-bf9732da.
+2012/01/31 13:00:45 - 107.21.198.170:  Checking network mask is compatible.
+2012/01/31 13:00:45 - 107.21.198.170:  Checking disk I/O
+2012/01/31 13:00:45 - 50.19.75.229:    Software installation finished.
+2012/01/31 13:00:45 - 50.19.75.229:    Completed check of node 50.19.75.229.
+2012/01/31 13:00:45 - 174.129.135.33:  Checking EC2 instance i-b99732dc.
+2012/01/31 13:00:45 - 50.17.123.127:   Checking EC2 instance is running.
+2012/01/31 13:00:45 - 50.17.123.127:   Connecting via SSH.
+2012/01/31 13:00:45 - 107.22.18.100:   Checking network mask is compatible.
+2012/01/31 13:00:45 - 107.22.18.100:   Checking disk I/O
+2012/01/31 13:00:46 - 107.21.198.170:  Checking software installation completed.
+2012/01/31 13:00:46 - 107.22.18.100:   Checking software installation completed.
+2012/01/31 13:00:46 - 174.129.135.33:  Checking EC2 instance is running.
+2012/01/31 13:00:46 - 174.129.135.33:  Connecting via SSH.
+2012/01/31 13:00:46 - 107.20.126.58:   Checking EC2 instance is running.
+2012/01/31 13:00:46 - 107.20.126.58:   Connecting via SSH.
+2012/01/31 13:00:46 - 107.21.198.170:  Software installation finished.
+2012/01/31 13:00:46 - 107.21.198.170:  Completed check of node 107.21.198.170.
+2012/01/31 13:00:46 - 107.22.18.100:   Software installation finished.
+2012/01/31 13:00:46 - 50.17.72.63:     Checking EC2 instance i-bb9732de.
+2012/01/31 13:00:46 - 107.22.18.100:   Completed check of node 107.22.18.100.
+2012/01/31 13:00:46 - 107.21.90.156:   Checking EC2 instance i-859732e0.
+2012/01/31 13:00:46 - 107.21.90.156:   Checking EC2 instance is running.
+2012/01/31 13:00:46 - 107.21.90.156:   Connecting via SSH.
+2012/01/31 13:00:46 - 204.236.210.153: Checking network mask is compatible.
+2012/01/31 13:00:46 - 204.236.210.153: Checking disk I/O
+2012/01/31 13:00:46 - 50.17.72.63:     Checking EC2 instance is running.
+2012/01/31 13:00:46 - 50.17.72.63:     Connecting via SSH.
+2012/01/31 13:00:46 - 204.236.210.153: Checking software installation completed.
+2012/01/31 13:00:46 - 184.73.51.83:    Checking network mask is compatible.
+2012/01/31 13:00:46 - 184.73.51.83:    Checking disk I/O
+2012/01/31 13:00:46 - 204.236.210.153: Software installation finished.
+2012/01/31 13:00:46 - 174.129.166.216: Checking network mask is compatible.
+2012/01/31 13:00:46 - 174.129.166.216: Checking disk I/O
+2012/01/31 13:00:46 - 50.17.124.85:    Software installation finished.
+2012/01/31 13:00:46 - 50.17.124.85:    Completed check of node 50.17.124.85.
+2012/01/31 13:00:46 - 184.73.59.178:   Checking EC2 instance i-879732e2.
+2012/01/31 13:00:46 - 174.129.166.216: Checking software installation completed.
+2012/01/31 13:00:46 - 184.73.59.178:   Checking EC2 instance is running.
+2012/01/31 13:00:46 - 184.73.59.178:   Connecting via SSH.
+2012/01/31 13:00:46 - 204.236.210.153: Completed check of node 204.236.210.153.
+2012/01/31 13:00:46 - 50.17.95.83:     Checking EC2 instance i-819732e4.
+2012/01/31 13:00:46 - 184.73.51.83:    Checking software installation completed.
+2012/01/31 13:00:46 - 184.73.51.83:    Software installation finished.
+2012/01/31 13:00:46 - 174.129.166.216: Software installation finished.
+2012/01/31 13:00:46 - 184.73.51.83:    Completed check of node 184.73.51.83.
+2012/01/31 13:00:46 - 50.17.102.192:   Checking EC2 instance i-839732e6.
+2012/01/31 13:00:46 - 174.129.166.216: Completed check of node 174.129.166.216.
+2012/01/31 13:00:46 - 107.21.85.249:   Checking EC2 instance i-8f9732ea.
+2012/01/31 13:00:47 - 50.17.95.83:     Checking EC2 instance is running.
+2012/01/31 13:00:47 - 50.17.95.83:     Connecting via SSH.
+2012/01/31 13:00:47 - 107.21.85.249:   Checking EC2 instance is running.
+2012/01/31 13:00:47 - 107.21.85.249:   Connecting via SSH.
+2012/01/31 13:00:47 - 50.17.102.192:   Checking EC2 instance is running.
+2012/01/31 13:00:47 - 50.17.102.192:   Connecting via SSH.
+2012/01/31 13:00:47 - 50.16.141.254:   Checking network mask is compatible.
+2012/01/31 13:00:47 - 50.16.141.254:   Checking disk I/O
+2012/01/31 13:00:47 - 50.16.23.233:    Checking network mask is compatible.
+2012/01/31 13:00:47 - 50.16.23.233:    Checking disk I/O
+2012/01/31 13:00:47 - 50.16.141.254:   Checking software installation completed.
+2012/01/31 13:00:47 - 107.22.123.120:  Checking network mask is compatible.
+2012/01/31 13:00:47 - 107.22.123.120:  Checking disk I/O
+2012/01/31 13:00:47 - 50.16.23.233:    Checking software installation completed.
+2012/01/31 13:00:47 - 107.22.123.120:  Checking software installation completed.
+2012/01/31 13:00:47 - 50.16.141.254:   Software installation finished.
+2012/01/31 13:00:47 - 50.16.141.254:   Completed check of node 50.16.141.254.
+2012/01/31 13:00:47 - 50.16.90.176:    Checking EC2 instance i-899732ec.
+2012/01/31 13:00:47 - 50.16.23.233:    Software installation finished.
+2012/01/31 13:00:47 - 50.16.23.233:    Completed check of node 50.16.23.233.
+2012/01/31 13:00:47 - 50.17.177.51:    Checking EC2 instance i-8b9732ee.
+2012/01/31 13:00:47 - 50.17.64.168:    Checking network mask is compatible.
+2012/01/31 13:00:47 - 50.17.64.168:    Checking disk I/O
+2012/01/31 13:00:47 - 107.22.123.120:  Software installation finished.
+2012/01/31 13:00:47 - 107.22.123.120:  Completed check of node 107.22.123.120.
+2012/01/31 13:00:47 - 174.129.101.213: Checking EC2 instance i-959732f0.
+2012/01/31 13:00:47 - 50.16.90.176:    Checking EC2 instance is running.
+2012/01/31 13:00:47 - 50.16.90.176:    Connecting via SSH.
+2012/01/31 13:00:47 - 50.17.64.168:    Checking software installation completed.
+2012/01/31 13:00:47 - 50.17.177.51:    Checking EC2 instance is running.
+2012/01/31 13:00:47 - 50.17.177.51:    Connecting via SSH.
+2012/01/31 13:00:47 - 107.20.21.231:   Checking network mask is compatible.
+2012/01/31 13:00:47 - 107.20.21.231:   Checking disk I/O
+2012/01/31 13:00:47 - 174.129.101.213: Checking EC2 instance is running.
+2012/01/31 13:00:47 - 174.129.101.213: Connecting via SSH.
+2012/01/31 13:00:47 - 50.17.64.168:    Software installation finished.
+2012/01/31 13:00:48 - 107.20.21.231:   Checking software installation completed.
+2012/01/31 13:00:48 - 50.17.64.168:    Completed check of node 50.17.64.168.
+2012/01/31 13:00:48 - 107.22.24.166:   Checking EC2 instance i-979732f2.
+2012/01/31 13:00:48 - 107.20.54.93:    Checking network mask is compatible.
+2012/01/31 13:00:48 - 107.20.54.93:    Checking disk I/O
+2012/01/31 13:00:48 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:00:48 - 107.22.24.166:   Checking EC2 instance is running.
+2012/01/31 13:00:48 - 107.22.24.166:   Connecting via SSH.
+2012/01/31 13:00:48 - 107.20.21.231:   Software installation finished.
+2012/01/31 13:00:48 - 107.20.54.93:    Checking software installation completed.
+2012/01/31 13:00:48 - 50.17.123.127:   Checking network mask is compatible.
+2012/01/31 13:00:48 - 50.17.123.127:   Checking disk I/O
+2012/01/31 13:00:48 - 107.20.21.231:   Completed check of node 107.20.21.231.
+2012/01/31 13:00:48 - 107.21.133.116:  Checking EC2 instance i-919732f4.
+2012/01/31 13:00:48 - 50.16.142.122:   Checking network mask is compatible.
+2012/01/31 13:00:48 - 50.16.142.122:   Checking disk I/O
+2012/01/31 13:00:48 - 184.73.151.231:  Checking network mask is compatible.
+2012/01/31 13:00:48 - 184.73.151.231:  Checking disk I/O
+2012/01/31 13:00:48 - 50.17.123.127:   Checking software installation completed.
+2012/01/31 13:00:48 - 107.20.54.93:    Waiting for software to install.
+2012/01/31 13:00:48 - 50.16.142.122:   Checking software installation completed.
+2012/01/31 13:00:48 - 174.129.135.33:  Checking network mask is compatible.
+2012/01/31 13:00:48 - 174.129.135.33:  Checking disk I/O
+2012/01/31 13:00:48 - 107.21.133.116:  Checking EC2 instance is running.
+2012/01/31 13:00:48 - 107.21.133.116:  Connecting via SSH.
+2012/01/31 13:00:48 - 50.17.72.63:     Checking network mask is compatible.
+2012/01/31 13:00:48 - 50.17.72.63:     Checking disk I/O
+2012/01/31 13:00:48 - 50.17.123.127:   Software installation finished.
+2012/01/31 13:00:48 - 50.17.123.127:   Completed check of node 50.17.123.127.
+2012/01/31 13:00:48 - 107.22.129.175:  Checking EC2 instance i-939732f6.
+2012/01/31 13:00:48 - 50.16.142.122:   Waiting for software to install.
+2012/01/31 13:00:48 - 107.22.129.175:  Checking EC2 instance is running.
+2012/01/31 13:00:48 - 107.22.129.175:  Connecting via SSH.
+2012/01/31 13:00:48 - 174.129.135.33:  Checking software installation completed.
+2012/01/31 13:00:48 - 50.17.72.63:     Checking software installation completed.
+2012/01/31 13:00:48 - 184.73.151.231:  Checking software installation completed.
+2012/01/31 13:00:48 - 107.21.90.156:   Checking network mask is compatible.
+2012/01/31 13:00:48 - 107.21.90.156:   Checking disk I/O
+2012/01/31 13:00:48 - 107.20.126.58:   Checking network mask is compatible.
+2012/01/31 13:00:48 - 107.20.126.58:   Checking disk I/O
+2012/01/31 13:00:48 - 107.21.148.166:  Software installation finished.
+2012/01/31 13:00:48 - 107.21.148.166:  Completed check of node 107.21.148.166.
+2012/01/31 13:00:48 - 107.20.43.87:    Checking EC2 instance i-9d9732f8.
+2012/01/31 13:00:48 - 174.129.135.33:  Software installation finished.
+2012/01/31 13:00:48 - 107.20.126.58:   Checking software installation completed.
+2012/01/31 13:00:48 - 50.17.72.63:     Software installation finished.
+2012/01/31 13:00:48 - 174.129.135.33:  Completed check of node 174.129.135.33.
+2012/01/31 13:00:48 - 50.17.179.86:    Checking EC2 instance i-9f9732fa.
+2012/01/31 13:00:48 - 50.17.72.63:     Completed check of node 50.17.72.63.
+2012/01/31 13:00:48 - 75.101.241.56:   Checking EC2 instance i-999732fc.
+2012/01/31 13:00:48 - 107.20.43.87:    Checking EC2 instance is running.
+2012/01/31 13:00:48 - 107.20.43.87:    Connecting via SSH.
+2012/01/31 13:00:48 - 184.73.151.231:  Software installation finished.
+2012/01/31 13:00:48 - 107.21.90.156:   Checking software installation completed.
+2012/01/31 13:00:48 - 184.73.151.231:  Completed check of node 184.73.151.231.
+2012/01/31 13:00:48 - 23.20.35.195:    Checking EC2 instance i-9b9732fe.
+2012/01/31 13:00:48 - 107.20.126.58:   Software installation finished.
+2012/01/31 13:00:48 - 107.21.90.156:   Software installation finished.
+2012/01/31 13:00:48 - 107.20.126.58:   Completed check of node 107.20.126.58.
+2012/01/31 13:00:48 - 107.20.100.124:  Checking EC2 instance i-65963300.
+2012/01/31 13:00:48 - 107.21.90.156:   Completed check of node 107.21.90.156.
+2012/01/31 13:00:48 - 50.16.30.238:    Checking EC2 instance i-67963302.
+2012/01/31 13:00:48 - 75.101.241.56:   Checking EC2 instance is running.
+2012/01/31 13:00:48 - 75.101.241.56:   Connecting via SSH.
+2012/01/31 13:00:48 - 23.20.35.195:    Checking EC2 instance is running.
+2012/01/31 13:00:48 - 23.20.35.195:    Connecting via SSH.
+2012/01/31 13:00:48 - 50.17.179.86:    Checking EC2 instance is running.
+2012/01/31 13:00:48 - 50.17.179.86:    Connecting via SSH.
+2012/01/31 13:00:48 - 107.20.100.124:  Checking EC2 instance is running.
+2012/01/31 13:00:48 - 107.20.100.124:  Connecting via SSH.
+2012/01/31 13:00:49 - 50.16.30.238:    Checking EC2 instance is running.
+2012/01/31 13:00:49 - 50.16.30.238:    Connecting via SSH.
+2012/01/31 13:00:49 - 50.17.102.192:   Checking network mask is compatible.
+2012/01/31 13:00:49 - 50.17.102.192:   Checking disk I/O
+2012/01/31 13:00:49 - 50.17.102.192:   Checking software installation completed.
+2012/01/31 13:00:49 - 50.17.95.83:     Checking network mask is compatible.
+2012/01/31 13:00:49 - 50.17.95.83:     Checking disk I/O
+2012/01/31 13:00:49 - 50.17.102.192:   Software installation finished.
+2012/01/31 13:00:49 - 50.17.102.192:   Completed check of node 50.17.102.192.
+2012/01/31 13:00:49 - 107.22.44.187:   Checking EC2 instance i-63963306.
+2012/01/31 13:00:49 - 50.17.95.83:     Checking software installation completed.
+2012/01/31 13:00:49 - 107.21.85.249:   Checking network mask is compatible.
+2012/01/31 13:00:49 - 107.21.85.249:   Checking disk I/O
+2012/01/31 13:00:49 - 107.22.44.187:   Checking EC2 instance is running.
+2012/01/31 13:00:49 - 107.22.44.187:   Connecting via SSH.
+2012/01/31 13:00:49 - 50.17.95.83:     Software installation finished.
+2012/01/31 13:00:49 - 107.21.85.249:   Checking software installation completed.
+2012/01/31 13:00:49 - 50.17.95.83:     Completed check of node 50.17.95.83.
+2012/01/31 13:00:49 - 107.21.85.249:   Software installation finished.
+2012/01/31 13:00:49 - 107.21.85.249:   Completed check of node 107.21.85.249.
+2012/01/31 13:00:49 - 50.17.177.51:    Checking network mask is compatible.
+2012/01/31 13:00:49 - 50.17.177.51:    Checking disk I/O
+2012/01/31 13:00:50 - 50.17.177.51:    Checking software installation completed.
+2012/01/31 13:00:50 - 184.72.95.10:    Software installation finished.
+2012/01/31 13:00:50 - 50.17.177.51:    Software installation finished.
+2012/01/31 13:00:50 - 50.17.177.51:    Completed check of node 50.17.177.51.
+2012/01/31 13:00:50 - 184.72.95.10:    Completed check of node 184.72.95.10.
+2012/01/31 13:00:50 - 174.129.101.213: Checking network mask is compatible.
+2012/01/31 13:00:50 - 174.129.101.213: Checking disk I/O
+2012/01/31 13:00:50 - 107.22.24.166:   Checking network mask is compatible.
+2012/01/31 13:00:50 - 107.22.24.166:   Checking disk I/O
+2012/01/31 13:00:50 - 174.129.101.213: Checking software installation completed.
+2012/01/31 13:00:50 - 107.22.24.166:   Checking software installation completed.
+2012/01/31 13:00:50 - 174.129.101.213: Software installation finished.
+2012/01/31 13:00:50 - 107.22.24.166:   Software installation finished.
+2012/01/31 13:00:50 - 174.129.101.213: Completed check of node 174.129.101.213.
+2012/01/31 13:00:50 - 107.22.24.166:   Completed check of node 107.22.24.166.
+2012/01/31 13:00:50 - 107.21.133.116:  Checking network mask is compatible.
+2012/01/31 13:00:50 - 107.21.133.116:  Checking disk I/O
+2012/01/31 13:00:50 - 107.22.129.175:  Checking network mask is compatible.
+2012/01/31 13:00:50 - 107.21.133.116:  Checking software installation completed.
+2012/01/31 13:00:50 - 107.22.129.175:  Checking disk I/O
+2012/01/31 13:00:50 - 23.20.5.123:     Software installation finished.
+2012/01/31 13:00:50 - 23.20.5.123:     Completed check of node 23.20.5.123.
+2012/01/31 13:00:50 - 107.22.129.175:  Checking software installation completed.
+2012/01/31 13:00:50 - 107.21.133.116:  Software installation finished.
+2012/01/31 13:00:50 - 107.21.133.116:  Completed check of node 107.21.133.116.
+2012/01/31 13:00:50 - 107.22.129.175:  Software installation finished.
+2012/01/31 13:00:50 - 107.22.129.175:  Completed check of node 107.22.129.175.
+2012/01/31 13:00:51 - 107.20.43.87:    Checking network mask is compatible.
+2012/01/31 13:00:51 - 107.20.43.87:    Checking disk I/O
+2012/01/31 13:00:51 - 107.20.43.87:    Checking software installation completed.
+2012/01/31 13:00:51 - 107.20.43.87:    Software installation finished.
+2012/01/31 13:00:51 - 107.20.43.87:    Completed check of node 107.20.43.87.
+2012/01/31 13:00:51 - 107.20.100.124:  Checking network mask is compatible.
+2012/01/31 13:00:51 - 107.20.100.124:  Checking disk I/O
+2012/01/31 13:00:51 - 23.20.35.195:    Checking network mask is compatible.
+2012/01/31 13:00:51 - 23.20.35.195:    Checking disk I/O
+2012/01/31 13:00:51 - 50.17.179.86:    Checking network mask is compatible.
+2012/01/31 13:00:51 - 50.17.179.86:    Checking disk I/O
+2012/01/31 13:00:51 - 107.20.100.124:  Checking software installation completed.
+2012/01/31 13:00:51 - 23.20.35.195:    Checking software installation completed.
+2012/01/31 13:00:51 - 50.17.179.86:    Checking software installation completed.
+2012/01/31 13:00:51 - 107.20.100.124:  Software installation finished.
+2012/01/31 13:00:51 - 107.20.100.124:  Completed check of node 107.20.100.124.
+2012/01/31 13:00:51 - 23.20.35.195:    Software installation finished.
+2012/01/31 13:00:51 - 23.20.35.195:    Completed check of node 23.20.35.195.
+2012/01/31 13:00:51 - 50.17.179.86:    Software installation finished.
+2012/01/31 13:00:51 - 50.17.179.86:    Completed check of node 50.17.179.86.
+2012/01/31 13:00:51 - 50.16.30.238:    Checking network mask is compatible.
+2012/01/31 13:00:51 - 50.16.30.238:    Checking disk I/O
+2012/01/31 13:00:51 - 50.16.30.238:    Checking software installation completed.
+2012/01/31 13:00:51 - 50.16.30.238:    Software installation finished.
+2012/01/31 13:00:51 - 50.16.30.238:    Completed check of node 50.16.30.238.
+2012/01/31 13:00:52 - 107.22.44.187:   Checking network mask is compatible.
+2012/01/31 13:00:52 - 107.22.44.187:   Checking disk I/O
+2012/01/31 13:00:52 - 107.22.44.187:   Checking software installation completed.
+2012/01/31 13:00:52 - 107.22.44.187:   Software installation finished.
+2012/01/31 13:00:52 - 107.22.44.187:   Completed check of node 107.22.44.187.
+2012/01/31 13:00:53 - 50.16.90.176:    Checking network mask is compatible.
+2012/01/31 13:00:53 - 50.16.90.176:    Checking disk I/O
+2012/01/31 13:00:53 - 50.16.90.176:    Checking software installation completed.
+2012/01/31 13:00:53 - 50.16.90.176:    Waiting for software to install.
+2012/01/31 13:00:53 - 107.21.145.56:   Software installation finished.
+2012/01/31 13:00:53 - 107.21.145.56:   Completed check of node 107.21.145.56.
+2012/01/31 13:00:54 - 75.101.241.56:   Checking network mask is compatible.
+2012/01/31 13:00:54 - 75.101.241.56:   Checking disk I/O
+2012/01/31 13:00:54 - 75.101.241.56:   Checking software installation completed.
+2012/01/31 13:00:54 - 50.16.113.35:    Software installation finished.
+2012/01/31 13:00:54 - 50.16.113.35:    Completed check of node 50.16.113.35.
+2012/01/31 13:00:54 - 75.101.241.56:   Waiting for software to install.
+2012/01/31 13:00:55 - 184.73.8.101:    Software installation finished.
+2012/01/31 13:00:55 - 184.73.8.101:    Completed check of node 184.73.8.101.
+2012/01/31 13:00:55 - 184.72.174.28:   Software installation finished.
+2012/01/31 13:00:55 - 184.72.174.28:   Completed check of node 184.72.174.28.
+2012/01/31 13:00:58 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:00:58 - 107.20.54.93:    Software installation finished.
+2012/01/31 13:00:58 - 107.20.54.93:    Completed check of node 107.20.54.93.
+2012/01/31 13:00:58 - 50.16.142.122:   Software installation finished.
+2012/01/31 13:00:58 - 50.16.142.122:   Completed check of node 50.16.142.122.
+2012/01/31 13:01:00 - 184.73.59.178:   Checking network mask is compatible.
+2012/01/31 13:01:00 - 184.73.59.178:   Checking disk I/O
+2012/01/31 13:01:00 - 184.73.59.178:   Checking software installation completed.
+2012/01/31 13:01:01 - 184.73.59.178:   Waiting for software to install.
+2012/01/31 13:01:03 - 50.16.90.176:    Software installation finished.
+2012/01/31 13:01:03 - 50.16.90.176:    Completed check of node 50.16.90.176.
+2012/01/31 13:01:05 - 75.101.241.56:   Waiting for software to install.
+2012/01/31 13:01:08 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:01:11 - 184.73.59.178:   Waiting for software to install.
+2012/01/31 13:01:15 - 75.101.241.56:   Software installation finished.
+2012/01/31 13:01:15 - 75.101.241.56:   Completed check of node 75.101.241.56.
+2012/01/31 13:01:18 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:01:21 - 184.73.59.178:   Software installation finished.
+2012/01/31 13:01:21 - 184.73.59.178:   Completed check of node 184.73.59.178.
+2012/01/31 13:01:28 - 107.21.198.63:   Waiting for software to install.
+2012/01/31 13:01:38 - 107.21.198.63:   Software installation finished.
+2012/01/31 13:01:38 - 107.21.198.63:   Completed check of node 107.21.198.63.
+2012/01/31 13:01:38 - Determining availability zone.
+2012/01/31 13:01:38 - Gathering public and private ip addresses.
+2012/01/31 13:01:38 - Connecting to node 23.20.20.13 for cluster configuration.
+2012/01/31 13:01:38 - Connecting via SSH.
+2012/01/31 13:01:38 - Checking network mask is compatible.
+2012/01/31 13:01:38 - Checking disk I/O
+2012/01/31 13:01:38 - Checking software installation completed.
+2012/01/31 13:01:38 - Software installation finished.
+2012/01/31 13:01:38 - Writing cluster private ip addresses to file on instance.
+2012/01/31 13:01:38 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/31 13:01:39 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/31 13:01:39 - Checking file contents.
+2012/01/31 13:01:39 - Remote file contents confirmed.
+2012/01/31 13:01:39 - Running envgen
+2012/01/31 13:01:39 - Reading the config file.
+2012/01/31 13:01:39 - Retrieving IP address of ESP Server.
+2012/01/31 13:01:39 - ESP Server private IP address: 10.12.119.52.
+2012/01/31 13:01:39 - ESP Server public IP address: 23.20.20.13.
+2012/01/31 13:01:39 - 107.21.145.56:   Starting node configuration.
+2012/01/31 13:01:39 - 107.21.145.56:   Connecting via SSH.
+2012/01/31 13:01:39 - 23.20.20.13:     Starting node configuration.
+2012/01/31 13:01:39 - 23.20.20.13:     Connecting via SSH.
+2012/01/31 13:01:39 - 50.19.43.72:     Starting node configuration.
+2012/01/31 13:01:39 - 50.19.43.72:     Connecting via SSH.
+2012/01/31 13:01:39 - 50.19.134.137:   Starting node configuration.
+2012/01/31 13:01:39 - 50.19.134.137:   Connecting via SSH.
+2012/01/31 13:01:39 - 107.20.77.149:   Starting node configuration.
+2012/01/31 13:01:39 - 107.20.77.149:   Connecting via SSH.
+2012/01/31 13:01:39 - 107.20.56.244:   Starting node configuration.
+2012/01/31 13:01:39 - 107.22.55.230:   Starting node configuration.
+2012/01/31 13:01:39 - 184.73.85.145:   Starting node configuration.
+2012/01/31 13:01:39 - 107.22.55.230:   Connecting via SSH.
+2012/01/31 13:01:39 - 184.73.85.145:   Connecting via SSH.
+2012/01/31 13:01:39 - 184.72.194.148:  Starting node configuration.
+2012/01/31 13:01:39 - 50.17.124.85:    Starting node configuration.
+2012/01/31 13:01:40 - 107.20.56.244:   Connecting via SSH.
+2012/01/31 13:01:40 - 184.72.194.148:  Connecting via SSH.
+2012/01/31 13:01:40 - 50.17.124.85:    Connecting via SSH.
+2012/01/31 13:01:40 - 107.21.196.247:  Starting node configuration.
+2012/01/31 13:01:40 - 107.22.40.213:   Starting node configuration.
+2012/01/31 13:01:40 - 50.17.112.196:   Starting node configuration.
+2012/01/31 13:01:40 - 50.17.10.214:    Starting node configuration.
+2012/01/31 13:01:40 - 107.20.104.84:   Starting node configuration.
+2012/01/31 13:01:40 - 50.16.113.35:    Starting node configuration.
+2012/01/31 13:01:40 - 184.73.21.179:   Starting node configuration.
+2012/01/31 13:01:40 - 50.17.112.196:   Connecting via SSH.
+2012/01/31 13:01:40 - 107.22.40.213:   Connecting via SSH.
+2012/01/31 13:01:40 - 107.20.104.84:   Connecting via SSH.
+2012/01/31 13:01:40 - 184.72.131.179:  Starting node configuration.
+2012/01/31 13:01:40 - 107.21.196.247:  Connecting via SSH.
+2012/01/31 13:01:40 - 50.16.113.35:    Connecting via SSH.
+2012/01/31 13:01:40 - 174.129.180.72:  Starting node configuration.
+2012/01/31 13:01:40 - 107.21.182.253:  Starting node configuration.
+2012/01/31 13:01:40 - 184.73.21.179:   Connecting via SSH.
+2012/01/31 13:01:40 - 184.73.8.101:    Starting node configuration.
+2012/01/31 13:01:40 - 50.17.10.214:    Connecting via SSH.
+2012/01/31 13:01:40 - 107.21.182.253:  Connecting via SSH.
+2012/01/31 13:01:40 - 184.73.8.101:    Connecting via SSH.
+2012/01/31 13:01:40 - 184.72.174.28:   Starting node configuration.
+2012/01/31 13:01:40 - 174.129.180.72:  Connecting via SSH.
+2012/01/31 13:01:40 - 184.72.174.28:   Connecting via SSH.
+2012/01/31 13:01:40 - 50.19.200.82:    Starting node configuration.
+2012/01/31 13:01:40 - 184.72.131.179:  Connecting via SSH.
+2012/01/31 13:01:40 - 107.22.72.236:   Starting node configuration.
+2012/01/31 13:01:40 - 23.20.21.90:     Starting node configuration.
+2012/01/31 13:01:40 - 50.19.200.82:    Connecting via SSH.
+2012/01/31 13:01:40 - 107.22.72.236:   Connecting via SSH.
+2012/01/31 13:01:40 - 23.20.21.90:     Connecting via SSH.
+2012/01/31 13:01:42 - 107.21.145.56:   Checking network mask is compatible.
+2012/01/31 13:01:42 - 107.21.145.56:   Checking disk I/O
+2012/01/31 13:01:42 - 23.20.20.13:     Checking network mask is compatible.
+2012/01/31 13:01:42 - 23.20.20.13:     Checking disk I/O
+2012/01/31 13:01:42 - 107.20.56.244:   Checking network mask is compatible.
+2012/01/31 13:01:42 - 107.20.56.244:   Checking disk I/O
+2012/01/31 13:01:42 - 23.20.20.13:     Checking software installation completed.
+2012/01/31 13:01:42 - 107.20.56.244:   Checking software installation completed.
+2012/01/31 13:01:42 - 107.21.145.56:   Checking software installation completed.
+2012/01/31 13:01:43 - 50.19.43.72:     Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.19.43.72:     Checking disk I/O
+2012/01/31 13:01:43 - 107.20.56.244:   Software installation finished.
+2012/01/31 13:01:43 - 107.20.56.244:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.21.145.56:   Software installation finished.
+2012/01/31 13:01:43 - 107.21.145.56:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 23.20.20.13:     Software installation finished.
+2012/01/31 13:01:43 - 23.20.20.13:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.19.43.72:     Checking software installation completed.
+2012/01/31 13:01:43 - 50.16.113.35:    Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.16.113.35:    Checking disk I/O
+2012/01/31 13:01:43 - 184.73.85.145:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.73.85.145:   Checking disk I/O
+2012/01/31 13:01:43 - 50.19.43.72:     Software installation finished.
+2012/01/31 13:01:43 - 50.19.43.72:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.72.194.148:  Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.72.194.148:  Checking disk I/O
+2012/01/31 13:01:43 - 50.16.113.35:    Checking software installation completed.
+2012/01/31 13:01:43 - 184.73.85.145:   Checking software installation completed.
+2012/01/31 13:01:43 - 107.20.77.149:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.20.77.149:   Checking disk I/O
+2012/01/31 13:01:43 - 184.72.194.148:  Checking software installation completed.
+2012/01/31 13:01:43 - 107.21.196.247:  Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.21.196.247:  Checking disk I/O
+2012/01/31 13:01:43 - 107.20.77.149:   Checking software installation completed.
+2012/01/31 13:01:43 - 107.20.56.244:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 184.72.194.148:  Software installation finished.
+2012/01/31 13:01:43 - 184.72.194.148:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.21.196.247:  Checking software installation completed.
+2012/01/31 13:01:43 - 184.73.85.145:   Software installation finished.
+2012/01/31 13:01:43 - 184.73.85.145:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.73.8.101:    Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.73.8.101:    Checking disk I/O
+2012/01/31 13:01:43 - 107.21.145.56:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 107.21.196.247:  Software installation finished.
+2012/01/31 13:01:43 - 107.21.196.247:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.16.113.35:    Software installation finished.
+2012/01/31 13:01:43 - 50.17.112.196:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.17.112.196:   Checking disk I/O
+2012/01/31 13:01:43 - 50.16.113.35:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.73.8.101:    Checking software installation completed.
+2012/01/31 13:01:43 - 107.20.56.244:   Checking file contents.
+2012/01/31 13:01:43 - 107.20.77.149:   Software installation finished.
+2012/01/31 13:01:43 - 107.20.77.149:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.20.104.84:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.20.104.84:   Checking disk I/O
+2012/01/31 13:01:43 - 107.22.40.213:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.22.40.213:   Checking disk I/O
+2012/01/31 13:01:43 - 107.22.55.230:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.22.55.230:   Checking disk I/O
+2012/01/31 13:01:43 - 50.17.10.214:    Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.17.10.214:    Checking disk I/O
+2012/01/31 13:01:43 - 107.22.72.236:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 107.22.72.236:   Checking disk I/O
+2012/01/31 13:01:43 - 23.20.20.13:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 107.21.145.56:   Checking file contents.
+2012/01/31 13:01:43 - 23.20.21.90:     Checking network mask is compatible.
+2012/01/31 13:01:43 - 23.20.21.90:     Checking disk I/O
+2012/01/31 13:01:43 - 50.19.134.137:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.19.134.137:   Checking disk I/O
+2012/01/31 13:01:43 - 50.17.124.85:    Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.17.124.85:    Checking disk I/O
+2012/01/31 13:01:43 - 174.129.180.72:  Checking network mask is compatible.
+2012/01/31 13:01:43 - 174.129.180.72:  Checking disk I/O
+2012/01/31 13:01:43 - 184.73.8.101:    Software installation finished.
+2012/01/31 13:01:43 - 184.73.8.101:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.22.40.213:   Checking software installation completed.
+2012/01/31 13:01:43 - 50.19.200.82:    Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.19.200.82:    Checking disk I/O
+2012/01/31 13:01:43 - 107.20.104.84:   Checking software installation completed.
+2012/01/31 13:01:43 - 107.22.55.230:   Checking software installation completed.
+2012/01/31 13:01:43 - 50.17.112.196:   Checking software installation completed.
+2012/01/31 13:01:43 - 184.73.21.179:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.73.21.179:   Checking disk I/O
+2012/01/31 13:01:43 - 23.20.20.13:     Checking file contents.
+2012/01/31 13:01:43 - 107.22.72.236:   Checking software installation completed.
+2012/01/31 13:01:43 - 184.72.131.179:  Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.72.131.179:  Checking disk I/O
+2012/01/31 13:01:43 - 107.21.182.253:  Checking network mask is compatible.
+2012/01/31 13:01:43 - 50.17.10.214:    Checking software installation completed.
+2012/01/31 13:01:43 - 107.21.182.253:  Checking disk I/O
+2012/01/31 13:01:43 - 50.17.124.85:    Checking software installation completed.
+2012/01/31 13:01:43 - 50.19.134.137:   Checking software installation completed.
+2012/01/31 13:01:43 - 184.72.174.28:   Checking network mask is compatible.
+2012/01/31 13:01:43 - 184.72.174.28:   Checking disk I/O
+2012/01/31 13:01:43 - 23.20.21.90:     Checking software installation completed.
+2012/01/31 13:01:43 - 174.129.180.72:  Checking software installation completed.
+2012/01/31 13:01:43 - 107.22.40.213:   Software installation finished.
+2012/01/31 13:01:43 - 107.22.40.213:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.19.200.82:    Checking software installation completed.
+2012/01/31 13:01:43 - 107.22.55.230:   Software installation finished.
+2012/01/31 13:01:43 - 107.22.55.230:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.20.104.84:   Software installation finished.
+2012/01/31 13:01:43 - 107.20.104.84:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.73.21.179:   Checking software installation completed.
+2012/01/31 13:01:43 - 50.17.112.196:   Software installation finished.
+2012/01/31 13:01:43 - 50.17.112.196:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.19.43.72:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 184.72.131.179:  Checking software installation completed.
+2012/01/31 13:01:43 - 107.21.182.253:  Checking software installation completed.
+2012/01/31 13:01:43 - 107.22.72.236:   Software installation finished.
+2012/01/31 13:01:43 - 107.22.72.236:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.17.10.214:    Software installation finished.
+2012/01/31 13:01:43 - 50.17.10.214:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.19.134.137:   Software installation finished.
+2012/01/31 13:01:43 - 50.19.134.137:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.17.124.85:    Software installation finished.
+2012/01/31 13:01:43 - 50.17.124.85:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.72.174.28:   Checking software installation completed.
+2012/01/31 13:01:43 - 184.73.85.145:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 23.20.21.90:     Software installation finished.
+2012/01/31 13:01:43 - 23.20.21.90:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 184.72.194.148:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 174.129.180.72:  Software installation finished.
+2012/01/31 13:01:43 - 174.129.180.72:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.21.196.247:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 50.19.43.72:     Checking file contents.
+2012/01/31 13:01:43 - 50.19.200.82:    Software installation finished.
+2012/01/31 13:01:43 - 50.19.200.82:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.20.56.244:   Remote file contents confirmed.
+2012/01/31 13:01:43 - 107.20.56.244:   Starting HPCC services.
+2012/01/31 13:01:43 - 107.20.56.244:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:43 - 184.73.21.179:   Software installation finished.
+2012/01/31 13:01:43 - 184.73.21.179:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 50.16.113.35:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 107.21.145.56:   Remote file contents confirmed.
+2012/01/31 13:01:43 - 184.72.131.179:  Software installation finished.
+2012/01/31 13:01:43 - 184.72.131.179:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:43 - 107.20.77.149:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:43 - 107.21.145.56:   Starting HPCC services.
+2012/01/31 13:01:43 - 107.21.145.56:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:43 - 107.21.182.253:  Software installation finished.
+2012/01/31 13:01:43 - 107.21.182.253:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:44 - 107.21.196.247:  Checking file contents.
+2012/01/31 13:01:44 - 184.73.85.145:   Checking file contents.
+2012/01/31 13:01:44 - 184.72.194.148:  Checking file contents.
+2012/01/31 13:01:44 - 23.20.20.13:     Remote file contents confirmed.
+2012/01/31 13:01:44 - 23.20.20.13:     Starting HPCC services.
+2012/01/31 13:01:44 - 23.20.20.13:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 184.73.8.101:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 184.72.174.28:   Software installation finished.
+2012/01/31 13:01:44 - 184.72.174.28:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:44 - 50.16.113.35:    Checking file contents.
+2012/01/31 13:01:44 - 107.20.77.149:   Checking file contents.
+2012/01/31 13:01:44 - 184.73.8.101:    Checking file contents.
+2012/01/31 13:01:44 - 107.22.55.230:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.17.112.196:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 107.20.104.84:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.19.43.72:     Remote file contents confirmed.
+2012/01/31 13:01:44 - 50.19.43.72:     Starting HPCC services.
+2012/01/31 13:01:44 - 50.19.43.72:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 107.22.40.213:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.17.10.214:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.17.124.85:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 184.73.85.145:   Remote file contents confirmed.
+2012/01/31 13:01:44 - 184.73.85.145:   Starting HPCC services.
+2012/01/31 13:01:44 - 184.73.85.145:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 107.22.72.236:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 23.20.21.90:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.16.113.35:    Remote file contents confirmed.
+2012/01/31 13:01:44 - 50.16.113.35:    Starting HPCC services.
+2012/01/31 13:01:44 - 107.22.55.230:   Checking file contents.
+2012/01/31 13:01:44 - 50.16.113.35:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 50.19.134.137:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 107.20.104.84:   Checking file contents.
+2012/01/31 13:01:44 - 50.17.112.196:   Checking file contents.
+2012/01/31 13:01:44 - 107.22.40.213:   Checking file contents.
+2012/01/31 13:01:44 - 184.73.21.179:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 50.17.124.85:    Checking file contents.
+2012/01/31 13:01:44 - 50.17.10.214:    Checking file contents.
+2012/01/31 13:01:44 - 174.129.180.72:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 107.22.72.236:   Checking file contents.
+2012/01/31 13:01:44 - 107.21.196.247:  Remote file contents confirmed.
+2012/01/31 13:01:44 - 107.21.196.247:  Starting HPCC services.
+2012/01/31 13:01:44 - 107.21.196.247:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 50.19.200.82:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 107.20.77.149:   Remote file contents confirmed.
+2012/01/31 13:01:44 - 23.20.21.90:     Checking file contents.
+2012/01/31 13:01:44 - 107.20.77.149:   Starting HPCC services.
+2012/01/31 13:01:44 - 107.20.77.149:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:44 - 50.19.134.137:   Checking file contents.
+2012/01/31 13:01:44 - 107.21.182.253:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 184.73.21.179:   Checking file contents.
+2012/01/31 13:01:44 - 184.72.131.179:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:44 - 174.129.180.72:  Checking file contents.
+2012/01/31 13:01:44 - 50.19.200.82:    Checking file contents.
+2012/01/31 13:01:44 - 184.72.194.148:  Remote file contents confirmed.
+2012/01/31 13:01:44 - 184.72.194.148:  Starting HPCC services.
+2012/01/31 13:01:44 - 184.72.194.148:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 107.21.182.253:  Checking file contents.
+2012/01/31 13:01:45 - 184.72.131.179:  Checking file contents.
+2012/01/31 13:01:45 - 184.73.8.101:    Remote file contents confirmed.
+2012/01/31 13:01:45 - 184.73.8.101:    Starting HPCC services.
+2012/01/31 13:01:45 - 184.73.8.101:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 184.72.174.28:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:45 - 107.22.40.213:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 107.22.40.213:   Starting HPCC services.
+2012/01/31 13:01:45 - 107.22.40.213:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 184.72.174.28:   Checking file contents.
+2012/01/31 13:01:45 - 107.22.55.230:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 107.22.55.230:   Starting HPCC services.
+2012/01/31 13:01:45 - 107.22.55.230:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 107.22.72.236:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.19.134.137:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.17.112.196:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.17.10.214:    Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.19.134.137:   Starting HPCC services.
+2012/01/31 13:01:45 - 107.22.72.236:   Starting HPCC services.
+2012/01/31 13:01:45 - 50.19.134.137:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 107.22.72.236:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 50.17.10.214:    Starting HPCC services.
+2012/01/31 13:01:45 - 50.17.10.214:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 50.17.112.196:   Starting HPCC services.
+2012/01/31 13:01:45 - 50.17.112.196:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 107.20.104.84:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 107.20.104.84:   Starting HPCC services.
+2012/01/31 13:01:45 - 107.20.104.84:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 23.20.21.90:     Remote file contents confirmed.
+2012/01/31 13:01:45 - 23.20.21.90:     Starting HPCC services.
+2012/01/31 13:01:45 - 23.20.21.90:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 50.17.124.85:    Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.17.124.85:    Starting HPCC services.
+2012/01/31 13:01:45 - 50.17.124.85:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 174.129.180.72:  Remote file contents confirmed.
+2012/01/31 13:01:45 - 184.73.21.179:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 184.73.21.179:   Starting HPCC services.
+2012/01/31 13:01:45 - 174.129.180.72:  Starting HPCC services.
+2012/01/31 13:01:45 - 184.73.21.179:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 174.129.180.72:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 50.19.200.82:    Remote file contents confirmed.
+2012/01/31 13:01:45 - 50.19.200.82:    Starting HPCC services.
+2012/01/31 13:01:45 - 50.19.200.82:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 107.21.182.253:  Remote file contents confirmed.
+2012/01/31 13:01:45 - 107.21.182.253:  Starting HPCC services.
+2012/01/31 13:01:45 - 107.21.182.253:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:45 - 184.72.174.28:   Remote file contents confirmed.
+2012/01/31 13:01:45 - 184.72.174.28:   Starting HPCC services.
+2012/01/31 13:01:45 - 184.72.174.28:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:46 - 184.72.131.179:  Remote file contents confirmed.
+2012/01/31 13:01:46 - 184.72.131.179:  Starting HPCC services.
+2012/01/31 13:01:46 - 184.72.131.179:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:46 - 107.20.56.244:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:46 - 107.20.56.244:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:46 - 107.20.56.244:   Start node is complete.
+2012/01/31 13:01:46 - 23.20.36.105:    Starting node configuration.
+2012/01/31 13:01:46 - 23.20.36.105:    Connecting via SSH.
+2012/01/31 13:01:47 - 107.21.196.247:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 107.21.196.247:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 107.21.196.247:  Start node is complete.
+2012/01/31 13:01:47 - 107.20.57.115:   Starting node configuration.
+2012/01/31 13:01:47 - 107.20.57.115:   Connecting via SSH.
+2012/01/31 13:01:47 - 50.16.113.35:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 50.16.113.35:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 50.16.113.35:    Start node is complete.
+2012/01/31 13:01:47 - 50.16.149.56:    Starting node configuration.
+2012/01/31 13:01:47 - 50.16.149.56:    Connecting via SSH.
+2012/01/31 13:01:47 - 23.20.36.105:    Checking network mask is compatible.
+2012/01/31 13:01:47 - 23.20.36.105:    Checking disk I/O
+2012/01/31 13:01:47 - 23.20.36.105:    Checking software installation completed.
+2012/01/31 13:01:47 - 23.20.36.105:    Software installation finished.
+2012/01/31 13:01:47 - 23.20.36.105:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:47 - 184.72.194.148:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 184.72.194.148:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 23.20.36.105:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:47 - 184.72.194.148:  Start node is complete.
+2012/01/31 13:01:47 - 204.236.248.249: Starting node configuration.
+2012/01/31 13:01:47 - 204.236.248.249: Connecting via SSH.
+2012/01/31 13:01:47 - 23.20.36.105:    Checking file contents.
+2012/01/31 13:01:47 - 107.20.57.115:   Checking network mask is compatible.
+2012/01/31 13:01:47 - 107.20.57.115:   Checking disk I/O
+2012/01/31 13:01:47 - 184.73.8.101:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 184.73.8.101:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 184.73.8.101:    Start node is complete.
+2012/01/31 13:01:47 - 107.21.198.63:   Starting node configuration.
+2012/01/31 13:01:47 - 107.21.198.63:   Connecting via SSH.
+2012/01/31 13:01:47 - 107.20.57.115:   Checking software installation completed.
+2012/01/31 13:01:47 - 107.21.145.56:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 107.21.145.56:   Starting mydfuserver....       [  OK  ]   
+2012/01/31 13:01:47 - 107.21.145.56:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 107.21.145.56:   Start node is complete.
+2012/01/31 13:01:47 - 107.20.104.84:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 107.20.104.84:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 174.129.73.243:  Starting node configuration.
+2012/01/31 13:01:47 - 107.20.104.84:   Start node is complete.
+2012/01/31 13:01:47 - 50.16.30.190:    Starting node configuration.
+2012/01/31 13:01:47 - 50.17.10.214:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 50.17.10.214:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 107.22.72.236:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 107.22.72.236:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 107.22.72.236:   Start node is complete.
+2012/01/31 13:01:47 - 107.22.40.213:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 107.22.40.213:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 50.16.149.56:    Checking network mask is compatible.
+2012/01/31 13:01:47 - 50.16.149.56:    Checking disk I/O
+2012/01/31 13:01:47 - 23.20.0.95:      Starting node configuration.
+2012/01/31 13:01:47 - 174.129.73.243:  Connecting via SSH.
+2012/01/31 13:01:47 - 23.20.21.90:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 184.73.21.179:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 184.73.21.179:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 23.20.21.90:     Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 50.17.10.214:    Start node is complete.
+2012/01/31 13:01:47 - 184.73.21.179:   Start node is complete.
+2012/01/31 13:01:47 - 174.129.180.72:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:47 - 174.129.180.72:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:47 - 184.72.72.75:    Starting node configuration.
+2012/01/31 13:01:47 - 23.20.21.90:     Start node is complete.
+2012/01/31 13:01:47 - 184.72.72.75:    Connecting via SSH.
+2012/01/31 13:01:47 - 107.21.149.115:  Starting node configuration.
+2012/01/31 13:01:48 - 107.22.40.213:   Start node is complete.
+2012/01/31 13:01:48 - 75.101.203.164:  Starting node configuration.
+2012/01/31 13:01:48 - 75.101.203.164:  Connecting via SSH.
+2012/01/31 13:01:48 - 50.16.30.190:    Connecting via SSH.
+2012/01/31 13:01:48 - 23.20.0.95:      Connecting via SSH.
+2012/01/31 13:01:48 - 67.202.33.147:   Starting node configuration.
+2012/01/31 13:01:48 - 67.202.33.147:   Connecting via SSH.
+2012/01/31 13:01:48 - 174.129.180.72:  Start node is complete.
+2012/01/31 13:01:48 - 107.21.149.115:  Connecting via SSH.
+2012/01/31 13:01:48 - 50.19.200.82:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:48 - 50.19.200.82:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:48 - 184.72.95.10:    Starting node configuration.
+2012/01/31 13:01:48 - 50.17.124.85:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:48 - 50.17.124.85:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:48 - 50.19.200.82:    Start node is complete.
+2012/01/31 13:01:48 - 107.21.70.217:   Starting node configuration.
+2012/01/31 13:01:48 - 107.21.70.217:   Connecting via SSH.
+2012/01/31 13:01:48 - 107.21.182.253:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:48 - 107.21.182.253:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:48 - 184.72.95.10:    Connecting via SSH.
+2012/01/31 13:01:48 - 50.17.124.85:    Start node is complete.
+2012/01/31 13:01:48 - 184.72.202.72:   Starting node configuration.
+2012/01/31 13:01:48 - 107.20.57.115:   Software installation finished.
+2012/01/31 13:01:48 - 184.72.202.72:   Connecting via SSH.
+2012/01/31 13:01:48 - 107.20.57.115:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:48 - 107.21.182.253:  Start node is complete.
+2012/01/31 13:01:48 - 50.17.44.35:     Starting node configuration.
+2012/01/31 13:01:48 - 50.17.44.35:     Connecting via SSH.
+2012/01/31 13:01:48 - 23.20.36.105:    Remote file contents confirmed.
+2012/01/31 13:01:48 - 23.20.36.105:    Starting HPCC services.
+2012/01/31 13:01:48 - 23.20.36.105:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:48 - 50.17.112.196:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:48 - 50.17.112.196:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:48 - 50.16.149.56:    Checking software installation completed.
+2012/01/31 13:01:48 - 50.17.112.196:   Start node is complete.
+2012/01/31 13:01:48 - 50.16.68.20:     Starting node configuration.
+2012/01/31 13:01:48 - 50.16.68.20:     Connecting via SSH.
+2012/01/31 13:01:48 - 184.72.174.28:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:48 - 184.72.174.28:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 107.20.77.149:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 107.20.77.149:   Starting myeclccserver....     [  OK  ]   
+2012/01/31 13:01:49 - 107.20.77.149:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 50.19.134.137:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 50.19.134.137:   Starting myeclagent....        [  OK  ]   
+2012/01/31 13:01:49 - 50.19.134.137:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 184.73.85.145:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 184.73.85.145:   Starting mysasha....           [  OK  ]   
+2012/01/31 13:01:49 - 184.73.85.145:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 50.19.134.137:   Start node is complete.
+2012/01/31 13:01:49 - 107.20.77.149:   Start node is complete.
+2012/01/31 13:01:49 - 50.19.43.72:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 50.19.43.72:     Starting mydali....            [  OK  ]   
+2012/01/31 13:01:49 - 50.19.43.72:     Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 184.73.85.145:   Start node is complete.
+2012/01/31 13:01:49 - 184.72.131.179:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 184.72.131.179:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 107.22.133.125:  Starting node configuration.
+2012/01/31 13:01:49 - 107.22.112.65:   Starting node configuration.
+2012/01/31 13:01:49 - 107.22.133.125:  Connecting via SSH.
+2012/01/31 13:01:49 - 184.72.174.28:   Start node is complete.
+2012/01/31 13:01:49 - 50.19.66.154:    Starting node configuration.
+2012/01/31 13:01:49 - 50.19.66.154:    Connecting via SSH.
+2012/01/31 13:01:49 - 107.22.85.169:   Starting node configuration.
+2012/01/31 13:01:49 - 107.22.85.169:   Connecting via SSH.
+2012/01/31 13:01:49 - 107.22.112.65:   Connecting via SSH.
+2012/01/31 13:01:49 - 50.19.43.72:     Start node is complete.
+2012/01/31 13:01:49 - 184.72.131.179:  Start node is complete.
+2012/01/31 13:01:49 - 107.20.123.196:  Starting node configuration.
+2012/01/31 13:01:49 - 107.20.123.196:  Connecting via SSH.
+2012/01/31 13:01:49 - 107.21.150.11:   Starting node configuration.
+2012/01/31 13:01:49 - 107.21.150.11:   Connecting via SSH.
+2012/01/31 13:01:49 - 204.236.248.249: Checking network mask is compatible.
+2012/01/31 13:01:49 - 204.236.248.249: Checking disk I/O
+2012/01/31 13:01:49 - 107.21.198.63:   Checking network mask is compatible.
+2012/01/31 13:01:49 - 107.21.198.63:   Checking disk I/O
+2012/01/31 13:01:49 - 107.22.55.230:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:49 - 107.22.55.230:   Starting myeclscheduler....    [  OK  ]   
+2012/01/31 13:01:49 - 107.22.55.230:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:49 - 107.22.55.230:   Start node is complete.
+2012/01/31 13:01:49 - 23.20.5.123:     Starting node configuration.
+2012/01/31 13:01:49 - 50.16.149.56:    Software installation finished.
+2012/01/31 13:01:49 - 50.16.149.56:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:49 - 23.20.5.123:     Connecting via SSH.
+2012/01/31 13:01:50 - 174.129.73.243:  Checking network mask is compatible.
+2012/01/31 13:01:50 - 174.129.73.243:  Checking disk I/O
+2012/01/31 13:01:50 - 107.21.149.115:  Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.21.149.115:  Checking disk I/O
+2012/01/31 13:01:50 - 204.236.248.249: Checking software installation completed.
+2012/01/31 13:01:50 - 67.202.33.147:   Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.21.198.63:   Checking software installation completed.
+2012/01/31 13:01:50 - 67.202.33.147:   Checking disk I/O
+2012/01/31 13:01:50 - 184.72.72.75:    Checking network mask is compatible.
+2012/01/31 13:01:50 - 50.16.30.190:    Checking network mask is compatible.
+2012/01/31 13:01:50 - 50.16.30.190:    Checking disk I/O
+2012/01/31 13:01:50 - 184.72.95.10:    Checking network mask is compatible.
+2012/01/31 13:01:50 - 184.72.95.10:    Checking disk I/O
+2012/01/31 13:01:50 - 107.21.70.217:   Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.21.70.217:   Checking disk I/O
+2012/01/31 13:01:50 - 184.72.72.75:    Checking disk I/O
+2012/01/31 13:01:50 - 50.16.68.20:     Checking network mask is compatible.
+2012/01/31 13:01:50 - 50.16.68.20:     Checking disk I/O
+2012/01/31 13:01:50 - 184.72.202.72:   Checking network mask is compatible.
+2012/01/31 13:01:50 - 184.72.202.72:   Checking disk I/O
+2012/01/31 13:01:50 - 75.101.203.164:  Checking network mask is compatible.
+2012/01/31 13:01:50 - 75.101.203.164:  Checking disk I/O
+2012/01/31 13:01:50 - 50.17.44.35:     Checking network mask is compatible.
+2012/01/31 13:01:50 - 50.17.44.35:     Checking disk I/O
+2012/01/31 13:01:50 - 23.20.0.95:      Checking network mask is compatible.
+2012/01/31 13:01:50 - 23.20.0.95:      Checking disk I/O
+2012/01/31 13:01:50 - 204.236.248.249: Software installation finished.
+2012/01/31 13:01:50 - 204.236.248.249: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 107.21.149.115:  Checking software installation completed.
+2012/01/31 13:01:50 - 67.202.33.147:   Checking software installation completed.
+2012/01/31 13:01:50 - 174.129.73.243:  Checking software installation completed.
+2012/01/31 13:01:50 - 75.101.203.164:  Checking software installation completed.
+2012/01/31 13:01:50 - 107.20.57.115:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:50 - 23.20.0.95:      Checking software installation completed.
+2012/01/31 13:01:50 - 184.72.72.75:    Checking software installation completed.
+2012/01/31 13:01:50 - 50.16.30.190:    Checking software installation completed.
+2012/01/31 13:01:50 - 50.17.44.35:     Checking software installation completed.
+2012/01/31 13:01:50 - 184.72.202.72:   Checking software installation completed.
+2012/01/31 13:01:50 - 107.21.70.217:   Checking software installation completed.
+2012/01/31 13:01:50 - 50.16.68.20:     Checking software installation completed.
+2012/01/31 13:01:50 - 107.21.198.63:   Software installation finished.
+2012/01/31 13:01:50 - 107.21.198.63:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 184.72.95.10:    Checking software installation completed.
+2012/01/31 13:01:50 - 174.129.73.243:  Software installation finished.
+2012/01/31 13:01:50 - 174.129.73.243:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 50.17.44.35:     Software installation finished.
+2012/01/31 13:01:50 - 50.17.44.35:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 107.21.149.115:  Software installation finished.
+2012/01/31 13:01:50 - 107.21.149.115:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 67.202.33.147:   Software installation finished.
+2012/01/31 13:01:50 - 67.202.33.147:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 184.72.202.72:   Software installation finished.
+2012/01/31 13:01:50 - 184.72.202.72:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 184.72.72.75:    Software installation finished.
+2012/01/31 13:01:50 - 184.72.72.75:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 107.20.57.115:   Checking file contents.
+2012/01/31 13:01:50 - 75.101.203.164:  Software installation finished.
+2012/01/31 13:01:50 - 75.101.203.164:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 107.21.70.217:   Software installation finished.
+2012/01/31 13:01:50 - 107.21.70.217:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 50.16.30.190:    Software installation finished.
+2012/01/31 13:01:50 - 50.16.30.190:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 50.16.68.20:     Software installation finished.
+2012/01/31 13:01:50 - 50.16.68.20:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 184.72.95.10:    Software installation finished.
+2012/01/31 13:01:50 - 184.72.95.10:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 23.20.0.95:      Software installation finished.
+2012/01/31 13:01:50 - 23.20.0.95:      Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:50 - 50.16.149.56:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:50 - 50.16.149.56:    Checking file contents.
+2012/01/31 13:01:50 - 107.22.133.125:  Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.22.133.125:  Checking disk I/O
+2012/01/31 13:01:50 - 107.22.85.169:   Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.22.85.169:   Checking disk I/O
+2012/01/31 13:01:50 - 50.19.66.154:    Checking network mask is compatible.
+2012/01/31 13:01:50 - 50.19.66.154:    Checking disk I/O
+2012/01/31 13:01:50 - 107.20.123.196:  Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.20.123.196:  Checking disk I/O
+2012/01/31 13:01:50 - 23.20.5.123:     Checking network mask is compatible.
+2012/01/31 13:01:50 - 23.20.5.123:     Checking disk I/O
+2012/01/31 13:01:50 - 107.22.112.65:   Checking network mask is compatible.
+2012/01/31 13:01:50 - 107.22.112.65:   Checking disk I/O
+2012/01/31 13:01:51 - 107.21.150.11:   Checking network mask is compatible.
+2012/01/31 13:01:51 - 107.21.150.11:   Checking disk I/O
+2012/01/31 13:01:51 - 204.236.248.249: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 23.20.36.105:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:51 - 23.20.36.105:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:51 - 107.22.85.169:   Checking software installation completed.
+2012/01/31 13:01:51 - 50.19.66.154:    Checking software installation completed.
+2012/01/31 13:01:51 - 23.20.36.105:    Start node is complete.
+2012/01/31 13:01:51 - 107.21.148.166:  Starting node configuration.
+2012/01/31 13:01:51 - 107.21.148.166:  Connecting via SSH.
+2012/01/31 13:01:51 - 107.20.57.115:   Remote file contents confirmed.
+2012/01/31 13:01:51 - 107.20.57.115:   Starting HPCC services.
+2012/01/31 13:01:51 - 107.20.57.115:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:51 - 107.22.133.125:  Checking software installation completed.
+2012/01/31 13:01:51 - 107.21.198.63:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 50.17.44.35:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 204.236.248.249: Checking file contents.
+2012/01/31 13:01:51 - 107.22.112.65:   Checking software installation completed.
+2012/01/31 13:01:51 - 23.20.5.123:     Checking software installation completed.
+2012/01/31 13:01:51 - 50.16.68.20:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 184.72.202.72:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 50.16.30.190:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 184.72.72.75:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 107.21.149.115:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 107.20.123.196:  Checking software installation completed.
+2012/01/31 13:01:51 - 107.21.150.11:   Checking software installation completed.
+2012/01/31 13:01:51 - 174.129.73.243:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 75.101.203.164:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 107.21.70.217:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 67.202.33.147:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 50.17.44.35:     Checking file contents.
+2012/01/31 13:01:51 - 107.21.198.63:   Checking file contents.
+2012/01/31 13:01:51 - 23.20.0.95:      Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 184.72.95.10:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:51 - 50.19.66.154:    Software installation finished.
+2012/01/31 13:01:51 - 50.19.66.154:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 50.16.149.56:    Remote file contents confirmed.
+2012/01/31 13:01:51 - 50.16.149.56:    Starting HPCC services.
+2012/01/31 13:01:51 - 50.16.149.56:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:51 - 107.22.85.169:   Software installation finished.
+2012/01/31 13:01:51 - 107.22.85.169:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 107.22.133.125:  Software installation finished.
+2012/01/31 13:01:51 - 107.22.133.125:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 50.16.68.20:     Checking file contents.
+2012/01/31 13:01:51 - 107.21.149.115:  Checking file contents.
+2012/01/31 13:01:51 - 184.72.72.75:    Checking file contents.
+2012/01/31 13:01:51 - 174.129.73.243:  Checking file contents.
+2012/01/31 13:01:51 - 107.21.70.217:   Checking file contents.
+2012/01/31 13:01:51 - 67.202.33.147:   Checking file contents.
+2012/01/31 13:01:51 - 184.72.202.72:   Checking file contents.
+2012/01/31 13:01:51 - 75.101.203.164:  Checking file contents.
+2012/01/31 13:01:51 - 107.20.123.196:  Software installation finished.
+2012/01/31 13:01:51 - 107.20.123.196:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 107.22.112.65:   Software installation finished.
+2012/01/31 13:01:51 - 107.22.112.65:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 23.20.5.123:     Software installation finished.
+2012/01/31 13:01:51 - 107.21.150.11:   Software installation finished.
+2012/01/31 13:01:51 - 107.21.150.11:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 23.20.5.123:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:51 - 23.20.0.95:      Checking file contents.
+2012/01/31 13:01:51 - 184.72.95.10:    Checking file contents.
+2012/01/31 13:01:52 - 204.236.248.249: Remote file contents confirmed.
+2012/01/31 13:01:52 - 204.236.248.249: Starting HPCC services.
+2012/01/31 13:01:52 - 204.236.248.249: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 50.17.44.35:     Remote file contents confirmed.
+2012/01/31 13:01:52 - 50.17.44.35:     Starting HPCC services.
+2012/01/31 13:01:52 - 50.17.44.35:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.148.166:  Checking network mask is compatible.
+2012/01/31 13:01:52 - 107.21.148.166:  Checking disk I/O
+2012/01/31 13:01:52 - 75.101.203.164:  Remote file contents confirmed.
+2012/01/31 13:01:52 - 75.101.203.164:  Starting HPCC services.
+2012/01/31 13:01:52 - 50.16.68.20:     Remote file contents confirmed.
+2012/01/31 13:01:52 - 50.16.68.20:     Starting HPCC services.
+2012/01/31 13:01:52 - 75.101.203.164:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.198.63:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 50.16.68.20:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 67.202.33.147:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 67.202.33.147:   Starting HPCC services.
+2012/01/31 13:01:52 - 67.202.33.147:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.198.63:   Starting HPCC services.
+2012/01/31 13:01:52 - 107.21.198.63:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 184.72.72.75:    Remote file contents confirmed.
+2012/01/31 13:01:52 - 184.72.72.75:    Starting HPCC services.
+2012/01/31 13:01:52 - 184.72.72.75:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.70.217:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.21.70.217:   Starting HPCC services.
+2012/01/31 13:01:52 - 107.21.70.217:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 174.129.73.243:  Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.22.133.125:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 174.129.73.243:  Starting HPCC services.
+2012/01/31 13:01:52 - 174.129.73.243:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 50.19.66.154:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 184.72.95.10:    Remote file contents confirmed.
+2012/01/31 13:01:52 - 23.20.0.95:      Remote file contents confirmed.
+2012/01/31 13:01:52 - 23.20.0.95:      Starting HPCC services.
+2012/01/31 13:01:52 - 23.20.0.95:      HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 184.72.95.10:    Starting HPCC services.
+2012/01/31 13:01:52 - 107.22.85.169:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 184.72.95.10:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 184.72.202.72:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 184.72.202.72:   Starting HPCC services.
+2012/01/31 13:01:52 - 184.72.202.72:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.20.123.196:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 107.21.150.11:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 107.21.149.115:  Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.21.149.115:  Starting HPCC services.
+2012/01/31 13:01:52 - 107.21.149.115:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.22.133.125:  Checking file contents.
+2012/01/31 13:01:52 - 107.21.148.166:  Checking software installation completed.
+2012/01/31 13:01:52 - 23.20.5.123:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 107.22.112.65:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 107.20.123.196:  Checking file contents.
+2012/01/31 13:01:52 - 23.20.5.123:     Checking file contents.
+2012/01/31 13:01:52 - 107.21.150.11:   Checking file contents.
+2012/01/31 13:01:52 - 107.22.85.169:   Checking file contents.
+2012/01/31 13:01:52 - 107.21.148.166:  Software installation finished.
+2012/01/31 13:01:52 - 107.21.148.166:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:52 - 107.22.112.65:   Checking file contents.
+2012/01/31 13:01:52 - 107.22.133.125:  Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.22.133.125:  Starting HPCC services.
+2012/01/31 13:01:52 - 107.22.133.125:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.22.112.65:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.22.112.65:   Starting HPCC services.
+2012/01/31 13:01:52 - 107.22.112.65:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.22.85.169:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.22.85.169:   Starting HPCC services.
+2012/01/31 13:01:52 - 107.22.85.169:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.150.11:   Remote file contents confirmed.
+2012/01/31 13:01:52 - 107.21.150.11:   Starting HPCC services.
+2012/01/31 13:01:52 - 107.21.150.11:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 23.20.5.123:     Remote file contents confirmed.
+2012/01/31 13:01:52 - 23.20.5.123:     Starting HPCC services.
+2012/01/31 13:01:52 - 23.20.5.123:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:52 - 107.21.148.166:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:52 - 107.21.148.166:  Checking file contents.
+2012/01/31 13:01:53 - 107.21.148.166:  Remote file contents confirmed.
+2012/01/31 13:01:53 - 107.21.148.166:  Starting HPCC services.
+2012/01/31 13:01:53 - 107.21.148.166:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:53 - 50.16.30.190:    Checking file contents.
+2012/01/31 13:01:53 - 107.20.57.115:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:53 - 107.20.57.115:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:53 - 107.20.57.115:   Start node is complete.
+2012/01/31 13:01:54 - 50.19.198.188:   Starting node configuration.
+2012/01/31 13:01:54 - 50.19.198.188:   Connecting via SSH.
+2012/01/31 13:01:54 - 50.16.149.56:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 50.16.149.56:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 50.16.30.190:    Remote file contents confirmed.
+2012/01/31 13:01:54 - 50.16.30.190:    Starting HPCC services.
+2012/01/31 13:01:54 - 50.16.30.190:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:54 - 50.16.149.56:    Start node is complete.
+2012/01/31 13:01:54 - 107.21.133.224:  Starting node configuration.
+2012/01/31 13:01:54 - 107.21.133.224:  Connecting via SSH.
+2012/01/31 13:01:54 - 50.19.66.154:    Checking file contents.
+2012/01/31 13:01:54 - 75.101.203.164:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 75.101.203.164:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 50.19.66.154:    Remote file contents confirmed.
+2012/01/31 13:01:54 - 50.19.66.154:    Starting HPCC services.
+2012/01/31 13:01:54 - 50.19.66.154:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:54 - 50.19.198.188:   Checking network mask is compatible.
+2012/01/31 13:01:54 - 50.19.198.188:   Checking disk I/O
+2012/01/31 13:01:54 - 204.236.248.249: Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 204.236.248.249: Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 204.236.248.249: Start node is complete.
+2012/01/31 13:01:54 - 50.16.2.204:     Starting node configuration.
+2012/01/31 13:01:54 - 50.16.2.204:     Connecting via SSH.
+2012/01/31 13:01:54 - 50.19.198.188:   Checking software installation completed.
+2012/01/31 13:01:54 - 75.101.203.164:  Start node is complete.
+2012/01/31 13:01:54 - 23.20.31.152:    Starting node configuration.
+2012/01/31 13:01:54 - 23.20.31.152:    Connecting via SSH.
+2012/01/31 13:01:54 - 50.17.44.35:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 50.17.44.35:     Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 50.17.44.35:     Start node is complete.
+2012/01/31 13:01:54 - 50.16.116.84:    Starting node configuration.
+2012/01/31 13:01:54 - 50.16.116.84:    Connecting via SSH.
+2012/01/31 13:01:54 - 67.202.33.147:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 67.202.33.147:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 174.129.73.243:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 174.129.73.243:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 67.202.33.147:   Start node is complete.
+2012/01/31 13:01:54 - 50.19.181.15:    Starting node configuration.
+2012/01/31 13:01:54 - 50.19.181.15:    Connecting via SSH.
+2012/01/31 13:01:54 - 107.21.133.224:  Checking network mask is compatible.
+2012/01/31 13:01:54 - 107.21.133.224:  Checking disk I/O
+2012/01/31 13:01:54 - 174.129.73.243:  Start node is complete.
+2012/01/31 13:01:54 - 50.19.151.6:     Starting node configuration.
+2012/01/31 13:01:54 - 50.19.151.6:     Connecting via SSH.
+2012/01/31 13:01:54 - 50.19.198.188:   Software installation finished.
+2012/01/31 13:01:54 - 50.19.198.188:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:54 - 184.72.202.72:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 23.20.0.95:      Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 184.72.202.72:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 23.20.0.95:      Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 107.21.70.217:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 107.21.70.217:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 23.20.0.95:      Start node is complete.
+2012/01/31 13:01:54 - 107.21.128.93:   Starting node configuration.
+2012/01/31 13:01:54 - 107.21.128.93:   Connecting via SSH.
+2012/01/31 13:01:54 - 184.72.72.75:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 184.72.72.75:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 107.21.149.115:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 107.21.149.115:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:54 - 50.16.68.20:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:54 - 50.16.68.20:     Setting mythor....             [  OK  ]  
+2012/01/31 13:01:55 - 107.21.70.217:   Start node is complete.
+2012/01/31 13:01:55 - 107.21.198.63:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:55 - 107.21.198.63:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:55 - 107.21.66.186:   Starting node configuration.
+2012/01/31 13:01:55 - 50.16.68.20:     Start node is complete.
+2012/01/31 13:01:55 - 107.20.123.196:  Remote file contents confirmed.
+2012/01/31 13:01:55 - 107.20.123.196:  Starting HPCC services.
+2012/01/31 13:01:55 - 107.20.123.196:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:55 - 184.72.202.72:   Start node is complete.
+2012/01/31 13:01:55 - 107.21.66.186:   Connecting via SSH.
+2012/01/31 13:01:55 - 107.21.180.189:  Starting node configuration.
+2012/01/31 13:01:55 - 107.21.180.189:  Connecting via SSH.
+2012/01/31 13:01:55 - 184.72.72.75:    Start node is complete.
+2012/01/31 13:01:55 - 23.20.25.1:      Starting node configuration.
+2012/01/31 13:01:55 - 23.20.25.1:      Connecting via SSH.
+2012/01/31 13:01:55 - 107.21.149.115:  Start node is complete.
+2012/01/31 13:01:55 - 107.21.198.63:   Start node is complete.
+2012/01/31 13:01:55 - 184.72.95.10:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:55 - 184.72.95.10:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:55 - 50.16.142.122:   Starting node configuration.
+2012/01/31 13:01:55 - 50.16.142.122:   Connecting via SSH.
+2012/01/31 13:01:55 - 107.22.13.205:   Starting node configuration.
+2012/01/31 13:01:55 - 107.22.13.205:   Connecting via SSH.
+2012/01/31 13:01:55 - 204.236.200.154: Starting node configuration.
+2012/01/31 13:01:55 - 204.236.200.154: Connecting via SSH.
+2012/01/31 13:01:55 - 184.72.95.10:    Start node is complete.
+2012/01/31 13:01:55 - 107.22.40.243:   Starting node configuration.
+2012/01/31 13:01:55 - 107.22.40.243:   Connecting via SSH.
+2012/01/31 13:01:55 - 107.21.133.224:  Checking software installation completed.
+2012/01/31 13:01:55 - 23.20.5.123:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:55 - 23.20.5.123:     Setting mythor....             [  OK  ]  
+2012/01/31 13:01:55 - 23.20.5.123:     Start node is complete.
+2012/01/31 13:01:55 - 107.22.105.49:   Starting node configuration.
+2012/01/31 13:01:55 - 107.22.105.49:   Connecting via SSH.
+2012/01/31 13:01:56 - 107.22.85.169:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:56 - 107.22.85.169:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:56 - 107.21.150.11:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:56 - 107.21.150.11:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:56 - 107.22.85.169:   Start node is complete.
+2012/01/31 13:01:56 - 107.22.112.65:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:56 - 23.20.26.253:    Starting node configuration.
+2012/01/31 13:01:56 - 23.20.26.253:    Connecting via SSH.
+2012/01/31 13:01:56 - 107.22.112.65:   Setting mythor....             [  OK  ]  
+2012/01/31 13:01:56 - 107.21.150.11:   Start node is complete.
+2012/01/31 13:01:56 - 50.19.38.38:     Starting node configuration.
+2012/01/31 13:01:56 - 107.22.112.65:   Start node is complete.
+2012/01/31 13:01:56 - 50.16.2.204:     Checking network mask is compatible.
+2012/01/31 13:01:56 - 107.21.148.166:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:56 - 107.21.148.166:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:56 - 50.16.2.204:     Checking disk I/O
+2012/01/31 13:01:56 - 50.19.38.38:     Connecting via SSH.
+2012/01/31 13:01:56 - 50.19.75.229:    Starting node configuration.
+2012/01/31 13:01:56 - 50.19.75.229:    Connecting via SSH.
+2012/01/31 13:01:56 - 107.21.148.166:  Start node is complete.
+2012/01/31 13:01:56 - 184.73.140.221:  Starting node configuration.
+2012/01/31 13:01:56 - 184.73.140.221:  Connecting via SSH.
+2012/01/31 13:01:56 - 50.19.151.6:     Checking network mask is compatible.
+2012/01/31 13:01:56 - 50.19.151.6:     Checking disk I/O
+2012/01/31 13:01:56 - 50.19.181.15:    Checking network mask is compatible.
+2012/01/31 13:01:56 - 50.19.181.15:    Checking disk I/O
+2012/01/31 13:01:56 - 23.20.31.152:    Checking network mask is compatible.
+2012/01/31 13:01:56 - 23.20.31.152:    Checking disk I/O
+2012/01/31 13:01:56 - 50.16.116.84:    Checking network mask is compatible.
+2012/01/31 13:01:56 - 50.16.116.84:    Checking disk I/O
+2012/01/31 13:01:56 - 107.21.133.224:  Software installation finished.
+2012/01/31 13:01:56 - 107.21.133.224:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:56 - 50.16.30.190:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:56 - 50.16.2.204:     Checking software installation completed.
+2012/01/31 13:01:56 - 50.16.30.190:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:56 - 50.16.30.190:    Start node is complete.
+2012/01/31 13:01:56 - 204.236.210.153: Starting node configuration.
+2012/01/31 13:01:56 - 204.236.210.153: Connecting via SSH.
+2012/01/31 13:01:57 - 107.21.66.186:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.21.66.186:   Checking disk I/O
+2012/01/31 13:01:57 - 50.19.181.15:    Checking software installation completed.
+2012/01/31 13:01:57 - 107.21.180.189:  Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.21.180.189:  Checking disk I/O
+2012/01/31 13:01:57 - 107.22.40.243:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.22.40.243:   Checking disk I/O
+2012/01/31 13:01:57 - 50.19.151.6:     Checking software installation completed.
+2012/01/31 13:01:57 - 23.20.31.152:    Checking software installation completed.
+2012/01/31 13:01:57 - 23.20.25.1:      Checking network mask is compatible.
+2012/01/31 13:01:57 - 23.20.25.1:      Checking disk I/O
+2012/01/31 13:01:57 - 107.22.13.205:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.22.13.205:   Checking disk I/O
+2012/01/31 13:01:57 - 204.236.200.154: Checking network mask is compatible.
+2012/01/31 13:01:57 - 204.236.200.154: Checking disk I/O
+2012/01/31 13:01:57 - 50.16.116.84:    Checking software installation completed.
+2012/01/31 13:01:57 - 107.21.128.93:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.21.128.93:   Checking disk I/O
+2012/01/31 13:01:57 - 50.19.198.188:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:57 - 50.16.142.122:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 50.16.142.122:   Checking disk I/O
+2012/01/31 13:01:57 - 50.16.2.204:     Software installation finished.
+2012/01/31 13:01:57 - 50.16.2.204:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 107.21.66.186:   Checking software installation completed.
+2012/01/31 13:01:57 - 107.22.133.125:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:57 - 107.22.133.125:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:57 - 107.22.133.125:  Start node is complete.
+2012/01/31 13:01:57 - 50.19.66.154:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:57 - 50.19.66.154:    Setting mythor....             [  OK  ]  
+2012/01/31 13:01:57 - 107.21.198.170:  Starting node configuration.
+2012/01/31 13:01:57 - 107.21.198.170:  Connecting via SSH.
+2012/01/31 13:01:57 - 50.19.151.6:     Software installation finished.
+2012/01/31 13:01:57 - 107.22.105.49:   Checking network mask is compatible.
+2012/01/31 13:01:57 - 107.22.105.49:   Checking disk I/O
+2012/01/31 13:01:57 - 50.19.151.6:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 107.22.13.205:   Checking software installation completed.
+2012/01/31 13:01:57 - 107.21.180.189:  Checking software installation completed.
+2012/01/31 13:01:57 - 50.19.181.15:    Software installation finished.
+2012/01/31 13:01:57 - 50.19.181.15:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 23.20.31.152:    Software installation finished.
+2012/01/31 13:01:57 - 23.20.31.152:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 50.19.66.154:    Start node is complete.
+2012/01/31 13:01:57 - 23.20.25.1:      Checking software installation completed.
+2012/01/31 13:01:57 - 107.22.18.100:   Starting node configuration.
+2012/01/31 13:01:57 - 107.21.128.93:   Checking software installation completed.
+2012/01/31 13:01:57 - 107.22.18.100:   Connecting via SSH.
+2012/01/31 13:01:57 - 107.22.40.243:   Checking software installation completed.
+2012/01/31 13:01:57 - 50.16.116.84:    Software installation finished.
+2012/01/31 13:01:57 - 50.16.116.84:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 50.19.198.188:   Checking file contents.
+2012/01/31 13:01:57 - 50.16.142.122:   Checking software installation completed.
+2012/01/31 13:01:57 - 204.236.200.154: Checking software installation completed.
+2012/01/31 13:01:57 - 107.21.66.186:   Software installation finished.
+2012/01/31 13:01:57 - 107.21.66.186:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 107.22.105.49:   Checking software installation completed.
+2012/01/31 13:01:57 - 107.22.13.205:   Software installation finished.
+2012/01/31 13:01:57 - 107.22.13.205:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 23.20.25.1:      Software installation finished.
+2012/01/31 13:01:57 - 23.20.25.1:      Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 50.19.38.38:     Checking network mask is compatible.
+2012/01/31 13:01:57 - 50.19.38.38:     Checking disk I/O
+2012/01/31 13:01:57 - 23.20.26.253:    Checking network mask is compatible.
+2012/01/31 13:01:57 - 23.20.26.253:    Checking disk I/O
+2012/01/31 13:01:57 - 107.22.40.243:   Software installation finished.
+2012/01/31 13:01:57 - 107.22.40.243:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 204.236.200.154: Software installation finished.
+2012/01/31 13:01:57 - 107.21.128.93:   Software installation finished.
+2012/01/31 13:01:57 - 107.21.128.93:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 204.236.200.154: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 107.21.180.189:  Software installation finished.
+2012/01/31 13:01:57 - 107.21.180.189:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 50.19.75.229:    Checking network mask is compatible.
+2012/01/31 13:01:57 - 50.19.75.229:    Checking disk I/O
+2012/01/31 13:01:57 - 107.21.133.224:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:57 - 50.16.142.122:   Software installation finished.
+2012/01/31 13:01:57 - 50.16.142.122:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 184.73.140.221:  Checking network mask is compatible.
+2012/01/31 13:01:57 - 184.73.140.221:  Checking disk I/O
+2012/01/31 13:01:57 - 204.236.210.153: Checking network mask is compatible.
+2012/01/31 13:01:57 - 204.236.210.153: Checking disk I/O
+2012/01/31 13:01:57 - 107.20.123.196:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:01:57 - 107.20.123.196:  Setting mythor....             [  OK  ]  
+2012/01/31 13:01:57 - 107.20.123.196:  Start node is complete.
+2012/01/31 13:01:57 - 107.20.21.231:   Starting node configuration.
+2012/01/31 13:01:57 - 107.20.21.231:   Connecting via SSH.
+2012/01/31 13:01:57 - 107.22.105.49:   Software installation finished.
+2012/01/31 13:01:57 - 107.22.105.49:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:57 - 50.19.38.38:     Checking software installation completed.
+2012/01/31 13:01:57 - 23.20.26.253:    Checking software installation completed.
+2012/01/31 13:01:57 - 50.19.75.229:    Checking software installation completed.
+2012/01/31 13:01:57 - 184.73.140.221:  Checking software installation completed.
+2012/01/31 13:01:58 - 107.21.133.224:  Checking file contents.
+2012/01/31 13:01:58 - 204.236.210.153: Checking software installation completed.
+2012/01/31 13:01:58 - 50.19.198.188:   Remote file contents confirmed.
+2012/01/31 13:01:58 - 50.16.2.204:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 50.19.198.188:   Starting HPCC services.
+2012/01/31 13:01:58 - 50.19.198.188:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:58 - 50.19.151.6:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 50.19.38.38:     Software installation finished.
+2012/01/31 13:01:58 - 50.19.38.38:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 23.20.26.253:    Software installation finished.
+2012/01/31 13:01:58 - 23.20.26.253:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 50.19.75.229:    Software installation finished.
+2012/01/31 13:01:58 - 50.19.75.229:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 50.19.181.15:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 23.20.31.152:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 50.16.116.84:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.21.198.170:  Checking network mask is compatible.
+2012/01/31 13:01:58 - 107.21.198.170:  Checking disk I/O
+2012/01/31 13:01:58 - 184.73.140.221:  Software installation finished.
+2012/01/31 13:01:58 - 184.73.140.221:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 50.16.2.204:     Checking file contents.
+2012/01/31 13:01:58 - 50.19.151.6:     Checking file contents.
+2012/01/31 13:01:58 - 107.22.18.100:   Checking network mask is compatible.
+2012/01/31 13:01:58 - 107.22.18.100:   Checking disk I/O
+2012/01/31 13:01:58 - 204.236.210.153: Software installation finished.
+2012/01/31 13:01:58 - 204.236.210.153: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 50.19.181.15:    Checking file contents.
+2012/01/31 13:01:58 - 107.21.66.186:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.22.13.205:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 23.20.31.152:    Checking file contents.
+2012/01/31 13:01:58 - 107.21.128.93:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 50.16.116.84:    Checking file contents.
+2012/01/31 13:01:58 - 107.22.40.243:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 23.20.25.1:      Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.21.198.170:  Checking software installation completed.
+2012/01/31 13:01:58 - 107.21.66.186:   Checking file contents.
+2012/01/31 13:01:58 - 107.22.18.100:   Checking software installation completed.
+2012/01/31 13:01:58 - 107.21.180.189:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.22.13.205:   Checking file contents.
+2012/01/31 13:01:58 - 107.21.128.93:   Checking file contents.
+2012/01/31 13:01:58 - 204.236.200.154: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.22.40.243:   Checking file contents.
+2012/01/31 13:01:58 - 23.20.25.1:      Checking file contents.
+2012/01/31 13:01:58 - 107.21.133.224:  Remote file contents confirmed.
+2012/01/31 13:01:58 - 50.16.142.122:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.21.133.224:  Starting HPCC services.
+2012/01/31 13:01:58 - 107.21.133.224:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:58 - 107.21.180.189:  Checking file contents.
+2012/01/31 13:01:58 - 107.21.198.170:  Software installation finished.
+2012/01/31 13:01:58 - 107.21.198.170:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:58 - 107.22.105.49:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:58 - 107.20.21.231:   Checking network mask is compatible.
+2012/01/31 13:01:58 - 107.20.21.231:   Checking disk I/O
+2012/01/31 13:01:59 - 204.236.200.154: Checking file contents.
+2012/01/31 13:01:59 - 23.20.26.253:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 23.20.31.152:    Remote file contents confirmed.
+2012/01/31 13:01:59 - 23.20.31.152:    Starting HPCC services.
+2012/01/31 13:01:59 - 23.20.31.152:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 50.19.151.6:     Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.19.151.6:     Starting HPCC services.
+2012/01/31 13:01:59 - 50.16.2.204:     Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.19.151.6:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 50.16.2.204:     Starting HPCC services.
+2012/01/31 13:01:59 - 50.16.2.204:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 50.16.142.122:   Checking file contents.
+2012/01/31 13:01:59 - 50.19.75.229:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 50.19.38.38:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 50.19.181.15:    Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.19.181.15:    Starting HPCC services.
+2012/01/31 13:01:59 - 50.19.181.15:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.22.105.49:   Checking file contents.
+2012/01/31 13:01:59 - 50.16.116.84:    Remote file contents confirmed.
+2012/01/31 13:01:59 - 184.73.140.221:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 50.16.116.84:    Starting HPCC services.
+2012/01/31 13:01:59 - 50.16.116.84:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 204.236.210.153: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 23.20.26.253:    Checking file contents.
+2012/01/31 13:01:59 - 107.20.21.231:   Checking software installation completed.
+2012/01/31 13:01:59 - 50.19.38.38:     Checking file contents.
+2012/01/31 13:01:59 - 50.19.75.229:    Checking file contents.
+2012/01/31 13:01:59 - 107.21.66.186:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.21.66.186:   Starting HPCC services.
+2012/01/31 13:01:59 - 107.21.66.186:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 184.73.140.221:  Checking file contents.
+2012/01/31 13:01:59 - 107.22.13.205:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.22.13.205:   Starting HPCC services.
+2012/01/31 13:01:59 - 107.22.13.205:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.21.128.93:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.22.40.243:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.21.128.93:   Starting HPCC services.
+2012/01/31 13:01:59 - 107.21.128.93:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.22.40.243:   Starting HPCC services.
+2012/01/31 13:01:59 - 107.22.40.243:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 204.236.210.153: Checking file contents.
+2012/01/31 13:01:59 - 23.20.25.1:      Remote file contents confirmed.
+2012/01/31 13:01:59 - 23.20.25.1:      Starting HPCC services.
+2012/01/31 13:01:59 - 23.20.25.1:      HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.20.21.231:   Software installation finished.
+2012/01/31 13:01:59 - 107.20.21.231:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:01:59 - 107.21.180.189:  Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.21.180.189:  Starting HPCC services.
+2012/01/31 13:01:59 - 107.21.180.189:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 204.236.200.154: Remote file contents confirmed.
+2012/01/31 13:01:59 - 204.236.200.154: Starting HPCC services.
+2012/01/31 13:01:59 - 204.236.200.154: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.21.198.170:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:01:59 - 50.16.142.122:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.16.142.122:   Starting HPCC services.
+2012/01/31 13:01:59 - 50.16.142.122:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.21.198.170:  Checking file contents.
+2012/01/31 13:01:59 - 107.22.105.49:   Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.22.105.49:   Starting HPCC services.
+2012/01/31 13:01:59 - 107.22.105.49:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 50.19.75.229:    Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.19.38.38:     Remote file contents confirmed.
+2012/01/31 13:01:59 - 50.19.75.229:    Starting HPCC services.
+2012/01/31 13:01:59 - 50.19.75.229:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 50.19.38.38:     Starting HPCC services.
+2012/01/31 13:01:59 - 50.19.38.38:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 23.20.26.253:    Remote file contents confirmed.
+2012/01/31 13:01:59 - 23.20.26.253:    Starting HPCC services.
+2012/01/31 13:01:59 - 23.20.26.253:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 184.73.140.221:  Remote file contents confirmed.
+2012/01/31 13:01:59 - 184.73.140.221:  Starting HPCC services.
+2012/01/31 13:01:59 - 184.73.140.221:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 204.236.210.153: Remote file contents confirmed.
+2012/01/31 13:01:59 - 204.236.210.153: Starting HPCC services.
+2012/01/31 13:01:59 - 204.236.210.153: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.21.198.170:  Remote file contents confirmed.
+2012/01/31 13:01:59 - 107.21.198.170:  Starting HPCC services.
+2012/01/31 13:01:59 - 107.21.198.170:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:01:59 - 107.20.21.231:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:00 - 107.20.21.231:   Checking file contents.
+2012/01/31 13:02:00 - 107.20.21.231:   Remote file contents confirmed.
+2012/01/31 13:02:00 - 107.20.21.231:   Starting HPCC services.
+2012/01/31 13:02:00 - 107.20.21.231:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:00 - 50.19.198.188:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:00 - 50.19.198.188:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:00 - 50.19.198.188:   Start node is complete.
+2012/01/31 13:02:00 - 184.73.51.83:    Starting node configuration.
+2012/01/31 13:02:00 - 184.73.51.83:    Connecting via SSH.
+2012/01/31 13:02:00 - 107.22.18.100:   Software installation finished.
+2012/01/31 13:02:00 - 107.22.18.100:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:01 - 107.22.18.100:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:01 - 107.22.18.100:   Checking file contents.
+2012/01/31 13:02:01 - 107.22.18.100:   Remote file contents confirmed.
+2012/01/31 13:02:01 - 107.22.18.100:   Starting HPCC services.
+2012/01/31 13:02:01 - 107.22.18.100:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:01 - 107.21.133.224:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 107.21.133.224:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 184.73.51.83:    Checking network mask is compatible.
+2012/01/31 13:02:01 - 184.73.51.83:    Checking disk I/O
+2012/01/31 13:02:01 - 184.73.51.83:    Checking software installation completed.
+2012/01/31 13:02:01 - 184.73.51.83:    Software installation finished.
+2012/01/31 13:02:01 - 184.73.51.83:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:01 - 107.21.133.224:  Start node is complete.
+2012/01/31 13:02:01 - 174.129.166.216: Starting node configuration.
+2012/01/31 13:02:01 - 174.129.166.216: Connecting via SSH.
+2012/01/31 13:02:01 - 50.19.151.6:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 50.19.151.6:     Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 50.16.2.204:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 50.16.2.204:     Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 107.21.66.186:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 107.21.66.186:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 107.21.66.186:   Start node is complete.
+2012/01/31 13:02:01 - 107.20.54.93:    Starting node configuration.
+2012/01/31 13:02:01 - 107.20.54.93:    Connecting via SSH.
+2012/01/31 13:02:01 - 50.19.181.15:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 50.19.181.15:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 23.20.31.152:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 23.20.31.152:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 50.19.181.15:    Start node is complete.
+2012/01/31 13:02:01 - 23.20.31.152:    Start node is complete.
+2012/01/31 13:02:01 - 184.73.151.231:  Starting node configuration.
+2012/01/31 13:02:01 - 184.73.151.231:  Connecting via SSH.
+2012/01/31 13:02:01 - 50.16.141.254:   Starting node configuration.
+2012/01/31 13:02:01 - 50.16.141.254:   Connecting via SSH.
+2012/01/31 13:02:01 - 50.19.151.6:     Start node is complete.
+2012/01/31 13:02:01 - 50.16.2.204:     Start node is complete.
+2012/01/31 13:02:01 - 50.17.64.168:    Starting node configuration.
+2012/01/31 13:02:01 - 50.17.64.168:    Connecting via SSH.
+2012/01/31 13:02:01 - 50.16.23.233:    Starting node configuration.
+2012/01/31 13:02:01 - 50.16.23.233:    Connecting via SSH.
+2012/01/31 13:02:01 - 50.16.116.84:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 50.16.116.84:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 107.22.13.205:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:01 - 107.22.13.205:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:01 - 107.22.13.205:   Start node is complete.
+2012/01/31 13:02:02 - 107.22.123.120:  Starting node configuration.
+2012/01/31 13:02:02 - 50.16.116.84:    Start node is complete.
+2012/01/31 13:02:02 - 107.22.123.120:  Connecting via SSH.
+2012/01/31 13:02:02 - 50.17.123.127:   Starting node configuration.
+2012/01/31 13:02:02 - 50.17.123.127:   Connecting via SSH.
+2012/01/31 13:02:02 - 107.22.40.243:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.22.40.243:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 107.21.128.93:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.21.128.93:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 23.20.25.1:      Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 23.20.25.1:      Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 107.21.128.93:   Start node is complete.
+2012/01/31 13:02:02 - 107.21.180.189:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.21.180.189:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 107.20.126.58:   Starting node configuration.
+2012/01/31 13:02:02 - 23.20.25.1:      Start node is complete.
+2012/01/31 13:02:02 - 107.20.126.58:   Connecting via SSH.
+2012/01/31 13:02:02 - 107.22.40.243:   Start node is complete.
+2012/01/31 13:02:02 - 174.129.135.33:  Starting node configuration.
+2012/01/31 13:02:02 - 174.129.135.33:  Connecting via SSH.
+2012/01/31 13:02:02 - 50.17.72.63:     Starting node configuration.
+2012/01/31 13:02:02 - 50.17.72.63:     Connecting via SSH.
+2012/01/31 13:02:02 - 107.21.180.189:  Start node is complete.
+2012/01/31 13:02:02 - 107.21.90.156:   Starting node configuration.
+2012/01/31 13:02:02 - 184.73.140.221:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 184.73.140.221:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 107.21.90.156:   Connecting via SSH.
+2012/01/31 13:02:02 - 23.20.26.253:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 204.236.200.154: Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 23.20.26.253:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 204.236.200.154: Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 50.19.38.38:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 50.19.38.38:     Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 184.73.140.221:  Start node is complete.
+2012/01/31 13:02:02 - 184.73.59.178:   Starting node configuration.
+2012/01/31 13:02:02 - 204.236.200.154: Start node is complete.
+2012/01/31 13:02:02 - 107.22.105.49:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.22.105.49:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 50.17.95.83:     Starting node configuration.
+2012/01/31 13:02:02 - 184.73.51.83:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:02 - 184.73.59.178:   Connecting via SSH.
+2012/01/31 13:02:02 - 50.17.95.83:     Connecting via SSH.
+2012/01/31 13:02:02 - 50.19.38.38:     Start node is complete.
+2012/01/31 13:02:02 - 50.17.102.192:   Starting node configuration.
+2012/01/31 13:02:02 - 50.17.102.192:   Connecting via SSH.
+2012/01/31 13:02:02 - 23.20.26.253:    Start node is complete.
+2012/01/31 13:02:02 - 107.21.85.249:   Starting node configuration.
+2012/01/31 13:02:02 - 107.21.85.249:   Connecting via SSH.
+2012/01/31 13:02:02 - 204.236.210.153: Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 204.236.210.153: Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 174.129.166.216: Checking network mask is compatible.
+2012/01/31 13:02:02 - 174.129.166.216: Checking disk I/O
+2012/01/31 13:02:02 - 107.22.105.49:   Start node is complete.
+2012/01/31 13:02:02 - 107.21.198.170:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.21.198.170:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 50.16.90.176:    Starting node configuration.
+2012/01/31 13:02:02 - 50.16.90.176:    Connecting via SSH.
+2012/01/31 13:02:02 - 50.19.75.229:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 50.19.75.229:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 204.236.210.153: Start node is complete.
+2012/01/31 13:02:02 - 107.21.198.170:  Start node is complete.
+2012/01/31 13:02:02 - 174.129.101.213: Starting node configuration.
+2012/01/31 13:02:02 - 174.129.101.213: Connecting via SSH.
+2012/01/31 13:02:02 - 50.17.177.51:    Starting node configuration.
+2012/01/31 13:02:02 - 50.19.75.229:    Start node is complete.
+2012/01/31 13:02:02 - 50.17.177.51:    Connecting via SSH.
+2012/01/31 13:02:02 - 50.16.142.122:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 50.16.142.122:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 23.20.20.13:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 23.20.20.13:     Starting myesp....             [  OK  ]   
+2012/01/31 13:02:02 - 23.20.20.13:     Starting mythor....            [  OK  ]  
+2012/01/31 13:02:02 - 107.20.21.231:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:02 - 107.20.21.231:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:02 - 107.22.24.166:   Starting node configuration.
+2012/01/31 13:02:02 - 23.20.20.13:     Start node is complete.
+2012/01/31 13:02:02 - 50.16.142.122:   Start node is complete.
+2012/01/31 13:02:02 - 107.22.24.166:   Connecting via SSH.
+2012/01/31 13:02:02 - 107.21.133.116:  Starting node configuration.
+2012/01/31 13:02:02 - 107.22.129.175:  Starting node configuration.
+2012/01/31 13:02:02 - 107.21.133.116:  Connecting via SSH.
+2012/01/31 13:02:03 - 107.22.129.175:  Connecting via SSH.
+2012/01/31 13:02:03 - 107.20.21.231:   Start node is complete.
+2012/01/31 13:02:03 - 107.20.43.87:    Starting node configuration.
+2012/01/31 13:02:03 - 107.20.43.87:    Connecting via SSH.
+2012/01/31 13:02:03 - 184.73.151.231:  Checking network mask is compatible.
+2012/01/31 13:02:03 - 184.73.151.231:  Checking disk I/O
+2012/01/31 13:02:03 - 184.73.51.83:    Checking file contents.
+2012/01/31 13:02:04 - 50.16.141.254:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.16.141.254:   Checking disk I/O
+2012/01/31 13:02:04 - 107.20.54.93:    Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.20.54.93:    Checking disk I/O
+2012/01/31 13:02:04 - 174.129.166.216: Checking software installation completed.
+2012/01/31 13:02:04 - 107.22.18.100:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:04 - 107.22.18.100:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:04 - 107.22.18.100:   Start node is complete.
+2012/01/31 13:02:04 - 50.17.179.86:    Starting node configuration.
+2012/01/31 13:02:04 - 50.17.179.86:    Connecting via SSH.
+2012/01/31 13:02:04 - 50.16.23.233:    Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.16.23.233:    Checking disk I/O
+2012/01/31 13:02:04 - 107.22.123.120:  Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.22.123.120:  Checking disk I/O
+2012/01/31 13:02:04 - 50.17.64.168:    Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.17.64.168:    Checking disk I/O
+2012/01/31 13:02:04 - 174.129.135.33:  Checking network mask is compatible.
+2012/01/31 13:02:04 - 174.129.135.33:  Checking disk I/O
+2012/01/31 13:02:04 - 107.20.126.58:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.20.126.58:   Checking disk I/O
+2012/01/31 13:02:04 - 50.17.123.127:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.17.123.127:   Checking disk I/O
+2012/01/31 13:02:04 - 184.73.151.231:  Checking software installation completed.
+2012/01/31 13:02:04 - 107.21.90.156:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.21.90.156:   Checking disk I/O
+2012/01/31 13:02:04 - 50.17.72.63:     Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.17.72.63:     Checking disk I/O
+2012/01/31 13:02:04 - 50.16.141.254:   Checking software installation completed.
+2012/01/31 13:02:04 - 50.17.95.83:     Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.17.95.83:     Checking disk I/O
+2012/01/31 13:02:04 - 107.20.54.93:    Checking software installation completed.
+2012/01/31 13:02:04 - 50.16.23.233:    Checking software installation completed.
+2012/01/31 13:02:04 - 174.129.166.216: Software installation finished.
+2012/01/31 13:02:04 - 174.129.166.216: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 50.17.64.168:    Checking software installation completed.
+2012/01/31 13:02:04 - 107.22.123.120:  Checking software installation completed.
+2012/01/31 13:02:04 - 174.129.135.33:  Checking software installation completed.
+2012/01/31 13:02:04 - 107.21.85.249:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.21.85.249:   Checking disk I/O
+2012/01/31 13:02:04 - 50.17.123.127:   Checking software installation completed.
+2012/01/31 13:02:04 - 184.73.151.231:  Software installation finished.
+2012/01/31 13:02:04 - 184.73.151.231:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 107.20.126.58:   Checking software installation completed.
+2012/01/31 13:02:04 - 50.17.72.63:     Checking software installation completed.
+2012/01/31 13:02:04 - 184.73.59.178:   Checking network mask is compatible.
+2012/01/31 13:02:04 - 184.73.59.178:   Checking disk I/O
+2012/01/31 13:02:04 - 107.21.90.156:   Checking software installation completed.
+2012/01/31 13:02:04 - 50.17.95.83:     Checking software installation completed.
+2012/01/31 13:02:04 - 50.17.177.51:    Checking network mask is compatible.
+2012/01/31 13:02:04 - 50.17.177.51:    Checking disk I/O
+2012/01/31 13:02:04 - 107.20.54.93:    Software installation finished.
+2012/01/31 13:02:04 - 107.20.54.93:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 50.17.64.168:    Software installation finished.
+2012/01/31 13:02:04 - 50.17.64.168:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 50.16.23.233:    Software installation finished.
+2012/01/31 13:02:04 - 50.16.23.233:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 184.73.51.83:    Remote file contents confirmed.
+2012/01/31 13:02:04 - 184.73.51.83:    Starting HPCC services.
+2012/01/31 13:02:04 - 184.73.51.83:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:04 - 107.22.123.120:  Software installation finished.
+2012/01/31 13:02:04 - 107.22.123.120:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:04 - 107.21.133.116:  Checking network mask is compatible.
+2012/01/31 13:02:04 - 107.21.133.116:  Checking disk I/O
+2012/01/31 13:02:05 - 50.17.102.192:   Checking network mask is compatible.
+2012/01/31 13:02:05 - 50.17.102.192:   Checking disk I/O
+2012/01/31 13:02:05 - 107.20.126.58:   Software installation finished.
+2012/01/31 13:02:05 - 107.20.126.58:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.21.85.249:   Checking software installation completed.
+2012/01/31 13:02:05 - 50.17.72.63:     Software installation finished.
+2012/01/31 13:02:05 - 50.17.72.63:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 174.129.135.33:  Software installation finished.
+2012/01/31 13:02:05 - 174.129.135.33:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.22.24.166:   Checking network mask is compatible.
+2012/01/31 13:02:05 - 107.22.24.166:   Checking disk I/O
+2012/01/31 13:02:05 - 184.73.59.178:   Checking software installation completed.
+2012/01/31 13:02:05 - 50.17.123.127:   Software installation finished.
+2012/01/31 13:02:05 - 50.17.123.127:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.21.90.156:   Software installation finished.
+2012/01/31 13:02:05 - 107.21.90.156:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 50.17.95.83:     Software installation finished.
+2012/01/31 13:02:05 - 50.17.95.83:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 174.129.101.213: Checking network mask is compatible.
+2012/01/31 13:02:05 - 174.129.101.213: Checking disk I/O
+2012/01/31 13:02:05 - 50.16.90.176:    Checking network mask is compatible.
+2012/01/31 13:02:05 - 50.16.90.176:    Checking disk I/O
+2012/01/31 13:02:05 - 50.17.177.51:    Checking software installation completed.
+2012/01/31 13:02:05 - 107.20.43.87:    Checking network mask is compatible.
+2012/01/31 13:02:05 - 107.20.43.87:    Checking disk I/O
+2012/01/31 13:02:05 - 107.21.133.116:  Checking software installation completed.
+2012/01/31 13:02:05 - 50.17.102.192:   Checking software installation completed.
+2012/01/31 13:02:05 - 107.22.129.175:  Checking network mask is compatible.
+2012/01/31 13:02:05 - 107.22.129.175:  Checking disk I/O
+2012/01/31 13:02:05 - 107.22.24.166:   Checking software installation completed.
+2012/01/31 13:02:05 - 107.21.85.249:   Software installation finished.
+2012/01/31 13:02:05 - 107.21.85.249:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 184.73.59.178:   Software installation finished.
+2012/01/31 13:02:05 - 174.129.101.213: Checking software installation completed.
+2012/01/31 13:02:05 - 184.73.59.178:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 50.16.90.176:    Checking software installation completed.
+2012/01/31 13:02:05 - 50.17.177.51:    Software installation finished.
+2012/01/31 13:02:05 - 50.17.177.51:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.20.43.87:    Checking software installation completed.
+2012/01/31 13:02:05 - 50.17.102.192:   Software installation finished.
+2012/01/31 13:02:05 - 50.17.102.192:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.21.133.116:  Software installation finished.
+2012/01/31 13:02:05 - 107.21.133.116:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.22.129.175:  Checking software installation completed.
+2012/01/31 13:02:05 - 107.22.24.166:   Software installation finished.
+2012/01/31 13:02:05 - 107.22.24.166:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 50.17.179.86:    Checking network mask is compatible.
+2012/01/31 13:02:05 - 50.17.179.86:    Checking disk I/O
+2012/01/31 13:02:05 - 174.129.166.216: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.16.90.176:    Software installation finished.
+2012/01/31 13:02:05 - 50.16.90.176:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 174.129.101.213: Software installation finished.
+2012/01/31 13:02:05 - 174.129.101.213: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 184.73.151.231:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.20.43.87:    Software installation finished.
+2012/01/31 13:02:05 - 107.20.43.87:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 107.22.129.175:  Software installation finished.
+2012/01/31 13:02:05 - 107.22.129.175:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:05 - 50.16.23.233:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 174.129.166.216: Checking file contents.
+2012/01/31 13:02:05 - 107.20.54.93:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.17.179.86:    Checking software installation completed.
+2012/01/31 13:02:05 - 174.129.135.33:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.20.126.58:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.22.123.120:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.17.72.63:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.17.64.168:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.21.90.156:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 184.73.151.231:  Checking file contents.
+2012/01/31 13:02:05 - 50.16.23.233:    Checking file contents.
+2012/01/31 13:02:05 - 50.17.123.127:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.17.95.83:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.20.54.93:    Checking file contents.
+2012/01/31 13:02:05 - 174.129.135.33:  Checking file contents.
+2012/01/31 13:02:05 - 107.20.126.58:   Checking file contents.
+2012/01/31 13:02:05 - 107.22.123.120:  Checking file contents.
+2012/01/31 13:02:05 - 50.17.72.63:     Checking file contents.
+2012/01/31 13:02:05 - 107.21.90.156:   Checking file contents.
+2012/01/31 13:02:05 - 50.17.64.168:    Checking file contents.
+2012/01/31 13:02:05 - 50.17.123.127:   Checking file contents.
+2012/01/31 13:02:05 - 50.17.95.83:     Checking file contents.
+2012/01/31 13:02:05 - 107.21.85.249:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 50.17.102.192:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:05 - 107.21.133.116:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 50.17.177.51:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 107.22.24.166:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 50.16.90.176:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 50.17.179.86:    Software installation finished.
+2012/01/31 13:02:06 - 50.17.179.86:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:06 - 107.21.85.249:   Checking file contents.
+2012/01/31 13:02:06 - 107.20.43.87:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 174.129.101.213: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 50.17.102.192:   Checking file contents.
+2012/01/31 13:02:06 - 107.21.133.116:  Checking file contents.
+2012/01/31 13:02:06 - 184.73.59.178:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 107.22.129.175:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:06 - 50.16.23.233:    Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.17.177.51:    Checking file contents.
+2012/01/31 13:02:06 - 50.16.23.233:    Starting HPCC services.
+2012/01/31 13:02:06 - 50.16.23.233:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 107.20.126.58:   Remote file contents confirmed.
+2012/01/31 13:02:06 - 107.20.126.58:   Starting HPCC services.
+2012/01/31 13:02:06 - 107.20.126.58:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 107.22.24.166:   Checking file contents.
+2012/01/31 13:02:06 - 184.73.151.231:  Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.16.90.176:    Checking file contents.
+2012/01/31 13:02:06 - 184.73.151.231:  Starting HPCC services.
+2012/01/31 13:02:06 - 184.73.151.231:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 50.17.72.63:     Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.17.72.63:     Starting HPCC services.
+2012/01/31 13:02:06 - 50.17.72.63:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 107.20.54.93:    Remote file contents confirmed.
+2012/01/31 13:02:06 - 107.20.54.93:    Starting HPCC services.
+2012/01/31 13:02:06 - 107.20.54.93:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 174.129.135.33:  Remote file contents confirmed.
+2012/01/31 13:02:06 - 107.22.123.120:  Remote file contents confirmed.
+2012/01/31 13:02:06 - 107.22.123.120:  Starting HPCC services.
+2012/01/31 13:02:06 - 107.22.123.120:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 174.129.135.33:  Starting HPCC services.
+2012/01/31 13:02:06 - 174.129.135.33:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 174.129.101.213: Checking file contents.
+2012/01/31 13:02:06 - 184.73.59.178:   Checking file contents.
+2012/01/31 13:02:06 - 107.20.43.87:    Checking file contents.
+2012/01/31 13:02:06 - 107.21.90.156:   Remote file contents confirmed.
+2012/01/31 13:02:06 - 107.21.90.156:   Starting HPCC services.
+2012/01/31 13:02:06 - 107.21.90.156:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 107.22.129.175:  Checking file contents.
+2012/01/31 13:02:06 - 50.17.64.168:    Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.17.64.168:    Starting HPCC services.
+2012/01/31 13:02:06 - 50.17.64.168:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 50.17.95.83:     Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.17.95.83:     Starting HPCC services.
+2012/01/31 13:02:06 - 50.17.95.83:     HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 50.17.123.127:   Remote file contents confirmed.
+2012/01/31 13:02:06 - 50.17.123.127:   Starting HPCC services.
+2012/01/31 13:02:06 - 50.17.123.127:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:06 - 50.16.141.254:   Software installation finished.
+2012/01/31 13:02:06 - 50.16.141.254:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:07 - 107.22.24.166:   Remote file contents confirmed.
+2012/01/31 13:02:07 - 107.22.24.166:   Starting HPCC services.
+2012/01/31 13:02:07 - 107.22.24.166:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 50.17.102.192:   Remote file contents confirmed.
+2012/01/31 13:02:07 - 50.17.102.192:   Starting HPCC services.
+2012/01/31 13:02:07 - 50.17.102.192:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 50.17.179.86:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:07 - 50.16.90.176:    Remote file contents confirmed.
+2012/01/31 13:02:07 - 50.16.90.176:    Starting HPCC services.
+2012/01/31 13:02:07 - 50.16.90.176:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 50.17.177.51:    Remote file contents confirmed.
+2012/01/31 13:02:07 - 50.17.177.51:    Starting HPCC services.
+2012/01/31 13:02:07 - 50.17.177.51:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 107.21.133.116:  Remote file contents confirmed.
+2012/01/31 13:02:07 - 107.21.85.249:   Remote file contents confirmed.
+2012/01/31 13:02:07 - 107.21.85.249:   Starting HPCC services.
+2012/01/31 13:02:07 - 107.21.85.249:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 107.21.133.116:  Starting HPCC services.
+2012/01/31 13:02:07 - 107.21.133.116:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 174.129.101.213: Remote file contents confirmed.
+2012/01/31 13:02:07 - 174.129.101.213: Starting HPCC services.
+2012/01/31 13:02:07 - 174.129.101.213: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 107.20.43.87:    Remote file contents confirmed.
+2012/01/31 13:02:07 - 107.20.43.87:    Starting HPCC services.
+2012/01/31 13:02:07 - 107.20.43.87:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 107.22.129.175:  Remote file contents confirmed.
+2012/01/31 13:02:07 - 107.22.129.175:  Starting HPCC services.
+2012/01/31 13:02:07 - 107.22.129.175:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 184.73.59.178:   Remote file contents confirmed.
+2012/01/31 13:02:07 - 184.73.59.178:   Starting HPCC services.
+2012/01/31 13:02:07 - 184.73.59.178:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 50.17.179.86:    Checking file contents.
+2012/01/31 13:02:07 - 50.17.179.86:    Remote file contents confirmed.
+2012/01/31 13:02:07 - 50.17.179.86:    Starting HPCC services.
+2012/01/31 13:02:07 - 50.17.179.86:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 184.73.51.83:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:07 - 184.73.51.83:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:07 - 184.73.51.83:    Start node is complete.
+2012/01/31 13:02:07 - 75.101.241.56:   Starting node configuration.
+2012/01/31 13:02:07 - 75.101.241.56:   Connecting via SSH.
+2012/01/31 13:02:07 - 50.16.141.254:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:07 - 50.16.141.254:   Checking file contents.
+2012/01/31 13:02:07 - 50.16.141.254:   Remote file contents confirmed.
+2012/01/31 13:02:07 - 50.16.141.254:   Starting HPCC services.
+2012/01/31 13:02:07 - 50.16.141.254:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 174.129.166.216: Remote file contents confirmed.
+2012/01/31 13:02:07 - 174.129.166.216: Starting HPCC services.
+2012/01/31 13:02:07 - 174.129.166.216: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:07 - 75.101.241.56:   Checking network mask is compatible.
+2012/01/31 13:02:07 - 75.101.241.56:   Checking disk I/O
+2012/01/31 13:02:08 - 75.101.241.56:   Checking software installation completed.
+2012/01/31 13:02:08 - 75.101.241.56:   Software installation finished.
+2012/01/31 13:02:08 - 75.101.241.56:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:08 - 75.101.241.56:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:08 - 75.101.241.56:   Checking file contents.
+2012/01/31 13:02:08 - 75.101.241.56:   Remote file contents confirmed.
+2012/01/31 13:02:08 - 75.101.241.56:   Starting HPCC services.
+2012/01/31 13:02:08 - 75.101.241.56:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:08 - 107.21.90.156:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:08 - 107.21.90.156:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:08 - 107.21.90.156:   Start node is complete.
+2012/01/31 13:02:08 - 23.20.35.195:    Starting node configuration.
+2012/01/31 13:02:08 - 23.20.35.195:    Connecting via SSH.
+2012/01/31 13:02:08 - 107.20.126.58:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:08 - 107.20.126.58:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:08 - 107.20.126.58:   Start node is complete.
+2012/01/31 13:02:08 - 107.20.100.124:  Starting node configuration.
+2012/01/31 13:02:08 - 107.20.100.124:  Connecting via SSH.
+2012/01/31 13:02:09 - 50.17.123.127:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.123.127:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.72.63:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.72.63:     Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.16.23.233:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.16.23.233:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.123.127:   Start node is complete.
+2012/01/31 13:02:09 - 50.17.72.63:     Start node is complete.
+2012/01/31 13:02:09 - 50.16.23.233:    Start node is complete.
+2012/01/31 13:02:09 - 50.16.30.238:    Starting node configuration.
+2012/01/31 13:02:09 - 50.16.30.238:    Connecting via SSH.
+2012/01/31 13:02:09 - 107.22.44.187:   Starting node configuration.
+2012/01/31 13:02:09 - 107.22.44.187:   Connecting via SSH.
+2012/01/31 13:02:09 - 174.129.135.33:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 174.129.135.33:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 184.73.151.231:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 184.73.151.231:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.64.168:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.64.168:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 184.73.151.231:  Start node is complete.
+2012/01/31 13:02:09 - 174.129.135.33:  Start node is complete.
+2012/01/31 13:02:09 - 50.17.64.168:    Start node is complete.
+2012/01/31 13:02:09 - 107.20.54.93:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.20.54.93:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.22.123.120:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.22.123.120:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.95.83:     Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.95.83:     Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.22.123.120:  Start node is complete.
+2012/01/31 13:02:09 - 107.20.54.93:    Start node is complete.
+2012/01/31 13:02:09 - 50.17.95.83:     Start node is complete.
+2012/01/31 13:02:09 - 50.17.177.51:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.177.51:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.21.133.116:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.177.51:    Start node is complete.
+2012/01/31 13:02:09 - 107.21.133.116:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.21.133.116:  Start node is complete.
+2012/01/31 13:02:09 - 23.20.35.195:    Checking network mask is compatible.
+2012/01/31 13:02:09 - 23.20.35.195:    Checking disk I/O
+2012/01/31 13:02:09 - 107.22.24.166:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.22.24.166:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 23.20.35.195:    Checking software installation completed.
+2012/01/31 13:02:09 - 107.20.43.87:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.20.43.87:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.102.192:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.102.192:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 184.73.59.178:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 184.73.59.178:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.22.129.175:  Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.22.129.175:  Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.22.129.175:  Start node is complete.
+2012/01/31 13:02:09 - 23.20.35.195:    Software installation finished.
+2012/01/31 13:02:09 - 23.20.35.195:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:09 - 107.21.85.249:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 107.21.85.249:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 107.21.85.249:   Start node is complete.
+2012/01/31 13:02:09 - 107.22.24.166:   Start node is complete.
+2012/01/31 13:02:09 - 107.22.44.187:   Checking network mask is compatible.
+2012/01/31 13:02:09 - 107.22.44.187:   Checking disk I/O
+2012/01/31 13:02:09 - 50.17.102.192:   Start node is complete.
+2012/01/31 13:02:09 - 107.20.43.87:    Start node is complete.
+2012/01/31 13:02:09 - 107.22.44.187:   Checking software installation completed.
+2012/01/31 13:02:09 - 107.20.100.124:  Checking network mask is compatible.
+2012/01/31 13:02:09 - 107.20.100.124:  Checking disk I/O
+2012/01/31 13:02:09 - 184.73.59.178:   Start node is complete.
+2012/01/31 13:02:09 - 174.129.101.213: Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 174.129.101.213: Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 174.129.101.213: Start node is complete.
+2012/01/31 13:02:09 - 107.22.44.187:   Software installation finished.
+2012/01/31 13:02:09 - 107.22.44.187:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:09 - 107.20.100.124:  Checking software installation completed.
+2012/01/31 13:02:09 - 107.20.100.124:  Software installation finished.
+2012/01/31 13:02:09 - 107.20.100.124:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:09 - 50.16.90.176:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.16.90.176:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.16.90.176:    Start node is complete.
+2012/01/31 13:02:09 - 23.20.35.195:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:09 - 50.17.179.86:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 50.17.179.86:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 50.17.179.86:    Start node is complete.
+2012/01/31 13:02:09 - 23.20.35.195:    Checking file contents.
+2012/01/31 13:02:09 - 50.16.30.238:    Checking network mask is compatible.
+2012/01/31 13:02:09 - 50.16.30.238:    Checking disk I/O
+2012/01/31 13:02:09 - 50.16.30.238:    Checking software installation completed.
+2012/01/31 13:02:09 - 107.22.44.187:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:09 - 107.22.44.187:   Checking file contents.
+2012/01/31 13:02:09 - 50.16.30.238:    Software installation finished.
+2012/01/31 13:02:09 - 50.16.30.238:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 13:02:09 - 23.20.35.195:    Remote file contents confirmed.
+2012/01/31 13:02:09 - 23.20.35.195:    Starting HPCC services.
+2012/01/31 13:02:09 - 23.20.35.195:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:09 - 107.20.100.124:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:09 - 107.20.100.124:  Checking file contents.
+2012/01/31 13:02:09 - 174.129.166.216: Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:09 - 174.129.166.216: Setting mythor....             [  OK  ]  
+2012/01/31 13:02:09 - 174.129.166.216: Start node is complete.
+2012/01/31 13:02:09 - 107.22.44.187:   Remote file contents confirmed.
+2012/01/31 13:02:09 - 107.22.44.187:   Starting HPCC services.
+2012/01/31 13:02:09 - 107.22.44.187:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:10 - 50.16.141.254:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:10 - 50.16.141.254:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:10 - 50.16.141.254:   Start node is complete.
+2012/01/31 13:02:10 - 50.16.30.238:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 13:02:10 - 107.20.100.124:  Remote file contents confirmed.
+2012/01/31 13:02:10 - 107.20.100.124:  Starting HPCC services.
+2012/01/31 13:02:10 - 107.20.100.124:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:10 - 50.16.30.238:    Checking file contents.
+2012/01/31 13:02:10 - 50.16.30.238:    Remote file contents confirmed.
+2012/01/31 13:02:10 - 50.16.30.238:    Starting HPCC services.
+2012/01/31 13:02:10 - 50.16.30.238:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 13:02:11 - 75.101.241.56:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:11 - 75.101.241.56:   Setting mythor....             [  OK  ]  
+2012/01/31 13:02:11 - 75.101.241.56:   Start node is complete.
+2012/01/31 13:02:12 - 107.22.44.187:   Starting mydafilesrv....       [  OK  ]  
+2012/01/31 13:02:12 - 107.22.44.187:   Start node is complete.
+2012/01/31 13:02:12 - 23.20.35.195:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 13:02:12 - 23.20.35.195:    Setting mythor....             [  OK  ]  
+2012/01/31 13:02:12 - 23.20.35.195:    Start node is complete.
+2012/01/31 13:02:12 - 107.20.100.124:  Starting mydafilesrv....       [  OK  ]  
+2012/01/31 13:02:12 - 107.20.100.124:  Start node is complete.
+2012/01/31 13:02:12 - 50.16.30.238:    Starting mydafilesrv....       [  OK  ]  
+2012/01/31 13:02:12 - 50.16.30.238:    Start node is complete.
+2012/01/31 13:02:12 - Done.
+2012/01/31 18:09:44 - Terminating cluster.
+2012/01/31 18:09:44 - Connecting to AWS region us-east-1.
+2012/01/31 18:09:44 - Gathering instances for Thor-BW58.
+2012/01/31 18:09:46 - Terminating instances.
+2012/01/31 18:10:18 - Waiting for 53 instances to terminate.
+2012/01/31 18:10:28 - Waiting for 6 instances to terminate.
+2012/01/31 18:10:34 - Waiting for 5 instances to terminate.
+2012/01/31 18:10:39 - Waiting for 5 instances to terminate.
+2012/01/31 18:10:45 - Waiting for 4 instances to terminate.
+2012/01/31 18:10:51 - Waiting for 4 instances to terminate.
+2012/01/31 18:10:56 - Waiting for 4 instances to terminate.
+2012/01/31 18:11:02 - Waiting for 4 instances to terminate.
+2012/01/31 18:11:07 - Waiting for 4 instances to terminate.
+2012/01/31 18:11:12 - Waiting for 4 instances to terminate.
+2012/01/31 18:11:18 - Waiting for 3 instances to terminate.
+2012/01/31 18:11:23 - Waiting for 2 instances to terminate.
+2012/01/31 18:11:28 - Waiting for 2 instances to terminate.
+2012/01/31 18:11:34 - Waiting for 2 instances to terminate.
+2012/01/31 18:11:39 - Deleting Access Key Thor-BW58.
+2012/01/31 18:11:39 - Deleting Security group Thor-BW58.
+2012/01/31 18:11:39 - Done.

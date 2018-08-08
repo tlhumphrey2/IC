@@ -1,0 +1,196 @@
+2015/06/02 15:22:17 - Connecting to AWS region us-west-2.
+2015/06/02 15:22:17 - Calculating new unique cluster name for request 1095.
+2015/06/02 15:22:17 - Creating new cluster name, Hpcc-3PCR.
+2015/06/02 15:22:17 - Creating Hpcc-3PCR security group.
+2015/06/02 15:22:19 - Creating Hpcc-3PCR key pair.
+2015/06/02 15:22:20 - Launching 5 m1.large nodes using ami-610d2351.
+2015/06/02 15:22:21 - Reservation ID r-952a349f created.
+2015/06/02 15:22:21 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:27 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:32 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:38 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:44 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:49 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:22:55 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:23:01 - Waiting for 5 of 5 nodes to launch.
+2015/06/02 15:23:09 - Waiting for 2 of 5 nodes to launch.
+2015/06/02 15:23:15 - Waiting for 1 of 5 nodes to launch.
+2015/06/02 15:23:20 - Pending instances have completed.
+2015/06/02 15:23:20 - Checking each node launched properly.
+2015/06/02 15:23:20 - 52.12.169.175:   Checking EC2 instance i-77187480.
+2015/06/02 15:23:20 - 54.188.48.218:   Checking EC2 instance i-76187481.
+2015/06/02 15:23:20 - 54.188.47.91:    Checking EC2 instance i-75187482.
+2015/06/02 15:23:20 - 52.12.170.167:   Checking EC2 instance i-74187483.
+2015/06/02 15:23:20 - 54.202.45.146:   Checking EC2 instance i-6d18749a.
+2015/06/02 15:23:20 - 52.12.169.175:   Checking EC2 instance is running.
+2015/06/02 15:23:20 - 52.12.169.175:   Connecting via SSH.
+2015/06/02 15:23:20 - 52.12.170.167:   Checking EC2 instance is running.
+2015/06/02 15:23:20 - 52.12.170.167:   Connecting via SSH.
+2015/06/02 15:23:20 - 54.188.47.91:    Checking EC2 instance is running.
+2015/06/02 15:23:20 - 54.188.47.91:    Connecting via SSH.
+2015/06/02 15:23:20 - 54.202.45.146:   Checking EC2 instance is running.
+2015/06/02 15:23:20 - 54.202.45.146:   Connecting via SSH.
+2015/06/02 15:23:20 - 54.188.48.218:   Checking EC2 instance is running.
+2015/06/02 15:23:20 - 54.188.48.218:   Connecting via SSH.
+2015/06/02 15:23:23 - 52.12.169.175:   Waiting on SSH connection.
+2015/06/02 15:23:23 - 54.202.45.146:   Waiting on SSH connection.
+2015/06/02 15:23:26 - 54.188.47.91:    Checking software installation completed.
+2015/06/02 15:23:27 - 52.12.170.167:   Checking software installation completed.
+2015/06/02 15:23:27 - 54.188.47.91:    Software installation finished.
+2015/06/02 15:23:27 - 54.188.47.91:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:27 - 52.12.170.167:   Software installation finished.
+2015/06/02 15:23:27 - 52.12.170.167:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:27 - 54.188.48.218:   Checking software installation completed.
+2015/06/02 15:23:27 - 54.188.47.91:    Checking file contents.
+2015/06/02 15:23:27 - 54.188.48.218:   Software installation finished.
+2015/06/02 15:23:27 - 54.188.48.218:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:27 - 52.12.170.167:   Checking file contents.
+2015/06/02 15:23:27 - 54.188.47.91:    Remote file contents confirmed.
+2015/06/02 15:23:28 - 52.12.170.167:   Remote file contents confirmed.
+2015/06/02 15:23:28 - 54.188.48.218:   Checking file contents.
+2015/06/02 15:23:28 - 54.188.48.218:   Remote file contents confirmed.
+2015/06/02 15:23:28 - 54.188.47.91:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:28 - 54.188.47.91:    Completed check of node 54.188.47.91.
+2015/06/02 15:23:28 - 52.12.170.167:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:28 - 52.12.170.167:   Completed check of node 52.12.170.167.
+2015/06/02 15:23:29 - 54.188.48.218:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:29 - 54.188.48.218:   Completed check of node 54.188.48.218.
+2015/06/02 15:23:32 - 54.202.45.146:   Checking software installation completed.
+2015/06/02 15:23:32 - 54.202.45.146:   Waiting for software to install.
+2015/06/02 15:23:34 - 52.12.169.175:   Checking software installation completed.
+2015/06/02 15:23:35 - 52.12.169.175:   Software installation finished.
+2015/06/02 15:23:35 - 52.12.169.175:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:35 - 52.12.169.175:   Checking file contents.
+2015/06/02 15:23:35 - 52.12.169.175:   Remote file contents confirmed.
+2015/06/02 15:23:36 - 52.12.169.175:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:36 - 52.12.169.175:   Completed check of node 52.12.169.175.
+2015/06/02 15:23:43 - 54.202.45.146:   Software installation finished.
+2015/06/02 15:23:43 - 54.202.45.146:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:43 - 54.202.45.146:   Checking file contents.
+2015/06/02 15:23:43 - 54.202.45.146:   Remote file contents confirmed.
+2015/06/02 15:23:44 - 54.202.45.146:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:44 - 54.202.45.146:   Completed check of node 54.202.45.146.
+2015/06/02 15:23:44 - Determining availability zone.
+2015/06/02 15:23:44 - Gathering public and private ip addresses.
+2015/06/02 15:23:44 - Connecting to node 52.12.169.175 for cluster configuration.
+2015/06/02 15:23:44 - Connecting via SSH.
+2015/06/02 15:23:46 - Checking software installation completed.
+2015/06/02 15:23:46 - Software installation finished.
+2015/06/02 15:23:46 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:46 - Checking file contents.
+2015/06/02 15:23:47 - Remote file contents confirmed.
+2015/06/02 15:23:47 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:47 - Writing cluster private ip addresses to file on instance.
+2015/06/02 15:23:47 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/06/02 15:23:48 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/06/02 15:23:48 - Checking file contents.
+2015/06/02 15:23:48 - Remote file contents confirmed.
+2015/06/02 15:23:48 - Running envgen
+2015/06/02 15:23:49 - Reading the config file.
+2015/06/02 15:23:49 - Retrieving IP address of ESP Server.
+2015/06/02 15:23:50 - ESP Server private IP address: 10.253.72.210.
+2015/06/02 15:23:50 - ESP Server public IP address: 52.12.169.175.
+2015/06/02 15:23:50 - 54.188.48.218:   Starting node configuration.
+2015/06/02 15:23:50 - 52.12.170.167:   Starting node configuration.
+2015/06/02 15:23:50 - 52.12.169.175:   Starting node configuration.
+2015/06/02 15:23:50 - 52.12.170.167:   Connecting via SSH.
+2015/06/02 15:23:50 - 54.188.48.218:   Connecting via SSH.
+2015/06/02 15:23:50 - 54.188.47.91:    Starting node configuration.
+2015/06/02 15:23:50 - 52.12.169.175:   Connecting via SSH.
+2015/06/02 15:23:50 - 54.188.47.91:    Connecting via SSH.
+2015/06/02 15:23:50 - 54.202.45.146:   Starting node configuration.
+2015/06/02 15:23:50 - 54.202.45.146:   Connecting via SSH.
+2015/06/02 15:23:51 - 54.188.48.218:   Checking software installation completed.
+2015/06/02 15:23:51 - 52.12.170.167:   Checking software installation completed.
+2015/06/02 15:23:51 - 54.188.47.91:    Checking software installation completed.
+2015/06/02 15:23:51 - 52.12.169.175:   Checking software installation completed.
+2015/06/02 15:23:51 - 54.188.48.218:   Software installation finished.
+2015/06/02 15:23:51 - 54.188.48.218:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:51 - 52.12.170.167:   Software installation finished.
+2015/06/02 15:23:51 - 52.12.170.167:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:51 - 54.188.47.91:    Software installation finished.
+2015/06/02 15:23:51 - 54.188.47.91:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:51 - 52.12.169.175:   Software installation finished.
+2015/06/02 15:23:51 - 52.12.169.175:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:52 - 54.188.48.218:   Checking file contents.
+2015/06/02 15:23:52 - 52.12.170.167:   Checking file contents.
+2015/06/02 15:23:52 - 54.188.47.91:    Checking file contents.
+2015/06/02 15:23:52 - 52.12.169.175:   Checking file contents.
+2015/06/02 15:23:52 - 54.188.48.218:   Remote file contents confirmed.
+2015/06/02 15:23:52 - 52.12.170.167:   Remote file contents confirmed.
+2015/06/02 15:23:52 - 54.188.47.91:    Remote file contents confirmed.
+2015/06/02 15:23:52 - 52.12.169.175:   Remote file contents confirmed.
+2015/06/02 15:23:53 - 54.188.48.218:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:53 - 54.188.48.218:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/02 15:23:53 - 52.12.170.167:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:53 - 52.12.170.167:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/02 15:23:53 - 54.188.47.91:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:53 - 54.188.47.91:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/02 15:23:53 - 52.12.169.175:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:53 - 52.12.169.175:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/02 15:23:53 - 54.188.48.218:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/02 15:23:53 - 52.12.170.167:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/02 15:23:54 - 54.188.47.91:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/02 15:23:54 - 52.12.169.175:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/02 15:23:54 - 52.12.170.167:   Checking file contents.
+2015/06/02 15:23:54 - 54.188.48.218:   Checking file contents.
+2015/06/02 15:23:54 - 54.188.47.91:    Checking file contents.
+2015/06/02 15:23:54 - 52.12.169.175:   Checking file contents.
+2015/06/02 15:23:54 - 52.12.170.167:   Remote file contents confirmed.
+2015/06/02 15:23:54 - 52.12.170.167:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/02 15:23:54 - 54.188.48.218:   Remote file contents confirmed.
+2015/06/02 15:23:54 - 54.188.48.218:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/02 15:23:54 - 54.188.47.91:    Remote file contents confirmed.
+2015/06/02 15:23:54 - 54.188.47.91:    Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/02 15:23:54 - 52.12.169.175:   Remote file contents confirmed.
+2015/06/02 15:23:54 - 52.12.169.175:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/02 15:23:56 - 54.202.45.146:   Checking software installation completed.
+2015/06/02 15:23:56 - 54.202.45.146:   Software installation finished.
+2015/06/02 15:23:56 - 54.202.45.146:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/02 15:23:57 - 54.202.45.146:   Checking file contents.
+2015/06/02 15:23:57 - 54.202.45.146:   Remote file contents confirmed.
+2015/06/02 15:23:58 - 54.202.45.146:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/02 15:23:58 - 54.202.45.146:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/02 15:23:58 - 52.12.170.167:   Starting mydafilesrv....       [  OK  ]   
+2015/06/02 15:23:58 - 52.12.170.167:   Starting myeclagent....        [  OK  ]  
+2015/06/02 15:23:58 - 52.12.170.167:   Start node is complete.
+2015/06/02 15:23:58 - 54.202.45.146:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/02 15:23:59 - 54.202.45.146:   Checking file contents.
+2015/06/02 15:23:59 - 54.202.45.146:   Remote file contents confirmed.
+2015/06/02 15:23:59 - 54.202.45.146:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/02 15:24:01 - 54.188.48.218:   Starting mydafilesrv....       [  OK  ]   
+2015/06/02 15:24:01 - 54.188.48.218:   Starting mydali....            [  OK  ]   
+2015/06/02 15:24:01 - 54.188.48.218:   Starting myroxie....           [  OK  ]  
+2015/06/02 15:24:01 - 54.188.48.218:   Start node is complete.
+2015/06/02 15:24:03 - 52.12.169.175:   Starting mydafilesrv....       [  OK  ]   
+2015/06/02 15:24:03 - 52.12.169.175:   Starting myeclscheduler....    [  OK  ]   
+2015/06/02 15:24:03 - 52.12.169.175:   Starting myesp....             [  OK  ]   
+2015/06/02 15:24:03 - 52.12.169.175:   Starting myroxie....           [  OK  ]  
+2015/06/02 15:24:03 - 52.12.169.175:   Start node is complete.
+2015/06/02 15:24:05 - 54.188.47.91:    Starting mydafilesrv....       [  OK  ]   
+2015/06/02 15:24:05 - 54.188.47.91:    Starting mydfuserver....       [  OK  ]   
+2015/06/02 15:24:05 - 54.188.47.91:    Starting mysasha....           [  OK  ]   
+2015/06/02 15:24:05 - 54.188.47.91:    Starting mythor....            [  OK  ]  
+2015/06/02 15:24:05 - 54.188.47.91:    Start node is complete.
+2015/06/02 15:24:06 - 54.202.45.146:   Starting mydafilesrv....       [  OK  ]   
+2015/06/02 15:24:06 - 54.202.45.146:   Starting myeclccserver....     [  OK  ]  
+2015/06/02 15:24:06 - 54.202.45.146:   Start node is complete.
+2015/06/02 15:24:06 - Done.
+2015/06/02 15:43:21 - Terminating cluster.
+2015/06/02 15:43:21 - Connecting to AWS region us-west-2.
+2015/06/02 15:43:21 - Gathering instances for Hpcc-3PCR.
+2015/06/02 15:43:21 - Terminating instances.
+2015/06/02 15:43:23 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:29 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:34 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:40 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:46 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:52 - Waiting for 5 instances to terminate.
+2015/06/02 15:43:57 - Waiting for 5 instances to terminate.
+2015/06/02 15:44:03 - Waiting for 5 instances to terminate.
+2015/06/02 15:44:09 - Waiting for 5 instances to terminate.
+2015/06/02 15:44:15 - Waiting for 2 instances to terminate.
+2015/06/02 15:44:20 - Waiting for 2 instances to terminate.
+2015/06/02 15:44:25 - Deleting Access Key Hpcc-3PCR.
+2015/06/02 15:44:26 - Deleting Security group Hpcc-3PCR.
+2015/06/02 15:44:26 - Done.

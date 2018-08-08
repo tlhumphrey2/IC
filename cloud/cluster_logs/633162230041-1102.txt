@@ -1,0 +1,112 @@
+2015/06/16 11:18:37 - Connecting to AWS region us-east-1.
+2015/06/16 11:18:37 - Calculating new unique cluster name for request 1102.
+2015/06/16 11:18:37 - Creating new cluster name, Hpcc-NXMB.
+2015/06/16 11:18:37 - Creating Hpcc-NXMB security group.
+2015/06/16 11:18:39 - Creating Hpcc-NXMB key pair.
+2015/06/16 11:18:39 - Launching 1 m1.large nodes using ami-69c63602.
+2015/06/16 11:18:40 - Reservation ID r-acefd05d created.
+2015/06/16 11:18:40 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:18:45 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:18:50 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:18:55 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:00 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:05 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:10 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:16 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:21 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:26 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:31 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:36 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:41 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:46 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:51 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:19:56 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:01 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:06 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:11 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:16 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:21 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:28 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:33 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:38 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:43 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:48 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:53 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:20:58 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 11:21:03 - Pending instances have completed.
+2015/06/16 11:21:03 - Checking each node launched properly.
+2015/06/16 11:21:03 - 54.157.18.193:   Checking EC2 instance i-c32d5c6a.
+2015/06/16 11:21:03 - 54.157.18.193:   Checking EC2 instance is running.
+2015/06/16 11:21:03 - 54.157.18.193:   Connecting via SSH.
+2015/06/16 11:21:09 - 54.157.18.193:   Waiting on SSH connection.
+2015/06/16 11:21:15 - 54.157.18.193:   Checking software installation completed.
+2015/06/16 11:21:15 - 54.157.18.193:   Waiting for software to install.
+2015/06/16 11:21:25 - 54.157.18.193:   Software installation finished.
+2015/06/16 11:21:25 - 54.157.18.193:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 11:21:25 - 54.157.18.193:   Checking file contents.
+2015/06/16 11:21:25 - 54.157.18.193:   Remote file contents confirmed.
+2015/06/16 11:21:26 - 54.157.18.193:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 11:21:26 - 54.157.18.193:   Completed check of node 54.157.18.193.
+2015/06/16 11:21:26 - Determining availability zone.
+2015/06/16 11:21:26 - Gathering public and private ip addresses.
+2015/06/16 11:21:26 - Connecting to node 54.157.18.193 for cluster configuration.
+2015/06/16 11:21:26 - Connecting via SSH.
+2015/06/16 11:21:32 - Checking software installation completed.
+2015/06/16 11:21:32 - Software installation finished.
+2015/06/16 11:21:32 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 11:21:32 - Checking file contents.
+2015/06/16 11:21:32 - Remote file contents confirmed.
+2015/06/16 11:21:32 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 11:21:32 - Writing cluster private ip addresses to file on instance.
+2015/06/16 11:21:32 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/06/16 11:21:32 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/06/16 11:21:32 - Checking file contents.
+2015/06/16 11:21:32 - Remote file contents confirmed.
+2015/06/16 11:21:32 - Running envgen
+2015/06/16 11:21:33 - Reading the config file.
+2015/06/16 11:21:33 - Retrieving IP address of ESP Server.
+2015/06/16 11:21:33 - ESP Server private IP address: 10.235.14.102.
+2015/06/16 11:21:33 - ESP Server public IP address: 54.157.18.193.
+2015/06/16 11:21:33 - 54.157.18.193:   Starting node configuration.
+2015/06/16 11:21:33 - 54.157.18.193:   Connecting via SSH.
+2015/06/16 11:21:34 - 54.157.18.193:   Checking software installation completed.
+2015/06/16 11:21:34 - 54.157.18.193:   Software installation finished.
+2015/06/16 11:21:34 - 54.157.18.193:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 11:21:34 - 54.157.18.193:   Checking file contents.
+2015/06/16 11:21:34 - 54.157.18.193:   Remote file contents confirmed.
+2015/06/16 11:21:34 - 54.157.18.193:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 11:21:34 - 54.157.18.193:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/16 11:21:34 - 54.157.18.193:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/16 11:21:34 - 54.157.18.193:   Checking file contents.
+2015/06/16 11:21:34 - 54.157.18.193:   Remote file contents confirmed.
+2015/06/16 11:21:34 - 54.157.18.193:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/16 11:21:51 - 54.157.18.193:   Starting mydafilesrv....       [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting mydali....            [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting mydfuserver....       [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting myeclagent....        [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting myeclccserver....     [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting myeclscheduler....    [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting myesp....             [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting mysasha....           [  OK  ]   
+2015/06/16 11:21:51 - 54.157.18.193:   Starting mythor....            [  OK  ]  
+2015/06/16 11:21:51 - 54.157.18.193:   Start node is complete.
+2015/06/16 11:21:51 - Done.
+2015/06/16 11:23:17 - Terminating cluster.
+2015/06/16 11:23:17 - Connecting to AWS region us-east-1.
+2015/06/16 11:23:17 - Gathering instances for Hpcc-NXMB.
+2015/06/16 11:23:18 - Terminating instances.
+2015/06/16 11:23:18 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:23 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:28 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:33 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:38 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:43 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:48 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:54 - Waiting for 1 instances to terminate.
+2015/06/16 11:23:59 - Waiting for 1 instances to terminate.
+2015/06/16 11:24:04 - Waiting for 1 instances to terminate.
+2015/06/16 11:24:09 - Waiting for 1 instances to terminate.
+2015/06/16 11:24:14 - Waiting for 1 instances to terminate.
+2015/06/16 11:24:19 - Deleting Access Key Hpcc-NXMB.
+2015/06/16 11:24:19 - Deleting Security group Hpcc-NXMB.
+2015/06/16 11:24:19 - Done.

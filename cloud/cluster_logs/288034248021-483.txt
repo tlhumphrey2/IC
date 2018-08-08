@@ -1,0 +1,217 @@
+2013/01/24 11:21:40 - Connecting to AWS region us-east-1.
+2013/01/24 11:21:40 - Calculating new unique cluster name for request 483.
+2013/01/24 11:21:40 - Creating new cluster name, Hpcc-8YE4.
+2013/01/24 11:21:40 - Creating Hpcc-8YE4 security group.
+2013/01/24 11:21:41 - Creating Hpcc-8YE4 key pair.
+2013/01/24 11:21:42 - Launching 3 m1.large nodes using ami-a58439cc.
+2013/01/24 11:21:43 - Reservation ID r-83ee6ff8 created.
+2013/01/24 11:21:43 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:21:49 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:21:54 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:21:59 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:04 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:09 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:15 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:20 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:25 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:30 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:35 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:40 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:46 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:51 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:22:56 - Waiting for 3 of 3 nodes to launch.
+2013/01/24 11:23:02 - Waiting for 2 of 3 nodes to launch.
+2013/01/24 11:23:07 - Waiting for 1 of 3 nodes to launch.
+2013/01/24 11:23:12 - Waiting for 1 of 3 nodes to launch.
+2013/01/24 11:23:17 - Waiting for 1 of 3 nodes to launch.
+2013/01/24 11:23:22 - Waiting for 1 of 3 nodes to launch.
+2013/01/24 11:23:27 - Waiting for 1 of 3 nodes to launch.
+2013/01/24 11:23:33 - Pending instances have completed.
+2013/01/24 11:23:33 - Checking each node launched properly.
+2013/01/24 11:23:33 - 23.22.89.254:    Checking EC2 instance i-64d82814.
+2013/01/24 11:23:33 - 54.242.106.112:  Checking EC2 instance i-66d82816.
+2013/01/24 11:23:33 - 50.16.153.200:   Checking EC2 instance i-68d82818.
+2013/01/24 11:23:33 - 54.242.106.112:  Checking EC2 instance is running.
+2013/01/24 11:23:33 - 54.242.106.112:  Connecting via SSH.
+2013/01/24 11:23:33 - 50.16.153.200:   Checking EC2 instance is running.
+2013/01/24 11:23:33 - 50.16.153.200:   Connecting via SSH.
+2013/01/24 11:23:33 - 23.22.89.254:    Checking EC2 instance is running.
+2013/01/24 11:23:33 - 23.22.89.254:    Connecting via SSH.
+2013/01/24 11:23:36 - 54.242.106.112:  Waiting on SSH connection.
+2013/01/24 11:23:38 - 50.16.153.200:   Checking software installation completed.
+2013/01/24 11:23:38 - 23.22.89.254:    Checking software installation completed.
+2013/01/24 11:23:38 - 50.16.153.200:   Software installation finished.
+2013/01/24 11:23:38 - 50.16.153.200:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:23:38 - 23.22.89.254:    Software installation finished.
+2013/01/24 11:23:38 - 23.22.89.254:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:23:38 - 23.22.89.254:    Checking file contents.
+2013/01/24 11:23:38 - 23.22.89.254:    Remote file contents confirmed.
+2013/01/24 11:23:38 - 50.16.153.200:   Checking file contents.
+2013/01/24 11:23:38 - 50.16.153.200:   Remote file contents confirmed.
+2013/01/24 11:23:38 - 23.22.89.254:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:23:38 - 23.22.89.254:    Completed check of node 23.22.89.254.
+2013/01/24 11:23:38 - 50.16.153.200:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:23:38 - 50.16.153.200:   Completed check of node 50.16.153.200.
+2013/01/24 11:23:44 - 54.242.106.112:  Waiting on SSH connection.
+2013/01/24 11:23:52 - 54.242.106.112:  Waiting on SSH connection.
+2013/01/24 11:24:00 - 54.242.106.112:  Waiting on SSH connection.
+2013/01/24 11:24:08 - 54.242.106.112:  Waiting on SSH connection.
+2013/01/24 11:24:16 - 54.242.106.112:  54.242.106.112: Timed out trying to ssh to host..
+2013/01/24 11:24:16 - 54.242.106.112:  Error - Node 54.242.106.112 failed check.
+2013/01/24 11:24:16 - 54.242.106.112:  Completed check of node 54.242.106.112.
+2013/01/24 11:24:16 - Terminating 1 bad instances.
+2013/01/24 11:24:16 - Terminating instances.
+2013/01/24 11:24:16 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:21 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:26 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:31 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:36 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:41 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:46 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:51 - Waiting for 1 instances to terminate.
+2013/01/24 11:24:56 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:01 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:07 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:12 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:17 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:22 - Waiting for 1 instances to terminate.
+2013/01/24 11:25:27 - Launching 1 new nodes.
+2013/01/24 11:25:27 - Reservation ID r-95f574ee created.
+2013/01/24 11:25:27 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:33 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:38 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:43 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:48 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:53 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:25:58 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:03 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:08 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:13 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:18 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:23 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:28 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:33 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:38 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:43 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:49 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:54 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:26:59 - Waiting for 1 of 1 nodes to launch.
+2013/01/24 11:27:04 - Pending instances have completed.
+2013/01/24 11:27:04 - Checking each node launched properly.
+2013/01/24 11:27:04 - 23.20.204.230:   Checking EC2 instance i-7cde2e0c.
+2013/01/24 11:27:04 - 23.20.204.230:   Checking EC2 instance is running.
+2013/01/24 11:27:04 - 23.20.204.230:   Connecting via SSH.
+2013/01/24 11:27:06 - 23.20.204.230:   Waiting on SSH connection.
+2013/01/24 11:27:17 - 23.20.204.230:   Checking software installation completed.
+2013/01/24 11:27:17 - 23.20.204.230:   Software installation finished.
+2013/01/24 11:27:17 - 23.20.204.230:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:27:17 - 23.20.204.230:   Checking file contents.
+2013/01/24 11:27:17 - 23.20.204.230:   Remote file contents confirmed.
+2013/01/24 11:27:17 - 23.20.204.230:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:27:17 - 23.20.204.230:   Completed check of node 23.20.204.230.
+2013/01/24 11:27:17 - Determining availability zone.
+2013/01/24 11:27:17 - Gathering public and private ip addresses.
+2013/01/24 11:27:17 - Connecting to node 23.22.89.254 for cluster configuration.
+2013/01/24 11:27:17 - Connecting via SSH.
+2013/01/24 11:27:18 - Checking software installation completed.
+2013/01/24 11:27:18 - Software installation finished.
+2013/01/24 11:27:18 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:27:18 - Checking file contents.
+2013/01/24 11:27:18 - Remote file contents confirmed.
+2013/01/24 11:27:18 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:27:18 - Writing cluster private ip addresses to file on instance.
+2013/01/24 11:27:18 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/01/24 11:27:18 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/01/24 11:27:18 - Checking file contents.
+2013/01/24 11:27:18 - Remote file contents confirmed.
+2013/01/24 11:27:18 - Running envgen
+2013/01/24 11:27:19 - Reading the config file.
+2013/01/24 11:27:19 - Retrieving IP address of ESP Server.
+2013/01/24 11:27:19 - ESP Server private IP address: 10.143.168.224.
+2013/01/24 11:27:19 - ESP Server public IP address: 23.22.89.254.
+2013/01/24 11:27:19 - 50.16.153.200:   Starting node configuration.
+2013/01/24 11:27:19 - 23.22.89.254:    Starting node configuration.
+2013/01/24 11:27:19 - 50.16.153.200:   Connecting via SSH.
+2013/01/24 11:27:19 - 23.22.89.254:    Connecting via SSH.
+2013/01/24 11:27:19 - 23.20.204.230:   Starting node configuration.
+2013/01/24 11:27:19 - 23.20.204.230:   Connecting via SSH.
+2013/01/24 11:27:20 - 50.16.153.200:   Checking software installation completed.
+2013/01/24 11:27:20 - 23.22.89.254:    Checking software installation completed.
+2013/01/24 11:27:20 - 50.16.153.200:   Software installation finished.
+2013/01/24 11:27:20 - 50.16.153.200:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:27:20 - 23.22.89.254:    Software installation finished.
+2013/01/24 11:27:20 - 23.22.89.254:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:27:20 - 50.16.153.200:   Checking file contents.
+2013/01/24 11:27:20 - 50.16.153.200:   Remote file contents confirmed.
+2013/01/24 11:27:20 - 23.20.204.230:   Checking software installation completed.
+2013/01/24 11:27:20 - 23.22.89.254:    Checking file contents.
+2013/01/24 11:27:20 - 23.20.204.230:   Software installation finished.
+2013/01/24 11:27:20 - 23.20.204.230:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/24 11:27:20 - 23.22.89.254:    Remote file contents confirmed.
+2013/01/24 11:27:20 - 23.20.204.230:   Checking file contents.
+2013/01/24 11:27:20 - 23.20.204.230:   Remote file contents confirmed.
+2013/01/24 11:27:20 - 50.16.153.200:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:27:20 - 50.16.153.200:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/01/24 11:27:20 - 23.22.89.254:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:27:20 - 23.22.89.254:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/01/24 11:27:20 - 50.16.153.200:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/01/24 11:27:20 - 50.16.153.200:   Checking file contents.
+2013/01/24 11:27:21 - 23.20.204.230:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/24 11:27:21 - 23.20.204.230:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/01/24 11:27:21 - 23.22.89.254:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/01/24 11:27:21 - 23.22.89.254:    Checking file contents.
+2013/01/24 11:27:21 - 50.16.153.200:   Remote file contents confirmed.
+2013/01/24 11:27:21 - 50.16.153.200:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/01/24 11:27:21 - 23.22.89.254:    Remote file contents confirmed.
+2013/01/24 11:27:21 - 23.22.89.254:    Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/01/24 11:27:21 - 23.20.204.230:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/01/24 11:27:21 - 23.20.204.230:   Checking file contents.
+2013/01/24 11:27:21 - 23.20.204.230:   Remote file contents confirmed.
+2013/01/24 11:27:21 - 23.20.204.230:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/01/24 11:27:26 - 23.20.204.230:   Starting mydafilesrv....       [  OK  ]   
+2013/01/24 11:27:26 - 23.20.204.230:   Starting mydfuserver....       [  OK  ]   
+2013/01/24 11:27:26 - 23.20.204.230:   Starting myeclscheduler....    [  OK  ]  
+2013/01/24 11:27:26 - 23.20.204.230:   Start node is complete.
+2013/01/24 11:27:28 - 23.22.89.254:    Starting mydafilesrv....       [  OK  ]   
+2013/01/24 11:27:28 - 23.22.89.254:    Starting myeclagent....        [  OK  ]   
+2013/01/24 11:27:28 - 23.22.89.254:    Starting myesp....             [  OK  ]   
+2013/01/24 11:27:28 - 23.22.89.254:    Starting myroxie....           [  OK  ]   
+2013/01/24 11:27:28 - 23.22.89.254:    Starting mysasha....           [  OK  ]  
+2013/01/24 11:27:28 - 23.22.89.254:    Start node is complete.
+2013/01/24 11:27:41 - 50.16.153.200:   Starting mydafilesrv....       [  OK  ]   
+2013/01/24 11:27:41 - 50.16.153.200:   Starting mydali....            [  OK  ]   
+2013/01/24 11:27:41 - 50.16.153.200:   Starting myeclccserver....     [  OK  ]   
+2013/01/24 11:27:41 - 50.16.153.200:   Starting mythor....            [  OK  ]  
+2013/01/24 11:27:41 - 50.16.153.200:   Start node is complete.
+2013/01/24 11:27:41 - Done.
+2013/01/24 20:32:34 - Terminating cluster.
+2013/01/24 20:32:34 - Connecting to AWS region us-east-1.
+2013/01/24 20:32:34 - Gathering instances for Hpcc-8YE4.
+2013/01/24 20:32:34 - Terminating instances.
+2013/01/24 20:32:36 - Waiting for 3 instances to terminate.
+2013/01/24 20:32:41 - Waiting for 3 instances to terminate.
+2013/01/24 20:32:46 - Waiting for 3 instances to terminate.
+2013/01/24 20:32:51 - Waiting for 3 instances to terminate.
+2013/01/24 20:32:57 - Waiting for 3 instances to terminate.
+2013/01/24 20:33:02 - Waiting for 3 instances to terminate.
+2013/01/24 20:33:08 - Waiting for 3 instances to terminate.
+2013/01/24 20:33:13 - Waiting for 3 instances to terminate.
+2013/01/24 20:33:18 - Waiting for 2 instances to terminate.
+2013/01/24 20:33:24 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:29 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:34 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:39 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:44 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:49 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:54 - Waiting for 1 instances to terminate.
+2013/01/24 20:33:59 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:04 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:10 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:15 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:20 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:25 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:30 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:35 - Waiting for 1 instances to terminate.
+2013/01/24 20:34:40 - Deleting Access Key Hpcc-8YE4.
+2013/01/24 20:34:40 - Deleting Security group Hpcc-8YE4.
+2013/01/24 20:34:40 - Done.

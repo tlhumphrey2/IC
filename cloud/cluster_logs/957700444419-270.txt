@@ -1,0 +1,103 @@
+2012/06/25 11:45:56 - Connecting to AWS region us-west-2.
+2012/06/25 11:45:56 - Calculating new unique cluster name for request 270.
+2012/06/25 11:45:59 - Creating new cluster name, Thor-XEGN.
+2012/06/25 11:45:59 - Creating Thor-XEGN security group.
+2012/06/25 11:46:03 - Creating Thor-XEGN key pair.
+2012/06/25 11:46:05 - Launching 1 m1.large nodes using ami-bcd4588c.
+2012/06/25 11:46:06 - Reservation ID r-5916e06a created.
+2012/06/25 11:46:06 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:11 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:16 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:22 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:27 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:32 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:37 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:43 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:48 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:53 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:46:59 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:47:04 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:47:09 - Waiting for 1 of 1 nodes to launch.
+2012/06/25 11:47:14 - Pending instances have completed.
+2012/06/25 11:47:14 - Checking each node launched properly.
+2012/06/25 11:47:14 - 50.112.79.118:   Checking EC2 instance i-3310dd00.
+2012/06/25 11:47:15 - 50.112.79.118:   Checking EC2 instance is running.
+2012/06/25 11:47:15 - 50.112.79.118:   Connecting via SSH.
+2012/06/25 11:47:16 - 50.112.79.118:   Checking software installation completed.
+2012/06/25 11:47:16 - 50.112.79.118:   Software installation finished.
+2012/06/25 11:47:16 - 50.112.79.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/25 11:47:17 - 50.112.79.118:   Checking file contents.
+2012/06/25 11:47:18 - 50.112.79.118:   Remote file contents confirmed.
+2012/06/25 11:47:18 - 50.112.79.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/25 11:47:18 - 50.112.79.118:   Completed check of node 50.112.79.118.
+2012/06/25 11:47:18 - Determining availability zone.
+2012/06/25 11:47:18 - Gathering public and private ip addresses.
+2012/06/25 11:47:18 - Connecting to node 50.112.79.118 for cluster configuration.
+2012/06/25 11:47:18 - Connecting via SSH.
+2012/06/25 11:47:20 - Checking software installation completed.
+2012/06/25 11:47:20 - Software installation finished.
+2012/06/25 11:47:20 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/25 11:47:21 - Checking file contents.
+2012/06/25 11:47:21 - Remote file contents confirmed.
+2012/06/25 11:47:22 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/25 11:47:22 - Writing cluster private ip addresses to file on instance.
+2012/06/25 11:47:22 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/06/25 11:47:22 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/06/25 11:47:23 - Checking file contents.
+2012/06/25 11:47:23 - Remote file contents confirmed.
+2012/06/25 11:47:23 - Running envgen
+2012/06/25 11:47:24 - Reading the config file.
+2012/06/25 11:47:24 - Retrieving IP address of ESP Server.
+2012/06/25 11:47:25 - ESP Server private IP address: 10.252.129.138.
+2012/06/25 11:47:25 - ESP Server public IP address: 50.112.79.118.
+2012/06/25 11:47:25 - 50.112.79.118:   Starting node configuration.
+2012/06/25 11:47:25 - 50.112.79.118:   Connecting via SSH.
+2012/06/25 11:47:26 - 50.112.79.118:   Checking software installation completed.
+2012/06/25 11:47:26 - 50.112.79.118:   Software installation finished.
+2012/06/25 11:47:26 - 50.112.79.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/25 11:47:27 - 50.112.79.118:   Checking file contents.
+2012/06/25 11:47:27 - 50.112.79.118:   Remote file contents confirmed.
+2012/06/25 11:47:28 - 50.112.79.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/25 11:47:28 - 50.112.79.118:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/25 11:47:29 - 50.112.79.118:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/25 11:47:30 - 50.112.79.118:   Checking file contents.
+2012/06/25 11:47:30 - 50.112.79.118:   Remote file contents confirmed.
+2012/06/25 11:47:30 - 50.112.79.118:   Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/25 11:47:57 - 50.112.79.118:   Starting mydafilesrv....       [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting mydali....            [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting mydfuserver....       [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting myeclagent....        [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting myeclccserver....     [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting myeclscheduler....    [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting myesp....             [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting mysasha....           [  OK  ]   
+2012/06/25 11:47:57 - 50.112.79.118:   Starting mythor....            [  OK  ]  
+2012/06/25 11:47:57 - 50.112.79.118:   Start node is complete.
+2012/06/25 11:47:57 - Done.
+2012/06/26 13:06:56 - Terminating cluster.
+2012/06/26 13:06:56 - Connecting to AWS region us-west-2.
+2012/06/26 13:06:56 - Gathering instances for Thor-XEGN.
+2012/06/26 13:06:57 - Terminating instances.
+2012/06/26 13:06:58 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:03 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:08 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:13 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:19 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:24 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:29 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:35 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:40 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:45 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:50 - Waiting for 1 instances to terminate.
+2012/06/26 13:07:56 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:01 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:06 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:12 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:17 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:22 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:27 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:33 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:38 - Waiting for 1 instances to terminate.
+2012/06/26 13:08:43 - Deleting Access Key Thor-XEGN.
+2012/06/26 13:08:44 - Deleting Security group Thor-XEGN.
+2012/06/26 13:08:45 - Done.

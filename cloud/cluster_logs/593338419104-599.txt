@@ -1,0 +1,100 @@
+2013/05/18 15:24:04 - Connecting to AWS region us-west-2.
+2013/05/18 15:24:04 - Calculating new unique cluster name for request 599.
+2013/05/18 15:24:04 - Creating new cluster name, Hpcc-X4KM.
+2013/05/18 15:24:04 - Creating Hpcc-X4KM security group.
+2013/05/18 15:24:08 - Creating Hpcc-X4KM key pair.
+2013/05/18 15:24:09 - Launching 1 m1.large nodes using ami-c1ca5cf1.
+2013/05/18 15:24:10 - Reservation ID r-0f575c3d created.
+2013/05/18 15:24:10 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:15 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:20 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:26 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:31 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:36 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:41 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:46 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:52 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:24:57 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:25:02 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:25:07 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:25:13 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:25:18 - Pending instances have completed.
+2013/05/18 15:25:18 - Checking each node launched properly.
+2013/05/18 15:25:18 - 54.214.127.244:  Checking EC2 instance i-22fc7e17.
+2013/05/18 15:25:18 - 54.214.127.244:  Checking EC2 instance is running.
+2013/05/18 15:25:18 - 54.214.127.244:  Connecting via SSH.
+2013/05/18 15:25:20 - 54.214.127.244:  Waiting on SSH connection.
+2013/05/18 15:25:31 - 54.214.127.244:  Checking software installation completed.
+2013/05/18 15:25:32 - 54.214.127.244:  Software installation finished.
+2013/05/18 15:25:32 - 54.214.127.244:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:25:32 - 54.214.127.244:  Checking file contents.
+2013/05/18 15:25:32 - 54.214.127.244:  Remote file contents confirmed.
+2013/05/18 15:25:33 - 54.214.127.244:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/18 15:25:33 - 54.214.127.244:  Completed check of node 54.214.127.244.
+2013/05/18 15:25:33 - Determining availability zone.
+2013/05/18 15:25:33 - Gathering public and private ip addresses.
+2013/05/18 15:25:33 - Connecting to node 54.214.127.244 for cluster configuration.
+2013/05/18 15:25:33 - Connecting via SSH.
+2013/05/18 15:25:35 - Checking software installation completed.
+2013/05/18 15:25:35 - Software installation finished.
+2013/05/18 15:25:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:25:35 - Checking file contents.
+2013/05/18 15:25:36 - Remote file contents confirmed.
+2013/05/18 15:25:36 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/18 15:25:36 - Writing cluster private ip addresses to file on instance.
+2013/05/18 15:25:36 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/05/18 15:25:37 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/05/18 15:25:37 - Checking file contents.
+2013/05/18 15:25:37 - Remote file contents confirmed.
+2013/05/18 15:25:37 - Running envgen
+2013/05/18 15:25:38 - Reading the config file.
+2013/05/18 15:25:39 - Retrieving IP address of ESP Server.
+2013/05/18 15:25:39 - ESP Server private IP address: 10.254.50.240.
+2013/05/18 15:25:39 - ESP Server public IP address: 54.214.127.244.
+2013/05/18 15:25:39 - 54.214.127.244:  Starting node configuration.
+2013/05/18 15:25:39 - 54.214.127.244:  Connecting via SSH.
+2013/05/18 15:25:40 - 54.214.127.244:  Checking software installation completed.
+2013/05/18 15:25:41 - 54.214.127.244:  Software installation finished.
+2013/05/18 15:25:41 - 54.214.127.244:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:25:41 - 54.214.127.244:  Checking file contents.
+2013/05/18 15:25:41 - 54.214.127.244:  Remote file contents confirmed.
+2013/05/18 15:25:42 - 54.214.127.244:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/18 15:25:42 - 54.214.127.244:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/05/18 15:25:43 - 54.214.127.244:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/05/18 15:25:43 - 54.214.127.244:  Checking file contents.
+2013/05/18 15:25:44 - 54.214.127.244:  Remote file contents confirmed.
+2013/05/18 15:25:44 - 54.214.127.244:  Starting HPCC Platform Community Edition: 3.10.6-1.
+2013/05/18 15:26:12 - 54.214.127.244:  Starting mydafilesrv....       [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting mydali....            [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting mydfuserver....       [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting myeclagent....        [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting myeclccserver....     [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting myeclscheduler....    [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting myesp....             [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting mysasha....           [  OK  ]   
+2013/05/18 15:26:12 - 54.214.127.244:  Starting mythor....            [  OK  ]  
+2013/05/18 15:26:12 - 54.214.127.244:  Start node is complete.
+2013/05/18 15:26:12 - Done.
+2013/05/18 15:47:51 - Terminating cluster.
+2013/05/18 15:47:51 - Connecting to AWS region us-west-2.
+2013/05/18 15:47:52 - Gathering instances for Hpcc-X4KM.
+2013/05/18 15:47:52 - Terminating instances.
+2013/05/18 15:47:53 - Waiting for 1 instances to terminate.
+2013/05/18 15:47:58 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:04 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:09 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:14 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:19 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:25 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:30 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:35 - Waiting for 1 instances to terminate.
+2013/05/18 15:48:40 - Deleting attached EBS volumes.
+2013/05/18 15:48:40 - Deleting volume vol-e73c41df
+2013/05/18 15:48:41 - Volume vol-e73c41df failed to delete.
+2013/05/18 15:48:41 - An exception occured.
+                      Amazon Error: Client.VolumeInUse
+                      Volume vol-e73c41df is currently attached to i-22fc7e17
+                      requestId: 866618ed-ea3f-4b81-9943-90f8582ae340
+2013/05/18 15:48:41 - Deleting Access Key Hpcc-X4KM.
+2013/05/18 15:48:41 - Deleting Security group Hpcc-X4KM.
+2013/05/18 15:48:42 - Done.

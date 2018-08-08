@@ -1,0 +1,76 @@
+2012/01/31 22:42:48 - Connecting to AWS region us-west-2.
+2012/01/31 22:42:48 - Calculating new unique cluster name for request 68.
+2012/01/31 22:42:49 - Creating new cluster name, Thor-5H4D.
+2012/01/31 22:42:49 - Creating Thor-5H4D security group.
+2012/01/31 22:42:53 - Creating Thor-5H4D key pair.
+2012/01/31 22:42:54 - Launching 1 m1.large nodes using ami-94b33ea4.
+2012/01/31 22:42:55 - Reservation ID r-10c1be20 created
+2012/01/31 22:42:55 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:43:00 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:43:05 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:43:11 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:43:16 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:43:21 - Pending instances have completed.
+2012/01/31 22:43:21 - Checking each node launched properly.
+2012/01/31 22:43:21 - 50.112.39.165:   Checking EC2 instance i-d6a1e4e6.
+2012/01/31 22:43:21 - 50.112.39.165:   Checking EC2 instance is running.
+2012/01/31 22:43:21 - 50.112.39.165:   Connecting via SSH.
+2012/01/31 22:43:24 - 50.112.39.165:   Waiting on SSH connection.
+2012/01/31 22:43:33 - 50.112.39.165:   Checking network mask is compatible.
+2012/01/31 22:43:33 - 50.112.39.165:   Checking disk I/O
+2012/01/31 22:43:33 - 50.112.39.165:   Checking software installation completed.
+2012/01/31 22:43:33 - 50.112.39.165:   Waiting for software to install.
+2012/01/31 22:43:43 - 50.112.39.165:   Waiting for software to install.
+2012/01/31 22:43:54 - 50.112.39.165:   Waiting for software to install.
+2012/01/31 22:44:04 - 50.112.39.165:   Waiting for software to install.
+2012/01/31 22:44:14 - 50.112.39.165:   Waiting for software to install.
+2012/01/31 22:44:24 - 50.112.39.165:   Software installation finished.
+2012/01/31 22:44:25 - 50.112.39.165:   Completed check of node 50.112.39.165.
+2012/01/31 22:44:25 - Determining availability zone.
+2012/01/31 22:44:25 - Gathering public and private ip addresses.
+2012/01/31 22:44:25 - Connecting to node 50.112.39.165 for cluster configuration.
+2012/01/31 22:44:25 - Connecting via SSH.
+2012/01/31 22:44:26 - Checking network mask is compatible.
+2012/01/31 22:44:26 - Checking disk I/O
+2012/01/31 22:44:26 - Checking software installation completed.
+2012/01/31 22:44:27 - Software installation finished.
+2012/01/31 22:44:27 - Writing cluster private ip addresses to file on instance.
+2012/01/31 22:44:27 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/31 22:44:27 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/31 22:44:28 - Checking file contents.
+2012/01/31 22:44:28 - Remote file contents confirmed.
+2012/01/31 22:44:28 - Running envgen
+2012/01/31 22:44:29 - Reading the config file.
+2012/01/31 22:44:29 - Retrieving IP address of ESP Server.
+2012/01/31 22:44:30 - ESP Server private IP address: 10.252.28.164.
+2012/01/31 22:44:30 - ESP Server public IP address: 50.112.39.165.
+2012/01/31 22:44:30 - 50.112.39.165:   Starting node configuration.
+2012/01/31 22:44:30 - 50.112.39.165:   Connecting via SSH.
+2012/01/31 22:44:31 - 50.112.39.165:   Checking network mask is compatible.
+2012/01/31 22:44:31 - 50.112.39.165:   Checking disk I/O
+2012/01/31 22:44:31 - 50.112.39.165:   Checking software installation completed.
+2012/01/31 22:44:32 - 50.112.39.165:   Software installation finished.
+2012/01/31 22:44:32 - 50.112.39.165:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 22:44:33 - 50.112.39.165:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 22:44:33 - 50.112.39.165:   Checking file contents.
+2012/01/31 22:44:34 - 50.112.39.165:   Remote file contents confirmed.
+2012/01/31 22:44:34 - 50.112.39.165:   Starting HPCC services.
+2012/01/31 22:44:34 - 50.112.39.165:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 22:45:00 - 50.112.39.165:   Starting mydafilesrv....       [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting mydali....            [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting mydfuserver....       [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting myeclagent....        [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting myeclccserver....     [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting myeclscheduler....    [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting myesp....             [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting mysasha....           [  OK  ]   
+2012/01/31 22:45:00 - 50.112.39.165:   Starting mythor....            [  OK  ]  
+2012/01/31 22:45:00 - 50.112.39.165:   Start node is complete.
+2012/01/31 22:45:00 - Done.
+2012/02/03 17:16:13 - Terminating cluster.
+2012/02/03 17:16:13 - Connecting to AWS region us-west-2.
+2012/02/03 17:16:13 - Gathering instances for Thor-5H4D.
+2012/02/03 17:16:13 - Terminating instances.
+2012/02/03 17:16:13 - Deleting Access Key Thor-5H4D.
+2012/02/03 17:16:14 - Deleting Security group Thor-5H4D.
+2012/02/03 17:16:15 - Done.

@@ -1,0 +1,98 @@
+2012/03/14 16:51:24 - Connecting to AWS region us-west-2.
+2012/03/14 16:51:24 - Checking storage IDs exist in region us-west-2: snap-5649233e
+2012/03/14 16:51:24 - Calculating new unique cluster name for request 208.
+2012/03/14 16:51:25 - Creating new cluster name, Thor-BWKS.
+2012/03/14 16:51:25 - Creating Thor-BWKS security group.
+2012/03/14 16:51:28 - Creating Thor-BWKS key pair.
+2012/03/14 16:51:29 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/14 16:51:30 - Reservation ID r-f096c5c0 created.
+2012/03/14 16:51:30 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:51:35 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:51:41 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:51:46 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:51:51 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:51:57 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:02 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:07 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:12 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:18 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:23 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 16:52:28 - Pending instances have completed.
+2012/03/14 16:52:28 - Checking each node launched properly.
+2012/03/14 16:52:28 - 50.112.24.195:   Checking EC2 instance i-56530966.
+2012/03/14 16:52:29 - 50.112.24.195:   Checking EC2 instance is running.
+2012/03/14 16:52:29 - 50.112.24.195:   Connecting via SSH.
+2012/03/14 16:52:32 - 50.112.24.195:   Waiting on SSH connection.
+2012/03/14 16:52:40 - 50.112.24.195:   Waiting on SSH connection.
+2012/03/14 16:52:48 - 50.112.24.195:   Waiting on SSH connection.
+2012/03/14 16:52:56 - 50.112.24.195:   Waiting on SSH connection.
+2012/03/14 16:53:03 - 50.112.24.195:   Checking software installation completed.
+2012/03/14 16:53:03 - 50.112.24.195:   Software installation finished.
+2012/03/14 16:53:03 - 50.112.24.195:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 16:53:04 - 50.112.24.195:   Checking file contents.
+2012/03/14 16:53:04 - 50.112.24.195:   Remote file contents confirmed.
+2012/03/14 16:53:05 - 50.112.24.195:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 16:53:05 - 50.112.24.195:   Completed check of node 50.112.24.195.
+2012/03/14 16:53:05 - Determining availability zone.
+2012/03/14 16:53:05 - Gathering public and private ip addresses.
+2012/03/14 16:53:05 - Connecting to node 50.112.24.195 for cluster configuration.
+2012/03/14 16:53:05 - Connecting via SSH.
+2012/03/14 16:53:06 - Checking software installation completed.
+2012/03/14 16:53:06 - Software installation finished.
+2012/03/14 16:53:06 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 16:53:07 - Checking file contents.
+2012/03/14 16:53:07 - Remote file contents confirmed.
+2012/03/14 16:53:08 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 16:53:08 - Writing cluster private ip addresses to file on instance.
+2012/03/14 16:53:08 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 16:53:09 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 16:53:09 - Checking file contents.
+2012/03/14 16:53:09 - Remote file contents confirmed.
+2012/03/14 16:53:09 - Running envgen
+2012/03/14 16:53:10 - Reading the config file.
+2012/03/14 16:53:11 - Retrieving IP address of ESP Server.
+2012/03/14 16:53:11 - ESP Server private IP address: 10.252.41.99.
+2012/03/14 16:53:11 - ESP Server public IP address: 50.112.24.195.
+2012/03/14 16:53:11 - Attaching storage devices to the Landing Zone: snap-5649233e
+2012/03/14 16:53:14 - Connecting via SSH.
+2012/03/14 16:53:15 - Waiting for EC2 instance to see storage device.
+2012/03/14 16:53:52 - /dev/xvdf is mounted to /mnt/dropzone/snap-5649233e/.
+2012/03/14 16:53:52 - 50.112.24.195:   Starting node configuration.
+2012/03/14 16:53:52 - 50.112.24.195:   Connecting via SSH.
+2012/03/14 16:53:54 - 50.112.24.195:   Checking software installation completed.
+2012/03/14 16:53:54 - 50.112.24.195:   Software installation finished.
+2012/03/14 16:53:54 - 50.112.24.195:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 16:53:55 - 50.112.24.195:   Checking file contents.
+2012/03/14 16:53:55 - 50.112.24.195:   Remote file contents confirmed.
+2012/03/14 16:53:56 - 50.112.24.195:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 16:53:56 - 50.112.24.195:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 16:53:57 - 50.112.24.195:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 16:53:57 - 50.112.24.195:   Checking file contents.
+2012/03/14 16:53:58 - 50.112.24.195:   Remote file contents confirmed.
+2012/03/14 16:53:58 - 50.112.24.195:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 16:54:24 - 50.112.24.195:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting mydali....            [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting mydfuserver....       [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting myeclagent....        [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting myeclccserver....     [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting myeclscheduler....    [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting myesp....             [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting mysasha....           [  OK  ]   
+2012/03/14 16:54:24 - 50.112.24.195:   Starting mythor....            [  OK  ]  
+2012/03/14 16:54:24 - 50.112.24.195:   Start node is complete.
+2012/03/14 16:54:24 - Done.
+2012/03/14 16:57:11 - Terminating cluster.
+2012/03/14 16:57:11 - Connecting to AWS region us-west-2.
+2012/03/14 16:57:11 - Gathering instances for Thor-BWKS.
+2012/03/14 16:57:11 - Terminating instances.
+2012/03/14 16:57:12 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:17 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:23 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:28 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:33 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:39 - Waiting for 1 instances to terminate.
+2012/03/14 16:57:44 - Deleting attached EBS volumes.
+2012/03/14 16:57:44 - Deleting volume vol-4589952e
+2012/03/14 16:57:44 - Deleting Access Key Thor-BWKS.
+2012/03/14 16:57:45 - Deleting Security group Thor-BWKS.
+2012/03/14 16:57:45 - Done.

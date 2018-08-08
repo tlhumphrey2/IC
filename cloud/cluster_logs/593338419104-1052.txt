@@ -1,0 +1,93 @@
+2015/03/30 12:06:49 - Connecting to AWS region us-west-2.
+2015/03/30 12:06:49 - Calculating new unique cluster name for request 1052.
+2015/03/30 12:06:49 - Creating new cluster name, Hpcc-NC6M.
+2015/03/30 12:06:49 - Creating Hpcc-NC6M security group.
+2015/03/30 12:06:52 - Creating Hpcc-NC6M key pair.
+2015/03/30 12:06:52 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/03/30 12:06:53 - Reservation ID r-56bed85c created.
+2015/03/30 12:06:53 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:06:58 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:03 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:08 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:13 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:18 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:24 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:29 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:34 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:39 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:44 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:49 - Waiting for 1 of 1 nodes to launch.
+2015/03/30 12:07:54 - Pending instances have completed.
+2015/03/30 12:07:54 - Checking each node launched properly.
+2015/03/30 12:07:54 - 54.189.13.1:     Checking EC2 instance i-b042eebd.
+2015/03/30 12:07:55 - 54.189.13.1:     Checking EC2 instance is running.
+2015/03/30 12:07:55 - 54.189.13.1:     Connecting via SSH.
+2015/03/30 12:07:57 - 54.189.13.1:     Waiting on SSH connection.
+2015/03/30 12:08:10 - 54.189.13.1:     Checking software installation completed.
+2015/03/30 12:08:10 - 54.189.13.1:     Software installation finished.
+2015/03/30 12:08:10 - 54.189.13.1:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/30 12:08:11 - 54.189.13.1:     Checking file contents.
+2015/03/30 12:08:11 - 54.189.13.1:     Remote file contents confirmed.
+2015/03/30 12:08:12 - 54.189.13.1:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/30 12:08:12 - 54.189.13.1:     Completed check of node 54.189.13.1.
+2015/03/30 12:08:12 - Determining availability zone.
+2015/03/30 12:08:12 - Gathering public and private ip addresses.
+2015/03/30 12:08:12 - Connecting to node 54.189.13.1 for cluster configuration.
+2015/03/30 12:08:12 - Connecting via SSH.
+2015/03/30 12:08:13 - Checking software installation completed.
+2015/03/30 12:08:13 - Software installation finished.
+2015/03/30 12:08:13 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/30 12:08:14 - Checking file contents.
+2015/03/30 12:08:14 - Remote file contents confirmed.
+2015/03/30 12:08:15 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/30 12:08:15 - Writing cluster private ip addresses to file on instance.
+2015/03/30 12:08:15 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/30 12:08:15 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/30 12:08:15 - Checking file contents.
+2015/03/30 12:08:16 - Remote file contents confirmed.
+2015/03/30 12:08:16 - Running envgen
+2015/03/30 12:08:16 - Reading the config file.
+2015/03/30 12:08:17 - Retrieving IP address of ESP Server.
+2015/03/30 12:08:17 - ESP Server private IP address: 10.252.37.54.
+2015/03/30 12:08:17 - ESP Server public IP address: 54.189.13.1.
+2015/03/30 12:08:17 - 54.189.13.1:     Starting node configuration.
+2015/03/30 12:08:17 - 54.189.13.1:     Connecting via SSH.
+2015/03/30 12:08:18 - 54.189.13.1:     Checking software installation completed.
+2015/03/30 12:08:19 - 54.189.13.1:     Software installation finished.
+2015/03/30 12:08:19 - 54.189.13.1:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/30 12:08:19 - 54.189.13.1:     Checking file contents.
+2015/03/30 12:08:19 - 54.189.13.1:     Remote file contents confirmed.
+2015/03/30 12:08:20 - 54.189.13.1:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/30 12:08:20 - 54.189.13.1:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/30 12:08:21 - 54.189.13.1:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/30 12:08:21 - 54.189.13.1:     Checking file contents.
+2015/03/30 12:08:21 - 54.189.13.1:     Remote file contents confirmed.
+2015/03/30 12:08:21 - 54.189.13.1:     Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/30 12:08:48 - 54.189.13.1:     Starting mydafilesrv....       [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting mydali....            [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting mydfuserver....       [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting myeclagent....        [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting myeclccserver....     [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting myeclscheduler....    [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting myesp....             [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting mysasha....           [  OK  ]   
+2015/03/30 12:08:48 - 54.189.13.1:     Starting mythor....            [  OK  ]  
+2015/03/30 12:08:48 - 54.189.13.1:     Start node is complete.
+2015/03/30 12:08:48 - Done.
+2015/03/30 12:51:06 - Terminating cluster.
+2015/03/30 12:51:06 - Connecting to AWS region us-west-2.
+2015/03/30 12:51:06 - Gathering instances for Hpcc-NC6M.
+2015/03/30 12:51:07 - Terminating instances.
+2015/03/30 12:51:07 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:12 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:17 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:22 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:28 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:33 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:38 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:43 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:48 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:53 - Waiting for 1 instances to terminate.
+2015/03/30 12:51:58 - Deleting Access Key Hpcc-NC6M.
+2015/03/30 12:51:59 - Deleting Security group Hpcc-NC6M.
+2015/03/30 12:51:59 - Done.

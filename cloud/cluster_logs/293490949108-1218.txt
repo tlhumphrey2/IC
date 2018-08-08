@@ -1,0 +1,102 @@
+2016/04/26 16:03:46 - Connecting to AWS region us-west-2.
+2016/04/26 16:03:46 - Calculating new unique cluster name for request 1218.
+2016/04/26 16:03:47 - Creating new cluster name, Hpcc-V5JZ.
+2016/04/26 16:03:47 - Creating Hpcc-V5JZ security group.
+2016/04/26 16:03:49 - Creating Hpcc-V5JZ key pair.
+2016/04/26 16:03:49 - Launching 1 m1.large nodes using ami-47946327.
+2016/04/26 16:03:50 - Reservation ID r-0d6a2ddc35dc48217 created.
+2016/04/26 16:03:50 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:03:55 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:00 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:06 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:11 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:16 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:21 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:26 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:31 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:37 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:42 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:47 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:52 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:04:57 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:05:02 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:05:07 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:05:13 - Waiting for 1 of 1 nodes to launch.
+2016/04/26 16:05:18 - Pending instances have completed.
+2016/04/26 16:05:18 - Checking each node launched properly.
+2016/04/26 16:05:18 - 52.39.69.255:    Checking EC2 instance i-0cd8948127f568dfa.
+2016/04/26 16:05:18 - 52.39.69.255:    Checking EC2 instance is running.
+2016/04/26 16:05:18 - 52.39.69.255:    Connecting via SSH.
+2016/04/26 16:05:20 - 52.39.69.255:    Checking software installation completed.
+2016/04/26 16:05:20 - 52.39.69.255:    Waiting for software to install.
+2016/04/26 16:05:31 - 52.39.69.255:    Software installation finished.
+2016/04/26 16:05:31 - 52.39.69.255:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/26 16:05:31 - 52.39.69.255:    Checking file contents.
+2016/04/26 16:05:32 - 52.39.69.255:    Remote file contents confirmed.
+2016/04/26 16:05:32 - 52.39.69.255:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/26 16:05:32 - 52.39.69.255:    Completed check of node 52.39.69.255.
+2016/04/26 16:05:32 - Determining availability zone.
+2016/04/26 16:05:32 - Gathering public and private ip addresses.
+2016/04/26 16:05:32 - Connecting to node 52.39.69.255 for cluster configuration.
+2016/04/26 16:05:32 - Connecting via SSH.
+2016/04/26 16:05:39 - Checking software installation completed.
+2016/04/26 16:05:40 - Software installation finished.
+2016/04/26 16:05:40 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/26 16:05:40 - Checking file contents.
+2016/04/26 16:05:40 - Remote file contents confirmed.
+2016/04/26 16:05:41 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/26 16:05:41 - Writing cluster private ip addresses to file on instance.
+2016/04/26 16:05:41 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/26 16:05:42 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/26 16:05:42 - Checking file contents.
+2016/04/26 16:05:42 - Remote file contents confirmed.
+2016/04/26 16:05:42 - Running envgen
+2016/04/26 16:05:43 - Reading the config file.
+2016/04/26 16:05:43 - Retrieving IP address of ESP Server.
+2016/04/26 16:05:43 - ESP Server private IP address: 172.31.31.118.
+2016/04/26 16:05:43 - ESP Server public IP address: 52.39.69.255.
+2016/04/26 16:05:44 - 52.39.69.255:    Starting node configuration.
+2016/04/26 16:05:44 - 52.39.69.255:    Connecting via SSH.
+2016/04/26 16:05:45 - 52.39.69.255:    Checking software installation completed.
+2016/04/26 16:05:45 - 52.39.69.255:    Software installation finished.
+2016/04/26 16:05:45 - 52.39.69.255:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/26 16:05:46 - 52.39.69.255:    Checking file contents.
+2016/04/26 16:05:46 - 52.39.69.255:    Remote file contents confirmed.
+2016/04/26 16:05:47 - 52.39.69.255:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/26 16:05:47 - 52.39.69.255:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/26 16:05:48 - 52.39.69.255:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/26 16:05:49 - 52.39.69.255:    Checking file contents.
+2016/04/26 16:05:49 - 52.39.69.255:    Remote file contents confirmed.
+2016/04/26 16:05:49 - 52.39.69.255:    Starting HPCC Platform Community Edition: 5.6.2-1.
+2016/04/26 16:06:05 - 52.39.69.255:    Starting mydafilesrv ...       [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting mydali ...            [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting mydfuserver ...       [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting myeclagent ...        [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting myeclccserver ...     [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting myeclscheduler ...    [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting myesp ...             [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting mysasha ...           [   OK    ]   
+2016/04/26 16:06:05 - 52.39.69.255:    Starting mythor ...            [   OK    ]  
+2016/04/26 16:06:05 - 52.39.69.255:    Start node is complete.
+2016/04/26 16:06:05 - Done.
+2016/04/26 18:09:47 - Terminating cluster.
+2016/04/26 18:09:47 - Connecting to AWS region us-west-2.
+2016/04/26 18:09:47 - Gathering instances for Hpcc-V5JZ.
+2016/04/26 18:09:47 - Terminating instances.
+2016/04/26 18:09:47 - Deleting Access Key Hpcc-V5JZ.
+2016/04/26 18:09:48 - Deleting Security group Hpcc-V5JZ.
+2016/04/26 18:09:48 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-89b186ee has a dependent object
+                      requestId: e303f846-f73e-4da3-bd20-622a16b0c11f
+2016/04/26 18:14:48 - Terminating cluster.
+2016/04/26 18:14:48 - Connecting to AWS region us-west-2.
+2016/04/26 18:14:48 - Gathering instances for Hpcc-V5JZ.
+2016/04/26 18:14:48 - Terminating instances.
+2016/04/26 18:14:48 - Deleting Access Key Hpcc-V5JZ.
+2016/04/26 18:14:48 - Error: Access key not found.
+2016/04/26 18:14:48 - Deleting Security group Hpcc-V5JZ.
+2016/04/26 18:14:48 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-89b186ee has a dependent object
+                      requestId: 408b4ef3-f1b1-4db0-bdf0-837080843bcd

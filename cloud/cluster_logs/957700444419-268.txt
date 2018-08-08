@@ -1,0 +1,85 @@
+2012/06/21 13:39:38 - Connecting to AWS region us-west-2.
+2012/06/21 13:39:38 - Calculating new unique cluster name for request 268.
+2012/06/21 13:39:39 - Creating new cluster name, Thor-9NMK.
+2012/06/21 13:39:39 - Creating Thor-9NMK security group.
+2012/06/21 13:39:42 - Creating Thor-9NMK key pair.
+2012/06/21 13:39:43 - Launching 1 m1.large nodes using ami-bcd4588c.
+2012/06/21 13:39:44 - Reservation ID r-995eb4aa created.
+2012/06/21 13:39:44 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:39:49 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:39:55 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:00 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:05 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:11 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:16 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:21 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:26 - Waiting for 1 of 1 nodes to launch.
+2012/06/21 13:40:32 - Pending instances have completed.
+2012/06/21 13:40:32 - Checking each node launched properly.
+2012/06/21 13:40:32 - 50.112.60.140:   Checking EC2 instance i-5db2736e.
+2012/06/21 13:40:32 - 50.112.60.140:   Checking EC2 instance is running.
+2012/06/21 13:40:32 - 50.112.60.140:   Connecting via SSH.
+2012/06/21 13:40:35 - 50.112.60.140:   Checking software installation completed.
+2012/06/21 13:40:35 - 50.112.60.140:   Waiting for software to install.
+2012/06/21 13:40:46 - 50.112.60.140:   Software installation finished.
+2012/06/21 13:40:46 - 50.112.60.140:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/21 13:40:46 - 50.112.60.140:   Checking file contents.
+2012/06/21 13:40:47 - 50.112.60.140:   Remote file contents confirmed.
+2012/06/21 13:40:47 - 50.112.60.140:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/21 13:40:47 - 50.112.60.140:   Completed check of node 50.112.60.140.
+2012/06/21 13:40:47 - Determining availability zone.
+2012/06/21 13:40:48 - Gathering public and private ip addresses.
+2012/06/21 13:40:48 - Connecting to node 50.112.60.140 for cluster configuration.
+2012/06/21 13:40:48 - Connecting via SSH.
+2012/06/21 13:40:49 - Checking software installation completed.
+2012/06/21 13:40:49 - Software installation finished.
+2012/06/21 13:40:49 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/21 13:40:50 - Checking file contents.
+2012/06/21 13:40:50 - Remote file contents confirmed.
+2012/06/21 13:40:51 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/21 13:40:51 - Writing cluster private ip addresses to file on instance.
+2012/06/21 13:40:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/06/21 13:40:52 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/06/21 13:40:52 - Checking file contents.
+2012/06/21 13:40:52 - Remote file contents confirmed.
+2012/06/21 13:40:52 - Running envgen
+2012/06/21 13:40:53 - Reading the config file.
+2012/06/21 13:40:54 - Retrieving IP address of ESP Server.
+2012/06/21 13:40:54 - ESP Server private IP address: 10.252.68.226.
+2012/06/21 13:40:54 - ESP Server public IP address: 50.112.60.140.
+2012/06/21 13:40:54 - 50.112.60.140:   Starting node configuration.
+2012/06/21 13:40:54 - 50.112.60.140:   Connecting via SSH.
+2012/06/21 13:40:55 - 50.112.60.140:   Checking software installation completed.
+2012/06/21 13:40:56 - 50.112.60.140:   Software installation finished.
+2012/06/21 13:40:56 - 50.112.60.140:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/21 13:40:56 - 50.112.60.140:   Checking file contents.
+2012/06/21 13:40:57 - 50.112.60.140:   Remote file contents confirmed.
+2012/06/21 13:40:57 - 50.112.60.140:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/21 13:40:57 - 50.112.60.140:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/21 13:40:58 - 50.112.60.140:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/21 13:40:59 - 50.112.60.140:   Checking file contents.
+2012/06/21 13:40:59 - 50.112.60.140:   Remote file contents confirmed.
+2012/06/21 13:40:59 - 50.112.60.140:   Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/21 13:41:25 - 50.112.60.140:   Starting mydafilesrv....       [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting mydali....            [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting mydfuserver....       [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting myeclagent....        [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting myeclccserver....     [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting myeclscheduler....    [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting myesp....             [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting mysasha....           [  OK  ]   
+2012/06/21 13:41:25 - 50.112.60.140:   Starting mythor....            [  OK  ]  
+2012/06/21 13:41:25 - 50.112.60.140:   Start node is complete.
+2012/06/21 13:41:25 - Done.
+2012/06/21 17:43:16 - Terminating cluster.
+2012/06/21 17:43:16 - Connecting to AWS region us-west-2.
+2012/06/21 17:43:16 - Gathering instances for Thor-9NMK.
+2012/06/21 17:43:17 - Terminating instances.
+2012/06/21 17:43:17 - Waiting for 1 instances to terminate.
+2012/06/21 17:43:23 - Waiting for 1 instances to terminate.
+2012/06/21 17:43:28 - Waiting for 1 instances to terminate.
+2012/06/21 17:43:33 - Waiting for 1 instances to terminate.
+2012/06/21 17:43:39 - Waiting for 1 instances to terminate.
+2012/06/21 17:43:44 - Deleting Access Key Thor-9NMK.
+2012/06/21 17:43:44 - Deleting Security group Thor-9NMK.
+2012/06/21 17:43:45 - Done.

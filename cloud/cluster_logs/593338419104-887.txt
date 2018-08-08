@@ -1,0 +1,107 @@
+2014/08/01 10:46:13 - Connecting to AWS region us-west-2.
+2014/08/01 10:46:13 - Checking storage IDs exist in region us-west-2: snap-2e4281d9
+2014/08/01 10:46:14 - Calculating new unique cluster name for request 887.
+2014/08/01 10:46:14 - Creating new cluster name, Hpcc-H8BY.
+2014/08/01 10:46:14 - Creating Hpcc-H8BY security group.
+2014/08/01 10:46:16 - Creating Hpcc-H8BY key pair.
+2014/08/01 10:46:17 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/08/01 10:46:18 - Reservation ID r-3fea4134 created.
+2014/08/01 10:46:18 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:23 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:28 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:33 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:39 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:44 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:49 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:54 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:46:59 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:04 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:10 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:15 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:20 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:25 - Waiting for 1 of 1 nodes to launch.
+2014/08/01 10:47:30 - Pending instances have completed.
+2014/08/01 10:47:30 - Checking each node launched properly.
+2014/08/01 10:47:30 - 54.202.177.226:  Checking EC2 instance i-e63a4ded.
+2014/08/01 10:47:30 - 54.202.177.226:  Checking EC2 instance is running.
+2014/08/01 10:47:30 - 54.202.177.226:  Connecting via SSH.
+2014/08/01 10:47:31 - 54.202.177.226:  Waiting on SSH connection.
+2014/08/01 10:47:44 - 54.202.177.226:  Checking software installation completed.
+2014/08/01 10:47:44 - 54.202.177.226:  Software installation finished.
+2014/08/01 10:47:44 - 54.202.177.226:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/01 10:47:45 - 54.202.177.226:  Checking file contents.
+2014/08/01 10:47:46 - 54.202.177.226:  Remote file contents confirmed.
+2014/08/01 10:47:47 - 54.202.177.226:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/01 10:47:47 - 54.202.177.226:  Completed check of node 54.202.177.226.
+2014/08/01 10:47:47 - Determining availability zone.
+2014/08/01 10:47:47 - Gathering public and private ip addresses.
+2014/08/01 10:47:47 - Connecting to node 54.202.177.226 for cluster configuration.
+2014/08/01 10:47:47 - Connecting via SSH.
+2014/08/01 10:47:48 - Checking software installation completed.
+2014/08/01 10:47:48 - Software installation finished.
+2014/08/01 10:47:48 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/01 10:47:49 - Checking file contents.
+2014/08/01 10:47:49 - Remote file contents confirmed.
+2014/08/01 10:47:49 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/01 10:47:49 - Writing cluster private ip addresses to file on instance.
+2014/08/01 10:47:49 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/08/01 10:47:50 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/08/01 10:47:50 - Checking file contents.
+2014/08/01 10:47:50 - Remote file contents confirmed.
+2014/08/01 10:47:50 - Running envgen
+2014/08/01 10:47:51 - Reading the config file.
+2014/08/01 10:47:52 - Retrieving IP address of ESP Server.
+2014/08/01 10:47:52 - ESP Server private IP address: 10.253.10.199.
+2014/08/01 10:47:52 - ESP Server public IP address: 54.202.177.226.
+2014/08/01 10:47:52 - Attaching storage devices to the Landing Zone: snap-2e4281d9
+2014/08/01 10:47:53 - Waiting for volumes to become available.
+2014/08/01 10:47:59 - Connecting via SSH.
+2014/08/01 10:48:01 - Waiting for EC2 instance to see storage device.
+2014/08/01 10:48:08 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-2e4281d9/.
+2014/08/01 10:48:08 - 54.202.177.226:  Starting node configuration.
+2014/08/01 10:48:08 - 54.202.177.226:  Connecting via SSH.
+2014/08/01 10:48:10 - 54.202.177.226:  Checking software installation completed.
+2014/08/01 10:48:10 - 54.202.177.226:  Software installation finished.
+2014/08/01 10:48:10 - 54.202.177.226:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/01 10:48:10 - 54.202.177.226:  Checking file contents.
+2014/08/01 10:48:10 - 54.202.177.226:  Remote file contents confirmed.
+2014/08/01 10:48:11 - 54.202.177.226:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/01 10:48:11 - 54.202.177.226:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/08/01 10:48:12 - 54.202.177.226:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/08/01 10:48:12 - 54.202.177.226:  Checking file contents.
+2014/08/01 10:48:12 - 54.202.177.226:  Remote file contents confirmed.
+2014/08/01 10:48:12 - 54.202.177.226:  Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/08/01 10:48:39 - 54.202.177.226:  Starting mydafilesrv....       [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting mydali....            [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting mydfuserver....       [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting myeclagent....        [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting myeclccserver....     [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting myeclscheduler....    [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting myesp....             [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting mysasha....           [  OK  ]   
+2014/08/01 10:48:39 - 54.202.177.226:  Starting mythor....            [  OK  ]  
+2014/08/01 10:48:39 - 54.202.177.226:  Start node is complete.
+2014/08/01 10:48:39 - Done.
+2014/08/01 16:21:17 - Terminating cluster.
+2014/08/01 16:21:17 - Connecting to AWS region us-west-2.
+2014/08/01 16:21:17 - Gathering instances for Hpcc-H8BY.
+2014/08/01 16:21:18 - Terminating instances.
+2014/08/01 16:21:19 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:24 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:29 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:34 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:39 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:44 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:49 - Waiting for 1 instances to terminate.
+2014/08/01 16:21:55 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:00 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:05 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:10 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:15 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:20 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:25 - Waiting for 1 instances to terminate.
+2014/08/01 16:22:31 - Deleting attached EBS volumes.
+2014/08/01 16:22:31 - Deleting volume vol-2e66f12f
+2014/08/01 16:22:31 - Deleting Access Key Hpcc-H8BY.
+2014/08/01 16:22:31 - Deleting Security group Hpcc-H8BY.
+2014/08/01 16:22:32 - Done.

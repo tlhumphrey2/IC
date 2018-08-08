@@ -1,0 +1,105 @@
+2012/01/30 12:53:29 - Connecting to AWS region us-east-1.
+2012/01/30 12:53:29 - Calculating new unique cluster name for request 47.
+2012/01/30 12:53:30 - Creating new cluster name, Thor-54JG.
+2012/01/30 12:53:30 - Creating Thor-54JG security group.
+2012/01/30 12:53:31 - Creating Thor-54JG key pair.
+2012/01/30 12:53:32 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/01/30 12:53:32 - Reservation ID r-34db2954 created
+2012/01/30 12:53:32 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:53:37 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:53:42 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:53:47 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:53:52 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:53:58 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 12:54:03 - Pending instances have completed.
+2012/01/30 12:54:03 - Checking each node launched properly.
+2012/01/30 12:54:03 - 107.20.38.201:   Checking EC2 instance i-cb578aae.
+2012/01/30 12:54:03 - 107.20.38.201:   Checking EC2 instance is running.
+2012/01/30 12:54:03 - 107.20.38.201:   Connecting via SSH.
+2012/01/30 12:54:05 - 107.20.38.201:   Checking network mask is compatible.
+2012/01/30 12:54:05 - 107.20.38.201:   Checking disk I/O
+2012/01/30 12:54:05 - 107.20.38.201:   Checking software installation completed.
+2012/01/30 12:54:05 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:54:15 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:54:25 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:54:35 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:54:45 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:54:55 - 107.20.38.201:   Waiting for software to install.
+2012/01/30 12:55:05 - 107.20.38.201:   Software installation finished.
+2012/01/30 12:55:05 - 107.20.38.201:   Completed check of node 107.20.38.201.
+2012/01/30 12:55:05 - Determining availability zone.
+2012/01/30 12:55:05 - Gathering public and private ip addresses.
+2012/01/30 12:55:05 - Connecting to node 107.20.38.201 for cluster configuration.
+2012/01/30 12:55:05 - Connecting via SSH.
+2012/01/30 12:55:06 - Checking network mask is compatible.
+2012/01/30 12:55:06 - Checking disk I/O
+2012/01/30 12:55:06 - Checking software installation completed.
+2012/01/30 12:55:06 - Software installation finished.
+2012/01/30 12:55:06 - Writing cluster private ip addresses to file on instance.
+2012/01/30 12:55:06 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/30 12:55:06 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/30 12:55:06 - Checking file contents.
+2012/01/30 12:55:06 - Remote file contents confirmed.
+2012/01/30 12:55:06 - Running envgen
+2012/01/30 12:55:06 - Reading the config file.
+2012/01/30 12:55:06 - Retrieving IP address of ESP Server.
+2012/01/30 12:55:06 - ESP Server private IP address: 10.12.19.66.
+2012/01/30 12:55:06 - ESP Server public IP address: 107.20.38.201.
+2012/01/30 12:55:07 - 107.20.38.201:   Starting node configuration.
+2012/01/30 12:55:07 - 107.20.38.201:   Connecting via SSH.
+2012/01/30 12:55:07 - 107.20.38.201:   Checking network mask is compatible.
+2012/01/30 12:55:07 - 107.20.38.201:   Checking disk I/O
+2012/01/30 12:55:07 - 107.20.38.201:   Checking software installation completed.
+2012/01/30 12:55:07 - 107.20.38.201:   Software installation finished.
+2012/01/30 12:55:07 - 107.20.38.201:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/30 12:55:07 - 107.20.38.201:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/30 12:55:07 - 107.20.38.201:   Checking file contents.
+2012/01/30 12:55:07 - 107.20.38.201:   Remote file contents confirmed.
+2012/01/30 12:55:07 - 107.20.38.201:   Starting HPCC services.
+2012/01/30 12:55:07 - 107.20.38.201:   HPPC Systems Thor Community Edition: 3.4.0-1.
+2012/01/30 12:55:15 - Terminating cluster.
+2012/01/30 12:55:15 - Connecting to AWS region us-east-1.
+2012/01/30 12:55:15 - Gathering instances for Thor-54JG.
+2012/01/30 12:55:15 - Terminating instances.
+2012/01/30 12:55:15 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:20 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:25 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:30 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:33 - 107.20.38.201:   Starting mydafilesrv....       [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting mydali....            [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting mydfuserver....       [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting myeclagent....        [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting myeclccserver....     [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting myeclscheduler....    [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting myesp....             [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting mysasha....           [  OK  ]   
+2012/01/30 12:55:33 - 107.20.38.201:   Starting mythor....            [  OK  ]  
+2012/01/30 12:55:33 - 107.20.38.201:   Start node is complete.
+2012/01/30 12:55:33 - Done.
+2012/01/30 12:55:35 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:40 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:45 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:50 - Waiting for 1 instances to terminate.
+2012/01/30 12:55:56 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:01 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:06 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:11 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:16 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:21 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:26 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:31 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:36 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:41 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:46 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:51 - Waiting for 1 instances to terminate.
+2012/01/30 12:56:56 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:01 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:07 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:12 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:17 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:22 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:27 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:32 - Waiting for 1 instances to terminate.
+2012/01/30 12:57:37 - Deleting Access Key Thor-54JG.
+2012/01/30 12:57:37 - Deleting Security group Thor-54JG.
+2012/01/30 12:57:37 - Done.

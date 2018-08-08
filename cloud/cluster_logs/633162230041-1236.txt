@@ -1,0 +1,93 @@
+2016/06/07 14:29:41 - Connecting to AWS region eu-west-1.
+2016/06/07 14:29:41 - Calculating new unique cluster name for request 1236.
+2016/06/07 14:29:41 - Creating new cluster name, Hpcc-42KS.
+2016/06/07 14:29:41 - Creating Hpcc-42KS security group.
+2016/06/07 14:29:43 - Creating Hpcc-42KS key pair.
+2016/06/07 14:29:44 - Launching 1 m1.large nodes using ami-cd970abe.
+2016/06/07 14:29:44 - Reservation ID r-67d0b4df created.
+2016/06/07 14:29:44 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:29:49 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:29:54 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:00 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:05 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:10 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:15 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:20 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:25 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:30 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:36 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:41 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:46 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:51 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:30:56 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 14:31:01 - Pending instances have completed.
+2016/06/07 14:31:01 - Checking each node launched properly.
+2016/06/07 14:31:01 - 54.216.85.203:   Checking EC2 instance i-d025435c.
+2016/06/07 14:31:01 - 54.216.85.203:   Checking EC2 instance is running.
+2016/06/07 14:31:01 - 54.216.85.203:   Connecting via SSH.
+2016/06/07 14:31:06 - 54.216.85.203:   Waiting on SSH connection.
+2016/06/07 14:31:18 - 54.216.85.203:   Checking software installation completed.
+2016/06/07 14:31:19 - 54.216.85.203:   Software installation finished.
+2016/06/07 14:31:19 - 54.216.85.203:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 14:31:19 - 54.216.85.203:   Checking file contents.
+2016/06/07 14:31:19 - 54.216.85.203:   Remote file contents confirmed.
+2016/06/07 14:31:20 - 54.216.85.203:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 14:31:20 - 54.216.85.203:   Completed check of node 54.216.85.203.
+2016/06/07 14:31:20 - Determining availability zone.
+2016/06/07 14:31:20 - Gathering public and private ip addresses.
+2016/06/07 14:31:20 - Connecting to node 54.216.85.203 for cluster configuration.
+2016/06/07 14:31:20 - Connecting via SSH.
+2016/06/07 14:31:22 - Checking software installation completed.
+2016/06/07 14:31:22 - Software installation finished.
+2016/06/07 14:31:22 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 14:31:22 - Checking file contents.
+2016/06/07 14:31:23 - Remote file contents confirmed.
+2016/06/07 14:31:23 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 14:31:23 - Writing cluster private ip addresses to file on instance.
+2016/06/07 14:31:23 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/06/07 14:31:24 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/06/07 14:31:24 - Checking file contents.
+2016/06/07 14:31:25 - Remote file contents confirmed.
+2016/06/07 14:31:25 - Running envgen
+2016/06/07 14:31:25 - Reading the config file.
+2016/06/07 14:31:26 - Retrieving IP address of ESP Server.
+2016/06/07 14:31:26 - ESP Server private IP address: 10.90.154.15.
+2016/06/07 14:31:26 - ESP Server public IP address: 54.216.85.203.
+2016/06/07 14:31:26 - 54.216.85.203:   Starting node configuration.
+2016/06/07 14:31:26 - 54.216.85.203:   Connecting via SSH.
+2016/06/07 14:31:28 - 54.216.85.203:   Checking software installation completed.
+2016/06/07 14:31:28 - 54.216.85.203:   Software installation finished.
+2016/06/07 14:31:28 - 54.216.85.203:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 14:31:28 - 54.216.85.203:   Checking file contents.
+2016/06/07 14:31:29 - 54.216.85.203:   Remote file contents confirmed.
+2016/06/07 14:31:29 - 54.216.85.203:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 14:31:29 - 54.216.85.203:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/06/07 14:31:30 - 54.216.85.203:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/06/07 14:31:30 - 54.216.85.203:   Checking file contents.
+2016/06/07 14:31:31 - 54.216.85.203:   Remote file contents confirmed.
+2016/06/07 14:31:31 - 54.216.85.203:   Starting HPCC Platform Community Edition: 5.6.2-1.
+2016/06/07 14:31:50 - 54.216.85.203:   Starting mydafilesrv ...       [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting mydali ...            [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting mydfuserver ...       [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting myeclagent ...        [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting myeclccserver ...     [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting myeclscheduler ...    [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting myesp ...             [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting mysasha ...           [   OK    ]   
+2016/06/07 14:31:50 - 54.216.85.203:   Starting mythor ...            [   OK    ]  
+2016/06/07 14:31:50 - 54.216.85.203:   Start node is complete.
+2016/06/07 14:31:50 - Done.
+2016/06/07 14:33:24 - Terminating cluster.
+2016/06/07 14:33:24 - Connecting to AWS region eu-west-1.
+2016/06/07 14:33:24 - Gathering instances for Hpcc-42KS.
+2016/06/07 14:33:25 - Terminating instances.
+2016/06/07 14:33:25 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:30 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:36 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:41 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:46 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:51 - Waiting for 1 instances to terminate.
+2016/06/07 14:33:56 - Waiting for 1 instances to terminate.
+2016/06/07 14:34:01 - Deleting Access Key Hpcc-42KS.
+2016/06/07 14:34:02 - Deleting Security group Hpcc-42KS.
+2016/06/07 14:34:02 - Done.

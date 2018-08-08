@@ -1,0 +1,90 @@
+2016/04/14 09:28:26 - Connecting to AWS region us-west-2.
+2016/04/14 09:28:26 - Calculating new unique cluster name for request 1213.
+2016/04/14 09:28:26 - Creating new cluster name, Hpcc-GCSE.
+2016/04/14 09:28:26 - Creating Hpcc-GCSE security group.
+2016/04/14 09:28:29 - Creating Hpcc-GCSE key pair.
+2016/04/14 09:28:29 - Launching 1 m1.large nodes using ami-de1700bf.
+2016/04/14 09:28:30 - Reservation ID r-a904126c created.
+2016/04/14 09:28:30 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:28:35 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:28:40 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:28:45 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:28:50 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:28:55 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:29:00 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:29:06 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:29:11 - Pending instances have completed.
+2016/04/14 09:29:11 - Checking each node launched properly.
+2016/04/14 09:29:11 - 54.203.77.88:    Checking EC2 instance i-778088b0.
+2016/04/14 09:29:11 - 54.203.77.88:    Checking EC2 instance is running.
+2016/04/14 09:29:11 - 54.203.77.88:    Connecting via SSH.
+2016/04/14 09:29:20 - 54.203.77.88:    Checking software installation completed.
+2016/04/14 09:29:20 - 54.203.77.88:    Waiting for software to install.
+2016/04/14 09:29:31 - 54.203.77.88:    Software installation finished.
+2016/04/14 09:29:31 - 54.203.77.88:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:29:31 - 54.203.77.88:    Checking file contents.
+2016/04/14 09:29:31 - 54.203.77.88:    Remote file contents confirmed.
+2016/04/14 09:29:32 - 54.203.77.88:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:29:32 - 54.203.77.88:    Completed check of node 54.203.77.88.
+2016/04/14 09:29:32 - Determining availability zone.
+2016/04/14 09:29:32 - Gathering public and private ip addresses.
+2016/04/14 09:29:32 - Connecting to node 54.203.77.88 for cluster configuration.
+2016/04/14 09:29:32 - Connecting via SSH.
+2016/04/14 09:29:39 - Checking software installation completed.
+2016/04/14 09:29:39 - Software installation finished.
+2016/04/14 09:29:39 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:29:40 - Checking file contents.
+2016/04/14 09:29:40 - Remote file contents confirmed.
+2016/04/14 09:29:41 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:29:41 - Writing cluster private ip addresses to file on instance.
+2016/04/14 09:29:41 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/14 09:29:41 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/14 09:29:41 - Checking file contents.
+2016/04/14 09:29:42 - Remote file contents confirmed.
+2016/04/14 09:29:42 - Running envgen
+2016/04/14 09:29:42 - Reading the config file.
+2016/04/14 09:29:43 - Retrieving IP address of ESP Server.
+2016/04/14 09:29:43 - ESP Server private IP address: 10.254.98.74.
+2016/04/14 09:29:43 - ESP Server public IP address: 54.203.77.88.
+2016/04/14 09:29:43 - 54.203.77.88:    Starting node configuration.
+2016/04/14 09:29:43 - 54.203.77.88:    Connecting via SSH.
+2016/04/14 09:29:45 - 54.203.77.88:    Checking software installation completed.
+2016/04/14 09:29:45 - 54.203.77.88:    Software installation finished.
+2016/04/14 09:29:45 - 54.203.77.88:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:29:45 - 54.203.77.88:    Checking file contents.
+2016/04/14 09:29:46 - 54.203.77.88:    Remote file contents confirmed.
+2016/04/14 09:29:46 - 54.203.77.88:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:29:46 - 54.203.77.88:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/14 09:29:47 - 54.203.77.88:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/14 09:29:48 - 54.203.77.88:    Checking file contents.
+2016/04/14 09:29:48 - 54.203.77.88:    Remote file contents confirmed.
+2016/04/14 09:29:48 - 54.203.77.88:    Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/04/14 09:30:05 - 54.203.77.88:    Starting mydafilesrv ...       [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting mydali ...            [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting mydfuserver ...       [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting myeclagent ...        [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting myeclccserver ...     [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting myeclscheduler ...    [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting myesp ...             [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting mysasha ...           [   OK    ]   
+2016/04/14 09:30:05 - 54.203.77.88:    Starting mythor ...            [   OK    ]  
+2016/04/14 09:30:05 - 54.203.77.88:    Start node is complete.
+2016/04/14 09:30:05 - Done.
+2016/04/14 09:30:31 - Terminating cluster.
+2016/04/14 09:30:31 - Connecting to AWS region us-west-2.
+2016/04/14 09:30:31 - Gathering instances for Hpcc-GCSE.
+2016/04/14 09:30:31 - Terminating instances.
+2016/04/14 09:30:32 - Waiting for 1 instances to terminate.
+2016/04/14 09:30:37 - Waiting for 1 instances to terminate.
+2016/04/14 09:30:42 - Waiting for 1 instances to terminate.
+2016/04/14 09:30:47 - Waiting for 1 instances to terminate.
+2016/04/14 09:30:52 - Waiting for 1 instances to terminate.
+2016/04/14 09:30:57 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:03 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:08 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:13 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:18 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:23 - Waiting for 1 instances to terminate.
+2016/04/14 09:31:28 - Deleting Access Key Hpcc-GCSE.
+2016/04/14 09:31:29 - Deleting Security group Hpcc-GCSE.
+2016/04/14 09:31:29 - Done.

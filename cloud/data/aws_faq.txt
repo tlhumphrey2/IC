@@ -1,0 +1,59 @@
+INSERT INTO `aws_faq` VALUES(1,'2011-12-30 00:32:26','2012-01-06 10:40:22.789851',5,'What is this site?','<p>This site allows users to launch, configure, and terminate HPCC Systems Thor clusters at the push of a button.  It also gathers and organizes additional information you may need to manage these clusters.</p>
+<p>
+You can learn more about the HPCC Platform at <a href=`http://hpccsystems.com` target=`_blank`>hpccsystems.com</a>.
+</p>',1);
+INSERT INTO `aws_faq` VALUES(2,'2011-12-30 00:36:39','2012-01-13 14:21:12.442790',20,'What about security?','    <p>
+        Your AWS Access Key ID and AWS Secret Access Key are not stored on this
+        system.  <br />Cookies are cryptographically signed to prevent tampering and are encrypted
+        in flight via HTTPS. 
+    </p>
+    <p>
+    Recommendations: <br />
+    
+    <ul>
+        <li>Create an AWS Access Key specifically for use on this site.</li>
+        <li>Deactivate your AWS Access Key when not in use.</li>
+        <li>Download and delete your clusters'' ssh key from this site once each cluster is ready.</li>
+        <li>Log out of this site when not in use.</li>
+        <li>Clear your cookies when accessing this site from an unsecure computer.</li>
+    </ul>
+    </p>
+    <p>
+        <a target=`_blank` href=`https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key`>
+        Manage Your AWS Access Keys</a>
+    </p>',1);
+INSERT INTO `aws_faq` VALUES(3,'2011-12-30 16:31:55','2012-01-06 10:50:47.511541',90,'What happens to my clusters when I log out of this site?','Nothing.  This system interacts with your Amazon AWS account.  When you log out of this site, your cluster will continue to run on Amazon AWS until you terminate them either from this site or from your Amazon AWS Management Console.',1);
+INSERT INTO `aws_faq` VALUES(4,'2011-12-30 17:11:12','2012-01-06 10:50:10.397202',95,'What if I navigate away from the log page while it''s busy?','<p>The site will continue to fulfill your request and accept new requests.  This is true even if you log out.  You can navigate back to this page by going to the `View Clusters` page and clicking on the `View Log` link for the cluster in question.</p>',1);
+INSERT INTO `aws_faq` VALUES(5,'2011-12-30 17:39:34','2012-01-13 14:59:45.634447',100,'Why did my cluster fail to configure?','<p>The most common reason is that you have a new Amazon AWS account.  Even though you have  credentials from Amazon, it still takes a while for Amazon to fully enable your account.  You''re almost there. Try again in an hour or two.</p>
+
+<p>The second most common reason is that you requested a cluster size that would cause you to exceed the default limits imposed by Amazon.  At the time of this writing, Amazon sets that default limit to no more than 20 total EC2 instances per account.  Don''t worry -- many people launch significantly larger clusters on Amazon.  Use the link <a href=`http://aws.amazon.com/contact-us/ec2-request/` target=`_blank`>`AWS Limit Increase Request`</a> to request a limit increase.  You will need to know that this site currently launches `Large` `Linux` instances in the `US East` region by default.  You will also need your account number found in the upper right hand corner of  the <a href=`https://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key` target=`_blank`>AWS Access Keys</a> page.</p>
+
+<p>It is possible that Amazon is running slow.  Check the link <a href=`http://status.aws.amazon.com/` target=`_blank`>`AWS Health Dashboard`</a> to see if Amazon AWS is experiencing issues.</p>
+
+<p>If none of these apply, please reach out via the <a href=`https://hpccsystems.com/bb/` target=`_blank`>`Forum`</a> link.</p>',1);
+INSERT INTO `aws_faq` VALUES(6,'2011-12-30 17:47:56','2012-01-06 11:17:55.787051',47,'What will I see in my Amazon AWS Management Console?','<p>When you launch a new cluster, you will see one new EC2 instance for each node in your cluster.  You will also see a new security group configured specifically for your new cluster and a new key pair.  Both will have the same name as your cluster.</p>
+<p>When you terminate a cluster, the site will terminate those EC2 instances that have a security group and key pair with the same name as your cluster.  The site will then delete the security group and key pair from your Amazon AWS account.</p>',1);
+INSERT INTO `aws_faq` VALUES(7,'2012-01-06 10:41:27','2012-01-13 13:59:50.489253',7,'Who pays for this usage? ','<p>Users are responsible for all Amazon charges. HPCC Systems is just providing an easier way of starting a cluster on the Amazon AWS environment.</p>',1);
+INSERT INTO `aws_faq` VALUES(8,'2012-01-06 10:43:38','2012-01-13 14:06:11.421250',10,'Is this cloud provided by HPCC Systems?','<p>Amazon.com provides this cloud service. HPCC Systems is just facilitating the creation of a cluster.</p>',1);
+INSERT INTO `aws_faq` VALUES(9,'2012-01-06 10:44:43','2012-01-13 14:07:00.514856',12,'Is this equivalent to the Amazon EMR?','<p>No. That will come later. HPCC Systems is using the Amazon AWS (Amazon Web Services) platform to help you create Thor Clusters. This is not the ideal environment but will allow users to test and explore the HPCC Systems Thor platform at ease and low cost.</p>',1);
+INSERT INTO `aws_faq` VALUES(10,'2012-01-06 10:44:57','2012-01-13 14:16:29.716963',13,'When will the EMR equivalent be available?','<p>HPCC Systems is working with Amazon to create a similar service to EMR (Elastic Mapreduce). Since the HPCC Systems platform does not use the limited data model of Mapreduce, the name should change. Internally, HPCC Systems is using `EECL` for Elastic ECL. ECL is the data centric, cluster aware, big data declarative language that the HPCC Systems platform uses.</p>',1);
+INSERT INTO `aws_faq` VALUES(11,'2012-01-06 10:46:31','2012-01-06 10:47:17.738444',15,'What are some of the limitations of this implementation (EC2 AWS) vs an EMR equivalent?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(12,'2012-01-06 10:47:28','2012-01-13 14:27:52.699167',17,'Where can I get some ECL examples to try in my test cluster?','<p>HPCC Systems has a growing set of ECL examples on the web site: <a href=`http://hpccsystems.com/community/contributions` target=`_blank`>ECL Examples</a>. </p>
+
+<p>Your contributions are also welcome.</p>',1);
+INSERT INTO `aws_faq` VALUES(13,'2012-01-06 10:51:51','2012-01-13 14:39:25.959704',25,'How can I get support?','<p>Visit HPCC Systems <a href=`https://hpccsystems.com/bb/` target=`_blank`>Support Forums</a> for free community support.  Enterprise level support is also available. Please <a href`https://hpccsystems.com/contact-us` target=`_blank`>contact us</a> for details.</p>',1);
+INSERT INTO `aws_faq` VALUES(14,'2012-01-06 10:52:51','2012-01-13 14:43:47.146447',27,'What if I need additional support beyond the `free` forums?','<p>Enterprise level support is also available. Please <a href`http://hpccsystems.com/contactus` target=`_blank`>contact us</a> for details.</p>',1);
+INSERT INTO `aws_faq` VALUES(15,'2012-01-06 10:53:50','2012-01-06 10:54:05.197459',30,'Will it work from my Mac?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(16,'2012-01-06 10:54:10','2012-01-06 10:54:28.726649',35,'Will it work from my Linux workstation?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(17,'2012-01-06 10:54:49','2012-01-06 10:55:59.944106',40,'How big of a cluster can I build? Any limitations? Recommendations?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(18,'2012-01-06 10:56:07','2012-01-06 10:57:09.474459',45,'Is there information available around the `support nodes` that get created?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(19,'2012-01-06 10:57:29','2012-01-06 11:15:17.512566',50,'What is the difference between One-Click cloud and the AWS support for HPCC previously announced?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(20,'2012-01-06 11:13:42','2012-01-06 11:14:54.694112',55,'Can I still use the Amazon console and other AWS tools to manage the One-Click created Thor? How?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(21,'2012-01-06 11:15:43','2012-01-06 11:18:39.400445',105,'How can I store my data in this environment? ','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(22,'2012-01-06 11:20:48','2012-01-06 11:22:09.232498',110,'Is S3 supported? If so, how can I access it?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(23,'2012-01-06 11:22:20','2012-01-06 11:23:37.357850',115,'Can I change some of the default used to run this cool One-Click Thor script? If so, how?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(24,'2012-01-06 11:24:06','2012-01-06 11:24:44.714850',120,'Can I have an API or programmatic interface to the cluster?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(25,'2012-01-06 11:24:55','2012-01-06 11:26:06.442767',125,'Regarding the HPCC Systems Roxie, will One-Click Roxie be available soon?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(26,'2012-01-06 11:26:30','2012-01-06 11:27:15.608414',126,'How could I leverage a Thor cluster in Amazon with an in-house Roxie?','<p></p>',1);
+INSERT INTO `aws_faq` VALUES(27,'2012-01-06 15:07:09','2012-01-11 10:41:58.209354',101,'What can I do when I try to start a cluster and it hangs or parts of the process (per log) fail?','<p>Use the Abort Cluster control/button (currently in development) from our main page, and/or
+go to the Amazon AWS Management EC2 Console, (login into the AWS system), find the cluster in question and terminate it.</p>',1);

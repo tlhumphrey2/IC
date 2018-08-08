@@ -1,0 +1,172 @@
+2012/02/06 11:43:02 - Connecting to AWS region us-east-1.
+2012/02/06 11:43:02 - Calculating new unique cluster name for request 100.
+2012/02/06 11:43:02 - Creating new cluster name, Thor-2DCN.
+2012/02/06 11:43:02 - Creating Thor-2DCN security group.
+2012/02/06 11:43:05 - Creating Thor-2DCN key pair.
+2012/02/06 11:43:05 - Launching 4 m1.large nodes using ami-35de095c.
+2012/02/06 11:43:06 - Reservation ID r-1e11c87e created
+2012/02/06 11:43:06 - Waiting for 4 of 4 nodes to launch.
+2012/02/06 11:43:11 - EC2ResponseError: EC2ResponseError: 400 Bad Request
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Errors><Error><Code>InvalidInstanceID.NotFound</Code><Message>The instance ID 'i-e7b23c82' does not exist</Message></Error></Errors><RequestID>03517820-127b-48ea-9ec7-e280f9e2e9e9</RequestID></Response>
+2012/02/06 11:43:11 - Error occured when trying to update status.
+2012/02/06 11:43:11 - Pausing 10 seconds before trying again.
+2012/02/06 11:43:21 - EC2ResponseError: EC2ResponseError: 400 Bad Request
+<?xml version="1.0" encoding="UTF-8"?>
+<Response><Errors><Error><Code>InvalidInstanceID.NotFound</Code><Message>The instance ID 'i-e7b23c82' does not exist</Message></Error></Errors><RequestID>687a5bff-d799-4f5b-9644-e229e52984ed</RequestID></Response>
+2012/02/06 11:43:21 - Error occured when trying to update status.
+2012/02/06 11:43:21 - Pausing 10 seconds before trying again.
+2012/02/06 11:43:32 - Waiting for 4 of 4 nodes to launch.
+2012/02/06 11:43:37 - Waiting for 4 of 4 nodes to launch.
+2012/02/06 11:43:42 - Waiting for 3 of 4 nodes to launch.
+2012/02/06 11:43:47 - Waiting for 1 of 4 nodes to launch.
+2012/02/06 11:43:53 - Pending instances have completed.
+2012/02/06 11:43:53 - Checking each node launched properly.
+2012/02/06 11:43:53 - 204.236.210.153: Checking EC2 instance i-1bb23c7e.
+2012/02/06 11:43:53 - 184.73.149.65:   Checking EC2 instance i-e5b23c80.
+2012/02/06 11:43:53 - 184.73.3.36:     Checking EC2 instance i-e7b23c82.
+2012/02/06 11:43:53 - 184.72.197.207:  Checking EC2 instance i-e1b23c84.
+2012/02/06 11:43:53 - 184.73.149.65:   Checking EC2 instance is running.
+2012/02/06 11:43:53 - 184.73.149.65:   Connecting via SSH.
+2012/02/06 11:43:53 - 204.236.210.153: Checking EC2 instance is running.
+2012/02/06 11:43:53 - 204.236.210.153: Connecting via SSH.
+2012/02/06 11:43:53 - 184.73.149.65:   Waiting on SSH connection.
+2012/02/06 11:43:53 - 184.72.197.207:  Checking EC2 instance is running.
+2012/02/06 11:43:53 - 184.72.197.207:  Connecting via SSH.
+2012/02/06 11:43:53 - 204.236.210.153: Waiting on SSH connection.
+2012/02/06 11:43:53 - 184.73.3.36:     Checking EC2 instance is running.
+2012/02/06 11:43:53 - 184.73.3.36:     Connecting via SSH.
+2012/02/06 11:43:56 - 184.72.197.207:  Checking disk I/O
+2012/02/06 11:43:56 - 184.72.197.207:  Checking software installation completed.
+2012/02/06 11:43:56 - 184.72.197.207:  Waiting for software to install.
+2012/02/06 11:43:57 - 184.73.3.36:     Checking disk I/O
+2012/02/06 11:43:57 - 184.73.3.36:     Checking software installation completed.
+2012/02/06 11:43:57 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:01 - 204.236.210.153: Checking disk I/O
+2012/02/06 11:44:01 - 204.236.210.153: Checking software installation completed.
+2012/02/06 11:44:01 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:02 - 184.73.149.65:   Checking disk I/O
+2012/02/06 11:44:02 - 184.73.149.65:   Checking software installation completed.
+2012/02/06 11:44:02 - 184.73.149.65:   Waiting for software to install.
+2012/02/06 11:44:06 - 184.72.197.207:  Waiting for software to install.
+2012/02/06 11:44:07 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:11 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:12 - 184.73.149.65:   Waiting for software to install.
+2012/02/06 11:44:16 - 184.72.197.207:  Waiting for software to install.
+2012/02/06 11:44:17 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:21 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:22 - 184.73.149.65:   Waiting for software to install.
+2012/02/06 11:44:26 - 184.72.197.207:  Waiting for software to install.
+2012/02/06 11:44:27 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:31 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:32 - 184.73.149.65:   Waiting for software to install.
+2012/02/06 11:44:36 - 184.72.197.207:  Waiting for software to install.
+2012/02/06 11:44:37 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:41 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:42 - 184.73.149.65:   Waiting for software to install.
+2012/02/06 11:44:46 - 184.72.197.207:  Software installation finished.
+2012/02/06 11:44:46 - 184.72.197.207:  Completed check of node 184.72.197.207.
+2012/02/06 11:44:47 - 184.73.3.36:     Waiting for software to install.
+2012/02/06 11:44:51 - 204.236.210.153: Waiting for software to install.
+2012/02/06 11:44:52 - 184.73.149.65:   Software installation finished.
+2012/02/06 11:44:52 - 184.73.149.65:   Completed check of node 184.73.149.65.
+2012/02/06 11:44:57 - 184.73.3.36:     Software installation finished.
+2012/02/06 11:44:57 - 184.73.3.36:     Completed check of node 184.73.3.36.
+2012/02/06 11:45:01 - 204.236.210.153: Software installation finished.
+2012/02/06 11:45:01 - 204.236.210.153: Completed check of node 204.236.210.153.
+2012/02/06 11:45:01 - Determining availability zone.
+2012/02/06 11:45:01 - Gathering public and private ip addresses.
+2012/02/06 11:45:01 - Connecting to node 204.236.210.153 for cluster configuration.
+2012/02/06 11:45:01 - Connecting via SSH.
+2012/02/06 11:45:02 - Checking disk I/O
+2012/02/06 11:45:02 - Checking software installation completed.
+2012/02/06 11:45:02 - Software installation finished.
+2012/02/06 11:45:02 - Writing cluster private ip addresses to file on instance.
+2012/02/06 11:45:02 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/06 11:45:02 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/06 11:45:02 - Checking file contents.
+2012/02/06 11:45:02 - Remote file contents confirmed.
+2012/02/06 11:45:02 - Running envgen
+2012/02/06 11:45:02 - Reading the config file.
+2012/02/06 11:45:03 - Retrieving IP address of ESP Server.
+2012/02/06 11:45:03 - ESP Server private IP address: 10.113.49.223.
+2012/02/06 11:45:03 - ESP Server public IP address: 204.236.210.153.
+2012/02/06 11:45:03 - 204.236.210.153: Starting node configuration.
+2012/02/06 11:45:03 - 204.236.210.153: Connecting via SSH.
+2012/02/06 11:45:03 - 184.73.149.65:   Starting node configuration.
+2012/02/06 11:45:03 - 184.73.149.65:   Connecting via SSH.
+2012/02/06 11:45:03 - 184.72.197.207:  Starting node configuration.
+2012/02/06 11:45:03 - 184.72.197.207:  Connecting via SSH.
+2012/02/06 11:45:03 - 184.73.3.36:     Starting node configuration.
+2012/02/06 11:45:03 - 184.73.3.36:     Connecting via SSH.
+2012/02/06 11:45:04 - 184.73.149.65:   Checking disk I/O
+2012/02/06 11:45:04 - 184.73.149.65:   Checking software installation completed.
+2012/02/06 11:45:04 - 204.236.210.153: Checking disk I/O
+2012/02/06 11:45:04 - 184.73.149.65:   Software installation finished.
+2012/02/06 11:45:04 - 184.73.149.65:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/06 11:45:04 - 204.236.210.153: Checking software installation completed.
+2012/02/06 11:45:04 - 184.72.197.207:  Checking disk I/O
+2012/02/06 11:45:04 - 184.72.197.207:  Checking software installation completed.
+2012/02/06 11:45:04 - 184.73.3.36:     Checking disk I/O
+2012/02/06 11:45:04 - 204.236.210.153: Software installation finished.
+2012/02/06 11:45:04 - 204.236.210.153: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/06 11:45:04 - 184.72.197.207:  Software installation finished.
+2012/02/06 11:45:04 - 184.72.197.207:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/06 11:45:04 - 184.73.3.36:     Checking software installation completed.
+2012/02/06 11:45:04 - 184.73.149.65:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/06 11:45:04 - 184.73.3.36:     Software installation finished.
+2012/02/06 11:45:04 - 184.73.3.36:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/06 11:45:04 - 184.73.149.65:   Checking file contents.
+2012/02/06 11:45:04 - 204.236.210.153: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/06 11:45:04 - 184.72.197.207:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/06 11:45:04 - 184.73.149.65:   Remote file contents confirmed.
+2012/02/06 11:45:04 - 184.73.149.65:   Starting HPCC services.
+2012/02/06 11:45:04 - 184.73.149.65:   HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/06 11:45:04 - 204.236.210.153: Checking file contents.
+2012/02/06 11:45:04 - 184.72.197.207:  Checking file contents.
+2012/02/06 11:45:04 - 184.73.3.36:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/06 11:45:04 - 204.236.210.153: Remote file contents confirmed.
+2012/02/06 11:45:04 - 204.236.210.153: Starting HPCC services.
+2012/02/06 11:45:04 - 204.236.210.153: HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/06 11:45:04 - 184.72.197.207:  Remote file contents confirmed.
+2012/02/06 11:45:04 - 184.72.197.207:  Starting HPCC services.
+2012/02/06 11:45:04 - 184.72.197.207:  HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/06 11:45:04 - 184.73.3.36:     Checking file contents.
+2012/02/06 11:45:04 - 184.73.3.36:     Remote file contents confirmed.
+2012/02/06 11:45:04 - 184.73.3.36:     Starting HPCC services.
+2012/02/06 11:45:04 - 184.73.3.36:     HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/06 11:45:08 - 184.72.197.207:  Starting mydafilesrv....       [  OK  ]   
+2012/02/06 11:45:08 - 184.72.197.207:  Starting myeclagent....        [  OK  ]   
+2012/02/06 11:45:08 - 184.72.197.207:  Setting mythor....             [  OK  ]  
+2012/02/06 11:45:08 - 184.72.197.207:  Start node is complete.
+2012/02/06 11:45:09 - 184.73.149.65:   Starting mydafilesrv....       [  OK  ]   
+2012/02/06 11:45:09 - 184.73.149.65:   Starting mydali....            [  OK  ]   
+2012/02/06 11:45:09 - 184.73.149.65:   Starting myeclscheduler....    [  OK  ]   
+2012/02/06 11:45:09 - 184.73.149.65:   Setting mythor....             [  OK  ]  
+2012/02/06 11:45:09 - 184.73.149.65:   Start node is complete.
+2012/02/06 11:45:09 - 184.73.3.36:     Starting mydafilesrv....       [  OK  ]   
+2012/02/06 11:45:09 - 184.73.3.36:     Starting mydfuserver....       [  OK  ]   
+2012/02/06 11:45:09 - 184.73.3.36:     Starting mysasha....           [  OK  ]   
+2012/02/06 11:45:09 - 184.73.3.36:     Setting mythor....             [  OK  ]  
+2012/02/06 11:45:09 - 184.73.3.36:     Start node is complete.
+2012/02/06 11:45:24 - 204.236.210.153: Starting mydafilesrv....       [  OK  ]   
+2012/02/06 11:45:24 - 204.236.210.153: Starting myeclccserver....     [  OK  ]   
+2012/02/06 11:45:24 - 204.236.210.153: Starting myesp....             [  OK  ]   
+2012/02/06 11:45:24 - 204.236.210.153: Starting mythor....            [  OK  ]  
+2012/02/06 11:45:24 - 204.236.210.153: Start node is complete.
+2012/02/06 11:45:24 - Done.
+2012/02/06 11:54:58 - Terminating cluster.
+2012/02/06 11:54:58 - Connecting to AWS region us-east-1.
+2012/02/06 11:54:58 - Gathering instances for Thor-2DCN.
+2012/02/06 11:54:59 - Terminating instances.
+2012/02/06 11:55:00 - Waiting for 4 instances to terminate.
+2012/02/06 11:55:05 - Waiting for 4 instances to terminate.
+2012/02/06 11:55:11 - Waiting for 4 instances to terminate.
+2012/02/06 11:55:16 - Waiting for 3 instances to terminate.
+2012/02/06 12:01:57 - Terminating cluster.
+2012/02/06 12:01:57 - Connecting to AWS region us-east-1.
+2012/02/06 12:01:57 - Gathering instances for Thor-2DCN.
+2012/02/06 12:01:57 - Terminating instances.
+2012/02/06 12:01:58 - Deleting Access Key Thor-2DCN.
+2012/02/06 12:01:58 - Deleting Security group Thor-2DCN.
+2012/02/06 12:01:59 - Done.

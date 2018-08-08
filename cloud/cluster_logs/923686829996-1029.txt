@@ -1,0 +1,89 @@
+2015/03/07 22:34:18 - Connecting to AWS region us-east-1.
+2015/03/07 22:34:18 - Calculating new unique cluster name for request 1029.
+2015/03/07 22:34:18 - Creating new cluster name, Hpcc-GTND.
+2015/03/07 22:34:18 - Creating Hpcc-GTND security group.
+2015/03/07 22:34:19 - Creating Hpcc-GTND key pair.
+2015/03/07 22:34:20 - Launching 1 m1.large nodes using ami-a609b9ce.
+2015/03/07 22:34:21 - Reservation ID r-56a3feb7 created.
+2015/03/07 22:34:21 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:34:26 - An exception occured.
+                      Amazon Error: InvalidInstanceID.NotFound
+                      The instance ID 'i-d907bf29' does not exist
+                      requestId: c32beb9e-3f7f-43a6-b85d-7c5aff30ff60
+2015/03/07 22:34:26 - Error occured when trying to update status.
+2015/03/07 22:34:26 - Pausing 10 seconds before trying again.
+2015/03/07 22:34:36 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:34:41 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:34:46 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:34:51 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:34:56 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:35:01 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:35:06 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:35:11 - Waiting for 1 of 1 nodes to launch.
+2015/03/07 22:35:16 - Pending instances have completed.
+2015/03/07 22:35:16 - Checking each node launched properly.
+2015/03/07 22:35:16 - 54.84.201.19:    Checking EC2 instance i-d907bf29.
+2015/03/07 22:35:16 - 54.84.201.19:    Checking EC2 instance is running.
+2015/03/07 22:35:16 - 54.84.201.19:    Connecting via SSH.
+2015/03/07 22:35:23 - 54.84.201.19:    Waiting on SSH connection.
+2015/03/07 22:35:34 - 54.84.201.19:    Checking software installation completed.
+2015/03/07 22:35:34 - 54.84.201.19:    Software installation finished.
+2015/03/07 22:35:34 - 54.84.201.19:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/07 22:35:34 - 54.84.201.19:    Checking file contents.
+2015/03/07 22:35:34 - 54.84.201.19:    Remote file contents confirmed.
+2015/03/07 22:35:35 - 54.84.201.19:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/07 22:35:35 - 54.84.201.19:    Completed check of node 54.84.201.19.
+2015/03/07 22:35:35 - Determining availability zone.
+2015/03/07 22:35:35 - Gathering public and private ip addresses.
+2015/03/07 22:35:35 - Connecting to node 54.84.201.19 for cluster configuration.
+2015/03/07 22:35:35 - Connecting via SSH.
+2015/03/07 22:35:35 - Checking software installation completed.
+2015/03/07 22:35:35 - Software installation finished.
+2015/03/07 22:35:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/07 22:35:35 - Checking file contents.
+2015/03/07 22:35:35 - Remote file contents confirmed.
+2015/03/07 22:35:36 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/07 22:35:36 - Writing cluster private ip addresses to file on instance.
+2015/03/07 22:35:36 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/07 22:35:36 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/07 22:35:36 - Checking file contents.
+2015/03/07 22:35:36 - Remote file contents confirmed.
+2015/03/07 22:35:36 - Running envgen
+2015/03/07 22:35:37 - Reading the config file.
+2015/03/07 22:35:37 - Retrieving IP address of ESP Server.
+2015/03/07 22:35:37 - ESP Server private IP address: 172.31.50.195.
+2015/03/07 22:35:37 - ESP Server public IP address: 54.84.201.19.
+2015/03/07 22:35:37 - 54.84.201.19:    Starting node configuration.
+2015/03/07 22:35:37 - 54.84.201.19:    Connecting via SSH.
+2015/03/07 22:35:38 - 54.84.201.19:    Checking software installation completed.
+2015/03/07 22:35:38 - 54.84.201.19:    Software installation finished.
+2015/03/07 22:35:38 - 54.84.201.19:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/07 22:35:38 - 54.84.201.19:    Checking file contents.
+2015/03/07 22:35:38 - 54.84.201.19:    Remote file contents confirmed.
+2015/03/07 22:35:38 - 54.84.201.19:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/07 22:35:38 - 54.84.201.19:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/07 22:35:38 - 54.84.201.19:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/07 22:35:38 - 54.84.201.19:    Checking file contents.
+2015/03/07 22:35:38 - 54.84.201.19:    Remote file contents confirmed.
+2015/03/07 22:35:38 - 54.84.201.19:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/07 22:36:05 - 54.84.201.19:    Starting mydafilesrv....       [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting mydali....            [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting mydfuserver....       [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting myeclagent....        [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting myeclccserver....     [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting myeclscheduler....    [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting myesp....             [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting mysasha....           [  OK  ]   
+2015/03/07 22:36:05 - 54.84.201.19:    Starting mythor....            [  OK  ]  
+2015/03/07 22:36:05 - 54.84.201.19:    Start node is complete.
+2015/03/07 22:36:05 - Done.
+2015/03/07 22:59:31 - Terminating cluster.
+2015/03/07 22:59:31 - Connecting to AWS region us-east-1.
+2015/03/07 22:59:31 - Gathering instances for Hpcc-GTND.
+2015/03/07 22:59:31 - Terminating instances.
+2015/03/07 22:59:31 - Deleting Access Key Hpcc-GTND.
+2015/03/07 22:59:31 - Deleting Security group Hpcc-GTND.
+2015/03/07 22:59:32 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-9da921f9 has a dependent object
+                      requestId: cd6f08e9-ad25-4fd5-87e2-3b70a796e4e7

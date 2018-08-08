@@ -1,0 +1,209 @@
+2018/02/08 10:31:04 - Connecting to AWS region ap-southeast-1.
+2018/02/08 10:31:04 - Calculating new unique cluster name for request 1378.
+2018/02/08 10:31:05 - Creating new cluster name, Hpcc-KSN9.
+2018/02/08 10:31:05 - Creating Hpcc-KSN9 security group.
+2018/02/08 10:31:09 - Creating Hpcc-KSN9 key pair.
+2018/02/08 10:31:10 - Launching 1 m1.large nodes using ami-39b9f845.
+2018/02/08 10:31:11 - Reservation ID r-02182dd9378168ed8 created.
+2018/02/08 10:31:11 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:16 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:22 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:27 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:32 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:38 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:43 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:48 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:53 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:31:59 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:32:04 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:32:09 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:32:15 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:32:20 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:32:25 - Pending instances have completed.
+2018/02/08 10:32:25 - Checking each node launched properly.
+2018/02/08 10:32:25 - 54.151.204.231:  Checking EC2 instance i-05a22a984252b3d7a.
+2018/02/08 10:32:25 - 54.151.204.231:  Checking EC2 instance is running.
+2018/02/08 10:32:25 - 54.151.204.231:  Connecting via SSH.
+2018/02/08 10:32:41 - 54.151.204.231:  Waiting on SSH connection.
+2018/02/08 10:32:46 - 54.151.204.231:  Waiting on SSH connection.
+2018/02/08 10:32:59 - 54.151.204.231:  Checking software installation completed.
+2018/02/08 10:33:00 - 54.151.204.231:  Software installation finished.
+2018/02/08 10:33:00 - 54.151.204.231:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:33:01 - 54.151.204.231:  Checking file contents.
+2018/02/08 10:33:02 - 54.151.204.231:  Remote file contents confirmed.
+2018/02/08 10:33:04 - Unhandled error occured when checking for bad instances
+2018/02/08 10:33:04 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  8 15:32:39 ip-10-172-137-166 kernel: [    0.320000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:32:39 ip-10-172-137-166 kernel: [    0.328000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.320000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.328000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/08 10:33:04 - 54.151.204.231:  Completed check of node 54.151.204.231.
+2018/02/08 10:33:04 - Error messages found in system logs:
+/var/log/syslog:Feb  8 15:32:39 ip-10-172-137-166 kernel: [    0.320000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:32:39 ip-10-172-137-166 kernel: [    0.328000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.320000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.328000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/08 10:33:04 - Terminating 1 bad instances.
+2018/02/08 10:33:04 - Terminating instances.
+2018/02/08 10:33:06 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:11 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:17 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:22 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:27 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:33 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:38 - Waiting for 1 instances to terminate.
+2018/02/08 10:33:44 - Reservation ID r-0be347b7e0ad0a4bd created.
+2018/02/08 10:33:44 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:33:50 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:33:55 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:00 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:06 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:11 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:16 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:21 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:27 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:32 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:37 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:43 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:48 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:34:53 - Pending instances have completed.
+2018/02/08 10:34:53 - Checking each node launched properly.
+2018/02/08 10:34:53 - 46.137.195.50:   Checking EC2 instance i-0b0dff53499e02b86.
+2018/02/08 10:34:54 - 46.137.195.50:   Checking EC2 instance is running.
+2018/02/08 10:34:54 - 46.137.195.50:   Connecting via SSH.
+2018/02/08 10:35:09 - 46.137.195.50:   Waiting on SSH connection.
+2018/02/08 10:35:14 - 46.137.195.50:   Waiting on SSH connection.
+2018/02/08 10:35:27 - 46.137.195.50:   Checking software installation completed.
+2018/02/08 10:35:28 - 46.137.195.50:   Software installation finished.
+2018/02/08 10:35:28 - 46.137.195.50:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:35:29 - 46.137.195.50:   Checking file contents.
+2018/02/08 10:35:30 - 46.137.195.50:   Remote file contents confirmed.
+2018/02/08 10:35:32 - Unhandled error occured when checking for bad instances
+2018/02/08 10:35:32 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  8 15:35:06 ip-10-165-44-183 kernel: [    0.312000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:35:06 ip-10-165-44-183 kernel: [    0.316071]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.312000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316071]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/08 10:35:32 - 46.137.195.50:   Completed check of node 46.137.195.50.
+2018/02/08 10:35:32 - Error messages found in system logs:
+/var/log/syslog:Feb  8 15:35:06 ip-10-165-44-183 kernel: [    0.312000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:35:06 ip-10-165-44-183 kernel: [    0.316071]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.312000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316071]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/08 10:35:32 - Terminating 1 bad instances.
+2018/02/08 10:35:32 - Terminating instances.
+2018/02/08 10:35:34 - Waiting for 1 instances to terminate.
+2018/02/08 10:35:39 - Waiting for 1 instances to terminate.
+2018/02/08 10:35:45 - Waiting for 1 instances to terminate.
+2018/02/08 10:35:50 - Waiting for 1 instances to terminate.
+2018/02/08 10:35:55 - Waiting for 1 instances to terminate.
+2018/02/08 10:36:00 - Waiting for 1 instances to terminate.
+2018/02/08 10:36:06 - Waiting for 1 instances to terminate.
+2018/02/08 10:36:12 - Reservation ID r-0aaeb9f05bc7447e0 created.
+2018/02/08 10:36:12 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:17 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:22 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:28 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:33 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:38 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:44 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:49 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:54 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:36:59 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:37:05 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:37:10 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:37:15 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:37:21 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:37:26 - Pending instances have completed.
+2018/02/08 10:37:26 - Checking each node launched properly.
+2018/02/08 10:37:26 - 54.151.204.231:  Checking EC2 instance i-0de928233b99da6d9.
+2018/02/08 10:37:26 - 54.151.204.231:  Checking EC2 instance is running.
+2018/02/08 10:37:26 - 54.151.204.231:  Connecting via SSH.
+2018/02/08 10:37:57 - 54.151.204.231:  Waiting on SSH connection.
+2018/02/08 10:38:12 - 54.151.204.231:  Checking software installation completed.
+2018/02/08 10:38:13 - 54.151.204.231:  Software installation finished.
+2018/02/08 10:38:13 - 54.151.204.231:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:38:14 - 54.151.204.231:  Checking file contents.
+2018/02/08 10:38:15 - 54.151.204.231:  Remote file contents confirmed.
+2018/02/08 10:38:17 - Unhandled error occured when checking for bad instances
+2018/02/08 10:38:17 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  8 15:37:52 ip-10-172-137-166 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:37:52 ip-10-172-137-166 kernel: [    0.308000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/08 10:38:17 - 54.151.204.231:  Completed check of node 54.151.204.231.
+2018/02/08 10:38:17 - Error messages found in system logs:
+/var/log/syslog:Feb  8 15:37:52 ip-10-172-137-166 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:37:52 ip-10-172-137-166 kernel: [    0.308000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/08 10:38:17 - Terminating 1 bad instances.
+2018/02/08 10:38:17 - Terminating instances.
+2018/02/08 10:38:19 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:24 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:29 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:34 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:40 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:45 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:50 - Waiting for 1 instances to terminate.
+2018/02/08 10:38:57 - Reservation ID r-00184d7a51a870f67 created.
+2018/02/08 10:38:57 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:02 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:07 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:12 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:18 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:23 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:28 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:34 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:39 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:39:39 - Terminating cluster.
+2018/02/08 10:39:39 - Connecting to AWS region ap-southeast-1.
+2018/02/08 10:39:39 - Gathering instances for Hpcc-KSN9.
+2018/02/08 10:39:40 - Terminating instances.
+2018/02/08 10:39:43 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:44 - Pending instances have completed.
+2018/02/08 10:39:44 - Checking each node launched properly.
+2018/02/08 10:39:44 - 46.137.195.50:   Checking EC2 instance i-02eb294b28c43e7ad.
+2018/02/08 10:39:44 - 46.137.195.50:   Checking EC2 instance is running.
+2018/02/08 10:39:44 - 46.137.195.50:   Node 46.137.195.50 failed to launch properly.
+2018/02/08 10:39:44 - 46.137.195.50:   Error - Node 46.137.195.50 failed check.
+2018/02/08 10:39:44 - 46.137.195.50:   Completed check of node 46.137.195.50.
+2018/02/08 10:39:44 - Terminating 1 bad instances.
+2018/02/08 10:39:44 - Terminating instances.
+2018/02/08 10:39:45 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:48 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:50 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:53 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:56 - Waiting for 1 instances to terminate.
+2018/02/08 10:39:59 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:01 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:04 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:06 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:09 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:12 - Waiting for 1 instances to terminate.
+2018/02/08 10:40:15 - Deleting Access Key Hpcc-KSN9.
+2018/02/08 10:40:15 - Deleting Security group Hpcc-KSN9.
+2018/02/08 10:40:16 - Done.
+2018/02/08 10:40:17 - An exception occured.
+                      ClusterError: Failed to launch the nodes requested.
+2018/02/08 10:44:03 - Terminating cluster.
+2018/02/08 10:44:03 - Connecting to AWS region ap-southeast-1.
+2018/02/08 10:44:03 - Gathering instances for Hpcc-KSN9.
+2018/02/08 10:44:04 - Terminating instances.
+2018/02/08 10:44:07 - Deleting Access Key Hpcc-KSN9.
+2018/02/08 10:44:07 - Error: Access key not found.
+2018/02/08 10:44:07 - Deleting Security group Hpcc-KSN9.
+2018/02/08 10:44:08 - Error: Security group not found.
+2018/02/08 10:44:08 - Done.

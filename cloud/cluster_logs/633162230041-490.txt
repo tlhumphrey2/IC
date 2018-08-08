@@ -1,0 +1,112 @@
+2013/01/31 17:10:13 - Connecting to AWS region us-west-2.
+2013/01/31 17:10:13 - Calculating new unique cluster name for request 490.
+2013/01/31 17:10:14 - Creating new cluster name, Hpcc-HE36.
+2013/01/31 17:10:14 - Creating Hpcc-HE36 security group.
+2013/01/31 17:10:18 - Creating Hpcc-HE36 key pair.
+2013/01/31 17:10:19 - Launching 1 m1.large nodes using ami-8a8a00ba.
+2013/01/31 17:10:21 - Reservation ID r-4c34f37e created.
+2013/01/31 17:10:21 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:26 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:31 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:37 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:42 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:47 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:53 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:10:58 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:03 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:08 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:14 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:19 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:24 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:29 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:35 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:40 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:45 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:50 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:11:56 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:12:01 - Waiting for 1 of 1 nodes to launch.
+2013/01/31 17:12:06 - Pending instances have completed.
+2013/01/31 17:12:06 - Checking each node launched properly.
+2013/01/31 17:12:06 - 50.112.12.186:   Checking EC2 instance i-8e58d4bc.
+2013/01/31 17:12:07 - 50.112.12.186:   Checking EC2 instance is running.
+2013/01/31 17:12:07 - 50.112.12.186:   Connecting via SSH.
+2013/01/31 17:12:07 - 50.112.12.186:   Waiting on SSH connection.
+2013/01/31 17:12:18 - 50.112.12.186:   Checking software installation completed.
+2013/01/31 17:12:19 - 50.112.12.186:   Software installation finished.
+2013/01/31 17:12:19 - 50.112.12.186:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/31 17:12:19 - 50.112.12.186:   Checking file contents.
+2013/01/31 17:12:19 - 50.112.12.186:   Remote file contents confirmed.
+2013/01/31 17:12:20 - 50.112.12.186:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/31 17:12:20 - 50.112.12.186:   Completed check of node 50.112.12.186.
+2013/01/31 17:12:20 - Determining availability zone.
+2013/01/31 17:12:20 - Gathering public and private ip addresses.
+2013/01/31 17:12:20 - Connecting to node 50.112.12.186 for cluster configuration.
+2013/01/31 17:12:20 - Connecting via SSH.
+2013/01/31 17:12:22 - Checking software installation completed.
+2013/01/31 17:12:22 - Software installation finished.
+2013/01/31 17:12:22 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/31 17:12:23 - Checking file contents.
+2013/01/31 17:12:23 - Remote file contents confirmed.
+2013/01/31 17:12:24 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/31 17:12:24 - Writing cluster private ip addresses to file on instance.
+2013/01/31 17:12:24 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/01/31 17:12:24 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/01/31 17:12:25 - Checking file contents.
+2013/01/31 17:12:25 - Remote file contents confirmed.
+2013/01/31 17:12:25 - Running envgen
+2013/01/31 17:12:26 - Reading the config file.
+2013/01/31 17:12:27 - Retrieving IP address of ESP Server.
+2013/01/31 17:12:27 - ESP Server private IP address: 10.254.7.166.
+2013/01/31 17:12:27 - ESP Server public IP address: 50.112.12.186.
+2013/01/31 17:12:27 - 50.112.12.186:   Starting node configuration.
+2013/01/31 17:12:27 - 50.112.12.186:   Connecting via SSH.
+2013/01/31 17:12:29 - 50.112.12.186:   Checking software installation completed.
+2013/01/31 17:12:29 - 50.112.12.186:   Software installation finished.
+2013/01/31 17:12:29 - 50.112.12.186:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/01/31 17:12:30 - 50.112.12.186:   Checking file contents.
+2013/01/31 17:12:30 - 50.112.12.186:   Remote file contents confirmed.
+2013/01/31 17:12:31 - 50.112.12.186:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/01/31 17:12:31 - 50.112.12.186:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/01/31 17:12:32 - 50.112.12.186:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/01/31 17:12:32 - 50.112.12.186:   Checking file contents.
+2013/01/31 17:12:33 - 50.112.12.186:   Remote file contents confirmed.
+2013/01/31 17:12:33 - 50.112.12.186:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/01/31 17:12:59 - 50.112.12.186:   Starting mydafilesrv....       [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting mydali....            [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting mydfuserver....       [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting myeclagent....        [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting myeclccserver....     [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting myeclscheduler....    [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting myesp....             [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting mysasha....           [  OK  ]   
+2013/01/31 17:12:59 - 50.112.12.186:   Starting mythor....            [  OK  ]  
+2013/01/31 17:12:59 - 50.112.12.186:   Start node is complete.
+2013/01/31 17:12:59 - Done.
+2013/01/31 17:23:28 - Terminating cluster.
+2013/01/31 17:23:28 - Connecting to AWS region us-west-2.
+2013/01/31 17:23:28 - Gathering instances for Hpcc-HE36.
+2013/01/31 17:23:28 - Terminating instances.
+2013/01/31 17:23:29 - Waiting for 1 instances to terminate.
+2013/01/31 17:23:34 - Waiting for 1 instances to terminate.
+2013/01/31 17:23:40 - Waiting for 1 instances to terminate.
+2013/01/31 17:23:45 - Waiting for 1 instances to terminate.
+2013/01/31 17:23:50 - Waiting for 1 instances to terminate.
+2013/01/31 17:23:56 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:01 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:06 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:11 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:17 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:22 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:27 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:32 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:38 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:43 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:48 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:53 - Waiting for 1 instances to terminate.
+2013/01/31 17:24:59 - Waiting for 1 instances to terminate.
+2013/01/31 17:25:04 - Waiting for 1 instances to terminate.
+2013/01/31 17:25:09 - Waiting for 1 instances to terminate.
+2013/01/31 17:25:15 - Waiting for 1 instances to terminate.
+2013/01/31 17:25:21 - Deleting Access Key Hpcc-HE36.
+2013/01/31 17:25:22 - Deleting Security group Hpcc-HE36.
+2013/01/31 17:25:22 - Done.

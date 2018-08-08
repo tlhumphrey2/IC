@@ -1,0 +1,102 @@
+2014/08/23 15:57:58 - Connecting to AWS region us-west-2.
+2014/08/23 15:57:58 - Checking storage IDs exist in region us-west-2: snap-f59d3b02
+2014/08/23 15:57:58 - Calculating new unique cluster name for request 910.
+2014/08/23 15:57:58 - Creating new cluster name, Hpcc-VEPG.
+2014/08/23 15:57:58 - Creating Hpcc-VEPG security group.
+2014/08/23 15:58:01 - Creating Hpcc-VEPG key pair.
+2014/08/23 15:58:03 - Launching 1 m1.large nodes using ami-776a1147.
+2014/08/23 15:58:04 - Reservation ID r-c52cadce created.
+2014/08/23 15:58:04 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:09 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:14 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:19 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:24 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:29 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:34 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:40 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:45 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:50 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:58:55 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:59:00 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:59:05 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:59:10 - Waiting for 1 of 1 nodes to launch.
+2014/08/23 15:59:16 - Pending instances have completed.
+2014/08/23 15:59:16 - Checking each node launched properly.
+2014/08/23 15:59:16 - 54.185.135.210:  Checking EC2 instance i-261c4d2d.
+2014/08/23 15:59:16 - 54.185.135.210:  Checking EC2 instance is running.
+2014/08/23 15:59:16 - 54.185.135.210:  Connecting via SSH.
+2014/08/23 15:59:17 - 54.185.135.210:  Waiting on SSH connection.
+2014/08/23 15:59:29 - 54.185.135.210:  Checking software installation completed.
+2014/08/23 15:59:29 - 54.185.135.210:  Software installation finished.
+2014/08/23 15:59:29 - 54.185.135.210:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/23 15:59:30 - 54.185.135.210:  Checking file contents.
+2014/08/23 15:59:30 - 54.185.135.210:  Remote file contents confirmed.
+2014/08/23 15:59:31 - 54.185.135.210:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/23 15:59:31 - 54.185.135.210:  Completed check of node 54.185.135.210.
+2014/08/23 15:59:31 - Determining availability zone.
+2014/08/23 15:59:31 - Gathering public and private ip addresses.
+2014/08/23 15:59:31 - Connecting to node 54.185.135.210 for cluster configuration.
+2014/08/23 15:59:31 - Connecting via SSH.
+2014/08/23 15:59:32 - Checking software installation completed.
+2014/08/23 15:59:32 - Software installation finished.
+2014/08/23 15:59:32 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/23 15:59:33 - Checking file contents.
+2014/08/23 15:59:33 - Remote file contents confirmed.
+2014/08/23 15:59:34 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/23 15:59:34 - Writing cluster private ip addresses to file on instance.
+2014/08/23 15:59:34 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/08/23 15:59:34 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/08/23 15:59:34 - Checking file contents.
+2014/08/23 15:59:35 - Remote file contents confirmed.
+2014/08/23 15:59:35 - Running envgen
+2014/08/23 15:59:36 - Reading the config file.
+2014/08/23 15:59:36 - Retrieving IP address of ESP Server.
+2014/08/23 15:59:36 - ESP Server private IP address: 10.234.7.169.
+2014/08/23 15:59:36 - ESP Server public IP address: 54.185.135.210.
+2014/08/23 15:59:36 - Attaching storage devices to the Landing Zone: snap-f59d3b02
+2014/08/23 15:59:37 - Waiting for volumes to become available.
+2014/08/23 15:59:43 - Connecting via SSH.
+2014/08/23 15:59:44 - Waiting for EC2 instance to see storage device.
+2014/08/23 15:59:51 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-f59d3b02/.
+2014/08/23 15:59:51 - 54.185.135.210:  Starting node configuration.
+2014/08/23 15:59:51 - 54.185.135.210:  Connecting via SSH.
+2014/08/23 15:59:52 - 54.185.135.210:  Checking software installation completed.
+2014/08/23 15:59:52 - 54.185.135.210:  Software installation finished.
+2014/08/23 15:59:52 - 54.185.135.210:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/23 15:59:53 - 54.185.135.210:  Checking file contents.
+2014/08/23 15:59:53 - 54.185.135.210:  Remote file contents confirmed.
+2014/08/23 15:59:54 - 54.185.135.210:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/23 15:59:54 - 54.185.135.210:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/08/23 15:59:54 - 54.185.135.210:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/08/23 15:59:54 - 54.185.135.210:  Checking file contents.
+2014/08/23 15:59:55 - 54.185.135.210:  Remote file contents confirmed.
+2014/08/23 15:59:55 - 54.185.135.210:  Starting HPCC Platform Community Edition: 5.0.0-3.
+2014/08/23 16:00:08 - 54.185.135.210:  Starting mydafilesrv....       [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting mydali....            [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting mydfuserver....       [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting myeclagent....        [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting myeclccserver....     [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting myeclscheduler....    [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting myesp....             [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting myroxie....           [  OK  ]   
+2014/08/23 16:00:08 - 54.185.135.210:  Starting mysasha....           [  OK  ]  
+2014/08/23 16:00:08 - 54.185.135.210:  Start node is complete.
+2014/08/23 16:00:08 - Done.
+2014/08/23 17:39:28 - Terminating cluster.
+2014/08/23 17:39:28 - Connecting to AWS region us-west-2.
+2014/08/23 17:39:28 - Gathering instances for Hpcc-VEPG.
+2014/08/23 17:39:29 - Terminating instances.
+2014/08/23 17:39:29 - Waiting for 1 instances to terminate.
+2014/08/23 17:39:35 - Waiting for 1 instances to terminate.
+2014/08/23 17:39:40 - Waiting for 1 instances to terminate.
+2014/08/23 17:39:45 - Waiting for 1 instances to terminate.
+2014/08/23 17:39:50 - Waiting for 1 instances to terminate.
+2014/08/23 17:39:55 - Waiting for 1 instances to terminate.
+2014/08/23 17:40:00 - Waiting for 1 instances to terminate.
+2014/08/23 17:40:05 - Waiting for 1 instances to terminate.
+2014/08/23 17:40:11 - Waiting for 1 instances to terminate.
+2014/08/23 17:40:16 - Deleting attached EBS volumes.
+2014/08/23 17:40:16 - Deleting volume vol-5ab5d75b
+2014/08/23 17:40:16 - Deleting Access Key Hpcc-VEPG.
+2014/08/23 17:40:16 - Deleting Security group Hpcc-VEPG.
+2014/08/23 17:40:17 - Done.

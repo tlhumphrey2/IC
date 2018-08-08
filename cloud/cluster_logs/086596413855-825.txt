@@ -1,0 +1,143 @@
+2014/06/18 17:02:48 - Connecting to AWS region us-west-2.
+2014/06/18 17:02:49 - Calculating new unique cluster name for request 825.
+2014/06/18 17:02:49 - Creating new cluster name, Hpcc-S4B3.
+2014/06/18 17:02:49 - Creating Hpcc-S4B3 security group.
+2014/06/18 17:02:52 - Creating Hpcc-S4B3 key pair.
+2014/06/18 17:02:53 - Launching 3 m1.large nodes using ami-2aadc71a.
+2014/06/18 17:02:54 - Reservation ID r-03d22f08 created.
+2014/06/18 17:02:54 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:02:59 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:05 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:10 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:16 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:21 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:27 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:32 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:38 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:43 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:48 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:54 - Waiting for 3 of 3 nodes to launch.
+2014/06/18 17:03:59 - Waiting for 2 of 3 nodes to launch.
+2014/06/18 17:04:05 - Waiting for 1 of 3 nodes to launch.
+2014/06/18 17:04:10 - Pending instances have completed.
+2014/06/18 17:04:10 - Checking each node launched properly.
+2014/06/18 17:04:10 - 54.213.232.30:   Checking EC2 instance i-5f09a754.
+2014/06/18 17:04:10 - 54.213.230.33:   Checking EC2 instance i-5e09a755.
+2014/06/18 17:04:10 - 54.213.236.115:  Checking EC2 instance i-5c09a757.
+2014/06/18 17:04:10 - 54.213.230.33:   Checking EC2 instance is running.
+2014/06/18 17:04:10 - 54.213.230.33:   Connecting via SSH.
+2014/06/18 17:04:10 - 54.213.236.115:  Checking EC2 instance is running.
+2014/06/18 17:04:10 - 54.213.236.115:  Connecting via SSH.
+2014/06/18 17:04:10 - 54.213.232.30:   Checking EC2 instance is running.
+2014/06/18 17:04:10 - 54.213.232.30:   Connecting via SSH.
+2014/06/18 17:04:12 - 54.213.230.33:   Checking software installation completed.
+2014/06/18 17:04:12 - 54.213.232.30:   Checking software installation completed.
+2014/06/18 17:04:12 - 54.213.230.33:   Waiting for software to install.
+2014/06/18 17:04:12 - 54.213.232.30:   Waiting for software to install.
+2014/06/18 17:04:17 - 54.213.236.115:  Waiting on SSH connection.
+2014/06/18 17:04:22 - 54.213.230.33:   Software installation finished.
+2014/06/18 17:04:22 - 54.213.230.33:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:04:22 - 54.213.236.115:  Waiting on SSH connection.
+2014/06/18 17:04:22 - 54.213.232.30:   Software installation finished.
+2014/06/18 17:04:22 - 54.213.232.30:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:04:23 - 54.213.230.33:   Checking file contents.
+2014/06/18 17:04:23 - 54.213.232.30:   Checking file contents.
+2014/06/18 17:04:23 - 54.213.230.33:   Remote file contents confirmed.
+2014/06/18 17:04:23 - 54.213.232.30:   Remote file contents confirmed.
+2014/06/18 17:04:24 - 54.213.230.33:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:04:24 - 54.213.230.33:   Completed check of node 54.213.230.33.
+2014/06/18 17:04:24 - 54.213.232.30:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:04:24 - 54.213.232.30:   Completed check of node 54.213.232.30.
+2014/06/18 17:04:31 - 54.213.236.115:  Checking software installation completed.
+2014/06/18 17:04:32 - 54.213.236.115:  Waiting for software to install.
+2014/06/18 17:04:42 - 54.213.236.115:  Software installation finished.
+2014/06/18 17:04:42 - 54.213.236.115:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:04:43 - 54.213.236.115:  Checking file contents.
+2014/06/18 17:04:43 - 54.213.236.115:  Remote file contents confirmed.
+2014/06/18 17:04:44 - 54.213.236.115:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:04:44 - 54.213.236.115:  Completed check of node 54.213.236.115.
+2014/06/18 17:04:44 - Determining availability zone.
+2014/06/18 17:04:44 - Gathering public and private ip addresses.
+2014/06/18 17:04:44 - Connecting to node 54.213.232.30 for cluster configuration.
+2014/06/18 17:04:44 - Connecting via SSH.
+2014/06/18 17:04:50 - Checking software installation completed.
+2014/06/18 17:04:50 - Software installation finished.
+2014/06/18 17:04:50 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:04:50 - Checking file contents.
+2014/06/18 17:04:51 - Remote file contents confirmed.
+2014/06/18 17:04:51 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:04:51 - Writing cluster private ip addresses to file on instance.
+2014/06/18 17:04:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/18 17:04:52 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/18 17:04:52 - Checking file contents.
+2014/06/18 17:04:52 - Remote file contents confirmed.
+2014/06/18 17:04:52 - Running envgen
+2014/06/18 17:04:53 - Reading the config file.
+2014/06/18 17:04:54 - Retrieving IP address of ESP Server.
+2014/06/18 17:04:54 - ESP Server private IP address: 172.31.35.126.
+2014/06/18 17:04:54 - ESP Server public IP address: 54.213.232.30.
+2014/06/18 17:04:54 - 54.213.232.30:   Starting node configuration.
+2014/06/18 17:04:54 - 54.213.232.30:   Connecting via SSH.
+2014/06/18 17:04:54 - 54.213.230.33:   Starting node configuration.
+2014/06/18 17:04:54 - 54.213.230.33:   Connecting via SSH.
+2014/06/18 17:04:54 - 54.213.236.115:  Starting node configuration.
+2014/06/18 17:04:54 - 54.213.236.115:  Connecting via SSH.
+2014/06/18 17:04:56 - 54.213.232.30:   Checking software installation completed.
+2014/06/18 17:04:56 - 54.213.232.30:   Software installation finished.
+2014/06/18 17:04:56 - 54.213.232.30:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:04:56 - 54.213.232.30:   Checking file contents.
+2014/06/18 17:04:57 - 54.213.232.30:   Remote file contents confirmed.
+2014/06/18 17:04:57 - 54.213.232.30:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:04:57 - 54.213.232.30:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/18 17:04:58 - 54.213.232.30:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/18 17:04:58 - 54.213.232.30:   Checking file contents.
+2014/06/18 17:04:59 - 54.213.232.30:   Remote file contents confirmed.
+2014/06/18 17:04:59 - 54.213.232.30:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/18 17:05:00 - 54.213.230.33:   Checking software installation completed.
+2014/06/18 17:05:01 - 54.213.230.33:   Software installation finished.
+2014/06/18 17:05:01 - 54.213.230.33:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:05:01 - 54.213.230.33:   Checking file contents.
+2014/06/18 17:05:01 - 54.213.230.33:   Remote file contents confirmed.
+2014/06/18 17:05:02 - 54.213.230.33:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:05:02 - 54.213.230.33:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/18 17:05:02 - 54.213.236.115:  Checking software installation completed.
+2014/06/18 17:05:03 - 54.213.236.115:  Software installation finished.
+2014/06/18 17:05:03 - 54.213.236.115:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/18 17:05:03 - 54.213.230.33:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/18 17:05:03 - 54.213.230.33:   Checking file contents.
+2014/06/18 17:05:03 - 54.213.236.115:  Checking file contents.
+2014/06/18 17:05:03 - 54.213.236.115:  Remote file contents confirmed.
+2014/06/18 17:05:04 - 54.213.230.33:   Remote file contents confirmed.
+2014/06/18 17:05:04 - 54.213.230.33:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/18 17:05:04 - 54.213.236.115:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/18 17:05:04 - 54.213.236.115:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/18 17:05:05 - 54.213.236.115:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/18 17:05:05 - 54.213.236.115:  Checking file contents.
+2014/06/18 17:05:06 - 54.213.236.115:  Remote file contents confirmed.
+2014/06/18 17:05:06 - 54.213.236.115:  Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/18 17:05:06 - 54.213.232.30:   Starting mydafilesrv....       [  OK  ]   
+2014/06/18 17:05:06 - 54.213.232.30:   Starting myeclagent....        [  OK  ]   
+2014/06/18 17:05:06 - 54.213.232.30:   Starting myesp....             [  OK  ]   
+2014/06/18 17:05:06 - 54.213.232.30:   Starting myroxie....           [  OK  ]   
+2014/06/18 17:05:06 - 54.213.232.30:   Starting mysasha....           [  OK  ]  
+2014/06/18 17:05:06 - 54.213.232.30:   Start node is complete.
+2014/06/18 17:05:13 - 54.213.236.115:  Starting mydafilesrv....       [  OK  ]   
+2014/06/18 17:05:13 - 54.213.236.115:  Starting mydfuserver....       [  OK  ]   
+2014/06/18 17:05:13 - 54.213.236.115:  Starting myeclscheduler....    [  OK  ]  
+2014/06/18 17:05:13 - 54.213.236.115:  Start node is complete.
+2014/06/18 17:05:24 - 54.213.230.33:   Starting mydafilesrv....       [  OK  ]   
+2014/06/18 17:05:24 - 54.213.230.33:   Starting mydali....            [  OK  ]   
+2014/06/18 17:05:24 - 54.213.230.33:   Starting myeclccserver....     [  OK  ]   
+2014/06/18 17:05:24 - 54.213.230.33:   Starting mythor....            [  OK  ]  
+2014/06/18 17:05:24 - 54.213.230.33:   Start node is complete.
+2014/06/18 17:05:24 - Done.
+2014/06/18 17:13:32 - Terminating cluster.
+2014/06/18 17:13:32 - Connecting to AWS region us-west-2.
+2014/06/18 17:13:32 - Gathering instances for Hpcc-S4B3.
+2014/06/18 17:13:33 - Terminating instances.
+2014/06/18 17:13:33 - Deleting Access Key Hpcc-S4B3.
+2014/06/18 17:13:33 - Deleting Security group Hpcc-S4B3.
+2014/06/18 17:13:34 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-1a15bc7f has a dependent object
+                      requestId: 1f91a10f-4572-42c1-8daf-ccabbf0b4d26

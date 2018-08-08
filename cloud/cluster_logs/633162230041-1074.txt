@@ -1,0 +1,96 @@
+2015/04/20 15:00:07 - Connecting to AWS region eu-west-1.
+2015/04/20 15:00:07 - Calculating new unique cluster name for request 1074.
+2015/04/20 15:00:08 - Creating new cluster name, Hpcc-4P86.
+2015/04/20 15:00:08 - Creating Hpcc-4P86 security group.
+2015/04/20 15:00:11 - Creating Hpcc-4P86 key pair.
+2015/04/20 15:00:11 - Launching 1 m1.large nodes using ami-21e97256.
+2015/04/20 15:00:12 - Reservation ID r-a613a441 created.
+2015/04/20 15:00:12 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:17 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:22 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:27 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:33 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:38 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:43 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:48 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:53 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:00:58 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:03 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:09 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:14 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:19 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:24 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 15:01:29 - Pending instances have completed.
+2015/04/20 15:01:29 - Checking each node launched properly.
+2015/04/20 15:01:29 - 54.78.45.65:     Checking EC2 instance i-c6725121.
+2015/04/20 15:01:30 - 54.78.45.65:     Checking EC2 instance is running.
+2015/04/20 15:01:30 - 54.78.45.65:     Connecting via SSH.
+2015/04/20 15:01:32 - 54.78.45.65:     Waiting on SSH connection.
+2015/04/20 15:01:37 - 54.78.45.65:     Waiting on SSH connection.
+2015/04/20 15:01:44 - 54.78.45.65:     Checking software installation completed.
+2015/04/20 15:01:44 - 54.78.45.65:     Waiting for software to install.
+2015/04/20 15:01:54 - 54.78.45.65:     Software installation finished.
+2015/04/20 15:01:54 - 54.78.45.65:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 15:01:55 - 54.78.45.65:     Checking file contents.
+2015/04/20 15:01:55 - 54.78.45.65:     Remote file contents confirmed.
+2015/04/20 15:01:56 - 54.78.45.65:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 15:01:56 - 54.78.45.65:     Completed check of node 54.78.45.65.
+2015/04/20 15:01:56 - Determining availability zone.
+2015/04/20 15:01:56 - Gathering public and private ip addresses.
+2015/04/20 15:01:56 - Connecting to node 54.78.45.65 for cluster configuration.
+2015/04/20 15:01:56 - Connecting via SSH.
+2015/04/20 15:01:57 - Checking software installation completed.
+2015/04/20 15:01:57 - Software installation finished.
+2015/04/20 15:01:57 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 15:01:58 - Checking file contents.
+2015/04/20 15:01:58 - Remote file contents confirmed.
+2015/04/20 15:01:59 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 15:01:59 - Writing cluster private ip addresses to file on instance.
+2015/04/20 15:01:59 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/20 15:01:59 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/20 15:02:00 - Checking file contents.
+2015/04/20 15:02:00 - Remote file contents confirmed.
+2015/04/20 15:02:00 - Running envgen
+2015/04/20 15:02:01 - Reading the config file.
+2015/04/20 15:02:01 - Retrieving IP address of ESP Server.
+2015/04/20 15:02:01 - ESP Server private IP address: 10.55.31.1.
+2015/04/20 15:02:01 - ESP Server public IP address: 54.78.45.65.
+2015/04/20 15:02:01 - 54.78.45.65:     Starting node configuration.
+2015/04/20 15:02:01 - 54.78.45.65:     Connecting via SSH.
+2015/04/20 15:02:03 - 54.78.45.65:     Checking software installation completed.
+2015/04/20 15:02:03 - 54.78.45.65:     Software installation finished.
+2015/04/20 15:02:03 - 54.78.45.65:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 15:02:03 - 54.78.45.65:     Checking file contents.
+2015/04/20 15:02:04 - 54.78.45.65:     Remote file contents confirmed.
+2015/04/20 15:02:04 - 54.78.45.65:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 15:02:04 - 54.78.45.65:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/20 15:02:05 - 54.78.45.65:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/20 15:02:05 - 54.78.45.65:     Checking file contents.
+2015/04/20 15:02:06 - 54.78.45.65:     Remote file contents confirmed.
+2015/04/20 15:02:06 - 54.78.45.65:     Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/04/20 15:02:23 - 54.78.45.65:     Starting mydafilesrv....       [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting mydali....            [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting mydfuserver....       [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting myeclagent....        [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting myeclccserver....     [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting myeclscheduler....    [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting myesp....             [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting mysasha....           [  OK  ]   
+2015/04/20 15:02:23 - 54.78.45.65:     Starting mythor....            [  OK  ]  
+2015/04/20 15:02:23 - 54.78.45.65:     Start node is complete.
+2015/04/20 15:02:23 - Done.
+2015/04/20 15:02:50 - Terminating cluster.
+2015/04/20 15:02:50 - Connecting to AWS region eu-west-1.
+2015/04/20 15:02:50 - Gathering instances for Hpcc-4P86.
+2015/04/20 15:02:50 - Terminating instances.
+2015/04/20 15:02:51 - Waiting for 1 instances to terminate.
+2015/04/20 15:02:56 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:01 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:06 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:11 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:16 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:22 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:27 - Waiting for 1 instances to terminate.
+2015/04/20 15:03:32 - Deleting Access Key Hpcc-4P86.
+2015/04/20 15:03:32 - Deleting Security group Hpcc-4P86.
+2015/04/20 15:03:33 - Done.

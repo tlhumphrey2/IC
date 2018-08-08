@@ -1,0 +1,111 @@
+2017/05/02 10:29:24 - Connecting to AWS region eu-west-1.
+2017/05/02 10:29:24 - Calculating new unique cluster name for request 1303.
+2017/05/02 10:29:25 - Creating new cluster name, Hpcc-JYTE.
+2017/05/02 10:29:25 - Creating Hpcc-JYTE security group.
+2017/05/02 10:29:30 - Creating Hpcc-JYTE key pair.
+2017/05/02 10:29:30 - Launching 1 m1.large nodes using ami-6832300e.
+2017/05/02 10:29:31 - Reservation ID r-037a5f11895be0a2a created.
+2017/05/02 10:29:31 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:29:36 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:29:42 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:29:47 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:29:52 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:29:57 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:02 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:07 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:13 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:18 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:23 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:28 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:33 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:39 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:44 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:49 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:30:54 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:00 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:05 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:10 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:15 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:20 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:25 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:31 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:36 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:41 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:46 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:51 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:31:56 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:32:01 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:32:06 - Waiting for 1 of 1 nodes to launch.
+2017/05/02 10:32:12 - Pending instances have completed.
+2017/05/02 10:32:12 - Checking each node launched properly.
+2017/05/02 10:32:12 - 54.170.92.48:    Checking EC2 instance i-081c7d5aa3148defd.
+2017/05/02 10:32:12 - 54.170.92.48:    Checking EC2 instance is running.
+2017/05/02 10:32:12 - 54.170.92.48:    Connecting via SSH.
+2017/05/02 10:32:27 - 54.170.92.48:    Waiting on SSH connection.
+2017/05/02 10:32:38 - 54.170.92.48:    Checking software installation completed.
+2017/05/02 10:32:39 - 54.170.92.48:    Software installation finished.
+2017/05/02 10:32:39 - 54.170.92.48:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/02 10:32:39 - 54.170.92.48:    Checking file contents.
+2017/05/02 10:32:39 - 54.170.92.48:    Remote file contents confirmed.
+2017/05/02 10:32:40 - 54.170.92.48:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/02 10:32:40 - 54.170.92.48:    Completed check of node 54.170.92.48.
+2017/05/02 10:32:40 - Determining availability zone.
+2017/05/02 10:32:40 - Gathering public and private ip addresses.
+2017/05/02 10:32:40 - Connecting to node 54.170.92.48 for cluster configuration.
+2017/05/02 10:32:40 - Connecting via SSH.
+2017/05/02 10:32:42 - Checking software installation completed.
+2017/05/02 10:32:42 - Software installation finished.
+2017/05/02 10:32:42 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/02 10:32:42 - Checking file contents.
+2017/05/02 10:32:43 - Remote file contents confirmed.
+2017/05/02 10:32:43 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/02 10:32:43 - Writing cluster private ip addresses to file on instance.
+2017/05/02 10:32:43 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/05/02 10:32:44 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/05/02 10:32:44 - Checking file contents.
+2017/05/02 10:32:44 - Remote file contents confirmed.
+2017/05/02 10:32:44 - Running envgen
+2017/05/02 10:32:45 - Reading the config file.
+2017/05/02 10:32:45 - Retrieving IP address of ESP Server.
+2017/05/02 10:32:46 - ESP Server private IP address: 10.72.158.43.
+2017/05/02 10:32:46 - ESP Server public IP address: 54.170.92.48.
+2017/05/02 10:32:46 - 54.170.92.48:    Starting node configuration.
+2017/05/02 10:32:46 - 54.170.92.48:    Connecting via SSH.
+2017/05/02 10:32:47 - 54.170.92.48:    Checking software installation completed.
+2017/05/02 10:32:48 - 54.170.92.48:    Software installation finished.
+2017/05/02 10:32:48 - 54.170.92.48:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/02 10:32:48 - 54.170.92.48:    Checking file contents.
+2017/05/02 10:32:48 - 54.170.92.48:    Remote file contents confirmed.
+2017/05/02 10:32:49 - 54.170.92.48:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/02 10:32:49 - 54.170.92.48:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/05/02 10:32:50 - 54.170.92.48:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/05/02 10:32:50 - 54.170.92.48:    Checking file contents.
+2017/05/02 10:32:50 - 54.170.92.48:    Remote file contents confirmed.
+2017/05/02 10:32:50 - 54.170.92.48:    Starting HPCC Platform Community Edition: 6.2.8-1.
+2017/05/02 10:33:10 - 54.170.92.48:    Starting mydafilesrv ...       [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting mydali ...            [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting mydfuserver ...       [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting myeclagent ...        [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting myeclccserver ...     [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting myeclscheduler ...    [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting myesp ...             [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting mysasha ...           [   OK    ]   
+2017/05/02 10:33:10 - 54.170.92.48:    Starting mythor ...            [   OK    ]  
+2017/05/02 10:33:10 - 54.170.92.48:    Start node is complete.
+2017/05/02 10:33:10 - Done.
+2017/05/02 10:34:41 - Terminating cluster.
+2017/05/02 10:34:41 - Connecting to AWS region eu-west-1.
+2017/05/02 10:34:41 - Gathering instances for Hpcc-JYTE.
+2017/05/02 10:34:41 - Terminating instances.
+2017/05/02 10:34:42 - Waiting for 1 instances to terminate.
+2017/05/02 10:34:47 - Waiting for 1 instances to terminate.
+2017/05/02 10:34:52 - Waiting for 1 instances to terminate.
+2017/05/02 10:34:57 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:02 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:07 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:12 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:18 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:23 - Waiting for 1 instances to terminate.
+2017/05/02 10:35:28 - Deleting Access Key Hpcc-JYTE.
+2017/05/02 10:35:28 - Deleting Security group Hpcc-JYTE.
+2017/05/02 10:35:29 - Done.

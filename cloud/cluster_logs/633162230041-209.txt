@@ -1,0 +1,99 @@
+2012/03/15 06:04:26 - Connecting to AWS region us-east-1.
+2012/03/15 06:04:26 - Checking storage IDs exist in region us-east-1: snap-7766d116
+2012/03/15 06:04:26 - Calculating new unique cluster name for request 209.
+2012/03/15 06:04:26 - Creating new cluster name, Thor-HJWM.
+2012/03/15 06:04:26 - Creating Thor-HJWM security group.
+2012/03/15 06:04:27 - Creating Thor-HJWM key pair.
+2012/03/15 06:04:28 - Launching 1 m1.large nodes using ami-7a2cf113.
+2012/03/15 06:04:29 - Reservation ID r-88cb21eb created.
+2012/03/15 06:04:29 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:34 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:39 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:44 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:49 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:54 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:04:59 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:04 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:09 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:14 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:19 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:24 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:29 - Waiting for 1 of 1 nodes to launch.
+2012/03/15 06:05:34 - Pending instances have completed.
+2012/03/15 06:05:34 - Checking each node launched properly.
+2012/03/15 06:05:34 - 50.17.65.23:     Checking EC2 instance i-778de913.
+2012/03/15 06:05:35 - 50.17.65.23:     Checking EC2 instance is running.
+2012/03/15 06:05:35 - 50.17.65.23:     Connecting via SSH.
+2012/03/15 06:05:38 - 50.17.65.23:     Waiting on SSH connection.
+2012/03/15 06:05:45 - 50.17.65.23:     Checking software installation completed.
+2012/03/15 06:05:45 - 50.17.65.23:     Software installation finished.
+2012/03/15 06:05:45 - 50.17.65.23:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/15 06:05:45 - 50.17.65.23:     Checking file contents.
+2012/03/15 06:05:45 - 50.17.65.23:     Remote file contents confirmed.
+2012/03/15 06:05:45 - 50.17.65.23:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/15 06:05:46 - 50.17.65.23:     Completed check of node 50.17.65.23.
+2012/03/15 06:05:46 - Determining availability zone.
+2012/03/15 06:05:46 - Gathering public and private ip addresses.
+2012/03/15 06:05:46 - Connecting to node 50.17.65.23 for cluster configuration.
+2012/03/15 06:05:46 - Connecting via SSH.
+2012/03/15 06:05:46 - Checking software installation completed.
+2012/03/15 06:05:46 - Software installation finished.
+2012/03/15 06:05:46 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/15 06:05:46 - Checking file contents.
+2012/03/15 06:05:46 - Remote file contents confirmed.
+2012/03/15 06:05:46 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/15 06:05:46 - Writing cluster private ip addresses to file on instance.
+2012/03/15 06:05:46 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/15 06:05:46 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/15 06:05:46 - Checking file contents.
+2012/03/15 06:05:46 - Remote file contents confirmed.
+2012/03/15 06:05:46 - Running envgen
+2012/03/15 06:05:47 - Reading the config file.
+2012/03/15 06:05:47 - Retrieving IP address of ESP Server.
+2012/03/15 06:05:47 - ESP Server private IP address: 10.68.26.62.
+2012/03/15 06:05:47 - ESP Server public IP address: 50.17.65.23.
+2012/03/15 06:05:47 - Attaching storage devices to the Landing Zone: snap-7766d116
+2012/03/15 06:05:48 - Connecting via SSH.
+2012/03/15 06:05:49 - Waiting for EC2 instance to see storage device.
+2012/03/15 06:05:54 - Waiting for EC2 instance to see storage device.
+2012/03/15 06:05:59 - /dev/xvdf is mounted to /mnt/dropzone/snap-7766d116/.
+2012/03/15 06:05:59 - 50.17.65.23:     Starting node configuration.
+2012/03/15 06:05:59 - 50.17.65.23:     Connecting via SSH.
+2012/03/15 06:06:00 - 50.17.65.23:     Checking software installation completed.
+2012/03/15 06:06:00 - 50.17.65.23:     Software installation finished.
+2012/03/15 06:06:00 - 50.17.65.23:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/15 06:06:00 - 50.17.65.23:     Checking file contents.
+2012/03/15 06:06:00 - 50.17.65.23:     Remote file contents confirmed.
+2012/03/15 06:06:00 - 50.17.65.23:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/15 06:06:00 - 50.17.65.23:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/15 06:06:00 - 50.17.65.23:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/15 06:06:00 - 50.17.65.23:     Checking file contents.
+2012/03/15 06:06:00 - 50.17.65.23:     Remote file contents confirmed.
+2012/03/15 06:06:00 - 50.17.65.23:     Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/15 06:06:26 - 50.17.65.23:     Starting mydafilesrv....       [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting mydali....            [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting mydfuserver....       [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting myeclagent....        [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting myeclccserver....     [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting myeclscheduler....    [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting myesp....             [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting mysasha....           [  OK  ]   
+2012/03/15 06:06:26 - 50.17.65.23:     Starting mythor....            [  OK  ]  
+2012/03/15 06:06:26 - 50.17.65.23:     Start node is complete.
+2012/03/15 06:06:26 - Done.
+2012/03/15 11:01:32 - Terminating cluster.
+2012/03/15 11:01:32 - Connecting to AWS region us-east-1.
+2012/03/15 11:01:32 - Gathering instances for Thor-HJWM.
+2012/03/15 11:01:32 - Terminating instances.
+2012/03/15 11:01:33 - Waiting for 1 instances to terminate.
+2012/03/15 11:01:38 - Waiting for 1 instances to terminate.
+2012/03/15 11:01:43 - Waiting for 1 instances to terminate.
+2012/03/15 11:01:48 - Waiting for 1 instances to terminate.
+2012/03/15 11:01:53 - Waiting for 1 instances to terminate.
+2012/03/15 11:01:58 - Waiting for 1 instances to terminate.
+2012/03/15 11:02:03 - Waiting for 1 instances to terminate.
+2012/03/15 11:02:08 - Deleting attached EBS volumes.
+2012/03/15 11:02:08 - Deleting volume vol-29065b45
+2012/03/15 11:02:08 - Deleting Access Key Thor-HJWM.
+2012/03/15 11:02:08 - Deleting Security group Thor-HJWM.
+2012/03/15 11:02:09 - Done.

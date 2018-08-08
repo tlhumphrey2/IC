@@ -1,0 +1,300 @@
+2012/02/28 19:05:14 - Connecting to AWS region us-west-2.
+2012/02/28 19:05:14 - Calculating new unique cluster name for request 156.
+2012/02/28 19:05:15 - Creating new cluster name, Thor-KRU2.
+2012/02/28 19:05:15 - Creating Thor-KRU2 security group.
+2012/02/28 19:05:19 - Creating Thor-KRU2 key pair.
+2012/02/28 19:05:20 - Launching 5 m1.large nodes using ami-ac19949c.
+2012/02/28 19:05:21 - Reservation ID r-cce0affc created.
+2012/02/28 19:05:21 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:27 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:34 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:40 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:46 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:52 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:05:59 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:05 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:11 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:17 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:24 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:30 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:06:36 - Waiting for 4 of 5 nodes to launch.
+2012/02/28 19:06:43 - Waiting for 3 of 5 nodes to launch.
+2012/02/28 19:06:48 - Pending instances have completed.
+2012/02/28 19:06:48 - Checking each node launched properly.
+2012/02/28 19:06:48 - 50.112.43.84:    Checking EC2 instance i-7693c446.
+2012/02/28 19:06:48 - 50.112.31.71:    Checking EC2 instance i-7893c448.
+2012/02/28 19:06:48 - 50.112.44.88:    Checking EC2 instance i-7a93c44a.
+2012/02/28 19:06:48 - 50.112.36.44:    Checking EC2 instance i-7c93c44c.
+2012/02/28 19:06:48 - 50.112.37.232:   Checking EC2 instance i-7e93c44e.
+2012/02/28 19:06:49 - 50.112.43.84:    Checking EC2 instance is running.
+2012/02/28 19:06:49 - 50.112.43.84:    Connecting via SSH.
+2012/02/28 19:06:49 - 50.112.31.71:    Checking EC2 instance is running.
+2012/02/28 19:06:49 - 50.112.31.71:    Connecting via SSH.
+2012/02/28 19:06:49 - 50.112.36.44:    Checking EC2 instance is running.
+2012/02/28 19:06:49 - 50.112.36.44:    Connecting via SSH.
+2012/02/28 19:06:49 - 50.112.44.88:    Checking EC2 instance is running.
+2012/02/28 19:06:49 - 50.112.44.88:    Connecting via SSH.
+2012/02/28 19:06:49 - 50.112.37.232:   Checking EC2 instance is running.
+2012/02/28 19:06:49 - 50.112.37.232:   Connecting via SSH.
+2012/02/28 19:06:49 - 50.112.31.71:    Waiting on SSH connection.
+2012/02/28 19:06:50 - 50.112.44.88:    Waiting on SSH connection.
+2012/02/28 19:06:50 - 50.112.43.84:    Checking software installation completed.
+2012/02/28 19:06:50 - 50.112.43.84:    Software installation finished.
+2012/02/28 19:06:50 - 50.112.43.84:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:06:51 - 50.112.37.232:   Checking software installation completed.
+2012/02/28 19:06:51 - 50.112.43.84:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:06:51 - 50.112.37.232:   Software installation finished.
+2012/02/28 19:06:51 - 50.112.37.232:   Sending ~/node_health_script via SFTP.
+2012/02/28 19:06:51 - 50.112.36.44:    Checking software installation completed.
+2012/02/28 19:06:51 - 50.112.43.84:    Checking file contents.
+2012/02/28 19:06:52 - 50.112.36.44:    Waiting for software to install.
+2012/02/28 19:06:52 - 50.112.43.84:    Remote file contents confirmed.
+2012/02/28 19:06:52 - 50.112.37.232:   Copying ~/node_health_script to desitnation.
+2012/02/28 19:06:52 - 50.112.37.232:   Checking file contents.
+2012/02/28 19:06:53 - 50.112.37.232:   Remote file contents confirmed.
+2012/02/28 19:06:53 - 50.112.43.84:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7475080 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:06:53 - 50.112.43.84:    Error - Node 50.112.43.84 failed check.
+2012/02/28 19:06:53 - 50.112.43.84:    Completed check of node 50.112.43.84.
+2012/02/28 19:06:53 - 50.112.37.232:   Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7476216 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:06:53 - 50.112.37.232:   Error - Node 50.112.37.232 failed check.
+2012/02/28 19:06:53 - 50.112.37.232:   Completed check of node 50.112.37.232.
+2012/02/28 19:06:56 - 50.112.44.88:    Checking software installation completed.
+2012/02/28 19:06:56 - 50.112.31.71:    Checking software installation completed.
+2012/02/28 19:06:56 - 50.112.44.88:    Software installation finished.
+2012/02/28 19:06:56 - 50.112.44.88:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:06:57 - 50.112.31.71:    Software installation finished.
+2012/02/28 19:06:57 - 50.112.31.71:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:06:57 - 50.112.44.88:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:06:57 - 50.112.31.71:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:06:57 - 50.112.44.88:    Checking file contents.
+2012/02/28 19:06:58 - 50.112.31.71:    Checking file contents.
+2012/02/28 19:06:58 - 50.112.44.88:    Remote file contents confirmed.
+2012/02/28 19:06:58 - 50.112.31.71:    Remote file contents confirmed.
+2012/02/28 19:06:59 - 50.112.44.88:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7476100 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:06:59 - 50.112.44.88:    Error - Node 50.112.44.88 failed check.
+2012/02/28 19:06:59 - 50.112.44.88:    Completed check of node 50.112.44.88.
+2012/02/28 19:06:59 - 50.112.31.71:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7476756 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:06:59 - 50.112.31.71:    Error - Node 50.112.31.71 failed check.
+2012/02/28 19:06:59 - 50.112.31.71:    Completed check of node 50.112.31.71.
+2012/02/28 19:07:02 - 50.112.36.44:    Software installation finished.
+2012/02/28 19:07:02 - 50.112.36.44:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:07:03 - 50.112.36.44:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:07:03 - 50.112.36.44:    Checking file contents.
+2012/02/28 19:07:03 - 50.112.36.44:    Remote file contents confirmed.
+2012/02/28 19:07:04 - 50.112.36.44:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7477416 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:07:04 - 50.112.36.44:    Error - Node 50.112.36.44 failed check.
+2012/02/28 19:07:04 - 50.112.36.44:    Completed check of node 50.112.36.44.
+2012/02/28 19:07:04 - Terminating 5 bad instances.
+2012/02/28 19:07:04 - Terminating instances.
+2012/02/28 19:07:07 - Waiting for 5 instances to terminate.
+2012/02/28 19:07:13 - Waiting for 5 instances to terminate.
+2012/02/28 19:07:21 - Reservation ID r-04ffb034 created.
+2012/02/28 19:07:21 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:27 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:33 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:40 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:46 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:52 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:07:58 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:08:05 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:08:11 - Waiting for 4 of 5 nodes to launch.
+2012/02/28 19:08:16 - Terminating cluster.
+2012/02/28 19:08:16 - Connecting to AWS region us-west-2.
+2012/02/28 19:08:16 - Gathering instances for Thor-KRU2.
+2012/02/28 19:08:17 - Terminating instances.
+2012/02/28 19:08:17 - Waiting for 4 of 5 nodes to launch.
+2012/02/28 19:08:23 - Waiting for 5 instances to terminate.
+2012/02/28 19:08:23 - Pending instances have completed.
+2012/02/28 19:08:23 - Checking each node launched properly.
+2012/02/28 19:08:23 - 50.112.34.92:    Checking EC2 instance i-a493c494.
+2012/02/28 19:08:23 - 50.112.30.108:   Checking EC2 instance i-a693c496.
+2012/02/28 19:08:23 - 50.112.20.164:   Checking EC2 instance i-a893c498.
+2012/02/28 19:08:23 - 50.112.7.36:     Checking EC2 instance i-aa93c49a.
+2012/02/28 19:08:23 - 50.112.20.228:   Checking EC2 instance i-ac93c49c.
+2012/02/28 19:08:23 - 50.112.20.164:   Checking EC2 instance is running.
+2012/02/28 19:08:23 - 50.112.20.164:   Node 50.112.20.164 failed to launch properly.
+2012/02/28 19:08:23 - 50.112.20.164:   Error - Node 50.112.20.164 failed check.
+2012/02/28 19:08:23 - 50.112.20.164:   Completed check of node 50.112.20.164.
+2012/02/28 19:08:23 - 50.112.20.228:   Checking EC2 instance is running.
+2012/02/28 19:08:23 - 50.112.20.228:   Node 50.112.20.228 failed to launch properly.
+2012/02/28 19:08:23 - 50.112.20.228:   Error - Node 50.112.20.228 failed check.
+2012/02/28 19:08:23 - 50.112.20.228:   Completed check of node 50.112.20.228.
+2012/02/28 19:08:23 - 50.112.34.92:    Checking EC2 instance is running.
+2012/02/28 19:08:23 - 50.112.34.92:    Node 50.112.34.92 failed to launch properly.
+2012/02/28 19:08:23 - 50.112.34.92:    Error - Node 50.112.34.92 failed check.
+2012/02/28 19:08:23 - 50.112.34.92:    Completed check of node 50.112.34.92.
+2012/02/28 19:08:23 - 50.112.30.108:   Checking EC2 instance is running.
+2012/02/28 19:08:23 - 50.112.30.108:   Node 50.112.30.108 failed to launch properly.
+2012/02/28 19:08:23 - 50.112.30.108:   Error - Node 50.112.30.108 failed check.
+2012/02/28 19:08:23 - 50.112.30.108:   Completed check of node 50.112.30.108.
+2012/02/28 19:08:23 - 50.112.7.36:     Checking EC2 instance is running.
+2012/02/28 19:08:23 - 50.112.7.36:     Node 50.112.7.36 failed to launch properly.
+2012/02/28 19:08:23 - 50.112.7.36:     Error - Node 50.112.7.36 failed check.
+2012/02/28 19:08:23 - 50.112.7.36:     Completed check of node 50.112.7.36.
+2012/02/28 19:08:23 - Terminating 5 bad instances.
+2012/02/28 19:08:23 - Terminating instances.
+2012/02/28 19:08:28 - Waiting for 4 instances to terminate.
+2012/02/28 19:08:29 - Waiting for 3 instances to terminate.
+2012/02/28 19:08:34 - Waiting for 1 instances to terminate.
+2012/02/28 19:08:35 - Waiting for 1 instances to terminate.
+2012/02/28 19:08:40 - Reservation ID r-64ffb054 created.
+2012/02/28 19:08:40 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:08:40 - Deleting Access Key Thor-KRU2.
+2012/02/28 19:08:41 - Deleting Security group Thor-KRU2.
+2012/02/28 19:08:41 - An exception occured.
+                      Amazon Error: InvalidGroup.InUse
+                      There are active instances using security group 'Thor-KRU2'
+                      requestId: 95c20c13-4146-4174-94f0-0f9a89a0ebde
+2012/02/28 19:08:46 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:08:52 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:08:59 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:05 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:11 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:17 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:24 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:30 - Waiting for 5 of 5 nodes to launch.
+2012/02/28 19:09:37 - Waiting for 4 of 5 nodes to launch.
+2012/02/28 19:09:43 - Waiting for 3 of 5 nodes to launch.
+2012/02/28 19:09:49 - Waiting for 3 of 5 nodes to launch.
+2012/02/28 19:09:54 - Waiting for 2 of 5 nodes to launch.
+2012/02/28 19:10:00 - Waiting for 1 of 5 nodes to launch.
+2012/02/28 19:10:05 - Pending instances have completed.
+2012/02/28 19:10:05 - Checking each node launched properly.
+2012/02/28 19:10:05 - 50.112.23.103:   Checking EC2 instance i-8e93c4be.
+2012/02/28 19:10:05 - 50.112.7.36:     Checking EC2 instance i-f093c4c0.
+2012/02/28 19:10:05 - 50.112.42.23:    Checking EC2 instance i-f293c4c2.
+2012/02/28 19:10:05 - 50.112.43.225:   Checking EC2 instance i-f493c4c4.
+2012/02/28 19:10:05 - 50.112.36.44:    Checking EC2 instance i-f693c4c6.
+2012/02/28 19:10:06 - 50.112.36.44:    Checking EC2 instance is running.
+2012/02/28 19:10:06 - 50.112.36.44:    Connecting via SSH.
+2012/02/28 19:10:06 - 50.112.23.103:   Checking EC2 instance is running.
+2012/02/28 19:10:06 - 50.112.23.103:   Connecting via SSH.
+2012/02/28 19:10:06 - 50.112.7.36:     Checking EC2 instance is running.
+2012/02/28 19:10:06 - 50.112.7.36:     Connecting via SSH.
+2012/02/28 19:10:06 - 50.112.43.225:   Checking EC2 instance is running.
+2012/02/28 19:10:06 - 50.112.43.225:   Connecting via SSH.
+2012/02/28 19:10:06 - 50.112.42.23:    Checking EC2 instance is running.
+2012/02/28 19:10:06 - 50.112.42.23:    Connecting via SSH.
+2012/02/28 19:10:08 - 50.112.36.44:    Checking software installation completed.
+2012/02/28 19:10:08 - 50.112.23.103:   Checking software installation completed.
+2012/02/28 19:10:08 - 50.112.7.36:     Checking software installation completed.
+2012/02/28 19:10:08 - 50.112.42.23:    Checking software installation completed.
+2012/02/28 19:10:08 - 50.112.43.225:   Checking software installation completed.
+2012/02/28 19:10:08 - 50.112.23.103:   Software installation finished.
+2012/02/28 19:10:08 - 50.112.23.103:   Sending ~/node_health_script via SFTP.
+2012/02/28 19:10:08 - 50.112.36.44:    Software installation finished.
+2012/02/28 19:10:08 - 50.112.36.44:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:10:08 - 50.112.7.36:     Software installation finished.
+2012/02/28 19:10:08 - 50.112.7.36:     Sending ~/node_health_script via SFTP.
+2012/02/28 19:10:08 - 50.112.42.23:    Software installation finished.
+2012/02/28 19:10:08 - 50.112.42.23:    Sending ~/node_health_script via SFTP.
+2012/02/28 19:10:08 - 50.112.43.225:   Software installation finished.
+2012/02/28 19:10:08 - 50.112.43.225:   Sending ~/node_health_script via SFTP.
+2012/02/28 19:10:08 - 50.112.23.103:   Copying ~/node_health_script to desitnation.
+2012/02/28 19:10:08 - 50.112.36.44:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:10:08 - 50.112.7.36:     Copying ~/node_health_script to desitnation.
+2012/02/28 19:10:09 - 50.112.43.225:   Copying ~/node_health_script to desitnation.
+2012/02/28 19:10:09 - 50.112.42.23:    Copying ~/node_health_script to desitnation.
+2012/02/28 19:10:09 - 50.112.23.103:   Checking file contents.
+2012/02/28 19:10:09 - 50.112.36.44:    Checking file contents.
+2012/02/28 19:10:09 - 50.112.7.36:     Checking file contents.
+2012/02/28 19:10:09 - 50.112.43.225:   Checking file contents.
+2012/02/28 19:10:09 - 50.112.42.23:    Checking file contents.
+2012/02/28 19:10:09 - 50.112.23.103:   Remote file contents confirmed.
+2012/02/28 19:10:09 - 50.112.36.44:    Remote file contents confirmed.
+2012/02/28 19:10:09 - 50.112.7.36:     Remote file contents confirmed.
+2012/02/28 19:10:09 - 50.112.43.225:   Remote file contents confirmed.
+2012/02/28 19:10:09 - 50.112.42.23:    Remote file contents confirmed.
+2012/02/28 19:10:10 - 50.112.23.103:   Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7475512 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:10:10 - 50.112.23.103:   Error - Node 50.112.23.103 failed check.
+2012/02/28 19:10:10 - 50.112.23.103:   Completed check of node 50.112.23.103.
+2012/02/28 19:10:10 - 50.112.36.44:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7475108 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:10:10 - 50.112.36.44:    Error - Node 50.112.36.44 failed check.
+2012/02/28 19:10:10 - 50.112.36.44:    Completed check of node 50.112.36.44.
+2012/02/28 19:10:10 - 50.112.7.36:     Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7476000 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:10:10 - 50.112.7.36:     Error - Node 50.112.7.36 failed check.
+2012/02/28 19:10:10 - 50.112.7.36:     Completed check of node 50.112.7.36.
+2012/02/28 19:10:10 - 50.112.43.225:   Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7475452 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:10:10 - 50.112.43.225:   Error - Node 50.112.43.225 failed check.
+2012/02/28 19:10:10 - 50.112.43.225:   Completed check of node 50.112.43.225.
+2012/02/28 19:10:10 - 50.112.42.23:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       
+                                       Free memory: 7476052 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/28 19:10:10 - 50.112.42.23:    Error - Node 50.112.42.23 failed check.
+2012/02/28 19:10:10 - 50.112.42.23:    Completed check of node 50.112.42.23.
+2012/02/28 19:10:10 - Terminating 5 bad instances.
+2012/02/28 19:10:10 - Terminating instances.
+2012/02/28 19:10:13 - Waiting for 5 instances to terminate.
+2012/02/28 19:10:20 - Waiting for 5 instances to terminate.
+2012/02/28 19:10:26 - An exception occured.
+                      Amazon Error: InvalidKeyPair.NotFound
+                      The key pair 'Thor-KRU2' does not exist
+                      requestId: 3d914ea8-707e-4c77-8710-ac4c7a079945

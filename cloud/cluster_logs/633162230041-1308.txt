@@ -1,0 +1,100 @@
+2017/05/23 09:29:15 - Connecting to AWS region eu-central-1.
+2017/05/23 09:29:15 - Calculating new unique cluster name for request 1308.
+2017/05/23 09:29:17 - Creating new cluster name, Hpcc-PGT4.
+2017/05/23 09:29:17 - Creating Hpcc-PGT4 security group.
+2017/05/23 09:29:20 - Creating Hpcc-PGT4 key pair.
+2017/05/23 09:29:20 - Launching 1 m3.large nodes using ami-2e2bf341.
+2017/05/23 09:29:21 - Reservation ID r-093bdc33af1612fdc created.
+2017/05/23 09:29:21 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:26 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:31 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:37 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:42 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:47 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:52 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:29:57 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:02 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:07 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:13 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:18 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:23 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:28 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:33 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:38 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:43 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:49 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:54 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:30:59 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:31:04 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:31:09 - Waiting for 1 of 1 nodes to launch.
+2017/05/23 09:31:14 - Pending instances have completed.
+2017/05/23 09:31:14 - Checking each node launched properly.
+2017/05/23 09:31:14 - 35.158.14.161:   Checking EC2 instance i-0e94a496366c06693.
+2017/05/23 09:31:15 - 35.158.14.161:   Checking EC2 instance is running.
+2017/05/23 09:31:15 - 35.158.14.161:   Connecting via SSH.
+2017/05/23 09:31:18 - 35.158.14.161:   Waiting on SSH connection.
+2017/05/23 09:31:26 - 35.158.14.161:   Checking software installation completed.
+2017/05/23 09:31:27 - 35.158.14.161:   Software installation finished.
+2017/05/23 09:31:27 - 35.158.14.161:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/23 09:31:27 - 35.158.14.161:   Checking file contents.
+2017/05/23 09:31:28 - 35.158.14.161:   Remote file contents confirmed.
+2017/05/23 09:31:28 - 35.158.14.161:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/23 09:31:28 - 35.158.14.161:   Completed check of node 35.158.14.161.
+2017/05/23 09:31:28 - Determining availability zone.
+2017/05/23 09:31:28 - Gathering public and private ip addresses.
+2017/05/23 09:31:28 - Connecting to node 35.158.14.161 for cluster configuration.
+2017/05/23 09:31:28 - Connecting via SSH.
+2017/05/23 09:31:29 - Checking software installation completed.
+2017/05/23 09:31:30 - Software installation finished.
+2017/05/23 09:31:30 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/23 09:31:30 - Checking file contents.
+2017/05/23 09:31:31 - Remote file contents confirmed.
+2017/05/23 09:31:31 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/23 09:31:31 - Writing cluster private ip addresses to file on instance.
+2017/05/23 09:31:31 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/05/23 09:31:32 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/05/23 09:31:32 - Checking file contents.
+2017/05/23 09:31:32 - Remote file contents confirmed.
+2017/05/23 09:31:32 - Running envgen
+2017/05/23 09:31:33 - Reading the config file.
+2017/05/23 09:31:34 - Retrieving IP address of ESP Server.
+2017/05/23 09:31:34 - ESP Server private IP address: 172.31.21.158.
+2017/05/23 09:31:34 - ESP Server public IP address: 35.158.14.161.
+2017/05/23 09:31:34 - 35.158.14.161:   Starting node configuration.
+2017/05/23 09:31:34 - 35.158.14.161:   Connecting via SSH.
+2017/05/23 09:31:35 - 35.158.14.161:   Checking software installation completed.
+2017/05/23 09:31:36 - 35.158.14.161:   Software installation finished.
+2017/05/23 09:31:36 - 35.158.14.161:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/05/23 09:31:36 - 35.158.14.161:   Checking file contents.
+2017/05/23 09:31:36 - 35.158.14.161:   Remote file contents confirmed.
+2017/05/23 09:31:37 - 35.158.14.161:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/05/23 09:31:37 - 35.158.14.161:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/05/23 09:31:38 - 35.158.14.161:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/05/23 09:31:38 - 35.158.14.161:   Checking file contents.
+2017/05/23 09:31:39 - 35.158.14.161:   Remote file contents confirmed.
+2017/05/23 09:31:39 - 35.158.14.161:   Starting HPCC Platform Community Edition: 6.2.12-1.
+2017/05/23 09:31:51 - 35.158.14.161:   Starting mydafilesrv ...       [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting mydali ...            [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting mydfuserver ...       [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting myeclagent ...        [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting myeclccserver ...     [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting myeclscheduler ...    [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting myesp ...             [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting mysasha ...           [   OK    ]   
+2017/05/23 09:31:51 - 35.158.14.161:   Starting mythor ...            [   OK    ]  
+2017/05/23 09:31:51 - 35.158.14.161:   Start node is complete.
+2017/05/23 09:31:51 - Done.
+2017/05/23 09:34:47 - Terminating cluster.
+2017/05/23 09:34:47 - Connecting to AWS region eu-central-1.
+2017/05/23 09:34:47 - Gathering instances for Hpcc-PGT4.
+2017/05/23 09:34:48 - Terminating instances.
+2017/05/23 09:34:49 - Waiting for 1 instances to terminate.
+2017/05/23 09:34:54 - Waiting for 1 instances to terminate.
+2017/05/23 09:34:59 - Waiting for 1 instances to terminate.
+2017/05/23 09:35:04 - Waiting for 1 instances to terminate.
+2017/05/23 09:35:09 - Waiting for 1 instances to terminate.
+2017/05/23 09:35:14 - Waiting for 1 instances to terminate.
+2017/05/23 09:35:20 - Waiting for 1 instances to terminate.
+2017/05/23 09:35:25 - Deleting Access Key Hpcc-PGT4.
+2017/05/23 09:35:25 - Deleting Security group Hpcc-PGT4.
+2017/05/23 09:35:26 - Done.

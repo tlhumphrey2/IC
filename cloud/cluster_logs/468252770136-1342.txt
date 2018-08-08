@@ -1,0 +1,90 @@
+2017/11/25 02:05:09 - Connecting to AWS region us-west-2.
+2017/11/25 02:05:09 - Calculating new unique cluster name for request 1342.
+2017/11/25 02:05:10 - Creating new cluster name, Hpcc-BSCJ.
+2017/11/25 02:05:10 - Creating Hpcc-BSCJ security group.
+2017/11/25 02:05:12 - Creating Hpcc-BSCJ key pair.
+2017/11/25 02:05:12 - Launching 1 m1.large nodes using ami-4f00c837.
+2017/11/25 02:05:13 - Reservation ID r-0677e87b47f45d301 created.
+2017/11/25 02:05:13 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:19 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:24 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:29 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:34 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:39 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:44 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:49 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:05:54 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:00 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:05 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:10 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:15 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:20 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:25 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:30 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 02:06:35 - Pending instances have completed.
+2017/11/25 02:06:35 - Checking each node launched properly.
+2017/11/25 02:06:35 - 54.245.129.199:  Checking EC2 instance i-0c3b760d0015afbed.
+2017/11/25 02:06:36 - 54.245.129.199:  Checking EC2 instance is running.
+2017/11/25 02:06:36 - 54.245.129.199:  Connecting via SSH.
+2017/11/25 02:06:51 - 54.245.129.199:  Waiting on SSH connection.
+2017/11/25 02:07:01 - 54.245.129.199:  Checking software installation completed.
+2017/11/25 02:07:02 - 54.245.129.199:  Software installation finished.
+2017/11/25 02:07:02 - 54.245.129.199:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 02:07:02 - 54.245.129.199:  Checking file contents.
+2017/11/25 02:07:03 - 54.245.129.199:  Remote file contents confirmed.
+2017/11/25 02:07:03 - 54.245.129.199:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 02:07:03 - 54.245.129.199:  Completed check of node 54.245.129.199.
+2017/11/25 02:07:03 - Determining availability zone.
+2017/11/25 02:07:03 - Gathering public and private ip addresses.
+2017/11/25 02:07:03 - Connecting to node 54.245.129.199 for cluster configuration.
+2017/11/25 02:07:03 - Connecting via SSH.
+2017/11/25 02:07:05 - Checking software installation completed.
+2017/11/25 02:07:05 - Software installation finished.
+2017/11/25 02:07:05 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 02:07:05 - Checking file contents.
+2017/11/25 02:07:06 - Remote file contents confirmed.
+2017/11/25 02:07:06 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 02:07:06 - Writing cluster private ip addresses to file on instance.
+2017/11/25 02:07:06 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/11/25 02:07:07 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/11/25 02:07:07 - Checking file contents.
+2017/11/25 02:07:07 - Remote file contents confirmed.
+2017/11/25 02:07:07 - Running envgen
+2017/11/25 02:07:08 - Reading the config file.
+2017/11/25 02:07:08 - Retrieving IP address of ESP Server.
+2017/11/25 02:07:08 - ESP Server private IP address: 172.31.41.107.
+2017/11/25 02:07:08 - ESP Server public IP address: 54.245.129.199.
+2017/11/25 02:07:09 - 54.245.129.199:  Starting node configuration.
+2017/11/25 02:07:09 - 54.245.129.199:  Connecting via SSH.
+2017/11/25 02:07:10 - 54.245.129.199:  Checking software installation completed.
+2017/11/25 02:07:10 - 54.245.129.199:  Software installation finished.
+2017/11/25 02:07:10 - 54.245.129.199:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 02:07:11 - 54.245.129.199:  Checking file contents.
+2017/11/25 02:07:11 - 54.245.129.199:  Remote file contents confirmed.
+2017/11/25 02:07:12 - 54.245.129.199:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 02:07:12 - 54.245.129.199:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/11/25 02:07:13 - 54.245.129.199:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/11/25 02:07:13 - 54.245.129.199:  Checking file contents.
+2017/11/25 02:07:13 - 54.245.129.199:  Remote file contents confirmed.
+2017/11/25 02:07:13 - 54.245.129.199:  Starting HPCC Platform Community Edition: 6.4.4-1.
+2017/11/25 02:07:52 - 54.245.129.199:  Starting mydafilesrv ...       [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting mydali ...            [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting mydfuserver ...       [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting myeclagent ...        [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting myeclccserver ...     [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting myeclscheduler ...    [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting myesp ...             [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting mysasha ...           [   OK    ]   
+2017/11/25 02:07:52 - 54.245.129.199:  Starting mythor ...            [   OK    ]  
+2017/11/25 02:07:52 - 54.245.129.199:  Start node is complete.
+2017/11/25 02:07:52 - Done.
+2017/11/25 03:15:39 - Terminating cluster.
+2017/11/25 03:15:39 - Connecting to AWS region us-west-2.
+2017/11/25 03:15:39 - Gathering instances for Hpcc-BSCJ.
+2017/11/25 03:15:40 - Terminating instances.
+2017/11/25 03:15:40 - Deleting Access Key Hpcc-BSCJ.
+2017/11/25 03:15:40 - Deleting Security group Hpcc-BSCJ.
+2017/11/25 03:15:41 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-5af80926 has a dependent object
+                      requestId: 8c994668-118d-40f5-a773-68e0c30073fa

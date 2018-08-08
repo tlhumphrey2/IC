@@ -1,0 +1,94 @@
+2017/02/01 10:55:37 - Connecting to AWS region ap-northeast-1.
+2017/02/01 10:55:37 - Calculating new unique cluster name for request 1277.
+2017/02/01 10:55:38 - Creating new cluster name, Hpcc-8K6D.
+2017/02/01 10:55:38 - Creating Hpcc-8K6D security group.
+2017/02/01 10:55:42 - Creating Hpcc-8K6D key pair.
+2017/02/01 10:55:42 - Launching 1 m1.large nodes using ami-841f58e3.
+2017/02/01 10:55:43 - Reservation ID r-0266e301289d0fed3 created.
+2017/02/01 10:55:43 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:55:49 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:55:54 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:55:59 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:04 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:10 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:15 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:20 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:25 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:31 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:36 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:41 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:46 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:52 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:56:57 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 10:57:02 - Pending instances have completed.
+2017/02/01 10:57:02 - Checking each node launched properly.
+2017/02/01 10:57:02 - 54.95.120.128:   Checking EC2 instance i-0d738b27174821f07.
+2017/02/01 10:57:03 - 54.95.120.128:   Checking EC2 instance is running.
+2017/02/01 10:57:03 - 54.95.120.128:   Connecting via SSH.
+2017/02/01 10:57:05 - 54.95.120.128:   Waiting on SSH connection.
+2017/02/01 10:57:18 - 54.95.120.128:   Checking software installation completed.
+2017/02/01 10:57:18 - 54.95.120.128:   Software installation finished.
+2017/02/01 10:57:18 - 54.95.120.128:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 10:57:19 - 54.95.120.128:   Checking file contents.
+2017/02/01 10:57:20 - 54.95.120.128:   Remote file contents confirmed.
+2017/02/01 10:57:21 - 54.95.120.128:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 10:57:21 - 54.95.120.128:   Completed check of node 54.95.120.128.
+2017/02/01 10:57:21 - Determining availability zone.
+2017/02/01 10:57:21 - Gathering public and private ip addresses.
+2017/02/01 10:57:21 - Connecting to node 54.95.120.128 for cluster configuration.
+2017/02/01 10:57:21 - Connecting via SSH.
+2017/02/01 10:57:23 - Checking software installation completed.
+2017/02/01 10:57:23 - Software installation finished.
+2017/02/01 10:57:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 10:57:24 - Checking file contents.
+2017/02/01 10:57:25 - Remote file contents confirmed.
+2017/02/01 10:57:26 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 10:57:26 - Writing cluster private ip addresses to file on instance.
+2017/02/01 10:57:26 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/02/01 10:57:26 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/02/01 10:57:27 - Checking file contents.
+2017/02/01 10:57:27 - Remote file contents confirmed.
+2017/02/01 10:57:27 - Running envgen
+2017/02/01 10:57:28 - Reading the config file.
+2017/02/01 10:57:29 - Retrieving IP address of ESP Server.
+2017/02/01 10:57:29 - ESP Server private IP address: 10.169.128.77.
+2017/02/01 10:57:29 - ESP Server public IP address: 54.95.120.128.
+2017/02/01 10:57:29 - 54.95.120.128:   Starting node configuration.
+2017/02/01 10:57:29 - 54.95.120.128:   Connecting via SSH.
+2017/02/01 10:57:32 - 54.95.120.128:   Checking software installation completed.
+2017/02/01 10:57:32 - 54.95.120.128:   Software installation finished.
+2017/02/01 10:57:32 - 54.95.120.128:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 10:57:33 - 54.95.120.128:   Checking file contents.
+2017/02/01 10:57:33 - 54.95.120.128:   Remote file contents confirmed.
+2017/02/01 10:57:34 - 54.95.120.128:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 10:57:34 - 54.95.120.128:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/02/01 10:57:36 - 54.95.120.128:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/02/01 10:57:36 - 54.95.120.128:   Checking file contents.
+2017/02/01 10:57:37 - 54.95.120.128:   Remote file contents confirmed.
+2017/02/01 10:57:37 - 54.95.120.128:   Starting HPCC Platform Community Edition: 6.0.8-1.
+2017/02/01 10:57:54 - 54.95.120.128:   Starting mydafilesrv ...       [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting mydali ...            [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting mydfuserver ...       [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting myeclagent ...        [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting myeclccserver ...     [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting myeclscheduler ...    [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting myesp ...             [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting mysasha ...           [   OK    ]   
+2017/02/01 10:57:54 - 54.95.120.128:   Starting mythor ...            [   OK    ]  
+2017/02/01 10:57:54 - 54.95.120.128:   Start node is complete.
+2017/02/01 10:57:54 - Done.
+2017/02/01 10:59:03 - Terminating cluster.
+2017/02/01 10:59:03 - Connecting to AWS region ap-northeast-1.
+2017/02/01 10:59:03 - Gathering instances for Hpcc-8K6D.
+2017/02/01 10:59:04 - Terminating instances.
+2017/02/01 10:59:04 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:10 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:15 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:20 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:25 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:31 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:36 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:41 - Waiting for 1 instances to terminate.
+2017/02/01 10:59:46 - Deleting Access Key Hpcc-8K6D.
+2017/02/01 10:59:47 - Deleting Security group Hpcc-8K6D.
+2017/02/01 10:59:48 - Done.

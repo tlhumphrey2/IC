@@ -1,0 +1,94 @@
+2016/07/21 14:38:28 - Connecting to AWS region us-west-2.
+2016/07/21 14:38:28 - Calculating new unique cluster name for request 1249.
+2016/07/21 14:38:29 - Creating new cluster name, Hpcc-JRDP.
+2016/07/21 14:38:29 - Creating Hpcc-JRDP security group.
+2016/07/21 14:38:32 - Creating Hpcc-JRDP key pair.
+2016/07/21 14:38:32 - Launching 1 m1.large nodes using ami-1dac6e7d.
+2016/07/21 14:38:33 - Reservation ID r-93bf2f57 created.
+2016/07/21 14:38:33 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:38:38 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:38:43 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:38:48 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:38:53 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:38:58 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:04 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:09 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:14 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:19 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:24 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:29 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:34 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 14:39:40 - Pending instances have completed.
+2016/07/21 14:39:40 - Checking each node launched properly.
+2016/07/21 14:39:40 - 54.214.151.80:   Checking EC2 instance i-9d4cca32.
+2016/07/21 14:39:40 - 54.214.151.80:   Checking EC2 instance is running.
+2016/07/21 14:39:40 - 54.214.151.80:   Connecting via SSH.
+2016/07/21 14:39:47 - 54.214.151.80:   Waiting on SSH connection.
+2016/07/21 14:40:00 - 54.214.151.80:   Checking software installation completed.
+2016/07/21 14:40:00 - 54.214.151.80:   Software installation finished.
+2016/07/21 14:40:00 - 54.214.151.80:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 14:40:01 - 54.214.151.80:   Checking file contents.
+2016/07/21 14:40:01 - 54.214.151.80:   Remote file contents confirmed.
+2016/07/21 14:40:02 - 54.214.151.80:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 14:40:02 - 54.214.151.80:   Completed check of node 54.214.151.80.
+2016/07/21 14:40:02 - Determining availability zone.
+2016/07/21 14:40:02 - Gathering public and private ip addresses.
+2016/07/21 14:40:02 - Connecting to node 54.214.151.80 for cluster configuration.
+2016/07/21 14:40:02 - Connecting via SSH.
+2016/07/21 14:40:03 - Checking software installation completed.
+2016/07/21 14:40:04 - Software installation finished.
+2016/07/21 14:40:04 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 14:40:04 - Checking file contents.
+2016/07/21 14:40:04 - Remote file contents confirmed.
+2016/07/21 14:40:05 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 14:40:05 - Writing cluster private ip addresses to file on instance.
+2016/07/21 14:40:05 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/07/21 14:40:06 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/07/21 14:40:06 - Checking file contents.
+2016/07/21 14:40:06 - Remote file contents confirmed.
+2016/07/21 14:40:06 - Running envgen
+2016/07/21 14:40:08 - Reading the config file.
+2016/07/21 14:40:08 - Retrieving IP address of ESP Server.
+2016/07/21 14:40:08 - ESP Server private IP address: 10.254.130.253.
+2016/07/21 14:40:08 - ESP Server public IP address: 54.214.151.80.
+2016/07/21 14:40:08 - 54.214.151.80:   Starting node configuration.
+2016/07/21 14:40:08 - 54.214.151.80:   Connecting via SSH.
+2016/07/21 14:40:10 - 54.214.151.80:   Checking software installation completed.
+2016/07/21 14:40:10 - 54.214.151.80:   Software installation finished.
+2016/07/21 14:40:10 - 54.214.151.80:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 14:40:11 - 54.214.151.80:   Checking file contents.
+2016/07/21 14:40:11 - 54.214.151.80:   Remote file contents confirmed.
+2016/07/21 14:40:12 - 54.214.151.80:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 14:40:12 - 54.214.151.80:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/21 14:40:12 - 54.214.151.80:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/21 14:40:13 - 54.214.151.80:   Checking file contents.
+2016/07/21 14:40:13 - 54.214.151.80:   Remote file contents confirmed.
+2016/07/21 14:40:13 - 54.214.151.80:   Starting HPCC Platform Community Edition: 6.0.2-1.
+2016/07/21 14:40:35 - 54.214.151.80:   Starting mydafilesrv ...       [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting mydali ...            [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting mydfuserver ...       [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting myeclagent ...        [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting myeclccserver ...     [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting myeclscheduler ...    [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting myesp ...             [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting mysasha ...           [   OK    ]   
+2016/07/21 14:40:35 - 54.214.151.80:   Starting mythor ...            [   OK    ]  
+2016/07/21 14:40:35 - 54.214.151.80:   Start node is complete.
+2016/07/21 14:40:35 - Done.
+2016/07/21 17:06:16 - Terminating cluster.
+2016/07/21 17:06:16 - Connecting to AWS region us-west-2.
+2016/07/21 17:06:16 - Gathering instances for Hpcc-JRDP.
+2016/07/21 17:06:16 - Terminating instances.
+2016/07/21 17:06:17 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:22 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:27 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:32 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:37 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:42 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:47 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:53 - Waiting for 1 instances to terminate.
+2016/07/21 17:06:58 - Waiting for 1 instances to terminate.
+2016/07/21 17:07:03 - Waiting for 1 instances to terminate.
+2016/07/21 17:07:08 - Deleting Access Key Hpcc-JRDP.
+2016/07/21 17:07:08 - Deleting Security group Hpcc-JRDP.
+2016/07/21 17:07:09 - Done.

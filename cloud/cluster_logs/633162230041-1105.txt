@@ -1,0 +1,109 @@
+2015/06/16 13:41:16 - Connecting to AWS region eu-west-1.
+2015/06/16 13:41:16 - Calculating new unique cluster name for request 1105.
+2015/06/16 13:41:17 - Creating new cluster name, Hpcc-P48U.
+2015/06/16 13:41:17 - Creating Hpcc-P48U security group.
+2015/06/16 13:41:19 - Creating Hpcc-P48U key pair.
+2015/06/16 13:41:19 - Launching 1 m1.large nodes using ami-3b8cf44c.
+2015/06/16 13:41:20 - Reservation ID r-a7047d41 created.
+2015/06/16 13:41:20 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:25 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:30 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:35 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:41 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:46 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:51 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:41:56 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:01 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:06 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:11 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:17 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:22 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:27 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:32 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:37 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:42 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:47 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:53 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:42:58 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:43:03 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:43:08 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:43:13 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:43:18 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 13:43:23 - Pending instances have completed.
+2015/06/16 13:43:23 - Checking each node launched properly.
+2015/06/16 13:43:23 - 54.75.42.39:     Checking EC2 instance i-5c2cd4a5.
+2015/06/16 13:43:24 - 54.75.42.39:     Checking EC2 instance is running.
+2015/06/16 13:43:24 - 54.75.42.39:     Connecting via SSH.
+2015/06/16 13:43:32 - 54.75.42.39:     Waiting on SSH connection.
+2015/06/16 13:43:39 - 54.75.42.39:     Checking software installation completed.
+2015/06/16 13:43:39 - 54.75.42.39:     Waiting for software to install.
+2015/06/16 13:43:49 - 54.75.42.39:     Software installation finished.
+2015/06/16 13:43:49 - 54.75.42.39:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 13:43:50 - 54.75.42.39:     Checking file contents.
+2015/06/16 13:43:50 - 54.75.42.39:     Remote file contents confirmed.
+2015/06/16 13:43:51 - 54.75.42.39:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 13:43:51 - 54.75.42.39:     Completed check of node 54.75.42.39.
+2015/06/16 13:43:51 - Determining availability zone.
+2015/06/16 13:43:51 - Gathering public and private ip addresses.
+2015/06/16 13:43:51 - Connecting to node 54.75.42.39 for cluster configuration.
+2015/06/16 13:43:51 - Connecting via SSH.
+2015/06/16 13:43:55 - Checking software installation completed.
+2015/06/16 13:43:56 - Software installation finished.
+2015/06/16 13:43:56 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 13:43:56 - Checking file contents.
+2015/06/16 13:43:56 - Remote file contents confirmed.
+2015/06/16 13:43:57 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 13:43:57 - Writing cluster private ip addresses to file on instance.
+2015/06/16 13:43:57 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/06/16 13:43:58 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/06/16 13:43:58 - Checking file contents.
+2015/06/16 13:43:58 - Remote file contents confirmed.
+2015/06/16 13:43:58 - Running envgen
+2015/06/16 13:43:59 - Reading the config file.
+2015/06/16 13:43:59 - Retrieving IP address of ESP Server.
+2015/06/16 13:44:00 - ESP Server private IP address: 10.208.54.184.
+2015/06/16 13:44:00 - ESP Server public IP address: 54.75.42.39.
+2015/06/16 13:44:00 - 54.75.42.39:     Starting node configuration.
+2015/06/16 13:44:00 - 54.75.42.39:     Connecting via SSH.
+2015/06/16 13:44:01 - 54.75.42.39:     Checking software installation completed.
+2015/06/16 13:44:01 - 54.75.42.39:     Software installation finished.
+2015/06/16 13:44:01 - 54.75.42.39:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 13:44:02 - 54.75.42.39:     Checking file contents.
+2015/06/16 13:44:02 - 54.75.42.39:     Remote file contents confirmed.
+2015/06/16 13:44:03 - 54.75.42.39:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 13:44:03 - 54.75.42.39:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/16 13:44:03 - 54.75.42.39:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/16 13:44:04 - 54.75.42.39:     Checking file contents.
+2015/06/16 13:44:04 - 54.75.42.39:     Remote file contents confirmed.
+2015/06/16 13:44:04 - 54.75.42.39:     Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/16 13:44:23 - 54.75.42.39:     Starting mydafilesrv....       [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting mydali....            [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting mydfuserver....       [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting myeclagent....        [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting myeclccserver....     [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting myeclscheduler....    [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting myesp....             [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting mysasha....           [  OK  ]   
+2015/06/16 13:44:23 - 54.75.42.39:     Starting mythor....            [  OK  ]  
+2015/06/16 13:44:23 - 54.75.42.39:     Start node is complete.
+2015/06/16 13:44:23 - Done.
+2015/06/16 13:49:05 - Terminating cluster.
+2015/06/16 13:49:05 - Connecting to AWS region eu-west-1.
+2015/06/16 13:49:05 - Gathering instances for Hpcc-P48U.
+2015/06/16 13:49:06 - Terminating instances.
+2015/06/16 13:49:07 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:12 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:17 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:22 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:27 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:32 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:38 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:43 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:48 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:53 - Waiting for 1 instances to terminate.
+2015/06/16 13:49:58 - Waiting for 1 instances to terminate.
+2015/06/16 13:50:03 - Waiting for 1 instances to terminate.
+2015/06/16 13:50:08 - Waiting for 1 instances to terminate.
+2015/06/16 13:50:14 - Deleting Access Key Hpcc-P48U.
+2015/06/16 13:50:14 - Deleting Security group Hpcc-P48U.
+2015/06/16 13:50:14 - Done.

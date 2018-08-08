@@ -1,0 +1,104 @@
+2013/05/17 02:20:10 - Connecting to AWS region us-west-2.
+2013/05/17 02:20:10 - Calculating new unique cluster name for request 596.
+2013/05/17 02:20:11 - Creating new cluster name, Hpcc-DXNU.
+2013/05/17 02:20:11 - Creating Hpcc-DXNU security group.
+2013/05/17 02:20:15 - Creating Hpcc-DXNU key pair.
+2013/05/17 02:20:16 - Launching 1 m1.large nodes using ami-c1ca5cf1.
+2013/05/17 02:20:16 - Reservation ID r-07a3ac35 created.
+2013/05/17 02:20:16 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:22 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:27 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:32 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:37 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:43 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:48 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:53 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:20:58 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:21:04 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:21:09 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:21:14 - Waiting for 1 of 1 nodes to launch.
+2013/05/17 02:21:19 - Pending instances have completed.
+2013/05/17 02:21:19 - Checking each node launched properly.
+2013/05/17 02:21:19 - 54.244.134.28:   Checking EC2 instance i-d08701e5.
+2013/05/17 02:21:20 - 54.244.134.28:   Checking EC2 instance is running.
+2013/05/17 02:21:20 - 54.244.134.28:   Connecting via SSH.
+2013/05/17 02:21:21 - 54.244.134.28:   Waiting on SSH connection.
+2013/05/17 02:21:32 - 54.244.134.28:   Checking software installation completed.
+2013/05/17 02:21:32 - 54.244.134.28:   Software installation finished.
+2013/05/17 02:21:32 - 54.244.134.28:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/17 02:21:33 - 54.244.134.28:   Checking file contents.
+2013/05/17 02:21:33 - 54.244.134.28:   Remote file contents confirmed.
+2013/05/17 02:21:34 - 54.244.134.28:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/17 02:21:34 - 54.244.134.28:   Completed check of node 54.244.134.28.
+2013/05/17 02:21:34 - Determining availability zone.
+2013/05/17 02:21:34 - Gathering public and private ip addresses.
+2013/05/17 02:21:34 - Connecting to node 54.244.134.28 for cluster configuration.
+2013/05/17 02:21:34 - Connecting via SSH.
+2013/05/17 02:21:35 - Checking software installation completed.
+2013/05/17 02:21:36 - Software installation finished.
+2013/05/17 02:21:36 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/17 02:21:36 - Checking file contents.
+2013/05/17 02:21:36 - Remote file contents confirmed.
+2013/05/17 02:21:37 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/17 02:21:37 - Writing cluster private ip addresses to file on instance.
+2013/05/17 02:21:37 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/05/17 02:21:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/05/17 02:21:38 - Checking file contents.
+2013/05/17 02:21:38 - Remote file contents confirmed.
+2013/05/17 02:21:38 - Running envgen
+2013/05/17 02:21:39 - Reading the config file.
+2013/05/17 02:21:39 - Retrieving IP address of ESP Server.
+2013/05/17 02:21:40 - ESP Server private IP address: 10.253.67.232.
+2013/05/17 02:21:40 - ESP Server public IP address: 54.244.134.28.
+2013/05/17 02:21:40 - 54.244.134.28:   Starting node configuration.
+2013/05/17 02:21:40 - 54.244.134.28:   Connecting via SSH.
+2013/05/17 02:21:41 - 54.244.134.28:   Checking software installation completed.
+2013/05/17 02:21:41 - 54.244.134.28:   Software installation finished.
+2013/05/17 02:21:41 - 54.244.134.28:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/17 02:21:42 - 54.244.134.28:   Checking file contents.
+2013/05/17 02:21:42 - 54.244.134.28:   Remote file contents confirmed.
+2013/05/17 02:21:43 - 54.244.134.28:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/17 02:21:43 - 54.244.134.28:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/05/17 02:21:44 - 54.244.134.28:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/05/17 02:21:44 - 54.244.134.28:   Checking file contents.
+2013/05/17 02:21:45 - 54.244.134.28:   Remote file contents confirmed.
+2013/05/17 02:21:45 - 54.244.134.28:   Starting HPCC Platform Community Edition: 3.10.6-1.
+2013/05/17 02:22:12 - 54.244.134.28:   Starting mydafilesrv....       [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting mydali....            [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting mydfuserver....       [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting myeclagent....        [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting myeclccserver....     [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting myeclscheduler....    [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting myesp....             [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting mysasha....           [  OK  ]   
+2013/05/17 02:22:12 - 54.244.134.28:   Starting mythor....            [  OK  ]  
+2013/05/17 02:22:12 - 54.244.134.28:   Start node is complete.
+2013/05/17 02:22:12 - Done.
+2013/05/23 04:23:42 - Terminating cluster.
+2013/05/23 04:23:42 - Connecting to AWS region us-west-2.
+2013/05/23 04:23:42 - Gathering instances for Hpcc-DXNU.
+2013/05/23 04:23:43 - Terminating instances.
+2013/05/23 04:23:43 - Waiting for 1 instances to terminate.
+2013/05/23 04:23:48 - Waiting for 1 instances to terminate.
+2013/05/23 04:23:54 - Waiting for 1 instances to terminate.
+2013/05/23 04:23:59 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:04 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:09 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:14 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:20 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:25 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:30 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:35 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:41 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:46 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:51 - Waiting for 1 instances to terminate.
+2013/05/23 04:24:56 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:02 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:07 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:12 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:17 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:22 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:28 - Waiting for 1 instances to terminate.
+2013/05/23 04:25:33 - Deleting Access Key Hpcc-DXNU.
+2013/05/23 04:25:34 - Deleting Security group Hpcc-DXNU.
+2013/05/23 04:25:35 - Done.

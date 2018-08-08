@@ -1,0 +1,79 @@
+2012/01/31 22:28:24 - Connecting to AWS region us-east-1.
+2012/01/31 22:28:24 - Calculating new unique cluster name for request 66.
+2012/01/31 22:28:24 - Creating new cluster name, Thor-S3ZB.
+2012/01/31 22:28:24 - Creating Thor-S3ZB security group.
+2012/01/31 22:28:25 - Creating Thor-S3ZB key pair.
+2012/01/31 22:28:27 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/01/31 22:28:27 - Reservation ID r-e236cc82 created
+2012/01/31 22:28:27 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:33 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:38 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:43 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:48 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:53 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:28:58 - Waiting for 1 of 1 nodes to launch.
+2012/01/31 22:29:03 - Pending instances have completed.
+2012/01/31 22:29:03 - Checking each node launched properly.
+2012/01/31 22:29:03 - 50.17.142.46:    Checking EC2 instance i-352a8c50.
+2012/01/31 22:29:03 - 50.17.142.46:    Checking EC2 instance is running.
+2012/01/31 22:29:03 - 50.17.142.46:    Connecting via SSH.
+2012/01/31 22:29:17 - 50.17.142.46:    Checking network mask is compatible.
+2012/01/31 22:29:17 - 50.17.142.46:    Checking disk I/O
+2012/01/31 22:29:17 - 50.17.142.46:    Checking software installation completed.
+2012/01/31 22:29:18 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:29:28 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:29:38 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:29:48 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:29:58 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:30:08 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:30:19 - 50.17.142.46:    Waiting for software to install.
+2012/01/31 22:30:29 - 50.17.142.46:    Software installation finished.
+2012/01/31 22:30:29 - 50.17.142.46:    Completed check of node 50.17.142.46.
+2012/01/31 22:30:29 - Determining availability zone.
+2012/01/31 22:30:29 - Gathering public and private ip addresses.
+2012/01/31 22:30:29 - Connecting to node 50.17.142.46 for cluster configuration.
+2012/01/31 22:30:29 - Connecting via SSH.
+2012/01/31 22:30:30 - Checking network mask is compatible.
+2012/01/31 22:30:30 - Checking disk I/O
+2012/01/31 22:30:30 - Checking software installation completed.
+2012/01/31 22:30:30 - Software installation finished.
+2012/01/31 22:30:30 - Writing cluster private ip addresses to file on instance.
+2012/01/31 22:30:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/31 22:30:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/31 22:30:30 - Checking file contents.
+2012/01/31 22:30:30 - Remote file contents confirmed.
+2012/01/31 22:30:30 - Running envgen
+2012/01/31 22:30:31 - Reading the config file.
+2012/01/31 22:30:31 - Retrieving IP address of ESP Server.
+2012/01/31 22:30:31 - ESP Server private IP address: 10.85.109.132.
+2012/01/31 22:30:31 - ESP Server public IP address: 50.17.142.46.
+2012/01/31 22:30:31 - 50.17.142.46:    Starting node configuration.
+2012/01/31 22:30:31 - 50.17.142.46:    Connecting via SSH.
+2012/01/31 22:30:32 - 50.17.142.46:    Checking network mask is compatible.
+2012/01/31 22:30:32 - 50.17.142.46:    Checking disk I/O
+2012/01/31 22:30:32 - 50.17.142.46:    Checking software installation completed.
+2012/01/31 22:30:32 - 50.17.142.46:    Software installation finished.
+2012/01/31 22:30:32 - 50.17.142.46:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/31 22:30:32 - 50.17.142.46:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/31 22:30:32 - 50.17.142.46:    Checking file contents.
+2012/01/31 22:30:32 - 50.17.142.46:    Remote file contents confirmed.
+2012/01/31 22:30:32 - 50.17.142.46:    Starting HPCC services.
+2012/01/31 22:30:32 - 50.17.142.46:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/01/31 22:30:58 - 50.17.142.46:    Starting mydafilesrv....       [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting mydali....            [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting mydfuserver....       [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting myeclagent....        [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting myeclccserver....     [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting myeclscheduler....    [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting myesp....             [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting mysasha....           [  OK  ]   
+2012/01/31 22:30:58 - 50.17.142.46:    Starting mythor....            [  OK  ]  
+2012/01/31 22:30:58 - 50.17.142.46:    Start node is complete.
+2012/01/31 22:30:58 - Done.
+2012/01/31 22:42:06 - Terminating cluster.
+2012/01/31 22:42:06 - Connecting to AWS region us-east-1.
+2012/01/31 22:42:06 - Gathering instances for Thor-S3ZB.
+2012/01/31 22:42:06 - Terminating instances.
+2012/01/31 22:42:06 - Deleting Access Key Thor-S3ZB.
+2012/01/31 22:42:06 - Deleting Security group Thor-S3ZB.
+2012/01/31 22:42:06 - Done.

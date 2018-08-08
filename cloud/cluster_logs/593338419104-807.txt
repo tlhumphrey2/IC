@@ -1,0 +1,96 @@
+2014/06/12 18:29:26 - Connecting to AWS region us-west-2.
+2014/06/12 18:29:26 - Calculating new unique cluster name for request 807.
+2014/06/12 18:29:27 - Creating new cluster name, Hpcc-XEWY.
+2014/06/12 18:29:27 - Creating Hpcc-XEWY security group.
+2014/06/12 18:29:30 - Creating Hpcc-XEWY key pair.
+2014/06/12 18:29:30 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/06/12 18:29:31 - Reservation ID r-c331c5c8 created.
+2014/06/12 18:29:31 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:29:36 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:29:41 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:29:47 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:29:52 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:29:57 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:02 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:07 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:12 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:17 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:23 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:28 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:33 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:38 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:43 - Waiting for 1 of 1 nodes to launch.
+2014/06/12 18:30:48 - Pending instances have completed.
+2014/06/12 18:30:48 - Checking each node launched properly.
+2014/06/12 18:30:48 - 54.218.161.194:  Checking EC2 instance i-ec06a1e7.
+2014/06/12 18:30:49 - 54.218.161.194:  Checking EC2 instance is running.
+2014/06/12 18:30:49 - 54.218.161.194:  Connecting via SSH.
+2014/06/12 18:30:50 - 54.218.161.194:  Waiting on SSH connection.
+2014/06/12 18:30:56 - 54.218.161.194:  Checking software installation completed.
+2014/06/12 18:30:57 - 54.218.161.194:  Waiting for software to install.
+2014/06/12 18:31:07 - 54.218.161.194:  Software installation finished.
+2014/06/12 18:31:07 - 54.218.161.194:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/12 18:31:07 - 54.218.161.194:  Checking file contents.
+2014/06/12 18:31:08 - 54.218.161.194:  Remote file contents confirmed.
+2014/06/12 18:31:08 - 54.218.161.194:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/12 18:31:08 - 54.218.161.194:  Completed check of node 54.218.161.194.
+2014/06/12 18:31:08 - Determining availability zone.
+2014/06/12 18:31:08 - Gathering public and private ip addresses.
+2014/06/12 18:31:08 - Connecting to node 54.218.161.194 for cluster configuration.
+2014/06/12 18:31:08 - Connecting via SSH.
+2014/06/12 18:31:15 - Checking software installation completed.
+2014/06/12 18:31:15 - Software installation finished.
+2014/06/12 18:31:15 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/12 18:31:16 - Checking file contents.
+2014/06/12 18:31:16 - Remote file contents confirmed.
+2014/06/12 18:31:17 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/12 18:31:17 - Writing cluster private ip addresses to file on instance.
+2014/06/12 18:31:17 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/12 18:31:17 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/12 18:31:17 - Checking file contents.
+2014/06/12 18:31:18 - Remote file contents confirmed.
+2014/06/12 18:31:18 - Running envgen
+2014/06/12 18:31:19 - Reading the config file.
+2014/06/12 18:31:19 - Retrieving IP address of ESP Server.
+2014/06/12 18:31:20 - ESP Server private IP address: 10.254.5.173.
+2014/06/12 18:31:20 - ESP Server public IP address: 54.218.161.194.
+2014/06/12 18:31:20 - 54.218.161.194:  Starting node configuration.
+2014/06/12 18:31:20 - 54.218.161.194:  Connecting via SSH.
+2014/06/12 18:31:21 - 54.218.161.194:  Checking software installation completed.
+2014/06/12 18:31:21 - 54.218.161.194:  Software installation finished.
+2014/06/12 18:31:21 - 54.218.161.194:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/12 18:31:22 - 54.218.161.194:  Checking file contents.
+2014/06/12 18:31:22 - 54.218.161.194:  Remote file contents confirmed.
+2014/06/12 18:31:23 - 54.218.161.194:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/12 18:31:23 - 54.218.161.194:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/12 18:31:24 - 54.218.161.194:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/12 18:31:24 - 54.218.161.194:  Checking file contents.
+2014/06/12 18:31:25 - 54.218.161.194:  Remote file contents confirmed.
+2014/06/12 18:31:25 - 54.218.161.194:  Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/12 18:31:51 - 54.218.161.194:  Starting mydafilesrv....       [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting mydali....            [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting mydfuserver....       [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting myeclagent....        [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting myeclccserver....     [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting myeclscheduler....    [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting myesp....             [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting mysasha....           [  OK  ]   
+2014/06/12 18:31:51 - 54.218.161.194:  Starting mythor....            [  OK  ]  
+2014/06/12 18:31:51 - 54.218.161.194:  Start node is complete.
+2014/06/12 18:31:51 - Done.
+2014/06/12 19:41:53 - Terminating cluster.
+2014/06/12 19:41:53 - Connecting to AWS region us-west-2.
+2014/06/12 19:41:53 - Gathering instances for Hpcc-XEWY.
+2014/06/12 19:41:54 - Terminating instances.
+2014/06/12 19:41:54 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:00 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:05 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:10 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:15 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:23 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:28 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:33 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:39 - Waiting for 1 instances to terminate.
+2014/06/12 19:42:44 - Deleting Access Key Hpcc-XEWY.
+2014/06/12 19:42:44 - Deleting Security group Hpcc-XEWY.
+2014/06/12 19:42:45 - Done.

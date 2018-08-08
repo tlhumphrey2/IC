@@ -1,0 +1,94 @@
+2014/06/01 14:41:40 - Connecting to AWS region us-west-2.
+2014/06/01 14:41:40 - Calculating new unique cluster name for request 797.
+2014/06/01 14:41:41 - Creating new cluster name, Hpcc-3PCU.
+2014/06/01 14:41:41 - Creating Hpcc-3PCU security group.
+2014/06/01 14:41:43 - Creating Hpcc-3PCU key pair.
+2014/06/01 14:41:45 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/06/01 14:41:46 - Reservation ID r-75e9097e created.
+2014/06/01 14:41:46 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:41:51 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:41:56 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:01 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:06 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:12 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:17 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:22 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:27 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:32 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:37 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:42 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:48 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:53 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:42:58 - Waiting for 1 of 1 nodes to launch.
+2014/06/01 14:43:03 - Pending instances have completed.
+2014/06/01 14:43:03 - Checking each node launched properly.
+2014/06/01 14:43:03 - 54.218.240.82:   Checking EC2 instance i-9910c792.
+2014/06/01 14:43:03 - 54.218.240.82:   Checking EC2 instance is running.
+2014/06/01 14:43:03 - 54.218.240.82:   Connecting via SSH.
+2014/06/01 14:43:05 - 54.218.240.82:   Waiting on SSH connection.
+2014/06/01 14:43:17 - 54.218.240.82:   Checking software installation completed.
+2014/06/01 14:43:17 - 54.218.240.82:   Software installation finished.
+2014/06/01 14:43:17 - 54.218.240.82:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/01 14:43:18 - 54.218.240.82:   Checking file contents.
+2014/06/01 14:43:18 - 54.218.240.82:   Remote file contents confirmed.
+2014/06/01 14:43:19 - 54.218.240.82:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/01 14:43:19 - 54.218.240.82:   Completed check of node 54.218.240.82.
+2014/06/01 14:43:19 - Determining availability zone.
+2014/06/01 14:43:19 - Gathering public and private ip addresses.
+2014/06/01 14:43:19 - Connecting to node 54.218.240.82 for cluster configuration.
+2014/06/01 14:43:19 - Connecting via SSH.
+2014/06/01 14:43:20 - Checking software installation completed.
+2014/06/01 14:43:20 - Software installation finished.
+2014/06/01 14:43:20 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/01 14:43:21 - Checking file contents.
+2014/06/01 14:43:21 - Remote file contents confirmed.
+2014/06/01 14:43:22 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/01 14:43:22 - Writing cluster private ip addresses to file on instance.
+2014/06/01 14:43:22 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/01 14:43:22 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/01 14:43:23 - Checking file contents.
+2014/06/01 14:43:23 - Remote file contents confirmed.
+2014/06/01 14:43:23 - Running envgen
+2014/06/01 14:43:24 - Reading the config file.
+2014/06/01 14:43:24 - Retrieving IP address of ESP Server.
+2014/06/01 14:43:25 - ESP Server private IP address: 10.254.138.28.
+2014/06/01 14:43:25 - ESP Server public IP address: 54.218.240.82.
+2014/06/01 14:43:25 - 54.218.240.82:   Starting node configuration.
+2014/06/01 14:43:25 - 54.218.240.82:   Connecting via SSH.
+2014/06/01 14:43:26 - 54.218.240.82:   Checking software installation completed.
+2014/06/01 14:43:26 - 54.218.240.82:   Software installation finished.
+2014/06/01 14:43:26 - 54.218.240.82:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/01 14:43:27 - 54.218.240.82:   Checking file contents.
+2014/06/01 14:43:27 - 54.218.240.82:   Remote file contents confirmed.
+2014/06/01 14:43:28 - 54.218.240.82:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/01 14:43:28 - 54.218.240.82:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/01 14:43:29 - 54.218.240.82:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/01 14:43:29 - 54.218.240.82:   Checking file contents.
+2014/06/01 14:43:29 - 54.218.240.82:   Remote file contents confirmed.
+2014/06/01 14:43:29 - 54.218.240.82:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/01 14:43:56 - 54.218.240.82:   Starting mydafilesrv....       [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting mydali....            [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting mydfuserver....       [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting myeclagent....        [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting myeclccserver....     [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting myeclscheduler....    [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting myesp....             [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting mysasha....           [  OK  ]   
+2014/06/01 14:43:56 - 54.218.240.82:   Starting mythor....            [  OK  ]  
+2014/06/01 14:43:56 - 54.218.240.82:   Start node is complete.
+2014/06/01 14:43:56 - Done.
+2014/06/01 14:59:40 - Terminating cluster.
+2014/06/01 14:59:40 - Connecting to AWS region us-west-2.
+2014/06/01 14:59:40 - Gathering instances for Hpcc-3PCU.
+2014/06/01 14:59:41 - Terminating instances.
+2014/06/01 14:59:41 - Waiting for 1 instances to terminate.
+2014/06/01 14:59:46 - Waiting for 1 instances to terminate.
+2014/06/01 14:59:51 - Waiting for 1 instances to terminate.
+2014/06/01 14:59:56 - Waiting for 1 instances to terminate.
+2014/06/01 15:00:02 - Waiting for 1 instances to terminate.
+2014/06/01 15:00:07 - Waiting for 1 instances to terminate.
+2014/06/01 15:00:12 - Waiting for 1 instances to terminate.
+2014/06/01 15:00:17 - Waiting for 1 instances to terminate.
+2014/06/01 15:00:22 - Deleting Access Key Hpcc-3PCU.
+2014/06/01 15:00:23 - Deleting Security group Hpcc-3PCU.
+2014/06/01 15:00:24 - Done.

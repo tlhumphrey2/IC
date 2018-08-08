@@ -1,0 +1,77 @@
+2016/12/28 18:07:42 - Connecting to AWS region us-west-2.
+2016/12/28 18:07:42 - Calculating new unique cluster name for request 1268.
+2016/12/28 18:07:42 - Creating new cluster name, Hpcc-2M8V.
+2016/12/28 18:07:42 - Creating Hpcc-2M8V security group.
+2016/12/28 18:07:45 - Creating Hpcc-2M8V key pair.
+2016/12/28 18:07:45 - Launching 1 m1.large nodes using ami-ef2c848f.
+2016/12/28 18:07:46 - Reservation ID r-086af3996e854429b created.
+2016/12/28 18:07:46 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:07:52 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:07:57 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:02 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:07 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:12 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:17 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:23 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:28 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:33 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:38 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:43 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:48 - Waiting for 1 of 1 nodes to launch.
+2016/12/28 18:08:54 - Pending instances have completed.
+2016/12/28 18:08:54 - Checking each node launched properly.
+2016/12/28 18:08:54 - 35.166.37.101:   Checking EC2 instance i-0a44bbbc92f0fd305.
+2016/12/28 18:08:54 - 35.166.37.101:   Checking EC2 instance is running.
+2016/12/28 18:08:54 - 35.166.37.101:   Connecting via SSH.
+2016/12/28 18:09:01 - 35.166.37.101:   Waiting on SSH connection.
+2016/12/28 18:09:14 - 35.166.37.101:   Checking software installation completed.
+2016/12/28 18:09:14 - 35.166.37.101:   Software installation finished.
+2016/12/28 18:09:14 - 35.166.37.101:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/12/28 18:09:15 - 35.166.37.101:   Checking file contents.
+2016/12/28 18:09:15 - 35.166.37.101:   Remote file contents confirmed.
+2016/12/28 18:09:16 - 35.166.37.101:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/12/28 18:09:16 - 35.166.37.101:   Completed check of node 35.166.37.101.
+2016/12/28 18:09:16 - Determining availability zone.
+2016/12/28 18:09:16 - Gathering public and private ip addresses.
+2016/12/28 18:09:16 - Connecting to node 35.166.37.101 for cluster configuration.
+2016/12/28 18:09:16 - Connecting via SSH.
+2016/12/28 18:09:18 - Checking software installation completed.
+2016/12/28 18:09:18 - Software installation finished.
+2016/12/28 18:09:18 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/12/28 18:09:18 - Checking file contents.
+2016/12/28 18:09:19 - Remote file contents confirmed.
+2016/12/28 18:09:19 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/12/28 18:09:19 - Writing cluster private ip addresses to file on instance.
+2016/12/28 18:09:19 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/12/28 18:09:20 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/12/28 18:09:20 - Checking file contents.
+2016/12/28 18:09:21 - Remote file contents confirmed.
+2016/12/28 18:09:21 - Running envgen
+2016/12/28 18:09:21 - Reading the config file.
+2016/12/28 18:09:22 - Retrieving IP address of ESP Server.
+2016/12/28 18:09:22 - ESP Server private IP address: 172.31.16.98.
+2016/12/28 18:09:22 - ESP Server public IP address: 35.166.37.101.
+2016/12/28 18:09:22 - 35.166.37.101:   Starting node configuration.
+2016/12/28 18:09:22 - 35.166.37.101:   Connecting via SSH.
+2016/12/28 18:09:24 - 35.166.37.101:   Checking software installation completed.
+2016/12/28 18:09:24 - 35.166.37.101:   Software installation finished.
+2016/12/28 18:09:24 - 35.166.37.101:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/12/28 18:09:25 - 35.166.37.101:   Checking file contents.
+2016/12/28 18:09:25 - 35.166.37.101:   Remote file contents confirmed.
+2016/12/28 18:09:26 - 35.166.37.101:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/12/28 18:09:26 - 35.166.37.101:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/12/28 18:09:27 - 35.166.37.101:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/12/28 18:09:27 - 35.166.37.101:   Checking file contents.
+2016/12/28 18:09:27 - 35.166.37.101:   Remote file contents confirmed.
+2016/12/28 18:09:27 - 35.166.37.101:   Starting HPCC Platform Community Edition: 6.0.8-1.
+2016/12/28 18:09:45 - 35.166.37.101:   Starting mydafilesrv ...       [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting mydali ...            [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting mydfuserver ...       [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting myeclagent ...        [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting myeclccserver ...     [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting myeclscheduler ...    [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting myesp ...             [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting mysasha ...           [   OK    ]   
+2016/12/28 18:09:45 - 35.166.37.101:   Starting mythor ...            [   OK    ]  
+2016/12/28 18:09:45 - 35.166.37.101:   Start node is complete.
+2016/12/28 18:09:45 - Done.

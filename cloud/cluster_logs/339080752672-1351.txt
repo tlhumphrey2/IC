@@ -1,0 +1,133 @@
+2017/12/01 09:22:56 - Connecting to AWS region eu-central-1.
+2017/12/01 09:22:56 - Calculating new unique cluster name for request 1351.
+2017/12/01 09:22:57 - Creating new cluster name, Hpcc-M5BS.
+2017/12/01 09:22:57 - Creating Hpcc-M5BS security group.
+2017/12/01 09:23:00 - Creating Hpcc-M5BS key pair.
+2017/12/01 09:23:00 - Launching 4 m3.large nodes using ami-ee8e0b81.
+2017/12/01 09:23:02 - Reservation ID r-0ae8885bea8cd578c created.
+2017/12/01 09:23:02 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:07 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:13 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:19 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:24 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:30 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:35 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:41 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:46 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:52 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:23:57 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:24:03 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:24:08 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:24:14 - Waiting for 4 of 4 nodes to launch.
+2017/12/01 09:24:20 - Waiting for 3 of 4 nodes to launch.
+2017/12/01 09:24:25 - Waiting for 2 of 4 nodes to launch.
+2017/12/01 09:24:30 - Waiting for 2 of 4 nodes to launch.
+2017/12/01 09:24:36 - Waiting for 1 of 4 nodes to launch.
+2017/12/01 09:24:41 - Waiting for 1 of 4 nodes to launch.
+2017/12/01 09:24:46 - Pending instances have completed.
+2017/12/01 09:24:46 - Checking each node launched properly.
+2017/12/01 09:24:46 - 35.158.238.99:   Checking EC2 instance i-03d03888eecad1f39.
+2017/12/01 09:24:46 - 52.59.172.228:   Checking EC2 instance i-0c1252980989ba41f.
+2017/12/01 09:24:46 - 18.195.155.95:   Checking EC2 instance i-0a0a2b59911d2029a.
+2017/12/01 09:24:46 - 52.59.16.191:    Checking EC2 instance i-05a0836b39ce3ccaa.
+2017/12/01 09:24:46 - 35.158.238.99:   Checking EC2 instance is running.
+2017/12/01 09:24:46 - 35.158.238.99:   Connecting via SSH.
+2017/12/01 09:24:47 - 52.59.172.228:   Checking EC2 instance is running.
+2017/12/01 09:24:47 - 52.59.172.228:   Connecting via SSH.
+2017/12/01 09:24:47 - 52.59.16.191:    Checking EC2 instance is running.
+2017/12/01 09:24:47 - 52.59.16.191:    Connecting via SSH.
+2017/12/01 09:24:47 - 18.195.155.95:   Checking EC2 instance is running.
+2017/12/01 09:24:47 - 18.195.155.95:   Connecting via SSH.
+2017/12/01 09:24:50 - 35.158.238.99:   Checking software installation completed.
+2017/12/01 09:24:51 - 52.59.16.191:    Checking software installation completed.
+2017/12/01 09:24:51 - 35.158.238.99:   Software installation finished.
+2017/12/01 09:24:51 - 35.158.238.99:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:24:51 - 18.195.155.95:   Checking software installation completed.
+2017/12/01 09:24:51 - 52.59.16.191:    Software installation finished.
+2017/12/01 09:24:51 - 52.59.16.191:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:24:51 - 18.195.155.95:   Software installation finished.
+2017/12/01 09:24:51 - 18.195.155.95:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:24:51 - 35.158.238.99:   Checking file contents.
+2017/12/01 09:24:51 - 52.59.16.191:    Checking file contents.
+2017/12/01 09:24:51 - 18.195.155.95:   Checking file contents.
+2017/12/01 09:24:51 - 35.158.238.99:   Remote file contents confirmed.
+2017/12/01 09:24:52 - 52.59.16.191:    Remote file contents confirmed.
+2017/12/01 09:24:52 - 18.195.155.95:   Remote file contents confirmed.
+2017/12/01 09:24:52 - 35.158.238.99:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/12/01 09:24:52 - 35.158.238.99:   Completed check of node 35.158.238.99.
+2017/12/01 09:24:52 - 52.59.16.191:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/12/01 09:24:52 - 52.59.16.191:    Completed check of node 52.59.16.191.
+2017/12/01 09:24:52 - 18.195.155.95:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/12/01 09:24:52 - 18.195.155.95:   Completed check of node 18.195.155.95.
+2017/12/01 09:24:58 - 52.59.172.228:   Checking software installation completed.
+2017/12/01 09:24:58 - 52.59.172.228:   Software installation finished.
+2017/12/01 09:24:58 - 52.59.172.228:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:24:58 - 52.59.172.228:   Checking file contents.
+2017/12/01 09:24:59 - 52.59.172.228:   Remote file contents confirmed.
+2017/12/01 09:24:59 - 52.59.172.228:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/12/01 09:24:59 - 52.59.172.228:   Completed check of node 52.59.172.228.
+2017/12/01 09:24:59 - Determining availability zone.
+2017/12/01 09:24:59 - Gathering public and private ip addresses.
+2017/12/01 09:24:59 - Connecting to node 35.158.238.99 for cluster configuration.
+2017/12/01 09:24:59 - Connecting via SSH.
+2017/12/01 09:25:01 - Checking software installation completed.
+2017/12/01 09:25:01 - Software installation finished.
+2017/12/01 09:25:01 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:25:01 - Checking file contents.
+2017/12/01 09:25:02 - Remote file contents confirmed.
+2017/12/01 09:25:02 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/12/01 09:25:02 - Writing cluster private ip addresses to file on instance.
+2017/12/01 09:25:02 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/12/01 09:25:03 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/12/01 09:25:03 - Checking file contents.
+2017/12/01 09:25:04 - Remote file contents confirmed.
+2017/12/01 09:25:04 - Running envgen
+2017/12/01 09:25:04 - Reading the config file.
+2017/12/01 09:25:05 - Retrieving IP address of ESP Server.
+2017/12/01 09:25:05 - ESP Server private IP address: 172.31.1.65.
+2017/12/01 09:25:05 - ESP Server public IP address: 35.158.238.99.
+2017/12/01 09:25:05 - 35.158.238.99:   Starting node configuration.
+2017/12/01 09:25:05 - 35.158.238.99:   Connecting via SSH.
+2017/12/01 09:25:05 - 18.195.155.95:   Starting node configuration.
+2017/12/01 09:25:05 - 52.59.172.228:   Starting node configuration.
+2017/12/01 09:25:05 - 52.59.172.228:   Connecting via SSH.
+2017/12/01 09:25:05 - 18.195.155.95:   Connecting via SSH.
+2017/12/01 09:25:05 - 52.59.16.191:    Starting node configuration.
+2017/12/01 09:25:05 - 52.59.16.191:    Connecting via SSH.
+2017/12/01 09:25:06 - 35.158.238.99:   Checking software installation completed.
+2017/12/01 09:25:06 - 52.59.16.191:    Checking software installation completed.
+2017/12/01 09:25:06 - 52.59.172.228:   Checking software installation completed.
+2017/12/01 09:25:06 - 18.195.155.95:   Checking software installation completed.
+2017/12/01 09:25:07 - 35.158.238.99:   Software installation finished.
+2017/12/01 09:25:07 - 35.158.238.99:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:25:07 - 52.59.16.191:    Software installation finished.
+2017/12/01 09:25:07 - 52.59.16.191:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:25:07 - 52.59.172.228:   Software installation finished.
+2017/12/01 09:25:07 - 52.59.172.228:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:25:07 - 18.195.155.95:   Software installation finished.
+2017/12/01 09:25:07 - 18.195.155.95:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/12/01 09:25:07 - 35.158.238.99:   Checking file contents.
+2017/12/01 09:25:07 - 52.59.16.191:    Checking file contents.
+2017/12/01 09:25:07 - 52.59.172.228:   Checking file contents.
+2017/12/01 09:25:07 - 18.195.155.95:   Checking file contents.
+2017/12/01 09:25:07 - 35.158.238.99:   Remote file contents confirmed.
+2017/12/01 09:25:07 - 52.59.16.191:    Remote file contents confirmed.
+2017/12/01 09:25:07 - 52.59.172.228:   Remote file contents confirmed.
+2017/12/01 09:25:07 - 18.195.155.95:   Remote file contents confirmed.
+2017/12/01 09:25:08 - An exception occured.
+                      EOFError
+2017/12/01 09:25:08 - 52.59.16.191:    Start node is complete.
+2017/12/01 09:25:08 - 
+2017/12/01 09:25:08 - An exception occured.
+                      EOFError
+2017/12/01 09:25:08 - 35.158.238.99:   Start node is complete.
+2017/12/01 09:25:08 - 
+2017/12/01 09:25:08 - An exception occured.
+                      EOFError
+2017/12/01 09:25:08 - 52.59.172.228:   Start node is complete.
+2017/12/01 09:25:08 - 
+2017/12/01 09:25:08 - An exception occured.
+                      EOFError
+2017/12/01 09:25:08 - 18.195.155.95:   Start node is complete.
+2017/12/01 09:25:08 - 
+2017/12/01 09:25:08 - Done.

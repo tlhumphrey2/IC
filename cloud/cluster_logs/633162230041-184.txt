@@ -1,0 +1,197 @@
+2012/03/13 11:05:01 - Connecting to AWS region us-east-1.
+2012/03/13 11:05:01 - Checking storage IDs exist in region us-east-1: snap-7766d116
+2012/03/13 11:05:02 - Calculating new unique cluster name for request 184.
+2012/03/13 11:05:02 - Creating new cluster name, Thor-6VN5.
+2012/03/13 11:05:02 - Creating Thor-6VN5 security group.
+2012/03/13 11:05:03 - Creating Thor-6VN5 key pair.
+2012/03/13 11:05:04 - Launching 1 m1.large nodes using ami-7a2cf113.
+2012/03/13 11:05:05 - Reservation ID r-c205e2a1 created.
+2012/03/13 11:05:05 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:10 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:15 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:20 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:25 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:30 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:35 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:40 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:46 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:51 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:05:56 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:01 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:06 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:11 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:16 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:21 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:26 - Pending instances have completed.
+2012/03/13 11:06:26 - Checking each node launched properly.
+2012/03/13 11:06:26 - 107.21.69.102:   Checking EC2 instance i-0739ac63.
+2012/03/13 11:06:26 - 107.21.69.102:   Checking EC2 instance is running.
+2012/03/13 11:06:26 - 107.21.69.102:   Connecting via SSH.
+2012/03/13 11:06:28 - 107.21.69.102:   Waiting on SSH connection.
+2012/03/13 11:06:34 - 107.21.69.102:   Checking software installation completed.
+2012/03/13 11:06:34 - 107.21.69.102:   Software installation finished.
+2012/03/13 11:06:34 - 107.21.69.102:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 11:06:34 - 107.21.69.102:   Checking file contents.
+2012/03/13 11:06:34 - 107.21.69.102:   Remote file contents confirmed.
+2012/03/13 11:06:34 - Unhandled error occured when checking for bad instances
+2012/03/13 11:06:34 - An exception occured.
+                      ClusterError: Core count 0 Less than minimum 2
+Error messages found in system logs:
+/var/log/syslog:Mar 13 15:06:31 ip-10-245-113-235 kernel: [    0.064130] no hardware sampling interrupt available.
+/var/log/dmesg:[    0.064130] no hardware sampling interrupt available.
+Total of 2 anomalies detected.
+2012/03/13 11:06:34 - 107.21.69.102:   Completed check of node 107.21.69.102.
+2012/03/13 11:06:34 - Core count 0 Less than minimum 2
+Error messages found in system logs:
+/var/log/syslog:Mar 13 15:06:31 ip-10-245-113-235 kernel: [    0.064130] no hardware sampling interrupt available.
+/var/log/dmesg:[    0.064130] no hardware sampling interrupt available.
+Total of 2 anomalies detected.
+
+2012/03/13 11:06:34 - Terminating 1 bad instances.
+2012/03/13 11:06:34 - Terminating instances.
+2012/03/13 11:06:34 - Waiting for 1 instances to terminate.
+2012/03/13 11:06:40 - Waiting for 1 instances to terminate.
+2012/03/13 11:06:45 - Reservation ID r-fa03e499 created.
+2012/03/13 11:06:45 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:50 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:06:55 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:00 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:05 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:10 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:15 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:21 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:26 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:31 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:36 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:41 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:46 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:51 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:07:56 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:01 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:06 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:11 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:16 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:21 - Pending instances have completed.
+2012/03/13 11:08:21 - Checking each node launched properly.
+2012/03/13 11:08:21 - 50.17.174.185:   Checking EC2 instance i-7725b013.
+2012/03/13 11:08:21 - 50.17.174.185:   Checking EC2 instance is running.
+2012/03/13 11:08:21 - 50.17.174.185:   Connecting via SSH.
+2012/03/13 11:08:21 - 50.17.174.185:   Waiting on SSH connection.
+2012/03/13 11:08:27 - 50.17.174.185:   Checking software installation completed.
+2012/03/13 11:08:27 - 50.17.174.185:   Software installation finished.
+2012/03/13 11:08:27 - 50.17.174.185:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 11:08:27 - 50.17.174.185:   Checking file contents.
+2012/03/13 11:08:27 - 50.17.174.185:   Remote file contents confirmed.
+2012/03/13 11:08:28 - Unhandled error occured when checking for bad instances
+2012/03/13 11:08:28 - An exception occured.
+                      ClusterError: Core count 0 Less than minimum 2
+Error messages found in system logs:
+/var/log/syslog:Mar 13 15:08:22 ip-10-202-10-145 kernel: [    0.060136] no hardware sampling interrupt available.
+/var/log/dmesg:[    0.060136] no hardware sampling interrupt available.
+Total of 2 anomalies detected.
+2012/03/13 11:08:28 - 50.17.174.185:   Completed check of node 50.17.174.185.
+2012/03/13 11:08:28 - Core count 0 Less than minimum 2
+Error messages found in system logs:
+/var/log/syslog:Mar 13 15:08:22 ip-10-202-10-145 kernel: [    0.060136] no hardware sampling interrupt available.
+/var/log/dmesg:[    0.060136] no hardware sampling interrupt available.
+Total of 2 anomalies detected.
+
+2012/03/13 11:08:28 - Terminating 1 bad instances.
+2012/03/13 11:08:28 - Terminating instances.
+2012/03/13 11:08:28 - Waiting for 1 instances to terminate.
+2012/03/13 11:08:33 - Waiting for 1 instances to terminate.
+2012/03/13 11:08:38 - Waiting for 1 instances to terminate.
+2012/03/13 11:08:43 - Reservation ID r-e201e681 created.
+2012/03/13 11:08:43 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:49 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:54 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:08:59 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:04 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:09 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:14 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:19 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:24 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:29 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:34 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:39 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:44 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:50 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:09:55 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 11:10:00 - Pending instances have completed.
+2012/03/13 11:10:00 - Checking each node launched properly.
+2012/03/13 11:10:00 - 75.101.232.64:   Checking EC2 instance i-2526b341.
+2012/03/13 11:10:00 - 75.101.232.64:   Checking EC2 instance is running.
+2012/03/13 11:10:00 - 75.101.232.64:   Connecting via SSH.
+2012/03/13 11:10:00 - 75.101.232.64:   Waiting on SSH connection.
+2012/03/13 11:10:05 - 75.101.232.64:   Checking software installation completed.
+2012/03/13 11:10:06 - 75.101.232.64:   Waiting for software to install.
+2012/03/13 11:10:16 - 75.101.232.64:   Software installation finished.
+2012/03/13 11:10:16 - 75.101.232.64:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 11:10:16 - 75.101.232.64:   Checking file contents.
+2012/03/13 11:10:16 - 75.101.232.64:   Remote file contents confirmed.
+2012/03/13 11:10:17 - 75.101.232.64:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 11:10:17 - 75.101.232.64:   Completed check of node 75.101.232.64.
+2012/03/13 11:10:17 - Determining availability zone.
+2012/03/13 11:10:17 - Gathering public and private ip addresses.
+2012/03/13 11:10:17 - Connecting to node 75.101.232.64 for cluster configuration.
+2012/03/13 11:10:17 - Connecting via SSH.
+2012/03/13 11:10:17 - Checking software installation completed.
+2012/03/13 11:10:17 - Software installation finished.
+2012/03/13 11:10:17 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 11:10:17 - Checking file contents.
+2012/03/13 11:10:17 - Remote file contents confirmed.
+2012/03/13 11:10:17 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 11:10:17 - Writing cluster private ip addresses to file on instance.
+2012/03/13 11:10:17 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/13 11:10:17 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/13 11:10:18 - Checking file contents.
+2012/03/13 11:10:18 - Remote file contents confirmed.
+2012/03/13 11:10:18 - Running envgen
+2012/03/13 11:10:18 - Reading the config file.
+2012/03/13 11:10:18 - Retrieving IP address of ESP Server.
+2012/03/13 11:10:18 - ESP Server private IP address: 10.38.27.172.
+2012/03/13 11:10:18 - ESP Server public IP address: 75.101.232.64.
+2012/03/13 11:10:18 - Attaching storage devices to the Landing Zone: snap-7766d116
+2012/03/13 11:10:19 - Connecting via SSH.
+2012/03/13 11:10:20 - Waiting for EC2 instance to see storage device.
+2012/03/13 11:10:25 - Waiting for EC2 instance to see storage device.
+2012/03/13 11:10:30 - /dev/xvdf is mounted to /mnt/dropzone/snap-7766d116/.
+2012/03/13 11:10:31 - 75.101.232.64:   Starting node configuration.
+2012/03/13 11:10:31 - 75.101.232.64:   Connecting via SSH.
+2012/03/13 11:10:31 - 75.101.232.64:   Checking software installation completed.
+2012/03/13 11:10:31 - 75.101.232.64:   Software installation finished.
+2012/03/13 11:10:31 - 75.101.232.64:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 11:10:31 - 75.101.232.64:   Checking file contents.
+2012/03/13 11:10:31 - 75.101.232.64:   Remote file contents confirmed.
+2012/03/13 11:10:31 - 75.101.232.64:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 11:10:31 - 75.101.232.64:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/13 11:10:32 - 75.101.232.64:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/13 11:10:32 - 75.101.232.64:   Checking file contents.
+2012/03/13 11:10:32 - 75.101.232.64:   Remote file contents confirmed.
+2012/03/13 11:10:32 - 75.101.232.64:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/13 11:10:58 - 75.101.232.64:   Starting mydafilesrv....       [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting mydali....            [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting mydfuserver....       [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting myeclagent....        [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting myeclccserver....     [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting myeclscheduler....    [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting myesp....             [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting mysasha....           [  OK  ]   
+2012/03/13 11:10:58 - 75.101.232.64:   Starting mythor....            [  OK  ]  
+2012/03/13 11:10:58 - 75.101.232.64:   Start node is complete.
+2012/03/13 11:10:58 - Done.
+2012/03/13 12:53:46 - Terminating cluster.
+2012/03/13 12:53:46 - Connecting to AWS region us-east-1.
+2012/03/13 12:53:46 - Gathering instances for Thor-6VN5.
+2012/03/13 12:53:46 - Terminating instances.
+2012/03/13 12:53:46 - Waiting for 1 instances to terminate.
+2012/03/13 12:53:51 - Waiting for 1 instances to terminate.
+2012/03/13 12:53:56 - Waiting for 1 instances to terminate.
+2012/03/13 12:54:02 - Waiting for 1 instances to terminate.
+2012/03/13 12:54:07 - Waiting for 1 instances to terminate.
+2012/03/13 12:54:12 - Waiting for 1 instances to terminate.
+2012/03/13 12:54:17 - Deleting attached EBS volumes.
+2012/03/13 12:54:17 - Deleting volume vol-8980cae5
+2012/03/13 12:54:17 - Deleting Access Key Thor-6VN5.
+2012/03/13 12:54:17 - Deleting Security group Thor-6VN5.
+2012/03/13 12:54:18 - Done.

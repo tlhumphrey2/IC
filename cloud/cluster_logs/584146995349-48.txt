@@ -1,0 +1,89 @@
+2012/01/30 13:21:30 - Connecting to AWS region us-east-1.
+2012/01/30 13:21:31 - Calculating new unique cluster name for request 48.
+2012/01/30 13:21:31 - Creating new cluster name, Thor-B5PD.
+2012/01/30 13:21:31 - Creating Thor-B5PD security group.
+2012/01/30 13:21:32 - Creating Thor-B5PD key pair.
+2012/01/30 13:21:34 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/01/30 13:21:34 - Reservation ID r-de3dcfbe created
+2012/01/30 13:21:34 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:21:40 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:21:45 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:21:50 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:21:55 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:00 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:06 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:11 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:16 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:21 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:26 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 13:22:31 - Pending instances have completed.
+2012/01/30 13:22:31 - Checking each node launched properly.
+2012/01/30 13:22:31 - 50.17.38.89:     Checking EC2 instance i-cd67baa8.
+2012/01/30 13:22:31 - 50.17.38.89:     Checking EC2 instance is running.
+2012/01/30 13:22:31 - 50.17.38.89:     Connecting via SSH.
+2012/01/30 13:22:33 - 50.17.38.89:     Waiting on SSH connection.
+2012/01/30 13:22:43 - 50.17.38.89:     Checking network mask is compatible.
+2012/01/30 13:22:43 - 50.17.38.89:     Checking disk I/O
+2012/01/30 13:22:43 - 50.17.38.89:     Checking software installation completed.
+2012/01/30 13:22:44 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:22:54 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:04 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:14 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:24 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:34 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:44 - 50.17.38.89:     Waiting for software to install.
+2012/01/30 13:23:54 - 50.17.38.89:     Software installation finished.
+2012/01/30 13:23:54 - 50.17.38.89:     Completed check of node 50.17.38.89.
+2012/01/30 13:23:54 - Determining availability zone.
+2012/01/30 13:23:54 - Gathering public and private ip addresses.
+2012/01/30 13:23:54 - Connecting to node 50.17.38.89 for cluster configuration.
+2012/01/30 13:23:54 - Connecting via SSH.
+2012/01/30 13:23:55 - Checking network mask is compatible.
+2012/01/30 13:23:55 - Checking disk I/O
+2012/01/30 13:23:55 - Checking software installation completed.
+2012/01/30 13:23:55 - Software installation finished.
+2012/01/30 13:23:55 - Writing cluster private ip addresses to file on instance.
+2012/01/30 13:23:55 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/30 13:23:55 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/30 13:23:55 - Checking file contents.
+2012/01/30 13:23:55 - Remote file contents confirmed.
+2012/01/30 13:23:55 - Running envgen
+2012/01/30 13:23:55 - Reading the config file.
+2012/01/30 13:23:55 - Retrieving IP address of ESP Server.
+2012/01/30 13:23:55 - ESP Server private IP address: 10.192.223.31.
+2012/01/30 13:23:55 - ESP Server public IP address: 50.17.38.89.
+2012/01/30 13:23:55 - 50.17.38.89:     Starting node configuration.
+2012/01/30 13:23:55 - 50.17.38.89:     Connecting via SSH.
+2012/01/30 13:23:56 - 50.17.38.89:     Checking network mask is compatible.
+2012/01/30 13:23:56 - 50.17.38.89:     Checking disk I/O
+2012/01/30 13:23:56 - 50.17.38.89:     Checking software installation completed.
+2012/01/30 13:23:56 - 50.17.38.89:     Software installation finished.
+2012/01/30 13:23:56 - 50.17.38.89:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/30 13:23:56 - 50.17.38.89:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/30 13:23:56 - 50.17.38.89:     Checking file contents.
+2012/01/30 13:23:56 - 50.17.38.89:     Remote file contents confirmed.
+2012/01/30 13:23:56 - 50.17.38.89:     Starting HPCC services.
+2012/01/30 13:23:56 - 50.17.38.89:     HPPC Systems Thor Community Edition: 3.4.0-1.
+2012/01/30 13:24:22 - 50.17.38.89:     Starting mydafilesrv....       [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting mydali....            [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting mydfuserver....       [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting myeclagent....        [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting myeclccserver....     [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting myeclscheduler....    [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting myesp....             [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting mysasha....           [  OK  ]   
+2012/01/30 13:24:22 - 50.17.38.89:     Starting mythor....            [  OK  ]  
+2012/01/30 13:24:22 - 50.17.38.89:     Start node is complete.
+2012/01/30 13:24:22 - Done.
+2012/01/30 13:28:30 - Terminating cluster.
+2012/01/30 13:28:30 - Connecting to AWS region us-east-1.
+2012/01/30 13:28:30 - Gathering instances for Thor-B5PD.
+2012/01/30 13:28:30 - Terminating instances.
+2012/01/30 13:28:30 - Waiting for 1 instances to terminate.
+2012/01/30 13:28:35 - Waiting for 1 instances to terminate.
+2012/01/30 13:28:40 - Waiting for 1 instances to terminate.
+2012/01/30 13:28:45 - Waiting for 1 instances to terminate.
+2012/01/30 13:28:51 - Waiting for 1 instances to terminate.
+2012/01/30 13:28:56 - Deleting Access Key Thor-B5PD.
+2012/01/30 13:28:56 - Deleting Security group Thor-B5PD.
+2012/01/30 13:28:56 - Done.

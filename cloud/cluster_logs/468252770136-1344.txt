@@ -1,0 +1,118 @@
+2017/11/25 04:10:20 - Connecting to AWS region us-west-2.
+2017/11/25 04:10:20 - Calculating new unique cluster name for request 1344.
+2017/11/25 04:10:21 - Creating new cluster name, Hpcc-ZGX7.
+2017/11/25 04:10:21 - Creating Hpcc-ZGX7 security group.
+2017/11/25 04:10:23 - Creating Hpcc-ZGX7 key pair.
+2017/11/25 04:10:23 - Launching 3 m1.large nodes using ami-4f00c837.
+2017/11/25 04:10:24 - Reservation ID r-06a997cf7666f0b34 created.
+2017/11/25 04:10:24 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:30 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:35 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:41 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:46 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:51 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:10:57 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:02 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:07 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:13 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:18 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:24 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:29 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:34 - Waiting for 3 of 3 nodes to launch.
+2017/11/25 04:11:40 - Waiting for 2 of 3 nodes to launch.
+2017/11/25 04:11:45 - Waiting for 1 of 3 nodes to launch.
+2017/11/25 04:11:50 - Pending instances have completed.
+2017/11/25 04:11:50 - Checking each node launched properly.
+2017/11/25 04:11:50 - 54.245.20.69:    Checking EC2 instance i-00d3fdc23c4c250f3.
+2017/11/25 04:11:50 - 54.202.166.94:   Checking EC2 instance i-0f074d78fbfca9dba.
+2017/11/25 04:11:50 - 54.202.40.200:   Checking EC2 instance i-0968c25c7ba9c0cf7.
+2017/11/25 04:11:50 - 54.245.20.69:    Checking EC2 instance is running.
+2017/11/25 04:11:50 - 54.245.20.69:    Connecting via SSH.
+2017/11/25 04:11:51 - 54.245.20.69:    Waiting on SSH connection.
+2017/11/25 04:11:51 - 54.202.166.94:   Checking EC2 instance is running.
+2017/11/25 04:11:51 - 54.202.166.94:   Connecting via SSH.
+2017/11/25 04:11:51 - 54.202.40.200:   Checking EC2 instance is running.
+2017/11/25 04:11:51 - 54.202.40.200:   Connecting via SSH.
+2017/11/25 04:11:54 - 54.202.40.200:   Waiting on SSH connection.
+2017/11/25 04:11:56 - 54.245.20.69:    Waiting on SSH connection.
+2017/11/25 04:12:01 - 54.202.40.200:   Checking software installation completed.
+2017/11/25 04:12:01 - 54.202.40.200:   Waiting for software to install.
+2017/11/25 04:12:06 - 54.202.166.94:   Waiting on SSH connection.
+2017/11/25 04:12:07 - 54.245.20.69:    Checking software installation completed.
+2017/11/25 04:12:07 - 54.245.20.69:    Software installation finished.
+2017/11/25 04:12:07 - 54.245.20.69:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 04:12:07 - 54.245.20.69:    Checking file contents.
+2017/11/25 04:12:08 - 54.245.20.69:    Remote file contents confirmed.
+2017/11/25 04:12:08 - 54.245.20.69:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 04:12:08 - 54.245.20.69:    Completed check of node 54.245.20.69.
+2017/11/25 04:12:11 - 54.202.40.200:   Software installation finished.
+2017/11/25 04:12:11 - 54.202.40.200:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 04:12:12 - 54.202.40.200:   Checking file contents.
+2017/11/25 04:12:12 - 54.202.40.200:   Remote file contents confirmed.
+2017/11/25 04:12:12 - Unhandled error occured when checking for bad instances
+2017/11/25 04:12:12 - An exception occured.
+                      error: [Errno 104] Connection reset by peer
+2017/11/25 04:12:12 - 54.202.166.94:   Completed check of node 54.202.166.94.
+2017/11/25 04:12:12 - [Errno 104] Connection reset by peer
+2017/11/25 04:12:13 - 54.202.40.200:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 04:12:13 - 54.202.40.200:   Completed check of node 54.202.40.200.
+2017/11/25 04:12:13 - Terminating 1 bad instances.
+2017/11/25 04:12:13 - Terminating instances.
+2017/11/25 04:12:14 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:20 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:26 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:32 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:38 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:44 - Waiting for 1 instances to terminate.
+2017/11/25 04:12:50 - Launching 1 new nodes.
+2017/11/25 04:12:51 - Reservation ID r-06248b57b48e5e8e2 created.
+2017/11/25 04:12:51 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:12:57 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:03 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:09 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:15 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:21 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:27 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:33 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:39 - Waiting for 1 of 1 nodes to launch.
+2017/11/25 04:13:45 - Pending instances have completed.
+2017/11/25 04:13:45 - Checking each node launched properly.
+2017/11/25 04:13:45 - 34.213.225.142:  Checking EC2 instance i-079a815c488cae425.
+2017/11/25 04:13:46 - 34.213.225.142:  Checking EC2 instance is running.
+2017/11/25 04:13:46 - 34.213.225.142:  Connecting via SSH.
+2017/11/25 04:14:08 - 34.213.225.142:  Checking software installation completed.
+2017/11/25 04:14:08 - 34.213.225.142:  Software installation finished.
+2017/11/25 04:14:08 - 34.213.225.142:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/25 04:14:09 - 34.213.225.142:  Checking file contents.
+2017/11/25 04:14:10 - 34.213.225.142:  Remote file contents confirmed.
+2017/11/25 04:14:10 - 34.213.225.142:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/25 04:14:10 - 34.213.225.142:  Completed check of node 34.213.225.142.
+2017/11/25 04:14:10 - Determining availability zone.
+2017/11/25 04:14:10 - Gathering public and private ip addresses.
+2017/11/25 04:14:10 - Connecting to node 54.245.20.69 for cluster configuration.
+2017/11/25 04:14:10 - Connecting via SSH.
+2017/11/25 04:15:13 - Waiting on SSH connection.
+2017/11/25 04:15:51 - Terminating cluster.
+2017/11/25 04:15:51 - Connecting to AWS region us-west-2.
+2017/11/25 04:15:51 - Gathering instances for Hpcc-ZGX7.
+2017/11/25 04:15:51 - Terminating instances.
+2017/11/25 04:15:51 - Deleting Access Key Hpcc-ZGX7.
+2017/11/25 04:15:51 - Deleting Security group Hpcc-ZGX7.
+2017/11/25 04:15:52 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-e605f49a has a dependent object
+                      requestId: 528b0ba4-a0c2-46c8-9a4e-0655eee6a50a
+2017/11/25 04:16:22 - Waiting on SSH connection.
+2017/11/25 04:17:30 - Waiting on SSH connection.
+2017/11/25 04:18:38 - Waiting on SSH connection.
+2017/11/25 04:19:46 - Waiting on SSH connection.
+2017/11/25 04:20:54 - An exception occured.
+                      NodeError: 54.245.20.69: Timed out trying to ssh to host..
+2017/11/25 04:22:01 - Terminating cluster.
+2017/11/25 04:22:01 - Connecting to AWS region us-west-2.
+2017/11/25 04:22:01 - Gathering instances for Hpcc-ZGX7.
+2017/11/25 04:22:01 - Terminating instances.
+2017/11/25 04:22:01 - Deleting Access Key Hpcc-ZGX7.
+2017/11/25 04:22:01 - Error: Access key not found.
+2017/11/25 04:22:01 - Deleting Security group Hpcc-ZGX7.
+2017/11/25 04:22:02 - Done.

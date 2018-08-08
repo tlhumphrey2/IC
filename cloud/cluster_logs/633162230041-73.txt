@@ -1,0 +1,82 @@
+2012/02/01 11:13:05 - Connecting to AWS region us-east-1.
+2012/02/01 11:13:05 - Calculating new unique cluster name for request 73.
+2012/02/01 11:13:05 - Creating new cluster name, Thor-KTZR.
+2012/02/01 11:13:05 - Creating Thor-KTZR security group.
+2012/02/01 11:13:06 - Creating Thor-KTZR key pair.
+2012/02/01 11:13:08 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/02/01 11:13:09 - Reservation ID r-30a26550 created
+2012/02/01 11:13:09 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:19 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:24 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:34 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:39 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:44 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 11:13:49 - Pending instances have completed.
+2012/02/01 11:13:49 - Checking each node launched properly.
+2012/02/01 11:13:49 - 72.44.50.248:    Checking EC2 instance i-2d8f2d48.
+2012/02/01 11:13:49 - 72.44.50.248:    Checking EC2 instance is running.
+2012/02/01 11:13:49 - 72.44.50.248:    Connecting via SSH.
+2012/02/01 11:13:52 - 72.44.50.248:    Waiting on SSH connection.
+2012/02/01 11:14:00 - 72.44.50.248:    Checking disk I/O
+2012/02/01 11:14:00 - 72.44.50.248:    Checking software installation completed.
+2012/02/01 11:14:00 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:14:10 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:14:20 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:14:30 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:14:40 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:14:50 - 72.44.50.248:    Waiting for software to install.
+2012/02/01 11:15:00 - 72.44.50.248:    Software installation finished.
+2012/02/01 11:15:00 - 72.44.50.248:    Completed check of node 72.44.50.248.
+2012/02/01 11:15:00 - Determining availability zone.
+2012/02/01 11:15:00 - Gathering public and private ip addresses.
+2012/02/01 11:15:00 - Connecting to node 72.44.50.248 for cluster configuration.
+2012/02/01 11:15:00 - Connecting via SSH.
+2012/02/01 11:15:01 - Checking disk I/O
+2012/02/01 11:15:01 - Checking software installation completed.
+2012/02/01 11:15:01 - Software installation finished.
+2012/02/01 11:15:01 - Writing cluster private ip addresses to file on instance.
+2012/02/01 11:15:01 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/01 11:15:01 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/01 11:15:01 - Checking file contents.
+2012/02/01 11:15:01 - Remote file contents confirmed.
+2012/02/01 11:15:01 - Running envgen
+2012/02/01 11:15:02 - Reading the config file.
+2012/02/01 11:15:02 - Retrieving IP address of ESP Server.
+2012/02/01 11:15:02 - ESP Server private IP address: 10.34.39.69.
+2012/02/01 11:15:02 - ESP Server public IP address: 72.44.50.248.
+2012/02/01 11:15:02 - 72.44.50.248:    Starting node configuration.
+2012/02/01 11:15:02 - 72.44.50.248:    Connecting via SSH.
+2012/02/01 11:15:02 - 72.44.50.248:    Checking disk I/O
+2012/02/01 11:15:02 - 72.44.50.248:    Checking software installation completed.
+2012/02/01 11:15:03 - 72.44.50.248:    Software installation finished.
+2012/02/01 11:15:03 - 72.44.50.248:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 11:15:03 - 72.44.50.248:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 11:15:03 - 72.44.50.248:    Checking file contents.
+2012/02/01 11:15:03 - 72.44.50.248:    Remote file contents confirmed.
+2012/02/01 11:15:03 - 72.44.50.248:    Starting HPCC services.
+2012/02/01 11:15:03 - 72.44.50.248:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 11:15:29 - 72.44.50.248:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting mydali....            [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting mydfuserver....       [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting myeclagent....        [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting myeclccserver....     [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting myeclscheduler....    [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting myesp....             [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting mysasha....           [  OK  ]   
+2012/02/01 11:15:29 - 72.44.50.248:    Starting mythor....            [  OK  ]  
+2012/02/01 11:15:29 - 72.44.50.248:    Start node is complete.
+2012/02/01 11:15:29 - Done.
+2012/02/01 11:18:21 - Terminating cluster.
+2012/02/01 11:18:21 - Connecting to AWS region us-east-1.
+2012/02/01 11:18:21 - Gathering instances for Thor-KTZR.
+2012/02/01 11:18:21 - Terminating instances.
+2012/02/01 11:18:21 - Waiting for 1 instances to terminate.
+2012/02/01 11:18:26 - Waiting for 1 instances to terminate.
+2012/02/01 11:18:31 - Waiting for 1 instances to terminate.
+2012/02/01 11:18:36 - Waiting for 1 instances to terminate.
+2012/02/01 11:18:41 - Waiting for 1 instances to terminate.
+2012/02/01 11:18:46 - Deleting Access Key Thor-KTZR.
+2012/02/01 11:18:47 - Deleting Security group Thor-KTZR.
+2012/02/01 11:18:47 - Done.

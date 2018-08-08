@@ -1,0 +1,94 @@
+2015/04/06 19:42:51 - Connecting to AWS region us-west-2.
+2015/04/06 19:42:51 - Calculating new unique cluster name for request 1065.
+2015/04/06 19:42:52 - Creating new cluster name, Hpcc-GC8N.
+2015/04/06 19:42:52 - Creating Hpcc-GC8N security group.
+2015/04/06 19:42:54 - Creating Hpcc-GC8N key pair.
+2015/04/06 19:42:54 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/04/06 19:42:54 - Reservation ID r-6998f263 created.
+2015/04/06 19:42:54 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:00 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:05 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:10 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:15 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:20 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:25 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:30 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:35 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:41 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:46 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 19:43:51 - Pending instances have completed.
+2015/04/06 19:43:51 - Checking each node launched properly.
+2015/04/06 19:43:51 - 52.12.169.56:    Checking EC2 instance i-0cb00c01.
+2015/04/06 19:43:51 - 52.12.169.56:    Checking EC2 instance is running.
+2015/04/06 19:43:51 - 52.12.169.56:    Connecting via SSH.
+2015/04/06 19:43:53 - 52.12.169.56:    Waiting on SSH connection.
+2015/04/06 19:44:05 - 52.12.169.56:    Checking software installation completed.
+2015/04/06 19:44:05 - 52.12.169.56:    Software installation finished.
+2015/04/06 19:44:05 - 52.12.169.56:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 19:44:06 - 52.12.169.56:    Checking file contents.
+2015/04/06 19:44:06 - 52.12.169.56:    Remote file contents confirmed.
+2015/04/06 19:44:06 - 52.12.169.56:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 19:44:06 - 52.12.169.56:    Completed check of node 52.12.169.56.
+2015/04/06 19:44:06 - Determining availability zone.
+2015/04/06 19:44:06 - Gathering public and private ip addresses.
+2015/04/06 19:44:06 - Connecting to node 52.12.169.56 for cluster configuration.
+2015/04/06 19:44:06 - Connecting via SSH.
+2015/04/06 19:44:08 - Checking software installation completed.
+2015/04/06 19:44:08 - Software installation finished.
+2015/04/06 19:44:08 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 19:44:08 - Checking file contents.
+2015/04/06 19:44:09 - Remote file contents confirmed.
+2015/04/06 19:44:09 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 19:44:09 - Writing cluster private ip addresses to file on instance.
+2015/04/06 19:44:09 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/06 19:44:10 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/06 19:44:10 - Checking file contents.
+2015/04/06 19:44:10 - Remote file contents confirmed.
+2015/04/06 19:44:10 - Running envgen
+2015/04/06 19:44:11 - Reading the config file.
+2015/04/06 19:44:12 - Retrieving IP address of ESP Server.
+2015/04/06 19:44:12 - ESP Server private IP address: 10.253.100.47.
+2015/04/06 19:44:12 - ESP Server public IP address: 52.12.169.56.
+2015/04/06 19:44:12 - 52.12.169.56:    Starting node configuration.
+2015/04/06 19:44:12 - 52.12.169.56:    Connecting via SSH.
+2015/04/06 19:44:14 - 52.12.169.56:    Checking software installation completed.
+2015/04/06 19:44:14 - 52.12.169.56:    Software installation finished.
+2015/04/06 19:44:14 - 52.12.169.56:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 19:44:14 - 52.12.169.56:    Checking file contents.
+2015/04/06 19:44:15 - 52.12.169.56:    Remote file contents confirmed.
+2015/04/06 19:44:15 - 52.12.169.56:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 19:44:15 - 52.12.169.56:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/06 19:44:16 - 52.12.169.56:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/06 19:44:16 - 52.12.169.56:    Checking file contents.
+2015/04/06 19:44:17 - 52.12.169.56:    Remote file contents confirmed.
+2015/04/06 19:44:17 - 52.12.169.56:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/04/06 19:44:44 - 52.12.169.56:    Starting mydafilesrv....       [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting mydali....            [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting mydfuserver....       [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting myeclagent....        [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting myeclccserver....     [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting myeclscheduler....    [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting myesp....             [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting mysasha....           [  OK  ]   
+2015/04/06 19:44:44 - 52.12.169.56:    Starting mythor....            [  OK  ]  
+2015/04/06 19:44:44 - 52.12.169.56:    Start node is complete.
+2015/04/06 19:44:44 - Done.
+2015/04/06 20:31:44 - Terminating cluster.
+2015/04/06 20:31:44 - Connecting to AWS region us-west-2.
+2015/04/06 20:31:44 - Gathering instances for Hpcc-GC8N.
+2015/04/06 20:31:44 - Terminating instances.
+2015/04/06 20:31:44 - Waiting for 1 instances to terminate.
+2015/04/06 20:31:50 - Waiting for 1 instances to terminate.
+2015/04/06 20:31:55 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:00 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:05 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:10 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:15 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:20 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:26 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:31 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:36 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:41 - Waiting for 1 instances to terminate.
+2015/04/06 20:32:46 - Deleting Access Key Hpcc-GC8N.
+2015/04/06 20:32:46 - Deleting Security group Hpcc-GC8N.
+2015/04/06 20:32:47 - Done.

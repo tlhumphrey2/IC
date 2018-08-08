@@ -1,0 +1,209 @@
+2012/02/17 13:20:43 - Connecting to AWS region us-east-1.
+2012/02/17 13:20:43 - Calculating new unique cluster name for request 146.
+2012/02/17 13:20:43 - Creating new cluster name, Thor-XCT9.
+2012/02/17 13:20:43 - Creating Thor-XCT9 security group.
+2012/02/17 13:20:44 - Creating Thor-XCT9 key pair.
+2012/02/17 13:20:45 - Launching 1 m1.large nodes using ami-9407d4fd.
+2012/02/17 13:20:45 - Reservation ID r-2779e347 created.
+2012/02/17 13:20:45 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:20:50 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:20:55 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:16 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:21 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:26 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:31 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:36 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:41 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:46 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:21:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:17 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:22 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:27 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:32 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:37 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:42 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:47 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:52 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:22:57 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:23:02 - Pending instances have completed.
+2012/02/17 13:23:02 - Checking each node launched properly.
+2012/02/17 13:23:02 - 50.17.61.128:    Checking EC2 instance i-ae6344cb.
+2012/02/17 13:23:02 - 50.17.61.128:    Checking EC2 instance is running.
+2012/02/17 13:23:02 - 50.17.61.128:    Connecting via SSH.
+2012/02/17 13:23:03 - 50.17.61.128:    Waiting on SSH connection.
+2012/02/17 13:23:09 - 50.17.61.128:    Checking software installation completed.
+2012/02/17 13:23:09 - 50.17.61.128:    Waiting for software to install.
+2012/02/17 13:23:19 - 50.17.61.128:    Software installation finished.
+2012/02/17 13:23:19 - 50.17.61.128:    Sending ~/node_health_script via SFTP.
+2012/02/17 13:23:19 - 50.17.61.128:    Copying ~/node_health_script to desitnation.
+2012/02/17 13:23:19 - 50.17.61.128:    Checking file contents.
+2012/02/17 13:23:19 - 50.17.61.128:    Remote file contents confirmed.
+2012/02/17 13:23:19 - 50.17.61.128:    Error: Node failed health check.
+                                       Core count 0 Less than minimum 2
+                                       grep: /var/log/messages: No such file or directory
+                                       Error messages found in system logs:
+                                       /var/log/syslog:Feb 17 18:23:06 ip-10-242-66-95 kernel: [    0.000000] register_vcpu_info failed: err=-38
+                                       /var/log/syslog:Feb 17 18:23:06 ip-10-242-66-95 kernel: [    0.064124] no hardware sampling interrupt available.
+                                       /var/log/syslog:Feb 17 18:23:06 ip-10-242-66-95 kernel: [    0.425070] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       /var/log/dmesg:[    0.000000] register_vcpu_info failed: err=-38
+                                       /var/log/dmesg:[    0.064124] no hardware sampling interrupt available.
+                                       /var/log/dmesg:[    0.425070] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       Total of 2 anomalies detected.
+                                       
+                                       Free memory: 7479736 kB
+                                       /dev/xvdb mounted on /mnt has 411234584 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/17 13:23:19 - 50.17.61.128:    Error - Node 50.17.61.128 failed check.
+2012/02/17 13:23:19 - 50.17.61.128:    Completed check of node 50.17.61.128.
+2012/02/17 13:23:19 - Terminating 1 bad instances.
+2012/02/17 13:23:19 - Terminating instances.
+2012/02/17 13:23:19 - Waiting for 1 instances to terminate.
+2012/02/17 13:23:25 - Waiting for 1 instances to terminate.
+2012/02/17 13:23:30 - Waiting for 1 instances to terminate.
+2012/02/17 13:23:35 - Waiting for 1 instances to terminate.
+2012/02/17 13:23:40 - Reservation ID r-757ce615 created.
+2012/02/17 13:23:40 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:23:45 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:23:50 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:23:55 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:00 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:16 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:21 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:26 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:31 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:36 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:41 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:46 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:24:51 - Pending instances have completed.
+2012/02/17 13:24:51 - Checking each node launched properly.
+2012/02/17 13:24:51 - 174.129.136.213: Checking EC2 instance i-206e4945.
+2012/02/17 13:24:51 - 174.129.136.213: Checking EC2 instance is running.
+2012/02/17 13:24:51 - 174.129.136.213: Connecting via SSH.
+2012/02/17 13:24:53 - 174.129.136.213: Waiting on SSH connection.
+2012/02/17 13:24:59 - 174.129.136.213: Checking software installation completed.
+2012/02/17 13:24:59 - 174.129.136.213: Software installation finished.
+2012/02/17 13:24:59 - 174.129.136.213: Sending ~/node_health_script via SFTP.
+2012/02/17 13:24:59 - 174.129.136.213: Copying ~/node_health_script to desitnation.
+2012/02/17 13:24:59 - 174.129.136.213: Checking file contents.
+2012/02/17 13:24:59 - 174.129.136.213: Remote file contents confirmed.
+2012/02/17 13:24:59 - 174.129.136.213: Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       Error messages found in system logs:
+                                       /var/log/syslog:Feb 17 18:24:55 ip-10-116-82-36 kernel: [18953095.467708] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       /var/log/dmesg:[18953095.467708] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7479152 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/17 13:24:59 - 174.129.136.213: Error - Node 174.129.136.213 failed check.
+2012/02/17 13:24:59 - 174.129.136.213: Completed check of node 174.129.136.213.
+2012/02/17 13:24:59 - Terminating 1 bad instances.
+2012/02/17 13:24:59 - Terminating instances.
+2012/02/17 13:24:59 - Waiting for 1 instances to terminate.
+2012/02/17 13:25:05 - Waiting for 1 instances to terminate.
+2012/02/17 13:25:10 - Reservation ID r-b37de7d3 created.
+2012/02/17 13:25:10 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:15 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:20 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:25 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:30 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:35 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:40 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:46 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:25:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:16 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:21 - Pending instances have completed.
+2012/02/17 13:26:21 - Checking each node launched properly.
+2012/02/17 13:26:21 - 23.20.68.217:    Checking EC2 instance i-e66c4b83.
+2012/02/17 13:26:21 - 23.20.68.217:    Checking EC2 instance is running.
+2012/02/17 13:26:21 - 23.20.68.217:    Connecting via SSH.
+2012/02/17 13:26:21 - 23.20.68.217:    Waiting on SSH connection.
+2012/02/17 13:26:27 - 23.20.68.217:    Checking software installation completed.
+2012/02/17 13:26:27 - 23.20.68.217:    Software installation finished.
+2012/02/17 13:26:27 - 23.20.68.217:    Sending ~/node_health_script via SFTP.
+2012/02/17 13:26:27 - 23.20.68.217:    Copying ~/node_health_script to desitnation.
+2012/02/17 13:26:27 - 23.20.68.217:    Checking file contents.
+2012/02/17 13:26:27 - 23.20.68.217:    Remote file contents confirmed.
+2012/02/17 13:26:27 - 23.20.68.217:    Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       Error messages found in system logs:
+                                       /var/log/syslog:Feb 17 18:26:21 ip-10-114-62-85 kernel: [7824414.646310] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       /var/log/dmesg:[7824414.646310] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7479348 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/17 13:26:27 - 23.20.68.217:    Error - Node 23.20.68.217 failed check.
+2012/02/17 13:26:27 - 23.20.68.217:    Completed check of node 23.20.68.217.
+2012/02/17 13:26:27 - Terminating 1 bad instances.
+2012/02/17 13:26:27 - Terminating instances.
+2012/02/17 13:26:28 - Waiting for 1 instances to terminate.
+2012/02/17 13:26:33 - Waiting for 1 instances to terminate.
+2012/02/17 13:26:38 - Reservation ID r-5573e935 created.
+2012/02/17 13:26:38 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:43 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:48 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:53 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:26:58 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:03 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:08 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:19 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:24 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:34 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:39 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:44 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:49 - Waiting for 1 of 1 nodes to launch.
+2012/02/17 13:27:54 - Pending instances have completed.
+2012/02/17 13:27:54 - Checking each node launched properly.
+2012/02/17 13:27:54 - 107.20.77.168:   Checking EC2 instance i-366a4d53.
+2012/02/17 13:27:54 - 107.20.77.168:   Checking EC2 instance is running.
+2012/02/17 13:27:54 - 107.20.77.168:   Connecting via SSH.
+2012/02/17 13:27:55 - 107.20.77.168:   Checking software installation completed.
+2012/02/17 13:27:55 - 107.20.77.168:   Waiting for software to install.
+2012/02/17 13:28:05 - 107.20.77.168:   Software installation finished.
+2012/02/17 13:28:05 - 107.20.77.168:   Sending ~/node_health_script via SFTP.
+2012/02/17 13:28:05 - 107.20.77.168:   Copying ~/node_health_script to desitnation.
+2012/02/17 13:28:05 - 107.20.77.168:   Checking file contents.
+2012/02/17 13:28:05 - 107.20.77.168:   Remote file contents confirmed.
+2012/02/17 13:28:05 - 107.20.77.168:   Error: Node failed health check.
+                                       grep: /var/log/messages: No such file or directory
+                                       Error messages found in system logs:
+                                       /var/log/syslog:Feb 17 18:27:53 ip-10-116-102-61 kernel: [30919997.741600] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       /var/log/dmesg:[30919997.741600] rtc_cmos: probe of rtc_cmos failed with error -38
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7479640 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/xvdb mounted on /mnt has 411234588 kB free
+                                       /dev/xvdb mounted on /mnt verified read/write
+2012/02/17 13:28:05 - 107.20.77.168:   Error - Node 107.20.77.168 failed check.
+2012/02/17 13:28:05 - 107.20.77.168:   Completed check of node 107.20.77.168.
+2012/02/17 13:28:05 - Terminating 1 bad instances.
+2012/02/17 13:28:05 - Terminating instances.
+2012/02/17 13:28:06 - Waiting for 1 instances to terminate.
+2012/02/17 13:28:11 - Waiting for 1 instances to terminate.
+2012/02/17 13:28:16 - Waiting for 1 instances to terminate.
+2012/02/17 13:28:21 - An exception occured.
+                      ClusterError: Failed to launch the nodes requested.

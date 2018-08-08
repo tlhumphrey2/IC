@@ -1,0 +1,83 @@
+2016/07/11 10:40:16 - Connecting to AWS region us-west-2.
+2016/07/11 10:40:16 - Calculating new unique cluster name for request 1241.
+2016/07/11 10:40:16 - Creating new cluster name, Hpcc-SVHZ.
+2016/07/11 10:40:16 - Creating Hpcc-SVHZ security group.
+2016/07/11 10:40:19 - Creating Hpcc-SVHZ key pair.
+2016/07/11 10:40:19 - Launching 1 m1.large nodes using ami-9dca31fd.
+2016/07/11 10:40:20 - Reservation ID r-71c04db5 created.
+2016/07/11 10:40:20 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:25 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:30 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:36 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:41 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:46 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:51 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:40:56 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:41:01 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:41:07 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:41:12 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:41:17 - Waiting for 1 of 1 nodes to launch.
+2016/07/11 10:41:22 - Pending instances have completed.
+2016/07/11 10:41:22 - Checking each node launched properly.
+2016/07/11 10:41:22 - 52.38.71.113:    Checking EC2 instance i-d611bb79.
+2016/07/11 10:41:23 - 52.38.71.113:    Checking EC2 instance is running.
+2016/07/11 10:41:23 - 52.38.71.113:    Connecting via SSH.
+2016/07/11 10:41:30 - 52.38.71.113:    Waiting on SSH connection.
+2016/07/11 10:41:41 - 52.38.71.113:    Checking software installation completed.
+2016/07/11 10:41:42 - 52.38.71.113:    Software installation finished.
+2016/07/11 10:41:42 - 52.38.71.113:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/11 10:41:42 - 52.38.71.113:    Checking file contents.
+2016/07/11 10:41:43 - 52.38.71.113:    Remote file contents confirmed.
+2016/07/11 10:41:43 - 52.38.71.113:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/11 10:41:43 - 52.38.71.113:    Completed check of node 52.38.71.113.
+2016/07/11 10:41:43 - Determining availability zone.
+2016/07/11 10:41:43 - Gathering public and private ip addresses.
+2016/07/11 10:41:43 - Connecting to node 52.38.71.113 for cluster configuration.
+2016/07/11 10:41:43 - Connecting via SSH.
+2016/07/11 10:41:45 - Checking software installation completed.
+2016/07/11 10:41:45 - Software installation finished.
+2016/07/11 10:41:45 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/11 10:41:46 - Checking file contents.
+2016/07/11 10:41:46 - Remote file contents confirmed.
+2016/07/11 10:41:47 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/11 10:41:47 - Writing cluster private ip addresses to file on instance.
+2016/07/11 10:41:47 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/07/11 10:41:48 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/07/11 10:41:48 - Checking file contents.
+2016/07/11 10:41:48 - Remote file contents confirmed.
+2016/07/11 10:41:48 - Running envgen
+2016/07/11 10:41:49 - Reading the config file.
+2016/07/11 10:41:50 - Retrieving IP address of ESP Server.
+2016/07/11 10:41:50 - ESP Server private IP address: 172.31.21.94.
+2016/07/11 10:41:50 - ESP Server public IP address: 52.38.71.113.
+2016/07/11 10:41:50 - 52.38.71.113:    Starting node configuration.
+2016/07/11 10:41:50 - 52.38.71.113:    Connecting via SSH.
+2016/07/11 10:41:52 - 52.38.71.113:    Checking software installation completed.
+2016/07/11 10:41:52 - 52.38.71.113:    Software installation finished.
+2016/07/11 10:41:52 - 52.38.71.113:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/11 10:41:52 - 52.38.71.113:    Checking file contents.
+2016/07/11 10:41:53 - 52.38.71.113:    Remote file contents confirmed.
+2016/07/11 10:41:53 - 52.38.71.113:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/11 10:41:53 - 52.38.71.113:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/11 10:41:54 - 52.38.71.113:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/11 10:41:54 - 52.38.71.113:    Checking file contents.
+2016/07/11 10:41:55 - 52.38.71.113:    Remote file contents confirmed.
+2016/07/11 10:41:55 - 52.38.71.113:    Starting HPCC Platform Community Edition: 6.0.0-2.
+2016/07/11 10:42:14 - 52.38.71.113:    Starting mydafilesrv ...       [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting mydali ...            [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting mydfuserver ...       [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting myeclagent ...        [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting myeclccserver ...     [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting myeclscheduler ...    [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting myesp ...             [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting mysasha ...           [   OK    ]   
+2016/07/11 10:42:14 - 52.38.71.113:    Starting mythor ...            [   OK    ]  
+2016/07/11 10:42:14 - 52.38.71.113:    Start node is complete.
+2016/07/11 10:42:14 - Done.
+2016/07/11 10:54:45 - Terminating cluster.
+2016/07/11 10:54:45 - Connecting to AWS region us-west-2.
+2016/07/11 10:54:45 - Gathering instances for Hpcc-SVHZ.
+2016/07/11 10:54:45 - Terminating instances.
+2016/07/11 10:54:45 - Deleting Access Key Hpcc-SVHZ.
+2016/07/11 10:54:46 - Deleting Security group Hpcc-SVHZ.
+2016/07/11 10:54:46 - Done.

@@ -1,0 +1,89 @@
+2012/07/06 19:25:32 - Connecting to AWS region us-west-1.
+2012/07/06 19:25:33 - Calculating new unique cluster name for request 280.
+2012/07/06 19:25:33 - Creating new cluster name, Thor-RPUK.
+2012/07/06 19:25:33 - Creating Thor-RPUK security group.
+2012/07/06 19:25:37 - Creating Thor-RPUK key pair.
+2012/07/06 19:25:38 - Launching 1 m1.large nodes using ami-33db8376.
+2012/07/06 19:25:39 - Reservation ID r-3a6da67c created.
+2012/07/06 19:25:39 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:25:45 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:25:50 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:25:55 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:00 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:06 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:11 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:16 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:21 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:27 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:32 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:37 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:42 - Waiting for 1 of 1 nodes to launch.
+2012/07/06 19:26:48 - Pending instances have completed.
+2012/07/06 19:26:48 - Checking each node launched properly.
+2012/07/06 19:26:48 - 50.18.103.124:   Checking EC2 instance i-4a581f0c.
+2012/07/06 19:26:48 - 50.18.103.124:   Checking EC2 instance is running.
+2012/07/06 19:26:48 - 50.18.103.124:   Connecting via SSH.
+2012/07/06 19:26:48 - 50.18.103.124:   Waiting on SSH connection.
+2012/07/06 19:26:54 - 50.18.103.124:   Checking software installation completed.
+2012/07/06 19:26:55 - 50.18.103.124:   Software installation finished.
+2012/07/06 19:26:55 - 50.18.103.124:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/07/06 19:26:55 - 50.18.103.124:   Checking file contents.
+2012/07/06 19:26:55 - 50.18.103.124:   Remote file contents confirmed.
+2012/07/06 19:26:56 - 50.18.103.124:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/07/06 19:26:56 - 50.18.103.124:   Completed check of node 50.18.103.124.
+2012/07/06 19:26:56 - Determining availability zone.
+2012/07/06 19:26:56 - Gathering public and private ip addresses.
+2012/07/06 19:26:56 - Connecting to node 50.18.103.124 for cluster configuration.
+2012/07/06 19:26:56 - Connecting via SSH.
+2012/07/06 19:26:57 - Checking software installation completed.
+2012/07/06 19:26:58 - Software installation finished.
+2012/07/06 19:26:58 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/07/06 19:26:58 - Checking file contents.
+2012/07/06 19:26:59 - Remote file contents confirmed.
+2012/07/06 19:26:59 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/07/06 19:26:59 - Writing cluster private ip addresses to file on instance.
+2012/07/06 19:26:59 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/07/06 19:27:00 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/07/06 19:27:00 - Checking file contents.
+2012/07/06 19:27:00 - Remote file contents confirmed.
+2012/07/06 19:27:00 - Running envgen
+2012/07/06 19:27:01 - Reading the config file.
+2012/07/06 19:27:02 - Retrieving IP address of ESP Server.
+2012/07/06 19:27:02 - ESP Server private IP address: 10.176.67.15.
+2012/07/06 19:27:02 - ESP Server public IP address: 50.18.103.124.
+2012/07/06 19:27:02 - 50.18.103.124:   Starting node configuration.
+2012/07/06 19:27:02 - 50.18.103.124:   Connecting via SSH.
+2012/07/06 19:27:04 - 50.18.103.124:   Checking software installation completed.
+2012/07/06 19:27:04 - 50.18.103.124:   Software installation finished.
+2012/07/06 19:27:04 - 50.18.103.124:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/07/06 19:27:05 - 50.18.103.124:   Checking file contents.
+2012/07/06 19:27:05 - 50.18.103.124:   Remote file contents confirmed.
+2012/07/06 19:27:06 - 50.18.103.124:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/07/06 19:27:06 - 50.18.103.124:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/07/06 19:27:07 - 50.18.103.124:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/07/06 19:27:07 - 50.18.103.124:   Checking file contents.
+2012/07/06 19:27:07 - 50.18.103.124:   Remote file contents confirmed.
+2012/07/06 19:27:07 - 50.18.103.124:   Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/07/06 19:27:34 - 50.18.103.124:   Starting mydafilesrv....       [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting mydali....            [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting mydfuserver....       [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting myeclagent....        [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting myeclccserver....     [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting myeclscheduler....    [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting myesp....             [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting mysasha....           [  OK  ]   
+2012/07/06 19:27:34 - 50.18.103.124:   Starting mythor....            [  OK  ]  
+2012/07/06 19:27:34 - 50.18.103.124:   Start node is complete.
+2012/07/06 19:27:34 - Done.
+2012/07/06 19:49:39 - Terminating cluster.
+2012/07/06 19:49:39 - Connecting to AWS region us-west-1.
+2012/07/06 19:49:39 - Gathering instances for Thor-RPUK.
+2012/07/06 19:49:40 - Terminating instances.
+2012/07/06 19:49:40 - Waiting for 1 instances to terminate.
+2012/07/06 19:49:45 - Waiting for 1 instances to terminate.
+2012/07/06 19:49:51 - Waiting for 1 instances to terminate.
+2012/07/06 19:49:56 - Waiting for 1 instances to terminate.
+2012/07/06 19:50:01 - Waiting for 1 instances to terminate.
+2012/07/06 19:50:07 - Deleting Access Key Thor-RPUK.
+2012/07/06 19:50:07 - Deleting Security group Thor-RPUK.
+2012/07/06 19:50:08 - Done.

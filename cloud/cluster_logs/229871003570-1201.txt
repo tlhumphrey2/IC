@@ -1,0 +1,83 @@
+2016/03/30 09:46:32 - Connecting to AWS region us-west-2.
+2016/03/30 09:46:32 - Calculating new unique cluster name for request 1201.
+2016/03/30 09:46:33 - Creating new cluster name, Hpcc-ET6X.
+2016/03/30 09:46:33 - Creating Hpcc-ET6X security group.
+2016/03/30 09:46:36 - Creating Hpcc-ET6X key pair.
+2016/03/30 09:46:36 - Launching 1 m1.large nodes using ami-de1700bf.
+2016/03/30 09:46:37 - Reservation ID r-08d0e84d6dec695c3 created.
+2016/03/30 09:46:37 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:46:42 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:46:48 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:46:53 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:46:58 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:47:03 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:47:08 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:47:13 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:47:19 - Waiting for 1 of 1 nodes to launch.
+2016/03/30 09:47:24 - Pending instances have completed.
+2016/03/30 09:47:24 - Checking each node launched properly.
+2016/03/30 09:47:24 - 54.213.106.142:  Checking EC2 instance i-0037a77e1bc7e155b.
+2016/03/30 09:47:24 - 54.213.106.142:  Checking EC2 instance is running.
+2016/03/30 09:47:24 - 54.213.106.142:  Connecting via SSH.
+2016/03/30 09:47:33 - 54.213.106.142:  Checking software installation completed.
+2016/03/30 09:47:33 - 54.213.106.142:  Waiting for software to install.
+2016/03/30 09:47:44 - 54.213.106.142:  Software installation finished.
+2016/03/30 09:47:44 - 54.213.106.142:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/03/30 09:47:44 - 54.213.106.142:  Checking file contents.
+2016/03/30 09:47:44 - 54.213.106.142:  Remote file contents confirmed.
+2016/03/30 09:47:45 - 54.213.106.142:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/03/30 09:47:45 - 54.213.106.142:  Completed check of node 54.213.106.142.
+2016/03/30 09:47:45 - Determining availability zone.
+2016/03/30 09:47:45 - Gathering public and private ip addresses.
+2016/03/30 09:47:45 - Connecting to node 54.213.106.142 for cluster configuration.
+2016/03/30 09:47:45 - Connecting via SSH.
+2016/03/30 09:47:52 - Checking software installation completed.
+2016/03/30 09:47:52 - Software installation finished.
+2016/03/30 09:47:52 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/03/30 09:47:53 - Checking file contents.
+2016/03/30 09:47:53 - Remote file contents confirmed.
+2016/03/30 09:47:54 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/03/30 09:47:54 - Writing cluster private ip addresses to file on instance.
+2016/03/30 09:47:54 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/03/30 09:47:54 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/03/30 09:47:55 - Checking file contents.
+2016/03/30 09:47:55 - Remote file contents confirmed.
+2016/03/30 09:47:55 - Running envgen
+2016/03/30 09:47:56 - Reading the config file.
+2016/03/30 09:47:56 - Retrieving IP address of ESP Server.
+2016/03/30 09:47:56 - ESP Server private IP address: 172.31.28.56.
+2016/03/30 09:47:56 - ESP Server public IP address: 54.213.106.142.
+2016/03/30 09:47:57 - 54.213.106.142:  Starting node configuration.
+2016/03/30 09:47:57 - 54.213.106.142:  Connecting via SSH.
+2016/03/30 09:47:58 - 54.213.106.142:  Checking software installation completed.
+2016/03/30 09:47:58 - 54.213.106.142:  Software installation finished.
+2016/03/30 09:47:58 - 54.213.106.142:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/03/30 09:47:59 - 54.213.106.142:  Checking file contents.
+2016/03/30 09:47:59 - 54.213.106.142:  Remote file contents confirmed.
+2016/03/30 09:48:00 - 54.213.106.142:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/03/30 09:48:00 - 54.213.106.142:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/03/30 09:48:01 - 54.213.106.142:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/03/30 09:48:01 - 54.213.106.142:  Checking file contents.
+2016/03/30 09:48:01 - 54.213.106.142:  Remote file contents confirmed.
+2016/03/30 09:48:01 - 54.213.106.142:  Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/03/30 09:48:21 - 54.213.106.142:  Starting mydafilesrv ...       [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting mydali ...            [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting mydfuserver ...       [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting myeclagent ...        [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting myeclccserver ...     [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting myeclscheduler ...    [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting myesp ...             [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting mysasha ...           [   OK    ]   
+2016/03/30 09:48:21 - 54.213.106.142:  Starting mythor ...            [   OK    ]  
+2016/03/30 09:48:21 - 54.213.106.142:  Start node is complete.
+2016/03/30 09:48:21 - Done.
+2016/03/30 09:48:58 - Terminating cluster.
+2016/03/30 09:48:58 - Connecting to AWS region us-west-2.
+2016/03/30 09:48:58 - Gathering instances for Hpcc-ET6X.
+2016/03/30 09:48:58 - Terminating instances.
+2016/03/30 09:48:58 - Deleting Access Key Hpcc-ET6X.
+2016/03/30 09:48:58 - Deleting Security group Hpcc-ET6X.
+2016/03/30 09:48:59 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-8ab3cfed has a dependent object
+                      requestId: 003de8f6-4ecb-4d03-b4fd-1f97d146d510

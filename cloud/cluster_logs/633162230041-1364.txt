@@ -1,0 +1,158 @@
+2018/01/04 09:44:20 - Connecting to AWS region us-west-2.
+2018/01/04 09:44:20 - Calculating new unique cluster name for request 1364.
+2018/01/04 09:44:21 - Creating new cluster name, Hpcc-W6UN.
+2018/01/04 09:44:21 - Creating Hpcc-W6UN security group.
+2018/01/04 09:44:23 - Creating Hpcc-W6UN key pair.
+2018/01/04 09:44:24 - Launching 1 m1.large nodes using ami-4f00c837.
+2018/01/04 09:44:24 - Reservation ID r-06dbccb223254dd83 created.
+2018/01/04 09:44:24 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:30 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:35 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:40 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:46 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:51 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:44:56 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:01 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:06 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:11 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:16 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:21 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:27 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:32 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:37 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:42 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:47 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:52 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:45:57 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:46:02 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:46:07 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:46:13 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:46:18 - Pending instances have completed.
+2018/01/04 09:46:18 - Checking each node launched properly.
+2018/01/04 09:46:18 - 54.185.114.11:   Checking EC2 instance i-0d664c12a3762b007.
+2018/01/04 09:46:18 - 54.185.114.11:   Checking EC2 instance is running.
+2018/01/04 09:46:18 - 54.185.114.11:   Connecting via SSH.
+2018/01/04 09:46:35 - 54.185.114.11:   Waiting on SSH connection.
+2018/01/04 09:46:40 - 54.185.114.11:   Waiting on SSH connection.
+2018/01/04 09:46:53 - 54.185.114.11:   Checking software installation completed.
+2018/01/04 09:46:53 - 54.185.114.11:   Software installation finished.
+2018/01/04 09:46:53 - 54.185.114.11:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/04 09:46:54 - 54.185.114.11:   Checking file contents.
+2018/01/04 09:46:54 - 54.185.114.11:   Remote file contents confirmed.
+2018/01/04 09:46:55 - Unhandled error occured when checking for bad instances
+2018/01/04 09:46:55 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Jan  4 14:46:38 ip-10-38-15-167 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  4 14:46:38 ip-10-38-15-167 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/01/04 09:46:55 - 54.185.114.11:   Completed check of node 54.185.114.11.
+2018/01/04 09:46:55 - Error messages found in system logs:
+/var/log/syslog:Jan  4 14:46:38 ip-10-38-15-167 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  4 14:46:38 ip-10-38-15-167 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/01/04 09:46:55 - Terminating 1 bad instances.
+2018/01/04 09:46:55 - Terminating instances.
+2018/01/04 09:46:56 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:01 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:06 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:11 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:16 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:21 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:26 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:31 - Waiting for 1 instances to terminate.
+2018/01/04 09:47:37 - Reservation ID r-0278b0bfc2ffb2baf created.
+2018/01/04 09:47:37 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:47:43 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:47:48 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:47:53 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:47:58 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:03 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:08 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:13 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:18 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:23 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:29 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:34 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:39 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:44 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:49 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:54 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:48:59 - Waiting for 1 of 1 nodes to launch.
+2018/01/04 09:49:04 - Pending instances have completed.
+2018/01/04 09:49:04 - Checking each node launched properly.
+2018/01/04 09:49:04 - 52.12.157.134:   Checking EC2 instance i-06b96e600d61ff373.
+2018/01/04 09:49:05 - 52.12.157.134:   Checking EC2 instance is running.
+2018/01/04 09:49:05 - 52.12.157.134:   Connecting via SSH.
+2018/01/04 09:49:44 - 52.12.157.134:   Checking software installation completed.
+2018/01/04 09:49:44 - 52.12.157.134:   Software installation finished.
+2018/01/04 09:49:44 - 52.12.157.134:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/04 09:49:45 - 52.12.157.134:   Checking file contents.
+2018/01/04 09:49:45 - 52.12.157.134:   Remote file contents confirmed.
+2018/01/04 09:49:46 - 52.12.157.134:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/01/04 09:49:46 - 52.12.157.134:   Completed check of node 52.12.157.134.
+2018/01/04 09:49:46 - Determining availability zone.
+2018/01/04 09:49:46 - Gathering public and private ip addresses.
+2018/01/04 09:49:46 - Connecting to node 52.12.157.134 for cluster configuration.
+2018/01/04 09:49:46 - Connecting via SSH.
+2018/01/04 09:49:47 - Checking software installation completed.
+2018/01/04 09:49:48 - Software installation finished.
+2018/01/04 09:49:48 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/04 09:49:48 - Checking file contents.
+2018/01/04 09:49:48 - Remote file contents confirmed.
+2018/01/04 09:49:49 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/01/04 09:49:49 - Writing cluster private ip addresses to file on instance.
+2018/01/04 09:49:49 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/01/04 09:49:50 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/01/04 09:49:50 - Checking file contents.
+2018/01/04 09:49:50 - Remote file contents confirmed.
+2018/01/04 09:49:50 - Running envgen
+2018/01/04 09:49:51 - Reading the config file.
+2018/01/04 09:49:51 - Retrieving IP address of ESP Server.
+2018/01/04 09:49:51 - ESP Server private IP address: 10.217.244.194.
+2018/01/04 09:49:51 - ESP Server public IP address: 52.12.157.134.
+2018/01/04 09:49:52 - 52.12.157.134:   Starting node configuration.
+2018/01/04 09:49:52 - 52.12.157.134:   Connecting via SSH.
+2018/01/04 09:49:53 - 52.12.157.134:   Checking software installation completed.
+2018/01/04 09:49:53 - 52.12.157.134:   Software installation finished.
+2018/01/04 09:49:53 - 52.12.157.134:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/04 09:49:54 - 52.12.157.134:   Checking file contents.
+2018/01/04 09:49:54 - 52.12.157.134:   Remote file contents confirmed.
+2018/01/04 09:49:55 - 52.12.157.134:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/01/04 09:49:55 - 52.12.157.134:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/01/04 09:49:56 - 52.12.157.134:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/01/04 09:49:56 - 52.12.157.134:   Checking file contents.
+2018/01/04 09:49:57 - 52.12.157.134:   Remote file contents confirmed.
+2018/01/04 09:49:57 - 52.12.157.134:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/01/04 09:50:50 - 52.12.157.134:   Starting mydafilesrv ...       [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting mydali ...            [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting mydfuserver ...       [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting myeclagent ...        [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting myeclccserver ...     [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting myeclscheduler ...    [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting myesp ...             [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting mysasha ...           [   OK    ]   
+2018/01/04 09:50:50 - 52.12.157.134:   Starting mythor ...            [   OK    ]  
+2018/01/04 09:50:50 - 52.12.157.134:   Start node is complete.
+2018/01/04 09:50:50 - Done.
+2018/01/04 14:28:58 - Terminating cluster.
+2018/01/04 14:28:58 - Connecting to AWS region us-west-2.
+2018/01/04 14:28:58 - Gathering instances for Hpcc-W6UN.
+2018/01/04 14:28:58 - Terminating instances.
+2018/01/04 14:28:59 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:04 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:09 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:14 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:19 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:24 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:30 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:35 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:40 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:45 - Waiting for 1 instances to terminate.
+2018/01/04 14:29:50 - Deleting Access Key Hpcc-W6UN.
+2018/01/04 14:29:51 - Deleting Security group Hpcc-W6UN.
+2018/01/04 14:29:51 - Done.

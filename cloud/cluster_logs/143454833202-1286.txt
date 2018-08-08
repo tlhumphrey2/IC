@@ -1,0 +1,172 @@
+2017/03/07 08:53:24 - Connecting to AWS region us-west-2.
+2017/03/07 08:53:24 - Calculating new unique cluster name for request 1286.
+2017/03/07 08:53:25 - Creating new cluster name, Hpcc-TD6U.
+2017/03/07 08:53:25 - Creating Hpcc-TD6U security group.
+2017/03/07 08:53:27 - Creating Hpcc-TD6U key pair.
+2017/03/07 08:53:28 - Launching 4 m1.large nodes using ami-8f40f8ef.
+2017/03/07 08:53:29 - Reservation ID r-0b7586abf258607ea created.
+2017/03/07 08:53:29 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:53:36 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:53:41 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:53:47 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:53:53 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:53:58 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:04 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:09 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:15 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:20 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:26 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:31 - Waiting for 4 of 4 nodes to launch.
+2017/03/07 08:54:37 - Waiting for 2 of 4 nodes to launch.
+2017/03/07 08:54:43 - Waiting for 1 of 4 nodes to launch.
+2017/03/07 08:54:48 - Pending instances have completed.
+2017/03/07 08:54:48 - Checking each node launched properly.
+2017/03/07 08:54:48 - 54.186.77.100:   Checking EC2 instance i-0246d705e43a7c4fc.
+2017/03/07 08:54:48 - 54.212.247.215:  Checking EC2 instance i-0d3f68e6af3bf9b5a.
+2017/03/07 08:54:48 - 54.190.193.33:   Checking EC2 instance i-0c7056eaab847cd69.
+2017/03/07 08:54:48 - 54.190.200.240:  Checking EC2 instance i-09f9d508ac70b1caa.
+2017/03/07 08:54:48 - 54.186.77.100:   Checking EC2 instance is running.
+2017/03/07 08:54:48 - 54.186.77.100:   Connecting via SSH.
+2017/03/07 08:54:48 - 54.190.200.240:  Checking EC2 instance is running.
+2017/03/07 08:54:48 - 54.190.200.240:  Connecting via SSH.
+2017/03/07 08:54:48 - 54.212.247.215:  Checking EC2 instance is running.
+2017/03/07 08:54:48 - 54.212.247.215:  Connecting via SSH.
+2017/03/07 08:54:48 - 54.190.200.240:  Waiting on SSH connection.
+2017/03/07 08:54:48 - 54.190.193.33:   Checking EC2 instance is running.
+2017/03/07 08:54:48 - 54.190.193.33:   Connecting via SSH.
+2017/03/07 08:54:50 - 54.190.193.33:   Checking software installation completed.
+2017/03/07 08:54:51 - 54.212.247.215:  Checking software installation completed.
+2017/03/07 08:54:51 - 54.190.193.33:   Waiting for software to install.
+2017/03/07 08:54:51 - 54.212.247.215:  Waiting for software to install.
+2017/03/07 08:55:01 - 54.190.193.33:   Software installation finished.
+2017/03/07 08:55:01 - 54.190.193.33:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:55:01 - 54.190.200.240:  Checking software installation completed.
+2017/03/07 08:55:01 - 54.212.247.215:  Software installation finished.
+2017/03/07 08:55:01 - 54.212.247.215:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:55:01 - 54.190.193.33:   Checking file contents.
+2017/03/07 08:55:02 - 54.190.200.240:  Software installation finished.
+2017/03/07 08:55:02 - 54.190.200.240:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:55:02 - 54.190.193.33:   Remote file contents confirmed.
+2017/03/07 08:55:02 - 54.212.247.215:  Checking file contents.
+2017/03/07 08:55:02 - 54.190.200.240:  Checking file contents.
+2017/03/07 08:55:02 - 54.212.247.215:  Remote file contents confirmed.
+2017/03/07 08:55:02 - 54.190.200.240:  Remote file contents confirmed.
+2017/03/07 08:55:02 - 54.190.193.33:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:55:02 - 54.190.193.33:   Completed check of node 54.190.193.33.
+2017/03/07 08:55:03 - 54.212.247.215:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:55:03 - 54.212.247.215:  Completed check of node 54.212.247.215.
+2017/03/07 08:55:03 - 54.190.200.240:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:55:03 - 54.190.200.240:  Completed check of node 54.190.200.240.
+2017/03/07 08:55:03 - 54.186.77.100:   Waiting on SSH connection.
+2017/03/07 08:55:08 - 54.186.77.100:   Waiting on SSH connection.
+2017/03/07 08:55:14 - 54.186.77.100:   Waiting on SSH connection.
+2017/03/07 08:55:19 - 54.186.77.100:   Waiting on SSH connection.
+2017/03/07 08:55:24 - 54.186.77.100:   Waiting on SSH connection.
+2017/03/07 08:55:37 - 54.186.77.100:   Checking software installation completed.
+2017/03/07 08:55:39 - 54.186.77.100:   Waiting for software to install.
+2017/03/07 08:55:49 - 54.186.77.100:   Waiting for software to install.
+2017/03/07 08:55:59 - 54.186.77.100:   Software installation finished.
+2017/03/07 08:55:59 - 54.186.77.100:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:00 - 54.186.77.100:   Checking file contents.
+2017/03/07 08:56:00 - 54.186.77.100:   Remote file contents confirmed.
+2017/03/07 08:56:01 - 54.186.77.100:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:01 - 54.186.77.100:   Completed check of node 54.186.77.100.
+2017/03/07 08:56:01 - Determining availability zone.
+2017/03/07 08:56:01 - Gathering public and private ip addresses.
+2017/03/07 08:56:01 - Connecting to node 54.186.77.100 for cluster configuration.
+2017/03/07 08:56:01 - Connecting via SSH.
+2017/03/07 08:56:09 - Checking software installation completed.
+2017/03/07 08:56:09 - Software installation finished.
+2017/03/07 08:56:09 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:09 - Checking file contents.
+2017/03/07 08:56:10 - Remote file contents confirmed.
+2017/03/07 08:56:10 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:10 - Writing cluster private ip addresses to file on instance.
+2017/03/07 08:56:10 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/03/07 08:56:11 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/03/07 08:56:11 - Checking file contents.
+2017/03/07 08:56:11 - Remote file contents confirmed.
+2017/03/07 08:56:11 - Running envgen
+2017/03/07 08:56:12 - Reading the config file.
+2017/03/07 08:56:13 - Retrieving IP address of ESP Server.
+2017/03/07 08:56:13 - ESP Server private IP address: 172.31.31.177.
+2017/03/07 08:56:13 - ESP Server public IP address: 54.186.77.100.
+2017/03/07 08:56:13 - 54.212.247.215:  Starting node configuration.
+2017/03/07 08:56:13 - 54.212.247.215:  Connecting via SSH.
+2017/03/07 08:56:13 - 54.186.77.100:   Starting node configuration.
+2017/03/07 08:56:13 - 54.190.193.33:   Starting node configuration.
+2017/03/07 08:56:13 - 54.190.193.33:   Connecting via SSH.
+2017/03/07 08:56:13 - 54.186.77.100:   Connecting via SSH.
+2017/03/07 08:56:13 - 54.190.200.240:  Starting node configuration.
+2017/03/07 08:56:13 - 54.190.200.240:  Connecting via SSH.
+2017/03/07 08:56:15 - 54.190.200.240:  Checking software installation completed.
+2017/03/07 08:56:15 - 54.186.77.100:   Checking software installation completed.
+2017/03/07 08:56:15 - 54.186.77.100:   Software installation finished.
+2017/03/07 08:56:15 - 54.186.77.100:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:15 - 54.190.200.240:  Software installation finished.
+2017/03/07 08:56:15 - 54.190.200.240:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:15 - 54.186.77.100:   Checking file contents.
+2017/03/07 08:56:15 - 54.190.200.240:  Checking file contents.
+2017/03/07 08:56:16 - 54.186.77.100:   Remote file contents confirmed.
+2017/03/07 08:56:16 - 54.190.200.240:  Remote file contents confirmed.
+2017/03/07 08:56:16 - 54.186.77.100:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:16 - 54.186.77.100:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/07 08:56:16 - 54.190.200.240:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:16 - 54.190.200.240:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/07 08:56:17 - 54.186.77.100:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/07 08:56:17 - 54.190.200.240:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/07 08:56:17 - 54.186.77.100:   Checking file contents.
+2017/03/07 08:56:17 - 54.190.200.240:  Checking file contents.
+2017/03/07 08:56:18 - 54.186.77.100:   Remote file contents confirmed.
+2017/03/07 08:56:18 - 54.186.77.100:   Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/07 08:56:18 - 54.190.200.240:  Remote file contents confirmed.
+2017/03/07 08:56:18 - 54.190.200.240:  Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/07 08:56:20 - 54.190.193.33:   Checking software installation completed.
+2017/03/07 08:56:20 - 54.212.247.215:  Checking software installation completed.
+2017/03/07 08:56:20 - 54.190.193.33:   Software installation finished.
+2017/03/07 08:56:20 - 54.190.193.33:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:20 - 54.212.247.215:  Software installation finished.
+2017/03/07 08:56:20 - 54.212.247.215:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/07 08:56:21 - 54.190.193.33:   Checking file contents.
+2017/03/07 08:56:21 - 54.190.193.33:   Remote file contents confirmed.
+2017/03/07 08:56:21 - 54.212.247.215:  Checking file contents.
+2017/03/07 08:56:21 - 54.212.247.215:  Remote file contents confirmed.
+2017/03/07 08:56:22 - 54.190.193.33:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:22 - 54.190.193.33:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/07 08:56:22 - 54.212.247.215:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/07 08:56:22 - 54.212.247.215:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/07 08:56:22 - 54.190.193.33:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/07 08:56:23 - 54.190.193.33:   Checking file contents.
+2017/03/07 08:56:23 - 54.212.247.215:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/07 08:56:23 - 54.190.193.33:   Remote file contents confirmed.
+2017/03/07 08:56:23 - 54.190.193.33:   Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/07 08:56:23 - 54.212.247.215:  Checking file contents.
+2017/03/07 08:56:24 - 54.212.247.215:  Remote file contents confirmed.
+2017/03/07 08:56:24 - 54.212.247.215:  Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/07 08:56:30 - 54.212.247.215:  Starting mydafilesrv ...       [   OK    ]   
+2017/03/07 08:56:30 - 54.212.247.215:  Starting mydali ...            [   OK    ]   
+2017/03/07 08:56:30 - 54.212.247.215:  Starting myeclscheduler ...    [   OK    ]  
+2017/03/07 08:56:30 - 54.212.247.215:  Start node is complete.
+2017/03/07 08:56:30 - 54.190.193.33:   Starting mydafilesrv ...       [   OK    ]   
+2017/03/07 08:56:30 - 54.190.193.33:   Starting mydfuserver ...       [   OK    ]   
+2017/03/07 08:56:30 - 54.190.193.33:   Starting mysasha ...           [   OK    ]  
+2017/03/07 08:56:30 - 54.190.193.33:   Start node is complete.
+2017/03/07 08:56:33 - 54.190.200.240:  Starting mydafilesrv ...       [   OK    ]   
+2017/03/07 08:56:33 - 54.190.200.240:  Starting myeclagent ...        [   OK    ]  
+2017/03/07 08:56:33 - 54.190.200.240:  Start node is complete.
+2017/03/07 08:56:37 - 54.186.77.100:   Starting mydafilesrv ...       [   OK    ]   
+2017/03/07 08:56:37 - 54.186.77.100:   Starting myeclccserver ...     [   OK    ]   
+2017/03/07 08:56:37 - 54.186.77.100:   Starting myesp ...             [   OK    ]   
+2017/03/07 08:56:37 - 54.186.77.100:   Starting mythor ...            [   OK    ]  
+2017/03/07 08:56:37 - 54.186.77.100:   Start node is complete.
+2017/03/07 08:56:37 - Done.
+2017/03/07 09:01:54 - Terminating cluster.
+2017/03/07 09:01:54 - Connecting to AWS region us-west-2.
+2017/03/07 09:01:54 - Gathering instances for Hpcc-TD6U.
+2017/03/07 09:01:54 - Terminating instances.
+2017/03/07 09:01:54 - Deleting Access Key Hpcc-TD6U.
+2017/03/07 09:01:55 - Deleting Security group Hpcc-TD6U.
+2017/03/07 09:01:55 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-dee5cba6 has a dependent object
+                      requestId: ffa7a004-0147-4654-8f58-2a92bab35b6b

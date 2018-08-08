@@ -1,0 +1,91 @@
+2015/07/29 18:07:20 - Connecting to AWS region us-west-2.
+2015/07/29 18:07:20 - Checking storage IDs exist in region us-west-2: snap-c180bd92
+2015/07/29 18:07:21 - Calculating new unique cluster name for request 1134.
+2015/07/29 18:07:21 - Creating new cluster name, Hpcc-Y4EV.
+2015/07/29 18:07:21 - Creating Hpcc-Y4EV security group.
+2015/07/29 18:07:23 - Creating Hpcc-Y4EV key pair.
+2015/07/29 18:07:23 - Launching 1 m1.large nodes using ami-610d2351.
+2015/07/29 18:07:24 - Reservation ID r-9556b662 created.
+2015/07/29 18:07:24 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:29 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:34 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:39 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:45 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:50 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:07:55 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:08:00 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:08:05 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:08:10 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:08:15 - Waiting for 1 of 1 nodes to launch.
+2015/07/29 18:08:21 - Pending instances have completed.
+2015/07/29 18:08:21 - Checking each node launched properly.
+2015/07/29 18:08:21 - 52.25.212.160:   Checking EC2 instance i-2ba953dd.
+2015/07/29 18:08:21 - 52.25.212.160:   Checking EC2 instance is running.
+2015/07/29 18:08:21 - 52.25.212.160:   Connecting via SSH.
+2015/07/29 18:08:24 - 52.25.212.160:   Waiting on SSH connection.
+2015/07/29 18:08:36 - 52.25.212.160:   Checking software installation completed.
+2015/07/29 18:08:36 - 52.25.212.160:   Software installation finished.
+2015/07/29 18:08:36 - 52.25.212.160:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/29 18:08:37 - 52.25.212.160:   Checking file contents.
+2015/07/29 18:08:37 - 52.25.212.160:   Remote file contents confirmed.
+2015/07/29 18:08:37 - 52.25.212.160:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/29 18:08:37 - 52.25.212.160:   Completed check of node 52.25.212.160.
+2015/07/29 18:08:37 - Determining availability zone.
+2015/07/29 18:08:37 - Gathering public and private ip addresses.
+2015/07/29 18:08:37 - Connecting to node 52.25.212.160 for cluster configuration.
+2015/07/29 18:08:37 - Connecting via SSH.
+2015/07/29 18:08:39 - Checking software installation completed.
+2015/07/29 18:08:39 - Software installation finished.
+2015/07/29 18:08:39 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/29 18:08:40 - Checking file contents.
+2015/07/29 18:08:40 - Remote file contents confirmed.
+2015/07/29 18:08:40 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/29 18:08:40 - Writing cluster private ip addresses to file on instance.
+2015/07/29 18:08:40 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/07/29 18:08:41 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/07/29 18:08:41 - Checking file contents.
+2015/07/29 18:08:42 - Remote file contents confirmed.
+2015/07/29 18:08:42 - Running envgen
+2015/07/29 18:08:43 - Reading the config file.
+2015/07/29 18:08:43 - Retrieving IP address of ESP Server.
+2015/07/29 18:08:43 - ESP Server private IP address: 172.31.16.233.
+2015/07/29 18:08:43 - ESP Server public IP address: 52.25.212.160.
+2015/07/29 18:08:43 - Attaching storage devices to the Landing Zone: snap-c180bd92
+2015/07/29 18:08:44 - Waiting for volumes to become available.
+2015/07/29 18:08:50 - Connecting via SSH.
+2015/07/29 18:08:51 - Waiting for EC2 instance to see storage device.
+2015/07/29 18:08:58 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-c180bd92/.
+2015/07/29 18:08:58 - 52.25.212.160:   Starting node configuration.
+2015/07/29 18:08:58 - 52.25.212.160:   Connecting via SSH.
+2015/07/29 18:08:59 - 52.25.212.160:   Checking software installation completed.
+2015/07/29 18:08:59 - 52.25.212.160:   Software installation finished.
+2015/07/29 18:08:59 - 52.25.212.160:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/29 18:09:00 - 52.25.212.160:   Checking file contents.
+2015/07/29 18:09:00 - 52.25.212.160:   Remote file contents confirmed.
+2015/07/29 18:09:01 - 52.25.212.160:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/29 18:09:01 - 52.25.212.160:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/29 18:09:01 - 52.25.212.160:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/29 18:09:02 - 52.25.212.160:   Checking file contents.
+2015/07/29 18:09:02 - 52.25.212.160:   Remote file contents confirmed.
+2015/07/29 18:09:02 - 52.25.212.160:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/29 18:09:20 - 52.25.212.160:   Starting mydafilesrv....       [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting mydali....            [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting mydfuserver....       [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting myeclagent....        [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting myeclccserver....     [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting myeclscheduler....    [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting myesp....             [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting mysasha....           [  OK  ]   
+2015/07/29 18:09:20 - 52.25.212.160:   Starting mythor....            [  OK  ]  
+2015/07/29 18:09:20 - 52.25.212.160:   Start node is complete.
+2015/07/29 18:09:20 - Done.
+2015/07/29 18:10:13 - Terminating cluster.
+2015/07/29 18:10:13 - Connecting to AWS region us-west-2.
+2015/07/29 18:10:13 - Gathering instances for Hpcc-Y4EV.
+2015/07/29 18:10:13 - Terminating instances.
+2015/07/29 18:10:13 - Deleting Access Key Hpcc-Y4EV.
+2015/07/29 18:10:14 - Deleting Security group Hpcc-Y4EV.
+2015/07/29 18:10:14 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-aa994fce has a dependent object
+                      requestId: 0ecdbf2e-4aa2-4936-8756-7ab6fddeb5e2

@@ -1,0 +1,195 @@
+2018/02/08 10:40:35 - Connecting to AWS region ap-southeast-2.
+2018/02/08 10:40:35 - Calculating new unique cluster name for request 1379.
+2018/02/08 10:40:36 - Creating new cluster name, Hpcc-XT52.
+2018/02/08 10:40:36 - Creating Hpcc-XT52 security group.
+2018/02/08 10:40:40 - Creating Hpcc-XT52 key pair.
+2018/02/08 10:40:40 - Launching 1 m1.large nodes using ami-2d10eb4f.
+2018/02/08 10:40:41 - Reservation ID r-0aca739cae6a7b58d created.
+2018/02/08 10:40:41 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:40:47 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:40:52 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:40:57 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:02 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:08 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:13 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:18 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:23 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:29 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:34 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:39 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:44 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:50 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:41:55 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:00 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:05 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:11 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:16 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:21 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:26 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:31 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:37 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:42:42 - Pending instances have completed.
+2018/02/08 10:42:42 - Checking each node launched properly.
+2018/02/08 10:42:42 - 54.252.12.254:   Checking EC2 instance i-071db0b54c700d373.
+2018/02/08 10:42:42 - 54.252.12.254:   Checking EC2 instance is running.
+2018/02/08 10:42:42 - 54.252.12.254:   Connecting via SSH.
+2018/02/08 10:43:21 - 54.252.12.254:   Checking software installation completed.
+2018/02/08 10:43:21 - 54.252.12.254:   Software installation finished.
+2018/02/08 10:43:21 - 54.252.12.254:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:43:22 - 54.252.12.254:   Checking file contents.
+2018/02/08 10:43:23 - 54.252.12.254:   Remote file contents confirmed.
+2018/02/08 10:43:25 - Unhandled error occured when checking for bad instances
+2018/02/08 10:43:25 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  8 15:43:00 ip-10-243-9-122 kernel: [    0.316000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:43:00 ip-10-243-9-122 kernel: [    0.316000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.316000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/08 10:43:25 - 54.252.12.254:   Completed check of node 54.252.12.254.
+2018/02/08 10:43:25 - Error messages found in system logs:
+/var/log/syslog:Feb  8 15:43:00 ip-10-243-9-122 kernel: [    0.316000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  8 15:43:00 ip-10-243-9-122 kernel: [    0.316000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.316000] WARNING: CPU: 1 PID: 0 at /build/linux-etl8qT/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316000]  [<ffffffff8100b00d>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/08 10:43:25 - Terminating 1 bad instances.
+2018/02/08 10:43:25 - Terminating instances.
+2018/02/08 10:43:27 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:32 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:37 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:43 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:48 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:53 - Waiting for 1 instances to terminate.
+2018/02/08 10:43:58 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:04 - Reservation ID r-08154cfa9cff2c96e created.
+2018/02/08 10:44:04 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:10 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:15 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:20 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:25 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:31 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:44:31 - Terminating cluster.
+2018/02/08 10:44:31 - Connecting to AWS region ap-southeast-2.
+2018/02/08 10:44:31 - Gathering instances for Hpcc-XT52.
+2018/02/08 10:44:32 - Terminating instances.
+2018/02/08 10:44:33 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:36 - Pending instances have completed.
+2018/02/08 10:44:36 - Checking each node launched properly.
+2018/02/08 10:44:36 - 54.252.12.254:   Checking EC2 instance i-0cd412dd42eb066ca.
+2018/02/08 10:44:36 - 54.252.12.254:   Checking EC2 instance is running.
+2018/02/08 10:44:36 - 54.252.12.254:   Node 54.252.12.254 failed to launch properly.
+2018/02/08 10:44:36 - 54.252.12.254:   Error - Node 54.252.12.254 failed check.
+2018/02/08 10:44:36 - 54.252.12.254:   Completed check of node 54.252.12.254.
+2018/02/08 10:44:36 - Terminating 1 bad instances.
+2018/02/08 10:44:36 - Terminating instances.
+2018/02/08 10:44:37 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:38 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:42 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:43 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:47 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:48 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:52 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:54 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:58 - Waiting for 1 instances to terminate.
+2018/02/08 10:44:59 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:03 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:04 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:08 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:09 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:13 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:15 - Waiting for 1 instances to terminate.
+2018/02/08 10:45:19 - Reservation ID r-062a857a12fa7a72d created.
+2018/02/08 10:45:19 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:20 - Deleting Access Key Hpcc-XT52.
+2018/02/08 10:45:20 - Deleting Security group Hpcc-XT52.
+2018/02/08 10:45:21 - An exception occured.
+                      Amazon Error: InvalidGroup.InUse
+                      There are active instances using security group 'Hpcc-XT52'
+                      requestId: 908b38ec-c595-44aa-a8e6-a3e7be9e7199
+2018/02/08 10:45:25 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:30 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:35 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:40 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:45 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:51 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:45:56 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:46:01 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:46:07 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:46:12 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:46:17 - Waiting for 1 of 1 nodes to launch.
+2018/02/08 10:46:22 - Pending instances have completed.
+2018/02/08 10:46:22 - Checking each node launched properly.
+2018/02/08 10:46:22 - 54.252.12.254:   Checking EC2 instance i-0bbc05a85f65f16b2.
+2018/02/08 10:46:23 - 54.252.12.254:   Checking EC2 instance is running.
+2018/02/08 10:46:23 - 54.252.12.254:   Connecting via SSH.
+2018/02/08 10:47:01 - 54.252.12.254:   Checking software installation completed.
+2018/02/08 10:47:02 - 54.252.12.254:   Software installation finished.
+2018/02/08 10:47:02 - 54.252.12.254:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:47:03 - 54.252.12.254:   Checking file contents.
+2018/02/08 10:47:04 - 54.252.12.254:   Remote file contents confirmed.
+2018/02/08 10:47:05 - 54.252.12.254:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/02/08 10:47:05 - 54.252.12.254:   Completed check of node 54.252.12.254.
+2018/02/08 10:47:05 - Determining availability zone.
+2018/02/08 10:47:05 - Gathering public and private ip addresses.
+2018/02/08 10:47:05 - Connecting to node 54.252.12.254 for cluster configuration.
+2018/02/08 10:47:05 - Connecting via SSH.
+2018/02/08 10:47:08 - Checking software installation completed.
+2018/02/08 10:47:08 - Software installation finished.
+2018/02/08 10:47:08 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:47:10 - Checking file contents.
+2018/02/08 10:47:10 - Remote file contents confirmed.
+2018/02/08 10:47:12 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/02/08 10:47:12 - Writing cluster private ip addresses to file on instance.
+2018/02/08 10:47:12 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/02/08 10:47:13 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/02/08 10:47:14 - Checking file contents.
+2018/02/08 10:47:14 - Remote file contents confirmed.
+2018/02/08 10:47:14 - Running envgen
+2018/02/08 10:47:15 - Reading the config file.
+2018/02/08 10:47:16 - Retrieving IP address of ESP Server.
+2018/02/08 10:47:17 - ESP Server private IP address: 10.243.9.122.
+2018/02/08 10:47:17 - ESP Server public IP address: 54.252.12.254.
+2018/02/08 10:47:17 - 54.252.12.254:   Starting node configuration.
+2018/02/08 10:47:17 - 54.252.12.254:   Connecting via SSH.
+2018/02/08 10:47:20 - 54.252.12.254:   Checking software installation completed.
+2018/02/08 10:47:20 - 54.252.12.254:   Software installation finished.
+2018/02/08 10:47:20 - 54.252.12.254:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/08 10:47:21 - 54.252.12.254:   Checking file contents.
+2018/02/08 10:47:22 - 54.252.12.254:   Remote file contents confirmed.
+2018/02/08 10:47:24 - 54.252.12.254:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/02/08 10:47:24 - 54.252.12.254:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/02/08 10:47:26 - 54.252.12.254:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/02/08 10:47:26 - 54.252.12.254:   Checking file contents.
+2018/02/08 10:47:27 - 54.252.12.254:   Remote file contents confirmed.
+2018/02/08 10:47:27 - 54.252.12.254:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/02/08 10:48:20 - 54.252.12.254:   Starting mydafilesrv ...       [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting mydali ...            [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting mydfuserver ...       [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting myeclagent ...        [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting myeclccserver ...     [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting myeclscheduler ...    [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting myesp ...             [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting mysasha ...           [   OK    ]   
+2018/02/08 10:48:20 - 54.252.12.254:   Starting mythor ...            [   OK    ]  
+2018/02/08 10:48:20 - 54.252.12.254:   Start node is complete.
+2018/02/08 10:48:20 - Done.
+2018/03/30 10:26:01 - Terminating cluster.
+2018/03/30 10:26:01 - Connecting to AWS region ap-southeast-2.
+2018/03/30 10:26:01 - Gathering instances for Hpcc-XT52.
+2018/03/30 10:26:02 - Terminating instances.
+2018/03/30 10:26:03 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:08 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:13 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:19 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:24 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:29 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:34 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:40 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:45 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:50 - Waiting for 1 instances to terminate.
+2018/03/30 10:26:55 - Deleting Access Key Hpcc-XT52.
+2018/03/30 10:26:56 - Error: Access key not found.
+2018/03/30 10:26:56 - Deleting Security group Hpcc-XT52.
+2018/03/30 10:26:57 - Done.

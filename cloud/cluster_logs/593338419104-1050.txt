@@ -1,0 +1,95 @@
+2015/03/29 21:09:03 - Connecting to AWS region us-west-2.
+2015/03/29 21:09:03 - Calculating new unique cluster name for request 1050.
+2015/03/29 21:09:04 - Creating new cluster name, Hpcc-ETN8.
+2015/03/29 21:09:04 - Creating Hpcc-ETN8 security group.
+2015/03/29 21:09:06 - Creating Hpcc-ETN8 key pair.
+2015/03/29 21:09:06 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/03/29 21:09:07 - Reservation ID r-f287e0f8 created.
+2015/03/29 21:09:07 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:12 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:17 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:22 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:27 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:32 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:38 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:43 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:48 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:53 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:09:58 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:10:03 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 21:10:08 - Pending instances have completed.
+2015/03/29 21:10:08 - Checking each node launched properly.
+2015/03/29 21:10:08 - 54.189.252.207:  Checking EC2 instance i-a88d20a5.
+2015/03/29 21:10:08 - 54.189.252.207:  Checking EC2 instance is running.
+2015/03/29 21:10:08 - 54.189.252.207:  Connecting via SSH.
+2015/03/29 21:10:12 - 54.189.252.207:  Waiting on SSH connection.
+2015/03/29 21:10:24 - 54.189.252.207:  Checking software installation completed.
+2015/03/29 21:10:24 - 54.189.252.207:  Software installation finished.
+2015/03/29 21:10:24 - 54.189.252.207:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 21:10:24 - 54.189.252.207:  Checking file contents.
+2015/03/29 21:10:25 - 54.189.252.207:  Remote file contents confirmed.
+2015/03/29 21:10:25 - 54.189.252.207:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 21:10:25 - 54.189.252.207:  Completed check of node 54.189.252.207.
+2015/03/29 21:10:25 - Determining availability zone.
+2015/03/29 21:10:25 - Gathering public and private ip addresses.
+2015/03/29 21:10:25 - Connecting to node 54.189.252.207 for cluster configuration.
+2015/03/29 21:10:25 - Connecting via SSH.
+2015/03/29 21:10:27 - Checking software installation completed.
+2015/03/29 21:10:27 - Software installation finished.
+2015/03/29 21:10:27 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 21:10:27 - Checking file contents.
+2015/03/29 21:10:28 - Remote file contents confirmed.
+2015/03/29 21:10:28 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 21:10:28 - Writing cluster private ip addresses to file on instance.
+2015/03/29 21:10:28 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/29 21:10:29 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/29 21:10:29 - Checking file contents.
+2015/03/29 21:10:29 - Remote file contents confirmed.
+2015/03/29 21:10:29 - Running envgen
+2015/03/29 21:10:30 - Reading the config file.
+2015/03/29 21:10:31 - Retrieving IP address of ESP Server.
+2015/03/29 21:10:31 - ESP Server private IP address: 10.253.77.38.
+2015/03/29 21:10:31 - ESP Server public IP address: 54.189.252.207.
+2015/03/29 21:10:31 - 54.189.252.207:  Starting node configuration.
+2015/03/29 21:10:31 - 54.189.252.207:  Connecting via SSH.
+2015/03/29 21:10:32 - 54.189.252.207:  Checking software installation completed.
+2015/03/29 21:10:33 - 54.189.252.207:  Software installation finished.
+2015/03/29 21:10:33 - 54.189.252.207:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 21:10:33 - 54.189.252.207:  Checking file contents.
+2015/03/29 21:10:33 - 54.189.252.207:  Remote file contents confirmed.
+2015/03/29 21:10:34 - 54.189.252.207:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 21:10:34 - 54.189.252.207:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/29 21:10:35 - 54.189.252.207:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/29 21:10:35 - 54.189.252.207:  Checking file contents.
+2015/03/29 21:10:35 - 54.189.252.207:  Remote file contents confirmed.
+2015/03/29 21:10:35 - 54.189.252.207:  Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/29 21:11:02 - 54.189.252.207:  Starting mydafilesrv....       [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting mydali....            [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting mydfuserver....       [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting myeclagent....        [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting myeclccserver....     [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting myeclscheduler....    [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting myesp....             [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting mysasha....           [  OK  ]   
+2015/03/29 21:11:02 - 54.189.252.207:  Starting mythor....            [  OK  ]  
+2015/03/29 21:11:02 - 54.189.252.207:  Start node is complete.
+2015/03/29 21:11:02 - Done.
+2015/03/30 09:54:34 - Terminating cluster.
+2015/03/30 09:54:34 - Connecting to AWS region us-west-2.
+2015/03/30 09:54:34 - Gathering instances for Hpcc-ETN8.
+2015/03/30 09:54:34 - Terminating instances.
+2015/03/30 09:54:34 - Waiting for 1 instances to terminate.
+2015/03/30 09:54:40 - Waiting for 1 instances to terminate.
+2015/03/30 09:54:45 - Waiting for 1 instances to terminate.
+2015/03/30 09:54:50 - Waiting for 1 instances to terminate.
+2015/03/30 09:54:55 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:00 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:05 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:10 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:16 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:21 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:26 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:31 - Waiting for 1 instances to terminate.
+2015/03/30 09:55:36 - Deleting Access Key Hpcc-ETN8.
+2015/03/30 09:55:36 - Deleting Security group Hpcc-ETN8.
+2015/03/30 09:55:37 - Done.

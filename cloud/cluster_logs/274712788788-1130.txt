@@ -1,0 +1,327 @@
+2015/07/20 22:59:27 - Connecting to AWS region us-east-1.
+2015/07/20 22:59:27 - Calculating new unique cluster name for request 1130.
+2015/07/20 22:59:29 - Creating new cluster name, Hpcc-VEGU.
+2015/07/20 22:59:29 - Creating Hpcc-VEGU security group.
+2015/07/20 22:59:30 - Creating Hpcc-VEGU key pair.
+2015/07/20 22:59:31 - Launching 10 m1.large nodes using ami-72ac861a.
+2015/07/20 22:59:32 - Reservation ID r-22b5d7d2 created.
+2015/07/20 22:59:32 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 22:59:38 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 22:59:43 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 22:59:49 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 22:59:55 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 23:00:00 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 23:00:06 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 23:00:12 - Waiting for 10 of 10 nodes to launch.
+2015/07/20 23:00:18 - Waiting for 9 of 10 nodes to launch.
+2015/07/20 23:00:23 - Waiting for 6 of 10 nodes to launch.
+2015/07/20 23:00:29 - Waiting for 6 of 10 nodes to launch.
+2015/07/20 23:00:34 - Waiting for 4 of 10 nodes to launch.
+2015/07/20 23:00:40 - Waiting for 3 of 10 nodes to launch.
+2015/07/20 23:00:45 - Pending instances have completed.
+2015/07/20 23:00:45 - Checking each node launched properly.
+2015/07/20 23:00:45 - 54.197.184.201:  Checking EC2 instance i-ad0d6305.
+2015/07/20 23:00:45 - 54.144.230.22:   Checking EC2 instance i-ae0d6306.
+2015/07/20 23:00:45 - 54.204.103.233:  Checking EC2 instance i-af0d6307.
+2015/07/20 23:00:45 - 54.157.243.9:    Checking EC2 instance i-a00d6308.
+2015/07/20 23:00:45 - 54.145.228.154:  Checking EC2 instance i-a10d6309.
+2015/07/20 23:00:45 - 54.211.104.83:   Checking EC2 instance i-a20d630a.
+2015/07/20 23:00:45 - 54.211.71.211:   Checking EC2 instance i-a30d630b.
+2015/07/20 23:00:45 - 54.159.143.98:   Checking EC2 instance i-a50d630d.
+2015/07/20 23:00:45 - 54.197.167.166:  Checking EC2 instance i-a40d630c.
+2015/07/20 23:00:45 - 54.158.90.80:    Checking EC2 instance i-a60d630e.
+2015/07/20 23:00:45 - 54.197.184.201:  Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.197.184.201:  Connecting via SSH.
+2015/07/20 23:00:45 - 54.197.184.201:  Waiting on SSH connection.
+2015/07/20 23:00:45 - 54.204.103.233:  Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.204.103.233:  Connecting via SSH.
+2015/07/20 23:00:45 - 54.158.90.80:    Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.158.90.80:    Connecting via SSH.
+2015/07/20 23:00:45 - 54.159.143.98:   Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.159.143.98:   Connecting via SSH.
+2015/07/20 23:00:45 - 54.144.230.22:   Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.144.230.22:   Connecting via SSH.
+2015/07/20 23:00:45 - 54.145.228.154:  Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.145.228.154:  Connecting via SSH.
+2015/07/20 23:00:45 - 54.197.167.166:  Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.197.167.166:  Connecting via SSH.
+2015/07/20 23:00:45 - 54.211.71.211:   Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.211.71.211:   Connecting via SSH.
+2015/07/20 23:00:45 - 54.157.243.9:    Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.157.243.9:    Connecting via SSH.
+2015/07/20 23:00:45 - 54.211.104.83:   Checking EC2 instance is running.
+2015/07/20 23:00:45 - 54.211.104.83:   Connecting via SSH.
+2015/07/20 23:00:46 - 54.144.230.22:   Waiting on SSH connection.
+2015/07/20 23:00:46 - 54.145.228.154:  Checking software installation completed.
+2015/07/20 23:00:46 - 54.145.228.154:  Waiting for software to install.
+2015/07/20 23:00:47 - 54.211.71.211:   Waiting on SSH connection.
+2015/07/20 23:00:51 - 54.159.143.98:   Checking software installation completed.
+2015/07/20 23:00:51 - 54.157.243.9:    Checking software installation completed.
+2015/07/20 23:00:51 - 54.159.143.98:   Software installation finished.
+2015/07/20 23:00:51 - 54.159.143.98:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:51 - 54.159.143.98:   Checking file contents.
+2015/07/20 23:00:51 - 54.159.143.98:   Remote file contents confirmed.
+2015/07/20 23:00:51 - 54.159.143.98:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:51 - 54.159.143.98:   Completed check of node 54.159.143.98.
+2015/07/20 23:00:51 - 54.158.90.80:    Checking software installation completed.
+2015/07/20 23:00:51 - 54.204.103.233:  Checking software installation completed.
+2015/07/20 23:00:51 - 54.157.243.9:    Software installation finished.
+2015/07/20 23:00:51 - 54.157.243.9:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:51 - 54.158.90.80:    Software installation finished.
+2015/07/20 23:00:51 - 54.158.90.80:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:51 - 54.157.243.9:    Checking file contents.
+2015/07/20 23:00:51 - 54.158.90.80:    Checking file contents.
+2015/07/20 23:00:52 - 54.157.243.9:    Remote file contents confirmed.
+2015/07/20 23:00:52 - 54.158.90.80:    Remote file contents confirmed.
+2015/07/20 23:00:52 - 54.157.243.9:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:52 - 54.157.243.9:    Completed check of node 54.157.243.9.
+2015/07/20 23:00:52 - 54.158.90.80:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:52 - 54.158.90.80:    Completed check of node 54.158.90.80.
+2015/07/20 23:00:52 - 54.197.167.166:  Checking software installation completed.
+2015/07/20 23:00:52 - 54.204.103.233:  Software installation finished.
+2015/07/20 23:00:52 - 54.204.103.233:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:52 - 54.204.103.233:  Checking file contents.
+2015/07/20 23:00:52 - 54.204.103.233:  Remote file contents confirmed.
+2015/07/20 23:00:52 - 54.197.167.166:  Software installation finished.
+2015/07/20 23:00:52 - 54.197.167.166:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:52 - 54.197.167.166:  Checking file contents.
+2015/07/20 23:00:52 - 54.197.167.166:  Remote file contents confirmed.
+2015/07/20 23:00:52 - 54.204.103.233:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:52 - 54.204.103.233:  Completed check of node 54.204.103.233.
+2015/07/20 23:00:52 - 54.197.167.166:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:52 - 54.197.167.166:  Completed check of node 54.197.167.166.
+2015/07/20 23:00:52 - 54.211.104.83:   Waiting on SSH connection.
+2015/07/20 23:00:56 - 54.197.184.201:  Checking software installation completed.
+2015/07/20 23:00:56 - 54.197.184.201:  Software installation finished.
+2015/07/20 23:00:56 - 54.197.184.201:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:56 - 54.197.184.201:  Checking file contents.
+2015/07/20 23:00:56 - 54.197.184.201:  Remote file contents confirmed.
+2015/07/20 23:00:56 - 54.197.184.201:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:56 - 54.197.184.201:  Completed check of node 54.197.184.201.
+2015/07/20 23:00:56 - 54.145.228.154:  Software installation finished.
+2015/07/20 23:00:56 - 54.145.228.154:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:57 - 54.145.228.154:  Checking file contents.
+2015/07/20 23:00:57 - 54.145.228.154:  Remote file contents confirmed.
+2015/07/20 23:00:57 - 54.144.230.22:   Checking software installation completed.
+2015/07/20 23:00:57 - 54.144.230.22:   Software installation finished.
+2015/07/20 23:00:57 - 54.144.230.22:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:57 - 54.144.230.22:   Checking file contents.
+2015/07/20 23:00:57 - 54.144.230.22:   Remote file contents confirmed.
+2015/07/20 23:00:57 - 54.145.228.154:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:57 - 54.145.228.154:  Completed check of node 54.145.228.154.
+2015/07/20 23:00:57 - 54.144.230.22:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:57 - 54.144.230.22:   Completed check of node 54.144.230.22.
+2015/07/20 23:00:59 - 54.211.71.211:   Checking software installation completed.
+2015/07/20 23:00:59 - 54.211.71.211:   Software installation finished.
+2015/07/20 23:00:59 - 54.211.71.211:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:00:59 - 54.211.71.211:   Checking file contents.
+2015/07/20 23:00:59 - 54.211.71.211:   Remote file contents confirmed.
+2015/07/20 23:00:59 - 54.211.71.211:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:00:59 - 54.211.71.211:   Completed check of node 54.211.71.211.
+2015/07/20 23:01:04 - 54.211.104.83:   Checking software installation completed.
+2015/07/20 23:01:04 - 54.211.104.83:   Software installation finished.
+2015/07/20 23:01:04 - 54.211.104.83:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:04 - 54.211.104.83:   Checking file contents.
+2015/07/20 23:01:04 - 54.211.104.83:   Remote file contents confirmed.
+2015/07/20 23:01:04 - 54.211.104.83:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:04 - 54.211.104.83:   Completed check of node 54.211.104.83.
+2015/07/20 23:01:04 - Determining availability zone.
+2015/07/20 23:01:04 - Gathering public and private ip addresses.
+2015/07/20 23:01:04 - Connecting to node 54.197.184.201 for cluster configuration.
+2015/07/20 23:01:04 - Connecting via SSH.
+2015/07/20 23:01:05 - Checking software installation completed.
+2015/07/20 23:01:05 - Software installation finished.
+2015/07/20 23:01:05 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:05 - Checking file contents.
+2015/07/20 23:01:05 - Remote file contents confirmed.
+2015/07/20 23:01:05 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:05 - Writing cluster private ip addresses to file on instance.
+2015/07/20 23:01:05 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/07/20 23:01:05 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/07/20 23:01:05 - Checking file contents.
+2015/07/20 23:01:05 - Remote file contents confirmed.
+2015/07/20 23:01:05 - Running envgen
+2015/07/20 23:01:06 - Reading the config file.
+2015/07/20 23:01:06 - Retrieving IP address of ESP Server.
+2015/07/20 23:01:06 - ESP Server private IP address: 10.183.166.37.
+2015/07/20 23:01:06 - ESP Server public IP address: 54.197.184.201.
+2015/07/20 23:01:06 - 54.157.243.9:    Starting node configuration.
+2015/07/20 23:01:06 - 54.211.71.211:   Starting node configuration.
+2015/07/20 23:01:06 - 54.197.167.166:  Starting node configuration.
+2015/07/20 23:01:06 - 54.144.230.22:   Starting node configuration.
+2015/07/20 23:01:06 - 54.211.104.83:   Starting node configuration.
+2015/07/20 23:01:06 - 54.197.184.201:  Starting node configuration.
+2015/07/20 23:01:06 - 54.204.103.233:  Starting node configuration.
+2015/07/20 23:01:06 - 54.157.243.9:    Connecting via SSH.
+2015/07/20 23:01:06 - 54.144.230.22:   Connecting via SSH.
+2015/07/20 23:01:06 - 54.211.104.83:   Connecting via SSH.
+2015/07/20 23:01:06 - 54.204.103.233:  Connecting via SSH.
+2015/07/20 23:01:06 - 54.197.184.201:  Connecting via SSH.
+2015/07/20 23:01:06 - 54.197.167.166:  Connecting via SSH.
+2015/07/20 23:01:06 - 54.211.71.211:   Connecting via SSH.
+2015/07/20 23:01:06 - 54.145.228.154:  Starting node configuration.
+2015/07/20 23:01:06 - 54.159.143.98:   Starting node configuration.
+2015/07/20 23:01:06 - 54.159.143.98:   Connecting via SSH.
+2015/07/20 23:01:06 - 54.158.90.80:    Starting node configuration.
+2015/07/20 23:01:06 - 54.158.90.80:    Connecting via SSH.
+2015/07/20 23:01:06 - 54.145.228.154:  Connecting via SSH.
+2015/07/20 23:01:07 - 54.158.90.80:    Checking software installation completed.
+2015/07/20 23:01:07 - 54.144.230.22:   Checking software installation completed.
+2015/07/20 23:01:07 - 54.157.243.9:    Checking software installation completed.
+2015/07/20 23:01:07 - 54.197.184.201:  Checking software installation completed.
+2015/07/20 23:01:07 - 54.158.90.80:    Software installation finished.
+2015/07/20 23:01:07 - 54.158.90.80:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.144.230.22:   Software installation finished.
+2015/07/20 23:01:07 - 54.144.230.22:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.211.71.211:   Checking software installation completed.
+2015/07/20 23:01:07 - 54.157.243.9:    Software installation finished.
+2015/07/20 23:01:07 - 54.157.243.9:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.197.184.201:  Software installation finished.
+2015/07/20 23:01:07 - 54.197.184.201:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.159.143.98:   Checking software installation completed.
+2015/07/20 23:01:07 - 54.197.167.166:  Checking software installation completed.
+2015/07/20 23:01:07 - 54.158.90.80:    Checking file contents.
+2015/07/20 23:01:07 - 54.211.71.211:   Software installation finished.
+2015/07/20 23:01:07 - 54.211.71.211:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.157.243.9:    Checking file contents.
+2015/07/20 23:01:07 - 54.159.143.98:   Software installation finished.
+2015/07/20 23:01:07 - 54.197.184.201:  Checking file contents.
+2015/07/20 23:01:07 - 54.159.143.98:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.211.104.83:   Checking software installation completed.
+2015/07/20 23:01:07 - 54.204.103.233:  Checking software installation completed.
+2015/07/20 23:01:07 - 54.197.167.166:  Software installation finished.
+2015/07/20 23:01:07 - 54.197.167.166:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.144.230.22:   Checking file contents.
+2015/07/20 23:01:07 - 54.211.104.83:   Software installation finished.
+2015/07/20 23:01:07 - 54.211.104.83:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.204.103.233:  Software installation finished.
+2015/07/20 23:01:07 - 54.204.103.233:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:07 - 54.211.71.211:   Checking file contents.
+2015/07/20 23:01:07 - 54.159.143.98:   Checking file contents.
+2015/07/20 23:01:07 - 54.211.104.83:   Checking file contents.
+2015/07/20 23:01:08 - 54.158.90.80:    Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.197.167.166:  Checking file contents.
+2015/07/20 23:01:08 - 54.157.243.9:    Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.204.103.233:  Checking file contents.
+2015/07/20 23:01:08 - 54.197.184.201:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.144.230.22:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.211.71.211:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.159.143.98:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.211.104.83:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.197.167.166:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.204.103.233:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.158.90.80:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.158.90.80:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.144.230.22:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.144.230.22:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.157.243.9:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.157.243.9:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.158.90.80:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.197.184.201:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.197.184.201:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.197.167.166:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.197.167.166:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.144.230.22:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.159.143.98:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.159.143.98:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.158.90.80:    Checking file contents.
+2015/07/20 23:01:08 - 54.211.71.211:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.211.71.211:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.157.243.9:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.204.103.233:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.204.103.233:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.144.230.22:   Checking file contents.
+2015/07/20 23:01:08 - 54.211.104.83:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:08 - 54.211.104.83:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:08 - 54.197.184.201:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.159.143.98:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.157.243.9:    Checking file contents.
+2015/07/20 23:01:08 - 54.158.90.80:    Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.158.90.80:    Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.197.167.166:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.144.230.22:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.144.230.22:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.204.103.233:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.211.71.211:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.159.143.98:   Checking file contents.
+2015/07/20 23:01:08 - 54.197.184.201:  Checking file contents.
+2015/07/20 23:01:08 - 54.211.104.83:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:08 - 54.157.243.9:    Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.157.243.9:    Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.159.143.98:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.159.143.98:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.197.184.201:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.197.184.201:  Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.197.167.166:  Checking file contents.
+2015/07/20 23:01:08 - 54.204.103.233:  Checking file contents.
+2015/07/20 23:01:08 - 54.211.71.211:   Checking file contents.
+2015/07/20 23:01:08 - 54.211.104.83:   Checking file contents.
+2015/07/20 23:01:08 - 54.197.167.166:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.197.167.166:  Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.204.103.233:  Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.204.103.233:  Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.211.104.83:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.211.104.83:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:08 - 54.211.71.211:   Remote file contents confirmed.
+2015/07/20 23:01:08 - 54.211.71.211:   Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:11 - 54.158.90.80:    Starting mydafilesrv....       [  OK  ]  
+2015/07/20 23:01:11 - 54.158.90.80:    Start node is complete.
+2015/07/20 23:01:11 - 54.159.143.98:   Starting mydafilesrv....       [  OK  ]  
+2015/07/20 23:01:11 - 54.159.143.98:   Start node is complete.
+2015/07/20 23:01:11 - 54.197.167.166:  Starting mydafilesrv....       [  OK  ]  
+2015/07/20 23:01:11 - 54.197.167.166:  Start node is complete.
+2015/07/20 23:01:12 - 54.157.243.9:    Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:12 - 54.157.243.9:    Starting myeclagent....        [  OK  ]  
+2015/07/20 23:01:12 - 54.157.243.9:    Start node is complete.
+2015/07/20 23:01:12 - 54.144.230.22:   Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:12 - 54.144.230.22:   Starting mydali....            [  OK  ]  
+2015/07/20 23:01:12 - 54.144.230.22:   Start node is complete.
+2015/07/20 23:01:13 - 54.211.71.211:   Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:13 - 54.211.71.211:   Starting mysasha....           [  OK  ]  
+2015/07/20 23:01:13 - 54.211.71.211:   Start node is complete.
+2015/07/20 23:01:13 - 54.204.103.233:  Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:13 - 54.204.103.233:  Starting mydfuserver....       [  OK  ]  
+2015/07/20 23:01:13 - 54.204.103.233:  Start node is complete.
+2015/07/20 23:01:15 - 54.211.104.83:   Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:15 - 54.211.104.83:   Starting myeclscheduler....    [  OK  ]  
+2015/07/20 23:01:15 - 54.211.104.83:   Start node is complete.
+2015/07/20 23:01:16 - 54.145.228.154:  Checking software installation completed.
+2015/07/20 23:01:16 - 54.145.228.154:  Software installation finished.
+2015/07/20 23:01:16 - 54.145.228.154:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/20 23:01:16 - 54.145.228.154:  Checking file contents.
+2015/07/20 23:01:16 - 54.145.228.154:  Remote file contents confirmed.
+2015/07/20 23:01:16 - 54.145.228.154:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/20 23:01:16 - 54.145.228.154:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/20 23:01:17 - 54.145.228.154:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/20 23:01:17 - 54.145.228.154:  Checking file contents.
+2015/07/20 23:01:17 - 54.145.228.154:  Remote file contents confirmed.
+2015/07/20 23:01:17 - 54.145.228.154:  Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/20 23:01:25 - 54.197.184.201:  Starting mydafilesrv....       [  OK  ]   
+2015/07/20 23:01:25 - 54.197.184.201:  Starting myesp....             [  OK  ]   
+2015/07/20 23:01:25 - 54.197.184.201:  Starting mythor....            [  OK  ]  
+2015/07/20 23:01:25 - 54.197.184.201:  Start node is complete.
+2015/07/20 23:01:26 - 54.145.228.154:  Starting mydafilesrv....      [31m [FAILED] 
+2015/07/20 23:01:26 - An exception occured.
+                      ClusterError: Service failed to start.
+2015/07/20 23:01:26 - 54.145.228.154:  Start node is complete.
+2015/07/20 23:01:26 - Service failed to start.
+2015/07/20 23:01:26 - Done.
+2015/07/28 01:50:49 - Terminating cluster.
+2015/07/28 01:50:49 - Connecting to AWS region us-east-1.
+2015/07/28 01:50:49 - Gathering instances for Hpcc-VEGU.
+2015/07/28 01:50:50 - Terminating instances.
+2015/07/28 01:50:53 - Waiting for 10 instances to terminate.
+2015/07/28 01:50:59 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:04 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:10 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:16 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:22 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:28 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:34 - Waiting for 10 instances to terminate.
+2015/07/28 01:51:40 - Waiting for 4 instances to terminate.
+2015/07/28 01:51:45 - Waiting for 1 instances to terminate.
+2015/07/28 01:51:50 - Waiting for 1 instances to terminate.
+2015/07/28 01:51:55 - Waiting for 1 instances to terminate.
+2015/07/28 01:52:00 - Deleting Access Key Hpcc-VEGU.
+2015/07/28 01:52:01 - Deleting Security group Hpcc-VEGU.
+2015/07/28 01:52:01 - Done.

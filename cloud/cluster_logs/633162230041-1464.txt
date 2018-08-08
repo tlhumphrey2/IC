@@ -1,0 +1,94 @@
+2018/08/06 14:15:17 - Connecting to AWS region sa-east-1.
+2018/08/06 14:15:17 - Calculating new unique cluster name for request 1464.
+2018/08/06 14:15:18 - Creating new cluster name, Hpcc-9PYJ.
+2018/08/06 14:15:18 - Creating Hpcc-9PYJ security group.
+2018/08/06 14:15:22 - Creating Hpcc-9PYJ key pair.
+2018/08/06 14:15:22 - Launching 1 m1.large nodes using ami-0c8ec5116f4c7eb38.
+2018/08/06 14:15:24 - Reservation ID r-09d358dda58187142 created.
+2018/08/06 14:15:24 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:29 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:34 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:39 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:44 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:50 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:15:55 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:00 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:05 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:11 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:16 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:21 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:26 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:31 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:37 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 14:16:42 - Pending instances have completed.
+2018/08/06 14:16:42 - Checking each node launched properly.
+2018/08/06 14:16:42 - 54.207.233.104:  Checking EC2 instance i-00d3b70965c343f05.
+2018/08/06 14:16:42 - 54.207.233.104:  Checking EC2 instance is running.
+2018/08/06 14:16:42 - 54.207.233.104:  Connecting via SSH.
+2018/08/06 14:16:52 - 54.207.233.104:  Waiting on SSH connection.
+2018/08/06 14:17:05 - 54.207.233.104:  Checking software installation completed.
+2018/08/06 14:17:05 - 54.207.233.104:  Software installation finished.
+2018/08/06 14:17:05 - 54.207.233.104:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 14:17:06 - 54.207.233.104:  Checking file contents.
+2018/08/06 14:17:06 - 54.207.233.104:  Remote file contents confirmed.
+2018/08/06 14:17:07 - 54.207.233.104:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 14:17:07 - 54.207.233.104:  Completed check of node 54.207.233.104.
+2018/08/06 14:17:07 - Determining availability zone.
+2018/08/06 14:17:07 - Gathering public and private ip addresses.
+2018/08/06 14:17:07 - Connecting to node 54.207.233.104 for cluster configuration.
+2018/08/06 14:17:07 - Connecting via SSH.
+2018/08/06 14:17:09 - Checking software installation completed.
+2018/08/06 14:17:10 - Software installation finished.
+2018/08/06 14:17:10 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 14:17:10 - Checking file contents.
+2018/08/06 14:17:11 - Remote file contents confirmed.
+2018/08/06 14:17:12 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 14:17:12 - Writing cluster private ip addresses to file on instance.
+2018/08/06 14:17:12 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/06 14:17:13 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/06 14:17:13 - Checking file contents.
+2018/08/06 14:17:14 - Remote file contents confirmed.
+2018/08/06 14:17:14 - Running envgen
+2018/08/06 14:17:15 - Reading the config file.
+2018/08/06 14:17:15 - Retrieving IP address of ESP Server.
+2018/08/06 14:17:16 - ESP Server private IP address: 10.157.2.98.
+2018/08/06 14:17:16 - ESP Server public IP address: 54.207.233.104.
+2018/08/06 14:17:16 - 54.207.233.104:  Starting node configuration.
+2018/08/06 14:17:16 - 54.207.233.104:  Connecting via SSH.
+2018/08/06 14:17:17 - 54.207.233.104:  Checking software installation completed.
+2018/08/06 14:17:18 - 54.207.233.104:  Software installation finished.
+2018/08/06 14:17:18 - 54.207.233.104:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 14:17:19 - 54.207.233.104:  Checking file contents.
+2018/08/06 14:17:19 - 54.207.233.104:  Remote file contents confirmed.
+2018/08/06 14:17:20 - 54.207.233.104:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 14:17:20 - 54.207.233.104:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/06 14:17:22 - 54.207.233.104:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/06 14:17:22 - 54.207.233.104:  Checking file contents.
+2018/08/06 14:17:23 - 54.207.233.104:  Remote file contents confirmed.
+2018/08/06 14:17:23 - 54.207.233.104:  Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/06 14:17:44 - 54.207.233.104:  Starting mydafilesrv ...       [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting mydali ...            [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting mydfuserver ...       [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting myeclagent ...        [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting myeclccserver ...     [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting myeclscheduler ...    [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting myesp ...             [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting mysasha ...           [   OK    ]   
+2018/08/06 14:17:44 - 54.207.233.104:  Starting mythor ...            [   OK    ]  
+2018/08/06 14:17:44 - 54.207.233.104:  Start node is complete.
+2018/08/06 14:17:44 - Done.
+2018/08/06 15:29:14 - Terminating cluster.
+2018/08/06 15:29:14 - Connecting to AWS region sa-east-1.
+2018/08/06 15:29:14 - Gathering instances for Hpcc-9PYJ.
+2018/08/06 15:29:15 - Terminating instances.
+2018/08/06 15:29:15 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:20 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:26 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:31 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:36 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:41 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:46 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:52 - Waiting for 1 instances to terminate.
+2018/08/06 15:29:57 - Deleting Access Key Hpcc-9PYJ.
+2018/08/06 15:29:57 - Deleting Security group Hpcc-9PYJ.
+2018/08/06 15:29:58 - Done.

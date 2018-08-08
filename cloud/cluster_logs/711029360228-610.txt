@@ -1,0 +1,124 @@
+2013/05/22 08:23:13 - Connecting to AWS region us-east-1.
+2013/05/22 08:23:13 - Calculating new unique cluster name for request 610.
+2013/05/22 08:23:21 - Creating new cluster name, Hpcc-MPBJ.
+2013/05/22 08:23:21 - Creating Hpcc-MPBJ security group.
+2013/05/22 08:23:23 - Creating Hpcc-MPBJ key pair.
+2013/05/22 08:23:24 - Launching 1 m1.large nodes using ami-eff29086.
+2013/05/22 08:23:25 - Reservation ID r-2c615743 created.
+2013/05/22 08:23:25 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:30 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:35 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:40 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:45 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:50 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:23:55 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:00 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:06 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:11 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:16 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:21 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:26 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:31 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:36 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:24:41 - Pending instances have completed.
+2013/05/22 08:24:41 - Checking each node launched properly.
+2013/05/22 08:24:41 - 107.20.88.33:    Checking EC2 instance i-8ec584eb.
+2013/05/22 08:24:41 - 107.20.88.33:    Checking EC2 instance is running.
+2013/05/22 08:24:41 - 107.20.88.33:    Connecting via SSH.
+2013/05/22 08:24:44 - 107.20.88.33:    Waiting on SSH connection.
+2013/05/22 08:24:49 - 107.20.88.33:    Waiting on SSH connection.
+2013/05/22 08:25:01 - 107.20.88.33:    Checking software installation completed.
+2013/05/22 08:25:02 - 107.20.88.33:    Software installation finished.
+2013/05/22 08:25:02 - 107.20.88.33:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/22 08:25:02 - 107.20.88.33:    Checking file contents.
+2013/05/22 08:25:02 - 107.20.88.33:    Remote file contents confirmed.
+2013/05/22 08:25:02 - Unhandled error occured when checking for bad instances
+2013/05/22 08:25:02 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:May 22 12:24:50 ip-10-83-70-119 kernel: [28989354.008429] hrtimer: interrupt took 15378948 ns
+/var/log/dmesg:[28989354.008429] hrtimer: interrupt took 15378948 ns
+Total of 1 anomalies detected.
+2013/05/22 08:25:02 - 107.20.88.33:    Completed check of node 107.20.88.33.
+2013/05/22 08:25:02 - Error messages found in system logs:
+/var/log/syslog:May 22 12:24:50 ip-10-83-70-119 kernel: [28989354.008429] hrtimer: interrupt took 15378948 ns
+/var/log/dmesg:[28989354.008429] hrtimer: interrupt took 15378948 ns
+Total of 1 anomalies detected.
+
+2013/05/22 08:25:02 - Terminating 1 bad instances.
+2013/05/22 08:25:02 - Terminating instances.
+2013/05/22 08:25:02 - Waiting for 1 instances to terminate.
+2013/05/22 08:25:08 - Waiting for 1 instances to terminate.
+2013/05/22 08:25:13 - Waiting for 1 instances to terminate.
+2013/05/22 08:25:18 - Waiting for 1 instances to terminate.
+2013/05/22 08:25:23 - Reservation ID r-ea615785 created.
+2013/05/22 08:25:23 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:28 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:33 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:38 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:44 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:49 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:54 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:25:59 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:04 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:09 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:14 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:19 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:24 - Waiting for 1 of 1 nodes to launch.
+2013/05/22 08:26:29 - Pending instances have completed.
+2013/05/22 08:26:29 - Checking each node launched properly.
+2013/05/22 08:26:29 - 54.224.106.96:   Checking EC2 instance i-dcc584b9.
+2013/05/22 08:26:29 - 54.224.106.96:   Checking EC2 instance is running.
+2013/05/22 08:26:29 - 54.224.106.96:   Connecting via SSH.
+2013/05/22 08:26:32 - 54.224.106.96:   Waiting on SSH connection.
+2013/05/22 08:26:37 - 54.224.106.96:   Waiting on SSH connection.
+2013/05/22 08:26:48 - 54.224.106.96:   Checking software installation completed.
+2013/05/22 08:26:48 - 54.224.106.96:   Software installation finished.
+2013/05/22 08:26:48 - 54.224.106.96:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/22 08:26:49 - 54.224.106.96:   Checking file contents.
+2013/05/22 08:26:49 - 54.224.106.96:   Remote file contents confirmed.
+2013/05/22 08:26:49 - 54.224.106.96:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/22 08:26:49 - 54.224.106.96:   Completed check of node 54.224.106.96.
+2013/05/22 08:26:49 - Determining availability zone.
+2013/05/22 08:26:49 - Gathering public and private ip addresses.
+2013/05/22 08:26:49 - Connecting to node 54.224.106.96 for cluster configuration.
+2013/05/22 08:26:49 - Connecting via SSH.
+2013/05/22 08:26:49 - Checking software installation completed.
+2013/05/22 08:26:49 - Software installation finished.
+2013/05/22 08:26:49 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/22 08:26:50 - Checking file contents.
+2013/05/22 08:26:50 - Remote file contents confirmed.
+2013/05/22 08:26:50 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/22 08:26:50 - Writing cluster private ip addresses to file on instance.
+2013/05/22 08:26:50 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/05/22 08:26:50 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/05/22 08:26:50 - Checking file contents.
+2013/05/22 08:26:50 - Remote file contents confirmed.
+2013/05/22 08:26:50 - Running envgen
+2013/05/22 08:26:51 - Reading the config file.
+2013/05/22 08:26:51 - Retrieving IP address of ESP Server.
+2013/05/22 08:26:51 - ESP Server private IP address: 10.144.10.211.
+2013/05/22 08:26:51 - ESP Server public IP address: 54.224.106.96.
+2013/05/22 08:26:51 - 54.224.106.96:   Starting node configuration.
+2013/05/22 08:26:51 - 54.224.106.96:   Connecting via SSH.
+2013/05/22 08:26:52 - 54.224.106.96:   Checking software installation completed.
+2013/05/22 08:26:52 - 54.224.106.96:   Software installation finished.
+2013/05/22 08:26:52 - 54.224.106.96:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/22 08:26:52 - 54.224.106.96:   Checking file contents.
+2013/05/22 08:26:52 - 54.224.106.96:   Remote file contents confirmed.
+2013/05/22 08:26:52 - 54.224.106.96:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/22 08:26:52 - 54.224.106.96:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/05/22 08:26:52 - 54.224.106.96:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/05/22 08:26:52 - 54.224.106.96:   Checking file contents.
+2013/05/22 08:26:52 - 54.224.106.96:   Remote file contents confirmed.
+2013/05/22 08:26:52 - 54.224.106.96:   Starting HPCC Platform Community Edition: 3.10.6-1.
+2013/05/22 08:27:19 - 54.224.106.96:   Starting mydafilesrv....       [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting mydali....            [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting mydfuserver....       [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting myeclagent....        [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting myeclccserver....     [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting myeclscheduler....    [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting myesp....             [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting mysasha....           [  OK  ]   
+2013/05/22 08:27:19 - 54.224.106.96:   Starting mythor....            [  OK  ]  
+2013/05/22 08:27:19 - 54.224.106.96:   Start node is complete.
+2013/05/22 08:27:19 - Done.

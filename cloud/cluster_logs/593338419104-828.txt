@@ -1,0 +1,93 @@
+2014/06/28 12:16:54 - Connecting to AWS region us-west-2.
+2014/06/28 12:16:54 - Calculating new unique cluster name for request 828.
+2014/06/28 12:16:55 - Creating new cluster name, Hpcc-6YUE.
+2014/06/28 12:16:55 - Creating Hpcc-6YUE security group.
+2014/06/28 12:16:57 - Creating Hpcc-6YUE key pair.
+2014/06/28 12:16:58 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/06/28 12:16:59 - Reservation ID r-40f13e4b created.
+2014/06/28 12:16:59 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:04 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:09 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:14 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:19 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:24 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:30 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:35 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:40 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:45 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:50 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:17:55 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:18:00 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:18:06 - Waiting for 1 of 1 nodes to launch.
+2014/06/28 12:18:11 - Pending instances have completed.
+2014/06/28 12:18:11 - Checking each node launched properly.
+2014/06/28 12:18:11 - 54.184.112.92:   Checking EC2 instance i-93b93d98.
+2014/06/28 12:18:11 - 54.184.112.92:   Checking EC2 instance is running.
+2014/06/28 12:18:11 - 54.184.112.92:   Connecting via SSH.
+2014/06/28 12:18:14 - 54.184.112.92:   Waiting on SSH connection.
+2014/06/28 12:18:26 - 54.184.112.92:   Checking software installation completed.
+2014/06/28 12:18:26 - 54.184.112.92:   Software installation finished.
+2014/06/28 12:18:26 - 54.184.112.92:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/28 12:18:26 - 54.184.112.92:   Checking file contents.
+2014/06/28 12:18:26 - 54.184.112.92:   Remote file contents confirmed.
+2014/06/28 12:18:27 - 54.184.112.92:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/28 12:18:27 - 54.184.112.92:   Completed check of node 54.184.112.92.
+2014/06/28 12:18:27 - Determining availability zone.
+2014/06/28 12:18:27 - Gathering public and private ip addresses.
+2014/06/28 12:18:27 - Connecting to node 54.184.112.92 for cluster configuration.
+2014/06/28 12:18:27 - Connecting via SSH.
+2014/06/28 12:18:28 - Checking software installation completed.
+2014/06/28 12:18:28 - Software installation finished.
+2014/06/28 12:18:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/28 12:18:29 - Checking file contents.
+2014/06/28 12:18:29 - Remote file contents confirmed.
+2014/06/28 12:18:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/28 12:18:30 - Writing cluster private ip addresses to file on instance.
+2014/06/28 12:18:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/28 12:18:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/28 12:18:30 - Checking file contents.
+2014/06/28 12:18:30 - Remote file contents confirmed.
+2014/06/28 12:18:30 - Running envgen
+2014/06/28 12:18:32 - Reading the config file.
+2014/06/28 12:18:32 - Retrieving IP address of ESP Server.
+2014/06/28 12:18:32 - ESP Server private IP address: 10.232.29.112.
+2014/06/28 12:18:32 - ESP Server public IP address: 54.184.112.92.
+2014/06/28 12:18:32 - 54.184.112.92:   Starting node configuration.
+2014/06/28 12:18:32 - 54.184.112.92:   Connecting via SSH.
+2014/06/28 12:18:33 - 54.184.112.92:   Checking software installation completed.
+2014/06/28 12:18:34 - 54.184.112.92:   Software installation finished.
+2014/06/28 12:18:34 - 54.184.112.92:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/28 12:18:34 - 54.184.112.92:   Checking file contents.
+2014/06/28 12:18:34 - 54.184.112.92:   Remote file contents confirmed.
+2014/06/28 12:18:35 - 54.184.112.92:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/28 12:18:35 - 54.184.112.92:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/28 12:18:35 - 54.184.112.92:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/28 12:18:36 - 54.184.112.92:   Checking file contents.
+2014/06/28 12:18:36 - 54.184.112.92:   Remote file contents confirmed.
+2014/06/28 12:18:36 - 54.184.112.92:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/28 12:19:03 - 54.184.112.92:   Starting mydafilesrv....       [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting mydali....            [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting mydfuserver....       [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting myeclagent....        [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting myeclccserver....     [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting myeclscheduler....    [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting myesp....             [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting mysasha....           [  OK  ]   
+2014/06/28 12:19:03 - 54.184.112.92:   Starting mythor....            [  OK  ]  
+2014/06/28 12:19:03 - 54.184.112.92:   Start node is complete.
+2014/06/28 12:19:03 - Done.
+2014/06/28 12:38:47 - Terminating cluster.
+2014/06/28 12:38:47 - Connecting to AWS region us-west-2.
+2014/06/28 12:38:47 - Gathering instances for Hpcc-6YUE.
+2014/06/28 12:38:47 - Terminating instances.
+2014/06/28 12:38:47 - Waiting for 1 instances to terminate.
+2014/06/28 12:38:53 - Waiting for 1 instances to terminate.
+2014/06/28 12:38:58 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:03 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:08 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:13 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:18 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:24 - Waiting for 1 instances to terminate.
+2014/06/28 12:39:29 - Deleting Access Key Hpcc-6YUE.
+2014/06/28 12:39:29 - Deleting Security group Hpcc-6YUE.
+2014/06/28 12:39:29 - Done.

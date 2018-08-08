@@ -1,0 +1,93 @@
+2015/03/18 10:42:56 - Connecting to AWS region us-west-2.
+2015/03/18 10:42:56 - Calculating new unique cluster name for request 1032.
+2015/03/18 10:42:57 - Creating new cluster name, Hpcc-GJSU.
+2015/03/18 10:42:57 - Creating Hpcc-GJSU security group.
+2015/03/18 10:42:59 - Creating Hpcc-GJSU key pair.
+2015/03/18 10:42:59 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/03/18 10:43:00 - Reservation ID r-9f9e0a95 created.
+2015/03/18 10:43:00 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:05 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:10 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:15 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:20 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:26 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:31 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:36 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:41 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:46 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:51 - Waiting for 1 of 1 nodes to launch.
+2015/03/18 10:43:56 - Pending instances have completed.
+2015/03/18 10:43:56 - Checking each node launched properly.
+2015/03/18 10:43:56 - 54.203.220.214:  Checking EC2 instance i-e025f0ed.
+2015/03/18 10:43:57 - 54.203.220.214:  Checking EC2 instance is running.
+2015/03/18 10:43:57 - 54.203.220.214:  Connecting via SSH.
+2015/03/18 10:44:02 - 54.203.220.214:  Waiting on SSH connection.
+2015/03/18 10:44:13 - 54.203.220.214:  Checking software installation completed.
+2015/03/18 10:44:14 - 54.203.220.214:  Software installation finished.
+2015/03/18 10:44:14 - 54.203.220.214:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/18 10:44:14 - 54.203.220.214:  Checking file contents.
+2015/03/18 10:44:14 - 54.203.220.214:  Remote file contents confirmed.
+2015/03/18 10:44:15 - 54.203.220.214:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/18 10:44:15 - 54.203.220.214:  Completed check of node 54.203.220.214.
+2015/03/18 10:44:15 - Determining availability zone.
+2015/03/18 10:44:15 - Gathering public and private ip addresses.
+2015/03/18 10:44:15 - Connecting to node 54.203.220.214 for cluster configuration.
+2015/03/18 10:44:15 - Connecting via SSH.
+2015/03/18 10:44:16 - Checking software installation completed.
+2015/03/18 10:44:17 - Software installation finished.
+2015/03/18 10:44:17 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/18 10:44:17 - Checking file contents.
+2015/03/18 10:44:17 - Remote file contents confirmed.
+2015/03/18 10:44:18 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/18 10:44:18 - Writing cluster private ip addresses to file on instance.
+2015/03/18 10:44:18 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/18 10:44:19 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/18 10:44:19 - Checking file contents.
+2015/03/18 10:44:19 - Remote file contents confirmed.
+2015/03/18 10:44:19 - Running envgen
+2015/03/18 10:44:20 - Reading the config file.
+2015/03/18 10:44:21 - Retrieving IP address of ESP Server.
+2015/03/18 10:44:21 - ESP Server private IP address: 10.253.89.142.
+2015/03/18 10:44:21 - ESP Server public IP address: 54.203.220.214.
+2015/03/18 10:44:21 - 54.203.220.214:  Starting node configuration.
+2015/03/18 10:44:21 - 54.203.220.214:  Connecting via SSH.
+2015/03/18 10:44:22 - 54.203.220.214:  Checking software installation completed.
+2015/03/18 10:44:22 - 54.203.220.214:  Software installation finished.
+2015/03/18 10:44:22 - 54.203.220.214:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/18 10:44:23 - 54.203.220.214:  Checking file contents.
+2015/03/18 10:44:23 - 54.203.220.214:  Remote file contents confirmed.
+2015/03/18 10:44:24 - 54.203.220.214:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/18 10:44:24 - 54.203.220.214:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/18 10:44:24 - 54.203.220.214:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/18 10:44:25 - 54.203.220.214:  Checking file contents.
+2015/03/18 10:44:25 - 54.203.220.214:  Remote file contents confirmed.
+2015/03/18 10:44:25 - 54.203.220.214:  Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/18 10:44:52 - 54.203.220.214:  Starting mydafilesrv....       [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting mydali....            [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting mydfuserver....       [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting myeclagent....        [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting myeclccserver....     [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting myeclscheduler....    [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting myesp....             [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting mysasha....           [  OK  ]   
+2015/03/18 10:44:52 - 54.203.220.214:  Starting mythor....            [  OK  ]  
+2015/03/18 10:44:52 - 54.203.220.214:  Start node is complete.
+2015/03/18 10:44:52 - Done.
+2015/03/18 11:25:11 - Terminating cluster.
+2015/03/18 11:25:11 - Connecting to AWS region us-west-2.
+2015/03/18 11:25:11 - Gathering instances for Hpcc-GJSU.
+2015/03/18 11:25:11 - Terminating instances.
+2015/03/18 11:25:12 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:17 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:22 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:27 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:32 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:38 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:43 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:48 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:53 - Waiting for 1 instances to terminate.
+2015/03/18 11:25:58 - Waiting for 1 instances to terminate.
+2015/03/18 11:26:03 - Waiting for 1 instances to terminate.
+2015/03/18 11:26:08 - Deleting Access Key Hpcc-GJSU.
+2015/03/18 11:26:09 - Deleting Security group Hpcc-GJSU.
+2015/03/18 11:26:09 - Done.

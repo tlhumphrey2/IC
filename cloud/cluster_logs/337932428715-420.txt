@@ -1,0 +1,91 @@
+2012/11/23 01:56:46 - Connecting to AWS region us-west-2.
+2012/11/23 01:56:46 - Calculating new unique cluster name for request 420.
+2012/11/23 01:56:47 - Creating new cluster name, Hpcc-VMWU.
+2012/11/23 01:56:47 - Creating Hpcc-VMWU security group.
+2012/11/23 01:56:50 - Creating Hpcc-VMWU key pair.
+2012/11/23 01:56:52 - Launching 1 m1.large nodes using ami-e01698d0.
+2012/11/23 01:56:53 - Reservation ID r-5585a866 created.
+2012/11/23 01:56:53 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:56:58 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:04 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:09 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:14 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:19 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:25 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:30 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:35 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:41 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:46 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:51 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 01:57:56 - Pending instances have completed.
+2012/11/23 01:57:56 - Checking each node launched properly.
+2012/11/23 01:57:56 - 50.112.209.199:  Checking EC2 instance i-c3928af0.
+2012/11/23 01:57:57 - 50.112.209.199:  Checking EC2 instance is running.
+2012/11/23 01:57:57 - 50.112.209.199:  Connecting via SSH.
+2012/11/23 01:57:59 - 50.112.209.199:  Waiting on SSH connection.
+2012/11/23 01:58:10 - 50.112.209.199:  Checking software installation completed.
+2012/11/23 01:58:11 - 50.112.209.199:  Software installation finished.
+2012/11/23 01:58:11 - 50.112.209.199:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 01:58:11 - 50.112.209.199:  Checking file contents.
+2012/11/23 01:58:12 - 50.112.209.199:  Remote file contents confirmed.
+2012/11/23 01:58:12 - 50.112.209.199:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 01:58:12 - 50.112.209.199:  Completed check of node 50.112.209.199.
+2012/11/23 01:58:12 - Determining availability zone.
+2012/11/23 01:58:12 - Gathering public and private ip addresses.
+2012/11/23 01:58:12 - Connecting to node 50.112.209.199 for cluster configuration.
+2012/11/23 01:58:12 - Connecting via SSH.
+2012/11/23 01:58:14 - Checking software installation completed.
+2012/11/23 01:58:14 - Software installation finished.
+2012/11/23 01:58:14 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 01:58:15 - Checking file contents.
+2012/11/23 01:58:15 - Remote file contents confirmed.
+2012/11/23 01:58:16 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 01:58:16 - Writing cluster private ip addresses to file on instance.
+2012/11/23 01:58:16 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/11/23 01:58:17 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/11/23 01:58:17 - Checking file contents.
+2012/11/23 01:58:17 - Remote file contents confirmed.
+2012/11/23 01:58:17 - Running envgen
+2012/11/23 01:58:18 - Reading the config file.
+2012/11/23 01:58:19 - Retrieving IP address of ESP Server.
+2012/11/23 01:58:19 - ESP Server private IP address: 10.244.155.144.
+2012/11/23 01:58:19 - ESP Server public IP address: 50.112.209.199.
+2012/11/23 01:58:19 - 50.112.209.199:  Starting node configuration.
+2012/11/23 01:58:19 - 50.112.209.199:  Connecting via SSH.
+2012/11/23 01:58:21 - 50.112.209.199:  Checking software installation completed.
+2012/11/23 01:58:21 - 50.112.209.199:  Software installation finished.
+2012/11/23 01:58:21 - 50.112.209.199:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 01:58:22 - 50.112.209.199:  Checking file contents.
+2012/11/23 01:58:22 - 50.112.209.199:  Remote file contents confirmed.
+2012/11/23 01:58:23 - 50.112.209.199:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 01:58:23 - 50.112.209.199:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/11/23 01:58:24 - 50.112.209.199:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/11/23 01:58:24 - 50.112.209.199:  Checking file contents.
+2012/11/23 01:58:25 - 50.112.209.199:  Remote file contents confirmed.
+2012/11/23 01:58:25 - 50.112.209.199:  Starting HPCC Platform Community Edition: 3.8.2-2.
+2012/11/23 01:58:51 - 50.112.209.199:  Starting mydafilesrv....       [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting mydali....            [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting mydfuserver....       [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting myeclagent....        [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting myeclccserver....     [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting myeclscheduler....    [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting myesp....             [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting mysasha....           [  OK  ]   
+2012/11/23 01:58:51 - 50.112.209.199:  Starting mythor....            [  OK  ]  
+2012/11/23 01:58:51 - 50.112.209.199:  Start node is complete.
+2012/11/23 01:58:51 - Done.
+2012/11/23 04:25:19 - Terminating cluster.
+2012/11/23 04:25:19 - Connecting to AWS region us-west-2.
+2012/11/23 04:25:19 - Gathering instances for Hpcc-VMWU.
+2012/11/23 04:25:19 - Terminating instances.
+2012/11/23 04:25:20 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:25 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:30 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:36 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:41 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:46 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:52 - Waiting for 1 instances to terminate.
+2012/11/23 04:25:57 - Waiting for 1 instances to terminate.
+2012/11/23 04:26:02 - Deleting Access Key Hpcc-VMWU.
+2012/11/23 04:26:03 - Deleting Security group Hpcc-VMWU.
+2012/11/23 04:26:04 - Done.

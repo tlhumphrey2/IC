@@ -1,0 +1,81 @@
+2012/02/01 15:21:24 - Connecting to AWS region us-east-1.
+2012/02/01 15:21:24 - Calculating new unique cluster name for request 77.
+2012/02/01 15:21:24 - Creating new cluster name, Thor-JZUN.
+2012/02/01 15:21:24 - Creating Thor-JZUN security group.
+2012/02/01 15:21:25 - Creating Thor-JZUN key pair.
+2012/02/01 15:21:27 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/02/01 15:21:27 - Reservation ID r-50a06630 created
+2012/02/01 15:21:27 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:33 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:38 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:43 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:48 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:53 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:21:58 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:22:03 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 15:22:08 - Pending instances have completed.
+2012/02/01 15:22:08 - Checking each node launched properly.
+2012/02/01 15:22:08 - 174.129.189.152: Checking EC2 instance i-3d09a458.
+2012/02/01 15:22:08 - 174.129.189.152: Checking EC2 instance is running.
+2012/02/01 15:22:08 - 174.129.189.152: Connecting via SSH.
+2012/02/01 15:22:11 - 174.129.189.152: Waiting on SSH connection.
+2012/02/01 15:22:19 - 174.129.189.152: Checking disk I/O
+2012/02/01 15:22:19 - 174.129.189.152: Checking software installation completed.
+2012/02/01 15:22:19 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:22:29 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:22:39 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:22:49 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:23:00 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:23:10 - 174.129.189.152: Waiting for software to install.
+2012/02/01 15:23:20 - 174.129.189.152: Software installation finished.
+2012/02/01 15:23:20 - 174.129.189.152: Completed check of node 174.129.189.152.
+2012/02/01 15:23:20 - Determining availability zone.
+2012/02/01 15:23:20 - Gathering public and private ip addresses.
+2012/02/01 15:23:20 - Connecting to node 174.129.189.152 for cluster configuration.
+2012/02/01 15:23:20 - Connecting via SSH.
+2012/02/01 15:23:20 - Checking disk I/O
+2012/02/01 15:23:20 - Checking software installation completed.
+2012/02/01 15:23:20 - Software installation finished.
+2012/02/01 15:23:20 - Writing cluster private ip addresses to file on instance.
+2012/02/01 15:23:20 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/01 15:23:20 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/01 15:23:20 - Checking file contents.
+2012/02/01 15:23:21 - Remote file contents confirmed.
+2012/02/01 15:23:21 - Running envgen
+2012/02/01 15:23:21 - Reading the config file.
+2012/02/01 15:23:21 - Retrieving IP address of ESP Server.
+2012/02/01 15:23:21 - ESP Server private IP address: 10.46.187.131.
+2012/02/01 15:23:21 - ESP Server public IP address: 174.129.189.152.
+2012/02/01 15:23:21 - 174.129.189.152: Starting node configuration.
+2012/02/01 15:23:21 - 174.129.189.152: Connecting via SSH.
+2012/02/01 15:23:22 - 174.129.189.152: Checking disk I/O
+2012/02/01 15:23:22 - 174.129.189.152: Checking software installation completed.
+2012/02/01 15:23:22 - 174.129.189.152: Software installation finished.
+2012/02/01 15:23:22 - 174.129.189.152: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 15:23:22 - 174.129.189.152: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 15:23:22 - 174.129.189.152: Checking file contents.
+2012/02/01 15:23:22 - 174.129.189.152: Remote file contents confirmed.
+2012/02/01 15:23:22 - 174.129.189.152: Starting HPCC services.
+2012/02/01 15:23:22 - 174.129.189.152: HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 15:23:48 - 174.129.189.152: Starting mydafilesrv....       [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting mydali....            [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting mydfuserver....       [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting myeclagent....        [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting myeclccserver....     [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting myeclscheduler....    [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting myesp....             [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting mysasha....           [  OK  ]   
+2012/02/01 15:23:48 - 174.129.189.152: Starting mythor....            [  OK  ]  
+2012/02/01 15:23:48 - 174.129.189.152: Start node is complete.
+2012/02/01 15:23:48 - Done.
+2012/02/01 15:28:19 - Terminating cluster.
+2012/02/01 15:28:19 - Connecting to AWS region us-east-1.
+2012/02/01 15:28:19 - Gathering instances for Thor-JZUN.
+2012/02/01 15:28:20 - Terminating instances.
+2012/02/01 15:28:20 - Waiting for 1 instances to terminate.
+2012/02/01 15:28:25 - Waiting for 1 instances to terminate.
+2012/02/01 15:28:30 - Waiting for 1 instances to terminate.
+2012/02/01 15:28:35 - Waiting for 1 instances to terminate.
+2012/02/01 15:28:40 - Deleting Access Key Thor-JZUN.
+2012/02/01 15:28:41 - Deleting Security group Thor-JZUN.
+2012/02/01 15:28:41 - Done.

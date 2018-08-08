@@ -1,0 +1,104 @@
+2013/05/18 15:49:52 - Connecting to AWS region us-west-2.
+2013/05/18 15:49:52 - Checking storage IDs exist in region us-west-2: snap-9335c0a8
+2013/05/18 15:49:52 - Calculating new unique cluster name for request 600.
+2013/05/18 15:49:53 - Creating new cluster name, Hpcc-EBKM.
+2013/05/18 15:49:53 - Creating Hpcc-EBKM security group.
+2013/05/18 15:49:56 - Creating Hpcc-EBKM key pair.
+2013/05/18 15:49:57 - Launching 1 m1.large nodes using ami-c1ca5cf1.
+2013/05/18 15:49:58 - Reservation ID r-db6f64e9 created.
+2013/05/18 15:49:58 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:03 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:08 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:14 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:19 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:24 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:29 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:34 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:40 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:45 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:50 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:50:55 - Waiting for 1 of 1 nodes to launch.
+2013/05/18 15:51:01 - Pending instances have completed.
+2013/05/18 15:51:01 - Checking each node launched properly.
+2013/05/18 15:51:01 - 54.244.209.57:   Checking EC2 instance i-54850761.
+2013/05/18 15:51:01 - 54.244.209.57:   Checking EC2 instance is running.
+2013/05/18 15:51:01 - 54.244.209.57:   Connecting via SSH.
+2013/05/18 15:51:04 - 54.244.209.57:   Waiting on SSH connection.
+2013/05/18 15:51:15 - 54.244.209.57:   Checking software installation completed.
+2013/05/18 15:51:15 - 54.244.209.57:   Software installation finished.
+2013/05/18 15:51:15 - 54.244.209.57:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:51:16 - 54.244.209.57:   Checking file contents.
+2013/05/18 15:51:16 - 54.244.209.57:   Remote file contents confirmed.
+2013/05/18 15:51:17 - 54.244.209.57:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/18 15:51:17 - 54.244.209.57:   Completed check of node 54.244.209.57.
+2013/05/18 15:51:17 - Determining availability zone.
+2013/05/18 15:51:17 - Gathering public and private ip addresses.
+2013/05/18 15:51:17 - Connecting to node 54.244.209.57 for cluster configuration.
+2013/05/18 15:51:17 - Connecting via SSH.
+2013/05/18 15:51:18 - Checking software installation completed.
+2013/05/18 15:51:19 - Software installation finished.
+2013/05/18 15:51:19 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:51:19 - Checking file contents.
+2013/05/18 15:51:19 - Remote file contents confirmed.
+2013/05/18 15:51:20 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/05/18 15:51:20 - Writing cluster private ip addresses to file on instance.
+2013/05/18 15:51:20 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/05/18 15:51:21 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/05/18 15:51:21 - Checking file contents.
+2013/05/18 15:51:21 - Remote file contents confirmed.
+2013/05/18 15:51:21 - Running envgen
+2013/05/18 15:51:22 - Reading the config file.
+2013/05/18 15:51:22 - Retrieving IP address of ESP Server.
+2013/05/18 15:51:23 - ESP Server private IP address: 10.254.23.22.
+2013/05/18 15:51:23 - ESP Server public IP address: 54.244.209.57.
+2013/05/18 15:51:23 - Attaching storage devices to the Landing Zone: snap-9335c0a8
+2013/05/18 15:51:25 - Waiting for volumes to attach to landing zone.
+2013/05/18 15:51:30 - Connecting via SSH.
+2013/05/18 15:51:32 - An exception occured.
+                      ClusterError: mount: you must specify the filesystem type
+2013/05/18 15:51:32 - 54.244.209.57:   Starting node configuration.
+2013/05/18 15:51:32 - 54.244.209.57:   Connecting via SSH.
+2013/05/18 15:51:33 - 54.244.209.57:   Checking software installation completed.
+2013/05/18 15:51:34 - 54.244.209.57:   Software installation finished.
+2013/05/18 15:51:34 - 54.244.209.57:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/05/18 15:51:34 - 54.244.209.57:   Checking file contents.
+2013/05/18 15:51:35 - 54.244.209.57:   Remote file contents confirmed.
+2013/05/18 15:51:35 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:May 18 19:51:32 ip-10-254-23-22 kernel: [2649381.949734] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+2013/05/18 15:51:35 - 54.244.209.57:   Start node is complete.
+2013/05/18 15:51:35 - Error messages found in system logs:
+/var/log/syslog:May 18 19:51:32 ip-10-254-23-22 kernel: [2649381.949734] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+
+2013/05/18 15:51:35 - Done.
+2013/05/18 15:54:33 - Terminating cluster.
+2013/05/18 15:54:33 - Connecting to AWS region us-west-2.
+2013/05/18 15:54:33 - Gathering instances for Hpcc-EBKM.
+2013/05/18 15:54:34 - Terminating instances.
+2013/05/18 15:54:35 - Waiting for 1 instances to terminate.
+2013/05/18 15:54:40 - Waiting for 1 instances to terminate.
+2013/05/18 15:54:45 - Waiting for 1 instances to terminate.
+2013/05/18 15:54:50 - Waiting for 1 instances to terminate.
+2013/05/18 15:54:56 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:01 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:06 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:11 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:17 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:22 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:27 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:32 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:37 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:43 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:48 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:53 - Waiting for 1 instances to terminate.
+2013/05/18 15:55:58 - Waiting for 1 instances to terminate.
+2013/05/18 15:56:04 - Waiting for 1 instances to terminate.
+2013/05/18 15:56:09 - Waiting for 1 instances to terminate.
+2013/05/18 15:56:14 - Waiting for 1 instances to terminate.
+2013/05/18 15:56:19 - Deleting attached EBS volumes.
+2013/05/18 15:56:19 - Deleting volume vol-1d3a4725
+2013/05/18 15:56:20 - Deleting Access Key Hpcc-EBKM.
+2013/05/18 15:56:20 - Deleting Security group Hpcc-EBKM.
+2013/05/18 15:56:21 - Done.

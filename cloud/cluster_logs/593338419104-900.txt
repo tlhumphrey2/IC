@@ -1,0 +1,94 @@
+2014/08/09 09:58:18 - Connecting to AWS region us-west-2.
+2014/08/09 09:58:18 - Calculating new unique cluster name for request 900.
+2014/08/09 09:58:19 - Creating new cluster name, Hpcc-5ZGS.
+2014/08/09 09:58:19 - Creating Hpcc-5ZGS security group.
+2014/08/09 09:58:22 - Creating Hpcc-5ZGS key pair.
+2014/08/09 09:58:25 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/08/09 09:58:26 - Reservation ID r-440fbf4f created.
+2014/08/09 09:58:26 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:31 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:36 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:41 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:47 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:52 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:58:57 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:59:02 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:59:07 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:59:13 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:59:18 - Waiting for 1 of 1 nodes to launch.
+2014/08/09 09:59:23 - Pending instances have completed.
+2014/08/09 09:59:23 - Checking each node launched properly.
+2014/08/09 09:59:23 - 50.112.50.111:   Checking EC2 instance i-ba6810b1.
+2014/08/09 09:59:23 - 50.112.50.111:   Checking EC2 instance is running.
+2014/08/09 09:59:23 - 50.112.50.111:   Connecting via SSH.
+2014/08/09 09:59:26 - 50.112.50.111:   Waiting on SSH connection.
+2014/08/09 09:59:32 - 50.112.50.111:   Checking software installation completed.
+2014/08/09 09:59:33 - 50.112.50.111:   Waiting for software to install.
+2014/08/09 09:59:43 - 50.112.50.111:   Software installation finished.
+2014/08/09 09:59:43 - 50.112.50.111:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/09 09:59:43 - 50.112.50.111:   Checking file contents.
+2014/08/09 09:59:43 - 50.112.50.111:   Remote file contents confirmed.
+2014/08/09 09:59:44 - 50.112.50.111:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/09 09:59:44 - 50.112.50.111:   Completed check of node 50.112.50.111.
+2014/08/09 09:59:44 - Determining availability zone.
+2014/08/09 09:59:44 - Gathering public and private ip addresses.
+2014/08/09 09:59:44 - Connecting to node 50.112.50.111 for cluster configuration.
+2014/08/09 09:59:44 - Connecting via SSH.
+2014/08/09 09:59:50 - Checking software installation completed.
+2014/08/09 09:59:50 - Software installation finished.
+2014/08/09 09:59:50 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/09 09:59:51 - Checking file contents.
+2014/08/09 09:59:51 - Remote file contents confirmed.
+2014/08/09 09:59:51 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/09 09:59:51 - Writing cluster private ip addresses to file on instance.
+2014/08/09 09:59:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/08/09 09:59:52 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/08/09 09:59:52 - Checking file contents.
+2014/08/09 09:59:52 - Remote file contents confirmed.
+2014/08/09 09:59:52 - Running envgen
+2014/08/09 09:59:54 - Reading the config file.
+2014/08/09 09:59:54 - Retrieving IP address of ESP Server.
+2014/08/09 09:59:54 - ESP Server private IP address: 10.253.42.27.
+2014/08/09 09:59:54 - ESP Server public IP address: 50.112.50.111.
+2014/08/09 09:59:55 - 50.112.50.111:   Starting node configuration.
+2014/08/09 09:59:55 - 50.112.50.111:   Connecting via SSH.
+2014/08/09 09:59:56 - 50.112.50.111:   Checking software installation completed.
+2014/08/09 09:59:56 - 50.112.50.111:   Software installation finished.
+2014/08/09 09:59:56 - 50.112.50.111:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/08/09 09:59:56 - 50.112.50.111:   Checking file contents.
+2014/08/09 09:59:57 - 50.112.50.111:   Remote file contents confirmed.
+2014/08/09 09:59:57 - 50.112.50.111:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/08/09 09:59:57 - 50.112.50.111:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/08/09 09:59:58 - 50.112.50.111:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/08/09 09:59:58 - 50.112.50.111:   Checking file contents.
+2014/08/09 09:59:58 - 50.112.50.111:   Remote file contents confirmed.
+2014/08/09 09:59:58 - 50.112.50.111:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/08/09 10:00:25 - 50.112.50.111:   Starting mydafilesrv....       [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting mydali....            [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting mydfuserver....       [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting myeclagent....        [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting myeclccserver....     [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting myeclscheduler....    [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting myesp....             [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting mysasha....           [  OK  ]   
+2014/08/09 10:00:25 - 50.112.50.111:   Starting mythor....            [  OK  ]  
+2014/08/09 10:00:25 - 50.112.50.111:   Start node is complete.
+2014/08/09 10:00:25 - Done.
+2014/08/09 20:30:32 - Terminating cluster.
+2014/08/09 20:30:32 - Connecting to AWS region us-west-2.
+2014/08/09 20:30:32 - Gathering instances for Hpcc-5ZGS.
+2014/08/09 20:30:32 - Terminating instances.
+2014/08/09 20:30:33 - Waiting for 1 instances to terminate.
+2014/08/09 20:30:38 - Waiting for 1 instances to terminate.
+2014/08/09 20:30:43 - Waiting for 1 instances to terminate.
+2014/08/09 20:30:48 - Waiting for 1 instances to terminate.
+2014/08/09 20:30:54 - Waiting for 1 instances to terminate.
+2014/08/09 20:30:59 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:04 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:09 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:14 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:20 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:25 - Waiting for 1 instances to terminate.
+2014/08/09 20:31:30 - Deleting Access Key Hpcc-5ZGS.
+2014/08/09 20:31:30 - Deleting Security group Hpcc-5ZGS.
+2014/08/09 20:31:31 - Done.

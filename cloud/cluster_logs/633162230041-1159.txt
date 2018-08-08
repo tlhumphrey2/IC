@@ -1,0 +1,96 @@
+2015/11/05 12:33:51 - Connecting to AWS region us-west-1.
+2015/11/05 12:33:51 - Calculating new unique cluster name for request 1159.
+2015/11/05 12:33:52 - Creating new cluster name, Hpcc-GPXZ.
+2015/11/05 12:33:52 - Creating Hpcc-GPXZ security group.
+2015/11/05 12:33:54 - Creating Hpcc-GPXZ key pair.
+2015/11/05 12:33:54 - Launching 1 m1.large nodes using ami-3b1f705b.
+2015/11/05 12:33:55 - Reservation ID r-39dbeefb created.
+2015/11/05 12:33:55 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:00 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:05 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:11 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:16 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:21 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:26 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:31 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:36 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:41 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:47 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:52 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:34:57 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:02 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:07 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:12 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:17 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:22 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 12:35:28 - Pending instances have completed.
+2015/11/05 12:35:28 - Checking each node launched properly.
+2015/11/05 12:35:28 - 54.176.184.137:  Checking EC2 instance i-1e8be8ac.
+2015/11/05 12:35:28 - 54.176.184.137:  Checking EC2 instance is running.
+2015/11/05 12:35:28 - 54.176.184.137:  Connecting via SSH.
+2015/11/05 12:35:35 - 54.176.184.137:  Waiting on SSH connection.
+2015/11/05 12:35:41 - 54.176.184.137:  Checking software installation completed.
+2015/11/05 12:35:42 - 54.176.184.137:  Waiting for software to install.
+2015/11/05 12:35:52 - 54.176.184.137:  Software installation finished.
+2015/11/05 12:35:52 - 54.176.184.137:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 12:35:53 - 54.176.184.137:  Checking file contents.
+2015/11/05 12:35:53 - 54.176.184.137:  Remote file contents confirmed.
+2015/11/05 12:35:54 - 54.176.184.137:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 12:35:54 - 54.176.184.137:  Completed check of node 54.176.184.137.
+2015/11/05 12:35:54 - Determining availability zone.
+2015/11/05 12:35:54 - Gathering public and private ip addresses.
+2015/11/05 12:35:54 - Connecting to node 54.176.184.137 for cluster configuration.
+2015/11/05 12:35:54 - Connecting via SSH.
+2015/11/05 12:36:00 - Checking software installation completed.
+2015/11/05 12:36:00 - Software installation finished.
+2015/11/05 12:36:00 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 12:36:01 - Checking file contents.
+2015/11/05 12:36:01 - Remote file contents confirmed.
+2015/11/05 12:36:01 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 12:36:01 - Writing cluster private ip addresses to file on instance.
+2015/11/05 12:36:01 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/11/05 12:36:02 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/11/05 12:36:02 - Checking file contents.
+2015/11/05 12:36:02 - Remote file contents confirmed.
+2015/11/05 12:36:02 - Running envgen
+2015/11/05 12:36:03 - Reading the config file.
+2015/11/05 12:36:04 - Retrieving IP address of ESP Server.
+2015/11/05 12:36:04 - ESP Server private IP address: 10.197.16.86.
+2015/11/05 12:36:04 - ESP Server public IP address: 54.176.184.137.
+2015/11/05 12:36:04 - 54.176.184.137:  Starting node configuration.
+2015/11/05 12:36:04 - 54.176.184.137:  Connecting via SSH.
+2015/11/05 12:36:05 - 54.176.184.137:  Checking software installation completed.
+2015/11/05 12:36:06 - 54.176.184.137:  Software installation finished.
+2015/11/05 12:36:06 - 54.176.184.137:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 12:36:06 - 54.176.184.137:  Checking file contents.
+2015/11/05 12:36:06 - 54.176.184.137:  Remote file contents confirmed.
+2015/11/05 12:36:07 - 54.176.184.137:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 12:36:07 - 54.176.184.137:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/11/05 12:36:07 - 54.176.184.137:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/11/05 12:36:08 - 54.176.184.137:  Checking file contents.
+2015/11/05 12:36:08 - 54.176.184.137:  Remote file contents confirmed.
+2015/11/05 12:36:08 - 54.176.184.137:  Starting HPCC Platform Community Edition: 5.4.4-1.
+2015/11/05 12:36:26 - 54.176.184.137:  Starting mydafilesrv ...       [   OK    ]   
+2015/11/05 12:36:26 - An exception occured.
+                      ClusterError: Service failed to start.
+2015/11/05 12:36:26 - 54.176.184.137:  Start node is complete.
+2015/11/05 12:36:26 - Service failed to start.
+2015/11/05 12:36:26 - Done.
+2015/11/05 12:37:55 - Terminating cluster.
+2015/11/05 12:37:55 - Connecting to AWS region us-west-1.
+2015/11/05 12:37:55 - Gathering instances for Hpcc-GPXZ.
+2015/11/05 12:37:56 - Terminating instances.
+2015/11/05 12:37:56 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:01 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:06 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:12 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:17 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:22 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:27 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:32 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:37 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:42 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:47 - Waiting for 1 instances to terminate.
+2015/11/05 12:38:53 - Deleting Access Key Hpcc-GPXZ.
+2015/11/05 12:38:53 - Deleting Security group Hpcc-GPXZ.
+2015/11/05 12:38:53 - Done.

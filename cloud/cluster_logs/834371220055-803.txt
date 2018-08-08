@@ -1,0 +1,94 @@
+2014/06/02 16:31:45 - Connecting to AWS region us-west-2.
+2014/06/02 16:31:45 - Checking storage IDs exist in region us-west-2: snap-52e411a7
+2014/06/02 16:31:45 - Calculating new unique cluster name for request 803.
+2014/06/02 16:31:46 - Creating new cluster name, Hpcc-6E5S.
+2014/06/02 16:31:46 - Creating Hpcc-6E5S security group.
+2014/06/02 16:31:51 - Creating Hpcc-6E5S key pair.
+2014/06/02 16:31:52 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/06/02 16:31:53 - Reservation ID r-c2cd2ec9 created.
+2014/06/02 16:31:53 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:31:58 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:03 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:09 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:14 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:19 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:24 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:29 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:34 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:39 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:44 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:50 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:32:55 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:33:00 - Waiting for 1 of 1 nodes to launch.
+2014/06/02 16:33:05 - Pending instances have completed.
+2014/06/02 16:33:05 - Checking each node launched properly.
+2014/06/02 16:33:05 - 54.187.223.67:   Checking EC2 instance i-5f9f4e54.
+2014/06/02 16:33:05 - 54.187.223.67:   Checking EC2 instance is running.
+2014/06/02 16:33:05 - 54.187.223.67:   Connecting via SSH.
+2014/06/02 16:33:14 - 54.187.223.67:   Checking software installation completed.
+2014/06/02 16:33:15 - 54.187.223.67:   Waiting for software to install.
+2014/06/02 16:33:25 - 54.187.223.67:   Software installation finished.
+2014/06/02 16:33:25 - 54.187.223.67:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/02 16:33:26 - 54.187.223.67:   Checking file contents.
+2014/06/02 16:33:26 - 54.187.223.67:   Remote file contents confirmed.
+2014/06/02 16:33:27 - 54.187.223.67:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/02 16:33:27 - 54.187.223.67:   Completed check of node 54.187.223.67.
+2014/06/02 16:33:27 - Determining availability zone.
+2014/06/02 16:33:27 - Gathering public and private ip addresses.
+2014/06/02 16:33:27 - Connecting to node 54.187.223.67 for cluster configuration.
+2014/06/02 16:33:27 - Connecting via SSH.
+2014/06/02 16:33:34 - Checking software installation completed.
+2014/06/02 16:33:34 - Software installation finished.
+2014/06/02 16:33:34 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/02 16:33:34 - Checking file contents.
+2014/06/02 16:33:35 - Remote file contents confirmed.
+2014/06/02 16:33:35 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/02 16:33:35 - Writing cluster private ip addresses to file on instance.
+2014/06/02 16:33:35 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/02 16:33:36 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/02 16:33:36 - Checking file contents.
+2014/06/02 16:33:37 - Remote file contents confirmed.
+2014/06/02 16:33:37 - Running envgen
+2014/06/02 16:33:37 - Reading the config file.
+2014/06/02 16:33:38 - Retrieving IP address of ESP Server.
+2014/06/02 16:33:38 - ESP Server private IP address: 172.31.42.172.
+2014/06/02 16:33:38 - ESP Server public IP address: 54.187.223.67.
+2014/06/02 16:33:38 - Attaching storage devices to the Landing Zone: snap-52e411a7
+2014/06/02 16:33:39 - Waiting for volumes to become available.
+2014/06/02 16:33:45 - Connecting via SSH.
+2014/06/02 16:33:47 - Waiting for EC2 instance to see storage device.
+2014/06/02 16:33:56 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-52e411a7/.
+2014/06/02 16:33:56 - 54.187.223.67:   Starting node configuration.
+2014/06/02 16:33:56 - 54.187.223.67:   Connecting via SSH.
+2014/06/02 16:33:57 - 54.187.223.67:   Checking software installation completed.
+2014/06/02 16:33:57 - 54.187.223.67:   Software installation finished.
+2014/06/02 16:33:57 - 54.187.223.67:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/02 16:33:58 - 54.187.223.67:   Checking file contents.
+2014/06/02 16:33:58 - 54.187.223.67:   Remote file contents confirmed.
+2014/06/02 16:33:59 - 54.187.223.67:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/02 16:33:59 - 54.187.223.67:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/02 16:34:00 - 54.187.223.67:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/02 16:34:00 - 54.187.223.67:   Checking file contents.
+2014/06/02 16:34:00 - 54.187.223.67:   Remote file contents confirmed.
+2014/06/02 16:34:00 - 54.187.223.67:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/02 16:34:28 - 54.187.223.67:   Starting mydafilesrv....       [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting mydali....            [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting mydfuserver....       [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting myeclagent....        [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting myeclccserver....     [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting myeclscheduler....    [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting myesp....             [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting mysasha....           [  OK  ]   
+2014/06/02 16:34:28 - 54.187.223.67:   Starting mythor....            [  OK  ]  
+2014/06/02 16:34:28 - 54.187.223.67:   Start node is complete.
+2014/06/02 16:34:28 - Done.
+2014/06/02 17:59:58 - Terminating cluster.
+2014/06/02 17:59:58 - Connecting to AWS region us-west-2.
+2014/06/02 17:59:58 - Gathering instances for Hpcc-6E5S.
+2014/06/02 17:59:58 - Terminating instances.
+2014/06/02 17:59:58 - Deleting Access Key Hpcc-6E5S.
+2014/06/02 17:59:59 - Deleting Security group Hpcc-6E5S.
+2014/06/02 18:00:01 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-71983b14 has a dependent object
+                      requestId: 659f0dc5-ec3b-471d-a4da-34070c31e7fb

@@ -1,0 +1,90 @@
+2017/03/10 21:25:53 - Connecting to AWS region us-east-1.
+2017/03/10 21:25:53 - Calculating new unique cluster name for request 1291.
+2017/03/10 21:25:53 - Creating new cluster name, Hpcc-P65D.
+2017/03/10 21:25:53 - Creating Hpcc-P65D security group.
+2017/03/10 21:25:55 - Creating Hpcc-P65D key pair.
+2017/03/10 21:25:55 - Launching 1 m1.large nodes using ami-7bc13e6d.
+2017/03/10 21:25:56 - Reservation ID r-0613a51f3bf593247 created.
+2017/03/10 21:25:56 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:01 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:06 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:11 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:17 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:22 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:27 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:32 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:37 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:42 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:47 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:52 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:26:57 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:27:02 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:27:07 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:27:12 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 21:27:17 - Pending instances have completed.
+2017/03/10 21:27:17 - Checking each node launched properly.
+2017/03/10 21:27:17 - 54.89.90.71:     Checking EC2 instance i-0cc24ccefc1edc1d2.
+2017/03/10 21:27:17 - 54.89.90.71:     Checking EC2 instance is running.
+2017/03/10 21:27:17 - 54.89.90.71:     Connecting via SSH.
+2017/03/10 21:27:26 - 54.89.90.71:     Checking software installation completed.
+2017/03/10 21:27:26 - 54.89.90.71:     Waiting for software to install.
+2017/03/10 21:27:36 - 54.89.90.71:     Software installation finished.
+2017/03/10 21:27:36 - 54.89.90.71:     Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 21:27:36 - 54.89.90.71:     Checking file contents.
+2017/03/10 21:27:36 - 54.89.90.71:     Remote file contents confirmed.
+2017/03/10 21:27:36 - 54.89.90.71:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 21:27:36 - 54.89.90.71:     Completed check of node 54.89.90.71.
+2017/03/10 21:27:36 - Determining availability zone.
+2017/03/10 21:27:36 - Gathering public and private ip addresses.
+2017/03/10 21:27:36 - Connecting to node 54.89.90.71 for cluster configuration.
+2017/03/10 21:27:36 - Connecting via SSH.
+2017/03/10 21:27:42 - Checking software installation completed.
+2017/03/10 21:27:42 - Software installation finished.
+2017/03/10 21:27:42 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 21:27:42 - Checking file contents.
+2017/03/10 21:27:42 - Remote file contents confirmed.
+2017/03/10 21:27:43 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 21:27:43 - Writing cluster private ip addresses to file on instance.
+2017/03/10 21:27:43 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/03/10 21:27:43 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/03/10 21:27:43 - Checking file contents.
+2017/03/10 21:27:43 - Remote file contents confirmed.
+2017/03/10 21:27:43 - Running envgen
+2017/03/10 21:27:43 - Reading the config file.
+2017/03/10 21:27:43 - Retrieving IP address of ESP Server.
+2017/03/10 21:27:43 - ESP Server private IP address: 172.31.19.50.
+2017/03/10 21:27:43 - ESP Server public IP address: 54.89.90.71.
+2017/03/10 21:27:44 - 54.89.90.71:     Starting node configuration.
+2017/03/10 21:27:44 - 54.89.90.71:     Connecting via SSH.
+2017/03/10 21:27:44 - 54.89.90.71:     Checking software installation completed.
+2017/03/10 21:27:44 - 54.89.90.71:     Software installation finished.
+2017/03/10 21:27:44 - 54.89.90.71:     Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 21:27:44 - 54.89.90.71:     Checking file contents.
+2017/03/10 21:27:45 - 54.89.90.71:     Remote file contents confirmed.
+2017/03/10 21:27:45 - 54.89.90.71:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 21:27:45 - 54.89.90.71:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/10 21:27:45 - 54.89.90.71:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/10 21:27:45 - 54.89.90.71:     Checking file contents.
+2017/03/10 21:27:45 - 54.89.90.71:     Remote file contents confirmed.
+2017/03/10 21:27:45 - 54.89.90.71:     Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/10 21:28:02 - 54.89.90.71:     Starting mydafilesrv ...       [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting mydali ...            [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting mydfuserver ...       [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting myeclagent ...        [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting myeclccserver ...     [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting myeclscheduler ...    [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting myesp ...             [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting mysasha ...           [   OK    ]   
+2017/03/10 21:28:02 - 54.89.90.71:     Starting mythor ...            [   OK    ]  
+2017/03/10 21:28:02 - 54.89.90.71:     Start node is complete.
+2017/03/10 21:28:02 - Done.
+2017/03/10 23:27:58 - Terminating cluster.
+2017/03/10 23:27:58 - Connecting to AWS region us-east-1.
+2017/03/10 23:27:58 - Gathering instances for Hpcc-P65D.
+2017/03/10 23:27:58 - Terminating instances.
+2017/03/10 23:27:58 - Deleting Access Key Hpcc-P65D.
+2017/03/10 23:27:58 - Deleting Security group Hpcc-P65D.
+2017/03/10 23:27:58 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-64cc0b1b has a dependent object
+                      requestId: 9aed442c-7250-4e88-909c-f39f36ce45b2

@@ -1,0 +1,97 @@
+2018/08/08 10:03:15 - Connecting to AWS region us-west-2.
+2018/08/08 10:03:15 - Calculating new unique cluster name for request 1501.
+2018/08/08 10:03:16 - Creating new cluster name, Hpcc-S6TG.
+2018/08/08 10:03:16 - Creating Hpcc-S6TG security group.
+2018/08/08 10:03:20 - Creating Hpcc-S6TG key pair.
+2018/08/08 10:03:20 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/08 10:03:21 - Reservation ID r-027e600d8f3d4905d created.
+2018/08/08 10:03:21 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:26 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:31 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:37 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:42 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:47 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:52 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:03:57 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:04:02 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:04:07 - Pending instances have completed.
+2018/08/08 10:04:07 - Checking each node launched properly.
+2018/08/08 10:04:07 - 54.184.88.184:   Checking EC2 instance i-037b321b1ee9c0cbf.
+2018/08/08 10:04:07 - 54.184.88.184:   Checking EC2 instance is running.
+2018/08/08 10:04:07 - 54.184.88.184:   Connecting via SSH.
+2018/08/08 10:04:13 - 54.184.88.184:   Waiting on SSH connection.
+2018/08/08 10:04:24 - 54.184.88.184:   Checking software installation completed.
+2018/08/08 10:04:25 - 54.184.88.184:   Software installation finished.
+2018/08/08 10:04:25 - 54.184.88.184:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:04:25 - 54.184.88.184:   Checking file contents.
+2018/08/08 10:04:25 - 54.184.88.184:   Remote file contents confirmed.
+2018/08/08 10:04:26 - 54.184.88.184:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:04:26 - 54.184.88.184:   tlh. Completed check of node 54.184.88.184.
+2018/08/08 10:04:26 - Determining availability zone.
+2018/08/08 10:04:26 - Gathering public and private ip addresses.
+2018/08/08 10:04:26 - Connecting to node 54.184.88.184 for cluster configuration.
+2018/08/08 10:04:26 - Connecting via SSH.
+2018/08/08 10:04:27 - Checking software installation completed.
+2018/08/08 10:04:28 - Software installation finished.
+2018/08/08 10:04:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:04:28 - Checking file contents.
+2018/08/08 10:04:29 - Remote file contents confirmed.
+2018/08/08 10:04:29 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:04:29 - Writing cluster private ip addresses to file on instance.
+2018/08/08 10:04:29 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/08 10:04:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/08 10:04:30 - Checking file contents.
+2018/08/08 10:04:31 - Remote file contents confirmed.
+2018/08/08 10:04:31 - Running envgen
+2018/08/08 10:04:31 - Reading the config file.
+2018/08/08 10:04:32 - Retrieving IP address of ESP Server.
+2018/08/08 10:04:32 - ESP Server private IP address: 10.19.9.158.
+2018/08/08 10:04:32 - ESP Server public IP address: 54.184.88.184.
+2018/08/08 10:04:32 - 54.184.88.184:   Starting node configuration.
+2018/08/08 10:04:32 - 54.184.88.184:   Connecting via SSH.
+2018/08/08 10:04:33 - 54.184.88.184:   Checking software installation completed.
+2018/08/08 10:04:34 - 54.184.88.184:   Software installation finished.
+2018/08/08 10:04:34 - 54.184.88.184:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:04:34 - 54.184.88.184:   Checking file contents.
+2018/08/08 10:04:34 - 54.184.88.184:   Remote file contents confirmed.
+2018/08/08 10:04:35 - 54.184.88.184:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:04:35 - 54.184.88.184:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/08 10:04:36 - 54.184.88.184:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/08 10:04:36 - 54.184.88.184:   Checking file contents.
+2018/08/08 10:04:37 - 54.184.88.184:   Remote file contents confirmed.
+2018/08/08 10:04:37 - 54.184.88.184:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/08 10:05:01 - 54.184.88.184:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting mydali ...            [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting mydfuserver ...       [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting myeclagent ...        [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting myeclccserver ...     [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting myesp ...             [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting mysasha ...           [   OK    ]   
+2018/08/08 10:05:01 - 54.184.88.184:   Starting mythor ...            [   OK    ]  
+2018/08/08 10:05:01 - 54.184.88.184:   Start node is complete.
+2018/08/08 10:05:01 - Done.
+2018/08/08 10:26:26 - Terminating cluster.
+2018/08/08 10:26:26 - Connecting to AWS region us-west-2.
+2018/08/08 10:26:26 - Gathering instances for Hpcc-S6TG.
+2018/08/08 10:26:26 - Terminating instances.
+2018/08/08 10:26:27 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:32 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:37 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:42 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:47 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:52 - Waiting for 1 instances to terminate.
+2018/08/08 10:26:58 - Waiting for 1 instances to terminate.
+2018/08/08 10:27:03 - Waiting for 1 instances to terminate.
+2018/08/08 10:27:08 - Deleting Access Key Hpcc-S6TG.
+2018/08/08 10:27:08 - Deleting Security group Hpcc-S6TG.
+2018/08/08 10:27:09 - Done.
+2018/08/08 10:29:45 - Terminating cluster.
+2018/08/08 10:29:45 - Connecting to AWS region us-west-2.
+2018/08/08 10:29:45 - Gathering instances for Hpcc-S6TG.
+2018/08/08 10:29:45 - Terminating instances.
+2018/08/08 10:29:46 - Deleting Access Key Hpcc-S6TG.
+2018/08/08 10:29:46 - Error: Access key not found.
+2018/08/08 10:29:46 - Deleting Security group Hpcc-S6TG.
+2018/08/08 10:29:46 - Error: Security group not found.
+2018/08/08 10:29:46 - Done.

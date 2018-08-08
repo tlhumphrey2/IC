@@ -1,0 +1,93 @@
+2017/08/15 16:51:48 - Connecting to AWS region eu-central-1.
+2017/08/15 16:51:48 - Calculating new unique cluster name for request 1316.
+2017/08/15 16:51:49 - Creating new cluster name, Hpcc-X2GC.
+2017/08/15 16:51:49 - Creating Hpcc-X2GC security group.
+2017/08/15 16:51:51 - Creating Hpcc-X2GC key pair.
+2017/08/15 16:51:52 - Launching 1 m3.large nodes using ami-76b61919.
+2017/08/15 16:51:53 - Reservation ID r-0e9850ceeeb37ed08 created.
+2017/08/15 16:51:53 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:51:58 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:03 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:08 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:13 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:18 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:24 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:29 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:34 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:39 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:44 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:49 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:52:55 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:00 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:05 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:10 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:15 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:20 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:25 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:30 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:36 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:41 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:46 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:51 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:53:56 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:54:01 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:54:06 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:54:11 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:54:17 - Waiting for 1 of 1 nodes to launch.
+2017/08/15 16:54:22 - Pending instances have completed.
+2017/08/15 16:54:22 - Checking each node launched properly.
+2017/08/15 16:54:22 - 54.93.214.214:   Checking EC2 instance i-0857c4a8a288b2124.
+2017/08/15 16:54:22 - 54.93.214.214:   Checking EC2 instance is running.
+2017/08/15 16:54:22 - 54.93.214.214:   Connecting via SSH.
+2017/08/15 16:54:29 - 54.93.214.214:   Waiting on SSH connection.
+2017/08/15 16:54:38 - 54.93.214.214:   Checking software installation completed.
+2017/08/15 16:54:38 - 54.93.214.214:   Software installation finished.
+2017/08/15 16:54:38 - 54.93.214.214:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/08/15 16:54:39 - 54.93.214.214:   Checking file contents.
+2017/08/15 16:54:39 - 54.93.214.214:   Remote file contents confirmed.
+2017/08/15 16:54:40 - 54.93.214.214:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/08/15 16:54:40 - 54.93.214.214:   Completed check of node 54.93.214.214.
+2017/08/15 16:54:40 - Determining availability zone.
+2017/08/15 16:54:40 - Gathering public and private ip addresses.
+2017/08/15 16:54:40 - Connecting to node 54.93.214.214 for cluster configuration.
+2017/08/15 16:54:40 - Connecting via SSH.
+2017/08/15 16:54:41 - Checking software installation completed.
+2017/08/15 16:54:41 - Software installation finished.
+2017/08/15 16:54:41 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/08/15 16:54:42 - Checking file contents.
+2017/08/15 16:54:42 - Remote file contents confirmed.
+2017/08/15 16:54:43 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/08/15 16:54:43 - Writing cluster private ip addresses to file on instance.
+2017/08/15 16:54:43 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/08/15 16:54:43 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/08/15 16:54:44 - Checking file contents.
+2017/08/15 16:54:44 - Remote file contents confirmed.
+2017/08/15 16:54:44 - Running envgen
+2017/08/15 16:54:45 - Reading the config file.
+2017/08/15 16:54:45 - Retrieving IP address of ESP Server.
+2017/08/15 16:54:45 - ESP Server private IP address: 172.31.19.132.
+2017/08/15 16:54:45 - ESP Server public IP address: 54.93.214.214.
+2017/08/15 16:54:45 - 54.93.214.214:   Starting node configuration.
+2017/08/15 16:54:45 - 54.93.214.214:   Connecting via SSH.
+2017/08/15 16:54:47 - 54.93.214.214:   Checking software installation completed.
+2017/08/15 16:54:47 - 54.93.214.214:   Software installation finished.
+2017/08/15 16:54:47 - 54.93.214.214:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/08/15 16:54:48 - 54.93.214.214:   Checking file contents.
+2017/08/15 16:54:48 - 54.93.214.214:   Remote file contents confirmed.
+2017/08/15 16:54:49 - 54.93.214.214:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/08/15 16:54:49 - 54.93.214.214:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/08/15 16:54:49 - 54.93.214.214:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/08/15 16:54:50 - 54.93.214.214:   Checking file contents.
+2017/08/15 16:54:50 - 54.93.214.214:   Remote file contents confirmed.
+2017/08/15 16:54:50 - 54.93.214.214:   Starting HPCC Platform Community Edition: 6.2.20-1.
+2017/08/15 16:55:03 - 54.93.214.214:   Starting mydafilesrv ...       [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting mydali ...            [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting mydfuserver ...       [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting myeclagent ...        [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting myeclccserver ...     [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting myeclscheduler ...    [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting myesp ...             [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting mysasha ...           [   OK    ]   
+2017/08/15 16:55:03 - 54.93.214.214:   Starting mythor ...            [   OK    ]  
+2017/08/15 16:55:03 - 54.93.214.214:   Start node is complete.
+2017/08/15 16:55:03 - Done.

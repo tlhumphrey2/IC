@@ -1,0 +1,92 @@
+2016/04/18 13:08:48 - Connecting to AWS region us-west-2.
+2016/04/18 13:08:48 - Calculating new unique cluster name for request 1215.
+2016/04/18 13:08:49 - Creating new cluster name, Hpcc-GYJ8.
+2016/04/18 13:08:49 - Creating Hpcc-GYJ8 security group.
+2016/04/18 13:08:51 - Creating Hpcc-GYJ8 key pair.
+2016/04/18 13:08:51 - Launching 1 m1.large nodes using ami-551ff635.
+2016/04/18 13:08:51 - Reservation ID r-53677a96 created.
+2016/04/18 13:08:51 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:08:57 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:02 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:07 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:12 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:17 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:22 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:27 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:33 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:38 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:43 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:48 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:53 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:09:58 - Waiting for 1 of 1 nodes to launch.
+2016/04/18 13:10:04 - Pending instances have completed.
+2016/04/18 13:10:04 - Checking each node launched properly.
+2016/04/18 13:10:04 - 54.189.185.46:   Checking EC2 instance i-737464b4.
+2016/04/18 13:10:04 - 54.189.185.46:   Checking EC2 instance is running.
+2016/04/18 13:10:04 - 54.189.185.46:   Connecting via SSH.
+2016/04/18 13:10:07 - 54.189.185.46:   Waiting on SSH connection.
+2016/04/18 13:10:20 - 54.189.185.46:   Checking software installation completed.
+2016/04/18 13:10:20 - 54.189.185.46:   Software installation finished.
+2016/04/18 13:10:20 - 54.189.185.46:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/18 13:10:20 - 54.189.185.46:   Checking file contents.
+2016/04/18 13:10:21 - 54.189.185.46:   Remote file contents confirmed.
+2016/04/18 13:10:22 - 54.189.185.46:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/18 13:10:22 - 54.189.185.46:   Completed check of node 54.189.185.46.
+2016/04/18 13:10:22 - Determining availability zone.
+2016/04/18 13:10:22 - Gathering public and private ip addresses.
+2016/04/18 13:10:22 - Connecting to node 54.189.185.46 for cluster configuration.
+2016/04/18 13:10:22 - Connecting via SSH.
+2016/04/18 13:10:23 - Checking software installation completed.
+2016/04/18 13:10:23 - Software installation finished.
+2016/04/18 13:10:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/18 13:10:24 - Checking file contents.
+2016/04/18 13:10:24 - Remote file contents confirmed.
+2016/04/18 13:10:25 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/18 13:10:25 - Writing cluster private ip addresses to file on instance.
+2016/04/18 13:10:25 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/18 13:10:26 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/18 13:10:26 - Checking file contents.
+2016/04/18 13:10:27 - Remote file contents confirmed.
+2016/04/18 13:10:27 - Running envgen
+2016/04/18 13:10:27 - Reading the config file.
+2016/04/18 13:10:28 - Retrieving IP address of ESP Server.
+2016/04/18 13:10:28 - ESP Server private IP address: 10.23.132.165.
+2016/04/18 13:10:28 - ESP Server public IP address: 54.189.185.46.
+2016/04/18 13:10:28 - 54.189.185.46:   Starting node configuration.
+2016/04/18 13:10:28 - 54.189.185.46:   Connecting via SSH.
+2016/04/18 13:10:30 - 54.189.185.46:   Checking software installation completed.
+2016/04/18 13:10:30 - 54.189.185.46:   Software installation finished.
+2016/04/18 13:10:30 - 54.189.185.46:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/18 13:10:31 - 54.189.185.46:   Checking file contents.
+2016/04/18 13:10:31 - 54.189.185.46:   Remote file contents confirmed.
+2016/04/18 13:10:32 - 54.189.185.46:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/18 13:10:32 - 54.189.185.46:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/18 13:10:32 - 54.189.185.46:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/18 13:10:33 - 54.189.185.46:   Checking file contents.
+2016/04/18 13:10:33 - 54.189.185.46:   Remote file contents confirmed.
+2016/04/18 13:10:33 - 54.189.185.46:   Starting HPCC Platform Community Edition: 5.6.0-1.
+2016/04/18 13:10:50 - 54.189.185.46:   Starting mydafilesrv ...       [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting mydali ...            [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting mydfuserver ...       [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting myeclagent ...        [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting myeclccserver ...     [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting myeclscheduler ...    [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting myesp ...             [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting mysasha ...           [   OK    ]   
+2016/04/18 13:10:50 - 54.189.185.46:   Starting mythor ...            [   OK    ]  
+2016/04/18 13:10:50 - 54.189.185.46:   Start node is complete.
+2016/04/18 13:10:50 - Done.
+2016/04/18 13:11:52 - Terminating cluster.
+2016/04/18 13:11:52 - Connecting to AWS region us-west-2.
+2016/04/18 13:11:52 - Gathering instances for Hpcc-GYJ8.
+2016/04/18 13:11:52 - Terminating instances.
+2016/04/18 13:11:52 - Waiting for 1 instances to terminate.
+2016/04/18 13:11:58 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:03 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:08 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:13 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:18 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:23 - Waiting for 1 instances to terminate.
+2016/04/18 13:12:29 - Deleting Access Key Hpcc-GYJ8.
+2016/04/18 13:12:29 - Deleting Security group Hpcc-GYJ8.
+2016/04/18 13:12:29 - Done.

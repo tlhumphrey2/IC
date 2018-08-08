@@ -1,0 +1,102 @@
+2015/03/29 20:23:04 - Connecting to AWS region us-west-2.
+2015/03/29 20:23:04 - Checking storage IDs exist in region us-west-2: snap-10d2aa45
+2015/03/29 20:23:04 - Calculating new unique cluster name for request 1048.
+2015/03/29 20:23:05 - Creating new cluster name, Hpcc-VDNJ.
+2015/03/29 20:23:05 - Creating Hpcc-VDNJ security group.
+2015/03/29 20:23:07 - Creating Hpcc-VDNJ key pair.
+2015/03/29 20:23:07 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/03/29 20:23:07 - Reservation ID r-52b1d658 created.
+2015/03/29 20:23:07 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:13 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:18 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:23 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:28 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:33 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:38 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:43 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:48 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:54 - Waiting for 1 of 1 nodes to launch.
+2015/03/29 20:23:59 - Pending instances have completed.
+2015/03/29 20:23:59 - Checking each node launched properly.
+2015/03/29 20:23:59 - 54.190.228.1:    Checking EC2 instance i-34be1339.
+2015/03/29 20:23:59 - 54.190.228.1:    Checking EC2 instance is running.
+2015/03/29 20:23:59 - 54.190.228.1:    Connecting via SSH.
+2015/03/29 20:24:00 - 54.190.228.1:    Waiting on SSH connection.
+2015/03/29 20:24:11 - 54.190.228.1:    Checking software installation completed.
+2015/03/29 20:24:12 - 54.190.228.1:    Software installation finished.
+2015/03/29 20:24:12 - 54.190.228.1:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 20:24:12 - 54.190.228.1:    Checking file contents.
+2015/03/29 20:24:13 - 54.190.228.1:    Remote file contents confirmed.
+2015/03/29 20:24:13 - 54.190.228.1:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 20:24:13 - 54.190.228.1:    Completed check of node 54.190.228.1.
+2015/03/29 20:24:13 - Determining availability zone.
+2015/03/29 20:24:13 - Gathering public and private ip addresses.
+2015/03/29 20:24:13 - Connecting to node 54.190.228.1 for cluster configuration.
+2015/03/29 20:24:13 - Connecting via SSH.
+2015/03/29 20:24:15 - Checking software installation completed.
+2015/03/29 20:24:15 - Software installation finished.
+2015/03/29 20:24:15 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 20:24:15 - Checking file contents.
+2015/03/29 20:24:16 - Remote file contents confirmed.
+2015/03/29 20:24:16 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 20:24:16 - Writing cluster private ip addresses to file on instance.
+2015/03/29 20:24:16 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/29 20:24:17 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/29 20:24:17 - Checking file contents.
+2015/03/29 20:24:17 - Remote file contents confirmed.
+2015/03/29 20:24:17 - Running envgen
+2015/03/29 20:24:18 - Reading the config file.
+2015/03/29 20:24:19 - Retrieving IP address of ESP Server.
+2015/03/29 20:24:19 - ESP Server private IP address: 10.253.86.186.
+2015/03/29 20:24:19 - ESP Server public IP address: 54.190.228.1.
+2015/03/29 20:24:19 - Attaching storage devices to the Landing Zone: snap-10d2aa45
+2015/03/29 20:24:20 - Waiting for volumes to become available.
+2015/03/29 20:24:25 - Waiting for volumes to become available.
+2015/03/29 20:24:30 - Connecting via SSH.
+2015/03/29 20:24:32 - Waiting for EC2 instance to see storage device.
+2015/03/29 20:24:39 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-10d2aa45/.
+2015/03/29 20:24:39 - 54.190.228.1:    Starting node configuration.
+2015/03/29 20:24:39 - 54.190.228.1:    Connecting via SSH.
+2015/03/29 20:24:40 - 54.190.228.1:    Checking software installation completed.
+2015/03/29 20:24:40 - 54.190.228.1:    Software installation finished.
+2015/03/29 20:24:40 - 54.190.228.1:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/29 20:24:41 - 54.190.228.1:    Checking file contents.
+2015/03/29 20:24:41 - 54.190.228.1:    Remote file contents confirmed.
+2015/03/29 20:24:41 - 54.190.228.1:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/29 20:24:41 - 54.190.228.1:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/29 20:24:42 - 54.190.228.1:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/29 20:24:42 - 54.190.228.1:    Checking file contents.
+2015/03/29 20:24:43 - 54.190.228.1:    Remote file contents confirmed.
+2015/03/29 20:24:43 - 54.190.228.1:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/29 20:25:10 - 54.190.228.1:    Starting mydafilesrv....       [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting mydali....            [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting mydfuserver....       [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting myeclagent....        [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting myeclccserver....     [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting myeclscheduler....    [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting myesp....             [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting mysasha....           [  OK  ]   
+2015/03/29 20:25:10 - 54.190.228.1:    Starting mythor....            [  OK  ]  
+2015/03/29 20:25:10 - 54.190.228.1:    Start node is complete.
+2015/03/29 20:25:10 - Done.
+2015/03/29 20:41:31 - Terminating cluster.
+2015/03/29 20:41:31 - Connecting to AWS region us-west-2.
+2015/03/29 20:41:31 - Gathering instances for Hpcc-VDNJ.
+2015/03/29 20:41:31 - Terminating instances.
+2015/03/29 20:41:32 - Waiting for 1 instances to terminate.
+2015/03/29 20:41:37 - Waiting for 1 instances to terminate.
+2015/03/29 20:41:42 - Waiting for 1 instances to terminate.
+2015/03/29 20:41:47 - Waiting for 1 instances to terminate.
+2015/03/29 20:41:52 - Waiting for 1 instances to terminate.
+2015/03/29 20:41:57 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:03 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:08 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:13 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:18 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:23 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:28 - Waiting for 1 instances to terminate.
+2015/03/29 20:42:33 - Deleting attached EBS volumes.
+2015/03/29 20:42:33 - Deleting volume vol-e1cecaf0
+2015/03/29 20:42:34 - Deleting Access Key Hpcc-VDNJ.
+2015/03/29 20:42:34 - Deleting Security group Hpcc-VDNJ.
+2015/03/29 20:42:34 - Done.

@@ -1,0 +1,81 @@
+2012/02/02 12:04:48 - Connecting to AWS region us-east-1.
+2012/02/02 12:04:48 - Calculating new unique cluster name for request 89.
+2012/02/02 12:04:49 - Creating new cluster name, Thor-82NY.
+2012/02/02 12:04:49 - Creating Thor-82NY security group.
+2012/02/02 12:04:50 - Creating Thor-82NY key pair.
+2012/02/02 12:04:50 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/02/02 12:04:51 - Reservation ID r-70458710 created
+2012/02/02 12:04:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:04:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:16 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:21 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:26 - Waiting for 1 of 1 nodes to launch.
+2012/02/02 12:05:31 - Pending instances have completed.
+2012/02/02 12:05:31 - Checking each node launched properly.
+2012/02/02 12:05:31 - 107.20.60.212:   Checking EC2 instance i-dfa50fba.
+2012/02/02 12:05:31 - 107.20.60.212:   Checking EC2 instance is running.
+2012/02/02 12:05:31 - 107.20.60.212:   Connecting via SSH.
+2012/02/02 12:05:33 - 107.20.60.212:   Checking disk I/O
+2012/02/02 12:05:34 - 107.20.60.212:   Checking software installation completed.
+2012/02/02 12:05:34 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:05:44 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:05:54 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:06:04 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:06:14 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:06:24 - 107.20.60.212:   Waiting for software to install.
+2012/02/02 12:06:34 - 107.20.60.212:   Software installation finished.
+2012/02/02 12:06:34 - 107.20.60.212:   Completed check of node 107.20.60.212.
+2012/02/02 12:06:34 - Determining availability zone.
+2012/02/02 12:06:34 - Gathering public and private ip addresses.
+2012/02/02 12:06:34 - Connecting to node 107.20.60.212 for cluster configuration.
+2012/02/02 12:06:34 - Connecting via SSH.
+2012/02/02 12:06:34 - Checking disk I/O
+2012/02/02 12:06:34 - Checking software installation completed.
+2012/02/02 12:06:35 - Software installation finished.
+2012/02/02 12:06:35 - Writing cluster private ip addresses to file on instance.
+2012/02/02 12:06:35 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/02 12:06:35 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/02 12:06:35 - Checking file contents.
+2012/02/02 12:06:35 - Remote file contents confirmed.
+2012/02/02 12:06:35 - Running envgen
+2012/02/02 12:06:35 - Reading the config file.
+2012/02/02 12:06:35 - Retrieving IP address of ESP Server.
+2012/02/02 12:06:35 - ESP Server private IP address: 10.40.63.238.
+2012/02/02 12:06:35 - ESP Server public IP address: 107.20.60.212.
+2012/02/02 12:06:35 - 107.20.60.212:   Starting node configuration.
+2012/02/02 12:06:35 - 107.20.60.212:   Connecting via SSH.
+2012/02/02 12:06:36 - 107.20.60.212:   Checking disk I/O
+2012/02/02 12:06:36 - 107.20.60.212:   Checking software installation completed.
+2012/02/02 12:06:36 - 107.20.60.212:   Software installation finished.
+2012/02/02 12:06:36 - 107.20.60.212:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/02 12:06:36 - 107.20.60.212:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/02 12:06:36 - 107.20.60.212:   Checking file contents.
+2012/02/02 12:06:36 - 107.20.60.212:   Remote file contents confirmed.
+2012/02/02 12:06:36 - 107.20.60.212:   Starting HPCC services.
+2012/02/02 12:06:36 - 107.20.60.212:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/02 12:07:02 - 107.20.60.212:   Starting mydafilesrv....       [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting mydali....            [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting mydfuserver....       [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting myeclagent....        [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting myeclccserver....     [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting myeclscheduler....    [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting myesp....             [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting mysasha....           [  OK  ]   
+2012/02/02 12:07:02 - 107.20.60.212:   Starting mythor....            [  OK  ]  
+2012/02/02 12:07:02 - 107.20.60.212:   Start node is complete.
+2012/02/02 12:07:02 - Done.
+2012/02/02 12:16:14 - Terminating cluster.
+2012/02/02 12:16:14 - Connecting to AWS region us-east-1.
+2012/02/02 12:16:14 - Gathering instances for Thor-82NY.
+2012/02/02 12:16:14 - Terminating instances.
+2012/02/02 12:16:15 - Waiting for 1 instances to terminate.
+2012/02/02 12:16:20 - Waiting for 1 instances to terminate.
+2012/02/02 12:16:25 - Waiting for 1 instances to terminate.
+2012/02/02 12:16:30 - Waiting for 1 instances to terminate.
+2012/02/02 12:16:35 - Waiting for 1 instances to terminate.
+2012/02/02 12:16:40 - Deleting Access Key Thor-82NY.
+2012/02/02 12:16:40 - Deleting Security group Thor-82NY.
+2012/02/02 12:16:40 - Done.

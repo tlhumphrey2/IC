@@ -1,0 +1,87 @@
+2014/03/12 05:33:39 - Connecting to AWS region eu-west-1.
+2014/03/12 05:33:39 - Calculating new unique cluster name for request 753.
+2014/03/12 05:33:40 - Creating new cluster name, Hpcc-W75M.
+2014/03/12 05:33:40 - Creating Hpcc-W75M security group.
+2014/03/12 05:33:44 - Creating Hpcc-W75M key pair.
+2014/03/12 05:33:45 - Launching 1 m1.large nodes using ami-44669633.
+2014/03/12 05:33:46 - Reservation ID r-43306303 created.
+2014/03/12 05:33:46 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:33:51 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:33:56 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:02 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:07 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:12 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:17 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:23 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:28 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:33 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:38 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:44 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:49 - Waiting for 1 of 1 nodes to launch.
+2014/03/12 05:34:54 - Pending instances have completed.
+2014/03/12 05:34:54 - Checking each node launched properly.
+2014/03/12 05:34:54 - 54.72.32.241:    Checking EC2 instance i-1ee7d95e.
+2014/03/12 05:34:55 - 54.72.32.241:    Checking EC2 instance is running.
+2014/03/12 05:34:55 - 54.72.32.241:    Connecting via SSH.
+2014/03/12 05:34:55 - 54.72.32.241:    Waiting on SSH connection.
+2014/03/12 05:35:07 - 54.72.32.241:    Checking software installation completed.
+2014/03/12 05:35:07 - 54.72.32.241:    Software installation finished.
+2014/03/12 05:35:07 - 54.72.32.241:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/03/12 05:35:08 - 54.72.32.241:    Checking file contents.
+2014/03/12 05:35:08 - 54.72.32.241:    Remote file contents confirmed.
+2014/03/12 05:35:09 - 54.72.32.241:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/03/12 05:35:09 - 54.72.32.241:    Completed check of node 54.72.32.241.
+2014/03/12 05:35:09 - Determining availability zone.
+2014/03/12 05:35:09 - Gathering public and private ip addresses.
+2014/03/12 05:35:09 - Connecting to node 54.72.32.241 for cluster configuration.
+2014/03/12 05:35:09 - Connecting via SSH.
+2014/03/12 05:35:10 - Checking software installation completed.
+2014/03/12 05:35:11 - Software installation finished.
+2014/03/12 05:35:11 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/03/12 05:35:11 - Checking file contents.
+2014/03/12 05:35:12 - Remote file contents confirmed.
+2014/03/12 05:35:12 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/03/12 05:35:12 - Writing cluster private ip addresses to file on instance.
+2014/03/12 05:35:12 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/03/12 05:35:13 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/03/12 05:35:13 - Checking file contents.
+2014/03/12 05:35:14 - Remote file contents confirmed.
+2014/03/12 05:35:14 - Running envgen
+2014/03/12 05:35:15 - Reading the config file.
+2014/03/12 05:35:15 - Retrieving IP address of ESP Server.
+2014/03/12 05:35:16 - ESP Server private IP address: 172.31.35.18.
+2014/03/12 05:35:16 - ESP Server public IP address: 54.72.32.241.
+2014/03/12 05:35:16 - 54.72.32.241:    Starting node configuration.
+2014/03/12 05:35:16 - 54.72.32.241:    Connecting via SSH.
+2014/03/12 05:35:17 - 54.72.32.241:    Checking software installation completed.
+2014/03/12 05:35:17 - 54.72.32.241:    Software installation finished.
+2014/03/12 05:35:17 - 54.72.32.241:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/03/12 05:35:18 - 54.72.32.241:    Checking file contents.
+2014/03/12 05:35:18 - 54.72.32.241:    Remote file contents confirmed.
+2014/03/12 05:35:19 - 54.72.32.241:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/03/12 05:35:19 - 54.72.32.241:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/03/12 05:35:20 - 54.72.32.241:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/03/12 05:35:21 - 54.72.32.241:    Checking file contents.
+2014/03/12 05:35:21 - 54.72.32.241:    Remote file contents confirmed.
+2014/03/12 05:35:21 - 54.72.32.241:    Starting HPCC Platform Community Edition: 4.2.2-rc8.
+2014/03/12 05:35:48 - 54.72.32.241:    Starting mydafilesrv....       [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting mydali....            [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting mydfuserver....       [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting myeclagent....        [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting myeclccserver....     [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting myeclscheduler....    [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting myesp....             [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting mysasha....           [  OK  ]   
+2014/03/12 05:35:48 - 54.72.32.241:    Starting mythor....            [  OK  ]  
+2014/03/12 05:35:48 - 54.72.32.241:    Start node is complete.
+2014/03/12 05:35:48 - Done.
+2014/03/12 05:36:19 - Terminating cluster.
+2014/03/12 05:36:19 - Connecting to AWS region eu-west-1.
+2014/03/12 05:36:19 - Gathering instances for Hpcc-W75M.
+2014/03/12 05:36:20 - Terminating instances.
+2014/03/12 05:36:20 - Deleting Access Key Hpcc-W75M.
+2014/03/12 05:36:21 - Deleting Security group Hpcc-W75M.
+2014/03/12 05:36:21 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-8e31ddeb has a dependent object
+                      requestId: e99822c2-d0ec-420f-9a57-46f87b355ce1

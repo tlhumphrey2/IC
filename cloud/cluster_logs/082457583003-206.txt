@@ -1,0 +1,98 @@
+2012/03/14 15:58:12 - Connecting to AWS region us-west-2.
+2012/03/14 15:58:12 - Checking storage IDs exist in region us-west-2: snap-6e701a06
+2012/03/14 15:58:13 - Calculating new unique cluster name for request 206.
+2012/03/14 15:58:13 - Creating new cluster name, Thor-TYEK.
+2012/03/14 15:58:13 - Creating Thor-TYEK security group.
+2012/03/14 15:58:17 - Creating Thor-TYEK key pair.
+2012/03/14 15:58:20 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/14 15:58:20 - Reservation ID r-9a6f3caa created.
+2012/03/14 15:58:20 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:26 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:31 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:36 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:42 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:47 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:52 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:58:57 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:03 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:08 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:13 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:19 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:24 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:59:29 - Pending instances have completed.
+2012/03/14 15:59:29 - Checking each node launched properly.
+2012/03/14 15:59:29 - 50.112.59.98:    Checking EC2 instance i-86247eb6.
+2012/03/14 15:59:29 - 50.112.59.98:    Checking EC2 instance is running.
+2012/03/14 15:59:29 - 50.112.59.98:    Connecting via SSH.
+2012/03/14 15:59:31 - 50.112.59.98:    Checking software installation completed.
+2012/03/14 15:59:31 - 50.112.59.98:    Waiting for software to install.
+2012/03/14 15:59:41 - 50.112.59.98:    Software installation finished.
+2012/03/14 15:59:41 - 50.112.59.98:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 15:59:42 - 50.112.59.98:    Checking file contents.
+2012/03/14 15:59:42 - 50.112.59.98:    Remote file contents confirmed.
+2012/03/14 15:59:43 - 50.112.59.98:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 15:59:43 - 50.112.59.98:    Completed check of node 50.112.59.98.
+2012/03/14 15:59:43 - Determining availability zone.
+2012/03/14 15:59:43 - Gathering public and private ip addresses.
+2012/03/14 15:59:43 - Connecting to node 50.112.59.98 for cluster configuration.
+2012/03/14 15:59:43 - Connecting via SSH.
+2012/03/14 15:59:45 - Checking software installation completed.
+2012/03/14 15:59:45 - Software installation finished.
+2012/03/14 15:59:45 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 15:59:45 - Checking file contents.
+2012/03/14 15:59:46 - Remote file contents confirmed.
+2012/03/14 15:59:46 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 15:59:46 - Writing cluster private ip addresses to file on instance.
+2012/03/14 15:59:46 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 15:59:47 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 15:59:47 - Checking file contents.
+2012/03/14 15:59:48 - Remote file contents confirmed.
+2012/03/14 15:59:48 - Running envgen
+2012/03/14 15:59:49 - Reading the config file.
+2012/03/14 15:59:49 - Retrieving IP address of ESP Server.
+2012/03/14 15:59:49 - ESP Server private IP address: 10.252.36.144.
+2012/03/14 15:59:49 - ESP Server public IP address: 50.112.59.98.
+2012/03/14 15:59:50 - Attaching storage devices to the Landing Zone: snap-6e701a06
+2012/03/14 15:59:52 - Connecting via SSH.
+2012/03/14 15:59:54 - Waiting for EC2 instance to see storage device.
+2012/03/14 16:00:00 - /dev/xvdf is mounted to /mnt/dropzone/snap-6e701a06/.
+2012/03/14 16:00:00 - 50.112.59.98:    Starting node configuration.
+2012/03/14 16:00:00 - 50.112.59.98:    Connecting via SSH.
+2012/03/14 16:00:01 - 50.112.59.98:    Checking software installation completed.
+2012/03/14 16:00:02 - 50.112.59.98:    Software installation finished.
+2012/03/14 16:00:02 - 50.112.59.98:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 16:00:02 - 50.112.59.98:    Checking file contents.
+2012/03/14 16:00:03 - 50.112.59.98:    Remote file contents confirmed.
+2012/03/14 16:00:04 - 50.112.59.98:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 16:00:04 - 50.112.59.98:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 16:00:05 - 50.112.59.98:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 16:00:05 - 50.112.59.98:    Checking file contents.
+2012/03/14 16:00:05 - 50.112.59.98:    Remote file contents confirmed.
+2012/03/14 16:00:05 - 50.112.59.98:    Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 16:00:32 - 50.112.59.98:    Starting mydafilesrv....       [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting mydali....            [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting mydfuserver....       [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting myeclagent....        [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting myeclccserver....     [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting myeclscheduler....    [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting myesp....             [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting mysasha....           [  OK  ]   
+2012/03/14 16:00:32 - 50.112.59.98:    Starting mythor....            [  OK  ]  
+2012/03/14 16:00:32 - 50.112.59.98:    Start node is complete.
+2012/03/14 16:00:32 - Done.
+2012/03/14 16:55:42 - Terminating cluster.
+2012/03/14 16:55:42 - Connecting to AWS region us-west-2.
+2012/03/14 16:55:42 - Gathering instances for Thor-TYEK.
+2012/03/14 16:55:42 - Terminating instances.
+2012/03/14 16:55:43 - Waiting for 1 instances to terminate.
+2012/03/14 16:55:49 - Waiting for 1 instances to terminate.
+2012/03/14 16:55:54 - Waiting for 1 instances to terminate.
+2012/03/14 16:55:59 - Waiting for 1 instances to terminate.
+2012/03/14 16:56:04 - Waiting for 1 instances to terminate.
+2012/03/14 16:56:10 - Waiting for 1 instances to terminate.
+2012/03/14 16:56:15 - Waiting for 1 instances to terminate.
+2012/03/14 16:56:20 - Deleting attached EBS volumes.
+2012/03/14 16:56:20 - Deleting volume vol-25cbd74e
+2012/03/14 16:56:21 - Deleting Access Key Thor-TYEK.
+2012/03/14 16:56:21 - Deleting Security group Thor-TYEK.
+2012/03/14 16:56:22 - Done.

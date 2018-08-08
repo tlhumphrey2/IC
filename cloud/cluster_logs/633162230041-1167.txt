@@ -1,0 +1,92 @@
+2015/11/05 15:40:51 - Connecting to AWS region us-west-2.
+2015/11/05 15:40:51 - Calculating new unique cluster name for request 1167.
+2015/11/05 15:40:52 - Creating new cluster name, Hpcc-K7PV.
+2015/11/05 15:40:52 - Creating Hpcc-K7PV security group.
+2015/11/05 15:40:54 - Creating Hpcc-K7PV key pair.
+2015/11/05 15:40:55 - Launching 1 m1.large nodes using ami-de1700bf.
+2015/11/05 15:40:55 - Reservation ID r-b2291045 created.
+2015/11/05 15:40:55 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:00 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:05 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:11 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:16 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:21 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:26 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:31 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:36 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:41 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 15:41:47 - Pending instances have completed.
+2015/11/05 15:41:47 - Checking each node launched properly.
+2015/11/05 15:41:47 - 52.13.125.199:   Checking EC2 instance i-ae12916a.
+2015/11/05 15:41:47 - 52.13.125.199:   Checking EC2 instance is running.
+2015/11/05 15:41:47 - 52.13.125.199:   Connecting via SSH.
+2015/11/05 15:41:47 - 52.13.125.199:   Waiting on SSH connection.
+2015/11/05 15:41:59 - 52.13.125.199:   Checking software installation completed.
+2015/11/05 15:41:59 - 52.13.125.199:   Software installation finished.
+2015/11/05 15:41:59 - 52.13.125.199:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 15:41:59 - 52.13.125.199:   Checking file contents.
+2015/11/05 15:42:00 - 52.13.125.199:   Remote file contents confirmed.
+2015/11/05 15:42:00 - 52.13.125.199:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 15:42:00 - 52.13.125.199:   Completed check of node 52.13.125.199.
+2015/11/05 15:42:00 - Determining availability zone.
+2015/11/05 15:42:00 - Gathering public and private ip addresses.
+2015/11/05 15:42:00 - Connecting to node 52.13.125.199 for cluster configuration.
+2015/11/05 15:42:00 - Connecting via SSH.
+2015/11/05 15:42:02 - Checking software installation completed.
+2015/11/05 15:42:02 - Software installation finished.
+2015/11/05 15:42:02 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 15:42:02 - Checking file contents.
+2015/11/05 15:42:03 - Remote file contents confirmed.
+2015/11/05 15:42:03 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 15:42:03 - Writing cluster private ip addresses to file on instance.
+2015/11/05 15:42:03 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/11/05 15:42:04 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/11/05 15:42:04 - Checking file contents.
+2015/11/05 15:42:04 - Remote file contents confirmed.
+2015/11/05 15:42:04 - Running envgen
+2015/11/05 15:42:05 - Reading the config file.
+2015/11/05 15:42:06 - Retrieving IP address of ESP Server.
+2015/11/05 15:42:06 - ESP Server private IP address: 10.253.76.227.
+2015/11/05 15:42:06 - ESP Server public IP address: 52.13.125.199.
+2015/11/05 15:42:06 - 52.13.125.199:   Starting node configuration.
+2015/11/05 15:42:06 - 52.13.125.199:   Connecting via SSH.
+2015/11/05 15:42:07 - 52.13.125.199:   Checking software installation completed.
+2015/11/05 15:42:07 - 52.13.125.199:   Software installation finished.
+2015/11/05 15:42:07 - 52.13.125.199:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 15:42:08 - 52.13.125.199:   Checking file contents.
+2015/11/05 15:42:08 - 52.13.125.199:   Remote file contents confirmed.
+2015/11/05 15:42:09 - 52.13.125.199:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 15:42:09 - 52.13.125.199:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/11/05 15:42:10 - 52.13.125.199:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/11/05 15:42:10 - 52.13.125.199:   Checking file contents.
+2015/11/05 15:42:10 - 52.13.125.199:   Remote file contents confirmed.
+2015/11/05 15:42:10 - 52.13.125.199:   Starting HPCC Platform Community Edition: 5.4.4-1.
+2015/11/05 15:42:27 - 52.13.125.199:   Starting mydafilesrv ...       [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting mydali ...            [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting mydfuserver ...       [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting myeclagent ...        [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting myeclccserver ...     [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting myeclscheduler ...    [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting myesp ...             [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting mysasha ...           [   OK    ]   
+2015/11/05 15:42:27 - 52.13.125.199:   Starting mythor ...            [   OK    ]  
+2015/11/05 15:42:27 - 52.13.125.199:   Start node is complete.
+2015/11/05 15:42:27 - Done.
+2015/11/05 15:45:57 - Terminating cluster.
+2015/11/05 15:45:57 - Connecting to AWS region us-west-2.
+2015/11/05 15:45:57 - Gathering instances for Hpcc-K7PV.
+2015/11/05 15:45:57 - Terminating instances.
+2015/11/05 15:45:58 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:03 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:08 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:13 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:18 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:24 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:29 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:34 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:39 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:44 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:49 - Waiting for 1 instances to terminate.
+2015/11/05 15:46:55 - Deleting Access Key Hpcc-K7PV.
+2015/11/05 15:46:55 - Deleting Security group Hpcc-K7PV.
+2015/11/05 15:46:55 - Done.

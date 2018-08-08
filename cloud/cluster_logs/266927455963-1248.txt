@@ -1,0 +1,91 @@
+2016/07/21 08:48:24 - Connecting to AWS region us-west-2.
+2016/07/21 08:48:24 - Calculating new unique cluster name for request 1248.
+2016/07/21 08:48:25 - Creating new cluster name, Hpcc-5TY2.
+2016/07/21 08:48:25 - Creating Hpcc-5TY2 security group.
+2016/07/21 08:48:28 - Creating Hpcc-5TY2 key pair.
+2016/07/21 08:48:28 - Launching 1 m1.large nodes using ami-1dac6e7d.
+2016/07/21 08:48:30 - Reservation ID r-e6d64622 created.
+2016/07/21 08:48:30 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:48:35 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:48:40 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:48:45 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:48:50 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:48:55 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:01 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:06 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:11 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:16 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:21 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:26 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:32 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:37 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:42 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:47 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:52 - Waiting for 1 of 1 nodes to launch.
+2016/07/21 08:49:58 - Pending instances have completed.
+2016/07/21 08:49:58 - Checking each node launched properly.
+2016/07/21 08:49:58 - 52.10.171.156:   Checking EC2 instance i-c233b46d.
+2016/07/21 08:49:58 - 52.10.171.156:   Checking EC2 instance is running.
+2016/07/21 08:49:58 - 52.10.171.156:   Connecting via SSH.
+2016/07/21 08:49:58 - 52.10.171.156:   Waiting on SSH connection.
+2016/07/21 08:50:12 - 52.10.171.156:   Checking software installation completed.
+2016/07/21 08:50:12 - 52.10.171.156:   Software installation finished.
+2016/07/21 08:50:12 - 52.10.171.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 08:50:13 - 52.10.171.156:   Checking file contents.
+2016/07/21 08:50:13 - 52.10.171.156:   Remote file contents confirmed.
+2016/07/21 08:50:14 - 52.10.171.156:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 08:50:14 - 52.10.171.156:   Completed check of node 52.10.171.156.
+2016/07/21 08:50:14 - Determining availability zone.
+2016/07/21 08:50:14 - Gathering public and private ip addresses.
+2016/07/21 08:50:14 - Connecting to node 52.10.171.156 for cluster configuration.
+2016/07/21 08:50:14 - Connecting via SSH.
+2016/07/21 08:50:16 - Checking software installation completed.
+2016/07/21 08:50:16 - Software installation finished.
+2016/07/21 08:50:16 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 08:50:16 - Checking file contents.
+2016/07/21 08:50:17 - Remote file contents confirmed.
+2016/07/21 08:50:17 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 08:50:17 - Writing cluster private ip addresses to file on instance.
+2016/07/21 08:50:17 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/07/21 08:50:18 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/07/21 08:50:18 - Checking file contents.
+2016/07/21 08:50:19 - Remote file contents confirmed.
+2016/07/21 08:50:19 - Running envgen
+2016/07/21 08:50:19 - Reading the config file.
+2016/07/21 08:50:21 - Retrieving IP address of ESP Server.
+2016/07/21 08:50:21 - ESP Server private IP address: 172.31.19.33.
+2016/07/21 08:50:21 - ESP Server public IP address: 52.10.171.156.
+2016/07/21 08:50:21 - 52.10.171.156:   Starting node configuration.
+2016/07/21 08:50:21 - 52.10.171.156:   Connecting via SSH.
+2016/07/21 08:50:23 - 52.10.171.156:   Checking software installation completed.
+2016/07/21 08:50:23 - 52.10.171.156:   Software installation finished.
+2016/07/21 08:50:23 - 52.10.171.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/21 08:50:24 - 52.10.171.156:   Checking file contents.
+2016/07/21 08:50:24 - 52.10.171.156:   Remote file contents confirmed.
+2016/07/21 08:50:25 - 52.10.171.156:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/21 08:50:25 - 52.10.171.156:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/21 08:50:26 - 52.10.171.156:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/21 08:50:26 - 52.10.171.156:   Checking file contents.
+2016/07/21 08:50:26 - 52.10.171.156:   Remote file contents confirmed.
+2016/07/21 08:50:26 - 52.10.171.156:   Starting HPCC Platform Community Edition: 6.0.2-1.
+2016/07/21 08:50:48 - 52.10.171.156:   Starting mydafilesrv ...       [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting mydali ...            [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting mydfuserver ...       [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting myeclagent ...        [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting myeclccserver ...     [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting myeclscheduler ...    [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting myesp ...             [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting mysasha ...           [   OK    ]   
+2016/07/21 08:50:48 - 52.10.171.156:   Starting mythor ...            [   OK    ]  
+2016/07/21 08:50:48 - 52.10.171.156:   Start node is complete.
+2016/07/21 08:50:48 - Done.
+2016/07/21 10:53:50 - Terminating cluster.
+2016/07/21 10:53:50 - Connecting to AWS region us-west-2.
+2016/07/21 10:53:50 - Gathering instances for Hpcc-5TY2.
+2016/07/21 10:53:51 - Terminating instances.
+2016/07/21 10:53:51 - Deleting Access Key Hpcc-5TY2.
+2016/07/21 10:53:51 - Deleting Security group Hpcc-5TY2.
+2016/07/21 10:53:52 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-ab6e28cd has a dependent object
+                      requestId: 2df713c0-e3c1-406d-aea7-39c3e50d949c

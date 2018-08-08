@@ -1,0 +1,96 @@
+2014/10/21 16:01:03 - Connecting to AWS region us-west-2.
+2014/10/21 16:01:03 - Calculating new unique cluster name for request 976.
+2014/10/21 16:01:04 - Creating new cluster name, Hpcc-4ZWY.
+2014/10/21 16:01:04 - Creating Hpcc-4ZWY security group.
+2014/10/21 16:01:06 - Creating Hpcc-4ZWY key pair.
+2014/10/21 16:01:06 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2014/10/21 16:01:07 - Reservation ID r-8c541687 created.
+2014/10/21 16:01:07 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:13 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:18 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:23 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:28 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:33 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:38 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:43 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:49 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:54 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:01:59 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:02:04 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:02:09 - Waiting for 1 of 1 nodes to launch.
+2014/10/21 16:02:14 - Pending instances have completed.
+2014/10/21 16:02:14 - Checking each node launched properly.
+2014/10/21 16:02:14 - 54.203.34.38:    Checking EC2 instance i-f13ffffb.
+2014/10/21 16:02:14 - 54.203.34.38:    Checking EC2 instance is running.
+2014/10/21 16:02:14 - 54.203.34.38:    Connecting via SSH.
+2014/10/21 16:02:14 - 54.203.34.38:    Waiting on SSH connection.
+2014/10/21 16:02:26 - 54.203.34.38:    Checking software installation completed.
+2014/10/21 16:02:26 - 54.203.34.38:    Software installation finished.
+2014/10/21 16:02:26 - 54.203.34.38:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/21 16:02:27 - 54.203.34.38:    Checking file contents.
+2014/10/21 16:02:27 - 54.203.34.38:    Remote file contents confirmed.
+2014/10/21 16:02:28 - 54.203.34.38:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/21 16:02:28 - 54.203.34.38:    Completed check of node 54.203.34.38.
+2014/10/21 16:02:28 - Determining availability zone.
+2014/10/21 16:02:28 - Gathering public and private ip addresses.
+2014/10/21 16:02:28 - Connecting to node 54.203.34.38 for cluster configuration.
+2014/10/21 16:02:28 - Connecting via SSH.
+2014/10/21 16:02:29 - Checking software installation completed.
+2014/10/21 16:02:29 - Software installation finished.
+2014/10/21 16:02:29 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/21 16:02:29 - Checking file contents.
+2014/10/21 16:02:30 - Remote file contents confirmed.
+2014/10/21 16:02:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/21 16:02:30 - Writing cluster private ip addresses to file on instance.
+2014/10/21 16:02:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/10/21 16:02:31 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/10/21 16:02:31 - Checking file contents.
+2014/10/21 16:02:31 - Remote file contents confirmed.
+2014/10/21 16:02:31 - Running envgen
+2014/10/21 16:02:32 - Reading the config file.
+2014/10/21 16:02:32 - Retrieving IP address of ESP Server.
+2014/10/21 16:02:33 - ESP Server private IP address: 10.253.89.152.
+2014/10/21 16:02:33 - ESP Server public IP address: 54.203.34.38.
+2014/10/21 16:02:33 - 54.203.34.38:    Starting node configuration.
+2014/10/21 16:02:33 - 54.203.34.38:    Connecting via SSH.
+2014/10/21 16:02:34 - 54.203.34.38:    Checking software installation completed.
+2014/10/21 16:02:34 - 54.203.34.38:    Software installation finished.
+2014/10/21 16:02:34 - 54.203.34.38:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/21 16:02:35 - 54.203.34.38:    Checking file contents.
+2014/10/21 16:02:35 - 54.203.34.38:    Remote file contents confirmed.
+2014/10/21 16:02:36 - 54.203.34.38:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/21 16:02:36 - 54.203.34.38:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/10/21 16:02:36 - 54.203.34.38:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/10/21 16:02:36 - 54.203.34.38:    Checking file contents.
+2014/10/21 16:02:37 - 54.203.34.38:    Remote file contents confirmed.
+2014/10/21 16:02:37 - 54.203.34.38:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/10/21 16:03:04 - 54.203.34.38:    Starting mydafilesrv....       [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting mydali....            [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting mydfuserver....       [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting myeclagent....        [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting myeclccserver....     [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting myeclscheduler....    [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting myesp....             [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting mysasha....           [  OK  ]   
+2014/10/21 16:03:04 - 54.203.34.38:    Starting mythor....            [  OK  ]  
+2014/10/21 16:03:04 - 54.203.34.38:    Start node is complete.
+2014/10/21 16:03:04 - Done.
+2014/10/21 16:28:23 - Terminating cluster.
+2014/10/21 16:28:23 - Connecting to AWS region us-west-2.
+2014/10/21 16:28:24 - Gathering instances for Hpcc-4ZWY.
+2014/10/21 16:28:24 - Terminating instances.
+2014/10/21 16:28:24 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:29 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:35 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:40 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:45 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:50 - Waiting for 1 instances to terminate.
+2014/10/21 16:28:55 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:00 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:05 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:11 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:16 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:21 - Waiting for 1 instances to terminate.
+2014/10/21 16:29:26 - Deleting Access Key Hpcc-4ZWY.
+2014/10/21 16:29:26 - Deleting Security group Hpcc-4ZWY.
+2014/10/21 16:29:27 - Done.

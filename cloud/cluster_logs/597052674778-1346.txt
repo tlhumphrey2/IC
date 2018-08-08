@@ -1,0 +1,106 @@
+2017/11/29 17:48:45 - Connecting to AWS region us-west-2.
+2017/11/29 17:48:45 - Calculating new unique cluster name for request 1346.
+2017/11/29 17:48:45 - Creating new cluster name, Hpcc-SE7H.
+2017/11/29 17:48:45 - Creating Hpcc-SE7H security group.
+2017/11/29 17:48:48 - Creating Hpcc-SE7H key pair.
+2017/11/29 17:48:49 - Launching 1 m1.large nodes using ami-4f00c837.
+2017/11/29 17:48:50 - Reservation ID r-02ce52b8c6c7192dc created.
+2017/11/29 17:48:50 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:48:55 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:00 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:05 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:10 - Terminating cluster.
+2017/11/29 17:49:10 - Connecting to AWS region us-west-2.
+2017/11/29 17:49:10 - Gathering instances for Hpcc-SE7H.
+2017/11/29 17:49:10 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:10 - Terminating instances.
+2017/11/29 17:49:10 - Deleting Access Key Hpcc-SE7H.
+2017/11/29 17:49:11 - Deleting Security group Hpcc-SE7H.
+2017/11/29 17:49:11 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-38be7344 has a dependent object
+                      requestId: dd5ddb2c-f203-425c-9dc4-389fb4a93bde
+2017/11/29 17:49:15 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:21 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:26 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:31 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:36 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:41 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:46 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:51 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:49:56 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:02 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:07 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:12 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:17 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:22 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:27 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:32 - Waiting for 1 of 1 nodes to launch.
+2017/11/29 17:50:38 - Pending instances have completed.
+2017/11/29 17:50:38 - Checking each node launched properly.
+2017/11/29 17:50:38 - 34.214.81.250:   Checking EC2 instance i-0d27779c0d221646b.
+2017/11/29 17:50:38 - 34.214.81.250:   Checking EC2 instance is running.
+2017/11/29 17:50:38 - 34.214.81.250:   Connecting via SSH.
+2017/11/29 17:50:53 - 34.214.81.250:   Waiting on SSH connection.
+2017/11/29 17:51:04 - 34.214.81.250:   Checking software installation completed.
+2017/11/29 17:51:04 - 34.214.81.250:   Software installation finished.
+2017/11/29 17:51:04 - 34.214.81.250:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/29 17:51:05 - 34.214.81.250:   Checking file contents.
+2017/11/29 17:51:05 - 34.214.81.250:   Remote file contents confirmed.
+2017/11/29 17:51:05 - 34.214.81.250:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/29 17:51:05 - 34.214.81.250:   Completed check of node 34.214.81.250.
+2017/11/29 17:51:05 - Determining availability zone.
+2017/11/29 17:51:05 - Gathering public and private ip addresses.
+2017/11/29 17:51:05 - Connecting to node 34.214.81.250 for cluster configuration.
+2017/11/29 17:51:05 - Connecting via SSH.
+2017/11/29 17:51:07 - Checking software installation completed.
+2017/11/29 17:51:07 - Software installation finished.
+2017/11/29 17:51:07 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/29 17:51:08 - Checking file contents.
+2017/11/29 17:51:08 - Remote file contents confirmed.
+2017/11/29 17:51:08 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/29 17:51:08 - Writing cluster private ip addresses to file on instance.
+2017/11/29 17:51:08 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/11/29 17:51:09 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/11/29 17:51:09 - Checking file contents.
+2017/11/29 17:51:10 - Remote file contents confirmed.
+2017/11/29 17:51:10 - Running envgen
+2017/11/29 17:51:10 - Reading the config file.
+2017/11/29 17:51:11 - Retrieving IP address of ESP Server.
+2017/11/29 17:51:11 - ESP Server private IP address: 172.31.46.9.
+2017/11/29 17:51:11 - ESP Server public IP address: 34.214.81.250.
+2017/11/29 17:51:11 - 34.214.81.250:   Starting node configuration.
+2017/11/29 17:51:11 - 34.214.81.250:   Connecting via SSH.
+2017/11/29 17:51:13 - 34.214.81.250:   Checking software installation completed.
+2017/11/29 17:51:13 - 34.214.81.250:   Software installation finished.
+2017/11/29 17:51:13 - 34.214.81.250:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/11/29 17:51:13 - 34.214.81.250:   Checking file contents.
+2017/11/29 17:51:14 - 34.214.81.250:   Remote file contents confirmed.
+2017/11/29 17:51:14 - 34.214.81.250:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/11/29 17:51:14 - 34.214.81.250:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/11/29 17:51:15 - 34.214.81.250:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/11/29 17:51:15 - 34.214.81.250:   Checking file contents.
+2017/11/29 17:51:16 - 34.214.81.250:   Remote file contents confirmed.
+2017/11/29 17:51:16 - 34.214.81.250:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2017/11/29 17:52:00 - 34.214.81.250:   Starting mydafilesrv ...       [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting mydali ...            [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting mydfuserver ...       [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting myeclagent ...        [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting myeclccserver ...     [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting myeclscheduler ...    [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting myesp ...             [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting mysasha ...           [   OK    ]   
+2017/11/29 17:52:00 - 34.214.81.250:   Starting mythor ...            [   OK    ]  
+2017/11/29 17:52:00 - 34.214.81.250:   Start node is complete.
+2017/11/29 17:52:00 - Done.
+2017/11/29 17:52:19 - Terminating cluster.
+2017/11/29 17:52:19 - Connecting to AWS region us-west-2.
+2017/11/29 17:52:19 - Gathering instances for Hpcc-SE7H.
+2017/11/29 17:52:20 - Terminating instances.
+2017/11/29 17:52:20 - Deleting Access Key Hpcc-SE7H.
+2017/11/29 17:52:20 - Error: Access key not found.
+2017/11/29 17:52:20 - Deleting Security group Hpcc-SE7H.
+2017/11/29 17:52:21 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-38be7344 has a dependent object
+                      requestId: a49cd45d-1a42-43fb-8808-bd6ff44a3d63

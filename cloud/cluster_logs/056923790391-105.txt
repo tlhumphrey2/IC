@@ -1,0 +1,68 @@
+2012/02/07 12:21:55 - Connecting to AWS region us-east-1.
+2012/02/07 12:21:55 - Calculating new unique cluster name for request 105.
+2012/02/07 12:21:55 - Creating new cluster name, Thor-BS3C.
+2012/02/07 12:21:55 - Creating Thor-BS3C security group.
+2012/02/07 12:21:56 - Creating Thor-BS3C key pair.
+2012/02/07 12:21:58 - Launching 1 m1.large nodes using ami-35de095c.
+2012/02/07 12:21:59 - Reservation ID r-daa007ba created
+2012/02/07 12:21:59 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:04 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:09 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:19 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:24 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/07 12:22:34 - Pending instances have completed.
+2012/02/07 12:22:34 - Checking each node launched properly.
+2012/02/07 12:22:34 - 184.73.149.210:  Checking EC2 instance i-85a036e0.
+2012/02/07 12:22:34 - 184.73.149.210:  Checking EC2 instance is running.
+2012/02/07 12:22:34 - 184.73.149.210:  Connecting via SSH.
+2012/02/07 12:22:37 - 184.73.149.210:  Checking disk I/O
+2012/02/07 12:22:37 - 184.73.149.210:  Checking software installation completed.
+2012/02/07 12:22:37 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:22:47 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:22:57 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:23:07 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:23:17 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:23:27 - 184.73.149.210:  Waiting for software to install.
+2012/02/07 12:23:38 - 184.73.149.210:  Software installation finished.
+2012/02/07 12:23:38 - 184.73.149.210:  Completed check of node 184.73.149.210.
+2012/02/07 12:23:38 - Determining availability zone.
+2012/02/07 12:23:38 - Gathering public and private ip addresses.
+2012/02/07 12:23:38 - Connecting to node 184.73.149.210 for cluster configuration.
+2012/02/07 12:23:38 - Connecting via SSH.
+2012/02/07 12:23:40 - Checking disk I/O
+2012/02/07 12:23:40 - Checking software installation completed.
+2012/02/07 12:23:40 - Software installation finished.
+2012/02/07 12:23:40 - Writing cluster private ip addresses to file on instance.
+2012/02/07 12:23:40 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/07 12:23:41 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/07 12:23:41 - Checking file contents.
+2012/02/07 12:23:41 - Remote file contents confirmed.
+2012/02/07 12:23:41 - Running envgen
+2012/02/07 12:23:41 - Reading the config file.
+2012/02/07 12:23:41 - Retrieving IP address of ESP Server.
+2012/02/07 12:23:41 - ESP Server private IP address: 10.80.189.246.
+2012/02/07 12:23:41 - ESP Server public IP address: 184.73.149.210.
+2012/02/07 12:23:41 - 184.73.149.210:  Starting node configuration.
+2012/02/07 12:23:41 - 184.73.149.210:  Connecting via SSH.
+2012/02/07 12:23:42 - 184.73.149.210:  Checking disk I/O
+2012/02/07 12:23:42 - 184.73.149.210:  Checking software installation completed.
+2012/02/07 12:23:42 - 184.73.149.210:  Software installation finished.
+2012/02/07 12:23:42 - 184.73.149.210:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/07 12:23:42 - 184.73.149.210:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/07 12:23:42 - 184.73.149.210:  Checking file contents.
+2012/02/07 12:23:42 - 184.73.149.210:  Remote file contents confirmed.
+2012/02/07 12:23:42 - 184.73.149.210:  Starting HPCC services.
+2012/02/07 12:23:42 - 184.73.149.210:  HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/07 12:24:08 - 184.73.149.210:  Starting mydafilesrv....       [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting mydali....            [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting mydfuserver....       [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting myeclagent....        [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting myeclccserver....     [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting myeclscheduler....    [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting myesp....             [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting mysasha....           [  OK  ]   
+2012/02/07 12:24:08 - 184.73.149.210:  Starting mythor....            [  OK  ]  
+2012/02/07 12:24:08 - 184.73.149.210:  Start node is complete.
+2012/02/07 12:24:08 - Done.

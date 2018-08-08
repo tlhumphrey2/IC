@@ -1,0 +1,145 @@
+2016/07/18 16:42:48 - Connecting to AWS region ap-northeast-1.
+2016/07/18 16:42:48 - Calculating new unique cluster name for request 1244.
+2016/07/18 16:42:49 - Creating new cluster name, Hpcc-NPJ7.
+2016/07/18 16:42:49 - Creating Hpcc-NPJ7 security group.
+2016/07/18 16:42:52 - Creating Hpcc-NPJ7 key pair.
+2016/07/18 16:42:53 - Launching 3 m1.large nodes using ami-99f807f8.
+2016/07/18 16:42:54 - Reservation ID r-902c2832 created.
+2016/07/18 16:42:54 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:00 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:05 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:11 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:16 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:22 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:28 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:33 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:39 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:44 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:50 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:43:56 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:44:01 - Waiting for 3 of 3 nodes to launch.
+2016/07/18 16:44:07 - Pending instances have completed.
+2016/07/18 16:44:07 - Checking each node launched properly.
+2016/07/18 16:44:07 - 54.250.68.45:    Checking EC2 instance i-015e5a8e.
+2016/07/18 16:44:07 - 54.199.43.24:    Checking EC2 instance i-1f5e5a90.
+2016/07/18 16:44:07 - 54.199.58.184:   Checking EC2 instance i-1e5e5a91.
+2016/07/18 16:44:07 - 54.250.68.45:    Checking EC2 instance is running.
+2016/07/18 16:44:07 - 54.250.68.45:    Connecting via SSH.
+2016/07/18 16:44:08 - 54.199.58.184:   Checking EC2 instance is running.
+2016/07/18 16:44:08 - 54.199.58.184:   Connecting via SSH.
+2016/07/18 16:44:08 - 54.199.43.24:    Checking EC2 instance is running.
+2016/07/18 16:44:08 - 54.199.43.24:    Connecting via SSH.
+2016/07/18 16:44:09 - 54.199.43.24:    Waiting on SSH connection.
+2016/07/18 16:44:16 - 54.199.58.184:   Waiting on SSH connection.
+2016/07/18 16:44:17 - 54.250.68.45:    Checking software installation completed.
+2016/07/18 16:44:17 - 54.250.68.45:    Waiting for software to install.
+2016/07/18 16:44:22 - 54.199.43.24:    Checking software installation completed.
+2016/07/18 16:44:22 - 54.199.43.24:    Software installation finished.
+2016/07/18 16:44:22 - 54.199.43.24:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:23 - 54.199.43.24:    Checking file contents.
+2016/07/18 16:44:24 - 54.199.43.24:    Remote file contents confirmed.
+2016/07/18 16:44:25 - 54.199.43.24:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:25 - 54.199.43.24:    Completed check of node 54.199.43.24.
+2016/07/18 16:44:27 - 54.250.68.45:    Software installation finished.
+2016/07/18 16:44:27 - 54.250.68.45:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:28 - 54.250.68.45:    Checking file contents.
+2016/07/18 16:44:29 - 54.250.68.45:    Remote file contents confirmed.
+2016/07/18 16:44:30 - 54.199.58.184:   Checking software installation completed.
+2016/07/18 16:44:30 - 54.250.68.45:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:30 - 54.250.68.45:    Completed check of node 54.250.68.45.
+2016/07/18 16:44:30 - 54.199.58.184:   Software installation finished.
+2016/07/18 16:44:30 - 54.199.58.184:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:31 - 54.199.58.184:   Checking file contents.
+2016/07/18 16:44:32 - 54.199.58.184:   Remote file contents confirmed.
+2016/07/18 16:44:33 - 54.199.58.184:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:33 - 54.199.58.184:   Completed check of node 54.199.58.184.
+2016/07/18 16:44:33 - Determining availability zone.
+2016/07/18 16:44:33 - Gathering public and private ip addresses.
+2016/07/18 16:44:33 - Connecting to node 54.250.68.45 for cluster configuration.
+2016/07/18 16:44:33 - Connecting via SSH.
+2016/07/18 16:44:41 - Checking software installation completed.
+2016/07/18 16:44:41 - Software installation finished.
+2016/07/18 16:44:41 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:42 - Checking file contents.
+2016/07/18 16:44:42 - Remote file contents confirmed.
+2016/07/18 16:44:43 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:43 - Writing cluster private ip addresses to file on instance.
+2016/07/18 16:44:43 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/07/18 16:44:44 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/07/18 16:44:45 - Checking file contents.
+2016/07/18 16:44:45 - Remote file contents confirmed.
+2016/07/18 16:44:45 - Running envgen
+2016/07/18 16:44:47 - Reading the config file.
+2016/07/18 16:44:48 - Retrieving IP address of ESP Server.
+2016/07/18 16:44:48 - ESP Server private IP address: 10.123.34.46.
+2016/07/18 16:44:48 - ESP Server public IP address: 54.250.68.45.
+2016/07/18 16:44:48 - 54.250.68.45:    Starting node configuration.
+2016/07/18 16:44:48 - 54.199.43.24:    Starting node configuration.
+2016/07/18 16:44:48 - 54.250.68.45:    Connecting via SSH.
+2016/07/18 16:44:48 - 54.199.43.24:    Connecting via SSH.
+2016/07/18 16:44:48 - 54.199.58.184:   Starting node configuration.
+2016/07/18 16:44:48 - 54.199.58.184:   Connecting via SSH.
+2016/07/18 16:44:50 - 54.199.58.184:   Checking software installation completed.
+2016/07/18 16:44:51 - 54.250.68.45:    Checking software installation completed.
+2016/07/18 16:44:51 - 54.199.43.24:    Checking software installation completed.
+2016/07/18 16:44:51 - 54.199.58.184:   Software installation finished.
+2016/07/18 16:44:51 - 54.199.58.184:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:51 - 54.250.68.45:    Software installation finished.
+2016/07/18 16:44:51 - 54.250.68.45:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:51 - 54.199.43.24:    Software installation finished.
+2016/07/18 16:44:51 - 54.199.43.24:    Sending /home/ubuntu/node_health_script via SFTP.
+2016/07/18 16:44:52 - 54.199.58.184:   Checking file contents.
+2016/07/18 16:44:52 - 54.250.68.45:    Checking file contents.
+2016/07/18 16:44:52 - 54.199.43.24:    Checking file contents.
+2016/07/18 16:44:52 - 54.199.58.184:   Remote file contents confirmed.
+2016/07/18 16:44:52 - 54.250.68.45:    Remote file contents confirmed.
+2016/07/18 16:44:53 - 54.199.43.24:    Remote file contents confirmed.
+2016/07/18 16:44:53 - 54.199.58.184:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:53 - 54.199.58.184:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/18 16:44:54 - 54.250.68.45:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:54 - 54.250.68.45:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/18 16:44:54 - 54.199.43.24:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/07/18 16:44:54 - 54.199.43.24:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/07/18 16:44:55 - 54.199.58.184:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/18 16:44:55 - 54.199.58.184:   Checking file contents.
+2016/07/18 16:44:55 - 54.250.68.45:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/18 16:44:55 - 54.199.43.24:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/07/18 16:44:56 - 54.250.68.45:    Checking file contents.
+2016/07/18 16:44:56 - 54.199.43.24:    Checking file contents.
+2016/07/18 16:44:56 - 54.199.58.184:   Remote file contents confirmed.
+2016/07/18 16:44:56 - 54.199.58.184:   Starting HPCC Platform Community Edition: 6.0.2-1.
+2016/07/18 16:44:56 - 54.250.68.45:    Remote file contents confirmed.
+2016/07/18 16:44:56 - 54.250.68.45:    Starting HPCC Platform Community Edition: 6.0.2-1.
+2016/07/18 16:44:57 - 54.199.43.24:    Remote file contents confirmed.
+2016/07/18 16:44:57 - 54.199.43.24:    Starting HPCC Platform Community Edition: 6.0.2-1.
+2016/07/18 16:45:06 - 54.199.58.184:   Starting mydafilesrv ...       [   OK    ]   
+2016/07/18 16:45:06 - 54.199.58.184:   Starting mydfuserver ...       [   OK    ]   
+2016/07/18 16:45:06 - 54.199.58.184:   Starting myeclscheduler ...    [   OK    ]  
+2016/07/18 16:45:06 - 54.199.58.184:   Start node is complete.
+2016/07/18 16:45:10 - 54.250.68.45:    Starting mydafilesrv ...       [   OK    ]   
+2016/07/18 16:45:10 - 54.250.68.45:    Starting myeclagent ...        [   OK    ]   
+2016/07/18 16:45:10 - 54.250.68.45:    Starting myesp ...             [   OK    ]   
+2016/07/18 16:45:10 - 54.250.68.45:    Starting myroxie ...           [   OK    ]   
+2016/07/18 16:45:10 - 54.250.68.45:    Starting mysasha ...           [   OK    ]  
+2016/07/18 16:45:10 - 54.250.68.45:    Start node is complete.
+2016/07/18 16:45:10 - 54.199.43.24:    Starting mydafilesrv ...       [   OK    ]   
+2016/07/18 16:45:10 - 54.199.43.24:    Starting mydali ...            [   OK    ]   
+2016/07/18 16:45:10 - 54.199.43.24:    Starting myeclccserver ...     [   OK    ]   
+2016/07/18 16:45:10 - 54.199.43.24:    Starting mythor ...            [   OK    ]  
+2016/07/18 16:45:10 - 54.199.43.24:    Start node is complete.
+2016/07/18 16:45:10 - Done.
+2016/07/18 16:50:02 - Terminating cluster.
+2016/07/18 16:50:02 - Connecting to AWS region ap-northeast-1.
+2016/07/18 16:50:02 - Gathering instances for Hpcc-NPJ7.
+2016/07/18 16:50:03 - Terminating instances.
+2016/07/18 16:50:05 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:11 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:16 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:22 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:28 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:33 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:39 - Waiting for 3 instances to terminate.
+2016/07/18 16:50:45 - Waiting for 1 instances to terminate.
+2016/07/18 16:50:50 - Deleting Access Key Hpcc-NPJ7.
+2016/07/18 16:50:50 - Deleting Security group Hpcc-NPJ7.
+2016/07/18 16:50:51 - Done.

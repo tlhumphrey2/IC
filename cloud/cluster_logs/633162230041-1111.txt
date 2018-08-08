@@ -1,0 +1,94 @@
+2015/06/17 10:00:22 - Connecting to AWS region us-west-2.
+2015/06/17 10:00:22 - Calculating new unique cluster name for request 1111.
+2015/06/17 10:00:23 - Creating new cluster name, Hpcc-XEPK.
+2015/06/17 10:00:23 - Creating Hpcc-XEPK security group.
+2015/06/17 10:00:25 - Creating Hpcc-XEPK key pair.
+2015/06/17 10:00:25 - Launching 1 m1.large nodes using ami-610d2351.
+2015/06/17 10:00:26 - Reservation ID r-1cb24d11 created.
+2015/06/17 10:00:26 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:31 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:36 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:41 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:47 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:52 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:00:57 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:01:02 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:01:07 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:01:12 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:01:17 - Waiting for 1 of 1 nodes to launch.
+2015/06/17 10:01:23 - Pending instances have completed.
+2015/06/17 10:01:23 - Checking each node launched properly.
+2015/06/17 10:01:23 - 52.12.68.19:     Checking EC2 instance i-1b7025ec.
+2015/06/17 10:01:23 - 52.12.68.19:     Checking EC2 instance is running.
+2015/06/17 10:01:23 - 52.12.68.19:     Connecting via SSH.
+2015/06/17 10:01:30 - 52.12.68.19:     Waiting on SSH connection.
+2015/06/17 10:01:43 - 52.12.68.19:     Checking software installation completed.
+2015/06/17 10:01:43 - 52.12.68.19:     Software installation finished.
+2015/06/17 10:01:43 - 52.12.68.19:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/17 10:01:43 - 52.12.68.19:     Checking file contents.
+2015/06/17 10:01:44 - 52.12.68.19:     Remote file contents confirmed.
+2015/06/17 10:01:44 - 52.12.68.19:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/17 10:01:44 - 52.12.68.19:     Completed check of node 52.12.68.19.
+2015/06/17 10:01:44 - Determining availability zone.
+2015/06/17 10:01:44 - Gathering public and private ip addresses.
+2015/06/17 10:01:44 - Connecting to node 52.12.68.19 for cluster configuration.
+2015/06/17 10:01:44 - Connecting via SSH.
+2015/06/17 10:01:46 - Checking software installation completed.
+2015/06/17 10:01:46 - Software installation finished.
+2015/06/17 10:01:46 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/17 10:01:46 - Checking file contents.
+2015/06/17 10:01:47 - Remote file contents confirmed.
+2015/06/17 10:01:47 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/17 10:01:47 - Writing cluster private ip addresses to file on instance.
+2015/06/17 10:01:47 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/06/17 10:01:48 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/06/17 10:01:48 - Checking file contents.
+2015/06/17 10:01:48 - Remote file contents confirmed.
+2015/06/17 10:01:48 - Running envgen
+2015/06/17 10:01:49 - Reading the config file.
+2015/06/17 10:01:49 - Retrieving IP address of ESP Server.
+2015/06/17 10:01:50 - ESP Server private IP address: 10.253.81.130.
+2015/06/17 10:01:50 - ESP Server public IP address: 52.12.68.19.
+2015/06/17 10:01:50 - 52.12.68.19:     Starting node configuration.
+2015/06/17 10:01:50 - 52.12.68.19:     Connecting via SSH.
+2015/06/17 10:01:51 - 52.12.68.19:     Checking software installation completed.
+2015/06/17 10:01:51 - 52.12.68.19:     Software installation finished.
+2015/06/17 10:01:51 - 52.12.68.19:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/17 10:01:52 - 52.12.68.19:     Checking file contents.
+2015/06/17 10:01:52 - 52.12.68.19:     Remote file contents confirmed.
+2015/06/17 10:01:53 - 52.12.68.19:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/17 10:01:53 - 52.12.68.19:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/17 10:01:53 - 52.12.68.19:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/17 10:01:54 - 52.12.68.19:     Checking file contents.
+2015/06/17 10:01:54 - 52.12.68.19:     Remote file contents confirmed.
+2015/06/17 10:01:54 - 52.12.68.19:     Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/17 10:02:12 - 52.12.68.19:     Starting mydafilesrv....       [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting mydali....            [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting mydfuserver....       [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting myeclagent....        [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting myeclccserver....     [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting myeclscheduler....    [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting myesp....             [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting mysasha....           [  OK  ]   
+2015/06/17 10:02:12 - 52.12.68.19:     Starting mythor....            [  OK  ]  
+2015/06/17 10:02:12 - 52.12.68.19:     Start node is complete.
+2015/06/17 10:02:12 - Done.
+2015/06/17 10:04:15 - Terminating cluster.
+2015/06/17 10:04:15 - Connecting to AWS region us-west-2.
+2015/06/17 10:04:15 - Gathering instances for Hpcc-XEPK.
+2015/06/17 10:04:16 - Terminating instances.
+2015/06/17 10:04:16 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:21 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:26 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:32 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:37 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:42 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:47 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:52 - Waiting for 1 instances to terminate.
+2015/06/17 10:04:57 - Waiting for 1 instances to terminate.
+2015/06/17 10:05:02 - Waiting for 1 instances to terminate.
+2015/06/17 10:05:07 - Waiting for 1 instances to terminate.
+2015/06/17 10:05:13 - Waiting for 1 instances to terminate.
+2015/06/17 10:05:18 - Deleting Access Key Hpcc-XEPK.
+2015/06/17 10:05:18 - Deleting Security group Hpcc-XEPK.
+2015/06/17 10:05:19 - Done.

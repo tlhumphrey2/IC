@@ -1,0 +1,94 @@
+2015/04/01 00:47:38 - Connecting to AWS region us-west-2.
+2015/04/01 00:47:38 - Calculating new unique cluster name for request 1055.
+2015/04/01 00:47:38 - Creating new cluster name, Hpcc-35JG.
+2015/04/01 00:47:38 - Creating Hpcc-35JG security group.
+2015/04/01 00:47:41 - Creating Hpcc-35JG key pair.
+2015/04/01 00:47:41 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/04/01 00:47:41 - Reservation ID r-6b6d0e61 created.
+2015/04/01 00:47:41 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:47:47 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:47:52 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:47:57 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:02 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:07 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:12 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:17 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:23 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:28 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:33 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:38 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:43 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:48 - Waiting for 1 of 1 nodes to launch.
+2015/04/01 00:48:53 - Pending instances have completed.
+2015/04/01 00:48:53 - Checking each node launched properly.
+2015/04/01 00:48:53 - 54.244.108.192:  Checking EC2 instance i-6ede7663.
+2015/04/01 00:48:53 - 54.244.108.192:  Checking EC2 instance is running.
+2015/04/01 00:48:53 - 54.244.108.192:  Connecting via SSH.
+2015/04/01 00:49:02 - 54.244.108.192:  Checking software installation completed.
+2015/04/01 00:49:02 - 54.244.108.192:  Waiting for software to install.
+2015/04/01 00:49:13 - 54.244.108.192:  Software installation finished.
+2015/04/01 00:49:13 - 54.244.108.192:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 00:49:13 - 54.244.108.192:  Checking file contents.
+2015/04/01 00:49:13 - 54.244.108.192:  Remote file contents confirmed.
+2015/04/01 00:49:14 - 54.244.108.192:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 00:49:14 - 54.244.108.192:  Completed check of node 54.244.108.192.
+2015/04/01 00:49:14 - Determining availability zone.
+2015/04/01 00:49:14 - Gathering public and private ip addresses.
+2015/04/01 00:49:14 - Connecting to node 54.244.108.192 for cluster configuration.
+2015/04/01 00:49:14 - Connecting via SSH.
+2015/04/01 00:49:23 - Checking software installation completed.
+2015/04/01 00:49:23 - Software installation finished.
+2015/04/01 00:49:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 00:49:23 - Checking file contents.
+2015/04/01 00:49:23 - Remote file contents confirmed.
+2015/04/01 00:49:24 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 00:49:24 - Writing cluster private ip addresses to file on instance.
+2015/04/01 00:49:24 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/01 00:49:24 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/01 00:49:25 - Checking file contents.
+2015/04/01 00:49:25 - Remote file contents confirmed.
+2015/04/01 00:49:25 - Running envgen
+2015/04/01 00:49:26 - Reading the config file.
+2015/04/01 00:49:26 - Retrieving IP address of ESP Server.
+2015/04/01 00:49:26 - ESP Server private IP address: 10.252.54.53.
+2015/04/01 00:49:26 - ESP Server public IP address: 54.244.108.192.
+2015/04/01 00:49:27 - 54.244.108.192:  Starting node configuration.
+2015/04/01 00:49:27 - 54.244.108.192:  Connecting via SSH.
+2015/04/01 00:49:28 - 54.244.108.192:  Checking software installation completed.
+2015/04/01 00:49:28 - 54.244.108.192:  Software installation finished.
+2015/04/01 00:49:28 - 54.244.108.192:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/01 00:49:29 - 54.244.108.192:  Checking file contents.
+2015/04/01 00:49:29 - 54.244.108.192:  Remote file contents confirmed.
+2015/04/01 00:49:29 - 54.244.108.192:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/01 00:49:29 - 54.244.108.192:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/01 00:49:30 - 54.244.108.192:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/01 00:49:30 - 54.244.108.192:  Checking file contents.
+2015/04/01 00:49:31 - 54.244.108.192:  Remote file contents confirmed.
+2015/04/01 00:49:31 - 54.244.108.192:  Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/04/01 00:49:58 - 54.244.108.192:  Starting mydafilesrv....       [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting mydali....            [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting mydfuserver....       [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting myeclagent....        [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting myeclccserver....     [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting myeclscheduler....    [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting myesp....             [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting mysasha....           [  OK  ]   
+2015/04/01 00:49:58 - 54.244.108.192:  Starting mythor....            [  OK  ]  
+2015/04/01 00:49:58 - 54.244.108.192:  Start node is complete.
+2015/04/01 00:49:58 - Done.
+2015/04/01 01:23:25 - Terminating cluster.
+2015/04/01 01:23:25 - Connecting to AWS region us-west-2.
+2015/04/01 01:23:25 - Gathering instances for Hpcc-35JG.
+2015/04/01 01:23:26 - Terminating instances.
+2015/04/01 01:23:26 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:31 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:36 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:41 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:47 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:52 - Waiting for 1 instances to terminate.
+2015/04/01 01:23:57 - Waiting for 1 instances to terminate.
+2015/04/01 01:24:02 - Waiting for 1 instances to terminate.
+2015/04/01 01:24:07 - Waiting for 1 instances to terminate.
+2015/04/01 01:24:12 - Deleting Access Key Hpcc-35JG.
+2015/04/01 01:24:13 - Deleting Security group Hpcc-35JG.
+2015/04/01 01:24:13 - Done.

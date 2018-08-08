@@ -1,0 +1,94 @@
+2013/06/14 09:29:08 - Connecting to AWS region us-west-2.
+2013/06/14 09:29:08 - Calculating new unique cluster name for request 623.
+2013/06/14 09:29:09 - Creating new cluster name, Hpcc-NDGT.
+2013/06/14 09:29:09 - Creating Hpcc-NDGT security group.
+2013/06/14 09:29:12 - Creating Hpcc-NDGT key pair.
+2013/06/14 09:29:13 - Launching 1 m1.large nodes using ami-4dc7577d.
+2013/06/14 09:29:14 - Reservation ID r-401fcb75 created.
+2013/06/14 09:29:14 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:19 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:24 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:29 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:35 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:40 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:45 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:50 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:29:56 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:01 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:06 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:11 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:16 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:22 - Waiting for 1 of 1 nodes to launch.
+2013/06/14 09:30:27 - Pending instances have completed.
+2013/06/14 09:30:27 - Checking each node launched properly.
+2013/06/14 09:30:27 - 54.245.199.243:  Checking EC2 instance i-72acf147.
+2013/06/14 09:30:27 - 54.245.199.243:  Checking EC2 instance is running.
+2013/06/14 09:30:27 - 54.245.199.243:  Connecting via SSH.
+2013/06/14 09:30:30 - 54.245.199.243:  Waiting on SSH connection.
+2013/06/14 09:30:37 - 54.245.199.243:  Checking software installation completed.
+2013/06/14 09:30:37 - 54.245.199.243:  Waiting for software to install.
+2013/06/14 09:30:47 - 54.245.199.243:  Software installation finished.
+2013/06/14 09:30:47 - 54.245.199.243:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/14 09:30:48 - 54.245.199.243:  Checking file contents.
+2013/06/14 09:30:48 - 54.245.199.243:  Remote file contents confirmed.
+2013/06/14 09:30:49 - 54.245.199.243:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/14 09:30:49 - 54.245.199.243:  Completed check of node 54.245.199.243.
+2013/06/14 09:30:49 - Determining availability zone.
+2013/06/14 09:30:49 - Gathering public and private ip addresses.
+2013/06/14 09:30:49 - Connecting to node 54.245.199.243 for cluster configuration.
+2013/06/14 09:30:49 - Connecting via SSH.
+2013/06/14 09:30:54 - Checking software installation completed.
+2013/06/14 09:30:55 - Software installation finished.
+2013/06/14 09:30:55 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/14 09:30:55 - Checking file contents.
+2013/06/14 09:30:56 - Remote file contents confirmed.
+2013/06/14 09:30:56 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/14 09:30:56 - Writing cluster private ip addresses to file on instance.
+2013/06/14 09:30:56 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/06/14 09:30:57 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/06/14 09:30:57 - Checking file contents.
+2013/06/14 09:30:57 - Remote file contents confirmed.
+2013/06/14 09:30:57 - Running envgen
+2013/06/14 09:30:59 - Reading the config file.
+2013/06/14 09:30:59 - Retrieving IP address of ESP Server.
+2013/06/14 09:30:59 - ESP Server private IP address: 10.253.43.33.
+2013/06/14 09:30:59 - ESP Server public IP address: 54.245.199.243.
+2013/06/14 09:31:00 - 54.245.199.243:  Starting node configuration.
+2013/06/14 09:31:00 - 54.245.199.243:  Connecting via SSH.
+2013/06/14 09:31:01 - 54.245.199.243:  Checking software installation completed.
+2013/06/14 09:31:01 - 54.245.199.243:  Software installation finished.
+2013/06/14 09:31:01 - 54.245.199.243:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/14 09:31:02 - 54.245.199.243:  Checking file contents.
+2013/06/14 09:31:02 - 54.245.199.243:  Remote file contents confirmed.
+2013/06/14 09:31:03 - 54.245.199.243:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/14 09:31:03 - 54.245.199.243:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/06/14 09:31:04 - 54.245.199.243:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/06/14 09:31:04 - 54.245.199.243:  Checking file contents.
+2013/06/14 09:31:04 - 54.245.199.243:  Remote file contents confirmed.
+2013/06/14 09:31:04 - 54.245.199.243:  Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/06/14 09:31:32 - 54.245.199.243:  Starting mydafilesrv....       [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting mydali....            [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting mydfuserver....       [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting myeclagent....        [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting myeclccserver....     [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting myeclscheduler....    [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting myesp....             [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting mysasha....           [  OK  ]   
+2013/06/14 09:31:32 - 54.245.199.243:  Starting mythor....            [  OK  ]  
+2013/06/14 09:31:32 - 54.245.199.243:  Start node is complete.
+2013/06/14 09:31:32 - Done.
+2013/06/14 09:32:21 - Terminating cluster.
+2013/06/14 09:32:21 - Connecting to AWS region us-west-2.
+2013/06/14 09:32:21 - Gathering instances for Hpcc-NDGT.
+2013/06/14 09:32:21 - Terminating instances.
+2013/06/14 09:32:22 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:27 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:33 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:38 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:43 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:48 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:54 - Waiting for 1 instances to terminate.
+2013/06/14 09:32:59 - Waiting for 1 instances to terminate.
+2013/06/14 09:33:04 - Deleting Access Key Hpcc-NDGT.
+2013/06/14 09:33:05 - Deleting Security group Hpcc-NDGT.
+2013/06/14 09:33:05 - Done.

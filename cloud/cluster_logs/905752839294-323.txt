@@ -1,0 +1,93 @@
+2012/09/17 07:45:48 - Connecting to AWS region us-east-1.
+2012/09/17 07:45:48 - Calculating new unique cluster name for request 323.
+2012/09/17 07:45:49 - Creating new cluster name, Hpcc-S3R6.
+2012/09/17 07:45:49 - Creating Hpcc-S3R6 security group.
+2012/09/17 07:45:50 - Creating Hpcc-S3R6 key pair.
+2012/09/17 07:45:50 - Launching 1 m1.large nodes using ami-2920fe40.
+2012/09/17 07:45:51 - Reservation ID r-517a0636 created.
+2012/09/17 07:45:51 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:45:56 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:01 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:06 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:11 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:16 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:21 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:26 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:31 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:36 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:42 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:47 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:52 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:46:57 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:47:02 - Waiting for 1 of 1 nodes to launch.
+2012/09/17 07:47:07 - Pending instances have completed.
+2012/09/17 07:47:07 - Checking each node launched properly.
+2012/09/17 07:47:07 - 23.20.134.118:   Checking EC2 instance i-7a341600.
+2012/09/17 07:47:07 - 23.20.134.118:   Checking EC2 instance is running.
+2012/09/17 07:47:07 - 23.20.134.118:   Connecting via SSH.
+2012/09/17 07:47:09 - 23.20.134.118:   Waiting on SSH connection.
+2012/09/17 07:47:16 - 23.20.134.118:   Checking software installation completed.
+2012/09/17 07:47:16 - 23.20.134.118:   Waiting for software to install.
+2012/09/17 07:47:26 - 23.20.134.118:   Software installation finished.
+2012/09/17 07:47:26 - 23.20.134.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/17 07:47:26 - 23.20.134.118:   Checking file contents.
+2012/09/17 07:47:26 - 23.20.134.118:   Remote file contents confirmed.
+2012/09/17 07:47:26 - 23.20.134.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/17 07:47:26 - 23.20.134.118:   Completed check of node 23.20.134.118.
+2012/09/17 07:47:26 - Determining availability zone.
+2012/09/17 07:47:26 - Gathering public and private ip addresses.
+2012/09/17 07:47:26 - Connecting to node 23.20.134.118 for cluster configuration.
+2012/09/17 07:47:26 - Connecting via SSH.
+2012/09/17 07:47:27 - Checking software installation completed.
+2012/09/17 07:47:27 - Software installation finished.
+2012/09/17 07:47:27 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/17 07:47:27 - Checking file contents.
+2012/09/17 07:47:27 - Remote file contents confirmed.
+2012/09/17 07:47:27 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/17 07:47:27 - Writing cluster private ip addresses to file on instance.
+2012/09/17 07:47:27 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/09/17 07:47:27 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/09/17 07:47:27 - Checking file contents.
+2012/09/17 07:47:27 - Remote file contents confirmed.
+2012/09/17 07:47:27 - Running envgen
+2012/09/17 07:47:28 - Reading the config file.
+2012/09/17 07:47:28 - Retrieving IP address of ESP Server.
+2012/09/17 07:47:28 - ESP Server private IP address: 10.34.101.218.
+2012/09/17 07:47:28 - ESP Server public IP address: 23.20.134.118.
+2012/09/17 07:47:28 - 23.20.134.118:   Starting node configuration.
+2012/09/17 07:47:28 - 23.20.134.118:   Connecting via SSH.
+2012/09/17 07:47:29 - 23.20.134.118:   Checking software installation completed.
+2012/09/17 07:47:29 - 23.20.134.118:   Software installation finished.
+2012/09/17 07:47:29 - 23.20.134.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/17 07:47:29 - 23.20.134.118:   Checking file contents.
+2012/09/17 07:47:29 - 23.20.134.118:   Remote file contents confirmed.
+2012/09/17 07:47:29 - 23.20.134.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/17 07:47:29 - 23.20.134.118:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/09/17 07:47:29 - 23.20.134.118:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/09/17 07:47:29 - 23.20.134.118:   Checking file contents.
+2012/09/17 07:47:29 - 23.20.134.118:   Remote file contents confirmed.
+2012/09/17 07:47:29 - 23.20.134.118:   Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/09/17 07:47:55 - 23.20.134.118:   Starting mydafilesrv....       [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting mydali....            [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting mydfuserver....       [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting myeclagent....        [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting myeclccserver....     [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting myeclscheduler....    [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting myesp....             [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting mysasha....           [  OK  ]   
+2012/09/17 07:47:55 - 23.20.134.118:   Starting mythor....            [  OK  ]  
+2012/09/17 07:47:55 - 23.20.134.118:   Start node is complete.
+2012/09/17 07:47:55 - Done.
+2012/09/17 07:50:22 - Terminating cluster.
+2012/09/17 07:50:22 - Connecting to AWS region us-east-1.
+2012/09/17 07:50:22 - Gathering instances for Hpcc-S3R6.
+2012/09/17 07:50:22 - Terminating instances.
+2012/09/17 07:50:23 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:28 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:33 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:38 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:43 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:48 - Waiting for 1 instances to terminate.
+2012/09/17 07:50:53 - Deleting Access Key Hpcc-S3R6.
+2012/09/17 07:50:53 - Deleting Security group Hpcc-S3R6.
+2012/09/17 07:50:54 - Done.

@@ -1,0 +1,97 @@
+2014/01/24 16:28:18 - Connecting to AWS region ap-northeast-1.
+2014/01/24 16:28:18 - Calculating new unique cluster name for request 734.
+2014/01/24 16:28:20 - Creating new cluster name, Hpcc-ENYV.
+2014/01/24 16:28:20 - Creating Hpcc-ENYV security group.
+2014/01/24 16:28:26 - Creating Hpcc-ENYV key pair.
+2014/01/24 16:28:27 - Launching 1 m1.large nodes using ami-71294070.
+2014/01/24 16:28:28 - Reservation ID r-6f62a368 created.
+2014/01/24 16:28:28 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:28:34 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:28:39 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:28:44 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:28:50 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:28:55 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:01 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:06 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:11 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:17 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:22 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:28 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:33 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:38 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:44 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:49 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:29:55 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:30:00 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:30:05 - Pending instances have completed.
+2014/01/24 16:30:05 - Checking each node launched properly.
+2014/01/24 16:30:05 - 54.250.60.215:   Checking EC2 instance i-f55d3bf2.
+2014/01/24 16:30:06 - 54.250.60.215:   Checking EC2 instance is running.
+2014/01/24 16:30:06 - 54.250.60.215:   Connecting via SSH.
+2014/01/24 16:30:22 - 54.250.60.215:   Checking software installation completed.
+2014/01/24 16:30:22 - 54.250.60.215:   Software installation finished.
+2014/01/24 16:30:22 - 54.250.60.215:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:30:23 - 54.250.60.215:   Checking file contents.
+2014/01/24 16:30:24 - 54.250.60.215:   Remote file contents confirmed.
+2014/01/24 16:30:25 - 54.250.60.215:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:30:25 - 54.250.60.215:   Completed check of node 54.250.60.215.
+2014/01/24 16:30:25 - Determining availability zone.
+2014/01/24 16:30:25 - Gathering public and private ip addresses.
+2014/01/24 16:30:25 - Connecting to node 54.250.60.215 for cluster configuration.
+2014/01/24 16:30:25 - Connecting via SSH.
+2014/01/24 16:30:28 - Checking software installation completed.
+2014/01/24 16:30:28 - Software installation finished.
+2014/01/24 16:30:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:30:29 - Checking file contents.
+2014/01/24 16:30:30 - Remote file contents confirmed.
+2014/01/24 16:30:31 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:30:31 - Writing cluster private ip addresses to file on instance.
+2014/01/24 16:30:31 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/01/24 16:30:32 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/01/24 16:30:33 - Checking file contents.
+2014/01/24 16:30:34 - Remote file contents confirmed.
+2014/01/24 16:30:34 - Running envgen
+2014/01/24 16:30:35 - Reading the config file.
+2014/01/24 16:30:36 - Retrieving IP address of ESP Server.
+2014/01/24 16:30:36 - ESP Server private IP address: 10.134.149.46.
+2014/01/24 16:30:36 - ESP Server public IP address: 54.250.60.215.
+2014/01/24 16:30:37 - 54.250.60.215:   Starting node configuration.
+2014/01/24 16:30:37 - 54.250.60.215:   Connecting via SSH.
+2014/01/24 16:30:39 - 54.250.60.215:   Checking software installation completed.
+2014/01/24 16:30:39 - 54.250.60.215:   Software installation finished.
+2014/01/24 16:30:39 - 54.250.60.215:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:30:40 - 54.250.60.215:   Checking file contents.
+2014/01/24 16:30:41 - 54.250.60.215:   Remote file contents confirmed.
+2014/01/24 16:30:42 - 54.250.60.215:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:30:42 - 54.250.60.215:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/01/24 16:30:44 - 54.250.60.215:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/01/24 16:30:44 - 54.250.60.215:   Checking file contents.
+2014/01/24 16:30:45 - 54.250.60.215:   Remote file contents confirmed.
+2014/01/24 16:30:45 - 54.250.60.215:   Starting HPCC Platform Community Edition: 4.2.0-4.
+2014/01/24 16:31:12 - 54.250.60.215:   Starting mydafilesrv....       [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting mydali....            [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting mydfuserver....       [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting myeclagent....        [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting myeclccserver....     [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting myeclscheduler....    [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting myesp....             [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting mysasha....           [  OK  ]   
+2014/01/24 16:31:12 - 54.250.60.215:   Starting mythor....            [  OK  ]  
+2014/01/24 16:31:12 - 54.250.60.215:   Start node is complete.
+2014/01/24 16:31:12 - Done.
+2014/01/24 16:33:39 - Terminating cluster.
+2014/01/24 16:33:39 - Connecting to AWS region ap-northeast-1.
+2014/01/24 16:33:39 - Gathering instances for Hpcc-ENYV.
+2014/01/24 16:33:40 - Terminating instances.
+2014/01/24 16:33:41 - Waiting for 1 instances to terminate.
+2014/01/24 16:33:47 - Waiting for 1 instances to terminate.
+2014/01/24 16:33:52 - Waiting for 1 instances to terminate.
+2014/01/24 16:33:57 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:03 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:08 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:14 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:19 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:25 - Waiting for 1 instances to terminate.
+2014/01/24 16:34:30 - Deleting Access Key Hpcc-ENYV.
+2014/01/24 16:34:31 - Deleting Security group Hpcc-ENYV.
+2014/01/24 16:34:32 - Done.

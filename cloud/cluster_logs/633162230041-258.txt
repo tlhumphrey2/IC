@@ -1,0 +1,164 @@
+2012/06/14 10:28:39 - Connecting to AWS region us-east-1.
+2012/06/14 10:28:39 - Calculating new unique cluster name for request 258.
+2012/06/14 10:28:39 - Creating new cluster name, Thor-JNMK.
+2012/06/14 10:28:39 - Creating Thor-JNMK security group.
+2012/06/14 10:28:40 - Creating Thor-JNMK key pair.
+2012/06/14 10:28:44 - Launching 4 m1.large nodes using ami-2920fe40.
+2012/06/14 10:28:44 - Reservation ID r-d8df07bd created.
+2012/06/14 10:28:44 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:28:50 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:28:55 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:00 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:06 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:11 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:16 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:22 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:27 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:32 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:37 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:42 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:48 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:53 - Waiting for 4 of 4 nodes to launch.
+2012/06/14 10:29:58 - Waiting for 3 of 4 nodes to launch.
+2012/06/14 10:30:05 - Waiting for 2 of 4 nodes to launch.
+2012/06/14 10:30:10 - Waiting for 2 of 4 nodes to launch.
+2012/06/14 10:30:15 - Waiting for 1 of 4 nodes to launch.
+2012/06/14 10:30:21 - Waiting for 1 of 4 nodes to launch.
+2012/06/14 10:30:26 - Pending instances have completed.
+2012/06/14 10:30:26 - Checking each node launched properly.
+2012/06/14 10:30:26 - 23.20.13.253:    Checking EC2 instance i-10d44d69.
+2012/06/14 10:30:26 - 23.22.236.15:    Checking EC2 instance i-12d44d6b.
+2012/06/14 10:30:26 - 23.20.104.203:   Checking EC2 instance i-14d44d6d.
+2012/06/14 10:30:26 - 23.22.160.4:     Checking EC2 instance i-16d44d6f.
+2012/06/14 10:30:26 - 23.22.160.4:     Checking EC2 instance is running.
+2012/06/14 10:30:26 - 23.22.160.4:     Connecting via SSH.
+2012/06/14 10:30:26 - 23.22.160.4:     Waiting on SSH connection.
+2012/06/14 10:30:26 - 23.20.13.253:    Checking EC2 instance is running.
+2012/06/14 10:30:26 - 23.20.13.253:    Connecting via SSH.
+2012/06/14 10:30:26 - 23.20.104.203:   Checking EC2 instance is running.
+2012/06/14 10:30:26 - 23.20.104.203:   Connecting via SSH.
+2012/06/14 10:30:26 - 23.22.236.15:    Checking EC2 instance is running.
+2012/06/14 10:30:26 - 23.22.236.15:    Connecting via SSH.
+2012/06/14 10:30:27 - 23.20.13.253:    Checking software installation completed.
+2012/06/14 10:30:27 - 23.20.104.203:   Checking software installation completed.
+2012/06/14 10:30:27 - 23.22.236.15:    Checking software installation completed.
+2012/06/14 10:30:27 - 23.20.104.203:   Software installation finished.
+2012/06/14 10:30:27 - 23.20.104.203:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:27 - 23.20.13.253:    Software installation finished.
+2012/06/14 10:30:27 - 23.20.13.253:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:27 - 23.22.236.15:    Software installation finished.
+2012/06/14 10:30:27 - 23.22.236.15:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:27 - 23.20.104.203:   Checking file contents.
+2012/06/14 10:30:27 - 23.20.13.253:    Checking file contents.
+2012/06/14 10:30:27 - 23.20.104.203:   Remote file contents confirmed.
+2012/06/14 10:30:27 - 23.20.13.253:    Remote file contents confirmed.
+2012/06/14 10:30:27 - 23.22.236.15:    Checking file contents.
+2012/06/14 10:30:27 - 23.22.236.15:    Remote file contents confirmed.
+2012/06/14 10:30:27 - 23.20.104.203:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:27 - 23.20.13.253:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:27 - 23.22.236.15:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:27 - 23.22.236.15:    Completed check of node 23.22.236.15.
+2012/06/14 10:30:27 - 23.20.13.253:    Completed check of node 23.20.13.253.
+2012/06/14 10:30:27 - 23.20.104.203:   Completed check of node 23.20.104.203.
+2012/06/14 10:30:32 - 23.22.160.4:     Checking software installation completed.
+2012/06/14 10:30:32 - 23.22.160.4:     Software installation finished.
+2012/06/14 10:30:32 - 23.22.160.4:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:32 - 23.22.160.4:     Checking file contents.
+2012/06/14 10:30:32 - 23.22.160.4:     Remote file contents confirmed.
+2012/06/14 10:30:32 - 23.22.160.4:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:32 - 23.22.160.4:     Completed check of node 23.22.160.4.
+2012/06/14 10:30:32 - Determining availability zone.
+2012/06/14 10:30:32 - Gathering public and private ip addresses.
+2012/06/14 10:30:32 - Connecting to node 23.20.13.253 for cluster configuration.
+2012/06/14 10:30:32 - Connecting via SSH.
+2012/06/14 10:30:33 - Checking software installation completed.
+2012/06/14 10:30:33 - Software installation finished.
+2012/06/14 10:30:33 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:33 - Checking file contents.
+2012/06/14 10:30:33 - Remote file contents confirmed.
+2012/06/14 10:30:33 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:33 - Writing cluster private ip addresses to file on instance.
+2012/06/14 10:30:33 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/06/14 10:30:33 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/06/14 10:30:33 - Checking file contents.
+2012/06/14 10:30:33 - Remote file contents confirmed.
+2012/06/14 10:30:33 - Running envgen
+2012/06/14 10:30:34 - Reading the config file.
+2012/06/14 10:30:34 - Retrieving IP address of ESP Server.
+2012/06/14 10:30:34 - ESP Server private IP address: 10.118.98.33.
+2012/06/14 10:30:34 - ESP Server public IP address: 23.20.13.253.
+2012/06/14 10:30:34 - 23.20.13.253:    Starting node configuration.
+2012/06/14 10:30:34 - 23.20.13.253:    Connecting via SSH.
+2012/06/14 10:30:34 - 23.22.236.15:    Starting node configuration.
+2012/06/14 10:30:34 - 23.22.236.15:    Connecting via SSH.
+2012/06/14 10:30:34 - 23.20.104.203:   Starting node configuration.
+2012/06/14 10:30:34 - 23.20.104.203:   Connecting via SSH.
+2012/06/14 10:30:34 - 23.22.160.4:     Starting node configuration.
+2012/06/14 10:30:34 - 23.22.160.4:     Connecting via SSH.
+2012/06/14 10:30:35 - 23.22.236.15:    Checking software installation completed.
+2012/06/14 10:30:35 - 23.22.236.15:    Software installation finished.
+2012/06/14 10:30:35 - 23.22.236.15:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:35 - 23.20.13.253:    Checking software installation completed.
+2012/06/14 10:30:35 - 23.22.236.15:    Checking file contents.
+2012/06/14 10:30:35 - 23.20.13.253:    Software installation finished.
+2012/06/14 10:30:35 - 23.20.13.253:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:35 - 23.22.236.15:    Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.20.104.203:   Checking software installation completed.
+2012/06/14 10:30:35 - 23.22.160.4:     Checking software installation completed.
+2012/06/14 10:30:35 - 23.20.13.253:    Checking file contents.
+2012/06/14 10:30:35 - 23.20.104.203:   Software installation finished.
+2012/06/14 10:30:35 - 23.20.104.203:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:35 - 23.22.160.4:     Software installation finished.
+2012/06/14 10:30:35 - 23.22.160.4:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/06/14 10:30:35 - 23.20.13.253:    Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.20.104.203:   Checking file contents.
+2012/06/14 10:30:35 - 23.22.160.4:     Checking file contents.
+2012/06/14 10:30:35 - 23.20.104.203:   Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.22.160.4:     Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.22.236.15:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:35 - 23.22.236.15:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/14 10:30:35 - 23.20.13.253:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:35 - 23.20.13.253:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/14 10:30:35 - 23.20.104.203:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:35 - 23.20.104.203:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/14 10:30:35 - 23.22.236.15:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/14 10:30:35 - 23.22.160.4:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/06/14 10:30:35 - 23.22.160.4:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/06/14 10:30:35 - 23.20.104.203:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/14 10:30:35 - 23.22.236.15:    Checking file contents.
+2012/06/14 10:30:35 - 23.20.13.253:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/14 10:30:35 - 23.20.104.203:   Checking file contents.
+2012/06/14 10:30:35 - 23.20.13.253:    Checking file contents.
+2012/06/14 10:30:35 - 23.22.160.4:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/06/14 10:30:35 - 23.22.236.15:    Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.22.236.15:    Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/14 10:30:35 - 23.22.160.4:     Checking file contents.
+2012/06/14 10:30:35 - 23.20.104.203:   Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.20.104.203:   Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/14 10:30:35 - 23.20.13.253:    Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.20.13.253:    Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/14 10:30:35 - 23.22.160.4:     Remote file contents confirmed.
+2012/06/14 10:30:35 - 23.22.160.4:     Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/06/14 10:30:39 - 23.22.160.4:     Starting mydafilesrv....       [  OK  ]   
+2012/06/14 10:30:39 - 23.22.160.4:     Starting myeclagent....        [  OK  ]  
+2012/06/14 10:30:39 - 23.22.160.4:     Start node is complete.
+2012/06/14 10:30:40 - 23.20.104.203:   Starting mydafilesrv....       [  OK  ]   
+2012/06/14 10:30:40 - 23.20.104.203:   Starting mydfuserver....       [  OK  ]   
+2012/06/14 10:30:40 - 23.20.104.203:   Starting mysasha....           [  OK  ]  
+2012/06/14 10:30:40 - 23.20.104.203:   Start node is complete.
+2012/06/14 10:30:40 - 23.22.236.15:    Starting mydafilesrv....       [  OK  ]   
+2012/06/14 10:30:40 - 23.22.236.15:    Starting mydali....            [  OK  ]   
+2012/06/14 10:30:40 - 23.22.236.15:    Starting myeclscheduler....    [  OK  ]  
+2012/06/14 10:30:40 - 23.22.236.15:    Start node is complete.
+2012/06/14 10:30:55 - 23.20.13.253:    Starting mydafilesrv....       [  OK  ]   
+2012/06/14 10:30:55 - 23.20.13.253:    Starting myeclccserver....     [  OK  ]   
+2012/06/14 10:30:55 - 23.20.13.253:    Starting myesp....             [  OK  ]   
+2012/06/14 10:30:55 - 23.20.13.253:    Starting mythor....            [  OK  ]  
+2012/06/14 10:30:55 - 23.20.13.253:    Start node is complete.
+2012/06/14 10:30:55 - Done.
+2012/06/26 08:10:09 - Terminating cluster.
+2012/06/26 08:10:09 - Connecting to AWS region us-east-1.
+2012/06/26 08:10:09 - An exception occured.
+                      Amazon Error: AuthFailure
+                      AWS was not able to validate the provided access credentials
+                      requestId: 9494017b-59bf-4767-b269-3f568e6be42b

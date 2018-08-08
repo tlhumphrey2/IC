@@ -1,0 +1,93 @@
+2012/02/12 14:30:56 - Connecting to AWS region us-west-2.
+2012/02/12 14:30:56 - Calculating new unique cluster name for request 125.
+2012/02/12 14:30:57 - Creating new cluster name, Thor-CGZT.
+2012/02/12 14:30:57 - Creating Thor-CGZT security group.
+2012/02/12 14:31:01 - Creating Thor-CGZT key pair.
+2012/02/12 14:31:02 - Launching 1 m1.large nodes using ami-b875f888.
+2012/02/12 14:31:04 - Reservation ID r-4c43077c created.
+2012/02/12 14:31:04 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:09 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:20 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:25 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:30 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:35 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:41 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:46 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:31:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:32:02 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:32:07 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:32:12 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:32:18 - Waiting for 1 of 1 nodes to launch.
+2012/02/12 14:32:23 - Pending instances have completed.
+2012/02/12 14:32:23 - Checking each node launched properly.
+2012/02/12 14:32:23 - 50.112.3.53:     Checking EC2 instance i-94d391a4.
+2012/02/12 14:32:23 - 50.112.3.53:     Checking EC2 instance is running.
+2012/02/12 14:32:23 - 50.112.3.53:     Connecting via SSH.
+2012/02/12 14:32:26 - 50.112.3.53:     Waiting on SSH connection.
+2012/02/12 14:32:36 - 50.112.3.53:     Checking software installation completed.
+2012/02/12 14:32:39 - 50.112.3.53:     Software installation finished.
+2012/02/12 14:32:39 - 50.112.3.53:     Sending ~/node_health_script via SFTP.
+2012/02/12 14:32:39 - 50.112.3.53:     Copying ~/node_health_script to desitnation.
+2012/02/12 14:32:40 - 50.112.3.53:     Checking file contents.
+2012/02/12 14:32:40 - 50.112.3.53:     Remote file contents confirmed.
+2012/02/12 14:32:45 - 50.112.3.53:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/12 14:32:45 - 50.112.3.53:     Completed check of node 50.112.3.53.
+2012/02/12 14:32:45 - Determining availability zone.
+2012/02/12 14:32:45 - Gathering public and private ip addresses.
+2012/02/12 14:32:45 - Connecting to node 50.112.3.53 for cluster configuration.
+2012/02/12 14:32:45 - Connecting via SSH.
+2012/02/12 14:32:46 - Checking software installation completed.
+2012/02/12 14:32:47 - Software installation finished.
+2012/02/12 14:32:47 - Sending ~/node_health_script via SFTP.
+2012/02/12 14:32:47 - Copying ~/node_health_script to desitnation.
+2012/02/12 14:32:48 - Checking file contents.
+2012/02/12 14:32:48 - Remote file contents confirmed.
+2012/02/12 14:32:49 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/12 14:32:49 - Writing cluster private ip addresses to file on instance.
+2012/02/12 14:32:49 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/12 14:32:50 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/12 14:32:50 - Checking file contents.
+2012/02/12 14:32:50 - Remote file contents confirmed.
+2012/02/12 14:32:50 - Running envgen
+2012/02/12 14:32:51 - Reading the config file.
+2012/02/12 14:32:52 - Retrieving IP address of ESP Server.
+2012/02/12 14:32:52 - ESP Server private IP address: 10.252.8.233.
+2012/02/12 14:32:52 - ESP Server public IP address: 50.112.3.53.
+2012/02/12 14:32:52 - 50.112.3.53:     Starting node configuration.
+2012/02/12 14:32:52 - 50.112.3.53:     Connecting via SSH.
+2012/02/12 14:32:54 - 50.112.3.53:     Checking software installation completed.
+2012/02/12 14:32:54 - 50.112.3.53:     Software installation finished.
+2012/02/12 14:32:54 - 50.112.3.53:     Sending ~/node_health_script via SFTP.
+2012/02/12 14:32:55 - 50.112.3.53:     Copying ~/node_health_script to desitnation.
+2012/02/12 14:32:55 - 50.112.3.53:     Checking file contents.
+2012/02/12 14:32:58 - 50.112.3.53:     Remote file contents confirmed.
+2012/02/12 14:32:59 - 50.112.3.53:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/12 14:32:59 - 50.112.3.53:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/12 14:33:00 - 50.112.3.53:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/12 14:33:00 - 50.112.3.53:     Checking file contents.
+2012/02/12 14:33:01 - 50.112.3.53:     Remote file contents confirmed.
+2012/02/12 14:33:01 - 50.112.3.53:     Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/12 14:33:27 - 50.112.3.53:     Starting mydafilesrv....       [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting mydali....            [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting mydfuserver....       [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting myeclagent....        [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting myeclccserver....     [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting myeclscheduler....    [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting myesp....             [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting mysasha....           [  OK  ]   
+2012/02/12 14:33:27 - 50.112.3.53:     Starting mythor....            [  OK  ]  
+2012/02/12 14:33:27 - 50.112.3.53:     Start node is complete.
+2012/02/12 14:33:27 - Done.
+2012/02/12 14:55:17 - Terminating cluster.
+2012/02/12 14:55:17 - Connecting to AWS region us-west-2.
+2012/02/12 14:55:17 - Gathering instances for Thor-CGZT.
+2012/02/12 14:55:18 - Terminating instances.
+2012/02/12 14:55:18 - Waiting for 1 instances to terminate.
+2012/02/12 14:55:24 - Waiting for 1 instances to terminate.
+2012/02/12 14:55:29 - Waiting for 1 instances to terminate.
+2012/02/12 14:55:34 - Waiting for 1 instances to terminate.
+2012/02/12 14:55:40 - Deleting Access Key Thor-CGZT.
+2012/02/12 14:55:40 - Deleting Security group Thor-CGZT.
+2012/02/12 14:55:41 - Done.

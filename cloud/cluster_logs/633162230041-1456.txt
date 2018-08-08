@@ -1,0 +1,139 @@
+2018/07/29 01:12:32 - Connecting to AWS region eu-central-1.
+2018/07/29 01:12:32 - Calculating new unique cluster name for request 1456.
+2018/07/29 01:12:33 - Creating new cluster name, Hpcc-E2VC.
+2018/07/29 01:12:33 - Creating Hpcc-E2VC security group.
+2018/07/29 01:12:36 - Creating Hpcc-E2VC key pair.
+2018/07/29 01:12:37 - Launching 3 m3.large nodes using ami-00808b7c144b828f1.
+2018/07/29 01:12:38 - Reservation ID r-01c5cebc11e859dbd created.
+2018/07/29 01:12:38 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:12:43 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:12:49 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:12:54 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:13:00 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:13:05 - Waiting for 3 of 3 nodes to launch.
+2018/07/29 01:13:11 - Waiting for 2 of 3 nodes to launch.
+2018/07/29 01:13:16 - Waiting for 2 of 3 nodes to launch.
+2018/07/29 01:13:21 - Waiting for 2 of 3 nodes to launch.
+2018/07/29 01:13:26 - Waiting for 2 of 3 nodes to launch.
+2018/07/29 01:13:32 - Waiting for 2 of 3 nodes to launch.
+2018/07/29 01:13:37 - Pending instances have completed.
+2018/07/29 01:13:37 - Checking each node launched properly.
+2018/07/29 01:13:37 - 54.93.222.105:   Checking EC2 instance i-02bf19e57f908db1e.
+2018/07/29 01:13:37 - 18.184.249.135:  Checking EC2 instance i-0e83dcc2de6c127db.
+2018/07/29 01:13:37 - 52.59.242.226:   Checking EC2 instance i-05dfc4114d50a7943.
+2018/07/29 01:13:37 - 18.184.249.135:  Checking EC2 instance is running.
+2018/07/29 01:13:37 - 18.184.249.135:  Connecting via SSH.
+2018/07/29 01:13:38 - 54.93.222.105:   Checking EC2 instance is running.
+2018/07/29 01:13:38 - 54.93.222.105:   Connecting via SSH.
+2018/07/29 01:13:38 - 52.59.242.226:   Checking EC2 instance is running.
+2018/07/29 01:13:38 - 52.59.242.226:   Connecting via SSH.
+2018/07/29 01:13:41 - 54.93.222.105:   Waiting on SSH connection.
+2018/07/29 01:13:41 - 52.59.242.226:   Checking software installation completed.
+2018/07/29 01:13:42 - 52.59.242.226:   Software installation finished.
+2018/07/29 01:13:42 - 52.59.242.226:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:42 - 52.59.242.226:   Checking file contents.
+2018/07/29 01:13:42 - 52.59.242.226:   Remote file contents confirmed.
+2018/07/29 01:13:43 - 52.59.242.226:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:13:43 - 52.59.242.226:   Completed check of node 52.59.242.226.
+2018/07/29 01:13:48 - 18.184.249.135:  Checking software installation completed.
+2018/07/29 01:13:48 - 18.184.249.135:  Software installation finished.
+2018/07/29 01:13:48 - 18.184.249.135:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:49 - 18.184.249.135:  Checking file contents.
+2018/07/29 01:13:49 - 18.184.249.135:  Remote file contents confirmed.
+2018/07/29 01:13:49 - 54.93.222.105:   Checking software installation completed.
+2018/07/29 01:13:50 - 54.93.222.105:   Software installation finished.
+2018/07/29 01:13:50 - 54.93.222.105:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:50 - 18.184.249.135:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:13:50 - 18.184.249.135:  Completed check of node 18.184.249.135.
+2018/07/29 01:13:50 - 54.93.222.105:   Checking file contents.
+2018/07/29 01:13:51 - 54.93.222.105:   Remote file contents confirmed.
+2018/07/29 01:13:51 - 54.93.222.105:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:13:51 - 54.93.222.105:   Completed check of node 54.93.222.105.
+2018/07/29 01:13:51 - Determining availability zone.
+2018/07/29 01:13:51 - Gathering public and private ip addresses.
+2018/07/29 01:13:51 - Connecting to node 54.93.222.105 for cluster configuration.
+2018/07/29 01:13:51 - Connecting via SSH.
+2018/07/29 01:13:52 - Checking software installation completed.
+2018/07/29 01:13:53 - Software installation finished.
+2018/07/29 01:13:53 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:53 - Checking file contents.
+2018/07/29 01:13:53 - Remote file contents confirmed.
+2018/07/29 01:13:54 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:13:54 - Writing cluster private ip addresses to file on instance.
+2018/07/29 01:13:54 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/07/29 01:13:55 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/07/29 01:13:55 - Checking file contents.
+2018/07/29 01:13:55 - Remote file contents confirmed.
+2018/07/29 01:13:55 - Running envgen
+2018/07/29 01:13:56 - Reading the config file.
+2018/07/29 01:13:56 - Retrieving IP address of ESP Server.
+2018/07/29 01:13:57 - ESP Server private IP address: 172.31.5.162.
+2018/07/29 01:13:57 - ESP Server public IP address: 54.93.222.105.
+2018/07/29 01:13:57 - 18.184.249.135:  Starting node configuration.
+2018/07/29 01:13:57 - 54.93.222.105:   Starting node configuration.
+2018/07/29 01:13:57 - 54.93.222.105:   Connecting via SSH.
+2018/07/29 01:13:57 - 18.184.249.135:  Connecting via SSH.
+2018/07/29 01:13:57 - 52.59.242.226:   Starting node configuration.
+2018/07/29 01:13:57 - 52.59.242.226:   Connecting via SSH.
+2018/07/29 01:13:58 - 54.93.222.105:   Checking software installation completed.
+2018/07/29 01:13:58 - 18.184.249.135:  Checking software installation completed.
+2018/07/29 01:13:58 - 52.59.242.226:   Checking software installation completed.
+2018/07/29 01:13:58 - 54.93.222.105:   Software installation finished.
+2018/07/29 01:13:58 - 54.93.222.105:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:58 - 18.184.249.135:  Software installation finished.
+2018/07/29 01:13:58 - 18.184.249.135:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:58 - 52.59.242.226:   Software installation finished.
+2018/07/29 01:13:58 - 52.59.242.226:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/29 01:13:59 - 54.93.222.105:   Checking file contents.
+2018/07/29 01:13:59 - 18.184.249.135:  Checking file contents.
+2018/07/29 01:13:59 - 52.59.242.226:   Checking file contents.
+2018/07/29 01:13:59 - 54.93.222.105:   Remote file contents confirmed.
+2018/07/29 01:13:59 - 18.184.249.135:  Remote file contents confirmed.
+2018/07/29 01:13:59 - 52.59.242.226:   Remote file contents confirmed.
+2018/07/29 01:14:00 - 54.93.222.105:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:14:00 - 54.93.222.105:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/07/29 01:14:00 - 18.184.249.135:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:14:00 - 18.184.249.135:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/07/29 01:14:00 - 52.59.242.226:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/29 01:14:00 - 52.59.242.226:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/07/29 01:14:00 - 18.184.249.135:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/07/29 01:14:00 - 52.59.242.226:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/07/29 01:14:00 - 54.93.222.105:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/07/29 01:14:01 - 18.184.249.135:  Checking file contents.
+2018/07/29 01:14:01 - 52.59.242.226:   Checking file contents.
+2018/07/29 01:14:01 - 54.93.222.105:   Checking file contents.
+2018/07/29 01:14:01 - 18.184.249.135:  Remote file contents confirmed.
+2018/07/29 01:14:01 - 18.184.249.135:  Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/07/29 01:14:01 - 52.59.242.226:   Remote file contents confirmed.
+2018/07/29 01:14:01 - 52.59.242.226:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/07/29 01:14:01 - 54.93.222.105:   Remote file contents confirmed.
+2018/07/29 01:14:01 - 54.93.222.105:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/07/29 01:14:06 - 52.59.242.226:   Starting mydafilesrv ...       [   OK    ]   
+2018/07/29 01:14:06 - 52.59.242.226:   Starting mydfuserver ...       [   OK    ]   
+2018/07/29 01:14:06 - 52.59.242.226:   Starting myeclscheduler ...    [   OK    ]  
+2018/07/29 01:14:06 - 52.59.242.226:   Start node is complete.
+2018/07/29 01:14:10 - 18.184.249.135:  Starting mydafilesrv ...       [   OK    ]   
+2018/07/29 01:14:10 - 18.184.249.135:  Starting mydali ...            [   OK    ]   
+2018/07/29 01:14:10 - 18.184.249.135:  Starting myeclccserver ...     [   OK    ]   
+2018/07/29 01:14:10 - 18.184.249.135:  Starting mythor ...            [   OK    ]  
+2018/07/29 01:14:10 - 18.184.249.135:  Start node is complete.
+2018/07/29 01:14:11 - 54.93.222.105:   Starting mydafilesrv ...       [   OK    ]   
+2018/07/29 01:14:11 - 54.93.222.105:   Starting myeclagent ...        [   OK    ]   
+2018/07/29 01:14:11 - 54.93.222.105:   Starting myesp ...             [   OK    ]   
+2018/07/29 01:14:11 - 54.93.222.105:   Starting myroxie ...           [   OK    ]   
+2018/07/29 01:14:11 - 54.93.222.105:   Starting mysasha ...           [   OK    ]  
+2018/07/29 01:14:11 - 54.93.222.105:   Start node is complete.
+2018/07/29 01:14:11 - Done.
+2018/07/29 01:16:19 - Terminating cluster.
+2018/07/29 01:16:19 - Connecting to AWS region eu-central-1.
+2018/07/29 01:16:19 - Gathering instances for Hpcc-E2VC.
+2018/07/29 01:16:20 - Terminating instances.
+2018/07/29 01:16:21 - Waiting for 3 instances to terminate.
+2018/07/29 01:16:27 - Waiting for 3 instances to terminate.
+2018/07/29 01:16:33 - Waiting for 3 instances to terminate.
+2018/07/29 01:16:38 - Waiting for 3 instances to terminate.
+2018/07/29 01:16:44 - Waiting for 2 instances to terminate.
+2018/07/29 01:16:49 - Waiting for 1 instances to terminate.
+2018/07/29 01:16:54 - Deleting Access Key Hpcc-E2VC.
+2018/07/29 01:16:54 - Deleting Security group Hpcc-E2VC.
+2018/07/29 01:16:55 - Done.

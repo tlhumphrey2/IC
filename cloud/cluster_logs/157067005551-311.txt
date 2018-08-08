@@ -1,0 +1,87 @@
+2012/09/09 11:11:11 - Connecting to AWS region us-west-2.
+2012/09/09 11:11:11 - Calculating new unique cluster name for request 311.
+2012/09/09 11:11:12 - Creating new cluster name, Hpcc-E4SC.
+2012/09/09 11:11:12 - Creating Hpcc-E4SC security group.
+2012/09/09 11:11:16 - Creating Hpcc-E4SC key pair.
+2012/09/09 11:11:17 - Launching 1 m1.large nodes using ami-bcd4588c.
+2012/09/09 11:11:17 - Reservation ID r-c7ec6ff4 created.
+2012/09/09 11:11:17 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:23 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:28 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:33 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:39 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:44 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:49 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:11:54 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:12:00 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:12:05 - Waiting for 1 of 1 nodes to launch.
+2012/09/09 11:12:10 - Pending instances have completed.
+2012/09/09 11:12:10 - Checking each node launched properly.
+2012/09/09 11:12:10 - 50.112.60.248:   Checking EC2 instance i-7f553a4c.
+2012/09/09 11:12:10 - 50.112.60.248:   Checking EC2 instance is running.
+2012/09/09 11:12:10 - 50.112.60.248:   Connecting via SSH.
+2012/09/09 11:12:13 - 50.112.60.248:   Waiting on SSH connection.
+2012/09/09 11:12:20 - 50.112.60.248:   Checking software installation completed.
+2012/09/09 11:12:20 - 50.112.60.248:   Software installation finished.
+2012/09/09 11:12:20 - 50.112.60.248:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/09 11:12:20 - 50.112.60.248:   Checking file contents.
+2012/09/09 11:12:21 - 50.112.60.248:   Remote file contents confirmed.
+2012/09/09 11:12:22 - 50.112.60.248:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/09 11:12:22 - 50.112.60.248:   Completed check of node 50.112.60.248.
+2012/09/09 11:12:22 - Determining availability zone.
+2012/09/09 11:12:22 - Gathering public and private ip addresses.
+2012/09/09 11:12:22 - Connecting to node 50.112.60.248 for cluster configuration.
+2012/09/09 11:12:22 - Connecting via SSH.
+2012/09/09 11:12:23 - Checking software installation completed.
+2012/09/09 11:12:23 - Software installation finished.
+2012/09/09 11:12:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/09 11:12:24 - Checking file contents.
+2012/09/09 11:12:24 - Remote file contents confirmed.
+2012/09/09 11:12:25 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/09 11:12:25 - Writing cluster private ip addresses to file on instance.
+2012/09/09 11:12:25 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/09/09 11:12:26 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/09/09 11:12:26 - Checking file contents.
+2012/09/09 11:12:27 - Remote file contents confirmed.
+2012/09/09 11:12:27 - Running envgen
+2012/09/09 11:12:28 - Reading the config file.
+2012/09/09 11:12:29 - Retrieving IP address of ESP Server.
+2012/09/09 11:12:29 - ESP Server private IP address: 10.252.79.93.
+2012/09/09 11:12:29 - ESP Server public IP address: 50.112.60.248.
+2012/09/09 11:12:29 - 50.112.60.248:   Starting node configuration.
+2012/09/09 11:12:29 - 50.112.60.248:   Connecting via SSH.
+2012/09/09 11:12:30 - 50.112.60.248:   Checking software installation completed.
+2012/09/09 11:12:31 - 50.112.60.248:   Software installation finished.
+2012/09/09 11:12:31 - 50.112.60.248:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/09 11:12:31 - 50.112.60.248:   Checking file contents.
+2012/09/09 11:12:32 - 50.112.60.248:   Remote file contents confirmed.
+2012/09/09 11:12:32 - 50.112.60.248:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/09 11:12:32 - 50.112.60.248:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/09/09 11:12:34 - 50.112.60.248:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/09/09 11:12:34 - 50.112.60.248:   Checking file contents.
+2012/09/09 11:12:34 - 50.112.60.248:   Remote file contents confirmed.
+2012/09/09 11:12:34 - 50.112.60.248:   Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/09/09 11:13:01 - 50.112.60.248:   Starting mydafilesrv....       [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting mydali....            [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting mydfuserver....       [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting myeclagent....        [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting myeclccserver....     [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting myeclscheduler....    [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting myesp....             [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting mysasha....           [  OK  ]   
+2012/09/09 11:13:01 - 50.112.60.248:   Starting mythor....            [  OK  ]  
+2012/09/09 11:13:01 - 50.112.60.248:   Start node is complete.
+2012/09/09 11:13:01 - Done.
+2012/09/09 11:53:14 - Terminating cluster.
+2012/09/09 11:53:14 - Connecting to AWS region us-west-2.
+2012/09/09 11:53:14 - Gathering instances for Hpcc-E4SC.
+2012/09/09 11:53:15 - Terminating instances.
+2012/09/09 11:53:15 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:21 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:26 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:31 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:37 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:42 - Waiting for 1 instances to terminate.
+2012/09/09 11:53:47 - Deleting Access Key Hpcc-E4SC.
+2012/09/09 11:53:48 - Deleting Security group Hpcc-E4SC.
+2012/09/09 11:53:48 - Done.

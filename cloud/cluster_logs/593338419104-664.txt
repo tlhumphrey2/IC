@@ -1,0 +1,112 @@
+2013/08/20 17:14:30 - Connecting to AWS region us-west-2.
+2013/08/20 17:14:30 - Calculating new unique cluster name for request 664.
+2013/08/20 17:14:31 - Creating new cluster name, Hpcc-MGX4.
+2013/08/20 17:14:31 - Creating Hpcc-MGX4 security group.
+2013/08/20 17:14:35 - Creating Hpcc-MGX4 key pair.
+2013/08/20 17:14:36 - Launching 1 m1.large nodes using ami-4dc7577d.
+2013/08/20 17:14:37 - Reservation ID r-71be5246 created.
+2013/08/20 17:14:37 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:14:42 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:14:47 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:14:53 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:14:58 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:03 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:08 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:13 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:19 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:24 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:29 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:34 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:40 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:45 - Waiting for 1 of 1 nodes to launch.
+2013/08/20 17:15:50 - Pending instances have completed.
+2013/08/20 17:15:50 - Checking each node launched properly.
+2013/08/20 17:15:50 - 54.214.68.182:   Checking EC2 instance i-02529635.
+2013/08/20 17:15:50 - 54.214.68.182:   Checking EC2 instance is running.
+2013/08/20 17:15:50 - 54.214.68.182:   Connecting via SSH.
+2013/08/20 17:15:53 - 54.214.68.182:   Waiting on SSH connection.
+2013/08/20 17:16:05 - 54.214.68.182:   Checking software installation completed.
+2013/08/20 17:16:05 - 54.214.68.182:   Software installation finished.
+2013/08/20 17:16:05 - 54.214.68.182:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/08/20 17:16:06 - 54.214.68.182:   Checking file contents.
+2013/08/20 17:16:06 - 54.214.68.182:   Remote file contents confirmed.
+2013/08/20 17:16:07 - 54.214.68.182:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/08/20 17:16:07 - 54.214.68.182:   Completed check of node 54.214.68.182.
+2013/08/20 17:16:07 - Determining availability zone.
+2013/08/20 17:16:07 - Gathering public and private ip addresses.
+2013/08/20 17:16:07 - Connecting to node 54.214.68.182 for cluster configuration.
+2013/08/20 17:16:07 - Connecting via SSH.
+2013/08/20 17:16:09 - Checking software installation completed.
+2013/08/20 17:16:09 - Software installation finished.
+2013/08/20 17:16:09 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/08/20 17:16:09 - Checking file contents.
+2013/08/20 17:16:10 - Remote file contents confirmed.
+2013/08/20 17:16:10 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/08/20 17:16:10 - Writing cluster private ip addresses to file on instance.
+2013/08/20 17:16:10 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/08/20 17:16:11 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/08/20 17:16:11 - Checking file contents.
+2013/08/20 17:16:11 - Remote file contents confirmed.
+2013/08/20 17:16:11 - Running envgen
+2013/08/20 17:16:12 - Reading the config file.
+2013/08/20 17:16:13 - Retrieving IP address of ESP Server.
+2013/08/20 17:16:13 - ESP Server private IP address: 10.253.37.109.
+2013/08/20 17:16:13 - ESP Server public IP address: 54.214.68.182.
+2013/08/20 17:16:13 - 54.214.68.182:   Starting node configuration.
+2013/08/20 17:16:13 - 54.214.68.182:   Connecting via SSH.
+2013/08/20 17:16:15 - 54.214.68.182:   Checking software installation completed.
+2013/08/20 17:16:15 - 54.214.68.182:   Software installation finished.
+2013/08/20 17:16:15 - 54.214.68.182:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/08/20 17:16:15 - 54.214.68.182:   Checking file contents.
+2013/08/20 17:16:16 - 54.214.68.182:   Remote file contents confirmed.
+2013/08/20 17:16:16 - 54.214.68.182:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/08/20 17:16:16 - 54.214.68.182:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/08/20 17:16:17 - 54.214.68.182:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/08/20 17:16:17 - 54.214.68.182:   Checking file contents.
+2013/08/20 17:16:18 - 54.214.68.182:   Remote file contents confirmed.
+2013/08/20 17:16:18 - 54.214.68.182:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/08/20 17:16:45 - 54.214.68.182:   Starting mydafilesrv....       [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting mydali....            [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting mydfuserver....       [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting myeclagent....        [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting myeclccserver....     [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting myeclscheduler....    [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting myesp....             [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting mysasha....           [  OK  ]   
+2013/08/20 17:16:45 - 54.214.68.182:   Starting mythor....            [  OK  ]  
+2013/08/20 17:16:45 - 54.214.68.182:   Start node is complete.
+2013/08/20 17:16:45 - Done.
+2013/08/20 18:07:55 - Terminating cluster.
+2013/08/20 18:07:55 - Connecting to AWS region us-west-2.
+2013/08/20 18:07:55 - Gathering instances for Hpcc-MGX4.
+2013/08/20 18:07:56 - Terminating instances.
+2013/08/20 18:07:57 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:02 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:07 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:12 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:18 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:23 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:28 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:33 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:38 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:44 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:49 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:54 - Waiting for 1 instances to terminate.
+2013/08/20 18:08:59 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:04 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:10 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:15 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:20 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:25 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:31 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:36 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:41 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:46 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:51 - Waiting for 1 instances to terminate.
+2013/08/20 18:09:57 - Waiting for 1 instances to terminate.
+2013/08/20 18:10:02 - Waiting for 1 instances to terminate.
+2013/08/20 18:10:07 - Deleting attached EBS volumes.
+2013/08/20 18:10:07 - Deleting volume vol-bb2ca1d2
+2013/08/20 18:10:07 - Deleting Access Key Hpcc-MGX4.
+2013/08/20 18:10:08 - Deleting Security group Hpcc-MGX4.
+2013/08/20 18:10:08 - Done.

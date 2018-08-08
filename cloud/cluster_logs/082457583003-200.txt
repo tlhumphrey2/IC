@@ -1,0 +1,86 @@
+2012/03/14 14:46:24 - Connecting to AWS region us-west-2.
+2012/03/14 14:46:24 - Calculating new unique cluster name for request 200.
+2012/03/14 14:46:25 - Creating new cluster name, Thor-RV7P.
+2012/03/14 14:46:25 - Creating Thor-RV7P security group.
+2012/03/14 14:46:29 - Creating Thor-RV7P key pair.
+2012/03/14 14:46:30 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/14 14:46:31 - Reservation ID r-2a62311a created.
+2012/03/14 14:46:31 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:46:37 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:46:42 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:46:47 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:46:52 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:46:58 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:47:03 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:47:08 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:47:13 - Pending instances have completed.
+2012/03/14 14:47:13 - Checking each node launched properly.
+2012/03/14 14:47:13 - 50.112.33.150:   Checking EC2 instance i-b62b7186.
+2012/03/14 14:47:14 - 50.112.33.150:   Checking EC2 instance is running.
+2012/03/14 14:47:14 - 50.112.33.150:   Connecting via SSH.
+2012/03/14 14:47:17 - 50.112.33.150:   Waiting on SSH connection.
+2012/03/14 14:47:25 - 50.112.33.150:   Waiting on SSH connection.
+2012/03/14 14:47:33 - 50.112.33.150:   Waiting on SSH connection.
+2012/03/14 14:47:41 - 50.112.33.150:   Waiting on SSH connection.
+2012/03/14 14:47:48 - 50.112.33.150:   Checking software installation completed.
+2012/03/14 14:47:48 - 50.112.33.150:   Software installation finished.
+2012/03/14 14:47:48 - 50.112.33.150:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:47:49 - 50.112.33.150:   Checking file contents.
+2012/03/14 14:47:49 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 14:47:50 - 50.112.33.150:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 14:47:50 - 50.112.33.150:   Completed check of node 50.112.33.150.
+2012/03/14 14:47:50 - Determining availability zone.
+2012/03/14 14:47:50 - Gathering public and private ip addresses.
+2012/03/14 14:47:50 - Connecting to node 50.112.33.150 for cluster configuration.
+2012/03/14 14:47:50 - Connecting via SSH.
+2012/03/14 14:47:51 - Checking software installation completed.
+2012/03/14 14:47:51 - Software installation finished.
+2012/03/14 14:47:51 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:47:52 - Checking file contents.
+2012/03/14 14:47:52 - Remote file contents confirmed.
+2012/03/14 14:47:53 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 14:47:53 - Writing cluster private ip addresses to file on instance.
+2012/03/14 14:47:53 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 14:47:54 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 14:47:54 - Checking file contents.
+2012/03/14 14:47:55 - Remote file contents confirmed.
+2012/03/14 14:47:55 - Running envgen
+2012/03/14 14:47:55 - Reading the config file.
+2012/03/14 14:47:56 - Retrieving IP address of ESP Server.
+2012/03/14 14:47:56 - ESP Server private IP address: 10.252.14.140.
+2012/03/14 14:47:56 - ESP Server public IP address: 50.112.33.150.
+2012/03/14 14:47:56 - 50.112.33.150:   Starting node configuration.
+2012/03/14 14:47:56 - 50.112.33.150:   Connecting via SSH.
+2012/03/14 14:47:58 - 50.112.33.150:   Checking software installation completed.
+2012/03/14 14:47:58 - 50.112.33.150:   Software installation finished.
+2012/03/14 14:47:58 - 50.112.33.150:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:47:59 - 50.112.33.150:   Checking file contents.
+2012/03/14 14:47:59 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 14:48:00 - 50.112.33.150:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 14:48:00 - 50.112.33.150:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 14:48:01 - 50.112.33.150:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 14:48:01 - 50.112.33.150:   Checking file contents.
+2012/03/14 14:48:02 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 14:48:02 - 50.112.33.150:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 14:48:28 - 50.112.33.150:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting mydali....            [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting mydfuserver....       [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting myeclagent....        [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting myeclccserver....     [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting myeclscheduler....    [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting myesp....             [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting mysasha....           [  OK  ]   
+2012/03/14 14:48:28 - 50.112.33.150:   Starting mythor....            [  OK  ]  
+2012/03/14 14:48:28 - 50.112.33.150:   Start node is complete.
+2012/03/14 14:48:28 - Done.
+2012/03/14 15:33:36 - Terminating cluster.
+2012/03/14 15:33:36 - Connecting to AWS region us-west-2.
+2012/03/14 15:33:36 - Gathering instances for Thor-RV7P.
+2012/03/14 15:33:36 - Terminating instances.
+2012/03/14 15:33:37 - Waiting for 1 instances to terminate.
+2012/03/14 15:33:42 - Waiting for 1 instances to terminate.
+2012/03/14 15:33:47 - Waiting for 1 instances to terminate.
+2012/03/14 15:33:53 - Waiting for 1 instances to terminate.
+2012/03/14 15:33:58 - Deleting Access Key Thor-RV7P.
+2012/03/14 15:33:58 - Deleting Security group Thor-RV7P.
+2012/03/14 15:33:59 - Done.

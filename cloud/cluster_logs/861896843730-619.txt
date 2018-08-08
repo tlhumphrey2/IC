@@ -1,0 +1,74 @@
+2013/06/02 20:15:43 - Connecting to AWS region us-west-2.
+2013/06/02 20:15:43 - Calculating new unique cluster name for request 619.
+2013/06/02 20:15:44 - Creating new cluster name, Hpcc-YJZ4.
+2013/06/02 20:15:44 - Creating Hpcc-YJZ4 security group.
+2013/06/02 20:15:47 - Creating Hpcc-YJZ4 key pair.
+2013/06/02 20:15:49 - Launching 1 m1.large nodes using ami-c1ca5cf1.
+2013/06/02 20:15:50 - Reservation ID r-de779deb created.
+2013/06/02 20:15:50 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:15:56 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:01 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:06 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:11 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:17 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:22 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:27 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:32 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:38 - Waiting for 1 of 1 nodes to launch.
+2013/06/02 20:16:43 - Pending instances have completed.
+2013/06/02 20:16:43 - Checking each node launched properly.
+2013/06/02 20:16:43 - 54.214.168.223:  Checking EC2 instance i-046d1831.
+2013/06/02 20:16:43 - 54.214.168.223:  Checking EC2 instance is running.
+2013/06/02 20:16:43 - 54.214.168.223:  Connecting via SSH.
+2013/06/02 20:16:46 - 54.214.168.223:  Checking software installation completed.
+2013/06/02 20:16:46 - 54.214.168.223:  Waiting for software to install.
+2013/06/02 20:16:57 - 54.214.168.223:  Software installation finished.
+2013/06/02 20:16:57 - 54.214.168.223:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/02 20:16:57 - 54.214.168.223:  Checking file contents.
+2013/06/02 20:16:58 - 54.214.168.223:  Remote file contents confirmed.
+2013/06/02 20:16:58 - 54.214.168.223:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/02 20:16:58 - 54.214.168.223:  Completed check of node 54.214.168.223.
+2013/06/02 20:16:58 - Determining availability zone.
+2013/06/02 20:16:58 - Gathering public and private ip addresses.
+2013/06/02 20:16:58 - Connecting to node 54.214.168.223 for cluster configuration.
+2013/06/02 20:16:58 - Connecting via SSH.
+2013/06/02 20:17:04 - Checking software installation completed.
+2013/06/02 20:17:05 - Software installation finished.
+2013/06/02 20:17:05 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/02 20:17:05 - Checking file contents.
+2013/06/02 20:17:06 - Remote file contents confirmed.
+2013/06/02 20:17:06 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/02 20:17:06 - Writing cluster private ip addresses to file on instance.
+2013/06/02 20:17:06 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/06/02 20:17:07 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/06/02 20:17:07 - Checking file contents.
+2013/06/02 20:17:07 - Remote file contents confirmed.
+2013/06/02 20:17:07 - Running envgen
+2013/06/02 20:17:09 - Reading the config file.
+2013/06/02 20:17:09 - Retrieving IP address of ESP Server.
+2013/06/02 20:17:10 - ESP Server private IP address: 10.254.72.135.
+2013/06/02 20:17:10 - ESP Server public IP address: 54.214.168.223.
+2013/06/02 20:17:10 - 54.214.168.223:  Starting node configuration.
+2013/06/02 20:17:10 - 54.214.168.223:  Connecting via SSH.
+2013/06/02 20:17:11 - 54.214.168.223:  Checking software installation completed.
+2013/06/02 20:17:11 - 54.214.168.223:  Software installation finished.
+2013/06/02 20:17:11 - 54.214.168.223:  Sending /home/ubuntu/node_health_script via SFTP.
+2013/06/02 20:17:12 - 54.214.168.223:  Checking file contents.
+2013/06/02 20:17:12 - 54.214.168.223:  Remote file contents confirmed.
+2013/06/02 20:17:13 - 54.214.168.223:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/06/02 20:17:13 - 54.214.168.223:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/06/02 20:17:14 - 54.214.168.223:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/06/02 20:17:14 - 54.214.168.223:  Checking file contents.
+2013/06/02 20:17:15 - 54.214.168.223:  Remote file contents confirmed.
+2013/06/02 20:17:15 - 54.214.168.223:  Starting HPCC Platform Community Edition: 3.10.6-1.
+2013/06/02 20:17:42 - 54.214.168.223:  Starting mydafilesrv....       [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting mydali....            [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting mydfuserver....       [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting myeclagent....        [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting myeclccserver....     [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting myeclscheduler....    [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting myesp....             [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting mysasha....           [  OK  ]   
+2013/06/02 20:17:42 - 54.214.168.223:  Starting mythor....            [  OK  ]  
+2013/06/02 20:17:42 - 54.214.168.223:  Start node is complete.
+2013/06/02 20:17:42 - Done.

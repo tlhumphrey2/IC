@@ -1,0 +1,98 @@
+2012/02/14 08:20:24 - Connecting to AWS region us-west-2.
+2012/02/14 08:20:24 - Calculating new unique cluster name for request 132.
+2012/02/14 08:20:25 - Creating new cluster name, Thor-T2MP.
+2012/02/14 08:20:25 - Creating Thor-T2MP security group.
+2012/02/14 08:20:29 - Creating Thor-T2MP key pair.
+2012/02/14 08:20:30 - Launching 1 m1.large nodes using ami-94b33ea4.
+2012/02/14 08:20:30 - Reservation ID r-00387f30 created.
+2012/02/14 08:20:30 - Waiting for 1 of 1 nodes to launch.
+2012/02/14 08:20:36 - Waiting for 1 of 1 nodes to launch.
+2012/02/14 08:20:41 - Waiting for 1 of 1 nodes to launch.
+2012/02/14 08:20:46 - Waiting for 1 of 1 nodes to launch.
+2012/02/14 08:20:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/14 08:20:57 - Pending instances have completed.
+2012/02/14 08:20:57 - Checking each node launched properly.
+2012/02/14 08:20:57 - 50.112.16.162:   Checking EC2 instance i-66e5a856.
+2012/02/14 08:20:57 - 50.112.16.162:   Checking EC2 instance is running.
+2012/02/14 08:20:57 - 50.112.16.162:   Connecting via SSH.
+2012/02/14 08:21:00 - 50.112.16.162:   Waiting on SSH connection.
+2012/02/14 08:21:08 - 50.112.16.162:   Checking software installation completed.
+2012/02/14 08:21:09 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:21:19 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:21:31 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:21:41 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:21:52 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:22:02 - 50.112.16.162:   Waiting for software to install.
+2012/02/14 08:22:12 - 50.112.16.162:   Software installation finished.
+2012/02/14 08:22:12 - 50.112.16.162:   Sending ~/node_health_script via SFTP.
+2012/02/14 08:22:13 - 50.112.16.162:   Copying ~/node_health_script to desitnation.
+2012/02/14 08:22:13 - 50.112.16.162:   Checking file contents.
+2012/02/14 08:22:14 - 50.112.16.162:   Remote file contents confirmed.
+2012/02/14 08:22:14 - 50.112.16.162:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/14 08:22:14 - 50.112.16.162:   Completed check of node 50.112.16.162.
+2012/02/14 08:22:14 - Determining availability zone.
+2012/02/14 08:22:14 - Gathering public and private ip addresses.
+2012/02/14 08:22:14 - Connecting to node 50.112.16.162 for cluster configuration.
+2012/02/14 08:22:14 - Connecting via SSH.
+2012/02/14 08:22:16 - Checking software installation completed.
+2012/02/14 08:22:16 - Software installation finished.
+2012/02/14 08:22:16 - Sending ~/node_health_script via SFTP.
+2012/02/14 08:22:17 - Copying ~/node_health_script to desitnation.
+2012/02/14 08:22:17 - Checking file contents.
+2012/02/14 08:22:17 - Remote file contents confirmed.
+2012/02/14 08:22:22 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/14 08:22:22 - Writing cluster private ip addresses to file on instance.
+2012/02/14 08:22:22 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/14 08:22:23 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/14 08:22:23 - Checking file contents.
+2012/02/14 08:22:24 - Remote file contents confirmed.
+2012/02/14 08:22:24 - Running envgen
+2012/02/14 08:22:24 - Reading the config file.
+2012/02/14 08:22:25 - Retrieving IP address of ESP Server.
+2012/02/14 08:22:25 - ESP Server private IP address: 10.252.14.155.
+2012/02/14 08:22:25 - ESP Server public IP address: 50.112.16.162.
+2012/02/14 08:22:25 - 50.112.16.162:   Starting node configuration.
+2012/02/14 08:22:25 - 50.112.16.162:   Connecting via SSH.
+2012/02/14 08:22:27 - 50.112.16.162:   Checking software installation completed.
+2012/02/14 08:22:27 - 50.112.16.162:   Software installation finished.
+2012/02/14 08:22:27 - 50.112.16.162:   Sending ~/node_health_script via SFTP.
+2012/02/14 08:22:27 - 50.112.16.162:   Copying ~/node_health_script to desitnation.
+2012/02/14 08:22:28 - 50.112.16.162:   Checking file contents.
+2012/02/14 08:22:28 - 50.112.16.162:   Remote file contents confirmed.
+2012/02/14 08:22:29 - 50.112.16.162:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/14 08:22:29 - 50.112.16.162:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/14 08:22:30 - 50.112.16.162:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/14 08:22:30 - 50.112.16.162:   Checking file contents.
+2012/02/14 08:22:31 - 50.112.16.162:   Remote file contents confirmed.
+2012/02/14 08:22:31 - 50.112.16.162:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/14 08:22:57 - 50.112.16.162:   Starting mydafilesrv....       [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting mydali....            [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting mydfuserver....       [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting myeclagent....        [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting myeclccserver....     [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting myeclscheduler....    [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting myesp....             [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting mysasha....           [  OK  ]   
+2012/02/14 08:22:57 - 50.112.16.162:   Starting mythor....            [  OK  ]  
+2012/02/14 08:22:57 - 50.112.16.162:   Start node is complete.
+2012/02/14 08:22:57 - Done.
+2012/02/14 11:06:39 - Terminating cluster.
+2012/02/14 11:06:39 - Connecting to AWS region us-west-2.
+2012/02/14 11:06:39 - Gathering instances for Thor-T2MP.
+2012/02/14 11:06:40 - Terminating instances.
+2012/02/14 11:06:40 - Waiting for 1 instances to terminate.
+2012/02/14 11:06:46 - Waiting for 1 instances to terminate.
+2012/02/14 11:06:51 - Waiting for 1 instances to terminate.
+2012/02/14 11:06:56 - Waiting for 1 instances to terminate.
+2012/02/14 11:07:01 - Deleting Access Key Thor-T2MP.
+2012/02/14 11:07:02 - Deleting Security group Thor-T2MP.
+2012/02/14 11:07:03 - Done.
+2012/02/17 17:01:17 - Terminating cluster.
+2012/02/17 17:01:17 - Connecting to AWS region us-west-2.
+2012/02/17 17:01:17 - Gathering instances for Thor-T2MP.
+2012/02/17 17:01:18 - Terminating instances.
+2012/02/17 17:01:18 - Deleting Access Key Thor-T2MP.
+2012/02/17 17:01:18 - Error: Access key not found.
+2012/02/17 17:01:18 - Deleting Security group Thor-T2MP.
+2012/02/17 17:01:19 - Error: Security group not found.
+2012/02/17 17:01:19 - Done.

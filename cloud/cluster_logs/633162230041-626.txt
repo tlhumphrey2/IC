@@ -1,0 +1,93 @@
+2013/07/01 09:13:40 - Connecting to AWS region us-west-2.
+2013/07/01 09:13:40 - Calculating new unique cluster name for request 626.
+2013/07/01 09:13:41 - Creating new cluster name, Hpcc-TCV8.
+2013/07/01 09:13:41 - Creating Hpcc-TCV8 security group.
+2013/07/01 09:13:44 - Creating Hpcc-TCV8 key pair.
+2013/07/01 09:13:45 - Launching 1 m1.large nodes using ami-4dc7577d.
+2013/07/01 09:13:46 - Reservation ID r-cc3c8ef9 created.
+2013/07/01 09:13:46 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:13:51 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:13:56 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:02 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:07 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:12 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:17 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:23 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:28 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:33 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:38 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:43 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:49 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:54 - Waiting for 1 of 1 nodes to launch.
+2013/07/01 09:14:59 - Pending instances have completed.
+2013/07/01 09:14:59 - Checking each node launched properly.
+2013/07/01 09:14:59 - 54.245.14.121:   Checking EC2 instance i-da4e42ef.
+2013/07/01 09:14:59 - 54.245.14.121:   Checking EC2 instance is running.
+2013/07/01 09:14:59 - 54.245.14.121:   Connecting via SSH.
+2013/07/01 09:15:15 - 54.245.14.121:   Checking software installation completed.
+2013/07/01 09:15:15 - 54.245.14.121:   Software installation finished.
+2013/07/01 09:15:15 - 54.245.14.121:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/01 09:15:16 - 54.245.14.121:   Checking file contents.
+2013/07/01 09:15:16 - 54.245.14.121:   Remote file contents confirmed.
+2013/07/01 09:15:17 - 54.245.14.121:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/01 09:15:17 - 54.245.14.121:   Completed check of node 54.245.14.121.
+2013/07/01 09:15:17 - Determining availability zone.
+2013/07/01 09:15:17 - Gathering public and private ip addresses.
+2013/07/01 09:15:17 - Connecting to node 54.245.14.121 for cluster configuration.
+2013/07/01 09:15:17 - Connecting via SSH.
+2013/07/01 09:15:18 - Checking software installation completed.
+2013/07/01 09:15:18 - Software installation finished.
+2013/07/01 09:15:18 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/01 09:15:19 - Checking file contents.
+2013/07/01 09:15:19 - Remote file contents confirmed.
+2013/07/01 09:15:20 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/01 09:15:20 - Writing cluster private ip addresses to file on instance.
+2013/07/01 09:15:20 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/07/01 09:15:20 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/07/01 09:15:21 - Checking file contents.
+2013/07/01 09:15:21 - Remote file contents confirmed.
+2013/07/01 09:15:21 - Running envgen
+2013/07/01 09:15:22 - Reading the config file.
+2013/07/01 09:15:23 - Retrieving IP address of ESP Server.
+2013/07/01 09:15:23 - ESP Server private IP address: 10.253.7.95.
+2013/07/01 09:15:23 - ESP Server public IP address: 54.245.14.121.
+2013/07/01 09:15:23 - 54.245.14.121:   Starting node configuration.
+2013/07/01 09:15:23 - 54.245.14.121:   Connecting via SSH.
+2013/07/01 09:15:25 - 54.245.14.121:   Checking software installation completed.
+2013/07/01 09:15:25 - 54.245.14.121:   Software installation finished.
+2013/07/01 09:15:25 - 54.245.14.121:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/01 09:15:25 - 54.245.14.121:   Checking file contents.
+2013/07/01 09:15:26 - 54.245.14.121:   Remote file contents confirmed.
+2013/07/01 09:15:26 - 54.245.14.121:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/01 09:15:26 - 54.245.14.121:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/07/01 09:15:27 - 54.245.14.121:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/07/01 09:15:28 - 54.245.14.121:   Checking file contents.
+2013/07/01 09:15:28 - 54.245.14.121:   Remote file contents confirmed.
+2013/07/01 09:15:28 - 54.245.14.121:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/07/01 09:15:56 - 54.245.14.121:   Starting mydafilesrv....       [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting mydali....            [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting mydfuserver....       [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting myeclagent....        [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting myeclccserver....     [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting myeclscheduler....    [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting myesp....             [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting mysasha....           [  OK  ]   
+2013/07/01 09:15:56 - 54.245.14.121:   Starting mythor....            [  OK  ]  
+2013/07/01 09:15:56 - 54.245.14.121:   Start node is complete.
+2013/07/01 09:15:56 - Done.
+2013/07/01 09:21:31 - Terminating cluster.
+2013/07/01 09:21:31 - Connecting to AWS region us-west-2.
+2013/07/01 09:21:31 - Gathering instances for Hpcc-TCV8.
+2013/07/01 09:21:32 - Terminating instances.
+2013/07/01 09:21:33 - Waiting for 1 instances to terminate.
+2013/07/01 09:21:38 - Waiting for 1 instances to terminate.
+2013/07/01 09:21:43 - Waiting for 1 instances to terminate.
+2013/07/01 09:21:48 - Waiting for 1 instances to terminate.
+2013/07/01 09:21:53 - Waiting for 1 instances to terminate.
+2013/07/01 09:21:59 - Waiting for 1 instances to terminate.
+2013/07/01 09:22:04 - Waiting for 1 instances to terminate.
+2013/07/01 09:22:09 - Waiting for 1 instances to terminate.
+2013/07/01 09:22:15 - Waiting for 1 instances to terminate.
+2013/07/01 09:22:20 - Deleting Access Key Hpcc-TCV8.
+2013/07/01 09:22:21 - Deleting Security group Hpcc-TCV8.
+2013/07/01 09:22:21 - Done.

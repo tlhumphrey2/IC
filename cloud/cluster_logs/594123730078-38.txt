@@ -1,0 +1,80 @@
+2012/01/27 17:41:47 - Connecting to AWS region us-east-1.
+2012/01/27 17:41:47 - Calculating new unique cluster name for request 38.
+2012/01/27 17:41:47 - Creating new cluster name, Thor-EHMG.
+2012/01/27 17:41:47 - Creating Thor-EHMG security group.
+2012/01/27 17:41:49 - Creating Thor-EHMG key pair.
+2012/01/27 17:41:50 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/01/27 17:41:50 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:41:55 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:00 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:06 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:11 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:16 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:21 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:26 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:31 - Waiting for 1 of 1 nodes to launch.
+2012/01/27 17:42:36 - Checking each node launched properly.
+2012/01/27 17:42:36 - 23.20.36.116:    Checking EC2 instance is running.
+2012/01/27 17:42:36 - 23.20.36.116:    Connecting via SSH.
+2012/01/27 17:42:37 - 23.20.36.116:    Waiting on SSH connection.
+2012/01/27 17:42:46 - 23.20.36.116:    Checking network mask is compatible.
+2012/01/27 17:42:46 - 23.20.36.116:    Checking software installation completed.
+2012/01/27 17:42:46 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:42:56 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:43:06 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:43:16 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:43:27 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:43:37 - 23.20.36.116:    Waiting for software to install.
+2012/01/27 17:43:47 - 23.20.36.116:    Software installation finished.
+2012/01/27 17:43:47 - 23.20.36.116:    Completed check of node 23.20.36.116.
+2012/01/27 17:43:47 - Determining availability zone.
+2012/01/27 17:43:47 - Gathering public and private ip addresses.
+2012/01/27 17:43:47 - Connecting to node 23.20.36.116 for cluster configuration.
+2012/01/27 17:43:47 - Connecting via SSH.
+2012/01/27 17:43:47 - Checking network mask is compatible.
+2012/01/27 17:43:47 - Checking software installation completed.
+2012/01/27 17:43:47 - Software installation finished.
+2012/01/27 17:43:47 - Writing cluster private ip addresses to file on instance.
+2012/01/27 17:43:47 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/27 17:43:47 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/27 17:43:48 - Checking file contents.
+2012/01/27 17:43:48 - Remote file contents confirmed.
+2012/01/27 17:43:48 - Running envgen
+2012/01/27 17:43:48 - Reading the config file.
+2012/01/27 17:43:48 - Retrieving IP address of ESP Server.
+2012/01/27 17:43:48 - ESP Server private IP address: 10.245.186.240.
+2012/01/27 17:43:48 - ESP Server public IP address: 23.20.36.116.
+2012/01/27 17:43:48 - 23.20.36.116:    Starting node configuration.
+2012/01/27 17:43:48 - 23.20.36.116:    Connecting via SSH.
+2012/01/27 17:43:49 - 23.20.36.116:    Checking network mask is compatible.
+2012/01/27 17:43:49 - 23.20.36.116:    Checking software installation completed.
+2012/01/27 17:43:49 - 23.20.36.116:    Software installation finished.
+2012/01/27 17:43:49 - 23.20.36.116:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/27 17:43:49 - 23.20.36.116:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/27 17:43:49 - 23.20.36.116:    Checking file contents.
+2012/01/27 17:43:49 - 23.20.36.116:    Remote file contents confirmed.
+2012/01/27 17:43:49 - 23.20.36.116:    Starting HPCC services.
+2012/01/27 17:43:49 - 23.20.36.116:    HPPC Systems Thor Community Edition: 3.4.0-1.
+2012/01/27 17:44:15 - 23.20.36.116:    Starting mydafilesrv....       [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting mydali....            [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting mydfuserver....       [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting myeclagent....        [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting myeclccserver....     [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting myeclscheduler....    [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting myesp....             [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting mysasha....           [  OK  ]   
+2012/01/27 17:44:15 - 23.20.36.116:    Starting mythor....            [  OK  ]  
+2012/01/27 17:44:15 - 23.20.36.116:    Start node is complete.
+2012/01/27 17:44:15 - Done.
+2012/01/30 10:47:28 - Terminating cluster.
+2012/01/30 10:47:28 - Connecting to AWS region us-east-1.
+2012/01/30 10:47:28 - Gathering instances for Thor-EHMG.
+2012/01/30 10:47:28 - Terminating instances.
+2012/01/30 10:47:29 - Waiting for 1 instances to terminate.
+2012/01/30 10:47:34 - Waiting for 1 instances to terminate.
+2012/01/30 10:47:39 - Waiting for 1 instances to terminate.
+2012/01/30 10:47:44 - Waiting for 1 instances to terminate.
+2012/01/30 10:47:49 - Waiting for 1 instances to terminate.
+2012/01/30 10:47:54 - Deleting Access Key Thor-EHMG.
+2012/01/30 10:47:54 - Deleting Security group Thor-EHMG.
+2012/01/30 10:47:54 - Done.

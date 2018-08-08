@@ -1,0 +1,85 @@
+2017/09/11 04:36:17 - Connecting to AWS region sa-east-1.
+2017/09/11 04:36:17 - Calculating new unique cluster name for request 1319.
+2017/09/11 04:36:18 - Creating new cluster name, Hpcc-74RS.
+2017/09/11 04:36:18 - Creating Hpcc-74RS security group.
+2017/09/11 04:36:21 - Creating Hpcc-74RS key pair.
+2017/09/11 04:36:21 - Launching 1 m1.large nodes using ami-0f334563.
+2017/09/11 04:36:23 - Reservation ID r-0fcc7be93b154acfc created.
+2017/09/11 04:36:23 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:28 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:33 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:38 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:43 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:49 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:54 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:36:59 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:04 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:09 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:14 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:20 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:25 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:30 - Waiting for 1 of 1 nodes to launch.
+2017/09/11 04:37:35 - Pending instances have completed.
+2017/09/11 04:37:35 - Checking each node launched properly.
+2017/09/11 04:37:35 - 18.231.45.100:   Checking EC2 instance i-00d83dcdb4095e428.
+2017/09/11 04:37:35 - 18.231.45.100:   Checking EC2 instance is running.
+2017/09/11 04:37:35 - 18.231.45.100:   Connecting via SSH.
+2017/09/11 04:37:50 - 18.231.45.100:   Waiting on SSH connection.
+2017/09/11 04:38:02 - 18.231.45.100:   Checking software installation completed.
+2017/09/11 04:38:03 - 18.231.45.100:   Software installation finished.
+2017/09/11 04:38:03 - 18.231.45.100:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/09/11 04:38:03 - 18.231.45.100:   Checking file contents.
+2017/09/11 04:38:04 - 18.231.45.100:   Remote file contents confirmed.
+2017/09/11 04:38:05 - 18.231.45.100:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/09/11 04:38:05 - 18.231.45.100:   Completed check of node 18.231.45.100.
+2017/09/11 04:38:05 - Determining availability zone.
+2017/09/11 04:38:05 - Gathering public and private ip addresses.
+2017/09/11 04:38:05 - Connecting to node 18.231.45.100 for cluster configuration.
+2017/09/11 04:38:05 - Connecting via SSH.
+2017/09/11 04:38:07 - Checking software installation completed.
+2017/09/11 04:38:07 - Software installation finished.
+2017/09/11 04:38:07 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/09/11 04:38:08 - Checking file contents.
+2017/09/11 04:38:08 - Remote file contents confirmed.
+2017/09/11 04:38:09 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/09/11 04:38:09 - Writing cluster private ip addresses to file on instance.
+2017/09/11 04:38:09 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/09/11 04:38:10 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/09/11 04:38:10 - Checking file contents.
+2017/09/11 04:38:11 - Remote file contents confirmed.
+2017/09/11 04:38:11 - Running envgen
+2017/09/11 04:38:11 - Reading the config file.
+2017/09/11 04:38:12 - Retrieving IP address of ESP Server.
+2017/09/11 04:38:12 - ESP Server private IP address: 172.31.30.218.
+2017/09/11 04:38:12 - ESP Server public IP address: 18.231.45.100.
+2017/09/11 04:38:13 - 18.231.45.100:   Starting node configuration.
+2017/09/11 04:38:13 - 18.231.45.100:   Connecting via SSH.
+2017/09/11 04:38:14 - 18.231.45.100:   Checking software installation completed.
+2017/09/11 04:38:15 - 18.231.45.100:   Software installation finished.
+2017/09/11 04:38:15 - 18.231.45.100:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/09/11 04:38:15 - 18.231.45.100:   Checking file contents.
+2017/09/11 04:38:16 - 18.231.45.100:   Remote file contents confirmed.
+2017/09/11 04:38:17 - 18.231.45.100:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/09/11 04:38:17 - 18.231.45.100:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/09/11 04:38:18 - 18.231.45.100:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/09/11 04:38:18 - 18.231.45.100:   Checking file contents.
+2017/09/11 04:38:19 - 18.231.45.100:   Remote file contents confirmed.
+2017/09/11 04:38:19 - 18.231.45.100:   Starting HPCC Platform Community Edition: 6.2.20-1.
+2017/09/11 04:38:35 - 18.231.45.100:   Starting mydafilesrv ...       [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting mydali ...            [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting mydfuserver ...       [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting myeclagent ...        [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting myeclccserver ...     [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting myeclscheduler ...    [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting myesp ...             [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting mysasha ...           [   OK    ]   
+2017/09/11 04:38:35 - 18.231.45.100:   Starting mythor ...            [   OK    ]  
+2017/09/11 04:38:35 - 18.231.45.100:   Start node is complete.
+2017/09/11 04:38:35 - Done.
+2017/09/19 09:52:28 - Terminating cluster.
+2017/09/19 09:52:28 - Connecting to AWS region sa-east-1.
+2017/09/19 09:52:28 - Gathering instances for Hpcc-74RS.
+2017/09/19 09:52:29 - Terminating instances.
+2017/09/19 09:52:29 - Deleting Access Key Hpcc-74RS.
+2017/09/19 09:52:29 - Deleting Security group Hpcc-74RS.
+2017/09/19 09:52:30 - Done.

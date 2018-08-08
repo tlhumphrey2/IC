@@ -1,0 +1,82 @@
+2012/02/01 09:50:48 - Connecting to AWS region us-east-1.
+2012/02/01 09:50:48 - Calculating new unique cluster name for request 72.
+2012/02/01 09:50:49 - Creating new cluster name, Thor-TGVP.
+2012/02/01 09:50:49 - Creating Thor-TGVP security group.
+2012/02/01 09:50:50 - Creating Thor-TGVP key pair.
+2012/02/01 09:50:51 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/02/01 09:50:52 - Reservation ID r-c05296a0 created
+2012/02/01 09:50:52 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:50:57 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:02 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:07 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:12 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:17 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:22 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:28 - Waiting for 1 of 1 nodes to launch.
+2012/02/01 09:51:33 - Pending instances have completed.
+2012/02/01 09:51:33 - Checking each node launched properly.
+2012/02/01 09:51:33 - 107.22.113.127:  Checking EC2 instance i-19e6447c.
+2012/02/01 09:51:33 - 107.22.113.127:  Checking EC2 instance is running.
+2012/02/01 09:51:33 - 107.22.113.127:  Connecting via SSH.
+2012/02/01 09:51:37 - 107.22.113.127:  Waiting on SSH connection.
+2012/02/01 09:51:45 - 107.22.113.127:  Checking disk I/O
+2012/02/01 09:51:45 - 107.22.113.127:  Checking software installation completed.
+2012/02/01 09:51:45 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:51:55 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:52:05 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:52:15 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:52:25 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:52:35 - 107.22.113.127:  Waiting for software to install.
+2012/02/01 09:52:45 - 107.22.113.127:  Software installation finished.
+2012/02/01 09:52:45 - 107.22.113.127:  Completed check of node 107.22.113.127.
+2012/02/01 09:52:45 - Determining availability zone.
+2012/02/01 09:52:45 - Gathering public and private ip addresses.
+2012/02/01 09:52:45 - Connecting to node 107.22.113.127 for cluster configuration.
+2012/02/01 09:52:45 - Connecting via SSH.
+2012/02/01 09:52:46 - Checking disk I/O
+2012/02/01 09:52:46 - Checking software installation completed.
+2012/02/01 09:52:46 - Software installation finished.
+2012/02/01 09:52:46 - Writing cluster private ip addresses to file on instance.
+2012/02/01 09:52:46 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/01 09:52:46 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/01 09:52:46 - Checking file contents.
+2012/02/01 09:52:46 - Remote file contents confirmed.
+2012/02/01 09:52:46 - Running envgen
+2012/02/01 09:52:47 - Reading the config file.
+2012/02/01 09:52:47 - Retrieving IP address of ESP Server.
+2012/02/01 09:52:47 - ESP Server private IP address: 10.33.6.131.
+2012/02/01 09:52:47 - ESP Server public IP address: 107.22.113.127.
+2012/02/01 09:52:47 - 107.22.113.127:  Starting node configuration.
+2012/02/01 09:52:47 - 107.22.113.127:  Connecting via SSH.
+2012/02/01 09:52:47 - 107.22.113.127:  Checking disk I/O
+2012/02/01 09:52:47 - 107.22.113.127:  Checking software installation completed.
+2012/02/01 09:52:47 - 107.22.113.127:  Software installation finished.
+2012/02/01 09:52:47 - 107.22.113.127:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 09:52:48 - 107.22.113.127:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 09:52:48 - 107.22.113.127:  Checking file contents.
+2012/02/01 09:52:48 - 107.22.113.127:  Remote file contents confirmed.
+2012/02/01 09:52:48 - 107.22.113.127:  Starting HPCC services.
+2012/02/01 09:52:48 - 107.22.113.127:  HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 09:53:14 - 107.22.113.127:  Starting mydafilesrv....       [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting mydali....            [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting mydfuserver....       [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting myeclagent....        [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting myeclccserver....     [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting myeclscheduler....    [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting myesp....             [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting mysasha....           [  OK  ]   
+2012/02/01 09:53:14 - 107.22.113.127:  Starting mythor....            [  OK  ]  
+2012/02/01 09:53:14 - 107.22.113.127:  Start node is complete.
+2012/02/01 09:53:14 - Done.
+2012/02/01 09:53:50 - Terminating cluster.
+2012/02/01 09:53:50 - Connecting to AWS region us-east-1.
+2012/02/01 09:53:50 - Gathering instances for Thor-TGVP.
+2012/02/01 09:53:51 - Terminating instances.
+2012/02/01 09:53:51 - Waiting for 1 instances to terminate.
+2012/02/01 09:53:56 - Waiting for 1 instances to terminate.
+2012/02/01 09:54:01 - Waiting for 1 instances to terminate.
+2012/02/01 09:54:06 - Waiting for 1 instances to terminate.
+2012/02/01 09:54:11 - Waiting for 1 instances to terminate.
+2012/02/01 09:54:16 - Deleting Access Key Thor-TGVP.
+2012/02/01 09:54:16 - Deleting Security group Thor-TGVP.
+2012/02/01 09:54:17 - Done.

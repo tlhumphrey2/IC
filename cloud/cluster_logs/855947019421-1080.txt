@@ -1,0 +1,84 @@
+2015/04/29 22:24:23 - Connecting to AWS region us-west-2.
+2015/04/29 22:24:23 - Calculating new unique cluster name for request 1080.
+2015/04/29 22:24:24 - Creating new cluster name, Hpcc-5GSD.
+2015/04/29 22:24:24 - Creating Hpcc-5GSD security group.
+2015/04/29 22:24:26 - Creating Hpcc-5GSD key pair.
+2015/04/29 22:24:26 - Launching 1 m1.large nodes using ami-610d2351.
+2015/04/29 22:24:27 - Reservation ID r-9f84d895 created.
+2015/04/29 22:24:27 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:32 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:37 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:42 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:47 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:52 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:24:57 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:03 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:08 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:13 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:18 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:23 - Waiting for 1 of 1 nodes to launch.
+2015/04/29 22:25:28 - Pending instances have completed.
+2015/04/29 22:25:28 - Checking each node launched properly.
+2015/04/29 22:25:28 - 52.24.17.211:    Checking EC2 instance i-925b8d65.
+2015/04/29 22:25:29 - 52.24.17.211:    Checking EC2 instance is running.
+2015/04/29 22:25:29 - 52.24.17.211:    Connecting via SSH.
+2015/04/29 22:26:32 - 52.24.17.211:    Waiting on SSH connection.
+2015/04/29 22:27:40 - 52.24.17.211:    Waiting on SSH connection.
+2015/04/29 22:27:54 - 52.24.17.211:    Checking software installation completed.
+2015/04/29 22:27:54 - 52.24.17.211:    Software installation finished.
+2015/04/29 22:27:54 - 52.24.17.211:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/29 22:27:55 - 52.24.17.211:    Checking file contents.
+2015/04/29 22:27:55 - 52.24.17.211:    Remote file contents confirmed.
+2015/04/29 22:27:56 - 52.24.17.211:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/29 22:27:56 - 52.24.17.211:    Completed check of node 52.24.17.211.
+2015/04/29 22:27:56 - Determining availability zone.
+2015/04/29 22:27:56 - Gathering public and private ip addresses.
+2015/04/29 22:27:56 - Connecting to node 52.24.17.211 for cluster configuration.
+2015/04/29 22:27:56 - Connecting via SSH.
+2015/04/29 22:27:57 - Checking software installation completed.
+2015/04/29 22:27:58 - Software installation finished.
+2015/04/29 22:27:58 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/29 22:27:58 - Checking file contents.
+2015/04/29 22:27:58 - Remote file contents confirmed.
+2015/04/29 22:27:59 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/29 22:27:59 - Writing cluster private ip addresses to file on instance.
+2015/04/29 22:27:59 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/29 22:27:59 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/29 22:28:00 - Checking file contents.
+2015/04/29 22:28:00 - Remote file contents confirmed.
+2015/04/29 22:28:00 - Running envgen
+2015/04/29 22:28:01 - Reading the config file.
+2015/04/29 22:28:02 - Retrieving IP address of ESP Server.
+2015/04/29 22:28:02 - ESP Server private IP address: 172.31.40.95.
+2015/04/29 22:28:02 - ESP Server public IP address: 52.24.17.211.
+2015/04/29 22:28:02 - 52.24.17.211:    Starting node configuration.
+2015/04/29 22:28:02 - 52.24.17.211:    Connecting via SSH.
+2015/04/29 22:28:04 - 52.24.17.211:    Checking software installation completed.
+2015/04/29 22:28:04 - 52.24.17.211:    Software installation finished.
+2015/04/29 22:28:04 - 52.24.17.211:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/29 22:28:04 - 52.24.17.211:    Checking file contents.
+2015/04/29 22:28:05 - 52.24.17.211:    Remote file contents confirmed.
+2015/04/29 22:28:05 - 52.24.17.211:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/29 22:28:05 - 52.24.17.211:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/29 22:28:06 - 52.24.17.211:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/29 22:28:06 - 52.24.17.211:    Checking file contents.
+2015/04/29 22:28:07 - 52.24.17.211:    Remote file contents confirmed.
+2015/04/29 22:28:07 - 52.24.17.211:    Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/04/29 22:28:31 - 52.24.17.211:    Starting mydafilesrv....       [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting mydali....            [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting mydfuserver....       [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting myeclagent....        [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting myeclccserver....     [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting myeclscheduler....    [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting myesp....             [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting mysasha....           [  OK  ]   
+2015/04/29 22:28:31 - 52.24.17.211:    Starting mythor....            [  OK  ]  
+2015/04/29 22:28:31 - 52.24.17.211:    Start node is complete.
+2015/04/29 22:28:31 - Done.
+2015/04/29 23:25:32 - Terminating cluster.
+2015/04/29 23:25:32 - Connecting to AWS region us-west-2.
+2015/04/29 23:25:32 - Gathering instances for Hpcc-5GSD.
+2015/04/29 23:25:32 - Terminating instances.
+2015/04/29 23:25:32 - Deleting Access Key Hpcc-5GSD.
+2015/04/29 23:25:32 - Deleting Security group Hpcc-5GSD.
+2015/04/29 23:25:33 - Done.

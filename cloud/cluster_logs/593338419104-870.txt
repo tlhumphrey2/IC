@@ -1,0 +1,107 @@
+2014/07/23 19:53:00 - Connecting to AWS region us-west-2.
+2014/07/23 19:53:01 - Checking storage IDs exist in region us-west-2: snap-9087d064
+2014/07/23 19:53:01 - Calculating new unique cluster name for request 870.
+2014/07/23 19:53:01 - Creating new cluster name, Hpcc-2E7U.
+2014/07/23 19:53:01 - Creating Hpcc-2E7U security group.
+2014/07/23 19:53:04 - Creating Hpcc-2E7U key pair.
+2014/07/23 19:53:05 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/07/23 19:53:05 - Reservation ID r-157adb1e created.
+2014/07/23 19:53:05 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:10 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:16 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:21 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:26 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:31 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:36 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:41 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:46 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:52 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:53:57 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:54:02 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:54:07 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:54:12 - Waiting for 1 of 1 nodes to launch.
+2014/07/23 19:54:17 - Pending instances have completed.
+2014/07/23 19:54:17 - Checking each node launched properly.
+2014/07/23 19:54:17 - 54.212.119.8:    Checking EC2 instance i-78f69773.
+2014/07/23 19:54:17 - 54.212.119.8:    Checking EC2 instance is running.
+2014/07/23 19:54:17 - 54.212.119.8:    Connecting via SSH.
+2014/07/23 19:54:20 - 54.212.119.8:    Waiting on SSH connection.
+2014/07/23 19:54:32 - 54.212.119.8:    Checking software installation completed.
+2014/07/23 19:54:33 - 54.212.119.8:    Software installation finished.
+2014/07/23 19:54:33 - 54.212.119.8:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/23 19:54:33 - 54.212.119.8:    Checking file contents.
+2014/07/23 19:54:33 - 54.212.119.8:    Remote file contents confirmed.
+2014/07/23 19:54:34 - 54.212.119.8:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/23 19:54:34 - 54.212.119.8:    Completed check of node 54.212.119.8.
+2014/07/23 19:54:34 - Determining availability zone.
+2014/07/23 19:54:34 - Gathering public and private ip addresses.
+2014/07/23 19:54:34 - Connecting to node 54.212.119.8 for cluster configuration.
+2014/07/23 19:54:34 - Connecting via SSH.
+2014/07/23 19:54:35 - Checking software installation completed.
+2014/07/23 19:54:35 - Software installation finished.
+2014/07/23 19:54:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/23 19:54:36 - Checking file contents.
+2014/07/23 19:54:36 - Remote file contents confirmed.
+2014/07/23 19:54:36 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/23 19:54:36 - Writing cluster private ip addresses to file on instance.
+2014/07/23 19:54:36 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/07/23 19:54:37 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/07/23 19:54:37 - Checking file contents.
+2014/07/23 19:54:37 - Remote file contents confirmed.
+2014/07/23 19:54:37 - Running envgen
+2014/07/23 19:54:38 - Reading the config file.
+2014/07/23 19:54:39 - Retrieving IP address of ESP Server.
+2014/07/23 19:54:39 - ESP Server private IP address: 10.234.15.178.
+2014/07/23 19:54:39 - ESP Server public IP address: 54.212.119.8.
+2014/07/23 19:54:39 - Attaching storage devices to the Landing Zone: snap-9087d064
+2014/07/23 19:54:40 - Waiting for volumes to become available.
+2014/07/23 19:54:45 - Connecting via SSH.
+2014/07/23 19:54:47 - Waiting for EC2 instance to see storage device.
+2014/07/23 19:54:53 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-9087d064/.
+2014/07/23 19:54:53 - 54.212.119.8:    Starting node configuration.
+2014/07/23 19:54:53 - 54.212.119.8:    Connecting via SSH.
+2014/07/23 19:54:54 - 54.212.119.8:    Checking software installation completed.
+2014/07/23 19:54:55 - 54.212.119.8:    Software installation finished.
+2014/07/23 19:54:55 - 54.212.119.8:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/23 19:54:55 - 54.212.119.8:    Checking file contents.
+2014/07/23 19:54:55 - 54.212.119.8:    Remote file contents confirmed.
+2014/07/23 19:54:56 - 54.212.119.8:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/23 19:54:56 - 54.212.119.8:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/07/23 19:54:56 - 54.212.119.8:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/07/23 19:54:57 - 54.212.119.8:    Checking file contents.
+2014/07/23 19:54:57 - 54.212.119.8:    Remote file contents confirmed.
+2014/07/23 19:54:57 - 54.212.119.8:    Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/07/23 19:55:24 - 54.212.119.8:    Starting mydafilesrv....       [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting mydali....            [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting mydfuserver....       [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting myeclagent....        [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting myeclccserver....     [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting myeclscheduler....    [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting myesp....             [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting mysasha....           [  OK  ]   
+2014/07/23 19:55:24 - 54.212.119.8:    Starting mythor....            [  OK  ]  
+2014/07/23 19:55:24 - 54.212.119.8:    Start node is complete.
+2014/07/23 19:55:24 - Done.
+2014/07/23 21:01:45 - Terminating cluster.
+2014/07/23 21:01:45 - Connecting to AWS region us-west-2.
+2014/07/23 21:01:45 - Gathering instances for Hpcc-2E7U.
+2014/07/23 21:01:45 - Terminating instances.
+2014/07/23 21:01:46 - Waiting for 1 instances to terminate.
+2014/07/23 21:01:51 - Waiting for 1 instances to terminate.
+2014/07/23 21:01:57 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:02 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:07 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:12 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:17 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:22 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:27 - Waiting for 1 instances to terminate.
+2014/07/23 21:02:33 - Deleting attached EBS volumes.
+2014/07/23 21:02:33 - Deleting volume vol-6137bb60
+2014/07/23 21:02:33 - Volume vol-6137bb60 failed to delete.
+2014/07/23 21:02:33 - An exception occured.
+                      Amazon Error: VolumeInUse
+                      Volume vol-6137bb60 is currently attached to i-78f69773
+                      requestId: 516f5d93-d265-44c4-8e55-6aeb5f6cf5e4
+2014/07/23 21:02:33 - Deleting Access Key Hpcc-2E7U.
+2014/07/23 21:02:33 - Deleting Security group Hpcc-2E7U.
+2014/07/23 21:02:33 - Done.

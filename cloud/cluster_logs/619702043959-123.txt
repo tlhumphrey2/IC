@@ -1,0 +1,162 @@
+2012/02/11 11:52:55 - Connecting to AWS region us-west-2.
+2012/02/11 11:52:55 - Calculating new unique cluster name for request 123.
+2012/02/11 11:52:55 - Creating new cluster name, Thor-EXH2.
+2012/02/11 11:52:55 - Creating Thor-EXH2 security group.
+2012/02/11 11:52:59 - Creating Thor-EXH2 key pair.
+2012/02/11 11:53:01 - Launching 1 m1.large nodes using ami-1c78f52c.
+2012/02/11 11:53:02 - Reservation ID r-20abee10 created.
+2012/02/11 11:53:02 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:07 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:13 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:18 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:23 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:28 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:34 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:39 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:44 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:49 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:53:55 - Pending instances have completed.
+2012/02/11 11:53:55 - Checking each node launched properly.
+2012/02/11 11:53:55 - 50.112.34.120:   Checking EC2 instance i-0c26643c.
+2012/02/11 11:53:55 - 50.112.34.120:   Checking EC2 instance is running.
+2012/02/11 11:53:55 - 50.112.34.120:   Connecting via SSH.
+2012/02/11 11:54:01 - 50.112.34.120:   Checking software installation completed.
+2012/02/11 11:54:02 - 50.112.34.120:   Software installation finished.
+2012/02/11 11:54:02 - 50.112.34.120:   Sending ~/node_health_script via SFTP.
+2012/02/11 11:54:02 - 50.112.34.120:   Copying ~/node_health_script to desitnation.
+2012/02/11 11:54:03 - 50.112.34.120:   Checking file contents.
+2012/02/11 11:54:03 - 50.112.34.120:   Remote file contents confirmed.
+2012/02/11 11:54:04 - 50.112.34.120:   Error: Node failed health check.
+                                       /dev/sda1 mounted on / has 189204 kB free (Minimum 1048576)
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7470604 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/sda1 mounted on / verified read/write
+                                       /dev/sdb mounted on /mnt has 411234588 kB free
+                                       /dev/sdb mounted on /mnt verified read/write
+2012/02/11 11:54:04 - 50.112.34.120:   Error - Node 50.112.34.120 failed check.
+2012/02/11 11:54:04 - 50.112.34.120:   Completed check of node 50.112.34.120.
+2012/02/11 11:54:04 - Terminating 1 bad instances.
+2012/02/11 11:54:04 - Terminating instances.
+2012/02/11 11:54:04 - Waiting for 1 instances to terminate.
+2012/02/11 11:54:10 - Waiting for 1 instances to terminate.
+2012/02/11 11:54:15 - Reservation ID r-00abee30 created.
+2012/02/11 11:54:15 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:21 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:26 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:31 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:37 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:42 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:47 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:52 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:54:58 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:03 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:08 - Pending instances have completed.
+2012/02/11 11:55:08 - Checking each node launched properly.
+2012/02/11 11:55:08 - 50.112.2.203:    Checking EC2 instance i-6e26645e.
+2012/02/11 11:55:08 - 50.112.2.203:    Checking EC2 instance is running.
+2012/02/11 11:55:08 - 50.112.2.203:    Connecting via SSH.
+2012/02/11 11:55:15 - 50.112.2.203:    Checking software installation completed.
+2012/02/11 11:55:15 - 50.112.2.203:    Software installation finished.
+2012/02/11 11:55:15 - 50.112.2.203:    Sending ~/node_health_script via SFTP.
+2012/02/11 11:55:16 - 50.112.2.203:    Copying ~/node_health_script to desitnation.
+2012/02/11 11:55:16 - 50.112.2.203:    Checking file contents.
+2012/02/11 11:55:16 - 50.112.2.203:    Remote file contents confirmed.
+2012/02/11 11:55:17 - 50.112.2.203:    Error: Node failed health check.
+                                       /dev/sda1 mounted on / has 189200 kB free (Minimum 1048576)
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7470124 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/sda1 mounted on / verified read/write
+                                       /dev/sdb mounted on /mnt has 411234588 kB free
+                                       /dev/sdb mounted on /mnt verified read/write
+2012/02/11 11:55:17 - 50.112.2.203:    Error - Node 50.112.2.203 failed check.
+2012/02/11 11:55:17 - 50.112.2.203:    Completed check of node 50.112.2.203.
+2012/02/11 11:55:17 - Terminating 1 bad instances.
+2012/02/11 11:55:17 - Terminating instances.
+2012/02/11 11:55:18 - Waiting for 1 instances to terminate.
+2012/02/11 11:55:23 - Waiting for 1 instances to terminate.
+2012/02/11 11:55:29 - Reservation ID r-7aabee4a created.
+2012/02/11 11:55:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:34 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:40 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:45 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:50 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:55:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:56:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:56:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:56:11 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:56:17 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:56:22 - Pending instances have completed.
+2012/02/11 11:56:22 - Checking each node launched properly.
+2012/02/11 11:56:22 - 50.112.18.157:   Checking EC2 instance i-4a26647a.
+2012/02/11 11:56:22 - 50.112.18.157:   Checking EC2 instance is running.
+2012/02/11 11:56:22 - 50.112.18.157:   Connecting via SSH.
+2012/02/11 11:56:23 - 50.112.18.157:   Waiting on SSH connection.
+2012/02/11 11:56:28 - 50.112.18.157:   Waiting on SSH connection.
+2012/02/11 11:56:43 - 50.112.18.157:   Checking software installation completed.
+2012/02/11 11:56:44 - 50.112.18.157:   Software installation finished.
+2012/02/11 11:56:44 - 50.112.18.157:   Sending ~/node_health_script via SFTP.
+2012/02/11 11:56:45 - 50.112.18.157:   Copying ~/node_health_script to desitnation.
+2012/02/11 11:56:45 - 50.112.18.157:   Checking file contents.
+2012/02/11 11:56:45 - 50.112.18.157:   Remote file contents confirmed.
+2012/02/11 11:56:46 - 50.112.18.157:   Error: Node failed health check.
+                                       /dev/sda1 mounted on / has 189200 kB free (Minimum 1048576)
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7472788 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/sda1 mounted on / verified read/write
+                                       /dev/sdb mounted on /mnt has 411234588 kB free
+                                       /dev/sdb mounted on /mnt verified read/write
+2012/02/11 11:56:46 - 50.112.18.157:   Error - Node 50.112.18.157 failed check.
+2012/02/11 11:56:46 - 50.112.18.157:   Completed check of node 50.112.18.157.
+2012/02/11 11:56:46 - Terminating 1 bad instances.
+2012/02/11 11:56:46 - Terminating instances.
+2012/02/11 11:56:47 - Waiting for 1 instances to terminate.
+2012/02/11 11:56:52 - Waiting for 1 instances to terminate.
+2012/02/11 11:56:58 - Reservation ID r-58abee68 created.
+2012/02/11 11:56:58 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:03 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:08 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:19 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:24 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:35 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:40 - Waiting for 1 of 1 nodes to launch.
+2012/02/11 11:57:45 - Pending instances have completed.
+2012/02/11 11:57:45 - Checking each node launched properly.
+2012/02/11 11:57:45 - 50.112.36.34:    Checking EC2 instance i-a8266498.
+2012/02/11 11:57:45 - 50.112.36.34:    Checking EC2 instance is running.
+2012/02/11 11:57:45 - 50.112.36.34:    Connecting via SSH.
+2012/02/11 11:57:46 - 50.112.36.34:    Waiting on SSH connection.
+2012/02/11 11:57:55 - 50.112.36.34:    Checking software installation completed.
+2012/02/11 11:57:55 - 50.112.36.34:    Software installation finished.
+2012/02/11 11:57:55 - 50.112.36.34:    Sending ~/node_health_script via SFTP.
+2012/02/11 11:57:56 - 50.112.36.34:    Copying ~/node_health_script to desitnation.
+2012/02/11 11:57:56 - 50.112.36.34:    Checking file contents.
+2012/02/11 11:57:59 - 50.112.36.34:    Remote file contents confirmed.
+2012/02/11 11:58:00 - 50.112.36.34:    Error: Node failed health check.
+                                       /dev/sda1 mounted on / has 189200 kB free (Minimum 1048576)
+                                       Total of 1 anomalies detected.
+                                       
+                                       Free memory: 7471104 kB
+                                        0: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                        1: 0 -  Intel(R) Xeon(R) CPU           E5507  @ 2.27GHz
+                                       /dev/sda1 mounted on / verified read/write
+                                       /dev/sdb mounted on /mnt has 411234588 kB free
+                                       /dev/sdb mounted on /mnt verified read/write
+2012/02/11 11:58:00 - 50.112.36.34:    Error - Node 50.112.36.34 failed check.
+2012/02/11 11:58:00 - 50.112.36.34:    Completed check of node 50.112.36.34.
+2012/02/11 11:58:00 - Terminating 1 bad instances.
+2012/02/11 11:58:00 - Terminating instances.
+2012/02/11 11:58:00 - Waiting for 1 instances to terminate.
+2012/02/11 11:58:05 - Waiting for 1 instances to terminate.
+2012/02/11 11:58:11 - An exception occured.
+                      ClusterError: Failed to launch the nodes requested.

@@ -1,0 +1,94 @@
+2013/07/26 02:59:57 - Connecting to AWS region us-west-2.
+2013/07/26 02:59:57 - Calculating new unique cluster name for request 650.
+2013/07/26 02:59:58 - Creating new cluster name, Hpcc-V3T2.
+2013/07/26 02:59:58 - Creating Hpcc-V3T2 security group.
+2013/07/26 03:00:04 - Creating Hpcc-V3T2 key pair.
+2013/07/26 03:00:06 - Launching 1 m1.large nodes using ami-4dc7577d.
+2013/07/26 03:00:07 - Reservation ID r-ee3da7d9 created.
+2013/07/26 03:00:07 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:13 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:18 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:23 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:28 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:33 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:39 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:44 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:49 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:54 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:00:59 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:01:05 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:01:10 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:01:15 - Waiting for 1 of 1 nodes to launch.
+2013/07/26 03:01:20 - Pending instances have completed.
+2013/07/26 03:01:20 - Checking each node launched properly.
+2013/07/26 03:01:20 - 54.245.198.17:   Checking EC2 instance i-1e395929.
+2013/07/26 03:01:21 - 54.245.198.17:   Checking EC2 instance is running.
+2013/07/26 03:01:21 - 54.245.198.17:   Connecting via SSH.
+2013/07/26 03:01:21 - 54.245.198.17:   Waiting on SSH connection.
+2013/07/26 03:01:32 - 54.245.198.17:   Checking software installation completed.
+2013/07/26 03:01:32 - 54.245.198.17:   Software installation finished.
+2013/07/26 03:01:32 - 54.245.198.17:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/26 03:01:33 - 54.245.198.17:   Checking file contents.
+2013/07/26 03:01:33 - 54.245.198.17:   Remote file contents confirmed.
+2013/07/26 03:01:34 - 54.245.198.17:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/26 03:01:34 - 54.245.198.17:   Completed check of node 54.245.198.17.
+2013/07/26 03:01:34 - Determining availability zone.
+2013/07/26 03:01:34 - Gathering public and private ip addresses.
+2013/07/26 03:01:34 - Connecting to node 54.245.198.17 for cluster configuration.
+2013/07/26 03:01:34 - Connecting via SSH.
+2013/07/26 03:01:35 - Checking software installation completed.
+2013/07/26 03:01:35 - Software installation finished.
+2013/07/26 03:01:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/26 03:01:36 - Checking file contents.
+2013/07/26 03:01:36 - Remote file contents confirmed.
+2013/07/26 03:01:37 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/26 03:01:37 - Writing cluster private ip addresses to file on instance.
+2013/07/26 03:01:37 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/07/26 03:01:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/07/26 03:01:38 - Checking file contents.
+2013/07/26 03:01:38 - Remote file contents confirmed.
+2013/07/26 03:01:38 - Running envgen
+2013/07/26 03:01:40 - Reading the config file.
+2013/07/26 03:01:40 - Retrieving IP address of ESP Server.
+2013/07/26 03:01:40 - ESP Server private IP address: 10.250.25.102.
+2013/07/26 03:01:40 - ESP Server public IP address: 54.245.198.17.
+2013/07/26 03:01:40 - 54.245.198.17:   Starting node configuration.
+2013/07/26 03:01:40 - 54.245.198.17:   Connecting via SSH.
+2013/07/26 03:01:42 - 54.245.198.17:   Checking software installation completed.
+2013/07/26 03:01:42 - 54.245.198.17:   Software installation finished.
+2013/07/26 03:01:42 - 54.245.198.17:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/07/26 03:01:43 - 54.245.198.17:   Checking file contents.
+2013/07/26 03:01:43 - 54.245.198.17:   Remote file contents confirmed.
+2013/07/26 03:01:44 - 54.245.198.17:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/07/26 03:01:44 - 54.245.198.17:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/07/26 03:01:45 - 54.245.198.17:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/07/26 03:01:45 - 54.245.198.17:   Checking file contents.
+2013/07/26 03:01:45 - 54.245.198.17:   Remote file contents confirmed.
+2013/07/26 03:01:45 - 54.245.198.17:   Starting HPCC Platform Community Edition: 3.10.8-9.
+2013/07/26 03:02:13 - 54.245.198.17:   Starting mydafilesrv....       [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting mydali....            [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting mydfuserver....       [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting myeclagent....        [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting myeclccserver....     [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting myeclscheduler....    [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting myesp....             [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting mysasha....           [  OK  ]   
+2013/07/26 03:02:13 - 54.245.198.17:   Starting mythor....            [  OK  ]  
+2013/07/26 03:02:13 - 54.245.198.17:   Start node is complete.
+2013/07/26 03:02:13 - Done.
+2013/07/26 12:28:08 - Terminating cluster.
+2013/07/26 12:28:08 - Connecting to AWS region us-west-2.
+2013/07/26 12:28:08 - Gathering instances for Hpcc-V3T2.
+2013/07/26 12:28:09 - Terminating instances.
+2013/07/26 12:28:10 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:15 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:20 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:25 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:31 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:36 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:41 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:46 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:52 - Waiting for 1 instances to terminate.
+2013/07/26 12:28:57 - Deleting Access Key Hpcc-V3T2.
+2013/07/26 12:28:58 - Deleting Security group Hpcc-V3T2.
+2013/07/26 12:28:58 - Done.

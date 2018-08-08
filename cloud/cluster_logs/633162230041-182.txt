@@ -1,0 +1,86 @@
+2012/03/13 08:08:21 - Connecting to AWS region us-west-2.
+2012/03/13 08:08:21 - Calculating new unique cluster name for request 182.
+2012/03/13 08:08:22 - Creating new cluster name, Thor-HG3Y.
+2012/03/13 08:08:22 - Creating Thor-HG3Y security group.
+2012/03/13 08:08:26 - Creating Thor-HG3Y key pair.
+2012/03/13 08:08:27 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/13 08:08:28 - Reservation ID r-942f7fa4 created.
+2012/03/13 08:08:28 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:33 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:38 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:44 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:49 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:54 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:08:59 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:09:05 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:09:10 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:09:15 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:09:20 - Waiting for 1 of 1 nodes to launch.
+2012/03/13 08:09:26 - Pending instances have completed.
+2012/03/13 08:09:26 - Checking each node launched properly.
+2012/03/13 08:09:26 - 50.112.55.59:    Checking EC2 instance i-0ec9913e.
+2012/03/13 08:09:26 - 50.112.55.59:    Checking EC2 instance is running.
+2012/03/13 08:09:26 - 50.112.55.59:    Connecting via SSH.
+2012/03/13 08:09:29 - 50.112.55.59:    Waiting on SSH connection.
+2012/03/13 08:09:35 - 50.112.55.59:    Checking software installation completed.
+2012/03/13 08:09:35 - 50.112.55.59:    Software installation finished.
+2012/03/13 08:09:35 - 50.112.55.59:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 08:09:36 - 50.112.55.59:    Checking file contents.
+2012/03/13 08:09:36 - 50.112.55.59:    Remote file contents confirmed.
+2012/03/13 08:09:37 - 50.112.55.59:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 08:09:37 - 50.112.55.59:    Completed check of node 50.112.55.59.
+2012/03/13 08:09:37 - Determining availability zone.
+2012/03/13 08:09:37 - Gathering public and private ip addresses.
+2012/03/13 08:09:37 - Connecting to node 50.112.55.59 for cluster configuration.
+2012/03/13 08:09:37 - Connecting via SSH.
+2012/03/13 08:09:39 - Checking software installation completed.
+2012/03/13 08:09:39 - Software installation finished.
+2012/03/13 08:09:39 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 08:09:40 - Checking file contents.
+2012/03/13 08:09:40 - Remote file contents confirmed.
+2012/03/13 08:09:41 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 08:09:41 - Writing cluster private ip addresses to file on instance.
+2012/03/13 08:09:41 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/13 08:09:41 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/13 08:09:42 - Checking file contents.
+2012/03/13 08:09:42 - Remote file contents confirmed.
+2012/03/13 08:09:42 - Running envgen
+2012/03/13 08:09:43 - Reading the config file.
+2012/03/13 08:09:43 - Retrieving IP address of ESP Server.
+2012/03/13 08:09:44 - ESP Server private IP address: 10.252.33.80.
+2012/03/13 08:09:44 - ESP Server public IP address: 50.112.55.59.
+2012/03/13 08:09:44 - 50.112.55.59:    Starting node configuration.
+2012/03/13 08:09:44 - 50.112.55.59:    Connecting via SSH.
+2012/03/13 08:09:45 - 50.112.55.59:    Checking software installation completed.
+2012/03/13 08:09:45 - 50.112.55.59:    Software installation finished.
+2012/03/13 08:09:45 - 50.112.55.59:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/13 08:09:46 - 50.112.55.59:    Checking file contents.
+2012/03/13 08:09:46 - 50.112.55.59:    Remote file contents confirmed.
+2012/03/13 08:09:47 - 50.112.55.59:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/13 08:09:47 - 50.112.55.59:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/13 08:09:48 - 50.112.55.59:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/13 08:09:48 - 50.112.55.59:    Checking file contents.
+2012/03/13 08:09:49 - 50.112.55.59:    Remote file contents confirmed.
+2012/03/13 08:09:49 - 50.112.55.59:    Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/13 08:10:15 - 50.112.55.59:    Starting mydafilesrv....       [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting mydali....            [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting mydfuserver....       [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting myeclagent....        [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting myeclccserver....     [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting myeclscheduler....    [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting myesp....             [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting mysasha....           [  OK  ]   
+2012/03/13 08:10:15 - 50.112.55.59:    Starting mythor....            [  OK  ]  
+2012/03/13 08:10:16 - 50.112.55.59:    Start node is complete.
+2012/03/13 08:10:16 - Done.
+2012/03/13 09:23:31 - Terminating cluster.
+2012/03/13 09:23:31 - Connecting to AWS region us-west-2.
+2012/03/13 09:23:31 - Gathering instances for Thor-HG3Y.
+2012/03/13 09:23:32 - Terminating instances.
+2012/03/13 09:23:32 - Waiting for 1 instances to terminate.
+2012/03/13 09:23:38 - Waiting for 1 instances to terminate.
+2012/03/13 09:23:43 - Waiting for 1 instances to terminate.
+2012/03/13 09:23:48 - Waiting for 1 instances to terminate.
+2012/03/13 09:23:53 - Deleting Access Key Thor-HG3Y.
+2012/03/13 09:23:54 - Deleting Security group Thor-HG3Y.
+2012/03/13 09:23:55 - Done.

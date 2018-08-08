@@ -1,0 +1,78 @@
+2018/08/07 16:09:07 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:09:07 - Calculating new unique cluster name for request 1490.
+2018/08/07 16:09:08 - TLH. Creating new cluster name, Hpcc-TU2W.
+2018/08/07 16:09:08 - TLH. Creating Hpcc-TU2W security group.
+2018/08/07 16:09:12 - TLH. Creating Hpcc-TU2W key pair.
+2018/08/07 16:09:12 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 16:09:13 - TLH. Reservation ID r-078710ba9f9acaed0 created.
+2018/08/07 16:09:13 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:18 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:23 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:28 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:34 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:39 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:44 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:49 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:54 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:09:59 - TLH. Pending instances have completed.
+2018/08/07 16:09:59 - TLH. Checking each node launched properly.
+2018/08/07 16:09:59 - 54.69.228.6:     Checking EC2 instance i-059ab46ceb27df290.
+2018/08/07 16:09:59 - 54.69.228.6:     Checking EC2 instance is running.
+2018/08/07 16:09:59 - 54.69.228.6:     Connecting via SSH.
+2018/08/07 16:10:02 - 54.69.228.6:     Waiting on SSH connection.
+2018/08/07 16:10:13 - 54.69.228.6:     Checking software installation completed.
+2018/08/07 16:10:13 - 54.69.228.6:     Software installation finished.
+2018/08/07 16:10:13 - 54.69.228.6:     Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:10:14 - 54.69.228.6:     Checking file contents.
+2018/08/07 16:10:14 - 54.69.228.6:     Remote file contents confirmed.
+2018/08/07 16:10:15 - 54.69.228.6:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:10:15 - 54.69.228.6:     tlh. Completed check of node 54.69.228.6.
+2018/08/07 16:10:15 - TLH. Determining availability zone.
+2018/08/07 16:10:15 - TLH. Gathering public and private ip addresses.
+2018/08/07 16:10:15 - Connecting to node 54.69.228.6 for cluster configuration.
+2018/08/07 16:10:15 - Connecting via SSH.
+2018/08/07 16:10:16 - Checking software installation completed.
+2018/08/07 16:10:16 - Software installation finished.
+2018/08/07 16:10:16 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:10:17 - Checking file contents.
+2018/08/07 16:10:17 - Remote file contents confirmed.
+2018/08/07 16:10:18 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:10:18 - Writing cluster private ip addresses to file on instance.
+2018/08/07 16:10:18 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 16:10:18 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 16:10:19 - Checking file contents.
+2018/08/07 16:10:19 - Remote file contents confirmed.
+2018/08/07 16:10:19 - Running envgen
+2018/08/07 16:10:20 - Reading the config file.
+2018/08/07 16:10:20 - Retrieving IP address of ESP Server.
+2018/08/07 16:10:20 - ESP Server private IP address: 10.232.131.42.
+2018/08/07 16:10:20 - TLH. ESP Server public IP address: 54.69.228.6.
+2018/08/07 16:10:20 - 54.69.228.6:     Starting node configuration.
+2018/08/07 16:10:20 - 54.69.228.6:     Connecting via SSH.
+2018/08/07 16:10:22 - 54.69.228.6:     Checking software installation completed.
+2018/08/07 16:10:22 - 54.69.228.6:     Software installation finished.
+2018/08/07 16:10:22 - 54.69.228.6:     Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:10:23 - 54.69.228.6:     Checking file contents.
+2018/08/07 16:10:23 - 54.69.228.6:     Remote file contents confirmed.
+2018/08/07 16:10:24 - 54.69.228.6:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:10:24 - 54.69.228.6:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/07 16:10:25 - 54.69.228.6:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/07 16:10:25 - 54.69.228.6:     Checking file contents.
+2018/08/07 16:10:25 - 54.69.228.6:     Remote file contents confirmed.
+2018/08/07 16:10:25 - 54.69.228.6:     Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/07 16:10:49 - 54.69.228.6:     Starting mydafilesrv ...       [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting mydali ...            [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting mydfuserver ...       [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting myeclagent ...        [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting myeclccserver ...     [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting myeclscheduler ...    [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting myesp ...             [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting mysasha ...           [   OK    ]   
+2018/08/07 16:10:49 - 54.69.228.6:     Starting mythor ...            [   OK    ]  
+2018/08/07 16:10:49 - 54.69.228.6:     Start node is complete.
+2018/08/07 16:10:49 - TLH. Done.
+2018/08/07 16:11:10 - TLH. Terminating cluster.
+2018/08/07 16:11:10 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:11:10 - TLH. Gathering instances for Hpcc-TU2W.
+2018/08/07 16:11:11 - An exception occured.
+                      TypeError: sequence item 0: expected string, Instance found

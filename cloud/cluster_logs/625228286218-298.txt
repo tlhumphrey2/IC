@@ -1,0 +1,93 @@
+2012/08/24 14:45:35 - Connecting to AWS region us-east-1.
+2012/08/24 14:45:35 - Calculating new unique cluster name for request 298.
+2012/08/24 14:45:35 - Creating new cluster name, Thor-XYBD.
+2012/08/24 14:45:35 - Creating Thor-XYBD security group.
+2012/08/24 14:45:36 - Creating Thor-XYBD key pair.
+2012/08/24 14:45:37 - Launching 1 m1.large nodes using ami-2920fe40.
+2012/08/24 14:45:37 - Reservation ID r-f69b8692 created.
+2012/08/24 14:45:37 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:45:42 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:45:47 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:45:53 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:45:58 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:03 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:08 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:13 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:18 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:23 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:28 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:33 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:38 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:43 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:48 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:53 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:46:58 - Waiting for 1 of 1 nodes to launch.
+2012/08/24 14:47:04 - Pending instances have completed.
+2012/08/24 14:47:04 - Checking each node launched properly.
+2012/08/24 14:47:04 - 23.20.60.11:     Checking EC2 instance i-2ddfdc56.
+2012/08/24 14:47:04 - 23.20.60.11:     Checking EC2 instance is running.
+2012/08/24 14:47:04 - 23.20.60.11:     Connecting via SSH.
+2012/08/24 14:47:06 - 23.20.60.11:     Waiting on SSH connection.
+2012/08/24 14:47:12 - 23.20.60.11:     Checking software installation completed.
+2012/08/24 14:47:12 - 23.20.60.11:     Software installation finished.
+2012/08/24 14:47:12 - 23.20.60.11:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/08/24 14:47:12 - 23.20.60.11:     Checking file contents.
+2012/08/24 14:47:12 - 23.20.60.11:     Remote file contents confirmed.
+2012/08/24 14:47:12 - 23.20.60.11:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/08/24 14:47:12 - 23.20.60.11:     Completed check of node 23.20.60.11.
+2012/08/24 14:47:12 - Determining availability zone.
+2012/08/24 14:47:12 - Gathering public and private ip addresses.
+2012/08/24 14:47:12 - Connecting to node 23.20.60.11 for cluster configuration.
+2012/08/24 14:47:12 - Connecting via SSH.
+2012/08/24 14:47:13 - Checking software installation completed.
+2012/08/24 14:47:13 - Software installation finished.
+2012/08/24 14:47:13 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/08/24 14:47:13 - Checking file contents.
+2012/08/24 14:47:13 - Remote file contents confirmed.
+2012/08/24 14:47:13 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/08/24 14:47:13 - Writing cluster private ip addresses to file on instance.
+2012/08/24 14:47:13 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/08/24 14:47:13 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/08/24 14:47:13 - Checking file contents.
+2012/08/24 14:47:13 - Remote file contents confirmed.
+2012/08/24 14:47:13 - Running envgen
+2012/08/24 14:47:14 - Reading the config file.
+2012/08/24 14:47:14 - Retrieving IP address of ESP Server.
+2012/08/24 14:47:14 - ESP Server private IP address: 10.72.57.194.
+2012/08/24 14:47:14 - ESP Server public IP address: 23.20.60.11.
+2012/08/24 14:47:14 - 23.20.60.11:     Starting node configuration.
+2012/08/24 14:47:14 - 23.20.60.11:     Connecting via SSH.
+2012/08/24 14:47:15 - 23.20.60.11:     Checking software installation completed.
+2012/08/24 14:47:15 - 23.20.60.11:     Software installation finished.
+2012/08/24 14:47:15 - 23.20.60.11:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/08/24 14:47:15 - 23.20.60.11:     Checking file contents.
+2012/08/24 14:47:15 - 23.20.60.11:     Remote file contents confirmed.
+2012/08/24 14:47:15 - 23.20.60.11:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/08/24 14:47:15 - 23.20.60.11:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/08/24 14:47:15 - 23.20.60.11:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/08/24 14:47:15 - 23.20.60.11:     Checking file contents.
+2012/08/24 14:47:15 - 23.20.60.11:     Remote file contents confirmed.
+2012/08/24 14:47:15 - 23.20.60.11:     Starting HPCC Systems Thor Community Edition: 3.6.0-1.
+2012/08/24 14:47:41 - 23.20.60.11:     Starting mydafilesrv....       [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting mydali....            [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting mydfuserver....       [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting myeclagent....        [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting myeclccserver....     [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting myeclscheduler....    [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting myesp....             [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting mysasha....           [  OK  ]   
+2012/08/24 14:47:41 - 23.20.60.11:     Starting mythor....            [  OK  ]  
+2012/08/24 14:47:41 - 23.20.60.11:     Start node is complete.
+2012/08/24 14:47:41 - Done.
+2012/08/24 15:49:23 - Terminating cluster.
+2012/08/24 15:49:23 - Connecting to AWS region us-east-1.
+2012/08/24 15:49:23 - Gathering instances for Thor-XYBD.
+2012/08/24 15:49:24 - Terminating instances.
+2012/08/24 15:49:24 - Waiting for 1 instances to terminate.
+2012/08/24 15:49:29 - Waiting for 1 instances to terminate.
+2012/08/24 15:49:34 - Waiting for 1 instances to terminate.
+2012/08/24 15:49:39 - Waiting for 1 instances to terminate.
+2012/08/24 15:49:44 - Waiting for 1 instances to terminate.
+2012/08/24 15:49:49 - Deleting Access Key Thor-XYBD.
+2012/08/24 15:49:49 - Deleting Security group Thor-XYBD.
+2012/08/24 15:49:50 - Done.

@@ -1,0 +1,102 @@
+2015/04/05 16:39:48 - Connecting to AWS region us-west-2.
+2015/04/05 16:39:48 - Checking storage IDs exist in region us-west-2: snap-5d916308
+2015/04/05 16:39:48 - Calculating new unique cluster name for request 1063.
+2015/04/05 16:39:48 - Creating new cluster name, Hpcc-BCU8.
+2015/04/05 16:39:48 - Creating Hpcc-BCU8 security group.
+2015/04/05 16:39:51 - Creating Hpcc-BCU8 key pair.
+2015/04/05 16:39:51 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/04/05 16:39:52 - Reservation ID r-1fd6be15 created.
+2015/04/05 16:39:52 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:39:57 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:02 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:07 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:12 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:18 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:23 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:28 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:33 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:38 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:43 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:48 - Waiting for 1 of 1 nodes to launch.
+2015/04/05 16:40:53 - Pending instances have completed.
+2015/04/05 16:40:53 - Checking each node launched properly.
+2015/04/05 16:40:53 - 50.112.36.173:   Checking EC2 instance i-89f84a84.
+2015/04/05 16:40:54 - 50.112.36.173:   Checking EC2 instance is running.
+2015/04/05 16:40:54 - 50.112.36.173:   Connecting via SSH.
+2015/04/05 16:41:03 - 50.112.36.173:   Checking software installation completed.
+2015/04/05 16:41:03 - 50.112.36.173:   Waiting for software to install.
+2015/04/05 16:41:13 - 50.112.36.173:   Software installation finished.
+2015/04/05 16:41:13 - 50.112.36.173:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/05 16:41:14 - 50.112.36.173:   Checking file contents.
+2015/04/05 16:41:14 - 50.112.36.173:   Remote file contents confirmed.
+2015/04/05 16:41:14 - 50.112.36.173:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/05 16:41:14 - 50.112.36.173:   Completed check of node 50.112.36.173.
+2015/04/05 16:41:14 - Determining availability zone.
+2015/04/05 16:41:14 - Gathering public and private ip addresses.
+2015/04/05 16:41:14 - Connecting to node 50.112.36.173 for cluster configuration.
+2015/04/05 16:41:14 - Connecting via SSH.
+2015/04/05 16:41:23 - Checking software installation completed.
+2015/04/05 16:41:23 - Software installation finished.
+2015/04/05 16:41:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/05 16:41:23 - Checking file contents.
+2015/04/05 16:41:23 - Remote file contents confirmed.
+2015/04/05 16:41:24 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/05 16:41:24 - Writing cluster private ip addresses to file on instance.
+2015/04/05 16:41:24 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/05 16:41:25 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/05 16:41:25 - Checking file contents.
+2015/04/05 16:41:25 - Remote file contents confirmed.
+2015/04/05 16:41:25 - Running envgen
+2015/04/05 16:41:26 - Reading the config file.
+2015/04/05 16:41:26 - Retrieving IP address of ESP Server.
+2015/04/05 16:41:27 - ESP Server private IP address: 10.252.19.222.
+2015/04/05 16:41:27 - ESP Server public IP address: 50.112.36.173.
+2015/04/05 16:41:27 - Attaching storage devices to the Landing Zone: snap-5d916308
+2015/04/05 16:41:27 - Waiting for volumes to become available.
+2015/04/05 16:41:32 - Waiting for volumes to become available.
+2015/04/05 16:41:38 - Waiting for volumes to become available.
+2015/04/05 16:41:43 - Connecting via SSH.
+2015/04/05 16:41:45 - Waiting for EC2 instance to see storage device.
+2015/04/05 16:41:54 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-5d916308/.
+2015/04/05 16:41:54 - 50.112.36.173:   Starting node configuration.
+2015/04/05 16:41:54 - 50.112.36.173:   Connecting via SSH.
+2015/04/05 16:41:55 - 50.112.36.173:   Checking software installation completed.
+2015/04/05 16:41:55 - 50.112.36.173:   Software installation finished.
+2015/04/05 16:41:55 - 50.112.36.173:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/05 16:41:56 - 50.112.36.173:   Checking file contents.
+2015/04/05 16:41:56 - 50.112.36.173:   Remote file contents confirmed.
+2015/04/05 16:41:57 - 50.112.36.173:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/05 16:41:57 - 50.112.36.173:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/05 16:41:58 - 50.112.36.173:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/05 16:41:58 - 50.112.36.173:   Checking file contents.
+2015/04/05 16:41:58 - 50.112.36.173:   Remote file contents confirmed.
+2015/04/05 16:41:58 - 50.112.36.173:   Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/04/05 16:42:25 - 50.112.36.173:   Starting mydafilesrv....       [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting mydali....            [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting mydfuserver....       [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting myeclagent....        [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting myeclccserver....     [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting myeclscheduler....    [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting myesp....             [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting mysasha....           [  OK  ]   
+2015/04/05 16:42:25 - 50.112.36.173:   Starting mythor....            [  OK  ]  
+2015/04/05 16:42:25 - 50.112.36.173:   Start node is complete.
+2015/04/05 16:42:25 - Done.
+2015/04/05 17:09:30 - Terminating cluster.
+2015/04/05 17:09:30 - Connecting to AWS region us-west-2.
+2015/04/05 17:09:30 - Gathering instances for Hpcc-BCU8.
+2015/04/05 17:09:30 - Terminating instances.
+2015/04/05 17:09:30 - Waiting for 1 instances to terminate.
+2015/04/05 17:09:36 - Waiting for 1 instances to terminate.
+2015/04/05 17:09:41 - Waiting for 1 instances to terminate.
+2015/04/05 17:09:46 - Waiting for 1 instances to terminate.
+2015/04/05 17:09:51 - Waiting for 1 instances to terminate.
+2015/04/05 17:09:56 - Waiting for 1 instances to terminate.
+2015/04/05 17:10:01 - Waiting for 1 instances to terminate.
+2015/04/05 17:10:07 - Waiting for 1 instances to terminate.
+2015/04/05 17:10:12 - Waiting for 1 instances to terminate.
+2015/04/05 17:10:17 - Deleting attached EBS volumes.
+2015/04/05 17:10:17 - Deleting volume vol-060f0617
+2015/04/05 17:10:17 - Deleting Access Key Hpcc-BCU8.
+2015/04/05 17:10:17 - Deleting Security group Hpcc-BCU8.
+2015/04/05 17:10:18 - Done.

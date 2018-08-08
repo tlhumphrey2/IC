@@ -1,0 +1,193 @@
+2014/11/11 14:31:48 - Connecting to AWS region us-west-2.
+2014/11/11 14:31:48 - Checking storage IDs exist in region us-west-2: snap-5d7e4494
+2014/11/11 14:31:48 - Calculating new unique cluster name for request 990.
+2014/11/11 14:31:49 - Creating new cluster name, Hpcc-P9X8.
+2014/11/11 14:31:49 - Creating Hpcc-P9X8 security group.
+2014/11/11 14:31:51 - Creating Hpcc-P9X8 key pair.
+2014/11/11 14:31:51 - Launching 5 m1.large nodes using ami-c1fdbff1.
+2014/11/11 14:31:52 - Reservation ID r-f2fcd8f9 created.
+2014/11/11 14:31:52 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:31:58 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:04 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:10 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:15 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:21 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:27 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:32 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:38 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:44 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:49 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:32:55 - Waiting for 5 of 5 nodes to launch.
+2014/11/11 14:33:01 - Pending instances have completed.
+2014/11/11 14:33:01 - Checking each node launched properly.
+2014/11/11 14:33:01 - 54.148.89.32:    Checking EC2 instance i-c3d779c9.
+2014/11/11 14:33:01 - 54.148.88.243:   Checking EC2 instance i-c6d779cc.
+2014/11/11 14:33:01 - 54.148.89.36:    Checking EC2 instance i-c7d779cd.
+2014/11/11 14:33:01 - 54.148.40.158:   Checking EC2 instance i-c4d779ce.
+2014/11/11 14:33:01 - 54.148.17.217:   Checking EC2 instance i-c5d779cf.
+2014/11/11 14:33:01 - 54.148.89.32:    Checking EC2 instance is running.
+2014/11/11 14:33:01 - 54.148.89.32:    Connecting via SSH.
+2014/11/11 14:33:02 - 54.148.17.217:   Checking EC2 instance is running.
+2014/11/11 14:33:02 - 54.148.17.217:   Connecting via SSH.
+2014/11/11 14:33:02 - 54.148.40.158:   Checking EC2 instance is running.
+2014/11/11 14:33:02 - 54.148.40.158:   Connecting via SSH.
+2014/11/11 14:33:02 - 54.148.89.36:    Checking EC2 instance is running.
+2014/11/11 14:33:02 - 54.148.89.36:    Connecting via SSH.
+2014/11/11 14:33:02 - 54.148.88.243:   Checking EC2 instance is running.
+2014/11/11 14:33:02 - 54.148.88.243:   Connecting via SSH.
+2014/11/11 14:33:04 - 54.148.89.32:    Waiting on SSH connection.
+2014/11/11 14:33:05 - 54.148.17.217:   Waiting on SSH connection.
+2014/11/11 14:33:09 - 54.148.89.36:    Waiting on SSH connection.
+2014/11/11 14:33:09 - 54.148.88.243:   Waiting on SSH connection.
+2014/11/11 14:33:10 - 54.148.40.158:   Checking software installation completed.
+2014/11/11 14:33:11 - 54.148.40.158:   Waiting for software to install.
+2014/11/11 14:33:16 - 54.148.17.217:   Checking software installation completed.
+2014/11/11 14:33:16 - 54.148.89.32:    Checking software installation completed.
+2014/11/11 14:33:16 - 54.148.17.217:   Software installation finished.
+2014/11/11 14:33:16 - 54.148.17.217:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:17 - 54.148.89.32:    Software installation finished.
+2014/11/11 14:33:17 - 54.148.89.32:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:17 - 54.148.17.217:   Checking file contents.
+2014/11/11 14:33:17 - 54.148.89.32:    Checking file contents.
+2014/11/11 14:33:17 - 54.148.17.217:   Remote file contents confirmed.
+2014/11/11 14:33:17 - 54.148.89.32:    Remote file contents confirmed.
+2014/11/11 14:33:18 - 54.148.17.217:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:18 - 54.148.17.217:   Completed check of node 54.148.17.217.
+2014/11/11 14:33:18 - 54.148.89.32:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:18 - 54.148.89.32:    Completed check of node 54.148.89.32.
+2014/11/11 14:33:20 - 54.148.89.36:    Checking software installation completed.
+2014/11/11 14:33:20 - 54.148.88.243:   Checking software installation completed.
+2014/11/11 14:33:21 - 54.148.89.36:    Software installation finished.
+2014/11/11 14:33:21 - 54.148.89.36:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:21 - 54.148.88.243:   Software installation finished.
+2014/11/11 14:33:21 - 54.148.88.243:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:21 - 54.148.40.158:   Software installation finished.
+2014/11/11 14:33:21 - 54.148.40.158:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:21 - 54.148.88.243:   Checking file contents.
+2014/11/11 14:33:21 - 54.148.89.36:    Checking file contents.
+2014/11/11 14:33:21 - 54.148.40.158:   Checking file contents.
+2014/11/11 14:33:21 - 54.148.88.243:   Remote file contents confirmed.
+2014/11/11 14:33:21 - 54.148.89.36:    Remote file contents confirmed.
+2014/11/11 14:33:21 - 54.148.40.158:   Remote file contents confirmed.
+2014/11/11 14:33:22 - 54.148.88.243:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:22 - 54.148.88.243:   Completed check of node 54.148.88.243.
+2014/11/11 14:33:22 - 54.148.89.36:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:22 - 54.148.89.36:    Completed check of node 54.148.89.36.
+2014/11/11 14:33:22 - 54.148.40.158:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:22 - 54.148.40.158:   Completed check of node 54.148.40.158.
+2014/11/11 14:33:22 - Determining availability zone.
+2014/11/11 14:33:22 - Gathering public and private ip addresses.
+2014/11/11 14:33:22 - Connecting to node 54.148.89.32 for cluster configuration.
+2014/11/11 14:33:22 - Connecting via SSH.
+2014/11/11 14:33:23 - Checking software installation completed.
+2014/11/11 14:33:23 - Software installation finished.
+2014/11/11 14:33:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:24 - Checking file contents.
+2014/11/11 14:33:24 - Remote file contents confirmed.
+2014/11/11 14:33:25 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:25 - Writing cluster private ip addresses to file on instance.
+2014/11/11 14:33:25 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/11/11 14:33:25 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/11/11 14:33:25 - Checking file contents.
+2014/11/11 14:33:26 - Remote file contents confirmed.
+2014/11/11 14:33:26 - Running envgen
+2014/11/11 14:33:27 - Reading the config file.
+2014/11/11 14:33:27 - Retrieving IP address of ESP Server.
+2014/11/11 14:33:27 - ESP Server private IP address: 172.31.41.153.
+2014/11/11 14:33:27 - ESP Server public IP address: 54.148.89.32.
+2014/11/11 14:33:27 - Attaching storage devices to the Landing Zone: snap-5d7e4494
+2014/11/11 14:33:28 - Waiting for volumes to become available.
+2014/11/11 14:33:34 - Connecting via SSH.
+2014/11/11 14:33:35 - Waiting for EC2 instance to see storage device.
+2014/11/11 14:33:46 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-5d7e4494/.
+2014/11/11 14:33:46 - 54.148.40.158:   Starting node configuration.
+2014/11/11 14:33:46 - 54.148.89.36:    Starting node configuration.
+2014/11/11 14:33:46 - 54.148.89.32:    Starting node configuration.
+2014/11/11 14:33:46 - 54.148.40.158:   Connecting via SSH.
+2014/11/11 14:33:46 - 54.148.88.243:   Starting node configuration.
+2014/11/11 14:33:46 - 54.148.89.36:    Connecting via SSH.
+2014/11/11 14:33:46 - 54.148.89.32:    Connecting via SSH.
+2014/11/11 14:33:46 - 54.148.88.243:   Connecting via SSH.
+2014/11/11 14:33:46 - 54.148.17.217:   Starting node configuration.
+2014/11/11 14:33:46 - 54.148.17.217:   Connecting via SSH.
+2014/11/11 14:33:47 - 54.148.88.243:   Checking software installation completed.
+2014/11/11 14:33:47 - 54.148.89.36:    Checking software installation completed.
+2014/11/11 14:33:47 - 54.148.89.32:    Checking software installation completed.
+2014/11/11 14:33:47 - 54.148.17.217:   Checking software installation completed.
+2014/11/11 14:33:47 - 54.148.88.243:   Software installation finished.
+2014/11/11 14:33:47 - 54.148.88.243:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:47 - 54.148.89.36:    Software installation finished.
+2014/11/11 14:33:47 - 54.148.89.36:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:47 - 54.148.89.32:    Software installation finished.
+2014/11/11 14:33:47 - 54.148.89.32:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:47 - 54.148.17.217:   Software installation finished.
+2014/11/11 14:33:47 - 54.148.17.217:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:48 - 54.148.88.243:   Checking file contents.
+2014/11/11 14:33:48 - 54.148.89.32:    Checking file contents.
+2014/11/11 14:33:48 - 54.148.89.36:    Checking file contents.
+2014/11/11 14:33:48 - 54.148.17.217:   Checking file contents.
+2014/11/11 14:33:48 - 54.148.88.243:   Remote file contents confirmed.
+2014/11/11 14:33:48 - 54.148.89.32:    Remote file contents confirmed.
+2014/11/11 14:33:48 - 54.148.89.36:    Remote file contents confirmed.
+2014/11/11 14:33:48 - 54.148.17.217:   Remote file contents confirmed.
+2014/11/11 14:33:48 - 54.148.89.32:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:48 - 54.148.89.32:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/11/11 14:33:48 - 54.148.88.243:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:48 - 54.148.88.243:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/11/11 14:33:48 - 54.148.17.217:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:48 - 54.148.17.217:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/11/11 14:33:48 - 54.148.89.36:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:48 - 54.148.89.36:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/11/11 14:33:49 - 54.148.89.32:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/11/11 14:33:49 - 54.148.88.243:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/11/11 14:33:49 - 54.148.89.36:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/11/11 14:33:49 - 54.148.17.217:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/11/11 14:33:49 - 54.148.89.32:    Checking file contents.
+2014/11/11 14:33:49 - 54.148.88.243:   Checking file contents.
+2014/11/11 14:33:49 - 54.148.89.36:    Checking file contents.
+2014/11/11 14:33:49 - 54.148.17.217:   Checking file contents.
+2014/11/11 14:33:50 - 54.148.89.32:    Remote file contents confirmed.
+2014/11/11 14:33:50 - 54.148.89.32:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/11/11 14:33:50 - 54.148.88.243:   Remote file contents confirmed.
+2014/11/11 14:33:50 - 54.148.88.243:   Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/11/11 14:33:50 - 54.148.17.217:   Remote file contents confirmed.
+2014/11/11 14:33:50 - 54.148.17.217:   Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/11/11 14:33:50 - 54.148.89.36:    Remote file contents confirmed.
+2014/11/11 14:33:50 - 54.148.89.36:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/11/11 14:33:52 - 54.148.40.158:   Checking software installation completed.
+2014/11/11 14:33:52 - 54.148.40.158:   Software installation finished.
+2014/11/11 14:33:52 - 54.148.40.158:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/11/11 14:33:53 - 54.148.40.158:   Checking file contents.
+2014/11/11 14:33:53 - 54.148.40.158:   Remote file contents confirmed.
+2014/11/11 14:33:53 - 54.148.40.158:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/11/11 14:33:53 - 54.148.40.158:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/11/11 14:33:54 - 54.148.40.158:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/11/11 14:33:54 - 54.148.40.158:   Checking file contents.
+2014/11/11 14:33:54 - 54.148.17.217:   Starting mydafilesrv....       [  OK  ]   
+2014/11/11 14:33:54 - 54.148.17.217:   Starting myeclccserver....     [  OK  ]  
+2014/11/11 14:33:54 - 54.148.17.217:   Start node is complete.
+2014/11/11 14:33:54 - 54.148.88.243:   Starting mydafilesrv....       [  OK  ]   
+2014/11/11 14:33:54 - 54.148.88.243:   Starting mydali....            [  OK  ]  
+2014/11/11 14:33:54 - 54.148.88.243:   Start node is complete.
+2014/11/11 14:33:54 - 54.148.40.158:   Remote file contents confirmed.
+2014/11/11 14:33:54 - 54.148.40.158:   Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/11/11 14:33:56 - 54.148.89.36:    Starting mydafilesrv....       [  OK  ]   
+2014/11/11 14:33:56 - 54.148.89.36:    Starting mydfuserver....       [  OK  ]   
+2014/11/11 14:33:56 - 54.148.89.36:    Starting mysasha....           [  OK  ]  
+2014/11/11 14:33:56 - 54.148.89.36:    Start node is complete.
+2014/11/11 14:33:59 - 54.148.40.158:   Starting mydafilesrv....       [  OK  ]   
+2014/11/11 14:33:59 - 54.148.40.158:   Starting myeclagent....        [  OK  ]  
+2014/11/11 14:33:59 - 54.148.40.158:   Start node is complete.
+2014/11/11 14:34:10 - 54.148.89.32:    Starting mydafilesrv....       [  OK  ]   
+2014/11/11 14:34:10 - 54.148.89.32:    Starting myeclscheduler....    [  OK  ]   
+2014/11/11 14:34:10 - 54.148.89.32:    Starting myesp....             [  OK  ]   
+2014/11/11 14:34:10 - 54.148.89.32:    Starting mythor....            [  OK  ]  
+2014/11/11 14:34:10 - 54.148.89.32:    Start node is complete.
+2014/11/11 14:34:10 - Done.
+2014/11/14 18:16:30 - Terminating cluster.
+2014/11/14 18:16:30 - Connecting to AWS region us-west-2.
+2014/11/14 18:16:30 - Gathering instances for Hpcc-P9X8.
+2014/11/14 18:16:30 - Terminating instances.
+2014/11/14 18:16:30 - Deleting Access Key Hpcc-P9X8.
+2014/11/14 18:16:31 - Deleting Security group Hpcc-P9X8.
+2014/11/14 18:16:31 - Done.

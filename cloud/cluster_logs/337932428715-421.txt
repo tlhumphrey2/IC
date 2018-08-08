@@ -1,0 +1,102 @@
+2012/11/23 04:54:42 - Connecting to AWS region us-west-2.
+2012/11/23 04:54:44 - Calculating new unique cluster name for request 421.
+2012/11/23 04:54:45 - Creating new cluster name, Hpcc-XKYC.
+2012/11/23 04:54:45 - Creating Hpcc-XKYC security group.
+2012/11/23 04:54:48 - Creating Hpcc-XKYC key pair.
+2012/11/23 04:54:50 - Launching 1 m1.large nodes using ami-e01698d0.
+2012/11/23 04:54:51 - Reservation ID r-e76448d4 created.
+2012/11/23 04:54:51 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:54:56 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:01 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:07 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:12 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:17 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:23 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:28 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:33 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:38 - Waiting for 1 of 1 nodes to launch.
+2012/11/23 04:55:44 - Pending instances have completed.
+2012/11/23 04:55:44 - Checking each node launched properly.
+2012/11/23 04:55:44 - 54.245.56.15:    Checking EC2 instance i-65a9b156.
+2012/11/23 04:55:44 - 54.245.56.15:    Checking EC2 instance is running.
+2012/11/23 04:55:44 - 54.245.56.15:    Connecting via SSH.
+2012/11/23 04:55:44 - 54.245.56.15:    Waiting on SSH connection.
+2012/11/23 04:55:55 - 54.245.56.15:    Checking software installation completed.
+2012/11/23 04:55:55 - 54.245.56.15:    Software installation finished.
+2012/11/23 04:55:55 - 54.245.56.15:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 04:55:56 - 54.245.56.15:    Checking file contents.
+2012/11/23 04:55:56 - 54.245.56.15:    Remote file contents confirmed.
+2012/11/23 04:55:57 - 54.245.56.15:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 04:55:57 - 54.245.56.15:    Completed check of node 54.245.56.15.
+2012/11/23 04:55:57 - Determining availability zone.
+2012/11/23 04:55:57 - Gathering public and private ip addresses.
+2012/11/23 04:55:57 - Connecting to node 54.245.56.15 for cluster configuration.
+2012/11/23 04:55:57 - Connecting via SSH.
+2012/11/23 04:55:59 - Checking software installation completed.
+2012/11/23 04:55:59 - Software installation finished.
+2012/11/23 04:55:59 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 04:56:00 - Checking file contents.
+2012/11/23 04:56:00 - Remote file contents confirmed.
+2012/11/23 04:56:01 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 04:56:01 - Writing cluster private ip addresses to file on instance.
+2012/11/23 04:56:01 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/11/23 04:56:01 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/11/23 04:56:02 - Checking file contents.
+2012/11/23 04:56:02 - Remote file contents confirmed.
+2012/11/23 04:56:02 - Running envgen
+2012/11/23 04:56:03 - Reading the config file.
+2012/11/23 04:56:04 - Retrieving IP address of ESP Server.
+2012/11/23 04:56:04 - ESP Server private IP address: 10.244.35.86.
+2012/11/23 04:56:04 - ESP Server public IP address: 54.245.56.15.
+2012/11/23 04:56:04 - 54.245.56.15:    Starting node configuration.
+2012/11/23 04:56:04 - 54.245.56.15:    Connecting via SSH.
+2012/11/23 04:56:05 - 54.245.56.15:    Checking software installation completed.
+2012/11/23 04:56:06 - 54.245.56.15:    Software installation finished.
+2012/11/23 04:56:06 - 54.245.56.15:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/23 04:56:06 - 54.245.56.15:    Checking file contents.
+2012/11/23 04:56:07 - 54.245.56.15:    Remote file contents confirmed.
+2012/11/23 04:56:07 - 54.245.56.15:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/23 04:56:07 - 54.245.56.15:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/11/23 04:56:08 - 54.245.56.15:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/11/23 04:56:09 - 54.245.56.15:    Checking file contents.
+2012/11/23 04:56:09 - 54.245.56.15:    Remote file contents confirmed.
+2012/11/23 04:56:09 - 54.245.56.15:    Starting HPCC Platform Community Edition: 3.8.2-2.
+2012/11/23 04:56:35 - 54.245.56.15:    Starting mydafilesrv....       [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting mydali....            [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting mydfuserver....       [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting myeclagent....        [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting myeclccserver....     [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting myeclscheduler....    [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting myesp....             [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting mysasha....           [  OK  ]   
+2012/11/23 04:56:35 - 54.245.56.15:    Starting mythor....            [  OK  ]  
+2012/11/23 04:56:36 - 54.245.56.15:    Start node is complete.
+2012/11/23 04:56:36 - Done.
+2012/11/23 05:14:17 - Terminating cluster.
+2012/11/23 05:14:17 - Connecting to AWS region us-west-2.
+2012/11/23 05:14:17 - Gathering instances for Hpcc-XKYC.
+2012/11/23 05:14:18 - Terminating instances.
+2012/11/23 05:14:19 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:24 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:29 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:35 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:40 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:45 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:51 - Waiting for 1 instances to terminate.
+2012/11/23 05:14:56 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:01 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:07 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:12 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:17 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:22 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:28 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:33 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:38 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:44 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:49 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:54 - Waiting for 1 instances to terminate.
+2012/11/23 05:15:59 - Waiting for 1 instances to terminate.
+2012/11/23 05:16:05 - Waiting for 1 instances to terminate.
+2012/11/23 05:16:10 - Deleting Access Key Hpcc-XKYC.
+2012/11/23 05:16:11 - Deleting Security group Hpcc-XKYC.
+2012/11/23 05:16:11 - Done.

@@ -1,0 +1,154 @@
+2012/10/20 13:35:39 - Connecting to AWS region us-west-2.
+2012/10/20 13:35:40 - Calculating new unique cluster name for request 353.
+2012/10/20 13:35:40 - Creating new cluster name, Hpcc-EY89.
+2012/10/20 13:35:40 - Creating Hpcc-EY89 security group.
+2012/10/20 13:35:44 - Creating Hpcc-EY89 key pair.
+2012/10/20 13:35:45 - Launching 3 m1.large nodes using ami-bcd4588c.
+2012/10/20 13:35:46 - Reservation ID r-1d89f72e created.
+2012/10/20 13:35:46 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:35:52 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:35:58 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:04 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:10 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:15 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:21 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:27 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:33 - Waiting for 3 of 3 nodes to launch.
+2012/10/20 13:36:39 - Waiting for 2 of 3 nodes to launch.
+2012/10/20 13:36:44 - Waiting for 2 of 3 nodes to launch.
+2012/10/20 13:36:50 - Waiting for 2 of 3 nodes to launch.
+2012/10/20 13:36:55 - Waiting for 2 of 3 nodes to launch.
+2012/10/20 13:37:01 - Pending instances have completed.
+2012/10/20 13:37:01 - Checking each node launched properly.
+2012/10/20 13:37:01 - 54.245.8.221:    Checking EC2 instance i-69c6eb5a.
+2012/10/20 13:37:01 - 50.112.75.148:   Checking EC2 instance i-6fc6eb5c.
+2012/10/20 13:37:01 - 50.112.30.172:   Checking EC2 instance i-6dc6eb5e.
+2012/10/20 13:37:01 - 54.245.8.221:    Checking EC2 instance is running.
+2012/10/20 13:37:01 - 54.245.8.221:    Connecting via SSH.
+2012/10/20 13:37:01 - 50.112.75.148:   Checking EC2 instance is running.
+2012/10/20 13:37:01 - 50.112.75.148:   Connecting via SSH.
+2012/10/20 13:37:02 - 50.112.30.172:   Checking EC2 instance is running.
+2012/10/20 13:37:02 - 50.112.30.172:   Connecting via SSH.
+2012/10/20 13:37:03 - 50.112.30.172:   Checking software installation completed.
+2012/10/20 13:37:04 - 50.112.30.172:   Software installation finished.
+2012/10/20 13:37:04 - 50.112.30.172:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:04 - 50.112.30.172:   Checking file contents.
+2012/10/20 13:37:04 - 50.112.75.148:   Waiting on SSH connection.
+2012/10/20 13:37:05 - 50.112.30.172:   Remote file contents confirmed.
+2012/10/20 13:37:05 - 50.112.30.172:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:05 - 50.112.30.172:   Completed check of node 50.112.30.172.
+2012/10/20 13:37:11 - 50.112.75.148:   Checking software installation completed.
+2012/10/20 13:37:11 - 50.112.75.148:   Software installation finished.
+2012/10/20 13:37:11 - 50.112.75.148:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:12 - 54.245.8.221:    Checking software installation completed.
+2012/10/20 13:37:12 - 50.112.75.148:   Checking file contents.
+2012/10/20 13:37:12 - 54.245.8.221:    Software installation finished.
+2012/10/20 13:37:12 - 54.245.8.221:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:12 - 50.112.75.148:   Remote file contents confirmed.
+2012/10/20 13:37:13 - 54.245.8.221:    Checking file contents.
+2012/10/20 13:37:13 - 50.112.75.148:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:13 - 50.112.75.148:   Completed check of node 50.112.75.148.
+2012/10/20 13:37:13 - 54.245.8.221:    Remote file contents confirmed.
+2012/10/20 13:37:14 - 54.245.8.221:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:14 - 54.245.8.221:    Completed check of node 54.245.8.221.
+2012/10/20 13:37:14 - Determining availability zone.
+2012/10/20 13:37:14 - Gathering public and private ip addresses.
+2012/10/20 13:37:14 - Connecting to node 54.245.8.221 for cluster configuration.
+2012/10/20 13:37:14 - Connecting via SSH.
+2012/10/20 13:37:15 - Checking software installation completed.
+2012/10/20 13:37:16 - Software installation finished.
+2012/10/20 13:37:16 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:16 - Checking file contents.
+2012/10/20 13:37:17 - Remote file contents confirmed.
+2012/10/20 13:37:17 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:17 - Writing cluster private ip addresses to file on instance.
+2012/10/20 13:37:17 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/10/20 13:37:18 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/10/20 13:37:18 - Checking file contents.
+2012/10/20 13:37:19 - Remote file contents confirmed.
+2012/10/20 13:37:19 - Running envgen
+2012/10/20 13:37:20 - Reading the config file.
+2012/10/20 13:37:20 - Retrieving IP address of ESP Server.
+2012/10/20 13:37:21 - ESP Server private IP address: 10.244.33.122.
+2012/10/20 13:37:21 - ESP Server public IP address: 54.245.8.221.
+2012/10/20 13:37:21 - 50.112.30.172:   Starting node configuration.
+2012/10/20 13:37:21 - 50.112.30.172:   Connecting via SSH.
+2012/10/20 13:37:21 - 54.245.8.221:    Starting node configuration.
+2012/10/20 13:37:21 - 54.245.8.221:    Connecting via SSH.
+2012/10/20 13:37:21 - 50.112.75.148:   Starting node configuration.
+2012/10/20 13:37:21 - 50.112.75.148:   Connecting via SSH.
+2012/10/20 13:37:22 - 50.112.30.172:   Checking software installation completed.
+2012/10/20 13:37:22 - 50.112.75.148:   Checking software installation completed.
+2012/10/20 13:37:22 - 54.245.8.221:    Checking software installation completed.
+2012/10/20 13:37:22 - 50.112.30.172:   Software installation finished.
+2012/10/20 13:37:22 - 50.112.30.172:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:22 - 50.112.75.148:   Software installation finished.
+2012/10/20 13:37:22 - 50.112.75.148:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:22 - 54.245.8.221:    Software installation finished.
+2012/10/20 13:37:22 - 54.245.8.221:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/10/20 13:37:23 - 50.112.30.172:   Checking file contents.
+2012/10/20 13:37:23 - 50.112.75.148:   Checking file contents.
+2012/10/20 13:37:23 - 54.245.8.221:    Checking file contents.
+2012/10/20 13:37:23 - 50.112.30.172:   Remote file contents confirmed.
+2012/10/20 13:37:23 - 50.112.75.148:   Remote file contents confirmed.
+2012/10/20 13:37:23 - 54.245.8.221:    Remote file contents confirmed.
+2012/10/20 13:37:24 - 50.112.30.172:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:24 - 50.112.30.172:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/10/20 13:37:24 - 50.112.75.148:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:24 - 50.112.75.148:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/10/20 13:37:24 - 54.245.8.221:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/10/20 13:37:24 - 54.245.8.221:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/10/20 13:37:25 - 50.112.30.172:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/10/20 13:37:25 - 50.112.75.148:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/10/20 13:37:25 - 54.245.8.221:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/10/20 13:37:25 - 50.112.30.172:   Checking file contents.
+2012/10/20 13:37:25 - 50.112.75.148:   Checking file contents.
+2012/10/20 13:37:26 - 54.245.8.221:    Checking file contents.
+2012/10/20 13:37:26 - 50.112.30.172:   Remote file contents confirmed.
+2012/10/20 13:37:26 - 50.112.30.172:   Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/10/20 13:37:26 - 50.112.75.148:   Remote file contents confirmed.
+2012/10/20 13:37:26 - 50.112.75.148:   Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/10/20 13:37:26 - 54.245.8.221:    Remote file contents confirmed.
+2012/10/20 13:37:26 - 54.245.8.221:    Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/10/20 13:37:31 - 50.112.30.172:   Starting mydafilesrv....       [  OK  ]   
+2012/10/20 13:37:31 - 50.112.30.172:   Starting mydfuserver....       [  OK  ]   
+2012/10/20 13:37:31 - 50.112.30.172:   Starting myeclscheduler....    [  OK  ]  
+2012/10/20 13:37:31 - 50.112.30.172:   Start node is complete.
+2012/10/20 13:37:31 - 50.112.75.148:   Starting mydafilesrv....       [  OK  ]   
+2012/10/20 13:37:31 - 50.112.75.148:   Starting mydali....            [  OK  ]   
+2012/10/20 13:37:31 - 50.112.75.148:   Starting myeclccserver....     [  OK  ]  
+2012/10/20 13:37:32 - 50.112.75.148:   Start node is complete.
+2012/10/20 13:37:47 - 54.245.8.221:    Starting mydafilesrv....       [  OK  ]   
+2012/10/20 13:37:47 - 54.245.8.221:    Starting myeclagent....        [  OK  ]   
+2012/10/20 13:37:47 - 54.245.8.221:    Starting myesp....             [  OK  ]   
+2012/10/20 13:37:47 - 54.245.8.221:    Starting mysasha....           [  OK  ]   
+2012/10/20 13:37:47 - 54.245.8.221:    Starting mythor....            [  OK  ]  
+2012/10/20 13:37:47 - 54.245.8.221:    Start node is complete.
+2012/10/20 13:37:47 - Done.
+2012/10/20 15:17:31 - Terminating cluster.
+2012/10/20 15:17:31 - Connecting to AWS region us-west-2.
+2012/10/20 15:17:31 - Gathering instances for Hpcc-EY89.
+2012/10/20 15:17:32 - Terminating instances.
+2012/10/20 15:17:34 - Waiting for 3 instances to terminate.
+2012/10/20 15:17:40 - Waiting for 3 instances to terminate.
+2012/10/20 15:17:46 - Waiting for 3 instances to terminate.
+2012/10/20 15:17:52 - Waiting for 3 instances to terminate.
+2012/10/20 15:17:58 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:03 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:09 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:15 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:21 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:27 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:32 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:38 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:44 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:50 - Waiting for 3 instances to terminate.
+2012/10/20 15:18:56 - Waiting for 3 instances to terminate.
+2012/10/20 15:19:02 - Waiting for 3 instances to terminate.
+2012/10/20 15:19:08 - Waiting for 3 instances to terminate.
+2012/10/20 15:19:13 - Waiting for 3 instances to terminate.
+2012/10/20 15:19:19 - Waiting for 1 instances to terminate.
+2012/10/20 15:19:24 - Waiting for 1 instances to terminate.
+2012/10/20 15:19:30 - Deleting Access Key Hpcc-EY89.
+2012/10/20 15:19:30 - Deleting Security group Hpcc-EY89.
+2012/10/20 15:19:31 - Done.

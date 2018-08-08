@@ -1,0 +1,82 @@
+2018/08/07 10:01:45 - Connecting to AWS region us-west-2.
+2018/08/07 10:01:45 - Calculating new unique cluster name for request 1467.
+2018/08/07 10:01:45 - Creating new cluster name, Hpcc-NU3K.
+2018/08/07 10:01:45 - Creating Hpcc-NU3K security group.
+2018/08/07 10:01:49 - Creating Hpcc-NU3K key pair.
+2018/08/07 10:01:49 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 10:01:51 - Reservation ID r-08b6867d6c884acb2 created.
+2018/08/07 10:01:51 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:01:56 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:01 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:06 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:11 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:16 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:22 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:27 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:32 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 10:02:37 - Pending instances have completed.
+2018/08/07 10:02:37 - Checking each node launched properly.
+2018/08/07 10:02:37 - 54.200.40.226:   Checking EC2 instance i-0f39869c2fbd667dd.
+2018/08/07 10:02:37 - 54.200.40.226:   Checking EC2 instance is running.
+2018/08/07 10:02:37 - 54.200.40.226:   Connecting via SSH.
+2018/08/07 10:02:59 - 54.200.40.226:   Checking software installation completed.
+2018/08/07 10:02:59 - 54.200.40.226:   Software installation finished.
+2018/08/07 10:02:59 - 54.200.40.226:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 10:03:00 - 54.200.40.226:   Checking file contents.
+2018/08/07 10:03:00 - 54.200.40.226:   Remote file contents confirmed.
+2018/08/07 10:03:01 - 54.200.40.226:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 10:03:01 - 54.200.40.226:   Completed check of node 54.200.40.226.
+2018/08/07 10:03:01 - Determining availability zone.
+2018/08/07 10:03:01 - Gathering public and private ip addresses.
+2018/08/07 10:03:01 - Connecting to node 54.200.40.226 for cluster configuration.
+2018/08/07 10:03:01 - Connecting via SSH.
+2018/08/07 10:03:02 - Checking software installation completed.
+2018/08/07 10:03:02 - Software installation finished.
+2018/08/07 10:03:02 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 10:03:03 - Checking file contents.
+2018/08/07 10:03:03 - Remote file contents confirmed.
+2018/08/07 10:03:04 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 10:03:04 - Writing cluster private ip addresses to file on instance.
+2018/08/07 10:03:04 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 10:03:04 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 10:03:04 - Checking file contents.
+2018/08/07 10:03:05 - Remote file contents confirmed.
+2018/08/07 10:03:05 - Running envgen
+2018/08/07 10:03:05 - Reading the config file.
+2018/08/07 10:03:06 - Retrieving IP address of ESP Server.
+2018/08/07 10:03:06 - ESP Server private IP address: 172.31.22.200.
+2018/08/07 10:03:06 - ESP Server public IP address: 54.200.40.226.
+2018/08/07 10:03:06 - 54.200.40.226:   Starting node configuration.
+2018/08/07 10:03:06 - 54.200.40.226:   Connecting via SSH.
+2018/08/07 10:03:07 - 54.200.40.226:   Checking software installation completed.
+2018/08/07 10:03:07 - 54.200.40.226:   Software installation finished.
+2018/08/07 10:03:07 - 54.200.40.226:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 10:03:08 - 54.200.40.226:   Checking file contents.
+2018/08/07 10:03:08 - 54.200.40.226:   Remote file contents confirmed.
+2018/08/07 10:03:09 - 54.200.40.226:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 10:03:09 - 54.200.40.226:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/07 10:03:10 - 54.200.40.226:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/07 10:03:10 - 54.200.40.226:   Checking file contents.
+2018/08/07 10:03:11 - 54.200.40.226:   Remote file contents confirmed.
+2018/08/07 10:03:11 - 54.200.40.226:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/07 10:03:32 - 54.200.40.226:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting mydali ...            [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting mydfuserver ...       [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting myeclagent ...        [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting myeclccserver ...     [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting myesp ...             [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting mysasha ...           [   OK    ]   
+2018/08/07 10:03:32 - 54.200.40.226:   Starting mythor ...            [   OK    ]  
+2018/08/07 10:03:32 - 54.200.40.226:   Start node is complete.
+2018/08/07 10:03:32 - Done.
+2018/08/07 10:04:43 - Terminating cluster.
+2018/08/07 10:04:43 - Connecting to AWS region us-west-2.
+2018/08/07 10:04:43 - Gathering instances for Hpcc-NU3K.
+2018/08/07 10:04:43 - Terminating instances.
+2018/08/07 10:04:43 - Deleting Access Key Hpcc-NU3K.
+2018/08/07 10:04:43 - Deleting Security group Hpcc-NU3K.
+2018/08/07 10:04:44 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-081488baaa3819cd7 has a dependent object
+                      requestId: 7e3de72c-afce-4106-8e0b-7ad3ebeb013c

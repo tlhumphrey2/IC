@@ -1,0 +1,92 @@
+2012/02/13 17:40:01 - Connecting to AWS region us-west-2.
+2012/02/13 17:40:02 - Calculating new unique cluster name for request 131.
+2012/02/13 17:40:03 - Creating new cluster name, Thor-SNUV.
+2012/02/13 17:40:03 - Creating Thor-SNUV security group.
+2012/02/13 17:40:07 - Creating Thor-SNUV key pair.
+2012/02/13 17:40:08 - Launching 1 m1.large nodes using ami-ee74f9de.
+2012/02/13 17:40:08 - Reservation ID r-32e6a202 created.
+2012/02/13 17:40:08 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:14 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:19 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:24 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:29 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:35 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:40 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:45 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:51 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:40:56 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:41:01 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:41:06 - Waiting for 1 of 1 nodes to launch.
+2012/02/13 17:41:12 - Pending instances have completed.
+2012/02/13 17:41:12 - Checking each node launched properly.
+2012/02/13 17:41:12 - 50.112.41.144:   Checking EC2 instance i-6c8cc15c.
+2012/02/13 17:41:12 - 50.112.41.144:   Checking EC2 instance is running.
+2012/02/13 17:41:12 - 50.112.41.144:   Connecting via SSH.
+2012/02/13 17:41:17 - 50.112.41.144:   Checking software installation completed.
+2012/02/13 17:41:17 - 50.112.41.144:   Software installation finished.
+2012/02/13 17:41:17 - 50.112.41.144:   Sending ~/node_health_script via SFTP.
+2012/02/13 17:41:18 - 50.112.41.144:   Copying ~/node_health_script to desitnation.
+2012/02/13 17:41:18 - 50.112.41.144:   Checking file contents.
+2012/02/13 17:41:18 - 50.112.41.144:   Remote file contents confirmed.
+2012/02/13 17:41:19 - 50.112.41.144:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/13 17:41:19 - 50.112.41.144:   Completed check of node 50.112.41.144.
+2012/02/13 17:41:19 - Determining availability zone.
+2012/02/13 17:41:19 - Gathering public and private ip addresses.
+2012/02/13 17:41:19 - Connecting to node 50.112.41.144 for cluster configuration.
+2012/02/13 17:41:19 - Connecting via SSH.
+2012/02/13 17:41:21 - Checking software installation completed.
+2012/02/13 17:41:21 - Software installation finished.
+2012/02/13 17:41:21 - Sending ~/node_health_script via SFTP.
+2012/02/13 17:41:21 - Copying ~/node_health_script to desitnation.
+2012/02/13 17:41:22 - Checking file contents.
+2012/02/13 17:41:22 - Remote file contents confirmed.
+2012/02/13 17:41:23 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/13 17:41:23 - Writing cluster private ip addresses to file on instance.
+2012/02/13 17:41:23 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/13 17:41:24 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/13 17:41:24 - Checking file contents.
+2012/02/13 17:41:24 - Remote file contents confirmed.
+2012/02/13 17:41:24 - Running envgen
+2012/02/13 17:41:25 - Reading the config file.
+2012/02/13 17:41:26 - Retrieving IP address of ESP Server.
+2012/02/13 17:41:26 - ESP Server private IP address: 10.252.14.215.
+2012/02/13 17:41:26 - ESP Server public IP address: 50.112.41.144.
+2012/02/13 17:41:26 - 50.112.41.144:   Starting node configuration.
+2012/02/13 17:41:26 - 50.112.41.144:   Connecting via SSH.
+2012/02/13 17:41:28 - 50.112.41.144:   Checking software installation completed.
+2012/02/13 17:41:28 - 50.112.41.144:   Software installation finished.
+2012/02/13 17:41:28 - 50.112.41.144:   Sending ~/node_health_script via SFTP.
+2012/02/13 17:41:29 - 50.112.41.144:   Copying ~/node_health_script to desitnation.
+2012/02/13 17:41:29 - 50.112.41.144:   Checking file contents.
+2012/02/13 17:41:29 - 50.112.41.144:   Remote file contents confirmed.
+2012/02/13 17:41:30 - 50.112.41.144:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/02/13 17:41:30 - 50.112.41.144:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/13 17:41:31 - 50.112.41.144:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/13 17:41:32 - 50.112.41.144:   Checking file contents.
+2012/02/13 17:41:32 - 50.112.41.144:   Remote file contents confirmed.
+2012/02/13 17:41:32 - 50.112.41.144:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/13 17:41:58 - 50.112.41.144:   Starting mydafilesrv....       [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting mydali....            [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting mydfuserver....       [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting myeclagent....        [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting myeclccserver....     [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting myeclscheduler....    [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting myesp....             [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting mysasha....           [  OK  ]   
+2012/02/13 17:41:58 - 50.112.41.144:   Starting mythor....            [  OK  ]  
+2012/02/13 17:41:58 - 50.112.41.144:   Start node is complete.
+2012/02/13 17:41:58 - Done.
+2012/02/13 21:28:27 - Terminating cluster.
+2012/02/13 21:28:27 - Connecting to AWS region us-west-2.
+2012/02/13 21:28:27 - Gathering instances for Thor-SNUV.
+2012/02/13 21:28:28 - Terminating instances.
+2012/02/13 21:28:29 - Waiting for 1 instances to terminate.
+2012/02/13 21:28:34 - Waiting for 1 instances to terminate.
+2012/02/13 21:28:39 - Waiting for 1 instances to terminate.
+2012/02/13 21:28:44 - Waiting for 1 instances to terminate.
+2012/02/13 21:28:50 - Waiting for 1 instances to terminate.
+2012/02/13 21:28:55 - Waiting for 1 instances to terminate.
+2012/02/13 21:29:00 - Waiting for 1 instances to terminate.
+2012/02/13 21:29:06 - Deleting Access Key Thor-SNUV.
+2012/02/13 21:29:06 - Deleting Security group Thor-SNUV.
+2012/02/13 21:29:07 - Done.

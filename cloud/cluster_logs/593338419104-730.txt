@@ -1,0 +1,94 @@
+2013/12/28 13:25:00 - Connecting to AWS region us-west-2.
+2013/12/28 13:25:00 - Calculating new unique cluster name for request 730.
+2013/12/28 13:25:01 - Creating new cluster name, Hpcc-U7ZS.
+2013/12/28 13:25:01 - Creating Hpcc-U7ZS security group.
+2013/12/28 13:25:06 - Creating Hpcc-U7ZS key pair.
+2013/12/28 13:25:07 - Launching 1 m1.large nodes using ami-221d8012.
+2013/12/28 13:25:08 - Reservation ID r-875dccb1 created.
+2013/12/28 13:25:08 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:13 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:18 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:24 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:29 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:34 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:39 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:45 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:50 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:25:55 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:00 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:06 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:11 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:16 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:21 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:27 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:32 - Waiting for 1 of 1 nodes to launch.
+2013/12/28 13:26:37 - Pending instances have completed.
+2013/12/28 13:26:37 - Checking each node launched properly.
+2013/12/28 13:26:37 - 54.245.212.81:   Checking EC2 instance i-6c69b15a.
+2013/12/28 13:26:37 - 54.245.212.81:   Checking EC2 instance is running.
+2013/12/28 13:26:37 - 54.245.212.81:   Connecting via SSH.
+2013/12/28 13:26:48 - 54.245.212.81:   Checking software installation completed.
+2013/12/28 13:26:49 - 54.245.212.81:   Waiting for software to install.
+2013/12/28 13:26:59 - 54.245.212.81:   Software installation finished.
+2013/12/28 13:26:59 - 54.245.212.81:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/12/28 13:27:00 - 54.245.212.81:   Checking file contents.
+2013/12/28 13:27:00 - 54.245.212.81:   Remote file contents confirmed.
+2013/12/28 13:27:01 - 54.245.212.81:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/12/28 13:27:01 - 54.245.212.81:   Completed check of node 54.245.212.81.
+2013/12/28 13:27:01 - Determining availability zone.
+2013/12/28 13:27:01 - Gathering public and private ip addresses.
+2013/12/28 13:27:01 - Connecting to node 54.245.212.81 for cluster configuration.
+2013/12/28 13:27:01 - Connecting via SSH.
+2013/12/28 13:27:09 - Checking software installation completed.
+2013/12/28 13:27:09 - Software installation finished.
+2013/12/28 13:27:09 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/12/28 13:27:10 - Checking file contents.
+2013/12/28 13:27:10 - Remote file contents confirmed.
+2013/12/28 13:27:11 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/12/28 13:27:11 - Writing cluster private ip addresses to file on instance.
+2013/12/28 13:27:11 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/12/28 13:27:11 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/12/28 13:27:11 - Checking file contents.
+2013/12/28 13:27:12 - Remote file contents confirmed.
+2013/12/28 13:27:12 - Running envgen
+2013/12/28 13:27:13 - Reading the config file.
+2013/12/28 13:27:13 - Retrieving IP address of ESP Server.
+2013/12/28 13:27:13 - ESP Server private IP address: 10.252.6.207.
+2013/12/28 13:27:13 - ESP Server public IP address: 54.245.212.81.
+2013/12/28 13:27:14 - 54.245.212.81:   Starting node configuration.
+2013/12/28 13:27:14 - 54.245.212.81:   Connecting via SSH.
+2013/12/28 13:27:15 - 54.245.212.81:   Checking software installation completed.
+2013/12/28 13:27:15 - 54.245.212.81:   Software installation finished.
+2013/12/28 13:27:15 - 54.245.212.81:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/12/28 13:27:16 - 54.245.212.81:   Checking file contents.
+2013/12/28 13:27:16 - 54.245.212.81:   Remote file contents confirmed.
+2013/12/28 13:27:16 - 54.245.212.81:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/12/28 13:27:16 - 54.245.212.81:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/12/28 13:27:17 - 54.245.212.81:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/12/28 13:27:18 - 54.245.212.81:   Checking file contents.
+2013/12/28 13:27:18 - 54.245.212.81:   Remote file contents confirmed.
+2013/12/28 13:27:18 - 54.245.212.81:   Starting HPCC Platform Community Edition: 4.0.0-9.
+2013/12/28 13:27:45 - 54.245.212.81:   Starting mydafilesrv....       [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting mydali....            [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting mydfuserver....       [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting myeclagent....        [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting myeclccserver....     [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting myeclscheduler....    [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting myesp....             [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting mysasha....           [  OK  ]   
+2013/12/28 13:27:45 - 54.245.212.81:   Starting mythor....            [  OK  ]  
+2013/12/28 13:27:45 - 54.245.212.81:   Start node is complete.
+2013/12/28 13:27:45 - Done.
+2013/12/28 14:35:49 - Terminating cluster.
+2013/12/28 14:35:49 - Connecting to AWS region us-west-2.
+2013/12/28 14:35:49 - Gathering instances for Hpcc-U7ZS.
+2013/12/28 14:35:49 - Terminating instances.
+2013/12/28 14:35:50 - Waiting for 1 instances to terminate.
+2013/12/28 14:35:55 - Waiting for 1 instances to terminate.
+2013/12/28 14:36:00 - Waiting for 1 instances to terminate.
+2013/12/28 14:36:05 - Waiting for 1 instances to terminate.
+2013/12/28 14:36:11 - Waiting for 1 instances to terminate.
+2013/12/28 14:36:16 - Waiting for 1 instances to terminate.
+2013/12/28 14:36:21 - Deleting Access Key Hpcc-U7ZS.
+2013/12/28 14:36:22 - Deleting Security group Hpcc-U7ZS.
+2013/12/28 14:36:22 - Done.

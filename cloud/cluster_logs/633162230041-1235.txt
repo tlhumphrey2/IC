@@ -1,0 +1,93 @@
+2016/06/07 10:56:26 - Connecting to AWS region eu-central-1.
+2016/06/07 10:56:26 - Calculating new unique cluster name for request 1235.
+2016/06/07 10:56:27 - Creating new cluster name, Hpcc-XPVN.
+2016/06/07 10:56:27 - Creating Hpcc-XPVN security group.
+2016/06/07 10:56:30 - Creating Hpcc-XPVN key pair.
+2016/06/07 10:56:30 - Launching 1 m3.large nodes using ami-e505eb8a.
+2016/06/07 10:56:31 - Reservation ID r-ac61db10 created.
+2016/06/07 10:56:31 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:56:36 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:56:41 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:56:46 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:56:52 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:56:57 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:02 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:07 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:12 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:17 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:22 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:28 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:33 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:38 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:43 - Waiting for 1 of 1 nodes to launch.
+2016/06/07 10:57:48 - Pending instances have completed.
+2016/06/07 10:57:48 - Checking each node launched properly.
+2016/06/07 10:57:48 - 52.58.236.125:   Checking EC2 instance i-24255098.
+2016/06/07 10:57:48 - 52.58.236.125:   Checking EC2 instance is running.
+2016/06/07 10:57:48 - 52.58.236.125:   Connecting via SSH.
+2016/06/07 10:57:49 - 52.58.236.125:   Waiting on SSH connection.
+2016/06/07 10:57:57 - 52.58.236.125:   Checking software installation completed.
+2016/06/07 10:57:57 - 52.58.236.125:   Software installation finished.
+2016/06/07 10:57:57 - 52.58.236.125:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 10:57:58 - 52.58.236.125:   Checking file contents.
+2016/06/07 10:57:58 - 52.58.236.125:   Remote file contents confirmed.
+2016/06/07 10:57:59 - 52.58.236.125:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 10:57:59 - 52.58.236.125:   Completed check of node 52.58.236.125.
+2016/06/07 10:57:59 - Determining availability zone.
+2016/06/07 10:57:59 - Gathering public and private ip addresses.
+2016/06/07 10:57:59 - Connecting to node 52.58.236.125 for cluster configuration.
+2016/06/07 10:57:59 - Connecting via SSH.
+2016/06/07 10:58:00 - Checking software installation completed.
+2016/06/07 10:58:01 - Software installation finished.
+2016/06/07 10:58:01 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 10:58:01 - Checking file contents.
+2016/06/07 10:58:01 - Remote file contents confirmed.
+2016/06/07 10:58:02 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 10:58:02 - Writing cluster private ip addresses to file on instance.
+2016/06/07 10:58:02 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/06/07 10:58:03 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/06/07 10:58:03 - Checking file contents.
+2016/06/07 10:58:03 - Remote file contents confirmed.
+2016/06/07 10:58:03 - Running envgen
+2016/06/07 10:58:04 - Reading the config file.
+2016/06/07 10:58:04 - Retrieving IP address of ESP Server.
+2016/06/07 10:58:05 - ESP Server private IP address: 172.31.3.25.
+2016/06/07 10:58:05 - ESP Server public IP address: 52.58.236.125.
+2016/06/07 10:58:05 - 52.58.236.125:   Starting node configuration.
+2016/06/07 10:58:05 - 52.58.236.125:   Connecting via SSH.
+2016/06/07 10:58:06 - 52.58.236.125:   Checking software installation completed.
+2016/06/07 10:58:06 - 52.58.236.125:   Software installation finished.
+2016/06/07 10:58:06 - 52.58.236.125:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/07 10:58:07 - 52.58.236.125:   Checking file contents.
+2016/06/07 10:58:07 - 52.58.236.125:   Remote file contents confirmed.
+2016/06/07 10:58:08 - 52.58.236.125:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/07 10:58:08 - 52.58.236.125:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/06/07 10:58:09 - 52.58.236.125:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/06/07 10:58:09 - 52.58.236.125:   Checking file contents.
+2016/06/07 10:58:10 - 52.58.236.125:   Remote file contents confirmed.
+2016/06/07 10:58:10 - 52.58.236.125:   Starting HPCC Platform Community Edition: 5.6.2-1.
+2016/06/07 10:58:25 - 52.58.236.125:   Starting mydafilesrv ...       [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting mydali ...            [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting mydfuserver ...       [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting myeclagent ...        [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting myeclccserver ...     [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting myeclscheduler ...    [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting myesp ...             [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting mysasha ...           [   OK    ]   
+2016/06/07 10:58:25 - 52.58.236.125:   Starting mythor ...            [   OK    ]  
+2016/06/07 10:58:25 - 52.58.236.125:   Start node is complete.
+2016/06/07 10:58:25 - Done.
+2016/06/07 12:37:53 - Terminating cluster.
+2016/06/07 12:37:53 - Connecting to AWS region eu-central-1.
+2016/06/07 12:37:53 - Gathering instances for Hpcc-XPVN.
+2016/06/07 12:37:54 - Terminating instances.
+2016/06/07 12:37:54 - Waiting for 1 instances to terminate.
+2016/06/07 12:37:59 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:05 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:10 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:15 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:20 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:25 - Waiting for 1 instances to terminate.
+2016/06/07 12:38:30 - Deleting Access Key Hpcc-XPVN.
+2016/06/07 12:38:31 - Deleting Security group Hpcc-XPVN.
+2016/06/07 12:38:31 - Done.

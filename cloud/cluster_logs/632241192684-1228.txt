@@ -1,0 +1,78 @@
+2016/05/05 08:54:51 - Connecting to AWS region eu-west-1.
+2016/05/05 08:54:51 - Calculating new unique cluster name for request 1228.
+2016/05/05 08:54:51 - Creating new cluster name, Hpcc-NE52.
+2016/05/05 08:54:51 - Creating Hpcc-NE52 security group.
+2016/05/05 08:54:53 - Creating Hpcc-NE52 key pair.
+2016/05/05 08:54:54 - Launching 1 m1.large nodes using ami-c5cb49b6.
+2016/05/05 08:54:54 - Reservation ID r-e393cc5a created.
+2016/05/05 08:54:54 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:00 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:05 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:10 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:15 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:20 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:25 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:31 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:36 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:41 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:46 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:51 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:55:56 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:56:01 - Waiting for 1 of 1 nodes to launch.
+2016/05/05 08:56:07 - Pending instances have completed.
+2016/05/05 08:56:07 - Checking each node launched properly.
+2016/05/05 08:56:07 - 54.171.69.165:   Checking EC2 instance i-d0b6c25a.
+2016/05/05 08:56:07 - 54.171.69.165:   Checking EC2 instance is running.
+2016/05/05 08:56:07 - 54.171.69.165:   Connecting via SSH.
+2016/05/05 08:56:14 - 54.171.69.165:   Waiting on SSH connection.
+2016/05/05 08:56:26 - 54.171.69.165:   Checking software installation completed.
+2016/05/05 08:56:26 - 54.171.69.165:   Software installation finished.
+2016/05/05 08:56:26 - 54.171.69.165:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/05/05 08:56:27 - 54.171.69.165:   Checking file contents.
+2016/05/05 08:56:27 - 54.171.69.165:   Remote file contents confirmed.
+2016/05/05 08:56:28 - 54.171.69.165:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/05/05 08:56:28 - 54.171.69.165:   Completed check of node 54.171.69.165.
+2016/05/05 08:56:28 - Determining availability zone.
+2016/05/05 08:56:28 - Gathering public and private ip addresses.
+2016/05/05 08:56:28 - Connecting to node 54.171.69.165 for cluster configuration.
+2016/05/05 08:56:28 - Connecting via SSH.
+2016/05/05 08:56:29 - Checking software installation completed.
+2016/05/05 08:56:29 - Software installation finished.
+2016/05/05 08:56:29 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/05/05 08:56:30 - Checking file contents.
+2016/05/05 08:56:30 - Remote file contents confirmed.
+2016/05/05 08:56:31 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/05/05 08:56:31 - Writing cluster private ip addresses to file on instance.
+2016/05/05 08:56:31 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/05/05 08:56:31 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/05/05 08:56:32 - Checking file contents.
+2016/05/05 08:56:32 - Remote file contents confirmed.
+2016/05/05 08:56:32 - Running envgen
+2016/05/05 08:56:33 - Reading the config file.
+2016/05/05 08:56:33 - Retrieving IP address of ESP Server.
+2016/05/05 08:56:34 - ESP Server private IP address: 172.31.42.255.
+2016/05/05 08:56:34 - ESP Server public IP address: 54.171.69.165.
+2016/05/05 08:56:34 - 54.171.69.165:   Starting node configuration.
+2016/05/05 08:56:34 - 54.171.69.165:   Connecting via SSH.
+2016/05/05 08:56:35 - 54.171.69.165:   Checking software installation completed.
+2016/05/05 08:56:35 - 54.171.69.165:   Software installation finished.
+2016/05/05 08:56:35 - 54.171.69.165:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/05/05 08:56:36 - 54.171.69.165:   Checking file contents.
+2016/05/05 08:56:36 - 54.171.69.165:   Remote file contents confirmed.
+2016/05/05 08:56:37 - 54.171.69.165:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/05/05 08:56:37 - 54.171.69.165:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/05/05 08:56:38 - 54.171.69.165:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/05/05 08:56:38 - 54.171.69.165:   Checking file contents.
+2016/05/05 08:56:38 - 54.171.69.165:   Remote file contents confirmed.
+2016/05/05 08:56:38 - 54.171.69.165:   Starting HPCC Platform Community Edition: 5.6.2-1.
+2016/05/05 08:56:55 - 54.171.69.165:   Starting mydafilesrv ...       [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting mydali ...            [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting mydfuserver ...       [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting myeclagent ...        [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting myeclccserver ...     [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting myeclscheduler ...    [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting myesp ...             [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting mysasha ...           [   OK    ]   
+2016/05/05 08:56:55 - 54.171.69.165:   Starting mythor ...            [   OK    ]  
+2016/05/05 08:56:55 - 54.171.69.165:   Start node is complete.
+2016/05/05 08:56:55 - Done.

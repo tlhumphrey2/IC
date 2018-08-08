@@ -1,0 +1,615 @@
+2012/02/01 08:49:53 - Connecting to AWS region us-west-2.
+2012/02/01 08:49:53 - Calculating new unique cluster name for request 71.
+2012/02/01 08:49:54 - Creating new cluster name, Thor-KRDZ.
+2012/02/01 08:49:54 - Creating Thor-KRDZ security group.
+2012/02/01 08:49:58 - Creating Thor-KRDZ key pair.
+2012/02/01 08:49:58 - Launching 20 m1.large nodes using ami-94b33ea4.
+2012/02/01 08:49:59 - Reservation ID r-aa09779a created
+2012/02/01 08:49:59 - Waiting for 20 of 20 nodes to launch.
+2012/02/01 08:50:10 - Waiting for 20 of 20 nodes to launch.
+2012/02/01 08:50:21 - Waiting for 20 of 20 nodes to launch.
+2012/02/01 08:50:31 - Waiting for 9 of 20 nodes to launch.
+2012/02/01 08:50:39 - Pending instances have completed.
+2012/02/01 08:50:39 - Checking each node launched properly.
+2012/02/01 08:50:39 - 50.112.48.254:   Checking EC2 instance i-9ce3a6ac.
+2012/02/01 08:50:39 - 50.112.42.132:   Checking EC2 instance i-9ee3a6ae.
+2012/02/01 08:50:39 - 50.112.54.113:   Checking EC2 instance i-80e3a6b0.
+2012/02/01 08:50:39 - 50.112.45.102:   Checking EC2 instance i-82e3a6b2.
+2012/02/01 08:50:39 - 50.112.27.47:    Checking EC2 instance i-84e3a6b4.
+2012/02/01 08:50:39 - 50.112.28.227:   Checking EC2 instance i-86e3a6b6.
+2012/02/01 08:50:39 - 50.112.39.115:   Checking EC2 instance i-88e3a6b8.
+2012/02/01 08:50:39 - 50.112.20.69:    Checking EC2 instance i-8ae3a6ba.
+2012/02/01 08:50:39 - 50.112.29.46:    Checking EC2 instance i-8ce3a6bc.
+2012/02/01 08:50:39 - 50.112.7.194:    Checking EC2 instance i-8ee3a6be.
+2012/02/01 08:50:39 - 50.112.51.34:    Checking EC2 instance i-f0e3a6c0.
+2012/02/01 08:50:39 - 50.112.21.213:   Checking EC2 instance i-f2e3a6c2.
+2012/02/01 08:50:39 - 50.112.39.43:    Checking EC2 instance i-f4e3a6c4.
+2012/02/01 08:50:39 - 50.112.3.211:    Checking EC2 instance i-f6e3a6c6.
+2012/02/01 08:50:39 - 50.112.50.158:   Checking EC2 instance i-f8e3a6c8.
+2012/02/01 08:50:39 - 50.112.41.199:   Checking EC2 instance i-fae3a6ca.
+2012/02/01 08:50:39 - 50.112.31.87:    Checking EC2 instance i-fce3a6cc.
+2012/02/01 08:50:39 - 50.112.21.214:   Checking EC2 instance i-fee3a6ce.
+2012/02/01 08:50:39 - 50.112.25.161:   Checking EC2 instance i-e0e3a6d0.
+2012/02/01 08:50:39 - 50.112.18.173:   Checking EC2 instance i-e2e3a6d2.
+2012/02/01 08:50:39 - 50.112.48.254:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.48.254:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.21.213:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.21.213:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.7.194:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.7.194:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.3.211:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.3.211:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.27.47:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.27.47:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.54.113:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.54.113:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.28.227:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.29.46:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.28.227:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.29.46:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.42.132:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.31.87:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.31.87:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.45.102:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.51.34:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.39.43:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.39.43:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.42.132:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.45.102:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.25.161:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.25.161:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.21.214:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.21.214:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.51.34:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.50.158:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.50.158:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.20.69:    Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.20.69:    Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.41.199:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.41.199:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.18.173:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.18.173:   Connecting via SSH.
+2012/02/01 08:50:39 - 50.112.39.115:   Checking EC2 instance is running.
+2012/02/01 08:50:39 - 50.112.39.115:   Connecting via SSH.
+2012/02/01 08:50:40 - 50.112.51.34:    Waiting on SSH connection.
+2012/02/01 08:50:43 - 50.112.48.254:   Checking network mask is compatible.
+2012/02/01 08:50:43 - 50.112.48.254:   Checking disk I/O
+2012/02/01 08:50:43 - 50.112.48.254:   Checking software installation completed.
+2012/02/01 08:50:43 - 50.112.39.43:    Checking network mask is compatible.
+2012/02/01 08:50:43 - 50.112.39.43:    Checking disk I/O
+2012/02/01 08:50:44 - 50.112.18.173:   Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.18.173:   Checking disk I/O
+2012/02/01 08:50:44 - 50.112.39.43:    Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.41.199:   Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.41.199:   Checking disk I/O
+2012/02/01 08:50:44 - 50.112.7.194:    Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.7.194:    Checking disk I/O
+2012/02/01 08:50:44 - 50.112.48.254:   Waiting for software to install.
+2012/02/01 08:50:44 - 50.112.18.173:   Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.41.199:   Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.3.211:    Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.3.211:    Checking disk I/O
+2012/02/01 08:50:44 - 50.112.7.194:    Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.39.43:    Waiting for software to install.
+2012/02/01 08:50:44 - 50.112.45.102:   Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.45.102:   Checking disk I/O
+2012/02/01 08:50:44 - 50.112.20.69:    Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.20.69:    Checking disk I/O
+2012/02/01 08:50:44 - 50.112.42.132:   Checking network mask is compatible.
+2012/02/01 08:50:44 - 50.112.42.132:   Checking disk I/O
+2012/02/01 08:50:44 - 50.112.18.173:   Waiting for software to install.
+2012/02/01 08:50:44 - 50.112.3.211:    Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.41.199:   Waiting for software to install.
+2012/02/01 08:50:44 - 50.112.20.69:    Checking software installation completed.
+2012/02/01 08:50:44 - 50.112.7.194:    Waiting for software to install.
+2012/02/01 08:50:44 - 50.112.45.102:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.28.227:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.28.227:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.39.115:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.39.115:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.3.211:    Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.27.47:    Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.27.47:    Checking disk I/O
+2012/02/01 08:50:45 - 50.112.31.87:    Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.31.87:    Checking disk I/O
+2012/02/01 08:50:45 - 50.112.25.161:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.25.161:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.28.227:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.20.69:    Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.45.102:   Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.39.115:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.21.214:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.21.214:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.21.213:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.21.213:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.27.47:    Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.42.132:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.31.87:    Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.21.214:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.21.213:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.28.227:   Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.54.113:   Checking network mask is compatible.
+2012/02/01 08:50:45 - 50.112.54.113:   Checking disk I/O
+2012/02/01 08:50:45 - 50.112.39.115:   Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.42.132:   Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.27.47:    Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.31.87:    Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.21.214:   Waiting for software to install.
+2012/02/01 08:50:45 - 50.112.54.113:   Checking software installation completed.
+2012/02/01 08:50:45 - 50.112.21.213:   Waiting for software to install.
+2012/02/01 08:50:46 - 50.112.54.113:   Waiting for software to install.
+2012/02/01 08:50:46 - 50.112.50.158:   Checking network mask is compatible.
+2012/02/01 08:50:46 - 50.112.50.158:   Checking disk I/O
+2012/02/01 08:50:46 - 50.112.25.161:   Checking software installation completed.
+2012/02/01 08:50:46 - 50.112.29.46:    Checking network mask is compatible.
+2012/02/01 08:50:46 - 50.112.29.46:    Checking disk I/O
+2012/02/01 08:50:46 - 50.112.50.158:   Checking software installation completed.
+2012/02/01 08:50:47 - 50.112.29.46:    Checking software installation completed.
+2012/02/01 08:50:47 - 50.112.25.161:   Waiting for software to install.
+2012/02/01 08:50:47 - 50.112.29.46:    Waiting for software to install.
+2012/02/01 08:50:47 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:50:50 - 50.112.51.34:    Checking network mask is compatible.
+2012/02/01 08:50:50 - 50.112.51.34:    Checking disk I/O
+2012/02/01 08:50:50 - 50.112.51.34:    Checking software installation completed.
+2012/02/01 08:50:51 - 50.112.51.34:    Waiting for software to install.
+2012/02/01 08:50:54 - 50.112.48.254:   Waiting for software to install.
+2012/02/01 08:50:54 - 50.112.39.43:    Waiting for software to install.
+2012/02/01 08:50:54 - 50.112.18.173:   Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.41.199:   Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.7.194:    Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.3.211:    Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.45.102:   Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.20.69:    Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.28.227:   Waiting for software to install.
+2012/02/01 08:50:55 - 50.112.39.115:   Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.42.132:   Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.31.87:    Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.27.47:    Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.21.214:   Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.21.213:   Waiting for software to install.
+2012/02/01 08:50:56 - 50.112.54.113:   Waiting for software to install.
+2012/02/01 08:50:57 - 50.112.25.161:   Waiting for software to install.
+2012/02/01 08:50:57 - 50.112.29.46:    Waiting for software to install.
+2012/02/01 08:50:57 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:51:01 - 50.112.51.34:    Waiting for software to install.
+2012/02/01 08:51:04 - 50.112.48.254:   Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.39.43:    Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.18.173:   Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.41.199:   Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.7.194:    Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.3.211:    Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.20.69:    Waiting for software to install.
+2012/02/01 08:51:05 - 50.112.45.102:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.28.227:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.39.115:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.42.132:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.31.87:    Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.27.47:    Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.21.214:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.21.213:   Waiting for software to install.
+2012/02/01 08:51:06 - 50.112.54.113:   Waiting for software to install.
+2012/02/01 08:51:07 - 50.112.29.46:    Waiting for software to install.
+2012/02/01 08:51:08 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:51:08 - 50.112.25.161:   Waiting for software to install.
+2012/02/01 08:51:11 - 50.112.51.34:    Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.48.254:   Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.39.43:    Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.18.173:   Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.41.199:   Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.7.194:    Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.3.211:    Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.20.69:    Waiting for software to install.
+2012/02/01 08:51:15 - 50.112.45.102:   Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.28.227:   Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.39.115:   Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.42.132:   Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.27.47:    Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.31.87:    Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.21.214:   Waiting for software to install.
+2012/02/01 08:51:16 - 50.112.21.213:   Waiting for software to install.
+2012/02/01 08:51:17 - 50.112.54.113:   Waiting for software to install.
+2012/02/01 08:51:18 - 50.112.29.46:    Waiting for software to install.
+2012/02/01 08:51:18 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:51:18 - 50.112.25.161:   Waiting for software to install.
+2012/02/01 08:51:21 - 50.112.51.34:    Waiting for software to install.
+2012/02/01 08:51:25 - 50.112.48.254:   Software installation finished.
+2012/02/01 08:51:25 - 50.112.48.254:   Completed check of node 50.112.48.254.
+2012/02/01 08:51:25 - 50.112.39.43:    Waiting for software to install.
+2012/02/01 08:51:25 - 50.112.18.173:   Waiting for software to install.
+2012/02/01 08:51:25 - 50.112.41.199:   Software installation finished.
+2012/02/01 08:51:25 - 50.112.41.199:   Completed check of node 50.112.41.199.
+2012/02/01 08:51:26 - 50.112.7.194:    Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.3.211:    Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.20.69:    Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.45.102:   Software installation finished.
+2012/02/01 08:51:26 - 50.112.45.102:   Completed check of node 50.112.45.102.
+2012/02/01 08:51:26 - 50.112.28.227:   Software installation finished.
+2012/02/01 08:51:26 - 50.112.28.227:   Completed check of node 50.112.28.227.
+2012/02/01 08:51:26 - 50.112.39.115:   Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.42.132:   Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.31.87:    Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.27.47:    Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.21.214:   Waiting for software to install.
+2012/02/01 08:51:26 - 50.112.21.213:   Waiting for software to install.
+2012/02/01 08:51:27 - 50.112.54.113:   Waiting for software to install.
+2012/02/01 08:51:28 - 50.112.29.46:    Waiting for software to install.
+2012/02/01 08:51:28 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:51:28 - 50.112.25.161:   Waiting for software to install.
+2012/02/01 08:51:32 - 50.112.51.34:    Waiting for software to install.
+2012/02/01 08:51:35 - 50.112.39.43:    Software installation finished.
+2012/02/01 08:51:35 - 50.112.39.43:    Completed check of node 50.112.39.43.
+2012/02/01 08:51:36 - 50.112.18.173:   Software installation finished.
+2012/02/01 08:51:36 - 50.112.18.173:   Completed check of node 50.112.18.173.
+2012/02/01 08:51:36 - 50.112.7.194:    Software installation finished.
+2012/02/01 08:51:36 - 50.112.7.194:    Completed check of node 50.112.7.194.
+2012/02/01 08:51:36 - 50.112.3.211:    Software installation finished.
+2012/02/01 08:51:36 - 50.112.3.211:    Completed check of node 50.112.3.211.
+2012/02/01 08:51:36 - 50.112.20.69:    Software installation finished.
+2012/02/01 08:51:36 - 50.112.20.69:    Completed check of node 50.112.20.69.
+2012/02/01 08:51:36 - 50.112.39.115:   Software installation finished.
+2012/02/01 08:51:36 - 50.112.39.115:   Completed check of node 50.112.39.115.
+2012/02/01 08:51:36 - 50.112.42.132:   Software installation finished.
+2012/02/01 08:51:36 - 50.112.42.132:   Completed check of node 50.112.42.132.
+2012/02/01 08:51:37 - 50.112.31.87:    Software installation finished.
+2012/02/01 08:51:37 - 50.112.31.87:    Completed check of node 50.112.31.87.
+2012/02/01 08:51:37 - 50.112.27.47:    Software installation finished.
+2012/02/01 08:51:37 - 50.112.27.47:    Completed check of node 50.112.27.47.
+2012/02/01 08:51:37 - 50.112.21.214:   Software installation finished.
+2012/02/01 08:51:37 - 50.112.21.213:   Software installation finished.
+2012/02/01 08:51:37 - 50.112.21.213:   Completed check of node 50.112.21.213.
+2012/02/01 08:51:37 - 50.112.21.214:   Completed check of node 50.112.21.214.
+2012/02/01 08:51:37 - 50.112.54.113:   Software installation finished.
+2012/02/01 08:51:37 - 50.112.54.113:   Completed check of node 50.112.54.113.
+2012/02/01 08:51:38 - 50.112.29.46:    Software installation finished.
+2012/02/01 08:51:38 - 50.112.29.46:    Completed check of node 50.112.29.46.
+2012/02/01 08:51:38 - 50.112.50.158:   Waiting for software to install.
+2012/02/01 08:51:38 - 50.112.25.161:   Software installation finished.
+2012/02/01 08:51:38 - 50.112.25.161:   Completed check of node 50.112.25.161.
+2012/02/01 08:51:42 - 50.112.51.34:    Software installation finished.
+2012/02/01 08:51:42 - 50.112.51.34:    Completed check of node 50.112.51.34.
+2012/02/01 08:51:49 - 50.112.50.158:   Software installation finished.
+2012/02/01 08:51:49 - 50.112.50.158:   Completed check of node 50.112.50.158.
+2012/02/01 08:51:49 - Determining availability zone.
+2012/02/01 08:51:49 - Gathering public and private ip addresses.
+2012/02/01 08:51:49 - Connecting to node 50.112.48.254 for cluster configuration.
+2012/02/01 08:51:49 - Connecting via SSH.
+2012/02/01 08:51:50 - Checking network mask is compatible.
+2012/02/01 08:51:50 - Checking disk I/O
+2012/02/01 08:51:50 - Checking software installation completed.
+2012/02/01 08:51:51 - Software installation finished.
+2012/02/01 08:51:51 - Writing cluster private ip addresses to file on instance.
+2012/02/01 08:51:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/01 08:51:51 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/01 08:51:52 - Checking file contents.
+2012/02/01 08:51:52 - Remote file contents confirmed.
+2012/02/01 08:51:52 - Running envgen
+2012/02/01 08:51:53 - Reading the config file.
+2012/02/01 08:51:53 - Retrieving IP address of ESP Server.
+2012/02/01 08:51:54 - ESP Server private IP address: 10.252.21.213.
+2012/02/01 08:51:54 - ESP Server public IP address: 50.112.48.254.
+2012/02/01 08:51:54 - 50.112.48.254:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.54.113:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.48.254:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.42.132:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.42.132:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.45.102:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.27.47:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.45.102:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.54.113:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.27.47:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.39.115:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.39.115:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.28.227:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.28.227:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.7.194:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.29.46:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.21.213:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.21.213:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.51.34:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.39.43:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.39.43:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.29.46:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.20.69:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.3.211:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.7.194:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.51.34:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.20.69:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.41.199:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.3.211:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.50.158:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.41.199:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.50.158:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.18.173:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.18.173:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.31.87:    Starting node configuration.
+2012/02/01 08:51:54 - 50.112.25.161:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.25.161:   Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.31.87:    Connecting via SSH.
+2012/02/01 08:51:54 - 50.112.21.214:   Starting node configuration.
+2012/02/01 08:51:54 - 50.112.21.214:   Connecting via SSH.
+2012/02/01 08:51:57 - 50.112.45.102:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.45.102:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.21.213:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.21.213:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.41.199:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.27.47:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.27.47:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.41.199:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.42.132:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.42.132:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.28.227:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.28.227:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.18.173:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.18.173:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.51.34:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.39.115:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.39.115:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.51.34:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.25.161:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.25.161:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.50.158:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.50.158:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.39.43:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.39.43:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.3.211:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.3.211:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.21.214:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.21.214:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.48.254:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.48.254:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.54.113:   Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.54.113:   Checking disk I/O
+2012/02/01 08:51:57 - 50.112.21.213:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.45.102:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.41.199:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.42.132:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.29.46:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.29.46:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.31.87:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.31.87:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.20.69:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.20.69:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.28.227:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.27.47:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.7.194:    Checking network mask is compatible.
+2012/02/01 08:51:57 - 50.112.7.194:    Checking disk I/O
+2012/02/01 08:51:57 - 50.112.18.173:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.39.115:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.51.34:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.50.158:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.25.161:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.3.211:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.54.113:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.48.254:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.39.43:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.21.214:   Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.20.69:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.7.194:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.29.46:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.31.87:    Checking software installation completed.
+2012/02/01 08:51:57 - 50.112.21.213:   Software installation finished.
+2012/02/01 08:51:57 - 50.112.21.213:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:57 - 50.112.45.102:   Software installation finished.
+2012/02/01 08:51:57 - 50.112.45.102:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:57 - 50.112.41.199:   Software installation finished.
+2012/02/01 08:51:57 - 50.112.41.199:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:57 - 50.112.42.132:   Software installation finished.
+2012/02/01 08:51:57 - 50.112.42.132:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:57 - 50.112.28.227:   Software installation finished.
+2012/02/01 08:51:57 - 50.112.28.227:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.27.47:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.27.47:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.18.173:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.18.173:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.50.158:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.50.158:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.39.115:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.39.115:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.51.34:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.51.34:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.25.161:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.25.161:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.54.113:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.54.113:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.3.211:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.3.211:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.48.254:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.48.254:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.21.214:   Software installation finished.
+2012/02/01 08:51:58 - 50.112.21.214:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.39.43:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.39.43:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.20.69:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.20.69:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.7.194:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.7.194:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.31.87:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.31.87:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:58 - 50.112.29.46:    Software installation finished.
+2012/02/01 08:51:58 - 50.112.29.46:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/01 08:51:59 - 50.112.28.227:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.45.102:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.42.132:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.21.213:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.27.47:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.41.199:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.18.173:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.50.158:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.39.115:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.29.46:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.7.194:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.31.87:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.25.161:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.21.214:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.20.69:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.48.254:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.51.34:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.3.211:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.39.43:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.54.113:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/01 08:51:59 - 50.112.28.227:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.45.102:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.27.47:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.21.213:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.41.199:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.42.132:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.18.173:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.50.158:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.39.115:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.29.46:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.7.194:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.31.87:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.20.69:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.21.214:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.51.34:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.48.254:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.54.113:   Checking file contents.
+2012/02/01 08:51:59 - 50.112.39.43:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.3.211:    Checking file contents.
+2012/02/01 08:51:59 - 50.112.25.161:   Checking file contents.
+2012/02/01 08:52:00 - 50.112.28.227:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.28.227:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.28.227:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.50.158:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.50.158:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.50.158:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.39.115:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.39.115:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.39.115:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.21.213:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.21.213:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.21.213:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.18.173:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.41.199:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.27.47:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.18.173:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.18.173:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.27.47:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.27.47:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.42.132:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.41.199:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.41.199:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.42.132:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.42.132:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.45.102:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.45.102:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.45.102:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.7.194:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.29.46:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.7.194:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.7.194:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.20.69:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.29.46:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.29.46:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.20.69:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.20.69:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.51.34:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.51.34:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.51.34:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.54.113:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.54.113:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.54.113:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.3.211:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.3.211:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.3.211:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.39.43:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.21.214:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.21.214:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.21.214:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.31.87:    Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.39.43:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.39.43:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.31.87:    Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.31.87:    HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.48.254:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.48.254:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.48.254:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:00 - 50.112.25.161:   Remote file contents confirmed.
+2012/02/01 08:52:00 - 50.112.25.161:   Starting HPCC services.
+2012/02/01 08:52:00 - 50.112.25.161:   HPPC Systems Thor Community Edition: 3.4.2-1.
+2012/02/01 08:52:03 - 50.112.41.199:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.41.199:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.41.199:   Start node is complete.
+2012/02/01 08:52:03 - 50.112.50.158:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.50.158:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.50.158:   Start node is complete.
+2012/02/01 08:52:03 - 50.112.7.194:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.7.194:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.18.173:   Starting mydafilesrv....       [  OK  ]  
+2012/02/01 08:52:03 - 50.112.7.194:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.18.173:   Start node is complete.
+2012/02/01 08:52:03 - 50.112.21.213:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.21.213:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.21.213:   Start node is complete.
+2012/02/01 08:52:03 - 50.112.25.161:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.25.161:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.51.34:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.51.34:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.29.46:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.29.46:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.29.46:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.39.43:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.39.43:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.39.43:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.20.69:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.20.69:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.20.69:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.3.211:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.3.211:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.3.211:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.21.214:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.21.214:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.25.161:   Start node is complete.
+2012/02/01 08:52:03 - 50.112.51.34:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.31.87:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:03 - 50.112.31.87:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:03 - 50.112.31.87:    Start node is complete.
+2012/02/01 08:52:03 - 50.112.21.214:   Start node is complete.
+2012/02/01 08:52:04 - 50.112.28.227:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.28.227:   Starting myeclscheduler....    [  OK  ]   
+2012/02/01 08:52:04 - 50.112.28.227:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.28.227:   Start node is complete.
+2012/02/01 08:52:04 - 50.112.39.115:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.39.115:   Starting mysasha....           [  OK  ]   
+2012/02/01 08:52:04 - 50.112.39.115:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.39.115:   Start node is complete.
+2012/02/01 08:52:04 - 50.112.42.132:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.42.132:   Starting mydali....            [  OK  ]   
+2012/02/01 08:52:04 - 50.112.42.132:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.42.132:   Start node is complete.
+2012/02/01 08:52:04 - 50.112.27.47:    Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.27.47:    Starting myeclccserver....     [  OK  ]   
+2012/02/01 08:52:04 - 50.112.27.47:    Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.27.47:    Start node is complete.
+2012/02/01 08:52:04 - 50.112.45.102:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.45.102:   Starting myeclagent....        [  OK  ]   
+2012/02/01 08:52:04 - 50.112.45.102:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.45.102:   Start node is complete.
+2012/02/01 08:52:04 - 50.112.54.113:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.54.113:   Starting mydfuserver....       [  OK  ]   
+2012/02/01 08:52:04 - 50.112.54.113:   Setting mythor....             [  OK  ]  
+2012/02/01 08:52:04 - 50.112.54.113:   Start node is complete.
+2012/02/01 08:52:19 - 50.112.48.254:   Starting mydafilesrv....       [  OK  ]   
+2012/02/01 08:52:19 - 50.112.48.254:   Starting myesp....             [  OK  ]   
+2012/02/01 08:52:19 - 50.112.48.254:   Starting mythor....            [  OK  ]  
+2012/02/01 08:52:19 - 50.112.48.254:   Start node is complete.
+2012/02/01 08:52:19 - Done.
+2012/02/01 09:24:59 - Terminating cluster.
+2012/02/01 09:24:59 - Connecting to AWS region us-west-2.
+2012/02/01 09:25:00 - Gathering instances for Thor-KRDZ.
+2012/02/01 09:25:00 - Terminating instances.
+2012/02/01 09:25:12 - Waiting for 20 instances to terminate.
+2012/02/01 09:25:23 - Waiting for 4 instances to terminate.
+2012/02/01 09:25:29 - Waiting for 1 instances to terminate.
+2012/02/01 09:25:34 - Waiting for 1 instances to terminate.
+2012/02/01 09:25:40 - Waiting for 1 instances to terminate.
+2012/02/01 09:25:45 - Waiting for 1 instances to terminate.
+2012/02/01 09:25:50 - Waiting for 1 instances to terminate.
+2012/02/01 09:25:56 - Waiting for 1 instances to terminate.
+2012/02/01 09:26:01 - Waiting for 1 instances to terminate.
+2012/02/01 09:26:06 - Waiting for 1 instances to terminate.
+2012/02/01 09:26:11 - Waiting for 1 instances to terminate.
+2012/02/01 09:26:17 - Waiting for 1 instances to terminate.
+2012/02/01 09:26:22 - Deleting Access Key Thor-KRDZ.
+2012/02/01 09:26:23 - Deleting Security group Thor-KRDZ.
+2012/02/01 09:26:23 - Done.

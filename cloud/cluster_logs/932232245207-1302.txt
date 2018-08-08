@@ -1,0 +1,92 @@
+2017/04/13 22:02:08 - Connecting to AWS region us-west-2.
+2017/04/13 22:02:08 - Calculating new unique cluster name for request 1302.
+2017/04/13 22:02:09 - Creating new cluster name, Hpcc-967R.
+2017/04/13 22:02:09 - Creating Hpcc-967R security group.
+2017/04/13 22:02:11 - Creating Hpcc-967R key pair.
+2017/04/13 22:02:12 - Launching 1 m1.large nodes using ami-52a62932.
+2017/04/13 22:02:13 - Reservation ID r-06f333895dc584fc9 created.
+2017/04/13 22:02:13 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:18 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:23 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:28 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:33 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:38 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:44 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:49 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:54 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:02:59 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:04 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:09 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:14 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:19 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:25 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:30 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:35 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:40 - Waiting for 1 of 1 nodes to launch.
+2017/04/13 22:03:45 - Pending instances have completed.
+2017/04/13 22:03:45 - Checking each node launched properly.
+2017/04/13 22:03:45 - 54.186.19.21:    Checking EC2 instance i-0a36ba68be7678485.
+2017/04/13 22:03:45 - 54.186.19.21:    Checking EC2 instance is running.
+2017/04/13 22:03:45 - 54.186.19.21:    Connecting via SSH.
+2017/04/13 22:03:48 - 54.186.19.21:    Waiting on SSH connection.
+2017/04/13 22:04:01 - 54.186.19.21:    Checking software installation completed.
+2017/04/13 22:04:02 - 54.186.19.21:    Software installation finished.
+2017/04/13 22:04:02 - 54.186.19.21:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/13 22:04:02 - 54.186.19.21:    Checking file contents.
+2017/04/13 22:04:03 - 54.186.19.21:    Remote file contents confirmed.
+2017/04/13 22:04:03 - 54.186.19.21:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/13 22:04:03 - 54.186.19.21:    Completed check of node 54.186.19.21.
+2017/04/13 22:04:03 - Determining availability zone.
+2017/04/13 22:04:03 - Gathering public and private ip addresses.
+2017/04/13 22:04:03 - Connecting to node 54.186.19.21 for cluster configuration.
+2017/04/13 22:04:03 - Connecting via SSH.
+2017/04/13 22:04:05 - Checking software installation completed.
+2017/04/13 22:04:05 - Software installation finished.
+2017/04/13 22:04:05 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/13 22:04:06 - Checking file contents.
+2017/04/13 22:04:06 - Remote file contents confirmed.
+2017/04/13 22:04:07 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/13 22:04:07 - Writing cluster private ip addresses to file on instance.
+2017/04/13 22:04:07 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/04/13 22:04:07 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/04/13 22:04:07 - Checking file contents.
+2017/04/13 22:04:08 - Remote file contents confirmed.
+2017/04/13 22:04:08 - Running envgen
+2017/04/13 22:04:08 - Reading the config file.
+2017/04/13 22:04:09 - Retrieving IP address of ESP Server.
+2017/04/13 22:04:09 - ESP Server private IP address: 172.31.8.52.
+2017/04/13 22:04:09 - ESP Server public IP address: 54.186.19.21.
+2017/04/13 22:04:09 - 54.186.19.21:    Starting node configuration.
+2017/04/13 22:04:09 - 54.186.19.21:    Connecting via SSH.
+2017/04/13 22:04:11 - 54.186.19.21:    Checking software installation completed.
+2017/04/13 22:04:11 - 54.186.19.21:    Software installation finished.
+2017/04/13 22:04:11 - 54.186.19.21:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/13 22:04:12 - 54.186.19.21:    Checking file contents.
+2017/04/13 22:04:12 - 54.186.19.21:    Remote file contents confirmed.
+2017/04/13 22:04:13 - 54.186.19.21:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/13 22:04:13 - 54.186.19.21:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/04/13 22:04:14 - 54.186.19.21:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/04/13 22:04:14 - 54.186.19.21:    Checking file contents.
+2017/04/13 22:04:14 - 54.186.19.21:    Remote file contents confirmed.
+2017/04/13 22:04:14 - 54.186.19.21:    Starting HPCC Platform Community Edition: 6.2.8-1.
+2017/04/13 22:04:31 - 54.186.19.21:    Starting mydafilesrv ...       [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting mydali ...            [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting mydfuserver ...       [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting myeclagent ...        [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting myeclccserver ...     [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting myeclscheduler ...    [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting myesp ...             [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting mysasha ...           [   OK    ]   
+2017/04/13 22:04:31 - 54.186.19.21:    Starting mythor ...            [   OK    ]  
+2017/04/13 22:04:31 - 54.186.19.21:    Start node is complete.
+2017/04/13 22:04:31 - Done.
+2017/04/13 22:11:51 - Terminating cluster.
+2017/04/13 22:11:51 - Connecting to AWS region us-west-2.
+2017/04/13 22:11:51 - Gathering instances for Hpcc-967R.
+2017/04/13 22:11:51 - Terminating instances.
+2017/04/13 22:11:51 - Deleting Access Key Hpcc-967R.
+2017/04/13 22:11:52 - Deleting Security group Hpcc-967R.
+2017/04/13 22:11:52 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-a9845ed2 has a dependent object
+                      requestId: 49ac205d-992c-4718-8095-7ab82c8485e3

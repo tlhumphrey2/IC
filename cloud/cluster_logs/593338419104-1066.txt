@@ -1,0 +1,93 @@
+2015/04/06 20:42:35 - Connecting to AWS region us-west-2.
+2015/04/06 20:42:35 - Calculating new unique cluster name for request 1066.
+2015/04/06 20:42:35 - Creating new cluster name, Hpcc-CK5G.
+2015/04/06 20:42:35 - Creating Hpcc-CK5G security group.
+2015/04/06 20:42:38 - Creating Hpcc-CK5G key pair.
+2015/04/06 20:42:38 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/04/06 20:42:39 - Reservation ID r-a9eb81a3 created.
+2015/04/06 20:42:39 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:42:44 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:42:49 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:42:54 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:42:59 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:04 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:09 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:14 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:20 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:25 - Waiting for 1 of 1 nodes to launch.
+2015/04/06 20:43:30 - Pending instances have completed.
+2015/04/06 20:43:30 - Checking each node launched properly.
+2015/04/06 20:43:30 - 54.184.70.59:    Checking EC2 instance i-0d9d2100.
+2015/04/06 20:43:30 - 54.184.70.59:    Checking EC2 instance is running.
+2015/04/06 20:43:30 - 54.184.70.59:    Connecting via SSH.
+2015/04/06 20:43:36 - 54.184.70.59:    Waiting on SSH connection.
+2015/04/06 20:43:47 - 54.184.70.59:    Checking software installation completed.
+2015/04/06 20:43:47 - 54.184.70.59:    Software installation finished.
+2015/04/06 20:43:47 - 54.184.70.59:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 20:43:48 - 54.184.70.59:    Checking file contents.
+2015/04/06 20:43:48 - 54.184.70.59:    Remote file contents confirmed.
+2015/04/06 20:43:49 - 54.184.70.59:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 20:43:49 - 54.184.70.59:    Completed check of node 54.184.70.59.
+2015/04/06 20:43:49 - Determining availability zone.
+2015/04/06 20:43:49 - Gathering public and private ip addresses.
+2015/04/06 20:43:49 - Connecting to node 54.184.70.59 for cluster configuration.
+2015/04/06 20:43:49 - Connecting via SSH.
+2015/04/06 20:43:50 - Checking software installation completed.
+2015/04/06 20:43:50 - Software installation finished.
+2015/04/06 20:43:50 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 20:43:51 - Checking file contents.
+2015/04/06 20:43:51 - Remote file contents confirmed.
+2015/04/06 20:43:52 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 20:43:52 - Writing cluster private ip addresses to file on instance.
+2015/04/06 20:43:52 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/06 20:43:52 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/06 20:43:52 - Checking file contents.
+2015/04/06 20:43:53 - Remote file contents confirmed.
+2015/04/06 20:43:53 - Running envgen
+2015/04/06 20:43:53 - Reading the config file.
+2015/04/06 20:43:54 - Retrieving IP address of ESP Server.
+2015/04/06 20:43:54 - ESP Server private IP address: 10.253.86.162.
+2015/04/06 20:43:54 - ESP Server public IP address: 54.184.70.59.
+2015/04/06 20:43:54 - 54.184.70.59:    Starting node configuration.
+2015/04/06 20:43:54 - 54.184.70.59:    Connecting via SSH.
+2015/04/06 20:43:56 - 54.184.70.59:    Checking software installation completed.
+2015/04/06 20:43:56 - 54.184.70.59:    Software installation finished.
+2015/04/06 20:43:56 - 54.184.70.59:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/06 20:43:56 - 54.184.70.59:    Checking file contents.
+2015/04/06 20:43:56 - 54.184.70.59:    Remote file contents confirmed.
+2015/04/06 20:43:57 - 54.184.70.59:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/06 20:43:57 - 54.184.70.59:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/06 20:43:58 - 54.184.70.59:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/06 20:43:58 - 54.184.70.59:    Checking file contents.
+2015/04/06 20:43:58 - 54.184.70.59:    Remote file contents confirmed.
+2015/04/06 20:43:58 - 54.184.70.59:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/04/06 20:44:26 - 54.184.70.59:    Starting mydafilesrv....       [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting mydali....            [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting mydfuserver....       [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting myeclagent....        [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting myeclccserver....     [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting myeclscheduler....    [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting myesp....             [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting mysasha....           [  OK  ]   
+2015/04/06 20:44:26 - 54.184.70.59:    Starting mythor....            [  OK  ]  
+2015/04/06 20:44:26 - 54.184.70.59:    Start node is complete.
+2015/04/06 20:44:26 - Done.
+2015/04/06 21:12:42 - Terminating cluster.
+2015/04/06 21:12:42 - Connecting to AWS region us-west-2.
+2015/04/06 21:12:42 - Gathering instances for Hpcc-CK5G.
+2015/04/06 21:12:42 - Terminating instances.
+2015/04/06 21:12:43 - Waiting for 1 instances to terminate.
+2015/04/06 21:12:48 - Waiting for 1 instances to terminate.
+2015/04/06 21:12:53 - Waiting for 1 instances to terminate.
+2015/04/06 21:12:58 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:03 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:09 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:14 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:19 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:24 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:29 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:34 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:39 - Waiting for 1 instances to terminate.
+2015/04/06 21:13:45 - Deleting Access Key Hpcc-CK5G.
+2015/04/06 21:13:45 - Deleting Security group Hpcc-CK5G.
+2015/04/06 21:13:45 - Done.

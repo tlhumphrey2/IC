@@ -1,0 +1,93 @@
+2014/10/05 11:34:20 - Connecting to AWS region us-west-2.
+2014/10/05 11:34:20 - Calculating new unique cluster name for request 953.
+2014/10/05 11:34:21 - Creating new cluster name, Hpcc-3YN7.
+2014/10/05 11:34:21 - Creating Hpcc-3YN7 security group.
+2014/10/05 11:34:23 - Creating Hpcc-3YN7 key pair.
+2014/10/05 11:34:24 - Launching 1 m1.large nodes using ami-d52469e5.
+2014/10/05 11:34:25 - Reservation ID r-60a7d66b created.
+2014/10/05 11:34:25 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:30 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:35 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:41 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:46 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:51 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:34:56 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:01 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:06 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:11 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:17 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:22 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:27 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:32 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:37 - Waiting for 1 of 1 nodes to launch.
+2014/10/05 11:35:42 - Pending instances have completed.
+2014/10/05 11:35:42 - Checking each node launched properly.
+2014/10/05 11:35:42 - 54.245.21.23:    Checking EC2 instance i-919d7f9b.
+2014/10/05 11:35:42 - 54.245.21.23:    Checking EC2 instance is running.
+2014/10/05 11:35:42 - 54.245.21.23:    Connecting via SSH.
+2014/10/05 11:35:50 - 54.245.21.23:    Waiting on SSH connection.
+2014/10/05 11:36:03 - 54.245.21.23:    Checking software installation completed.
+2014/10/05 11:36:03 - 54.245.21.23:    Software installation finished.
+2014/10/05 11:36:03 - 54.245.21.23:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/05 11:36:03 - 54.245.21.23:    Checking file contents.
+2014/10/05 11:36:04 - 54.245.21.23:    Remote file contents confirmed.
+2014/10/05 11:36:04 - 54.245.21.23:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/05 11:36:04 - 54.245.21.23:    Completed check of node 54.245.21.23.
+2014/10/05 11:36:04 - Determining availability zone.
+2014/10/05 11:36:04 - Gathering public and private ip addresses.
+2014/10/05 11:36:04 - Connecting to node 54.245.21.23 for cluster configuration.
+2014/10/05 11:36:04 - Connecting via SSH.
+2014/10/05 11:36:06 - Checking software installation completed.
+2014/10/05 11:36:06 - Software installation finished.
+2014/10/05 11:36:06 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/05 11:36:06 - Checking file contents.
+2014/10/05 11:36:06 - Remote file contents confirmed.
+2014/10/05 11:36:07 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/05 11:36:07 - Writing cluster private ip addresses to file on instance.
+2014/10/05 11:36:07 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/10/05 11:36:07 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/10/05 11:36:07 - Checking file contents.
+2014/10/05 11:36:08 - Remote file contents confirmed.
+2014/10/05 11:36:08 - Running envgen
+2014/10/05 11:36:09 - Reading the config file.
+2014/10/05 11:36:09 - Retrieving IP address of ESP Server.
+2014/10/05 11:36:09 - ESP Server private IP address: 10.252.60.49.
+2014/10/05 11:36:09 - ESP Server public IP address: 54.245.21.23.
+2014/10/05 11:36:09 - 54.245.21.23:    Starting node configuration.
+2014/10/05 11:36:09 - 54.245.21.23:    Connecting via SSH.
+2014/10/05 11:36:11 - 54.245.21.23:    Checking software installation completed.
+2014/10/05 11:36:11 - 54.245.21.23:    Software installation finished.
+2014/10/05 11:36:11 - 54.245.21.23:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/05 11:36:11 - 54.245.21.23:    Checking file contents.
+2014/10/05 11:36:12 - 54.245.21.23:    Remote file contents confirmed.
+2014/10/05 11:36:12 - 54.245.21.23:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/05 11:36:12 - 54.245.21.23:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/10/05 11:36:13 - 54.245.21.23:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/10/05 11:36:13 - 54.245.21.23:    Checking file contents.
+2014/10/05 11:36:13 - 54.245.21.23:    Remote file contents confirmed.
+2014/10/05 11:36:13 - 54.245.21.23:    Starting HPCC Platform Community Edition: 5.0.0-3.
+2014/10/05 11:36:40 - 54.245.21.23:    Starting mydafilesrv....       [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting mydali....            [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting mydfuserver....       [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting myeclagent....        [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting myeclccserver....     [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting myeclscheduler....    [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting myesp....             [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting mysasha....           [  OK  ]   
+2014/10/05 11:36:40 - 54.245.21.23:    Starting mythor....            [  OK  ]  
+2014/10/05 11:36:40 - 54.245.21.23:    Start node is complete.
+2014/10/05 11:36:40 - Done.
+2014/10/05 11:37:56 - Terminating cluster.
+2014/10/05 11:37:56 - Connecting to AWS region us-west-2.
+2014/10/05 11:37:56 - Gathering instances for Hpcc-3YN7.
+2014/10/05 11:37:56 - Terminating instances.
+2014/10/05 11:37:57 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:02 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:07 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:12 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:17 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:22 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:28 - Waiting for 1 instances to terminate.
+2014/10/05 11:38:33 - Deleting Access Key Hpcc-3YN7.
+2014/10/05 11:38:33 - Deleting Security group Hpcc-3YN7.
+2014/10/05 11:38:34 - Done.

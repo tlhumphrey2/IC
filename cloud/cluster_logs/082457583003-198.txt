@@ -1,0 +1,91 @@
+2012/03/14 14:31:22 - Connecting to AWS region us-west-2.
+2012/03/14 14:31:22 - Checking storage IDs exist in region us-west-2: snap-b253e6da
+2012/03/14 14:31:23 - Calculating new unique cluster name for request 198.
+2012/03/14 14:31:23 - Creating new cluster name, Thor-DRJU.
+2012/03/14 14:31:23 - Creating Thor-DRJU security group.
+2012/03/14 14:31:27 - Creating Thor-DRJU key pair.
+2012/03/14 14:31:28 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/14 14:31:28 - Reservation ID r-0a7d2e3a created.
+2012/03/14 14:31:28 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:31:34 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:31:39 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:31:44 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:31:50 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:31:55 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:00 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:05 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:11 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:16 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:21 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:27 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:32 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 14:32:37 - Pending instances have completed.
+2012/03/14 14:32:37 - Checking each node launched properly.
+2012/03/14 14:32:37 - 50.112.46.11:    Checking EC2 instance i-02346e32.
+2012/03/14 14:32:37 - 50.112.46.11:    Checking EC2 instance is running.
+2012/03/14 14:32:37 - 50.112.46.11:    Connecting via SSH.
+2012/03/14 14:32:37 - 50.112.46.11:    Waiting on SSH connection.
+2012/03/14 14:32:44 - 50.112.46.11:    Checking software installation completed.
+2012/03/14 14:32:44 - 50.112.46.11:    Software installation finished.
+2012/03/14 14:32:44 - 50.112.46.11:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:32:45 - 50.112.46.11:    Checking file contents.
+2012/03/14 14:32:45 - 50.112.46.11:    Remote file contents confirmed.
+2012/03/14 14:32:46 - 50.112.46.11:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 14:32:46 - 50.112.46.11:    Completed check of node 50.112.46.11.
+2012/03/14 14:32:46 - Determining availability zone.
+2012/03/14 14:32:46 - Gathering public and private ip addresses.
+2012/03/14 14:32:46 - Connecting to node 50.112.46.11 for cluster configuration.
+2012/03/14 14:32:46 - Connecting via SSH.
+2012/03/14 14:32:48 - Checking software installation completed.
+2012/03/14 14:32:48 - Software installation finished.
+2012/03/14 14:32:48 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:32:48 - Checking file contents.
+2012/03/14 14:32:49 - Remote file contents confirmed.
+2012/03/14 14:32:50 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 14:32:50 - Writing cluster private ip addresses to file on instance.
+2012/03/14 14:32:50 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 14:32:50 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 14:32:51 - Checking file contents.
+2012/03/14 14:32:51 - Remote file contents confirmed.
+2012/03/14 14:32:51 - Running envgen
+2012/03/14 14:32:52 - Reading the config file.
+2012/03/14 14:32:52 - Retrieving IP address of ESP Server.
+2012/03/14 14:32:52 - ESP Server private IP address: 10.252.39.82.
+2012/03/14 14:32:52 - ESP Server public IP address: 50.112.46.11.
+2012/03/14 14:32:53 - Attaching storage devices to the Landing Zone: snap-b253e6da
+2012/03/14 14:32:55 - Connecting via SSH.
+2012/03/14 14:32:56 - Waiting for EC2 instance to see storage device.
+2012/03/14 14:33:03 - An exception occured.
+                      ClusterError: mount: you must specify the filesystem type
+2012/03/14 14:33:03 - 50.112.46.11:    Starting node configuration.
+2012/03/14 14:33:03 - 50.112.46.11:    Connecting via SSH.
+2012/03/14 14:33:04 - 50.112.46.11:    Checking software installation completed.
+2012/03/14 14:33:04 - 50.112.46.11:    Software installation finished.
+2012/03/14 14:33:04 - 50.112.46.11:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 14:33:05 - 50.112.46.11:    Checking file contents.
+2012/03/14 14:33:05 - 50.112.46.11:    Remote file contents confirmed.
+2012/03/14 14:33:06 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Mar 14 18:33:02 ip-10-252-39-82 kernel: [10188044.323032] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+/var/log/syslog:Mar 14 18:33:02 ip-10-252-39-82 kernel: [10188044.327198] EXT2-fs (xvdf): error: can't find an ext2 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+2012/03/14 14:33:06 - 50.112.46.11:    Start node is complete.
+2012/03/14 14:33:06 - Error messages found in system logs:
+/var/log/syslog:Mar 14 18:33:02 ip-10-252-39-82 kernel: [10188044.323032] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+/var/log/syslog:Mar 14 18:33:02 ip-10-252-39-82 kernel: [10188044.327198] EXT2-fs (xvdf): error: can't find an ext2 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+
+2012/03/14 14:33:06 - Done.
+2012/03/14 14:35:02 - Terminating cluster.
+2012/03/14 14:35:02 - Connecting to AWS region us-west-2.
+2012/03/14 14:35:02 - Gathering instances for Thor-DRJU.
+2012/03/14 14:35:02 - Terminating instances.
+2012/03/14 14:35:03 - Waiting for 1 instances to terminate.
+2012/03/14 14:35:08 - Waiting for 1 instances to terminate.
+2012/03/14 14:35:14 - Waiting for 1 instances to terminate.
+2012/03/14 14:35:19 - Waiting for 1 instances to terminate.
+2012/03/14 14:35:24 - Deleting attached EBS volumes.
+2012/03/14 14:35:24 - Deleting volume vol-05706c6e
+2012/03/14 14:35:25 - Deleting Access Key Thor-DRJU.
+2012/03/14 14:35:25 - Deleting Security group Thor-DRJU.
+2012/03/14 14:35:26 - Done.

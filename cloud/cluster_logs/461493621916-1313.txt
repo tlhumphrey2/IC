@@ -1,0 +1,100 @@
+2017/07/28 16:42:52 - Connecting to AWS region us-west-2.
+2017/07/28 16:42:52 - Calculating new unique cluster name for request 1313.
+2017/07/28 16:42:52 - Creating new cluster name, Hpcc-CUST.
+2017/07/28 16:42:52 - Creating Hpcc-CUST security group.
+2017/07/28 16:42:55 - Creating Hpcc-CUST key pair.
+2017/07/28 16:42:55 - Launching 1 m1.large nodes using ami-b0f998d0.
+2017/07/28 16:42:56 - Reservation ID r-0092bfa1562c4b40d created.
+2017/07/28 16:42:56 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:01 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:06 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:11 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:17 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:22 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:27 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:32 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:37 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:42 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:47 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:52 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:43:57 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:02 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:08 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:13 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:18 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:23 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:28 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:33 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:38 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:43 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:49 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:54 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:44:59 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 16:45:04 - Pending instances have completed.
+2017/07/28 16:45:04 - Checking each node launched properly.
+2017/07/28 16:45:04 - 54.200.140.192:  Checking EC2 instance i-0ca50a5f40c31e136.
+2017/07/28 16:45:04 - 54.200.140.192:  Checking EC2 instance is running.
+2017/07/28 16:45:04 - 54.200.140.192:  Connecting via SSH.
+2017/07/28 16:45:19 - 54.200.140.192:  Waiting on SSH connection.
+2017/07/28 16:45:24 - 54.200.140.192:  Waiting on SSH connection.
+2017/07/28 16:45:36 - 54.200.140.192:  Checking software installation completed.
+2017/07/28 16:45:36 - 54.200.140.192:  Software installation finished.
+2017/07/28 16:45:36 - 54.200.140.192:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 16:45:36 - 54.200.140.192:  Checking file contents.
+2017/07/28 16:45:37 - 54.200.140.192:  Remote file contents confirmed.
+2017/07/28 16:45:37 - 54.200.140.192:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 16:45:37 - 54.200.140.192:  Completed check of node 54.200.140.192.
+2017/07/28 16:45:37 - Determining availability zone.
+2017/07/28 16:45:37 - Gathering public and private ip addresses.
+2017/07/28 16:45:37 - Connecting to node 54.200.140.192 for cluster configuration.
+2017/07/28 16:45:37 - Connecting via SSH.
+2017/07/28 16:45:39 - Checking software installation completed.
+2017/07/28 16:45:39 - Software installation finished.
+2017/07/28 16:45:39 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 16:45:40 - Checking file contents.
+2017/07/28 16:45:40 - Remote file contents confirmed.
+2017/07/28 16:45:41 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 16:45:41 - Writing cluster private ip addresses to file on instance.
+2017/07/28 16:45:41 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/07/28 16:45:41 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/07/28 16:45:42 - Checking file contents.
+2017/07/28 16:45:42 - Remote file contents confirmed.
+2017/07/28 16:45:42 - Running envgen
+2017/07/28 16:45:43 - Reading the config file.
+2017/07/28 16:45:43 - Retrieving IP address of ESP Server.
+2017/07/28 16:45:44 - ESP Server private IP address: 172.31.21.57.
+2017/07/28 16:45:44 - ESP Server public IP address: 54.200.140.192.
+2017/07/28 16:45:44 - 54.200.140.192:  Starting node configuration.
+2017/07/28 16:45:44 - 54.200.140.192:  Connecting via SSH.
+2017/07/28 16:45:45 - 54.200.140.192:  Checking software installation completed.
+2017/07/28 16:45:46 - 54.200.140.192:  Software installation finished.
+2017/07/28 16:45:46 - 54.200.140.192:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 16:45:46 - 54.200.140.192:  Checking file contents.
+2017/07/28 16:45:46 - 54.200.140.192:  Remote file contents confirmed.
+2017/07/28 16:45:47 - 54.200.140.192:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 16:45:47 - 54.200.140.192:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/07/28 16:45:48 - 54.200.140.192:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/07/28 16:45:48 - 54.200.140.192:  Checking file contents.
+2017/07/28 16:45:49 - 54.200.140.192:  Remote file contents confirmed.
+2017/07/28 16:45:49 - 54.200.140.192:  Starting HPCC Platform Community Edition: 6.2.14-1.
+2017/07/28 16:46:06 - 54.200.140.192:  Starting mydafilesrv ...       [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting mydali ...            [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting mydfuserver ...       [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting myeclagent ...        [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting myeclccserver ...     [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting myeclscheduler ...    [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting myesp ...             [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting mysasha ...           [   OK    ]   
+2017/07/28 16:46:06 - 54.200.140.192:  Starting mythor ...            [   OK    ]  
+2017/07/28 16:46:06 - 54.200.140.192:  Start node is complete.
+2017/07/28 16:46:06 - Done.
+2017/07/30 20:57:23 - Terminating cluster.
+2017/07/30 20:57:23 - Connecting to AWS region us-west-2.
+2017/07/30 20:57:23 - Gathering instances for Hpcc-CUST.
+2017/07/30 20:57:24 - Terminating instances.
+2017/07/30 20:57:24 - Deleting Access Key Hpcc-CUST.
+2017/07/30 20:57:24 - Deleting Security group Hpcc-CUST.
+2017/07/30 20:57:25 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-987ff6e2 has a dependent object
+                      requestId: 1b6cde13-c04f-41c2-8161-9cc922e2375f

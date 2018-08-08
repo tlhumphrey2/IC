@@ -1,0 +1,92 @@
+2015/02/13 13:20:30 - Connecting to AWS region us-west-2.
+2015/02/13 13:20:30 - Calculating new unique cluster name for request 1019.
+2015/02/13 13:20:31 - Creating new cluster name, Hpcc-WSYR.
+2015/02/13 13:20:31 - Creating Hpcc-WSYR security group.
+2015/02/13 13:20:33 - Creating Hpcc-WSYR key pair.
+2015/02/13 13:20:34 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2015/02/13 13:20:34 - Reservation ID r-60ee356a created.
+2015/02/13 13:20:34 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:20:40 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:20:45 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:20:50 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:20:55 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:21:00 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:21:05 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:21:10 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:21:16 - Waiting for 1 of 1 nodes to launch.
+2015/02/13 13:21:21 - Pending instances have completed.
+2015/02/13 13:21:21 - Checking each node launched properly.
+2015/02/13 13:21:21 - 54.71.249.111:   Checking EC2 instance i-f5a6afff.
+2015/02/13 13:21:21 - 54.71.249.111:   Checking EC2 instance is running.
+2015/02/13 13:21:21 - 54.71.249.111:   Connecting via SSH.
+2015/02/13 13:21:28 - 54.71.249.111:   Waiting on SSH connection.
+2015/02/13 13:21:40 - 54.71.249.111:   Checking software installation completed.
+2015/02/13 13:21:40 - 54.71.249.111:   Software installation finished.
+2015/02/13 13:21:40 - 54.71.249.111:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/02/13 13:21:40 - 54.71.249.111:   Checking file contents.
+2015/02/13 13:21:41 - 54.71.249.111:   Remote file contents confirmed.
+2015/02/13 13:21:41 - 54.71.249.111:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/02/13 13:21:41 - 54.71.249.111:   Completed check of node 54.71.249.111.
+2015/02/13 13:21:41 - Determining availability zone.
+2015/02/13 13:21:41 - Gathering public and private ip addresses.
+2015/02/13 13:21:41 - Connecting to node 54.71.249.111 for cluster configuration.
+2015/02/13 13:21:41 - Connecting via SSH.
+2015/02/13 13:21:43 - Checking software installation completed.
+2015/02/13 13:21:43 - Software installation finished.
+2015/02/13 13:21:43 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/02/13 13:21:43 - Checking file contents.
+2015/02/13 13:21:43 - Remote file contents confirmed.
+2015/02/13 13:21:44 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/02/13 13:21:44 - Writing cluster private ip addresses to file on instance.
+2015/02/13 13:21:44 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/02/13 13:21:44 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/02/13 13:21:45 - Checking file contents.
+2015/02/13 13:21:45 - Remote file contents confirmed.
+2015/02/13 13:21:45 - Running envgen
+2015/02/13 13:21:47 - Reading the config file.
+2015/02/13 13:21:47 - Retrieving IP address of ESP Server.
+2015/02/13 13:21:47 - ESP Server private IP address: 10.253.76.239.
+2015/02/13 13:21:47 - ESP Server public IP address: 54.71.249.111.
+2015/02/13 13:21:48 - 54.71.249.111:   Starting node configuration.
+2015/02/13 13:21:48 - 54.71.249.111:   Connecting via SSH.
+2015/02/13 13:21:49 - 54.71.249.111:   Checking software installation completed.
+2015/02/13 13:21:49 - 54.71.249.111:   Software installation finished.
+2015/02/13 13:21:49 - 54.71.249.111:   Sending /home/ubuntu/node_health_script via SFTP.
+2015/02/13 13:21:50 - 54.71.249.111:   Checking file contents.
+2015/02/13 13:21:50 - 54.71.249.111:   Remote file contents confirmed.
+2015/02/13 13:21:50 - 54.71.249.111:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/02/13 13:21:50 - 54.71.249.111:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/02/13 13:21:51 - 54.71.249.111:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/02/13 13:21:51 - 54.71.249.111:   Checking file contents.
+2015/02/13 13:21:52 - 54.71.249.111:   Remote file contents confirmed.
+2015/02/13 13:21:52 - 54.71.249.111:   Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/02/13 13:22:19 - 54.71.249.111:   Starting mydafilesrv....       [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting mydali....            [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting mydfuserver....       [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting myeclagent....        [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting myeclccserver....     [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting myeclscheduler....    [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting myesp....             [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting mysasha....           [  OK  ]   
+2015/02/13 13:22:19 - 54.71.249.111:   Starting mythor....            [  OK  ]  
+2015/02/13 13:22:19 - 54.71.249.111:   Start node is complete.
+2015/02/13 13:22:19 - Done.
+2015/02/13 13:55:17 - Terminating cluster.
+2015/02/13 13:55:17 - Connecting to AWS region us-west-2.
+2015/02/13 13:55:17 - Gathering instances for Hpcc-WSYR.
+2015/02/13 13:55:18 - Terminating instances.
+2015/02/13 13:55:18 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:23 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:28 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:33 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:39 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:44 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:49 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:54 - Waiting for 1 instances to terminate.
+2015/02/13 13:55:59 - Waiting for 1 instances to terminate.
+2015/02/13 13:56:04 - Waiting for 1 instances to terminate.
+2015/02/13 13:56:09 - Waiting for 1 instances to terminate.
+2015/02/13 13:56:14 - Waiting for 1 instances to terminate.
+2015/02/13 13:56:20 - Deleting Access Key Hpcc-WSYR.
+2015/02/13 13:56:20 - Deleting Security group Hpcc-WSYR.
+2015/02/13 13:56:20 - Done.

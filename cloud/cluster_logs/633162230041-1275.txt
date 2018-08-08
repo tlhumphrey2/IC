@@ -1,0 +1,95 @@
+2017/01/27 13:58:30 - Connecting to AWS region ap-northeast-1.
+2017/01/27 13:58:30 - Calculating new unique cluster name for request 1275.
+2017/01/27 13:58:31 - Creating new cluster name, Hpcc-TSVZ.
+2017/01/27 13:58:31 - Creating Hpcc-TSVZ security group.
+2017/01/27 13:58:35 - Creating Hpcc-TSVZ key pair.
+2017/01/27 13:58:35 - Launching 1 m1.large nodes using ami-6008ba01.
+2017/01/27 13:58:36 - Reservation ID r-02e4b40c6a81babbd created.
+2017/01/27 13:58:36 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:58:42 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:58:47 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:58:52 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:58:57 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:03 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:08 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:13 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:18 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:23 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:29 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:34 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:39 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:45 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:50 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 13:59:55 - Waiting for 1 of 1 nodes to launch.
+2017/01/27 14:00:00 - Pending instances have completed.
+2017/01/27 14:00:00 - Checking each node launched properly.
+2017/01/27 14:00:00 - 54.168.125.127:  Checking EC2 instance i-0c035b9775e76cd9a.
+2017/01/27 14:00:00 - 54.168.125.127:  Checking EC2 instance is running.
+2017/01/27 14:00:00 - 54.168.125.127:  Connecting via SSH.
+2017/01/27 14:00:08 - 54.168.125.127:  Waiting on SSH connection.
+2017/01/27 14:00:22 - 54.168.125.127:  Checking software installation completed.
+2017/01/27 14:00:23 - 54.168.125.127:  Software installation finished.
+2017/01/27 14:00:23 - 54.168.125.127:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/27 14:00:24 - 54.168.125.127:  Checking file contents.
+2017/01/27 14:00:24 - 54.168.125.127:  Remote file contents confirmed.
+2017/01/27 14:00:25 - 54.168.125.127:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/27 14:00:25 - 54.168.125.127:  Completed check of node 54.168.125.127.
+2017/01/27 14:00:25 - Determining availability zone.
+2017/01/27 14:00:25 - Gathering public and private ip addresses.
+2017/01/27 14:00:25 - Connecting to node 54.168.125.127 for cluster configuration.
+2017/01/27 14:00:25 - Connecting via SSH.
+2017/01/27 14:00:27 - Checking software installation completed.
+2017/01/27 14:00:28 - Software installation finished.
+2017/01/27 14:00:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/27 14:00:29 - Checking file contents.
+2017/01/27 14:00:29 - Remote file contents confirmed.
+2017/01/27 14:00:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/27 14:00:30 - Writing cluster private ip addresses to file on instance.
+2017/01/27 14:00:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/01/27 14:00:31 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/01/27 14:00:31 - Checking file contents.
+2017/01/27 14:00:32 - Remote file contents confirmed.
+2017/01/27 14:00:32 - Running envgen
+2017/01/27 14:00:33 - Reading the config file.
+2017/01/27 14:00:33 - Retrieving IP address of ESP Server.
+2017/01/27 14:00:34 - ESP Server private IP address: 10.184.148.238.
+2017/01/27 14:00:34 - ESP Server public IP address: 54.168.125.127.
+2017/01/27 14:00:34 - 54.168.125.127:  Starting node configuration.
+2017/01/27 14:00:34 - 54.168.125.127:  Connecting via SSH.
+2017/01/27 14:00:36 - 54.168.125.127:  Checking software installation completed.
+2017/01/27 14:00:36 - 54.168.125.127:  Software installation finished.
+2017/01/27 14:00:36 - 54.168.125.127:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/01/27 14:00:37 - 54.168.125.127:  Checking file contents.
+2017/01/27 14:00:38 - 54.168.125.127:  Remote file contents confirmed.
+2017/01/27 14:00:39 - 54.168.125.127:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/01/27 14:00:39 - 54.168.125.127:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/01/27 14:00:40 - 54.168.125.127:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/01/27 14:00:40 - 54.168.125.127:  Checking file contents.
+2017/01/27 14:00:41 - 54.168.125.127:  Remote file contents confirmed.
+2017/01/27 14:00:41 - 54.168.125.127:  Starting HPCC Platform Community Edition: 6.0.8-1.
+2017/01/27 14:00:58 - 54.168.125.127:  Starting mydafilesrv ...       [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting mydali ...            [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting mydfuserver ...       [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting myeclagent ...        [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting myeclccserver ...     [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting myeclscheduler ...    [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting myesp ...             [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting mysasha ...           [   OK    ]   
+2017/01/27 14:00:58 - 54.168.125.127:  Starting mythor ...            [   OK    ]  
+2017/01/27 14:00:58 - 54.168.125.127:  Start node is complete.
+2017/01/27 14:00:58 - Done.
+2017/01/27 14:37:09 - Terminating cluster.
+2017/01/27 14:37:09 - Connecting to AWS region ap-northeast-1.
+2017/01/27 14:37:09 - Gathering instances for Hpcc-TSVZ.
+2017/01/27 14:37:10 - Terminating instances.
+2017/01/27 14:37:10 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:15 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:21 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:26 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:31 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:36 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:42 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:47 - Waiting for 1 instances to terminate.
+2017/01/27 14:37:52 - Deleting Access Key Hpcc-TSVZ.
+2017/01/27 14:37:53 - Deleting Security group Hpcc-TSVZ.
+2017/01/27 14:37:53 - Done.

@@ -1,0 +1,88 @@
+2018/08/06 13:11:36 - Connecting to AWS region ap-northeast-1.
+2018/08/06 13:11:36 - Calculating new unique cluster name for request 1462.
+2018/08/06 13:11:38 - Creating new cluster name, Hpcc-T2YU.
+2018/08/06 13:11:38 - Creating Hpcc-T2YU security group.
+2018/08/06 13:11:44 - Creating Hpcc-T2YU key pair.
+2018/08/06 13:11:44 - Launching 1 m1.large nodes using ami-037ddcd3622a37da8.
+2018/08/06 13:11:46 - Reservation ID r-02f7ecacb2fbc0831 created.
+2018/08/06 13:11:46 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:11:51 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:11:56 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:02 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:07 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:12 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:18 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:23 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:28 - Waiting for 1 of 1 nodes to launch.
+2018/08/06 13:12:33 - Pending instances have completed.
+2018/08/06 13:12:33 - Checking each node launched properly.
+2018/08/06 13:12:33 - 54.250.70.56:    Checking EC2 instance i-0ba97380537947c95.
+2018/08/06 13:12:34 - 54.250.70.56:    Checking EC2 instance is running.
+2018/08/06 13:12:34 - 54.250.70.56:    Connecting via SSH.
+2018/08/06 13:12:40 - 54.250.70.56:    Waiting on SSH connection.
+2018/08/06 13:12:52 - 54.250.70.56:    Checking software installation completed.
+2018/08/06 13:12:52 - 54.250.70.56:    Software installation finished.
+2018/08/06 13:12:52 - 54.250.70.56:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 13:12:53 - 54.250.70.56:    Checking file contents.
+2018/08/06 13:12:53 - 54.250.70.56:    Remote file contents confirmed.
+2018/08/06 13:12:55 - 54.250.70.56:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 13:12:55 - 54.250.70.56:    Completed check of node 54.250.70.56.
+2018/08/06 13:12:55 - Determining availability zone.
+2018/08/06 13:12:55 - Gathering public and private ip addresses.
+2018/08/06 13:12:55 - Connecting to node 54.250.70.56 for cluster configuration.
+2018/08/06 13:12:55 - Connecting via SSH.
+2018/08/06 13:12:57 - Checking software installation completed.
+2018/08/06 13:12:57 - Software installation finished.
+2018/08/06 13:12:57 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 13:12:58 - Checking file contents.
+2018/08/06 13:12:59 - Remote file contents confirmed.
+2018/08/06 13:13:00 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 13:13:00 - Writing cluster private ip addresses to file on instance.
+2018/08/06 13:13:00 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/06 13:13:01 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/06 13:13:01 - Checking file contents.
+2018/08/06 13:13:02 - Remote file contents confirmed.
+2018/08/06 13:13:02 - Running envgen
+2018/08/06 13:13:03 - Reading the config file.
+2018/08/06 13:13:04 - Retrieving IP address of ESP Server.
+2018/08/06 13:13:04 - ESP Server private IP address: 10.168.19.97.
+2018/08/06 13:13:04 - ESP Server public IP address: 54.250.70.56.
+2018/08/06 13:13:04 - 54.250.70.56:    Starting node configuration.
+2018/08/06 13:13:04 - 54.250.70.56:    Connecting via SSH.
+2018/08/06 13:13:06 - 54.250.70.56:    Checking software installation completed.
+2018/08/06 13:13:07 - 54.250.70.56:    Software installation finished.
+2018/08/06 13:13:07 - 54.250.70.56:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/06 13:13:08 - 54.250.70.56:    Checking file contents.
+2018/08/06 13:13:08 - 54.250.70.56:    Remote file contents confirmed.
+2018/08/06 13:13:09 - 54.250.70.56:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/06 13:13:09 - 54.250.70.56:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/06 13:13:11 - 54.250.70.56:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/06 13:13:11 - 54.250.70.56:    Checking file contents.
+2018/08/06 13:13:12 - 54.250.70.56:    Remote file contents confirmed.
+2018/08/06 13:13:12 - 54.250.70.56:    Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/06 13:13:37 - 54.250.70.56:    Starting mydafilesrv ...       [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting mydali ...            [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting mydfuserver ...       [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting myeclagent ...        [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting myeclccserver ...     [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting myeclscheduler ...    [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting myesp ...             [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting mysasha ...           [   OK    ]   
+2018/08/06 13:13:37 - 54.250.70.56:    Starting mythor ...            [   OK    ]  
+2018/08/06 13:13:37 - 54.250.70.56:    Start node is complete.
+2018/08/06 13:13:37 - Done.
+2018/08/06 13:28:16 - Terminating cluster.
+2018/08/06 13:28:16 - Connecting to AWS region ap-northeast-1.
+2018/08/06 13:28:16 - Gathering instances for Hpcc-T2YU.
+2018/08/06 13:28:17 - Terminating instances.
+2018/08/06 13:28:18 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:23 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:28 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:33 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:39 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:44 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:49 - Waiting for 1 instances to terminate.
+2018/08/06 13:28:54 - Waiting for 1 instances to terminate.
+2018/08/06 13:29:00 - Deleting Access Key Hpcc-T2YU.
+2018/08/06 13:29:00 - Deleting Security group Hpcc-T2YU.
+2018/08/06 13:29:01 - Done.

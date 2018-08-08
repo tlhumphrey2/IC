@@ -1,0 +1,88 @@
+2018/08/07 16:50:41 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:50:41 - Calculating new unique cluster name for request 1495.
+2018/08/07 16:50:41 - TLH. Creating new cluster name, Hpcc-MZ2G.
+2018/08/07 16:50:41 - TLH. Creating Hpcc-MZ2G security group.
+2018/08/07 16:50:45 - TLH. Creating Hpcc-MZ2G key pair.
+2018/08/07 16:50:45 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 16:50:47 - TLH. Reservation ID r-0cdc7ffa7db7c715e created.
+2018/08/07 16:50:47 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:50:52 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:50:57 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:02 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:07 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:13 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:18 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:23 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:28 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:33 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:51:38 - TLH. Pending instances have completed.
+2018/08/07 16:51:38 - TLH. Checking each node launched properly.
+2018/08/07 16:51:38 - 34.216.20.124:   Checking EC2 instance i-0bc1163e37ca363f5.
+2018/08/07 16:51:38 - 34.216.20.124:   Checking EC2 instance is running.
+2018/08/07 16:51:38 - 34.216.20.124:   Connecting via SSH.
+2018/08/07 16:52:01 - 34.216.20.124:   Checking software installation completed.
+2018/08/07 16:52:01 - 34.216.20.124:   Software installation finished.
+2018/08/07 16:52:01 - 34.216.20.124:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:52:01 - 34.216.20.124:   Checking file contents.
+2018/08/07 16:52:02 - 34.216.20.124:   Remote file contents confirmed.
+2018/08/07 16:52:02 - 34.216.20.124:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:52:02 - 34.216.20.124:   tlh. Completed check of node 34.216.20.124.
+2018/08/07 16:52:02 - TLH. Determining availability zone.
+2018/08/07 16:52:02 - TLH. Gathering public and private ip addresses.
+2018/08/07 16:52:02 - Connecting to node 34.216.20.124 for cluster configuration.
+2018/08/07 16:52:02 - Connecting via SSH.
+2018/08/07 16:52:04 - Checking software installation completed.
+2018/08/07 16:52:04 - Software installation finished.
+2018/08/07 16:52:04 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:52:04 - Checking file contents.
+2018/08/07 16:52:05 - Remote file contents confirmed.
+2018/08/07 16:52:05 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:52:05 - Writing cluster private ip addresses to file on instance.
+2018/08/07 16:52:05 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 16:52:06 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 16:52:06 - Checking file contents.
+2018/08/07 16:52:06 - Remote file contents confirmed.
+2018/08/07 16:52:06 - Running envgen
+2018/08/07 16:52:07 - Reading the config file.
+2018/08/07 16:52:07 - Retrieving IP address of ESP Server.
+2018/08/07 16:52:08 - ESP Server private IP address: 172.31.28.183.
+2018/08/07 16:52:08 - TLH. ESP Server public IP address: 34.216.20.124.
+2018/08/07 16:52:08 - 34.216.20.124:   Starting node configuration.
+2018/08/07 16:52:08 - 34.216.20.124:   Connecting via SSH.
+2018/08/07 16:52:09 - 34.216.20.124:   Checking software installation completed.
+2018/08/07 16:52:09 - 34.216.20.124:   Software installation finished.
+2018/08/07 16:52:09 - 34.216.20.124:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:52:10 - 34.216.20.124:   Checking file contents.
+2018/08/07 16:52:10 - 34.216.20.124:   Remote file contents confirmed.
+2018/08/07 16:52:11 - 34.216.20.124:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:52:11 - 34.216.20.124:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/07 16:52:12 - 34.216.20.124:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/07 16:52:12 - 34.216.20.124:   Checking file contents.
+2018/08/07 16:52:12 - 34.216.20.124:   Remote file contents confirmed.
+2018/08/07 16:52:12 - 34.216.20.124:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/07 16:52:36 - 34.216.20.124:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting mydali ...            [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting mydfuserver ...       [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting myeclagent ...        [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting myeclccserver ...     [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting myesp ...             [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting mysasha ...           [   OK    ]   
+2018/08/07 16:52:36 - 34.216.20.124:   Starting mythor ...            [   OK    ]  
+2018/08/07 16:52:36 - 34.216.20.124:   Start node is complete.
+2018/08/07 16:52:36 - TLH. Done.
+2018/08/07 16:53:24 - TLH. Terminating cluster.
+2018/08/07 16:53:24 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:53:24 - TLH. Gathering instances for Hpcc-MZ2G.
+2018/08/07 16:53:25 - TLH. Terminating instances.instance1="Instance:i-0bc1163e37ca363f5"
+2018/08/07 16:53:25 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:30 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:35 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:41 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:46 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:51 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:53:56 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:54:01 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 16:54:06 - TLH. Deleting Access Key Hpcc-MZ2G.
+2018/08/07 16:54:06 - TLH. Deleting Security group Hpcc-MZ2G.
+2018/08/07 16:54:07 - TLH. Done.

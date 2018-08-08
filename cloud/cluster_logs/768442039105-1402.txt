@@ -1,0 +1,223 @@
+2018/03/28 23:08:21 - Connecting to AWS region us-west-2.
+2018/03/28 23:08:21 - Calculating new unique cluster name for request 1402.
+2018/03/28 23:08:22 - Creating new cluster name, Hpcc-JE97.
+2018/03/28 23:08:22 - Creating Hpcc-JE97 security group.
+2018/03/28 23:08:25 - Creating Hpcc-JE97 key pair.
+2018/03/28 23:08:26 - Launching 3 m1.large nodes using ami-4f00c837.
+2018/03/28 23:08:27 - Reservation ID r-0bc96305ac7b5a8b7 created.
+2018/03/28 23:08:27 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:32 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:38 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:43 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:49 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:54 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:08:59 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:05 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:10 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:16 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:21 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:26 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:32 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:37 - Waiting for 3 of 3 nodes to launch.
+2018/03/28 23:09:42 - Waiting for 2 of 3 nodes to launch.
+2018/03/28 23:09:48 - Waiting for 1 of 3 nodes to launch.
+2018/03/28 23:09:53 - Waiting for 1 of 3 nodes to launch.
+2018/03/28 23:09:58 - Waiting for 1 of 3 nodes to launch.
+2018/03/28 23:10:03 - Pending instances have completed.
+2018/03/28 23:10:03 - Checking each node launched properly.
+2018/03/28 23:10:03 - 34.217.208.1:    Checking EC2 instance i-0ce59412023a5e41f.
+2018/03/28 23:10:03 - 50.112.137.231:  Checking EC2 instance i-097cab65e45804125.
+2018/03/28 23:10:03 - 34.216.255.11:   Checking EC2 instance i-0e859ba78f2025067.
+2018/03/28 23:10:03 - 34.217.208.1:    Checking EC2 instance is running.
+2018/03/28 23:10:03 - 34.217.208.1:    Connecting via SSH.
+2018/03/28 23:10:04 - 34.217.208.1:    Waiting on SSH connection.
+2018/03/28 23:10:04 - 50.112.137.231:  Checking EC2 instance is running.
+2018/03/28 23:10:04 - 50.112.137.231:  Connecting via SSH.
+2018/03/28 23:10:04 - 34.216.255.11:   Checking EC2 instance is running.
+2018/03/28 23:10:04 - 34.216.255.11:   Connecting via SSH.
+2018/03/28 23:10:04 - 34.216.255.11:   Waiting on SSH connection.
+2018/03/28 23:10:09 - 34.217.208.1:    Waiting on SSH connection.
+2018/03/28 23:10:09 - 34.216.255.11:   Waiting on SSH connection.
+2018/03/28 23:10:14 - 34.216.255.11:   Waiting on SSH connection.
+2018/03/28 23:10:20 - 34.217.208.1:    Checking software installation completed.
+2018/03/28 23:10:20 - 34.217.208.1:    Software installation finished.
+2018/03/28 23:10:20 - 34.217.208.1:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:10:21 - 34.217.208.1:    Checking file contents.
+2018/03/28 23:10:21 - 34.217.208.1:    Remote file contents confirmed.
+2018/03/28 23:10:22 - Unhandled error occured when checking for bad instances
+2018/03/28 23:10:22 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Mar 29 03:09:28 ip-172-31-25-65 kernel: [    0.320000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Mar 29 03:09:28 ip-172-31-25-65 kernel: [    0.320000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.320000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.320000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/03/28 23:10:22 - 34.217.208.1:    Completed check of node 34.217.208.1.
+2018/03/28 23:10:22 - Error messages found in system logs:
+/var/log/syslog:Mar 29 03:09:28 ip-172-31-25-65 kernel: [    0.320000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Mar 29 03:09:28 ip-172-31-25-65 kernel: [    0.320000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.320000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.320000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/03/28 23:10:26 - 34.216.255.11:   Checking software installation completed.
+2018/03/28 23:10:27 - 34.216.255.11:   Software installation finished.
+2018/03/28 23:10:27 - 34.216.255.11:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:10:27 - 34.216.255.11:   Checking file contents.
+2018/03/28 23:10:27 - 34.216.255.11:   Remote file contents confirmed.
+2018/03/28 23:10:28 - 34.216.255.11:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:10:28 - 34.216.255.11:   Completed check of node 34.216.255.11.
+2018/03/28 23:10:41 - 50.112.137.231:  Checking software installation completed.
+2018/03/28 23:10:43 - 50.112.137.231:  Software installation finished.
+2018/03/28 23:10:43 - 50.112.137.231:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:10:43 - 50.112.137.231:  Checking file contents.
+2018/03/28 23:10:43 - 50.112.137.231:  Remote file contents confirmed.
+2018/03/28 23:10:44 - Unhandled error occured when checking for bad instances
+2018/03/28 23:10:44 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Mar 29 03:09:45 ip-172-31-20-139 kernel: [    0.316000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Mar 29 03:09:45 ip-172-31-20-139 kernel: [    0.316000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.316000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/03/28 23:10:44 - 50.112.137.231:  Completed check of node 50.112.137.231.
+2018/03/28 23:10:44 - Error messages found in system logs:
+/var/log/syslog:Mar 29 03:09:45 ip-172-31-20-139 kernel: [    0.316000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Mar 29 03:09:45 ip-172-31-20-139 kernel: [    0.316000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.316000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.316000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/03/28 23:10:44 - Terminating 2 bad instances.
+2018/03/28 23:10:44 - Terminating instances.
+2018/03/28 23:10:48 - Waiting for 2 instances to terminate.
+2018/03/28 23:10:54 - Waiting for 2 instances to terminate.
+2018/03/28 23:10:59 - Waiting for 2 instances to terminate.
+2018/03/28 23:11:06 - Waiting for 2 instances to terminate.
+2018/03/28 23:11:13 - Waiting for 2 instances to terminate.
+2018/03/28 23:11:20 - Waiting for 2 instances to terminate.
+2018/03/28 23:11:28 - Launching 2 new nodes.
+2018/03/28 23:11:30 - Reservation ID r-0db921332ee47ecd9 created.
+2018/03/28 23:11:30 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:11:36 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:11:43 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:11:50 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:11:57 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:12:03 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:12:13 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:12:20 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:12:27 - Waiting for 2 of 2 nodes to launch.
+2018/03/28 23:12:33 - Waiting for 1 of 2 nodes to launch.
+2018/03/28 23:12:40 - Waiting for 1 of 2 nodes to launch.
+2018/03/28 23:12:45 - Waiting for 1 of 2 nodes to launch.
+2018/03/28 23:12:51 - Waiting for 1 of 2 nodes to launch.
+2018/03/28 23:12:57 - Waiting for 1 of 2 nodes to launch.
+2018/03/28 23:13:03 - Pending instances have completed.
+2018/03/28 23:13:03 - Checking each node launched properly.
+2018/03/28 23:13:03 - 35.160.221.58:   Checking EC2 instance i-0e9c2dde90a857a60.
+2018/03/28 23:13:03 - 34.212.201.165:  Checking EC2 instance i-0e59f722e012662b3.
+2018/03/28 23:13:04 - 34.212.201.165:  Checking EC2 instance is running.
+2018/03/28 23:13:04 - 34.212.201.165:  Connecting via SSH.
+2018/03/28 23:13:05 - 35.160.221.58:   Checking EC2 instance is running.
+2018/03/28 23:13:05 - 35.160.221.58:   Connecting via SSH.
+2018/03/28 23:13:06 - 34.212.201.165:  Checking software installation completed.
+2018/03/28 23:13:07 - 34.212.201.165:  Waiting for software to install.
+2018/03/28 23:13:17 - 34.212.201.165:  Software installation finished.
+2018/03/28 23:13:17 - 34.212.201.165:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:13:18 - 34.212.201.165:  Checking file contents.
+2018/03/28 23:13:18 - 34.212.201.165:  Remote file contents confirmed.
+2018/03/28 23:13:19 - 34.212.201.165:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:13:19 - 34.212.201.165:  Completed check of node 34.212.201.165.
+2018/03/28 23:13:36 - 35.160.221.58:   Waiting on SSH connection.
+2018/03/28 23:13:43 - 35.160.221.58:   Checking software installation completed.
+2018/03/28 23:13:43 - 35.160.221.58:   Waiting for software to install.
+2018/03/28 23:13:53 - 35.160.221.58:   Software installation finished.
+2018/03/28 23:13:53 - 35.160.221.58:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:13:54 - 35.160.221.58:   Checking file contents.
+2018/03/28 23:13:54 - 35.160.221.58:   Remote file contents confirmed.
+2018/03/28 23:13:55 - 35.160.221.58:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:13:55 - 35.160.221.58:   Completed check of node 35.160.221.58.
+2018/03/28 23:13:55 - Determining availability zone.
+2018/03/28 23:13:55 - Gathering public and private ip addresses.
+2018/03/28 23:13:55 - Connecting to node 34.216.255.11 for cluster configuration.
+2018/03/28 23:13:55 - Connecting via SSH.
+2018/03/28 23:13:56 - Checking software installation completed.
+2018/03/28 23:13:57 - Software installation finished.
+2018/03/28 23:13:57 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:13:57 - Checking file contents.
+2018/03/28 23:13:57 - Remote file contents confirmed.
+2018/03/28 23:13:58 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:13:58 - Writing cluster private ip addresses to file on instance.
+2018/03/28 23:13:58 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/03/28 23:13:59 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/03/28 23:13:59 - Checking file contents.
+2018/03/28 23:13:59 - Remote file contents confirmed.
+2018/03/28 23:13:59 - Running envgen
+2018/03/28 23:14:00 - Reading the config file.
+2018/03/28 23:14:00 - Retrieving IP address of ESP Server.
+2018/03/28 23:14:01 - ESP Server private IP address: 172.31.29.252.
+2018/03/28 23:14:01 - ESP Server public IP address: 34.216.255.11.
+2018/03/28 23:14:01 - 34.212.201.165:  Starting node configuration.
+2018/03/28 23:14:01 - 35.160.221.58:   Starting node configuration.
+2018/03/28 23:14:01 - 34.216.255.11:   Starting node configuration.
+2018/03/28 23:14:01 - 34.212.201.165:  Connecting via SSH.
+2018/03/28 23:14:01 - 34.216.255.11:   Connecting via SSH.
+2018/03/28 23:14:01 - 35.160.221.58:   Connecting via SSH.
+2018/03/28 23:14:02 - 34.216.255.11:   Checking software installation completed.
+2018/03/28 23:14:03 - 34.216.255.11:   Software installation finished.
+2018/03/28 23:14:03 - 34.216.255.11:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:14:03 - 34.216.255.11:   Checking file contents.
+2018/03/28 23:14:03 - 34.216.255.11:   Remote file contents confirmed.
+2018/03/28 23:14:04 - 34.216.255.11:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:14:04 - 34.216.255.11:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/03/28 23:14:05 - 34.216.255.11:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/03/28 23:14:05 - 34.216.255.11:   Checking file contents.
+2018/03/28 23:14:06 - 34.216.255.11:   Remote file contents confirmed.
+2018/03/28 23:14:06 - 34.216.255.11:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/03/28 23:14:06 - 34.212.201.165:  Checking software installation completed.
+2018/03/28 23:14:07 - 34.212.201.165:  Software installation finished.
+2018/03/28 23:14:07 - 34.212.201.165:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:14:07 - 34.212.201.165:  Checking file contents.
+2018/03/28 23:14:07 - 35.160.221.58:   Checking software installation completed.
+2018/03/28 23:14:07 - 35.160.221.58:   Software installation finished.
+2018/03/28 23:14:07 - 35.160.221.58:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/03/28 23:14:07 - 34.212.201.165:  Remote file contents confirmed.
+2018/03/28 23:14:08 - 35.160.221.58:   Checking file contents.
+2018/03/28 23:14:08 - 34.212.201.165:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:14:08 - 34.212.201.165:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/03/28 23:14:08 - 35.160.221.58:   Remote file contents confirmed.
+2018/03/28 23:14:09 - 34.212.201.165:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/03/28 23:14:09 - 35.160.221.58:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/03/28 23:14:09 - 35.160.221.58:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/03/28 23:14:09 - 34.212.201.165:  Checking file contents.
+2018/03/28 23:14:10 - 34.212.201.165:  Remote file contents confirmed.
+2018/03/28 23:14:10 - 34.212.201.165:  Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/03/28 23:14:10 - 35.160.221.58:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/03/28 23:14:10 - 35.160.221.58:   Checking file contents.
+2018/03/28 23:14:11 - 35.160.221.58:   Remote file contents confirmed.
+2018/03/28 23:14:11 - 35.160.221.58:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/03/28 23:14:27 - 35.160.221.58:   Starting mydafilesrv ...       [   OK    ]   
+2018/03/28 23:14:27 - 35.160.221.58:   Starting mydali ...            [   OK    ]   
+2018/03/28 23:14:27 - 35.160.221.58:   Starting myeclccserver ...     [   OK    ]  
+2018/03/28 23:14:27 - 35.160.221.58:   Start node is complete.
+2018/03/28 23:14:28 - 34.212.201.165:  Starting mydafilesrv ...       [   OK    ]   
+2018/03/28 23:14:28 - 34.212.201.165:  Starting mydfuserver ...       [   OK    ]   
+2018/03/28 23:14:28 - 34.212.201.165:  Starting myeclscheduler ...    [   OK    ]  
+2018/03/28 23:14:28 - 34.212.201.165:  Start node is complete.
+2018/03/28 23:14:47 - 34.216.255.11:   Starting mydafilesrv ...       [   OK    ]   
+2018/03/28 23:14:47 - 34.216.255.11:   Starting myeclagent ...        [   OK    ]   
+2018/03/28 23:14:47 - 34.216.255.11:   Starting myesp ...             [   OK    ]   
+2018/03/28 23:14:47 - 34.216.255.11:   Starting mysasha ...           [   OK    ]   
+2018/03/28 23:14:47 - 34.216.255.11:   Starting mythor ...            [   OK    ]  
+2018/03/28 23:14:47 - 34.216.255.11:   Start node is complete.
+2018/03/28 23:14:47 - Done.
+2018/03/29 02:39:52 - Terminating cluster.
+2018/03/29 02:39:52 - Connecting to AWS region us-west-2.
+2018/03/29 02:39:52 - Gathering instances for Hpcc-JE97.
+2018/03/29 02:39:52 - Terminating instances.
+2018/03/29 02:39:52 - Deleting Access Key Hpcc-JE97.
+2018/03/29 02:39:53 - Deleting Security group Hpcc-JE97.
+2018/03/29 02:39:53 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-01ab763ba4baca49b has a dependent object
+                      requestId: 5af034b4-3ac6-4a13-b8dc-247ce491452c

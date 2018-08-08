@@ -1,0 +1,85 @@
+2012/01/30 14:25:17 - Connecting to AWS region us-east-1.
+2012/01/30 14:25:17 - Calculating new unique cluster name for request 49.
+2012/01/30 14:25:17 - Creating new cluster name, Thor-G8NY.
+2012/01/30 14:25:17 - Creating Thor-G8NY security group.
+2012/01/30 14:25:19 - Creating Thor-G8NY key pair.
+2012/01/30 14:25:19 - Launching 1 m1.large nodes using ami-fbbf7892.
+2012/01/30 14:25:19 - Reservation ID r-dc52a0bc created
+2012/01/30 14:25:19 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:25 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:30 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:35 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:40 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:45 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:50 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:25:55 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:26:00 - Waiting for 1 of 1 nodes to launch.
+2012/01/30 14:26:05 - Pending instances have completed.
+2012/01/30 14:26:05 - Checking each node launched properly.
+2012/01/30 14:26:05 - 107.21.74.96:    Checking EC2 instance i-d3c31fb6.
+2012/01/30 14:26:05 - 107.21.74.96:    Checking EC2 instance is running.
+2012/01/30 14:26:05 - 107.21.74.96:    Connecting via SSH.
+2012/01/30 14:26:05 - 107.21.74.96:    Waiting on SSH connection.
+2012/01/30 14:26:14 - 107.21.74.96:    Checking network mask is compatible.
+2012/01/30 14:26:14 - 107.21.74.96:    Checking disk I/O
+2012/01/30 14:26:14 - 107.21.74.96:    Checking software installation completed.
+2012/01/30 14:26:14 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:26:24 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:26:34 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:26:44 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:26:54 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:27:04 - 107.21.74.96:    Waiting for software to install.
+2012/01/30 14:27:14 - 107.21.74.96:    Software installation finished.
+2012/01/30 14:27:14 - 107.21.74.96:    Completed check of node 107.21.74.96.
+2012/01/30 14:27:14 - Determining availability zone.
+2012/01/30 14:27:14 - Gathering public and private ip addresses.
+2012/01/30 14:27:14 - Connecting to node 107.21.74.96 for cluster configuration.
+2012/01/30 14:27:14 - Connecting via SSH.
+2012/01/30 14:27:15 - Checking network mask is compatible.
+2012/01/30 14:27:15 - Checking disk I/O
+2012/01/30 14:27:15 - Checking software installation completed.
+2012/01/30 14:27:15 - Software installation finished.
+2012/01/30 14:27:15 - Writing cluster private ip addresses to file on instance.
+2012/01/30 14:27:15 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/01/30 14:27:15 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/01/30 14:27:15 - Checking file contents.
+2012/01/30 14:27:15 - Remote file contents confirmed.
+2012/01/30 14:27:15 - Running envgen
+2012/01/30 14:27:15 - Reading the config file.
+2012/01/30 14:27:16 - Retrieving IP address of ESP Server.
+2012/01/30 14:27:16 - ESP Server private IP address: 10.114.142.153.
+2012/01/30 14:27:16 - ESP Server public IP address: 107.21.74.96.
+2012/01/30 14:27:16 - 107.21.74.96:    Starting node configuration.
+2012/01/30 14:27:16 - 107.21.74.96:    Connecting via SSH.
+2012/01/30 14:27:16 - 107.21.74.96:    Checking network mask is compatible.
+2012/01/30 14:27:16 - 107.21.74.96:    Checking disk I/O
+2012/01/30 14:27:16 - 107.21.74.96:    Checking software installation completed.
+2012/01/30 14:27:16 - 107.21.74.96:    Software installation finished.
+2012/01/30 14:27:16 - 107.21.74.96:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/01/30 14:27:16 - 107.21.74.96:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/01/30 14:27:16 - 107.21.74.96:    Checking file contents.
+2012/01/30 14:27:16 - 107.21.74.96:    Remote file contents confirmed.
+2012/01/30 14:27:16 - 107.21.74.96:    Starting HPCC services.
+2012/01/30 14:27:16 - 107.21.74.96:    HPPC Systems Thor Community Edition: 3.4.0-1.
+2012/01/30 14:27:42 - 107.21.74.96:    Starting mydafilesrv....       [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting mydali....            [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting mydfuserver....       [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting myeclagent....        [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting myeclccserver....     [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting myeclscheduler....    [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting myesp....             [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting mysasha....           [  OK  ]   
+2012/01/30 14:27:42 - 107.21.74.96:    Starting mythor....            [  OK  ]  
+2012/01/30 14:27:42 - 107.21.74.96:    Start node is complete.
+2012/01/30 14:27:42 - Done.
+2012/01/30 16:57:43 - Terminating cluster.
+2012/01/30 16:57:43 - Connecting to AWS region us-east-1.
+2012/01/30 16:57:43 - Gathering instances for Thor-G8NY.
+2012/01/30 16:57:43 - Terminating instances.
+2012/01/30 16:57:43 - Waiting for 1 instances to terminate.
+2012/01/30 16:57:48 - Waiting for 1 instances to terminate.
+2012/01/30 16:57:53 - Waiting for 1 instances to terminate.
+2012/01/30 16:57:58 - Waiting for 1 instances to terminate.
+2012/01/30 16:58:04 - Deleting Access Key Thor-G8NY.
+2012/01/30 16:58:04 - Deleting Security group Thor-G8NY.
+2012/01/30 16:58:04 - Done.

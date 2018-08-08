@@ -1,0 +1,85 @@
+2015/10/15 15:57:49 - Connecting to AWS region us-east-1.
+2015/10/15 15:57:49 - Calculating new unique cluster name for request 1150.
+2015/10/15 15:57:49 - Creating new cluster name, Hpcc-2JYW.
+2015/10/15 15:57:49 - Creating Hpcc-2JYW security group.
+2015/10/15 15:57:51 - Creating Hpcc-2JYW key pair.
+2015/10/15 15:57:51 - Launching 1 m1.large nodes using ami-63abfe06.
+2015/10/15 15:57:52 - Reservation ID r-0de2cff0 created.
+2015/10/15 15:57:52 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:57:57 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:02 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:07 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:13 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:18 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:23 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:28 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:33 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:38 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:43 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:49 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:54 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:58:59 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:04 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:09 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:14 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:19 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:24 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:29 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:34 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:39 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:45 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:50 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 15:59:55 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 16:00:00 - Waiting for 1 of 1 nodes to launch.
+2015/10/15 16:00:05 - Pending instances have completed.
+2015/10/15 16:00:05 - Checking each node launched properly.
+2015/10/15 16:00:05 - 50.19.37.21:     Checking EC2 instance i-e1159835.
+2015/10/15 16:00:05 - 50.19.37.21:     Checking EC2 instance is running.
+2015/10/15 16:00:05 - 50.19.37.21:     Connecting via SSH.
+2015/10/15 16:00:12 - 50.19.37.21:     Waiting on SSH connection.
+2015/10/15 16:00:22 - 50.19.37.21:     Checking software installation completed.
+2015/10/15 16:00:22 - 50.19.37.21:     Software installation finished.
+2015/10/15 16:00:22 - 50.19.37.21:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/10/15 16:00:22 - 50.19.37.21:     Checking file contents.
+2015/10/15 16:00:22 - 50.19.37.21:     Remote file contents confirmed.
+2015/10/15 16:00:22 - Unhandled error occured when checking for bad instances
+2015/10/15 16:00:22 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Oct 15 19:55:29 ip-10-151-74-95 pollinate[965]: ERROR: Network communication failed [60]\n19:55:28.352042 * Hostname was NOT found in DNS cache#012  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current#012                                 Dload  Upload   Total   Spent    Left  Speed#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     019:55:28.361320 *   Trying 91.189.94.24...#01219:55:28.436897 * Connected to entropy.ubuntu.com (91.189.94.24) port 443 (#0)#01219:55:28.438354 * successfully set certificate verify locations:#01219:55:28.438461 *   CAfile: /etc/pollinate/entropy.ubuntu.com.pem#012  CApath: /dev/null#01219:55:28.438741 * SSLv3, TLS handshake, Client hello (1):#01219:55:28.438851 } [data not shown]#01219:55:28.532152 * SSLv3, TLS handshake, Server hello (2):#01219:55:28.532260 { [data not shown]#01219:55:28.532463 * SSLv3, TLS handshake, CERT (11):#01219:55:28.532561 { [data not shown]#01219:55:28.533168 * SSLv3, TLS alert, Server hello (2):#01219:55:28.533280 } [data not shown]#01219:55:28.533507 * SSL certificate problem: unable to get local issuer certificate#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#01219:55:28.533988 * Closing connection 0#012curl: (60) SSL certificate problem: unable to get local issuer certificate#012More details here: http://curl.haxx.se/docs/sslcerts.html#012#012curl performs SSL certificate verification by default, using a "bundle"#012 of Certificate Authority (CA) public keys (CA certs). If the default#012 bundle file isn't adequate, you can specify an alternate file#012 using the --cacert option.#012If this HTTPS server uses a certificate signed by a CA represented in#012 the bundle, the certificate verification probably failed due to a#012 problem with the certificate (it might be expired, or the name might#012 not match the domain name in the URL).#012If you'd like to turn off curl's verification of the certificate, use#012 the -k (or --insecure) option.
+/var/log/syslog:Oct 15 19:55:29 ip-10-151-74-95 pollinate[1150]: ERROR: Network communication failed [60]\n19:55:29.325105 * Hostname was NOT found in DNS cache#012  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current#012                                 Dload  Upload   Total   Spent    Left  Speed#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     019:55:29.330733 *   Trying 91.189.94.10...#01219:55:29.406296 * Connected to entropy.ubuntu.com (91.189.94.10) port 443 (#0)#01219:55:29.407751 * successfully set certificate verify locations:#01219:55:29.407858 *   CAfile: /etc/pollinate/entropy.ubuntu.com.pem#012  CApath: /dev/null#01219:55:29.408166 * SSLv3, TLS handshake, Client hello (1):#01219:55:29.408286 } [data not shown]#01219:55:29.499927 * SSLv3, TLS handshake, Server hello (2):#01219:55:29.500058 { [data not shown]#01219:55:29.500264 * SSLv3, TLS handshake, CERT (11):#01219:55:29.500362 { [data not shown]#01219:55:29.500952 * SSLv3, TLS alert, Server hello (2):#01219:55:29.501063 } [data not shown]#01219:55:29.501295 * SSL certificate problem: unable to get local issuer certificate#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#01219:55:29.501770 * Closing connection 0#012curl: (60) SSL certificate problem: unable to get local issuer certificate#012More details here: http://curl.haxx.se/docs/sslcerts.html#012#012curl performs SSL certificate verification by default, using a "bundle"#012 of Certificate Authority (CA) public keys (CA certs). If the default#012 bundle file isn't adequate, you can specify an alternate file#012 using the --cacert option.#012If this HTTPS server uses a certificate signed by a CA represented in#012 the bundle, the certificate verification probably failed due to a#012 problem with the certificate (it might be expired, or the name might#012 not match the domain name in the URL).#012If you'd like to turn off curl's verification of the certificate, use#012 the -k (or --insecure) option.
+Total of 1 anomalies detected.
+2015/10/15 16:00:22 - 50.19.37.21:     Completed check of node 50.19.37.21.
+2015/10/15 16:00:22 - Error messages found in system logs:
+/var/log/syslog:Oct 15 19:55:29 ip-10-151-74-95 pollinate[965]: ERROR: Network communication failed [60]\n19:55:28.352042 * Hostname was NOT found in DNS cache#012  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current#012                                 Dload  Upload   Total   Spent    Left  Speed#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     019:55:28.361320 *   Trying 91.189.94.24...#01219:55:28.436897 * Connected to entropy.ubuntu.com (91.189.94.24) port 443 (#0)#01219:55:28.438354 * successfully set certificate verify locations:#01219:55:28.438461 *   CAfile: /etc/pollinate/entropy.ubuntu.com.pem#012  CApath: /dev/null#01219:55:28.438741 * SSLv3, TLS handshake, Client hello (1):#01219:55:28.438851 } [data not shown]#01219:55:28.532152 * SSLv3, TLS handshake, Server hello (2):#01219:55:28.532260 { [data not shown]#01219:55:28.532463 * SSLv3, TLS handshake, CERT (11):#01219:55:28.532561 { [data not shown]#01219:55:28.533168 * SSLv3, TLS alert, Server hello (2):#01219:55:28.533280 } [data not shown]#01219:55:28.533507 * SSL certificate problem: unable to get local issuer certificate#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#01219:55:28.533988 * Closing connection 0#012curl: (60) SSL certificate problem: unable to get local issuer certificate#012More details here: http://curl.haxx.se/docs/sslcerts.html#012#012curl performs SSL certificate verification by default, using a "bundle"#012 of Certificate Authority (CA) public keys (CA certs). If the default#012 bundle file isn't adequate, you can specify an alternate file#012 using the --cacert option.#012If this HTTPS server uses a certificate signed by a CA represented in#012 the bundle, the certificate verification probably failed due to a#012 problem with the certificate (it might be expired, or the name might#012 not match the domain name in the URL).#012If you'd like to turn off curl's verification of the certificate, use#012 the -k (or --insecure) option.
+/var/log/syslog:Oct 15 19:55:29 ip-10-151-74-95 pollinate[1150]: ERROR: Network communication failed [60]\n19:55:29.325105 * Hostname was NOT found in DNS cache#012  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current#012                                 Dload  Upload   Total   Spent    Left  Speed#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     019:55:29.330733 *   Trying 91.189.94.10...#01219:55:29.406296 * Connected to entropy.ubuntu.com (91.189.94.10) port 443 (#0)#01219:55:29.407751 * successfully set certificate verify locations:#01219:55:29.407858 *   CAfile: /etc/pollinate/entropy.ubuntu.com.pem#012  CApath: /dev/null#01219:55:29.408166 * SSLv3, TLS handshake, Client hello (1):#01219:55:29.408286 } [data not shown]#01219:55:29.499927 * SSLv3, TLS handshake, Server hello (2):#01219:55:29.500058 { [data not shown]#01219:55:29.500264 * SSLv3, TLS handshake, CERT (11):#01219:55:29.500362 { [data not shown]#01219:55:29.500952 * SSLv3, TLS alert, Server hello (2):#01219:55:29.501063 } [data not shown]#01219:55:29.501295 * SSL certificate problem: unable to get local issuer certificate#012#015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#01219:55:29.501770 * Closing connection 0#012curl: (60) SSL certificate problem: unable to get local issuer certificate#012More details here: http://curl.haxx.se/docs/sslcerts.html#012#012curl performs SSL certificate verification by default, using a "bundle"#012 of Certificate Authority (CA) public keys (CA certs). If the default#012 bundle file isn't adequate, you can specify an alternate file#012 using the --cacert option.#012If this HTTPS server uses a certificate signed by a CA represented in#012 the bundle, the certificate verification probably failed due to a#012 problem with the certificate (it might be expired, or the name might#012 not match the domain name in the URL).#012If you'd like to turn off curl's verification of the certificate, use#012 the -k (or --insecure) option.
+Total of 1 anomalies detected.
+
+2015/10/15 16:00:22 - Terminating 1 bad instances.
+2015/10/15 16:00:22 - Terminating instances.
+2015/10/15 16:00:23 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:28 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:33 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:38 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:43 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:48 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:54 - Waiting for 1 instances to terminate.
+2015/10/15 16:00:57 - Terminating cluster.
+2015/10/15 16:00:57 - Connecting to AWS region us-east-1.
+2015/10/15 16:00:57 - Gathering instances for Hpcc-2JYW.
+2015/10/15 16:00:58 - Terminating instances.
+2015/10/15 16:00:58 - Deleting Access Key Hpcc-2JYW.
+2015/10/15 16:00:58 - Deleting Security group Hpcc-2JYW.
+2015/10/15 16:00:58 - Done.
+2015/10/15 16:00:59 - An exception occured.
+                      Amazon Error: InvalidGroup.NotFound
+                      The security group 'hpcc-2jyw' does not exist
+                      requestId: 59540883-2ec8-48aa-90cd-820684810c50
+2015/10/15 16:04:03 - Terminating cluster.
+2015/10/15 16:04:03 - Connecting to AWS region us-east-1.
+2015/10/15 16:04:03 - Gathering instances for Hpcc-2JYW.
+2015/10/15 16:04:03 - Terminating instances.
+2015/10/15 16:04:03 - Deleting Access Key Hpcc-2JYW.
+2015/10/15 16:04:04 - Error: Access key not found.
+2015/10/15 16:04:04 - Deleting Security group Hpcc-2JYW.
+2015/10/15 16:04:04 - Error: Security group not found.
+2015/10/15 16:04:04 - Done.

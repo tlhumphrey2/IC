@@ -1,0 +1,105 @@
+2013/04/05 20:49:27 - Connecting to AWS region us-west-2.
+2013/04/05 20:49:27 - Calculating new unique cluster name for request 557.
+2013/04/05 20:49:28 - Creating new cluster name, Hpcc-5BVW.
+2013/04/05 20:49:28 - Creating Hpcc-5BVW security group.
+2013/04/05 20:49:31 - Creating Hpcc-5BVW key pair.
+2013/04/05 20:49:32 - Launching 1 m1.large nodes using ami-e01698d0.
+2013/04/05 20:49:33 - Reservation ID r-9c412bae created.
+2013/04/05 20:49:33 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:49:38 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:49:44 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:49:49 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:49:54 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:49:59 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:04 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:10 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:15 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:20 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:25 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:31 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:36 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:41 - Waiting for 1 of 1 nodes to launch.
+2013/04/05 20:50:46 - Pending instances have completed.
+2013/04/05 20:50:46 - Checking each node launched properly.
+2013/04/05 20:50:46 - 54.245.44.189:   Checking EC2 instance i-d6fff6e4.
+2013/04/05 20:50:46 - 54.245.44.189:   Checking EC2 instance is running.
+2013/04/05 20:50:46 - 54.245.44.189:   Connecting via SSH.
+2013/04/05 20:50:48 - 54.245.44.189:   Checking software installation completed.
+2013/04/05 20:50:49 - 54.245.44.189:   Waiting for software to install.
+2013/04/05 20:50:59 - 54.245.44.189:   Software installation finished.
+2013/04/05 20:50:59 - 54.245.44.189:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/04/05 20:51:00 - 54.245.44.189:   Checking file contents.
+2013/04/05 20:51:00 - 54.245.44.189:   Remote file contents confirmed.
+2013/04/05 20:51:01 - 54.245.44.189:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/04/05 20:51:01 - 54.245.44.189:   Completed check of node 54.245.44.189.
+2013/04/05 20:51:01 - Determining availability zone.
+2013/04/05 20:51:01 - Gathering public and private ip addresses.
+2013/04/05 20:51:01 - Connecting to node 54.245.44.189 for cluster configuration.
+2013/04/05 20:51:01 - Connecting via SSH.
+2013/04/05 20:51:06 - Checking software installation completed.
+2013/04/05 20:51:06 - Software installation finished.
+2013/04/05 20:51:06 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/04/05 20:51:07 - Checking file contents.
+2013/04/05 20:51:07 - Remote file contents confirmed.
+2013/04/05 20:51:08 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/04/05 20:51:08 - Writing cluster private ip addresses to file on instance.
+2013/04/05 20:51:08 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/04/05 20:51:08 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/04/05 20:51:09 - Checking file contents.
+2013/04/05 20:51:09 - Remote file contents confirmed.
+2013/04/05 20:51:09 - Running envgen
+2013/04/05 20:51:10 - Reading the config file.
+2013/04/05 20:51:10 - Retrieving IP address of ESP Server.
+2013/04/05 20:51:11 - ESP Server private IP address: 10.254.29.101.
+2013/04/05 20:51:11 - ESP Server public IP address: 54.245.44.189.
+2013/04/05 20:51:11 - 54.245.44.189:   Starting node configuration.
+2013/04/05 20:51:11 - 54.245.44.189:   Connecting via SSH.
+2013/04/05 20:51:12 - 54.245.44.189:   Checking software installation completed.
+2013/04/05 20:51:12 - 54.245.44.189:   Software installation finished.
+2013/04/05 20:51:12 - 54.245.44.189:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/04/05 20:51:13 - 54.245.44.189:   Checking file contents.
+2013/04/05 20:51:13 - 54.245.44.189:   Remote file contents confirmed.
+2013/04/05 20:51:14 - 54.245.44.189:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/04/05 20:51:14 - 54.245.44.189:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/04/05 20:51:15 - 54.245.44.189:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/04/05 20:51:15 - 54.245.44.189:   Checking file contents.
+2013/04/05 20:51:15 - 54.245.44.189:   Remote file contents confirmed.
+2013/04/05 20:51:15 - 54.245.44.189:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/04/05 20:51:42 - 54.245.44.189:   Starting mydafilesrv....       [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting mydali....            [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting mydfuserver....       [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting myeclagent....        [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting myeclccserver....     [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting myeclscheduler....    [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting myesp....             [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting mysasha....           [  OK  ]   
+2013/04/05 20:51:42 - 54.245.44.189:   Starting mythor....            [  OK  ]  
+2013/04/05 20:51:42 - 54.245.44.189:   Start node is complete.
+2013/04/05 20:51:42 - Done.
+2013/04/05 21:25:26 - Terminating cluster.
+2013/04/05 21:25:26 - Connecting to AWS region us-west-2.
+2013/04/05 21:25:26 - Gathering instances for Hpcc-5BVW.
+2013/04/05 21:25:27 - Terminating instances.
+2013/04/05 21:25:27 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:33 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:38 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:43 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:48 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:54 - Waiting for 1 instances to terminate.
+2013/04/05 21:25:59 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:04 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:09 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:15 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:20 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:25 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:30 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:35 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:41 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:46 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:51 - Waiting for 1 instances to terminate.
+2013/04/05 21:26:56 - Waiting for 1 instances to terminate.
+2013/04/05 21:27:02 - Waiting for 1 instances to terminate.
+2013/04/05 21:27:07 - Waiting for 1 instances to terminate.
+2013/04/05 21:27:12 - Deleting Access Key Hpcc-5BVW.
+2013/04/05 21:27:13 - Deleting Security group Hpcc-5BVW.
+2013/04/05 21:27:13 - Done.

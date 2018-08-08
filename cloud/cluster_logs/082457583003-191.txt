@@ -1,0 +1,228 @@
+2012/03/14 07:51:08 - Connecting to AWS region us-west-2.
+2012/03/14 07:51:08 - Checking storage IDs exist in region us-west-2: snap-ae3d57c6
+2012/03/14 07:51:09 - Calculating new unique cluster name for request 191.
+2012/03/14 07:51:09 - Creating new cluster name, Thor-GYND.
+2012/03/14 07:51:09 - Creating Thor-GYND security group.
+2012/03/14 07:51:13 - Creating Thor-GYND key pair.
+2012/03/14 07:51:14 - Launching 6 m1.large nodes using ami-8e2ca1be.
+2012/03/14 07:51:15 - Reservation ID r-423a6972 created.
+2012/03/14 07:51:15 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:21 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:28 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:35 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:41 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:48 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:51:55 - Waiting for 6 of 6 nodes to launch.
+2012/03/14 07:52:01 - Waiting for 4 of 6 nodes to launch.
+2012/03/14 07:52:08 - Waiting for 3 of 6 nodes to launch.
+2012/03/14 07:52:13 - Waiting for 3 of 6 nodes to launch.
+2012/03/14 07:52:19 - Waiting for 3 of 6 nodes to launch.
+2012/03/14 07:52:25 - Waiting for 1 of 6 nodes to launch.
+2012/03/14 07:52:30 - Waiting for 1 of 6 nodes to launch.
+2012/03/14 07:52:36 - Pending instances have completed.
+2012/03/14 07:52:36 - Checking each node launched properly.
+2012/03/14 07:52:36 - 50.112.33.150:   Checking EC2 instance i-0cc59e3c.
+2012/03/14 07:52:36 - 50.112.22.47:    Checking EC2 instance i-0ec59e3e.
+2012/03/14 07:52:36 - 50.112.48.156:   Checking EC2 instance i-70c59e40.
+2012/03/14 07:52:36 - 50.112.17.53:    Checking EC2 instance i-72c59e42.
+2012/03/14 07:52:36 - 50.112.39.128:   Checking EC2 instance i-74c59e44.
+2012/03/14 07:52:36 - 50.112.21.3:     Checking EC2 instance i-76c59e46.
+2012/03/14 07:52:36 - 50.112.33.150:   Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.33.150:   Connecting via SSH.
+2012/03/14 07:52:36 - 50.112.17.53:    Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.17.53:    Connecting via SSH.
+2012/03/14 07:52:36 - 50.112.21.3:     Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.21.3:     Connecting via SSH.
+2012/03/14 07:52:36 - 50.112.22.47:    Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.22.47:    Connecting via SSH.
+2012/03/14 07:52:36 - 50.112.39.128:   Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.39.128:   Connecting via SSH.
+2012/03/14 07:52:36 - 50.112.48.156:   Checking EC2 instance is running.
+2012/03/14 07:52:36 - 50.112.48.156:   Connecting via SSH.
+2012/03/14 07:52:37 - 50.112.33.150:   Checking software installation completed.
+2012/03/14 07:52:38 - 50.112.33.150:   Software installation finished.
+2012/03/14 07:52:38 - 50.112.33.150:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:38 - 50.112.17.53:    Checking software installation completed.
+2012/03/14 07:52:38 - 50.112.39.128:   Checking software installation completed.
+2012/03/14 07:52:38 - 50.112.17.53:    Software installation finished.
+2012/03/14 07:52:38 - 50.112.17.53:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:38 - 50.112.22.47:    Checking software installation completed.
+2012/03/14 07:52:38 - 50.112.48.156:   Checking software installation completed.
+2012/03/14 07:52:38 - 50.112.39.128:   Software installation finished.
+2012/03/14 07:52:38 - 50.112.39.128:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:38 - 50.112.33.150:   Checking file contents.
+2012/03/14 07:52:38 - 50.112.48.156:   Software installation finished.
+2012/03/14 07:52:38 - 50.112.48.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:38 - 50.112.22.47:    Software installation finished.
+2012/03/14 07:52:38 - 50.112.22.47:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:39 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 07:52:39 - 50.112.17.53:    Checking file contents.
+2012/03/14 07:52:39 - 50.112.39.128:   Checking file contents.
+2012/03/14 07:52:39 - 50.112.21.3:     Waiting on SSH connection.
+2012/03/14 07:52:39 - 50.112.48.156:   Checking file contents.
+2012/03/14 07:52:39 - 50.112.22.47:    Checking file contents.
+2012/03/14 07:52:39 - 50.112.17.53:    Remote file contents confirmed.
+2012/03/14 07:52:39 - 50.112.39.128:   Remote file contents confirmed.
+2012/03/14 07:52:39 - 50.112.48.156:   Remote file contents confirmed.
+2012/03/14 07:52:39 - 50.112.22.47:    Remote file contents confirmed.
+2012/03/14 07:52:39 - 50.112.33.150:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:39 - 50.112.33.150:   Completed check of node 50.112.33.150.
+2012/03/14 07:52:40 - 50.112.17.53:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:40 - 50.112.17.53:    Completed check of node 50.112.17.53.
+2012/03/14 07:52:40 - 50.112.39.128:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:40 - 50.112.39.128:   Completed check of node 50.112.39.128.
+2012/03/14 07:52:40 - 50.112.48.156:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:40 - 50.112.48.156:   Completed check of node 50.112.48.156.
+2012/03/14 07:52:40 - 50.112.22.47:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:40 - 50.112.22.47:    Completed check of node 50.112.22.47.
+2012/03/14 07:52:46 - 50.112.21.3:     Checking software installation completed.
+2012/03/14 07:52:46 - 50.112.21.3:     Software installation finished.
+2012/03/14 07:52:46 - 50.112.21.3:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:46 - 50.112.21.3:     Checking file contents.
+2012/03/14 07:52:47 - 50.112.21.3:     Remote file contents confirmed.
+2012/03/14 07:52:48 - 50.112.21.3:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:48 - 50.112.21.3:     Completed check of node 50.112.21.3.
+2012/03/14 07:52:48 - Determining availability zone.
+2012/03/14 07:52:48 - Gathering public and private ip addresses.
+2012/03/14 07:52:48 - Connecting to node 50.112.33.150 for cluster configuration.
+2012/03/14 07:52:48 - Connecting via SSH.
+2012/03/14 07:52:49 - Checking software installation completed.
+2012/03/14 07:52:49 - Software installation finished.
+2012/03/14 07:52:49 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:52:50 - Checking file contents.
+2012/03/14 07:52:50 - Remote file contents confirmed.
+2012/03/14 07:52:51 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:52:51 - Writing cluster private ip addresses to file on instance.
+2012/03/14 07:52:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 07:52:52 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 07:52:52 - Checking file contents.
+2012/03/14 07:52:52 - Remote file contents confirmed.
+2012/03/14 07:52:52 - Running envgen
+2012/03/14 07:52:53 - Reading the config file.
+2012/03/14 07:52:54 - Retrieving IP address of ESP Server.
+2012/03/14 07:52:54 - ESP Server private IP address: 10.252.14.140.
+2012/03/14 07:52:54 - ESP Server public IP address: 50.112.33.150.
+2012/03/14 07:52:54 - Attaching storage devices to the Landing Zone: snap-ae3d57c6
+2012/03/14 07:52:56 - Connecting via SSH.
+2012/03/14 07:52:58 - Waiting for EC2 instance to see storage device.
+2012/03/14 07:53:04 - An exception occured.
+                      ClusterError: mount: you must specify the filesystem type
+2012/03/14 07:53:04 - 50.112.33.150:   Starting node configuration.
+2012/03/14 07:53:04 - 50.112.33.150:   Connecting via SSH.
+2012/03/14 07:53:04 - 50.112.22.47:    Starting node configuration.
+2012/03/14 07:53:04 - 50.112.22.47:    Connecting via SSH.
+2012/03/14 07:53:04 - 50.112.48.156:   Starting node configuration.
+2012/03/14 07:53:04 - 50.112.48.156:   Connecting via SSH.
+2012/03/14 07:53:04 - 50.112.21.3:     Starting node configuration.
+2012/03/14 07:53:04 - 50.112.21.3:     Connecting via SSH.
+2012/03/14 07:53:04 - 50.112.17.53:    Starting node configuration.
+2012/03/14 07:53:04 - 50.112.17.53:    Connecting via SSH.
+2012/03/14 07:53:04 - 50.112.39.128:   Starting node configuration.
+2012/03/14 07:53:04 - 50.112.39.128:   Connecting via SSH.
+2012/03/14 07:53:06 - 50.112.48.156:   Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.39.128:   Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.33.150:   Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.21.3:     Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.22.47:    Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.17.53:    Checking software installation completed.
+2012/03/14 07:53:06 - 50.112.48.156:   Software installation finished.
+2012/03/14 07:53:06 - 50.112.48.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.39.128:   Software installation finished.
+2012/03/14 07:53:06 - 50.112.39.128:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.33.150:   Software installation finished.
+2012/03/14 07:53:06 - 50.112.33.150:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.21.3:     Software installation finished.
+2012/03/14 07:53:06 - 50.112.21.3:     Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.22.47:    Software installation finished.
+2012/03/14 07:53:06 - 50.112.22.47:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.17.53:    Software installation finished.
+2012/03/14 07:53:06 - 50.112.17.53:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 07:53:06 - 50.112.39.128:   Checking file contents.
+2012/03/14 07:53:06 - 50.112.48.156:   Checking file contents.
+2012/03/14 07:53:07 - 50.112.33.150:   Checking file contents.
+2012/03/14 07:53:07 - 50.112.22.47:    Checking file contents.
+2012/03/14 07:53:07 - 50.112.17.53:    Checking file contents.
+2012/03/14 07:53:07 - 50.112.21.3:     Checking file contents.
+2012/03/14 07:53:07 - 50.112.39.128:   Remote file contents confirmed.
+2012/03/14 07:53:07 - 50.112.48.156:   Remote file contents confirmed.
+2012/03/14 07:53:07 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 07:53:07 - 50.112.21.3:     Remote file contents confirmed.
+2012/03/14 07:53:07 - 50.112.17.53:    Remote file contents confirmed.
+2012/03/14 07:53:07 - 50.112.22.47:    Remote file contents confirmed.
+2012/03/14 07:53:08 - 50.112.39.128:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:53:08 - 50.112.39.128:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 07:53:08 - 50.112.33.150:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:53:08 - 50.112.33.150:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 07:53:08 - 50.112.48.156:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:53:08 - 50.112.48.156:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 07:53:08 - 50.112.17.53:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:53:08 - 50.112.17.53:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 07:53:08 - 50.112.21.3:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 07:53:08 - 50.112.21.3:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 07:53:08 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Mar 14 11:53:04 ip-10-252-21-199 kernel: [9650192.306721] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+/var/log/syslog:Mar 14 11:53:04 ip-10-252-21-199 kernel: [9650192.307698] EXT2-fs (xvdf): error: can't find an ext2 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+2012/03/14 07:53:08 - 50.112.22.47:    Start node is complete.
+2012/03/14 07:53:08 - Error messages found in system logs:
+/var/log/syslog:Mar 14 11:53:04 ip-10-252-21-199 kernel: [9650192.306721] EXT3-fs (xvdf): error: can't find ext3 filesystem on dev xvdf.
+/var/log/syslog:Mar 14 11:53:04 ip-10-252-21-199 kernel: [9650192.307698] EXT2-fs (xvdf): error: can't find an ext2 filesystem on dev xvdf.
+Total of 1 anomalies detected.
+
+2012/03/14 07:53:09 - 50.112.39.128:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 07:53:09 - 50.112.48.156:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 07:53:09 - 50.112.33.150:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 07:53:09 - 50.112.21.3:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 07:53:09 - 50.112.17.53:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 07:53:09 - 50.112.39.128:   Checking file contents.
+2012/03/14 07:53:09 - 50.112.48.156:   Checking file contents.
+2012/03/14 07:53:09 - 50.112.17.53:    Checking file contents.
+2012/03/14 07:53:09 - 50.112.33.150:   Checking file contents.
+2012/03/14 07:53:09 - 50.112.21.3:     Checking file contents.
+2012/03/14 07:53:09 - 50.112.39.128:   Remote file contents confirmed.
+2012/03/14 07:53:09 - 50.112.39.128:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 07:53:10 - 50.112.48.156:   Remote file contents confirmed.
+2012/03/14 07:53:10 - 50.112.48.156:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 07:53:10 - 50.112.33.150:   Remote file contents confirmed.
+2012/03/14 07:53:10 - 50.112.33.150:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 07:53:10 - 50.112.17.53:    Remote file contents confirmed.
+2012/03/14 07:53:10 - 50.112.17.53:    Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 07:53:10 - 50.112.21.3:     Remote file contents confirmed.
+2012/03/14 07:53:10 - 50.112.21.3:     Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 07:53:14 - 50.112.39.128:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 07:53:14 - 50.112.39.128:   Starting myeclccserver....     [  OK  ]   
+2012/03/14 07:53:14 - 50.112.39.128:   Setting mythor....             [  OK  ]  
+2012/03/14 07:53:14 - 50.112.39.128:   Start node is complete.
+2012/03/14 07:53:14 - 50.112.48.156:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 07:53:14 - 50.112.48.156:   Starting mydfuserver....       [  OK  ]   
+2012/03/14 07:53:14 - 50.112.48.156:   Setting mythor....             [  OK  ]  
+2012/03/14 07:53:14 - 50.112.48.156:   Start node is complete.
+2012/03/14 07:53:14 - 50.112.17.53:    Starting mydafilesrv....       [  OK  ]   
+2012/03/14 07:53:14 - 50.112.17.53:    Starting myeclagent....        [  OK  ]   
+2012/03/14 07:53:14 - 50.112.17.53:    Setting mythor....             [  OK  ]  
+2012/03/14 07:53:14 - 50.112.17.53:    Start node is complete.
+2012/03/14 07:53:14 - 50.112.21.3:     Starting mydafilesrv....       [  OK  ]   
+2012/03/14 07:53:14 - 50.112.21.3:     Starting myeclscheduler....    [  OK  ]   
+2012/03/14 07:53:14 - 50.112.21.3:     Setting mythor....             [  OK  ]  
+2012/03/14 07:53:14 - 50.112.21.3:     Start node is complete.
+2012/03/14 07:53:30 - 50.112.33.150:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 07:53:30 - 50.112.33.150:   Starting myesp....             [  OK  ]   
+2012/03/14 07:53:30 - 50.112.33.150:   Starting mysasha....           [  OK  ]   
+2012/03/14 07:53:30 - 50.112.33.150:   Starting mythor....            [  OK  ]  
+2012/03/14 07:53:30 - 50.112.33.150:   Start node is complete.
+2012/03/14 07:53:30 - Done.
+2012/03/14 07:55:36 - Terminating cluster.
+2012/03/14 07:55:36 - Connecting to AWS region us-west-2.
+2012/03/14 07:55:36 - Gathering instances for Thor-GYND.
+2012/03/14 07:55:36 - Terminating instances.
+2012/03/14 07:55:40 - Waiting for 6 instances to terminate.
+2012/03/14 07:55:47 - Waiting for 6 instances to terminate.
+2012/03/14 07:55:54 - Waiting for 4 instances to terminate.
+2012/03/14 07:56:00 - Waiting for 2 instances to terminate.
+2012/03/14 07:56:05 - Waiting for 1 instances to terminate.
+2012/03/14 07:56:10 - Deleting attached EBS volumes.
+2012/03/14 07:56:10 - Deleting volume vol-c10311aa
+2012/03/14 07:56:11 - Deleting Access Key Thor-GYND.
+2012/03/14 07:56:11 - Deleting Security group Thor-GYND.
+2012/03/14 07:56:12 - Done.

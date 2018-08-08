@@ -1,0 +1,419 @@
+2018/02/07 13:01:29 - Connecting to AWS region ap-northeast-1.
+2018/02/07 13:01:29 - Calculating new unique cluster name for request 1375.
+2018/02/07 13:01:31 - Creating new cluster name, Hpcc-RTGH.
+2018/02/07 13:01:31 - Creating Hpcc-RTGH security group.
+2018/02/07 13:01:35 - Creating Hpcc-RTGH key pair.
+2018/02/07 13:01:35 - Launching 3 m1.large nodes using ami-c8780eae.
+2018/02/07 13:01:38 - Reservation ID r-03dab8c0aac39ba00 created.
+2018/02/07 13:01:38 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:01:44 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:01:49 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:01:55 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:01 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:06 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:12 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:17 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:23 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:29 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:34 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:40 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:45 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:51 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:02:57 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:03 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:08 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:14 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:20 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:25 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:31 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:03:37 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:03:42 - Pending instances have completed.
+2018/02/07 13:03:42 - Checking each node launched properly.
+2018/02/07 13:03:42 - 54.95.233.93:    Checking EC2 instance i-0349a515f348b2848.
+2018/02/07 13:03:42 - 54.199.122.253:  Checking EC2 instance i-0334ffcb588df59bb.
+2018/02/07 13:03:42 - 175.41.206.91:   Checking EC2 instance i-0d98fc8d080343252.
+2018/02/07 13:03:42 - 54.95.233.93:    Checking EC2 instance is running.
+2018/02/07 13:03:42 - 54.95.233.93:    Connecting via SSH.
+2018/02/07 13:03:43 - 54.199.122.253:  Checking EC2 instance is running.
+2018/02/07 13:03:43 - 54.199.122.253:  Connecting via SSH.
+2018/02/07 13:03:43 - 175.41.206.91:   Checking EC2 instance is running.
+2018/02/07 13:03:43 - 175.41.206.91:   Connecting via SSH.
+2018/02/07 13:03:58 - 175.41.206.91:   Waiting on SSH connection.
+2018/02/07 13:03:59 - 54.199.122.253:  Waiting on SSH connection.
+2018/02/07 13:03:59 - 54.95.233.93:    Waiting on SSH connection.
+2018/02/07 13:04:04 - 175.41.206.91:   Waiting on SSH connection.
+2018/02/07 13:04:04 - 54.199.122.253:  Waiting on SSH connection.
+2018/02/07 13:04:05 - 54.95.233.93:    Waiting on SSH connection.
+2018/02/07 13:04:16 - 175.41.206.91:   Checking software installation completed.
+2018/02/07 13:04:16 - 54.199.122.253:  Checking software installation completed.
+2018/02/07 13:04:17 - 175.41.206.91:   Software installation finished.
+2018/02/07 13:04:17 - 175.41.206.91:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:04:17 - 54.199.122.253:  Software installation finished.
+2018/02/07 13:04:17 - 54.199.122.253:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:04:18 - 54.95.233.93:    Checking software installation completed.
+2018/02/07 13:04:18 - 175.41.206.91:   Checking file contents.
+2018/02/07 13:04:18 - 54.199.122.253:  Checking file contents.
+2018/02/07 13:04:18 - 54.95.233.93:    Software installation finished.
+2018/02/07 13:04:18 - 54.95.233.93:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:04:18 - 175.41.206.91:   Remote file contents confirmed.
+2018/02/07 13:04:18 - 54.199.122.253:  Remote file contents confirmed.
+2018/02/07 13:04:19 - 54.95.233.93:    Checking file contents.
+2018/02/07 13:04:20 - Unhandled error occured when checking for bad instances
+2018/02/07 13:04:20 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:03:57 ip-10-169-8-87 kernel: [    0.308035] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:03:57 ip-10-169-8-87 kernel: [    0.308035]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308035] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308035]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:04:20 - 175.41.206.91:   Completed check of node 175.41.206.91.
+2018/02/07 13:04:20 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:03:57 ip-10-169-8-87 kernel: [    0.308035] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:03:57 ip-10-169-8-87 kernel: [    0.308035]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308035] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308035]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:04:20 - 54.95.233.93:    Remote file contents confirmed.
+2018/02/07 13:04:20 - Unhandled error occured when checking for bad instances
+2018/02/07 13:04:20 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:03:59 ip-10-133-149-132 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:03:59 ip-10-133-149-132 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:04:20 - 54.199.122.253:  Completed check of node 54.199.122.253.
+2018/02/07 13:04:20 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:03:59 ip-10-133-149-132 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:03:59 ip-10-133-149-132 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:04:21 - Unhandled error occured when checking for bad instances
+2018/02/07 13:04:21 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:04:00 ip-10-169-152-89 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:04:00 ip-10-169-152-89 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:04:21 - 54.95.233.93:    Completed check of node 54.95.233.93.
+2018/02/07 13:04:21 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:04:00 ip-10-169-152-89 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:04:00 ip-10-169-152-89 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:04:21 - Terminating 3 bad instances.
+2018/02/07 13:04:21 - Terminating instances.
+2018/02/07 13:04:27 - Waiting for 3 instances to terminate.
+2018/02/07 13:04:33 - Waiting for 3 instances to terminate.
+2018/02/07 13:04:38 - Waiting for 3 instances to terminate.
+2018/02/07 13:04:44 - Waiting for 3 instances to terminate.
+2018/02/07 13:04:50 - Waiting for 3 instances to terminate.
+2018/02/07 13:04:56 - Waiting for 2 instances to terminate.
+2018/02/07 13:05:01 - Waiting for 1 instances to terminate.
+2018/02/07 13:05:10 - Reservation ID r-0d67eda152073b84a created.
+2018/02/07 13:05:10 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:05:20 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:05:29 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:05:37 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:05:45 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:05:55 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:06:04 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:06:12 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:06:21 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:06:29 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:06:35 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:06:43 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:06:50 - Waiting for 2 of 3 nodes to launch.
+2018/02/07 13:06:58 - Waiting for 1 of 3 nodes to launch.
+2018/02/07 13:07:04 - Pending instances have completed.
+2018/02/07 13:07:04 - Checking each node launched properly.
+2018/02/07 13:07:04 - 54.178.51.19:    Checking EC2 instance i-0fd5c030830459c19.
+2018/02/07 13:07:04 - 175.41.206.91:   Checking EC2 instance i-047e05fcf46e8e18d.
+2018/02/07 13:07:04 - 54.95.151.66:    Checking EC2 instance i-078e4f60b7d8d9b2a.
+2018/02/07 13:07:04 - 54.95.151.66:    Checking EC2 instance is running.
+2018/02/07 13:07:04 - 54.95.151.66:    Connecting via SSH.
+2018/02/07 13:07:05 - 175.41.206.91:   Checking EC2 instance is running.
+2018/02/07 13:07:05 - 175.41.206.91:   Connecting via SSH.
+2018/02/07 13:07:06 - 54.178.51.19:    Checking EC2 instance is running.
+2018/02/07 13:07:06 - 54.178.51.19:    Connecting via SSH.
+2018/02/07 13:07:09 - 54.95.151.66:    Waiting on SSH connection.
+2018/02/07 13:07:12 - 175.41.206.91:   Checking software installation completed.
+2018/02/07 13:07:13 - 175.41.206.91:   Software installation finished.
+2018/02/07 13:07:13 - 175.41.206.91:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:07:14 - 175.41.206.91:   Checking file contents.
+2018/02/07 13:07:14 - 54.95.151.66:    Waiting on SSH connection.
+2018/02/07 13:07:14 - 175.41.206.91:   Remote file contents confirmed.
+2018/02/07 13:07:15 - 54.178.51.19:    Waiting on SSH connection.
+2018/02/07 13:07:16 - Unhandled error occured when checking for bad instances
+2018/02/07 13:07:16 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:06:35 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:06:35 ip-10-169-8-87 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:07:16 - 175.41.206.91:   Completed check of node 175.41.206.91.
+2018/02/07 13:07:16 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:06:35 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:06:35 ip-10-169-8-87 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:07:20 - 54.178.51.19:    Waiting on SSH connection.
+2018/02/07 13:07:28 - 54.95.151.66:    Checking software installation completed.
+2018/02/07 13:07:28 - 54.95.151.66:    Software installation finished.
+2018/02/07 13:07:28 - 54.95.151.66:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:07:29 - 54.95.151.66:    Checking file contents.
+2018/02/07 13:07:30 - 54.95.151.66:    Remote file contents confirmed.
+2018/02/07 13:07:31 - Unhandled error occured when checking for bad instances
+2018/02/07 13:07:31 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:07:11 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:07:11 ip-10-174-4-248 kernel: [    0.308030]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308030]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:07:31 - 54.95.151.66:    Completed check of node 54.95.151.66.
+2018/02/07 13:07:31 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:07:11 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:07:11 ip-10-174-4-248 kernel: [    0.308030]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308030]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:07:34 - 54.178.51.19:    Checking software installation completed.
+2018/02/07 13:07:34 - 54.178.51.19:    Software installation finished.
+2018/02/07 13:07:34 - 54.178.51.19:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:07:35 - 54.178.51.19:    Checking file contents.
+2018/02/07 13:07:36 - 54.178.51.19:    Remote file contents confirmed.
+2018/02/07 13:07:37 - Unhandled error occured when checking for bad instances
+2018/02/07 13:07:37 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:07:16 ip-10-187-16-27 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:07:16 ip-10-187-16-27 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:07:37 - 54.178.51.19:    Completed check of node 54.178.51.19.
+2018/02/07 13:07:37 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:07:16 ip-10-187-16-27 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:07:16 ip-10-187-16-27 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:07:37 - Terminating 3 bad instances.
+2018/02/07 13:07:37 - Terminating instances.
+2018/02/07 13:07:43 - Waiting for 3 instances to terminate.
+2018/02/07 13:07:48 - Waiting for 3 instances to terminate.
+2018/02/07 13:07:54 - Waiting for 3 instances to terminate.
+2018/02/07 13:08:00 - Waiting for 3 instances to terminate.
+2018/02/07 13:08:06 - Waiting for 3 instances to terminate.
+2018/02/07 13:08:11 - Waiting for 1 instances to terminate.
+2018/02/07 13:08:17 - Waiting for 1 instances to terminate.
+2018/02/07 13:08:26 - Reservation ID r-0cc9c5965a7515a72 created.
+2018/02/07 13:08:26 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:08:34 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:08:42 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:08:51 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:08:59 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:09:08 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:09:16 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:09:25 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:09:34 - Pending instances have completed.
+2018/02/07 13:09:34 - Checking each node launched properly.
+2018/02/07 13:09:34 - 54.95.151.66:    Checking EC2 instance i-0a87a1fb8a4a38982.
+2018/02/07 13:09:34 - 175.41.206.91:   Checking EC2 instance i-06a0ed1b20d76fb0b.
+2018/02/07 13:09:34 - 54.95.220.17:    Checking EC2 instance i-0e4920524fa5e8a3f.
+2018/02/07 13:09:34 - 54.95.151.66:    Checking EC2 instance is running.
+2018/02/07 13:09:34 - 54.95.151.66:    Connecting via SSH.
+2018/02/07 13:09:34 - 175.41.206.91:   Checking EC2 instance is running.
+2018/02/07 13:09:34 - 175.41.206.91:   Connecting via SSH.
+2018/02/07 13:09:34 - 54.95.220.17:    Checking EC2 instance is running.
+2018/02/07 13:09:34 - 54.95.220.17:    Connecting via SSH.
+2018/02/07 13:09:49 - 54.95.151.66:    Waiting on SSH connection.
+2018/02/07 13:09:49 - 175.41.206.91:   Waiting on SSH connection.
+2018/02/07 13:09:49 - 54.95.220.17:    Waiting on SSH connection.
+2018/02/07 13:09:55 - 54.95.151.66:    Waiting on SSH connection.
+2018/02/07 13:10:03 - 54.95.220.17:    Checking software installation completed.
+2018/02/07 13:10:03 - 175.41.206.91:   Checking software installation completed.
+2018/02/07 13:10:03 - 54.95.220.17:    Software installation finished.
+2018/02/07 13:10:03 - 54.95.220.17:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:10:04 - 175.41.206.91:   Software installation finished.
+2018/02/07 13:10:04 - 175.41.206.91:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:10:04 - 54.95.220.17:    Checking file contents.
+2018/02/07 13:10:04 - 175.41.206.91:   Checking file contents.
+2018/02/07 13:10:05 - 54.95.220.17:    Remote file contents confirmed.
+2018/02/07 13:10:05 - 175.41.206.91:   Remote file contents confirmed.
+2018/02/07 13:10:06 - Unhandled error occured when checking for bad instances
+2018/02/07 13:10:06 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:47 ip-10-124-1-135 kernel: [    0.312000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:47 ip-10-124-1-135 kernel: [    0.312000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.312000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:10:06 - 54.95.220.17:    Completed check of node 54.95.220.17.
+2018/02/07 13:10:06 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:47 ip-10-124-1-135 kernel: [    0.312000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:47 ip-10-124-1-135 kernel: [    0.312000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.312000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:10:06 - Unhandled error occured when checking for bad instances
+2018/02/07 13:10:06 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:45 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:45 ip-10-169-8-87 kernel: [    0.312042]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312042]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:10:06 - 175.41.206.91:   Completed check of node 175.41.206.91.
+2018/02/07 13:10:06 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:45 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:45 ip-10-169-8-87 kernel: [    0.312042]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312042]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:10:08 - 54.95.151.66:    Checking software installation completed.
+2018/02/07 13:10:09 - 54.95.151.66:    Software installation finished.
+2018/02/07 13:10:09 - 54.95.151.66:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:10:10 - 54.95.151.66:    Checking file contents.
+2018/02/07 13:10:10 - 54.95.151.66:    Remote file contents confirmed.
+2018/02/07 13:10:12 - Unhandled error occured when checking for bad instances
+2018/02/07 13:10:12 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:49 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:49 ip-10-174-4-248 kernel: [    0.304000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.304000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:10:12 - 54.95.151.66:    Completed check of node 54.95.151.66.
+2018/02/07 13:10:12 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:09:49 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:09:49 ip-10-174-4-248 kernel: [    0.304000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.304000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:10:12 - Terminating 3 bad instances.
+2018/02/07 13:10:12 - Terminating instances.
+2018/02/07 13:10:17 - Waiting for 3 instances to terminate.
+2018/02/07 13:10:23 - Waiting for 3 instances to terminate.
+2018/02/07 13:10:29 - Waiting for 3 instances to terminate.
+2018/02/07 13:10:34 - Waiting for 3 instances to terminate.
+2018/02/07 13:10:40 - Waiting for 3 instances to terminate.
+2018/02/07 13:10:46 - Waiting for 1 instances to terminate.
+2018/02/07 13:10:52 - Reservation ID r-0d45717f3bda1a804 created.
+2018/02/07 13:10:52 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:01 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:09 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:17 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:26 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:34 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:43 - Waiting for 3 of 3 nodes to launch.
+2018/02/07 13:11:53 - Waiting for 1 of 3 nodes to launch.
+2018/02/07 13:11:58 - Pending instances have completed.
+2018/02/07 13:11:58 - Checking each node launched properly.
+2018/02/07 13:11:58 - 54.95.151.66:    Checking EC2 instance i-014b1a8fc9ee03c8a.
+2018/02/07 13:11:58 - 175.41.206.91:   Checking EC2 instance i-0f86098aea08b9dc7.
+2018/02/07 13:11:58 - 54.95.220.17:    Checking EC2 instance i-043d321b01539d59c.
+2018/02/07 13:11:58 - 54.95.220.17:    Checking EC2 instance is running.
+2018/02/07 13:11:59 - 54.95.220.17:    Connecting via SSH.
+2018/02/07 13:11:59 - 175.41.206.91:   Checking EC2 instance is running.
+2018/02/07 13:11:59 - 175.41.206.91:   Connecting via SSH.
+2018/02/07 13:12:00 - 54.95.151.66:    Checking EC2 instance is running.
+2018/02/07 13:12:00 - 54.95.151.66:    Connecting via SSH.
+2018/02/07 13:12:14 - 54.95.220.17:    Waiting on SSH connection.
+2018/02/07 13:12:14 - 175.41.206.91:   Waiting on SSH connection.
+2018/02/07 13:12:15 - 54.95.151.66:    Waiting on SSH connection.
+2018/02/07 13:12:19 - 175.41.206.91:   Waiting on SSH connection.
+2018/02/07 13:12:27 - 54.95.220.17:    Checking software installation completed.
+2018/02/07 13:12:28 - 54.95.220.17:    Software installation finished.
+2018/02/07 13:12:28 - 54.95.220.17:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:12:28 - 54.95.220.17:    Checking file contents.
+2018/02/07 13:12:29 - 54.95.220.17:    Remote file contents confirmed.
+2018/02/07 13:12:29 - 54.95.151.66:    Checking software installation completed.
+2018/02/07 13:12:30 - 54.95.151.66:    Software installation finished.
+2018/02/07 13:12:30 - 54.95.151.66:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:12:30 - Unhandled error occured when checking for bad instances
+2018/02/07 13:12:30 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:11 ip-10-124-1-135 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:11 ip-10-124-1-135 kernel: [    0.312027]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312027]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:12:30 - 54.95.220.17:    Completed check of node 54.95.220.17.
+2018/02/07 13:12:30 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:11 ip-10-124-1-135 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:11 ip-10-124-1-135 kernel: [    0.312027]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.312027]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:12:31 - 54.95.151.66:    Checking file contents.
+2018/02/07 13:12:31 - 54.95.151.66:    Remote file contents confirmed.
+2018/02/07 13:12:32 - 175.41.206.91:   Checking software installation completed.
+2018/02/07 13:12:33 - Unhandled error occured when checking for bad instances
+2018/02/07 13:12:33 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:12 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:12 ip-10-174-4-248 kernel: [    0.308016]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308016]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:12:33 - 54.95.151.66:    Completed check of node 54.95.151.66.
+2018/02/07 13:12:33 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:12 ip-10-174-4-248 kernel: [    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:12 ip-10-174-4-248 kernel: [    0.308016]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.304000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308016]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:12:33 - 175.41.206.91:   Software installation finished.
+2018/02/07 13:12:33 - 175.41.206.91:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/02/07 13:12:34 - 175.41.206.91:   Checking file contents.
+2018/02/07 13:12:34 - 175.41.206.91:   Remote file contents confirmed.
+2018/02/07 13:12:36 - Unhandled error occured when checking for bad instances
+2018/02/07 13:12:36 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:14 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:14 ip-10-169-8-87 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/02/07 13:12:36 - 175.41.206.91:   Completed check of node 175.41.206.91.
+2018/02/07 13:12:36 - Error messages found in system logs:
+/var/log/syslog:Feb  7 18:12:14 ip-10-169-8-87 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Feb  7 18:12:14 ip-10-169-8-87 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/02/07 13:12:36 - Terminating 3 bad instances.
+2018/02/07 13:12:36 - Terminating instances.
+2018/02/07 13:12:40 - Waiting for 3 instances to terminate.
+2018/02/07 13:12:46 - Waiting for 3 instances to terminate.
+2018/02/07 13:12:52 - Waiting for 3 instances to terminate.
+2018/02/07 13:12:58 - Waiting for 3 instances to terminate.
+2018/02/07 13:13:03 - Waiting for 3 instances to terminate.
+2018/02/07 13:13:09 - Waiting for 1 instances to terminate.
+2018/02/07 13:13:14 - An exception occured.
+                      ClusterError: Failed to launch the nodes requested.
+2018/02/07 13:13:58 - Terminating cluster.
+2018/02/07 13:13:58 - Connecting to AWS region ap-northeast-1.
+2018/02/07 13:13:58 - Gathering instances for Hpcc-RTGH.
+2018/02/07 13:13:59 - Terminating instances.
+2018/02/07 13:14:06 - Deleting Access Key Hpcc-RTGH.
+2018/02/07 13:14:06 - Deleting Security group Hpcc-RTGH.
+2018/02/07 13:14:07 - Done.

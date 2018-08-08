@@ -1,0 +1,132 @@
+2012/11/22 05:11:10 - Connecting to AWS region us-west-2.
+2012/11/22 05:11:10 - Calculating new unique cluster name for request 417.
+2012/11/22 05:11:10 - Creating new cluster name, Hpcc-ZPG6.
+2012/11/22 05:11:10 - Creating Hpcc-ZPG6 security group.
+2012/11/22 05:11:14 - Creating Hpcc-ZPG6 key pair.
+2012/11/22 05:11:15 - Launching 1 m1.large nodes using ami-e01698d0.
+2012/11/22 05:11:16 - Reservation ID r-4395b770 created.
+2012/11/22 05:11:16 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:21 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:26 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:31 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:37 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:42 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:47 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:53 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:11:58 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:12:03 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:12:08 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:12:14 - Waiting for 1 of 1 nodes to launch.
+2012/11/22 05:12:19 - Pending instances have completed.
+2012/11/22 05:12:19 - Checking each node launched properly.
+2012/11/22 05:12:19 - 50.112.225.188:  Checking EC2 instance i-13fce520.
+2012/11/22 05:12:19 - 50.112.225.188:  Checking EC2 instance is running.
+2012/11/22 05:12:19 - 50.112.225.188:  Connecting via SSH.
+2012/11/22 05:12:21 - 50.112.225.188:  Waiting on SSH connection.
+2012/11/22 05:12:31 - 50.112.225.188:  Checking software installation completed.
+2012/11/22 05:12:32 - 50.112.225.188:  Software installation finished.
+2012/11/22 05:12:32 - 50.112.225.188:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/22 05:12:33 - 50.112.225.188:  Checking file contents.
+2012/11/22 05:12:33 - 50.112.225.188:  Remote file contents confirmed.
+2012/11/22 05:12:34 - 50.112.225.188:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/22 05:12:34 - 50.112.225.188:  Completed check of node 50.112.225.188.
+2012/11/22 05:12:34 - Determining availability zone.
+2012/11/22 05:12:34 - Gathering public and private ip addresses.
+2012/11/22 05:12:34 - Connecting to node 50.112.225.188 for cluster configuration.
+2012/11/22 05:12:34 - Connecting via SSH.
+2012/11/22 05:12:35 - Checking software installation completed.
+2012/11/22 05:12:35 - Software installation finished.
+2012/11/22 05:12:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/22 05:12:36 - Checking file contents.
+2012/11/22 05:12:36 - Remote file contents confirmed.
+2012/11/22 05:12:37 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/22 05:12:37 - Writing cluster private ip addresses to file on instance.
+2012/11/22 05:12:37 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/11/22 05:12:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/11/22 05:12:38 - Checking file contents.
+2012/11/22 05:12:38 - Remote file contents confirmed.
+2012/11/22 05:12:38 - Running envgen
+2012/11/22 05:12:39 - Reading the config file.
+2012/11/22 05:12:40 - Retrieving IP address of ESP Server.
+2012/11/22 05:12:40 - ESP Server private IP address: 10.244.128.94.
+2012/11/22 05:12:40 - ESP Server public IP address: 50.112.225.188.
+2012/11/22 05:12:40 - 50.112.225.188:  Starting node configuration.
+2012/11/22 05:12:40 - 50.112.225.188:  Connecting via SSH.
+2012/11/22 05:12:42 - 50.112.225.188:  Checking software installation completed.
+2012/11/22 05:12:42 - 50.112.225.188:  Software installation finished.
+2012/11/22 05:12:42 - 50.112.225.188:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/11/22 05:12:42 - 50.112.225.188:  Checking file contents.
+2012/11/22 05:12:43 - 50.112.225.188:  Remote file contents confirmed.
+2012/11/22 05:12:44 - 50.112.225.188:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/11/22 05:12:44 - 50.112.225.188:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/11/22 05:12:44 - 50.112.225.188:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/11/22 05:12:45 - 50.112.225.188:  Checking file contents.
+2012/11/22 05:12:45 - 50.112.225.188:  Remote file contents confirmed.
+2012/11/22 05:12:45 - 50.112.225.188:  Starting HPCC Platform Community Edition: 3.8.2-2.
+2012/11/22 05:13:12 - 50.112.225.188:  Starting mydafilesrv....       [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting mydali....            [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting mydfuserver....       [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting myeclagent....        [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting myeclccserver....     [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting myeclscheduler....    [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting myesp....             [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting mysasha....           [  OK  ]   
+2012/11/22 05:13:12 - 50.112.225.188:  Starting mythor....            [  OK  ]  
+2012/11/22 05:13:12 - 50.112.225.188:  Start node is complete.
+2012/11/22 05:13:12 - Done.
+2012/11/22 06:53:36 - Terminating cluster.
+2012/11/22 06:53:36 - Connecting to AWS region us-west-2.
+2012/11/22 06:53:36 - Gathering instances for Hpcc-ZPG6.
+2012/11/22 06:53:37 - Terminating instances.
+2012/11/22 06:53:37 - Waiting for 1 instances to terminate.
+2012/11/22 06:53:43 - Waiting for 1 instances to terminate.
+2012/11/22 06:53:48 - Waiting for 1 instances to terminate.
+2012/11/22 06:53:53 - Waiting for 1 instances to terminate.
+2012/11/22 06:53:59 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:04 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:09 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:14 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:20 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:25 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:30 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:36 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:41 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:46 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:51 - Waiting for 1 instances to terminate.
+2012/11/22 06:54:57 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:02 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:07 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:12 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:18 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:23 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:28 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:34 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:39 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:44 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:49 - Waiting for 1 instances to terminate.
+2012/11/22 06:55:55 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:00 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:05 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:11 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:16 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:21 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:26 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:32 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:37 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:42 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:48 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:53 - Waiting for 1 instances to terminate.
+2012/11/22 06:56:58 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:03 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:09 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:14 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:19 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:25 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:30 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:35 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:40 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:46 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:51 - Waiting for 1 instances to terminate.
+2012/11/22 06:57:56 - Deleting Access Key Hpcc-ZPG6.
+2012/11/22 06:57:57 - Deleting Security group Hpcc-ZPG6.
+2012/11/22 06:57:58 - Done.

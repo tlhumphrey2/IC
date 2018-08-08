@@ -1,0 +1,490 @@
+2014/07/12 18:00:17 - Connecting to AWS region us-east-1.
+2014/07/12 18:00:17 - Checking storage IDs exist in region us-east-1: snap-e1608d88
+2014/07/12 18:00:18 - Calculating new unique cluster name for request 847.
+2014/07/12 18:00:18 - Creating new cluster name, Hpcc-R9P2.
+2014/07/12 18:00:18 - Creating Hpcc-R9P2 security group.
+2014/07/12 18:00:20 - Creating Hpcc-R9P2 key pair.
+2014/07/12 18:00:20 - Launching 1 m1.large nodes using ami-738e911a.
+2014/07/12 18:00:21 - Reservation ID r-2a9cba55 created.
+2014/07/12 18:00:21 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:26 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:31 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:37 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:42 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:47 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:52 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:00:57 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:02 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:07 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:12 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:17 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:22 - Waiting for 1 of 1 nodes to launch.
+2014/07/12 18:01:28 - Pending instances have completed.
+2014/07/12 18:01:28 - Checking each node launched properly.
+2014/07/12 18:01:28 - 54.234.242.135:  Checking EC2 instance i-b3b4ec98.
+2014/07/12 18:01:28 - 54.234.242.135:  Checking EC2 instance is running.
+2014/07/12 18:01:28 - 54.234.242.135:  Connecting via SSH.
+2014/07/12 18:01:31 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:01:36 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:01:50 - 54.234.242.135:  Checking software installation completed.
+2014/07/12 18:01:50 - 54.234.242.135:  Software installation finished.
+2014/07/12 18:01:50 - 54.234.242.135:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/12 18:01:50 - 54.234.242.135:  Checking file contents.
+2014/07/12 18:01:50 - 54.234.242.135:  Remote file contents confirmed.
+2014/07/12 18:01:50 - 54.234.242.135:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/12 18:01:50 - 54.234.242.135:  Completed check of node 54.234.242.135.
+2014/07/12 18:01:50 - Determining availability zone.
+2014/07/12 18:01:50 - Gathering public and private ip addresses.
+2014/07/12 18:01:50 - Connecting to node 54.234.242.135 for cluster configuration.
+2014/07/12 18:01:50 - Connecting via SSH.
+2014/07/12 18:01:51 - Checking software installation completed.
+2014/07/12 18:01:51 - Software installation finished.
+2014/07/12 18:01:51 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/12 18:01:51 - Checking file contents.
+2014/07/12 18:01:51 - Remote file contents confirmed.
+2014/07/12 18:01:51 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/12 18:01:51 - Writing cluster private ip addresses to file on instance.
+2014/07/12 18:01:51 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/07/12 18:01:51 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/07/12 18:01:51 - Checking file contents.
+2014/07/12 18:01:52 - Remote file contents confirmed.
+2014/07/12 18:01:52 - Running envgen
+2014/07/12 18:01:52 - Reading the config file.
+2014/07/12 18:01:52 - Retrieving IP address of ESP Server.
+2014/07/12 18:01:52 - ESP Server private IP address: 10.110.210.63.
+2014/07/12 18:01:52 - ESP Server public IP address: 54.234.242.135.
+2014/07/12 18:01:53 - Attaching storage devices to the Landing Zone: snap-e1608d88
+2014/07/12 18:01:53 - Waiting for volumes to become available.
+2014/07/12 18:01:59 - Connecting via SSH.
+2014/07/12 18:01:59 - Waiting for EC2 instance to see storage device.
+2014/07/12 18:17:29 - Terminating cluster.
+2014/07/12 18:17:29 - Connecting to AWS region us-east-1.
+2014/07/12 18:17:29 - Gathering instances for Hpcc-R9P2.
+2014/07/12 18:17:29 - Terminating instances.
+2014/07/12 18:17:29 - Waiting for 1 instances to terminate.
+2014/07/12 18:17:30 - An exception occured.
+                      ClusterError: chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988/On_Time_On_Time_Performance_1988_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1988': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989/On_Time_On_Time_Performance_1989_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1989': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990/On_Time_On_Time_Performance_1990_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1990': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991/On_Time_On_Time_Performance_1991_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1991': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992/On_Time_On_Time_Performance_1992_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1992': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993/On_Time_On_Time_Performance_1993_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1993': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994/On_Time_On_Time_Performance_1994_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1994': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995/On_Time_On_Time_Performance_1995_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1995': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996/On_Time_On_Time_Performance_1996_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1996': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997/On_Time_On_Time_Performance_1997_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1997': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998/On_Time_On_Time_Performance_1998_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1998': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999/On_Time_On_Time_Performance_1999_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/1999': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000/On_Time_On_Time_Performance_2000_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2000': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001/On_Time_On_Time_Performance_2001_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2001': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2002/On_Time_On_Time_Performance_2002_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2002/On_Time_On_Time_Performance_2002_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2002/On_Time_On_Time_Performance_2002_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2002/On_Time_On_Time_Performance_2002_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2002': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003/On_Time_On_Time_Performance_2003_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2003': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004/On_Time_On_Time_Performance_2004_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2004': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005/On_Time_On_Time_Performance_2005_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2005': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006/On_Time_On_Time_Performance_2006_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2006': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007/On_Time_On_Time_Performance_2007_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2007': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_9.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_8.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_7.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_6.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_5.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_12.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_11.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_10.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008/On_Time_On_Time_Performance_2008_1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime/2008': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_ontime': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1993_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1993_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1993_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1993_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1994_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1994_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1994_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1995_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1995_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1995_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1995_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1996_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1996_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1996_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1996_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1997_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1997_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1997_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1997_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1998_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1998_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1998_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1998_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1999_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1999_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1999_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/1999_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2000_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2000_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2000_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2000_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2001_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2001_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2001_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2001_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2002_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2002_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2002_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2002_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2003_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2003_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2003_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2003_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2004_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2004_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2004_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2004_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2005_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2005_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2005_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2005_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2006_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2006_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2006_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2006_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2007_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2007_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2007_Q3.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2007_Q4.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2008_Q1.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination/2008_Q2.zip': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/airline_origin_destination': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1970emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1971emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1972emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1973emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1974emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1975emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1976emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1977emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1978emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1979emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1980emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1981emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1982emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1983emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1984emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1985emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1986emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1987emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1988emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1989emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1990emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1991emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1992emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1993emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1994emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1995emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1996emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1997emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1998emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/1999emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2000emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2001emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2002emp.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2003.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2004.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2005.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2006.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)/2007.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Certificated Carriers (Full-time and Part-time)': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/1998.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/1999.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2000.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2001.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2002.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2003.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2004.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2005.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2006.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category/2007.csv': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/P10 - Annual Employee Statistics by Labor Category': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts003_06.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts003_07.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts004_08.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts008_07.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts009_06.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts009_08.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts011_05.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts013_05.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts013_07.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts014_06.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts014_08.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts017_05.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts017_07.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts018_06.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts018_08.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts023_05.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/aviation/air_carrier_employees/Passenger Airline Employment Press Releases/bts024_07.html': Read-only file system
+chown: changing ownership of `/var/lib/HPCCSystems/mydropzone/snap-e1608d88/avi
+2014/07/12 18:17:30 - 54.234.242.135:  Starting node configuration.
+2014/07/12 18:17:30 - 54.234.242.135:  Connecting via SSH.
+2014/07/12 18:17:30 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:17:34 - Waiting for 1 instances to terminate.
+2014/07/12 18:17:40 - Waiting for 1 instances to terminate.
+2014/07/12 18:17:45 - Waiting for 1 instances to terminate.
+2014/07/12 18:17:50 - Waiting for 1 instances to terminate.
+2014/07/12 18:17:55 - Waiting for 1 instances to terminate.
+2014/07/12 18:18:01 - Deleting attached EBS volumes.
+2014/07/12 18:18:01 - Deleting volume vol-4d431404
+2014/07/12 18:18:01 - Deleting Access Key Hpcc-R9P2.
+2014/07/12 18:18:01 - Deleting Security group Hpcc-R9P2.
+2014/07/12 18:18:01 - Done.
+2014/07/12 18:18:38 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:19:46 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:20:54 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:22:02 - 54.234.242.135:  Waiting on SSH connection.
+2014/07/12 18:23:10 - An exception occured.
+                      NodeError: 54.234.242.135: Timed out trying to ssh to host..
+2014/07/12 18:23:10 - 54.234.242.135:  Start node is complete.
+2014/07/12 18:23:10 - 54.234.242.135: Timed out trying to ssh to host..
+2014/07/12 18:23:10 - Done.
+2014/07/12 19:07:41 - Terminating cluster.
+2014/07/12 19:07:41 - Connecting to AWS region us-east-1.
+2014/07/12 19:07:41 - Gathering instances for Hpcc-R9P2.
+2014/07/12 19:07:41 - Terminating instances.
+2014/07/12 19:07:42 - Deleting Access Key Hpcc-R9P2.
+2014/07/12 19:07:42 - Error: Access key not found.
+2014/07/12 19:07:42 - Deleting Security group Hpcc-R9P2.
+2014/07/12 19:07:42 - Error: Security group not found.
+2014/07/12 19:07:42 - Done.

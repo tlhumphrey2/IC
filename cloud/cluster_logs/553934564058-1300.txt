@@ -1,0 +1,77 @@
+2017/04/12 08:53:55 - Connecting to AWS region us-east-1.
+2017/04/12 08:53:55 - Calculating new unique cluster name for request 1300.
+2017/04/12 08:53:56 - Creating new cluster name, Hpcc-WD9K.
+2017/04/12 08:53:56 - Creating Hpcc-WD9K security group.
+2017/04/12 08:53:58 - Creating Hpcc-WD9K key pair.
+2017/04/12 08:53:58 - Launching 1 m1.large nodes using ami-ab3898bd.
+2017/04/12 08:53:59 - Reservation ID r-013a60ab1ccbd5372 created.
+2017/04/12 08:53:59 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:05 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:10 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:15 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:20 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:25 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:30 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:35 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:40 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:45 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:51 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:54:56 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:55:01 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:55:06 - Waiting for 1 of 1 nodes to launch.
+2017/04/12 08:55:11 - Pending instances have completed.
+2017/04/12 08:55:11 - Checking each node launched properly.
+2017/04/12 08:55:11 - 54.236.253.210:  Checking EC2 instance i-0ca20009311a6de13.
+2017/04/12 08:55:11 - 54.236.253.210:  Checking EC2 instance is running.
+2017/04/12 08:55:11 - 54.236.253.210:  Connecting via SSH.
+2017/04/12 08:55:34 - 54.236.253.210:  Checking software installation completed.
+2017/04/12 08:55:34 - 54.236.253.210:  Software installation finished.
+2017/04/12 08:55:34 - 54.236.253.210:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/12 08:55:34 - 54.236.253.210:  Checking file contents.
+2017/04/12 08:55:34 - 54.236.253.210:  Remote file contents confirmed.
+2017/04/12 08:55:34 - 54.236.253.210:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/12 08:55:34 - 54.236.253.210:  Completed check of node 54.236.253.210.
+2017/04/12 08:55:34 - Determining availability zone.
+2017/04/12 08:55:34 - Gathering public and private ip addresses.
+2017/04/12 08:55:34 - Connecting to node 54.236.253.210 for cluster configuration.
+2017/04/12 08:55:34 - Connecting via SSH.
+2017/04/12 08:55:35 - Checking software installation completed.
+2017/04/12 08:55:35 - Software installation finished.
+2017/04/12 08:55:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/12 08:55:35 - Checking file contents.
+2017/04/12 08:55:35 - Remote file contents confirmed.
+2017/04/12 08:55:35 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/12 08:55:35 - Writing cluster private ip addresses to file on instance.
+2017/04/12 08:55:35 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/04/12 08:55:35 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/04/12 08:55:35 - Checking file contents.
+2017/04/12 08:55:35 - Remote file contents confirmed.
+2017/04/12 08:55:35 - Running envgen
+2017/04/12 08:55:36 - Reading the config file.
+2017/04/12 08:55:36 - Retrieving IP address of ESP Server.
+2017/04/12 08:55:36 - ESP Server private IP address: 172.31.28.20.
+2017/04/12 08:55:36 - ESP Server public IP address: 54.236.253.210.
+2017/04/12 08:55:36 - 54.236.253.210:  Starting node configuration.
+2017/04/12 08:55:36 - 54.236.253.210:  Connecting via SSH.
+2017/04/12 08:55:37 - 54.236.253.210:  Checking software installation completed.
+2017/04/12 08:55:37 - 54.236.253.210:  Software installation finished.
+2017/04/12 08:55:37 - 54.236.253.210:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/04/12 08:55:37 - 54.236.253.210:  Checking file contents.
+2017/04/12 08:55:37 - 54.236.253.210:  Remote file contents confirmed.
+2017/04/12 08:55:37 - 54.236.253.210:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/04/12 08:55:37 - 54.236.253.210:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/04/12 08:55:37 - 54.236.253.210:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/04/12 08:55:38 - 54.236.253.210:  Checking file contents.
+2017/04/12 08:55:38 - 54.236.253.210:  Remote file contents confirmed.
+2017/04/12 08:55:38 - 54.236.253.210:  Starting HPCC Platform Community Edition: 6.2.8-1.
+2017/04/12 08:55:56 - 54.236.253.210:  Starting mydafilesrv ...       [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting mydali ...            [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting mydfuserver ...       [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting myeclagent ...        [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting myeclccserver ...     [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting myeclscheduler ...    [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting myesp ...             [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting mysasha ...           [   OK    ]   
+2017/04/12 08:55:56 - 54.236.253.210:  Starting mythor ...            [   OK    ]  
+2017/04/12 08:55:56 - 54.236.253.210:  Start node is complete.
+2017/04/12 08:55:56 - Done.

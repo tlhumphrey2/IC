@@ -1,0 +1,146 @@
+2016/04/14 08:43:56 - Connecting to AWS region eu-west-1.
+2016/04/14 08:43:56 - Calculating new unique cluster name for request 1211.
+2016/04/14 08:43:57 - Creating new cluster name, Hpcc-5CWD.
+2016/04/14 08:43:57 - Creating Hpcc-5CWD security group.
+2016/04/14 08:43:59 - Creating Hpcc-5CWD key pair.
+2016/04/14 08:43:59 - Launching 3 m1.large nodes using ami-fa30ee89.
+2016/04/14 08:44:00 - Reservation ID r-7d2e6fc4 created.
+2016/04/14 08:44:00 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:06 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:11 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:16 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:22 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:27 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:33 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:38 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:44 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:49 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:44:55 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:00 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:05 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:11 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:16 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:22 - Waiting for 3 of 3 nodes to launch.
+2016/04/14 08:45:28 - Waiting for 1 of 3 nodes to launch.
+2016/04/14 08:45:33 - Pending instances have completed.
+2016/04/14 08:45:33 - Checking each node launched properly.
+2016/04/14 08:45:33 - 54.216.137.42:   Checking EC2 instance i-1aa33590.
+2016/04/14 08:45:33 - 54.74.161.194:   Checking EC2 instance i-1ba33591.
+2016/04/14 08:45:33 - 54.217.159.248:  Checking EC2 instance i-18a33592.
+2016/04/14 08:45:33 - 54.216.137.42:   Checking EC2 instance is running.
+2016/04/14 08:45:33 - 54.216.137.42:   Connecting via SSH.
+2016/04/14 08:45:33 - 54.74.161.194:   Checking EC2 instance is running.
+2016/04/14 08:45:33 - 54.74.161.194:   Connecting via SSH.
+2016/04/14 08:45:33 - 54.217.159.248:  Checking EC2 instance is running.
+2016/04/14 08:45:33 - 54.217.159.248:  Connecting via SSH.
+2016/04/14 08:45:33 - 54.74.161.194:   Waiting on SSH connection.
+2016/04/14 08:45:40 - 54.216.137.42:   Checking software installation completed.
+2016/04/14 08:45:40 - 54.74.161.194:   Checking software installation completed.
+2016/04/14 08:45:40 - 54.216.137.42:   Software installation finished.
+2016/04/14 08:45:40 - 54.216.137.42:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:40 - 54.217.159.248:  Checking software installation completed.
+2016/04/14 08:45:40 - 54.74.161.194:   Software installation finished.
+2016/04/14 08:45:40 - 54.74.161.194:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:41 - 54.217.159.248:  Software installation finished.
+2016/04/14 08:45:41 - 54.217.159.248:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:41 - 54.216.137.42:   Checking file contents.
+2016/04/14 08:45:41 - 54.74.161.194:   Checking file contents.
+2016/04/14 08:45:41 - 54.217.159.248:  Checking file contents.
+2016/04/14 08:45:41 - 54.216.137.42:   Remote file contents confirmed.
+2016/04/14 08:45:41 - 54.74.161.194:   Remote file contents confirmed.
+2016/04/14 08:45:41 - 54.217.159.248:  Remote file contents confirmed.
+2016/04/14 08:45:42 - 54.74.161.194:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:42 - 54.74.161.194:   Completed check of node 54.74.161.194.
+2016/04/14 08:45:42 - 54.216.137.42:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:42 - 54.216.137.42:   Completed check of node 54.216.137.42.
+2016/04/14 08:45:42 - 54.217.159.248:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:42 - 54.217.159.248:  Completed check of node 54.217.159.248.
+2016/04/14 08:45:42 - Determining availability zone.
+2016/04/14 08:45:42 - Gathering public and private ip addresses.
+2016/04/14 08:45:42 - Connecting to node 54.216.137.42 for cluster configuration.
+2016/04/14 08:45:42 - Connecting via SSH.
+2016/04/14 08:45:44 - Checking software installation completed.
+2016/04/14 08:45:44 - Software installation finished.
+2016/04/14 08:45:44 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:44 - Checking file contents.
+2016/04/14 08:45:45 - Remote file contents confirmed.
+2016/04/14 08:45:45 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:45 - Writing cluster private ip addresses to file on instance.
+2016/04/14 08:45:45 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/14 08:45:46 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/14 08:45:46 - Checking file contents.
+2016/04/14 08:45:46 - Remote file contents confirmed.
+2016/04/14 08:45:46 - Running envgen
+2016/04/14 08:45:47 - Reading the config file.
+2016/04/14 08:45:47 - Retrieving IP address of ESP Server.
+2016/04/14 08:45:47 - ESP Server private IP address: 10.84.12.101.
+2016/04/14 08:45:47 - ESP Server public IP address: 54.216.137.42.
+2016/04/14 08:45:48 - 54.216.137.42:   Starting node configuration.
+2016/04/14 08:45:48 - 54.216.137.42:   Connecting via SSH.
+2016/04/14 08:45:48 - 54.217.159.248:  Starting node configuration.
+2016/04/14 08:45:48 - 54.217.159.248:  Connecting via SSH.
+2016/04/14 08:45:48 - 54.74.161.194:   Starting node configuration.
+2016/04/14 08:45:48 - 54.74.161.194:   Connecting via SSH.
+2016/04/14 08:45:49 - 54.216.137.42:   Checking software installation completed.
+2016/04/14 08:45:49 - 54.217.159.248:  Checking software installation completed.
+2016/04/14 08:45:49 - 54.74.161.194:   Checking software installation completed.
+2016/04/14 08:45:49 - 54.216.137.42:   Software installation finished.
+2016/04/14 08:45:49 - 54.216.137.42:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:49 - 54.217.159.248:  Software installation finished.
+2016/04/14 08:45:49 - 54.217.159.248:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:49 - 54.74.161.194:   Software installation finished.
+2016/04/14 08:45:49 - 54.74.161.194:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 08:45:50 - 54.216.137.42:   Checking file contents.
+2016/04/14 08:45:50 - 54.217.159.248:  Checking file contents.
+2016/04/14 08:45:50 - 54.74.161.194:   Checking file contents.
+2016/04/14 08:45:50 - 54.216.137.42:   Remote file contents confirmed.
+2016/04/14 08:45:50 - 54.217.159.248:  Remote file contents confirmed.
+2016/04/14 08:45:50 - 54.74.161.194:   Remote file contents confirmed.
+2016/04/14 08:45:51 - 54.216.137.42:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:51 - 54.216.137.42:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/14 08:45:51 - 54.217.159.248:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:51 - 54.217.159.248:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/14 08:45:51 - 54.74.161.194:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 08:45:51 - 54.74.161.194:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/14 08:45:51 - 54.216.137.42:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/14 08:45:52 - 54.217.159.248:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/14 08:45:52 - 54.216.137.42:   Checking file contents.
+2016/04/14 08:45:52 - 54.74.161.194:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/14 08:45:52 - 54.217.159.248:  Checking file contents.
+2016/04/14 08:45:52 - 54.74.161.194:   Checking file contents.
+2016/04/14 08:45:52 - 54.216.137.42:   Remote file contents confirmed.
+2016/04/14 08:45:52 - 54.216.137.42:   Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/04/14 08:45:52 - 54.217.159.248:  Remote file contents confirmed.
+2016/04/14 08:45:52 - 54.217.159.248:  Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/04/14 08:45:53 - 54.74.161.194:   Remote file contents confirmed.
+2016/04/14 08:45:53 - 54.74.161.194:   Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/04/14 08:45:58 - 54.217.159.248:  Starting mydafilesrv ...       [   OK    ]   
+2016/04/14 08:45:58 - 54.217.159.248:  Starting mydfuserver ...       [   OK    ]   
+2016/04/14 08:45:58 - 54.217.159.248:  Starting myeclscheduler ...    [   OK    ]  
+2016/04/14 08:45:58 - 54.217.159.248:  Start node is complete.
+2016/04/14 08:46:01 - 54.216.137.42:   Starting mydafilesrv ...       [   OK    ]   
+2016/04/14 08:46:01 - 54.216.137.42:   Starting myeclagent ...        [   OK    ]   
+2016/04/14 08:46:01 - 54.216.137.42:   Starting myesp ...             [   OK    ]   
+2016/04/14 08:46:01 - 54.216.137.42:   Starting myroxie ...           [   OK    ]   
+2016/04/14 08:46:01 - 54.216.137.42:   Starting mysasha ...           [   OK    ]  
+2016/04/14 08:46:01 - 54.216.137.42:   Start node is complete.
+2016/04/14 08:46:03 - 54.74.161.194:   Starting mydafilesrv ...       [   OK    ]   
+2016/04/14 08:46:03 - 54.74.161.194:   Starting mydali ...            [   OK    ]   
+2016/04/14 08:46:03 - 54.74.161.194:   Starting myeclccserver ...     [   OK    ]   
+2016/04/14 08:46:03 - 54.74.161.194:   Starting mythor ...            [   OK    ]  
+2016/04/14 08:46:03 - 54.74.161.194:   Start node is complete.
+2016/04/14 08:46:03 - Done.
+2016/04/14 08:54:01 - Terminating cluster.
+2016/04/14 08:54:01 - Connecting to AWS region eu-west-1.
+2016/04/14 08:54:01 - Gathering instances for Hpcc-5CWD.
+2016/04/14 08:54:01 - Terminating instances.
+2016/04/14 08:54:03 - Waiting for 3 instances to terminate.
+2016/04/14 08:54:08 - Waiting for 3 instances to terminate.
+2016/04/14 08:54:13 - Waiting for 3 instances to terminate.
+2016/04/14 08:54:19 - Waiting for 3 instances to terminate.
+2016/04/14 08:54:24 - Waiting for 3 instances to terminate.
+2016/04/14 08:54:30 - Waiting for 1 instances to terminate.
+2016/04/14 08:54:35 - Waiting for 1 instances to terminate.
+2016/04/14 08:54:40 - Deleting Access Key Hpcc-5CWD.
+2016/04/14 08:54:40 - Deleting Security group Hpcc-5CWD.
+2016/04/14 08:54:41 - Done.

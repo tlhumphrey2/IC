@@ -1,0 +1,53 @@
+2018/08/07 15:45:49 - tlh. Connecting to AWS region us-west-2.
+2018/08/07 15:45:49 - Calculating new unique cluster name for request 1487.
+2018/08/07 15:45:50 - tlh. Creating new cluster name, Hpcc-HPSG.
+2018/08/07 15:45:50 - tlh. Creating Hpcc-HPSG security group.
+2018/08/07 15:45:54 - tlh. Creating Hpcc-HPSG key pair.
+2018/08/07 15:45:54 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 15:45:55 - tlh. Reservation ID r-04dca17136f7e27bc created.
+2018/08/07 15:45:55 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:00 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:05 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:11 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:16 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:21 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:26 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:31 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:36 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:41 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:46 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:46:52 - tlh. Pending instances have completed.
+2018/08/07 15:46:52 - tlh. Checking each node launched properly.
+2018/08/07 15:46:52 - 52.32.230.62:    Checking EC2 instance i-0073a014934e50c97.
+2018/08/07 15:46:52 - 52.32.230.62:    Checking EC2 instance is running.
+2018/08/07 15:46:52 - 52.32.230.62:    Connecting via SSH.
+2018/08/07 15:46:58 - 52.32.230.62:    Waiting on SSH connection.
+2018/08/07 15:47:09 - 52.32.230.62:    Checking software installation completed.
+2018/08/07 15:47:10 - 52.32.230.62:    Software installation finished.
+2018/08/07 15:47:10 - 52.32.230.62:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 15:47:10 - 52.32.230.62:    Checking file contents.
+2018/08/07 15:47:10 - 52.32.230.62:    Remote file contents confirmed.
+2018/08/07 15:47:11 - 52.32.230.62:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 15:47:11 - 52.32.230.62:    tlh. Completed check of node 52.32.230.62.
+2018/08/07 15:47:11 - tlh. Determining availability zone.
+2018/08/07 15:47:11 - tlh. Gathering public and private ip addresses.
+2018/08/07 15:47:11 - Connecting to node 52.32.230.62 for cluster configuration.
+2018/08/07 15:47:11 - Connecting via SSH.
+2018/08/07 15:47:12 - Checking software installation completed.
+2018/08/07 15:47:12 - Software installation finished.
+2018/08/07 15:47:12 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 15:47:13 - Checking file contents.
+2018/08/07 15:47:13 - Remote file contents confirmed.
+2018/08/07 15:47:14 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 15:47:14 - Writing cluster private ip addresses to file on instance.
+2018/08/07 15:47:14 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 15:47:14 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 15:47:15 - Checking file contents.
+2018/08/07 15:47:15 - Remote file contents confirmed.
+2018/08/07 15:47:15 - Running envgen
+2018/08/07 15:47:16 - Reading the config file.
+2018/08/07 15:47:16 - Retrieving IP address of ESP Server.
+2018/08/07 15:47:16 - ESP Server private IP address: 10.19.1.135.
+2018/08/07 15:47:16 - tlh. ESP Server public IP address: 52.32.230.62.
+2018/08/07 15:47:16 - An exception occured.
+                      TypeError: parse_landing_zone() takes exactly 2 arguments (3 given)

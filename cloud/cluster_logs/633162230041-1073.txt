@@ -1,0 +1,98 @@
+2015/04/20 14:57:05 - Connecting to AWS region us-west-2.
+2015/04/20 14:57:05 - Calculating new unique cluster name for request 1073.
+2015/04/20 14:57:05 - Creating new cluster name, Hpcc-NYKU.
+2015/04/20 14:57:05 - Creating Hpcc-NYKU security group.
+2015/04/20 14:57:08 - Creating Hpcc-NYKU key pair.
+2015/04/20 14:57:08 - Launching 1 m1.large nodes using ami-610d2351.
+2015/04/20 14:57:09 - Reservation ID r-614c0e6b created.
+2015/04/20 14:57:09 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:14 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:19 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:24 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:29 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:34 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:39 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:45 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:50 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:57:55 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:00 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:05 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:10 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:15 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:20 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:26 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:31 - Waiting for 1 of 1 nodes to launch.
+2015/04/20 14:58:36 - Pending instances have completed.
+2015/04/20 14:58:36 - Checking each node launched properly.
+2015/04/20 14:58:36 - 54.71.65.88:     Checking EC2 instance i-324fb1c5.
+2015/04/20 14:58:36 - 54.71.65.88:     Checking EC2 instance is running.
+2015/04/20 14:58:36 - 54.71.65.88:     Connecting via SSH.
+2015/04/20 14:58:40 - 54.71.65.88:     Waiting on SSH connection.
+2015/04/20 14:58:47 - 54.71.65.88:     Checking software installation completed.
+2015/04/20 14:58:48 - 54.71.65.88:     Waiting for software to install.
+2015/04/20 14:58:58 - 54.71.65.88:     Software installation finished.
+2015/04/20 14:58:58 - 54.71.65.88:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 14:58:58 - 54.71.65.88:     Checking file contents.
+2015/04/20 14:58:59 - 54.71.65.88:     Remote file contents confirmed.
+2015/04/20 14:58:59 - 54.71.65.88:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 14:58:59 - 54.71.65.88:     Completed check of node 54.71.65.88.
+2015/04/20 14:58:59 - Determining availability zone.
+2015/04/20 14:58:59 - Gathering public and private ip addresses.
+2015/04/20 14:58:59 - Connecting to node 54.71.65.88 for cluster configuration.
+2015/04/20 14:58:59 - Connecting via SSH.
+2015/04/20 14:59:07 - Checking software installation completed.
+2015/04/20 14:59:08 - Software installation finished.
+2015/04/20 14:59:08 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 14:59:08 - Checking file contents.
+2015/04/20 14:59:08 - Remote file contents confirmed.
+2015/04/20 14:59:09 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 14:59:09 - Writing cluster private ip addresses to file on instance.
+2015/04/20 14:59:09 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/04/20 14:59:10 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/04/20 14:59:10 - Checking file contents.
+2015/04/20 14:59:10 - Remote file contents confirmed.
+2015/04/20 14:59:10 - Running envgen
+2015/04/20 14:59:11 - Reading the config file.
+2015/04/20 14:59:11 - Retrieving IP address of ESP Server.
+2015/04/20 14:59:12 - ESP Server private IP address: 10.252.8.54.
+2015/04/20 14:59:12 - ESP Server public IP address: 54.71.65.88.
+2015/04/20 14:59:12 - 54.71.65.88:     Starting node configuration.
+2015/04/20 14:59:12 - 54.71.65.88:     Connecting via SSH.
+2015/04/20 14:59:13 - 54.71.65.88:     Checking software installation completed.
+2015/04/20 14:59:13 - 54.71.65.88:     Software installation finished.
+2015/04/20 14:59:13 - 54.71.65.88:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/04/20 14:59:14 - 54.71.65.88:     Checking file contents.
+2015/04/20 14:59:14 - 54.71.65.88:     Remote file contents confirmed.
+2015/04/20 14:59:15 - 54.71.65.88:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/04/20 14:59:15 - 54.71.65.88:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/04/20 14:59:15 - 54.71.65.88:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/04/20 14:59:16 - 54.71.65.88:     Checking file contents.
+2015/04/20 14:59:16 - 54.71.65.88:     Remote file contents confirmed.
+2015/04/20 14:59:16 - 54.71.65.88:     Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/04/20 14:59:34 - 54.71.65.88:     Starting mydafilesrv....       [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting mydali....            [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting mydfuserver....       [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting myeclagent....        [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting myeclccserver....     [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting myeclscheduler....    [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting myesp....             [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting mysasha....           [  OK  ]   
+2015/04/20 14:59:34 - 54.71.65.88:     Starting mythor....            [  OK  ]  
+2015/04/20 14:59:34 - 54.71.65.88:     Start node is complete.
+2015/04/20 14:59:34 - Done.
+2015/04/20 14:59:52 - Terminating cluster.
+2015/04/20 14:59:52 - Connecting to AWS region us-west-2.
+2015/04/20 14:59:52 - Gathering instances for Hpcc-NYKU.
+2015/04/20 14:59:52 - Terminating instances.
+2015/04/20 14:59:53 - Waiting for 1 instances to terminate.
+2015/04/20 14:59:58 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:03 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:08 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:13 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:18 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:23 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:29 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:34 - Waiting for 1 instances to terminate.
+2015/04/20 15:00:39 - Deleting Access Key Hpcc-NYKU.
+2015/04/20 15:00:39 - Deleting Security group Hpcc-NYKU.
+2015/04/20 15:00:40 - Done.

@@ -1,0 +1,94 @@
+2015/06/16 14:41:14 - Connecting to AWS region us-east-1.
+2015/06/16 14:41:14 - Calculating new unique cluster name for request 1107.
+2015/06/16 14:41:14 - Creating new cluster name, Hpcc-5ZRS.
+2015/06/16 14:41:14 - Creating Hpcc-5ZRS security group.
+2015/06/16 14:41:16 - Creating Hpcc-5ZRS key pair.
+2015/06/16 14:41:16 - Launching 1 m1.large nodes using ami-59c13132.
+2015/06/16 14:41:17 - Reservation ID r-892b1578 created.
+2015/06/16 14:41:17 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:22 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:27 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:32 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:37 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:42 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:48 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:53 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:41:58 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:42:03 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:42:08 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:42:13 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:42:18 - Waiting for 1 of 1 nodes to launch.
+2015/06/16 14:42:23 - Pending instances have completed.
+2015/06/16 14:42:23 - Checking each node launched properly.
+2015/06/16 14:42:23 - 174.129.119.185: Checking EC2 instance i-d10b7b78.
+2015/06/16 14:42:23 - 174.129.119.185: Checking EC2 instance is running.
+2015/06/16 14:42:23 - 174.129.119.185: Connecting via SSH.
+2015/06/16 14:42:33 - 174.129.119.185: Waiting on SSH connection.
+2015/06/16 14:42:39 - 174.129.119.185: Checking software installation completed.
+2015/06/16 14:42:39 - 174.129.119.185: Waiting for software to install.
+2015/06/16 14:42:49 - 174.129.119.185: Software installation finished.
+2015/06/16 14:42:49 - 174.129.119.185: Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 14:42:49 - 174.129.119.185: Checking file contents.
+2015/06/16 14:42:49 - 174.129.119.185: Remote file contents confirmed.
+2015/06/16 14:42:49 - 174.129.119.185: No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 14:42:49 - 174.129.119.185: Completed check of node 174.129.119.185.
+2015/06/16 14:42:49 - Determining availability zone.
+2015/06/16 14:42:49 - Gathering public and private ip addresses.
+2015/06/16 14:42:49 - Connecting to node 174.129.119.185 for cluster configuration.
+2015/06/16 14:42:49 - Connecting via SSH.
+2015/06/16 14:42:53 - Checking software installation completed.
+2015/06/16 14:42:53 - Software installation finished.
+2015/06/16 14:42:53 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 14:42:53 - Checking file contents.
+2015/06/16 14:42:54 - Remote file contents confirmed.
+2015/06/16 14:42:54 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 14:42:54 - Writing cluster private ip addresses to file on instance.
+2015/06/16 14:42:54 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/06/16 14:42:54 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/06/16 14:42:54 - Checking file contents.
+2015/06/16 14:42:54 - Remote file contents confirmed.
+2015/06/16 14:42:54 - Running envgen
+2015/06/16 14:42:54 - Reading the config file.
+2015/06/16 14:42:54 - Retrieving IP address of ESP Server.
+2015/06/16 14:42:55 - ESP Server private IP address: 10.182.185.195.
+2015/06/16 14:42:55 - ESP Server public IP address: 174.129.119.185.
+2015/06/16 14:42:55 - 174.129.119.185: Starting node configuration.
+2015/06/16 14:42:55 - 174.129.119.185: Connecting via SSH.
+2015/06/16 14:42:55 - 174.129.119.185: Checking software installation completed.
+2015/06/16 14:42:55 - 174.129.119.185: Software installation finished.
+2015/06/16 14:42:55 - 174.129.119.185: Sending /home/ubuntu/node_health_script via SFTP.
+2015/06/16 14:42:55 - 174.129.119.185: Checking file contents.
+2015/06/16 14:42:55 - 174.129.119.185: Remote file contents confirmed.
+2015/06/16 14:42:56 - 174.129.119.185: No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/06/16 14:42:56 - 174.129.119.185: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/06/16 14:42:56 - 174.129.119.185: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/06/16 14:42:56 - 174.129.119.185: Checking file contents.
+2015/06/16 14:42:56 - 174.129.119.185: Remote file contents confirmed.
+2015/06/16 14:42:56 - 174.129.119.185: Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/06/16 14:43:14 - 174.129.119.185: Starting mydafilesrv....       [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting mydali....            [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting mydfuserver....       [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting myeclagent....        [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting myeclccserver....     [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting myeclscheduler....    [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting myesp....             [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting mysasha....           [  OK  ]   
+2015/06/16 14:43:14 - 174.129.119.185: Starting mythor....            [  OK  ]  
+2015/06/16 14:43:14 - 174.129.119.185: Start node is complete.
+2015/06/16 14:43:14 - Done.
+2015/06/16 14:47:08 - Terminating cluster.
+2015/06/16 14:47:08 - Connecting to AWS region us-east-1.
+2015/06/16 14:47:08 - Gathering instances for Hpcc-5ZRS.
+2015/06/16 14:47:08 - Terminating instances.
+2015/06/16 14:47:09 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:14 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:19 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:24 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:29 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:34 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:39 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:44 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:49 - Waiting for 1 instances to terminate.
+2015/06/16 14:47:54 - Deleting Access Key Hpcc-5ZRS.
+2015/06/16 14:47:54 - Deleting Security group Hpcc-5ZRS.
+2015/06/16 14:47:54 - Done.

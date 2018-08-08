@@ -1,0 +1,322 @@
+2018/07/28 23:12:33 - Connecting to AWS region eu-central-1.
+2018/07/28 23:12:33 - Calculating new unique cluster name for request 1453.
+2018/07/28 23:12:34 - Creating new cluster name, Hpcc-32RY.
+2018/07/28 23:12:34 - Creating Hpcc-32RY security group.
+2018/07/28 23:12:37 - Creating Hpcc-32RY key pair.
+2018/07/28 23:12:38 - Launching 1 m3.large nodes using ami-00808b7c144b828f1.
+2018/07/28 23:12:39 - Reservation ID r-09bb84d7d6aff323a created.
+2018/07/28 23:12:39 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:12:44 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:12:49 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:12:54 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:12:59 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:13:05 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:13:10 - Pending instances have completed.
+2018/07/28 23:13:10 - Checking each node launched properly.
+2018/07/28 23:13:10 - 52.59.224.233:   Checking EC2 instance i-0e3f2c71d4389a1cf.
+2018/07/28 23:13:10 - 52.59.224.233:   Checking EC2 instance is running.
+2018/07/28 23:13:10 - 52.59.224.233:   Connecting via SSH.
+2018/07/28 23:13:13 - 52.59.224.233:   Waiting on SSH connection.
+2018/07/28 23:13:22 - 52.59.224.233:   Checking software installation completed.
+2018/07/28 23:13:22 - 52.59.224.233:   Software installation finished.
+2018/07/28 23:13:22 - 52.59.224.233:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/28 23:13:23 - 52.59.224.233:   Checking file contents.
+2018/07/28 23:13:23 - 52.59.224.233:   Remote file contents confirmed.
+2018/07/28 23:13:24 - Unhandled error occured when checking for bad instances
+2018/07/28 23:13:24 - An exception occured.
+                      ClusterError: grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.268004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.433738] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.436618] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.439616] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.440960] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.268004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.433738] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.436618] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.439616] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.440960] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+2018/07/28 23:13:24 - 52.59.224.233:   Completed check of node 52.59.224.233.
+2018/07/28 23:13:24 - grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.268004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.433738] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.436618] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.439616] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:11:18 ip-172-31-4-93 kernel: [    0.440960] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.268004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.433738] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.436618] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.439616] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.440960] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+
+2018/07/28 23:13:24 - Terminating 1 bad instances.
+2018/07/28 23:13:24 - Terminating instances.
+2018/07/28 23:13:24 - Waiting for 1 instances to terminate.
+2018/07/28 23:13:30 - Waiting for 1 instances to terminate.
+2018/07/28 23:13:35 - Waiting for 1 instances to terminate.
+2018/07/28 23:13:40 - Waiting for 1 instances to terminate.
+2018/07/28 23:13:46 - Reservation ID r-07f1776bfe5408843 created.
+2018/07/28 23:13:46 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:13:51 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:13:56 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:14:02 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:14:07 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:14:12 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:14:17 - Pending instances have completed.
+2018/07/28 23:14:17 - Checking each node launched properly.
+2018/07/28 23:14:17 - 18.184.154.120:  Checking EC2 instance i-0a2d724a48cdb9455.
+2018/07/28 23:14:17 - 18.184.154.120:  Checking EC2 instance is running.
+2018/07/28 23:14:17 - 18.184.154.120:  Connecting via SSH.
+2018/07/28 23:14:18 - 18.184.154.120:  Waiting on SSH connection.
+2018/07/28 23:14:27 - 18.184.154.120:  Checking software installation completed.
+2018/07/28 23:14:27 - 18.184.154.120:  Software installation finished.
+2018/07/28 23:14:27 - 18.184.154.120:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/28 23:14:28 - 18.184.154.120:  Checking file contents.
+2018/07/28 23:14:28 - 18.184.154.120:  Remote file contents confirmed.
+2018/07/28 23:14:29 - Unhandled error occured when checking for bad instances
+2018/07/28 23:14:29 - An exception occured.
+                      ClusterError: grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.260004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.425553] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.428423] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.431338] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.432923] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.260004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.425553] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.428423] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.431338] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.432923] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+2018/07/28 23:14:29 - 18.184.154.120:  Completed check of node 18.184.154.120.
+2018/07/28 23:14:29 - grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.260004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.425553] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.428423] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.431338] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:12:25 ip-172-31-5-123 kernel: [    0.432923] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.260004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.425553] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.428423] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.431338] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.432923] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+
+2018/07/28 23:14:29 - Terminating 1 bad instances.
+2018/07/28 23:14:29 - Terminating instances.
+2018/07/28 23:14:30 - Waiting for 1 instances to terminate.
+2018/07/28 23:14:35 - Waiting for 1 instances to terminate.
+2018/07/28 23:14:41 - Waiting for 1 instances to terminate.
+2018/07/28 23:14:46 - Waiting for 1 instances to terminate.
+2018/07/28 23:14:52 - Reservation ID r-0ad5dd7091604dc65 created.
+2018/07/28 23:14:52 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:14:57 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:02 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:07 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:12 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:18 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:23 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:28 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:33 - Waiting for 1 of 1 nodes to launch.
+2018/07/28 23:15:38 - Pending instances have completed.
+2018/07/28 23:15:38 - Checking each node launched properly.
+2018/07/28 23:15:38 - 18.185.5.4:      Checking EC2 instance i-08dd6d4297d3a64f3.
+2018/07/28 23:15:38 - 18.185.5.4:      Checking EC2 instance is running.
+2018/07/28 23:15:38 - 18.185.5.4:      Connecting via SSH.
+2018/07/28 23:15:41 - 18.185.5.4:      Waiting on SSH connection.
+2018/07/28 23:15:50 - 18.185.5.4:      Checking software installation completed.
+2018/07/28 23:15:50 - 18.185.5.4:      Software installation finished.
+2018/07/28 23:15:50 - 18.185.5.4:      Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/28 23:15:51 - 18.185.5.4:      Checking file contents.
+2018/07/28 23:15:51 - 18.185.5.4:      Remote file contents confirmed.
+2018/07/28 23:15:52 - Unhandled error occured when checking for bad instances
+2018/07/28 23:15:52 - An exception occured.
+                      ClusterError: grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.280004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.445926] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.448797] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.451897] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.453001] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.280004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.445926] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.448797] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.451897] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.453001] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+2018/07/28 23:15:52 - 18.185.5.4:      Completed check of node 18.185.5.4.
+2018/07/28 23:15:52 - grep: /var/log/messages: No such file or directory
+Error messages found in system logs:
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.300007] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.465364] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.471151] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.477949] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 02:08:02 ip-172-31-7-93 kernel: [    0.483274] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ0 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ2 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ5 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ9 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ10 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.000000] ACPI: IRQ11 used by override.
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.280004] ACPI: Using IOAPIC for interrupt routing
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.445926] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.448797] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.451897] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/syslog:Jul 29 03:13:46 ip-172-31-14-119 kernel: [    0.453001] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+/var/log/dmesg:[    0.000000] ACPI: IRQ0 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ2 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ5 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ9 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ10 used by override.
+/var/log/dmesg:[    0.000000] ACPI: IRQ11 used by override.
+/var/log/dmesg:[    0.280004] ACPI: Using IOAPIC for interrupt routing
+/var/log/dmesg:[    0.445926] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 10 11)
+/var/log/dmesg:[    0.448797] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+/var/log/dmesg:[    0.451897] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+/var/log/dmesg:[    0.453001] ACPI: PCI Interrupt Link [LNKD] (IRQs *5 10 11)
+Total of 1 anomalies detected.
+
+2018/07/28 23:15:52 - Terminating 1 bad instances.
+2018/07/28 23:15:52 - Terminating instances.
+2018/07/28 23:15:53 - Waiting for 1 instances to terminate.
+2018/07/28 23:15:58 - Waiting for 1 instances to terminate.
+2018/07/28 23:16:02 - Terminating cluster.
+2018/07/28 23:16:02 - Connecting to AWS region eu-central-1.
+2018/07/28 23:16:02 - Gathering instances for Hpcc-32RY.
+2018/07/28 23:16:02 - Terminating instances.
+2018/07/28 23:16:03 - Waiting for 1 instances to terminate.
+2018/07/28 23:16:03 - Waiting for 1 instances to terminate.
+2018/07/28 23:16:09 - Waiting for 1 instances to terminate.
+2018/07/28 23:16:09 - Waiting for 1 instances to terminate.
+2018/07/28 23:16:14 - Deleting Access Key Hpcc-32RY.
+2018/07/28 23:16:14 - Deleting Security group Hpcc-32RY.
+2018/07/28 23:16:14 - An exception occured.
+                      Amazon Error: InvalidKeyPair.NotFound
+                      The key pair 'Hpcc-32RY' does not exist
+                      requestId: 0a8875ef-6eb9-4b3a-8f0a-fce2798e797c
+2018/07/28 23:16:14 - Done.

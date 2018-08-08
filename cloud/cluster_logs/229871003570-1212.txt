@@ -1,0 +1,82 @@
+2016/04/14 09:14:20 - Connecting to AWS region us-west-2.
+2016/04/14 09:14:20 - Calculating new unique cluster name for request 1212.
+2016/04/14 09:14:21 - Creating new cluster name, Hpcc-98X2.
+2016/04/14 09:14:21 - Creating Hpcc-98X2 security group.
+2016/04/14 09:14:24 - Creating Hpcc-98X2 key pair.
+2016/04/14 09:14:24 - Launching 1 m1.large nodes using ami-de1700bf.
+2016/04/14 09:14:25 - Reservation ID r-0d6a74c28e6556487 created.
+2016/04/14 09:14:25 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:30 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:36 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:41 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:46 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:51 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:14:56 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:15:01 - Waiting for 1 of 1 nodes to launch.
+2016/04/14 09:15:07 - Pending instances have completed.
+2016/04/14 09:15:07 - Checking each node launched properly.
+2016/04/14 09:15:07 - 54.213.248.219:  Checking EC2 instance i-093120d2c5463ecec.
+2016/04/14 09:15:07 - 54.213.248.219:  Checking EC2 instance is running.
+2016/04/14 09:15:07 - 54.213.248.219:  Connecting via SSH.
+2016/04/14 09:15:14 - 54.213.248.219:  Waiting on SSH connection.
+2016/04/14 09:15:25 - 54.213.248.219:  Checking software installation completed.
+2016/04/14 09:15:26 - 54.213.248.219:  Software installation finished.
+2016/04/14 09:15:26 - 54.213.248.219:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:15:26 - 54.213.248.219:  Checking file contents.
+2016/04/14 09:15:26 - 54.213.248.219:  Remote file contents confirmed.
+2016/04/14 09:15:27 - 54.213.248.219:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:15:27 - 54.213.248.219:  Completed check of node 54.213.248.219.
+2016/04/14 09:15:27 - Determining availability zone.
+2016/04/14 09:15:27 - Gathering public and private ip addresses.
+2016/04/14 09:15:27 - Connecting to node 54.213.248.219 for cluster configuration.
+2016/04/14 09:15:27 - Connecting via SSH.
+2016/04/14 09:15:29 - Checking software installation completed.
+2016/04/14 09:15:29 - Software installation finished.
+2016/04/14 09:15:29 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:15:29 - Checking file contents.
+2016/04/14 09:15:29 - Remote file contents confirmed.
+2016/04/14 09:15:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:15:30 - Writing cluster private ip addresses to file on instance.
+2016/04/14 09:15:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/14 09:15:31 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/14 09:15:31 - Checking file contents.
+2016/04/14 09:15:31 - Remote file contents confirmed.
+2016/04/14 09:15:31 - Running envgen
+2016/04/14 09:15:32 - Reading the config file.
+2016/04/14 09:15:32 - Retrieving IP address of ESP Server.
+2016/04/14 09:15:33 - ESP Server private IP address: 172.31.29.144.
+2016/04/14 09:15:33 - ESP Server public IP address: 54.213.248.219.
+2016/04/14 09:15:33 - 54.213.248.219:  Starting node configuration.
+2016/04/14 09:15:33 - 54.213.248.219:  Connecting via SSH.
+2016/04/14 09:15:34 - 54.213.248.219:  Checking software installation completed.
+2016/04/14 09:15:34 - 54.213.248.219:  Software installation finished.
+2016/04/14 09:15:34 - 54.213.248.219:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/14 09:15:35 - 54.213.248.219:  Checking file contents.
+2016/04/14 09:15:35 - 54.213.248.219:  Remote file contents confirmed.
+2016/04/14 09:15:36 - 54.213.248.219:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/14 09:15:36 - 54.213.248.219:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/14 09:15:36 - 54.213.248.219:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/14 09:15:37 - 54.213.248.219:  Checking file contents.
+2016/04/14 09:15:37 - 54.213.248.219:  Remote file contents confirmed.
+2016/04/14 09:15:37 - 54.213.248.219:  Starting HPCC Platform Community Edition: 5.4.4-1.
+2016/04/14 09:15:54 - 54.213.248.219:  Starting mydafilesrv ...       [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting mydali ...            [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting mydfuserver ...       [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting myeclagent ...        [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting myeclccserver ...     [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting myeclscheduler ...    [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting myesp ...             [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting mysasha ...           [   OK    ]   
+2016/04/14 09:15:54 - 54.213.248.219:  Starting mythor ...            [   OK    ]  
+2016/04/14 09:15:54 - 54.213.248.219:  Start node is complete.
+2016/04/14 09:15:54 - Done.
+2016/04/14 09:16:09 - Terminating cluster.
+2016/04/14 09:16:09 - Connecting to AWS region us-west-2.
+2016/04/14 09:16:09 - Gathering instances for Hpcc-98X2.
+2016/04/14 09:16:09 - Terminating instances.
+2016/04/14 09:16:09 - Deleting Access Key Hpcc-98X2.
+2016/04/14 09:16:10 - Deleting Security group Hpcc-98X2.
+2016/04/14 09:16:10 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-31a1f356 has a dependent object
+                      requestId: c25ce975-6d0d-49b8-b9c2-d952a6fed840

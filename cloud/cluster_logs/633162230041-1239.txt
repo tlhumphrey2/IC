@@ -1,0 +1,149 @@
+2016/06/08 12:15:20 - Connecting to AWS region us-west-2.
+2016/06/08 12:15:20 - Calculating new unique cluster name for request 1239.
+2016/06/08 12:15:21 - Creating new cluster name, Hpcc-ZBM2.
+2016/06/08 12:15:21 - Creating Hpcc-ZBM2 security group.
+2016/06/08 12:15:23 - Creating Hpcc-ZBM2 key pair.
+2016/06/08 12:15:24 - Launching 3 m1.large nodes using ami-9dca31fd.
+2016/06/08 12:15:24 - Reservation ID r-140dd1d0 created.
+2016/06/08 12:15:24 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:30 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:35 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:41 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:46 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:52 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:15:57 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:03 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:08 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:13 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:19 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:24 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:30 - Waiting for 3 of 3 nodes to launch.
+2016/06/08 12:16:35 - Pending instances have completed.
+2016/06/08 12:16:35 - Checking each node launched properly.
+2016/06/08 12:16:35 - 54.212.203.104:  Checking EC2 instance i-79e208d6.
+2016/06/08 12:16:35 - 54.212.46.220:   Checking EC2 instance i-78e208d7.
+2016/06/08 12:16:35 - 54.188.84.230:   Checking EC2 instance i-77e208d8.
+2016/06/08 12:16:35 - 54.212.203.104:  Checking EC2 instance is running.
+2016/06/08 12:16:35 - 54.212.203.104:  Connecting via SSH.
+2016/06/08 12:16:36 - 54.212.46.220:   Checking EC2 instance is running.
+2016/06/08 12:16:36 - 54.212.46.220:   Connecting via SSH.
+2016/06/08 12:16:36 - 54.188.84.230:   Checking EC2 instance is running.
+2016/06/08 12:16:36 - 54.188.84.230:   Connecting via SSH.
+2016/06/08 12:16:42 - 54.212.203.104:  Waiting on SSH connection.
+2016/06/08 12:16:44 - 54.212.46.220:   Waiting on SSH connection.
+2016/06/08 12:16:44 - 54.188.84.230:   Waiting on SSH connection.
+2016/06/08 12:16:50 - 54.212.203.104:  Checking software installation completed.
+2016/06/08 12:16:50 - 54.212.203.104:  Waiting for software to install.
+2016/06/08 12:16:51 - 54.212.46.220:   Checking software installation completed.
+2016/06/08 12:16:51 - 54.212.46.220:   Waiting for software to install.
+2016/06/08 12:16:53 - 54.188.84.230:   Checking software installation completed.
+2016/06/08 12:16:54 - 54.188.84.230:   Waiting for software to install.
+2016/06/08 12:17:01 - 54.212.203.104:  Software installation finished.
+2016/06/08 12:17:01 - 54.212.203.104:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:01 - 54.212.203.104:  Checking file contents.
+2016/06/08 12:17:02 - 54.212.46.220:   Software installation finished.
+2016/06/08 12:17:02 - 54.212.46.220:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:02 - 54.212.203.104:  Remote file contents confirmed.
+2016/06/08 12:17:02 - 54.212.46.220:   Checking file contents.
+2016/06/08 12:17:02 - 54.212.203.104:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:02 - 54.212.203.104:  Completed check of node 54.212.203.104.
+2016/06/08 12:17:02 - 54.212.46.220:   Remote file contents confirmed.
+2016/06/08 12:17:03 - 54.212.46.220:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:03 - 54.212.46.220:   Completed check of node 54.212.46.220.
+2016/06/08 12:17:04 - 54.188.84.230:   Software installation finished.
+2016/06/08 12:17:04 - 54.188.84.230:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:04 - 54.188.84.230:   Checking file contents.
+2016/06/08 12:17:05 - 54.188.84.230:   Remote file contents confirmed.
+2016/06/08 12:17:05 - 54.188.84.230:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:05 - 54.188.84.230:   Completed check of node 54.188.84.230.
+2016/06/08 12:17:05 - Determining availability zone.
+2016/06/08 12:17:05 - Gathering public and private ip addresses.
+2016/06/08 12:17:05 - Connecting to node 54.212.203.104 for cluster configuration.
+2016/06/08 12:17:05 - Connecting via SSH.
+2016/06/08 12:17:12 - Checking software installation completed.
+2016/06/08 12:17:12 - Software installation finished.
+2016/06/08 12:17:12 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:13 - Checking file contents.
+2016/06/08 12:17:13 - Remote file contents confirmed.
+2016/06/08 12:17:14 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:14 - Writing cluster private ip addresses to file on instance.
+2016/06/08 12:17:14 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/06/08 12:17:14 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/06/08 12:17:15 - Checking file contents.
+2016/06/08 12:17:15 - Remote file contents confirmed.
+2016/06/08 12:17:15 - Running envgen
+2016/06/08 12:17:16 - Reading the config file.
+2016/06/08 12:17:16 - Retrieving IP address of ESP Server.
+2016/06/08 12:17:16 - ESP Server private IP address: 10.232.158.172.
+2016/06/08 12:17:16 - ESP Server public IP address: 54.212.203.104.
+2016/06/08 12:17:17 - 54.212.203.104:  Starting node configuration.
+2016/06/08 12:17:17 - 54.212.203.104:  Connecting via SSH.
+2016/06/08 12:17:17 - 54.212.46.220:   Starting node configuration.
+2016/06/08 12:17:17 - 54.212.46.220:   Connecting via SSH.
+2016/06/08 12:17:17 - 54.188.84.230:   Starting node configuration.
+2016/06/08 12:17:17 - 54.188.84.230:   Connecting via SSH.
+2016/06/08 12:17:18 - 54.212.203.104:  Checking software installation completed.
+2016/06/08 12:17:18 - 54.212.203.104:  Software installation finished.
+2016/06/08 12:17:18 - 54.212.203.104:  Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:19 - 54.212.203.104:  Checking file contents.
+2016/06/08 12:17:19 - 54.212.203.104:  Remote file contents confirmed.
+2016/06/08 12:17:20 - 54.212.203.104:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:20 - 54.212.203.104:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/06/08 12:17:21 - 54.212.203.104:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/06/08 12:17:21 - 54.212.203.104:  Checking file contents.
+2016/06/08 12:17:21 - 54.212.203.104:  Remote file contents confirmed.
+2016/06/08 12:17:21 - 54.212.203.104:  Starting HPCC Platform Community Edition: 6.0.0-2.
+2016/06/08 12:17:24 - 54.188.84.230:   Checking software installation completed.
+2016/06/08 12:17:24 - 54.212.46.220:   Checking software installation completed.
+2016/06/08 12:17:24 - 54.188.84.230:   Software installation finished.
+2016/06/08 12:17:24 - 54.188.84.230:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:24 - 54.212.46.220:   Software installation finished.
+2016/06/08 12:17:24 - 54.212.46.220:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/06/08 12:17:25 - 54.188.84.230:   Checking file contents.
+2016/06/08 12:17:25 - 54.212.46.220:   Checking file contents.
+2016/06/08 12:17:25 - 54.188.84.230:   Remote file contents confirmed.
+2016/06/08 12:17:25 - 54.212.46.220:   Remote file contents confirmed.
+2016/06/08 12:17:26 - 54.188.84.230:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:26 - 54.188.84.230:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/06/08 12:17:26 - 54.212.46.220:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/06/08 12:17:26 - 54.212.46.220:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/06/08 12:17:27 - 54.212.46.220:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/06/08 12:17:27 - 54.188.84.230:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/06/08 12:17:27 - 54.212.46.220:   Checking file contents.
+2016/06/08 12:17:27 - 54.188.84.230:   Checking file contents.
+2016/06/08 12:17:28 - 54.212.46.220:   Remote file contents confirmed.
+2016/06/08 12:17:28 - 54.212.46.220:   Starting HPCC Platform Community Edition: 6.0.0-2.
+2016/06/08 12:17:28 - 54.188.84.230:   Remote file contents confirmed.
+2016/06/08 12:17:28 - 54.188.84.230:   Starting HPCC Platform Community Edition: 6.0.0-2.
+2016/06/08 12:17:35 - 54.188.84.230:   Starting mydafilesrv ...       [   OK    ]   
+2016/06/08 12:17:35 - 54.188.84.230:   Starting mydfuserver ...       [   OK    ]   
+2016/06/08 12:17:35 - 54.188.84.230:   Starting myeclscheduler ...    [   OK    ]  
+2016/06/08 12:17:35 - 54.188.84.230:   Start node is complete.
+2016/06/08 12:17:43 - 54.212.46.220:   Starting mydafilesrv ...       [   OK    ]   
+2016/06/08 12:17:43 - 54.212.46.220:   Starting mydali ...            [   OK    ]   
+2016/06/08 12:17:43 - 54.212.46.220:   Starting myeclccserver ...     [   OK    ]   
+2016/06/08 12:17:43 - 54.212.46.220:   Starting mythor ...            [   OK    ]  
+2016/06/08 12:17:43 - 54.212.46.220:   Start node is complete.
+2016/06/08 12:17:44 - 54.212.203.104:  Starting mydafilesrv ...       [   OK    ]   
+2016/06/08 12:17:44 - 54.212.203.104:  Starting myeclagent ...        [   OK    ]   
+2016/06/08 12:17:44 - 54.212.203.104:  Starting myesp ...             [   OK    ]   
+2016/06/08 12:17:44 - 54.212.203.104:  Starting myroxie ...           [   OK    ]   
+2016/06/08 12:17:44 - 54.212.203.104:  Starting mysasha ...           [   OK    ]  
+2016/06/08 12:17:44 - 54.212.203.104:  Start node is complete.
+2016/06/08 12:17:44 - Done.
+2016/06/08 12:19:55 - Terminating cluster.
+2016/06/08 12:19:55 - Connecting to AWS region us-west-2.
+2016/06/08 12:19:55 - Gathering instances for Hpcc-ZBM2.
+2016/06/08 12:19:56 - Terminating instances.
+2016/06/08 12:19:57 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:02 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:08 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:13 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:19 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:24 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:30 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:35 - Waiting for 3 instances to terminate.
+2016/06/08 12:20:41 - Waiting for 2 instances to terminate.
+2016/06/08 12:20:46 - Deleting Access Key Hpcc-ZBM2.
+2016/06/08 12:20:46 - Deleting Security group Hpcc-ZBM2.
+2016/06/08 12:20:46 - Done.

@@ -1,0 +1,86 @@
+2017/03/10 17:25:36 - Connecting to AWS region us-west-2.
+2017/03/10 17:25:36 - Calculating new unique cluster name for request 1290.
+2017/03/10 17:25:37 - Creating new cluster name, Hpcc-DE82.
+2017/03/10 17:25:37 - Creating Hpcc-DE82 security group.
+2017/03/10 17:25:40 - Creating Hpcc-DE82 key pair.
+2017/03/10 17:25:40 - Launching 1 m1.large nodes using ami-8f40f8ef.
+2017/03/10 17:25:41 - Reservation ID r-0892b5cd1e6befa97 created.
+2017/03/10 17:25:41 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:25:46 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:25:51 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:25:57 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:02 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:07 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:12 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:17 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:23 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:28 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:33 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:38 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:43 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:49 - Waiting for 1 of 1 nodes to launch.
+2017/03/10 17:26:54 - Pending instances have completed.
+2017/03/10 17:26:54 - Checking each node launched properly.
+2017/03/10 17:26:54 - 35.163.250.182:  Checking EC2 instance i-01100036722029481.
+2017/03/10 17:26:54 - 35.163.250.182:  Checking EC2 instance is running.
+2017/03/10 17:26:54 - 35.163.250.182:  Connecting via SSH.
+2017/03/10 17:26:57 - 35.163.250.182:  Waiting on SSH connection.
+2017/03/10 17:27:09 - 35.163.250.182:  Checking software installation completed.
+2017/03/10 17:27:10 - 35.163.250.182:  Software installation finished.
+2017/03/10 17:27:10 - 35.163.250.182:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 17:27:10 - 35.163.250.182:  Checking file contents.
+2017/03/10 17:27:10 - 35.163.250.182:  Remote file contents confirmed.
+2017/03/10 17:27:11 - 35.163.250.182:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 17:27:11 - 35.163.250.182:  Completed check of node 35.163.250.182.
+2017/03/10 17:27:11 - Determining availability zone.
+2017/03/10 17:27:11 - Gathering public and private ip addresses.
+2017/03/10 17:27:11 - Connecting to node 35.163.250.182 for cluster configuration.
+2017/03/10 17:27:11 - Connecting via SSH.
+2017/03/10 17:27:13 - Checking software installation completed.
+2017/03/10 17:27:13 - Software installation finished.
+2017/03/10 17:27:13 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 17:27:14 - Checking file contents.
+2017/03/10 17:27:14 - Remote file contents confirmed.
+2017/03/10 17:27:15 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 17:27:15 - Writing cluster private ip addresses to file on instance.
+2017/03/10 17:27:15 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/03/10 17:27:15 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/03/10 17:27:16 - Checking file contents.
+2017/03/10 17:27:16 - Remote file contents confirmed.
+2017/03/10 17:27:16 - Running envgen
+2017/03/10 17:27:16 - Reading the config file.
+2017/03/10 17:27:17 - Retrieving IP address of ESP Server.
+2017/03/10 17:27:17 - ESP Server private IP address: 172.31.6.25.
+2017/03/10 17:27:17 - ESP Server public IP address: 35.163.250.182.
+2017/03/10 17:27:17 - 35.163.250.182:  Starting node configuration.
+2017/03/10 17:27:17 - 35.163.250.182:  Connecting via SSH.
+2017/03/10 17:27:19 - 35.163.250.182:  Checking software installation completed.
+2017/03/10 17:27:19 - 35.163.250.182:  Software installation finished.
+2017/03/10 17:27:19 - 35.163.250.182:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/10 17:27:20 - 35.163.250.182:  Checking file contents.
+2017/03/10 17:27:20 - 35.163.250.182:  Remote file contents confirmed.
+2017/03/10 17:27:21 - 35.163.250.182:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/10 17:27:21 - 35.163.250.182:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/10 17:27:22 - 35.163.250.182:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/10 17:27:22 - 35.163.250.182:  Checking file contents.
+2017/03/10 17:27:23 - 35.163.250.182:  Remote file contents confirmed.
+2017/03/10 17:27:23 - 35.163.250.182:  Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/10 17:27:39 - 35.163.250.182:  Starting mydafilesrv ...       [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting mydali ...            [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting mydfuserver ...       [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting myeclagent ...        [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting myeclccserver ...     [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting myeclscheduler ...    [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting myesp ...             [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting mysasha ...           [   OK    ]   
+2017/03/10 17:27:39 - 35.163.250.182:  Starting mythor ...            [   OK    ]  
+2017/03/10 17:27:39 - 35.163.250.182:  Start node is complete.
+2017/03/10 17:27:39 - Done.
+2017/03/10 21:25:22 - Terminating cluster.
+2017/03/10 21:25:22 - Connecting to AWS region us-west-2.
+2017/03/10 21:25:22 - Gathering instances for Hpcc-DE82.
+2017/03/10 21:25:22 - Terminating instances.
+2017/03/10 21:25:22 - Deleting Access Key Hpcc-DE82.
+2017/03/10 21:25:23 - Error: Access key not found.
+2017/03/10 21:25:23 - Deleting Security group Hpcc-DE82.
+2017/03/10 21:25:23 - Done.

@@ -1,0 +1,95 @@
+2014/10/22 10:45:57 - Connecting to AWS region us-west-2.
+2014/10/22 10:45:57 - Calculating new unique cluster name for request 978.
+2014/10/22 10:45:58 - Creating new cluster name, Hpcc-5BMW.
+2014/10/22 10:45:58 - Creating Hpcc-5BMW security group.
+2014/10/22 10:46:00 - Creating Hpcc-5BMW key pair.
+2014/10/22 10:46:00 - Launching 1 m1.large nodes using ami-c1fdbff1.
+2014/10/22 10:46:01 - Reservation ID r-076a270c created.
+2014/10/22 10:46:01 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:06 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:12 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:17 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:22 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:27 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:32 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:37 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:42 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:48 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:53 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:46:58 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:47:03 - Waiting for 1 of 1 nodes to launch.
+2014/10/22 10:47:08 - Pending instances have completed.
+2014/10/22 10:47:08 - Checking each node launched properly.
+2014/10/22 10:47:08 - 54.185.155.174:  Checking EC2 instance i-2ec00224.
+2014/10/22 10:47:08 - 54.185.155.174:  Checking EC2 instance is running.
+2014/10/22 10:47:08 - 54.185.155.174:  Connecting via SSH.
+2014/10/22 10:47:17 - 54.185.155.174:  Checking software installation completed.
+2014/10/22 10:47:17 - 54.185.155.174:  Waiting for software to install.
+2014/10/22 10:47:28 - 54.185.155.174:  Software installation finished.
+2014/10/22 10:47:28 - 54.185.155.174:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/22 10:47:28 - 54.185.155.174:  Checking file contents.
+2014/10/22 10:47:28 - 54.185.155.174:  Remote file contents confirmed.
+2014/10/22 10:47:29 - 54.185.155.174:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/22 10:47:29 - 54.185.155.174:  Completed check of node 54.185.155.174.
+2014/10/22 10:47:29 - Determining availability zone.
+2014/10/22 10:47:29 - Gathering public and private ip addresses.
+2014/10/22 10:47:29 - Connecting to node 54.185.155.174 for cluster configuration.
+2014/10/22 10:47:29 - Connecting via SSH.
+2014/10/22 10:47:35 - Checking software installation completed.
+2014/10/22 10:47:35 - Software installation finished.
+2014/10/22 10:47:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/22 10:47:36 - Checking file contents.
+2014/10/22 10:47:36 - Remote file contents confirmed.
+2014/10/22 10:47:37 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/22 10:47:37 - Writing cluster private ip addresses to file on instance.
+2014/10/22 10:47:37 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/10/22 10:47:37 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/10/22 10:47:37 - Checking file contents.
+2014/10/22 10:47:38 - Remote file contents confirmed.
+2014/10/22 10:47:38 - Running envgen
+2014/10/22 10:47:39 - Reading the config file.
+2014/10/22 10:47:39 - Retrieving IP address of ESP Server.
+2014/10/22 10:47:39 - ESP Server private IP address: 10.253.43.54.
+2014/10/22 10:47:39 - ESP Server public IP address: 54.185.155.174.
+2014/10/22 10:47:39 - 54.185.155.174:  Starting node configuration.
+2014/10/22 10:47:39 - 54.185.155.174:  Connecting via SSH.
+2014/10/22 10:47:41 - 54.185.155.174:  Checking software installation completed.
+2014/10/22 10:47:41 - 54.185.155.174:  Software installation finished.
+2014/10/22 10:47:41 - 54.185.155.174:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/10/22 10:47:41 - 54.185.155.174:  Checking file contents.
+2014/10/22 10:47:42 - 54.185.155.174:  Remote file contents confirmed.
+2014/10/22 10:47:42 - 54.185.155.174:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/10/22 10:47:42 - 54.185.155.174:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/10/22 10:47:43 - 54.185.155.174:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/10/22 10:47:43 - 54.185.155.174:  Checking file contents.
+2014/10/22 10:47:43 - 54.185.155.174:  Remote file contents confirmed.
+2014/10/22 10:47:43 - 54.185.155.174:  Starting HPCC Platform Community Edition: 5.0.2-1.
+2014/10/22 10:48:11 - 54.185.155.174:  Starting mydafilesrv....       [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting mydali....            [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting mydfuserver....       [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting myeclagent....        [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting myeclccserver....     [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting myeclscheduler....    [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting myesp....             [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting mysasha....           [  OK  ]   
+2014/10/22 10:48:11 - 54.185.155.174:  Starting mythor....            [  OK  ]  
+2014/10/22 10:48:11 - 54.185.155.174:  Start node is complete.
+2014/10/22 10:48:11 - Done.
+2014/10/22 10:50:17 - Terminating cluster.
+2014/10/22 10:50:17 - Connecting to AWS region us-west-2.
+2014/10/22 10:50:17 - Gathering instances for Hpcc-5BMW.
+2014/10/22 10:50:18 - Terminating instances.
+2014/10/22 10:50:18 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:23 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:28 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:34 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:39 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:44 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:49 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:54 - Waiting for 1 instances to terminate.
+2014/10/22 10:50:59 - Waiting for 1 instances to terminate.
+2014/10/22 10:51:04 - Waiting for 1 instances to terminate.
+2014/10/22 10:51:10 - Waiting for 1 instances to terminate.
+2014/10/22 10:51:15 - Deleting Access Key Hpcc-5BMW.
+2014/10/22 10:51:15 - Deleting Security group Hpcc-5BMW.
+2014/10/22 10:51:16 - Done.

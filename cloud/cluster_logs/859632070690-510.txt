@@ -1,0 +1,205 @@
+2013/02/20 10:43:23 - Connecting to AWS region us-west-2.
+2013/02/20 10:43:23 - Calculating new unique cluster name for request 510.
+2013/02/20 10:43:24 - Creating new cluster name, Hpcc-ETG9.
+2013/02/20 10:43:24 - Creating Hpcc-ETG9 security group.
+2013/02/20 10:43:28 - Creating Hpcc-ETG9 key pair.
+2013/02/20 10:43:28 - Launching 5 m1.large nodes using ami-e01698d0.
+2013/02/20 10:43:29 - Reservation ID r-9ac064a8 created.
+2013/02/20 10:43:29 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:43:36 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:43:42 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:43:48 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:43:54 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:01 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:07 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:13 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:19 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:26 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:32 - Waiting for 5 of 5 nodes to launch.
+2013/02/20 10:44:38 - Waiting for 3 of 5 nodes to launch.
+2013/02/20 10:44:44 - Waiting for 2 of 5 nodes to launch.
+2013/02/20 10:44:50 - Pending instances have completed.
+2013/02/20 10:44:50 - Checking each node launched properly.
+2013/02/20 10:44:50 - 50.112.4.9:      Checking EC2 instance i-f45c34c6.
+2013/02/20 10:44:50 - 54.245.157.78:   Checking EC2 instance i-fa5c34c8.
+2013/02/20 10:44:50 - 50.112.40.36:    Checking EC2 instance i-f85c34ca.
+2013/02/20 10:44:50 - 50.112.39.208:   Checking EC2 instance i-fe5c34cc.
+2013/02/20 10:44:50 - 54.245.201.0:    Checking EC2 instance i-fc5c34ce.
+2013/02/20 10:44:50 - 54.245.157.78:   Checking EC2 instance is running.
+2013/02/20 10:44:50 - 54.245.157.78:   Connecting via SSH.
+2013/02/20 10:44:50 - 50.112.40.36:    Checking EC2 instance is running.
+2013/02/20 10:44:50 - 50.112.39.208:   Checking EC2 instance is running.
+2013/02/20 10:44:50 - 50.112.39.208:   Connecting via SSH.
+2013/02/20 10:44:50 - 50.112.40.36:    Connecting via SSH.
+2013/02/20 10:44:50 - 50.112.39.208:   Waiting on SSH connection.
+2013/02/20 10:44:50 - 54.245.201.0:    Checking EC2 instance is running.
+2013/02/20 10:44:50 - 54.245.201.0:    Connecting via SSH.
+2013/02/20 10:44:50 - 50.112.4.9:      Checking EC2 instance is running.
+2013/02/20 10:44:50 - 50.112.4.9:      Connecting via SSH.
+2013/02/20 10:44:52 - 50.112.40.36:    Checking software installation completed.
+2013/02/20 10:44:53 - 50.112.40.36:    Waiting for software to install.
+2013/02/20 10:44:56 - 54.245.157.78:   Checking software installation completed.
+2013/02/20 10:44:56 - 54.245.201.0:    Checking software installation completed.
+2013/02/20 10:44:56 - 50.112.4.9:      Checking software installation completed.
+2013/02/20 10:44:56 - 54.245.157.78:   Software installation finished.
+2013/02/20 10:44:56 - 54.245.157.78:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:44:56 - 50.112.4.9:      Software installation finished.
+2013/02/20 10:44:56 - 50.112.4.9:      Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:44:56 - 54.245.201.0:    Software installation finished.
+2013/02/20 10:44:56 - 54.245.201.0:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:44:57 - 54.245.157.78:   Checking file contents.
+2013/02/20 10:44:57 - 50.112.4.9:      Checking file contents.
+2013/02/20 10:44:57 - 54.245.201.0:    Checking file contents.
+2013/02/20 10:44:57 - 54.245.157.78:   Remote file contents confirmed.
+2013/02/20 10:44:57 - 50.112.4.9:      Remote file contents confirmed.
+2013/02/20 10:44:57 - 54.245.201.0:    Remote file contents confirmed.
+2013/02/20 10:44:58 - 54.245.157.78:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:44:58 - 54.245.157.78:   Completed check of node 54.245.157.78.
+2013/02/20 10:44:58 - 50.112.4.9:      No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:44:58 - 50.112.4.9:      Completed check of node 50.112.4.9.
+2013/02/20 10:44:58 - 54.245.201.0:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:44:58 - 54.245.201.0:    Completed check of node 54.245.201.0.
+2013/02/20 10:45:01 - 50.112.39.208:   Checking software installation completed.
+2013/02/20 10:45:02 - 50.112.39.208:   Software installation finished.
+2013/02/20 10:45:02 - 50.112.39.208:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:02 - 50.112.39.208:   Checking file contents.
+2013/02/20 10:45:02 - 50.112.39.208:   Remote file contents confirmed.
+2013/02/20 10:45:03 - 50.112.39.208:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:03 - 50.112.39.208:   Completed check of node 50.112.39.208.
+2013/02/20 10:45:04 - 50.112.40.36:    Software installation finished.
+2013/02/20 10:45:04 - 50.112.40.36:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:04 - 50.112.40.36:    Checking file contents.
+2013/02/20 10:45:05 - 50.112.40.36:    Remote file contents confirmed.
+2013/02/20 10:45:05 - 50.112.40.36:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:05 - 50.112.40.36:    Completed check of node 50.112.40.36.
+2013/02/20 10:45:05 - Determining availability zone.
+2013/02/20 10:45:05 - Gathering public and private ip addresses.
+2013/02/20 10:45:05 - Connecting to node 50.112.4.9 for cluster configuration.
+2013/02/20 10:45:05 - Connecting via SSH.
+2013/02/20 10:45:07 - Checking software installation completed.
+2013/02/20 10:45:07 - Software installation finished.
+2013/02/20 10:45:07 - Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:08 - Checking file contents.
+2013/02/20 10:45:08 - Remote file contents confirmed.
+2013/02/20 10:45:09 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:09 - Writing cluster private ip addresses to file on instance.
+2013/02/20 10:45:09 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2013/02/20 10:45:09 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2013/02/20 10:45:10 - Checking file contents.
+2013/02/20 10:45:10 - Remote file contents confirmed.
+2013/02/20 10:45:10 - Running envgen
+2013/02/20 10:45:11 - Reading the config file.
+2013/02/20 10:45:11 - Retrieving IP address of ESP Server.
+2013/02/20 10:45:12 - ESP Server private IP address: 10.252.152.110.
+2013/02/20 10:45:12 - ESP Server public IP address: 50.112.4.9.
+2013/02/20 10:45:12 - 50.112.4.9:      Starting node configuration.
+2013/02/20 10:45:12 - 50.112.40.36:    Starting node configuration.
+2013/02/20 10:45:12 - 50.112.4.9:      Connecting via SSH.
+2013/02/20 10:45:12 - 54.245.157.78:   Starting node configuration.
+2013/02/20 10:45:12 - 54.245.157.78:   Connecting via SSH.
+2013/02/20 10:45:12 - 50.112.40.36:    Connecting via SSH.
+2013/02/20 10:45:12 - 50.112.39.208:   Starting node configuration.
+2013/02/20 10:45:12 - 50.112.39.208:   Connecting via SSH.
+2013/02/20 10:45:12 - 54.245.201.0:    Starting node configuration.
+2013/02/20 10:45:12 - 54.245.201.0:    Connecting via SSH.
+2013/02/20 10:45:13 - 54.245.201.0:    Checking software installation completed.
+2013/02/20 10:45:13 - 50.112.4.9:      Checking software installation completed.
+2013/02/20 10:45:14 - 50.112.39.208:   Checking software installation completed.
+2013/02/20 10:45:14 - 54.245.201.0:    Software installation finished.
+2013/02/20 10:45:14 - 54.245.201.0:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:14 - 54.245.157.78:   Checking software installation completed.
+2013/02/20 10:45:14 - 50.112.4.9:      Software installation finished.
+2013/02/20 10:45:14 - 50.112.4.9:      Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:14 - 50.112.39.208:   Software installation finished.
+2013/02/20 10:45:14 - 50.112.39.208:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:14 - 54.245.157.78:   Software installation finished.
+2013/02/20 10:45:14 - 54.245.157.78:   Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:14 - 54.245.201.0:    Checking file contents.
+2013/02/20 10:45:14 - 50.112.4.9:      Checking file contents.
+2013/02/20 10:45:14 - 50.112.39.208:   Checking file contents.
+2013/02/20 10:45:14 - 54.245.157.78:   Checking file contents.
+2013/02/20 10:45:14 - 54.245.201.0:    Remote file contents confirmed.
+2013/02/20 10:45:15 - 50.112.4.9:      Remote file contents confirmed.
+2013/02/20 10:45:15 - 50.112.39.208:   Remote file contents confirmed.
+2013/02/20 10:45:15 - 54.245.157.78:   Remote file contents confirmed.
+2013/02/20 10:45:15 - 54.245.201.0:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:15 - 54.245.201.0:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/02/20 10:45:15 - 50.112.4.9:      No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:15 - 50.112.4.9:      Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/02/20 10:45:15 - 50.112.39.208:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:15 - 50.112.39.208:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/02/20 10:45:15 - 54.245.157.78:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:15 - 54.245.157.78:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/02/20 10:45:16 - 54.245.201.0:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/02/20 10:45:16 - 50.112.4.9:      Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/02/20 10:45:16 - 50.112.39.208:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/02/20 10:45:16 - 54.245.201.0:    Checking file contents.
+2013/02/20 10:45:16 - 54.245.157.78:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/02/20 10:45:17 - 50.112.4.9:      Checking file contents.
+2013/02/20 10:45:17 - 50.112.39.208:   Checking file contents.
+2013/02/20 10:45:17 - 54.245.157.78:   Checking file contents.
+2013/02/20 10:45:17 - 54.245.201.0:    Remote file contents confirmed.
+2013/02/20 10:45:17 - 54.245.201.0:    Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/02/20 10:45:17 - 50.112.4.9:      Remote file contents confirmed.
+2013/02/20 10:45:17 - 50.112.4.9:      Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/02/20 10:45:17 - 50.112.39.208:   Remote file contents confirmed.
+2013/02/20 10:45:17 - 50.112.39.208:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/02/20 10:45:17 - 54.245.157.78:   Remote file contents confirmed.
+2013/02/20 10:45:17 - 54.245.157.78:   Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/02/20 10:45:18 - 50.112.40.36:    Checking software installation completed.
+2013/02/20 10:45:18 - 50.112.40.36:    Software installation finished.
+2013/02/20 10:45:18 - 50.112.40.36:    Sending /home/ubuntu/node_health_script via SFTP.
+2013/02/20 10:45:18 - 50.112.40.36:    Checking file contents.
+2013/02/20 10:45:19 - 50.112.40.36:    Remote file contents confirmed.
+2013/02/20 10:45:20 - 50.112.40.36:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2013/02/20 10:45:20 - 50.112.40.36:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2013/02/20 10:45:21 - 50.112.40.36:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2013/02/20 10:45:21 - 50.112.40.36:    Checking file contents.
+2013/02/20 10:45:21 - 54.245.201.0:    Starting mydafilesrv....       [  OK  ]   
+2013/02/20 10:45:21 - 54.245.201.0:    Starting myeclccserver....     [  OK  ]  
+2013/02/20 10:45:21 - 54.245.201.0:    Start node is complete.
+2013/02/20 10:45:21 - 54.245.157.78:   Starting mydafilesrv....       [  OK  ]   
+2013/02/20 10:45:21 - 54.245.157.78:   Starting mydali....            [  OK  ]  
+2013/02/20 10:45:21 - 54.245.157.78:   Start node is complete.
+2013/02/20 10:45:21 - 50.112.40.36:    Remote file contents confirmed.
+2013/02/20 10:45:21 - 50.112.40.36:    Starting HPCC Platform Community Edition: 3.8.2-2.
+2013/02/20 10:45:21 - 50.112.39.208:   Starting mydafilesrv....       [  OK  ]   
+2013/02/20 10:45:21 - 50.112.39.208:   Starting myeclagent....        [  OK  ]  
+2013/02/20 10:45:21 - 50.112.39.208:   Start node is complete.
+2013/02/20 10:45:27 - 50.112.40.36:    Starting mydafilesrv....       [  OK  ]   
+2013/02/20 10:45:27 - 50.112.40.36:    Starting mydfuserver....       [  OK  ]   
+2013/02/20 10:45:27 - 50.112.40.36:    Starting mysasha....           [  OK  ]  
+2013/02/20 10:45:27 - 50.112.40.36:    Start node is complete.
+2013/02/20 10:45:37 - 50.112.4.9:      Starting mydafilesrv....       [  OK  ]   
+2013/02/20 10:45:37 - 50.112.4.9:      Starting myeclscheduler....    [  OK  ]   
+2013/02/20 10:45:37 - 50.112.4.9:      Starting myesp....             [  OK  ]   
+2013/02/20 10:45:37 - 50.112.4.9:      Starting mythor....            [  OK  ]  
+2013/02/20 10:45:37 - 50.112.4.9:      Start node is complete.
+2013/02/20 10:45:37 - Done.
+2013/02/20 11:14:51 - Terminating cluster.
+2013/02/20 11:14:51 - Connecting to AWS region us-west-2.
+2013/02/20 11:14:51 - Gathering instances for Hpcc-ETG9.
+2013/02/20 11:14:52 - Terminating instances.
+2013/02/20 11:14:55 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:02 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:08 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:15 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:21 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:27 - Waiting for 5 instances to terminate.
+2013/02/20 11:15:33 - Waiting for 3 instances to terminate.
+2013/02/20 11:15:39 - Waiting for 3 instances to terminate.
+2013/02/20 11:15:45 - Waiting for 3 instances to terminate.
+2013/02/20 11:15:51 - Waiting for 3 instances to terminate.
+2013/02/20 11:15:56 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:02 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:08 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:14 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:19 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:25 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:31 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:37 - Waiting for 3 instances to terminate.
+2013/02/20 11:16:42 - Waiting for 1 instances to terminate.
+2013/02/20 11:16:48 - Waiting for 1 instances to terminate.
+2013/02/20 11:16:53 - Deleting Access Key Hpcc-ETG9.
+2013/02/20 11:16:53 - Deleting Security group Hpcc-ETG9.
+2013/02/20 11:16:54 - Done.

@@ -1,0 +1,91 @@
+2018/08/07 15:51:38 - tlh. Connecting to AWS region us-west-2.
+2018/08/07 15:51:38 - Calculating new unique cluster name for request 1488.
+2018/08/07 15:51:40 - tlh. Creating new cluster name, Hpcc-VZYR.
+2018/08/07 15:51:40 - tlh. Creating Hpcc-VZYR security group.
+2018/08/07 15:51:43 - tlh. Creating Hpcc-VZYR key pair.
+2018/08/07 15:51:43 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 15:51:44 - tlh. Reservation ID r-01d9ad8c4425791c2 created.
+2018/08/07 15:51:44 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:51:49 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:51:54 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:00 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:05 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:10 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:15 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:20 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:25 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:30 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:35 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 15:52:41 - tlh. Pending instances have completed.
+2018/08/07 15:52:41 - tlh. Checking each node launched properly.
+2018/08/07 15:52:41 - 54.244.201.15:   Checking EC2 instance i-0cf79600f9b2fccdb.
+2018/08/07 15:52:41 - 54.244.201.15:   Checking EC2 instance is running.
+2018/08/07 15:52:41 - 54.244.201.15:   Connecting via SSH.
+2018/08/07 15:52:46 - 54.244.201.15:   Waiting on SSH connection.
+2018/08/07 15:52:51 - 54.244.201.15:   Waiting on SSH connection.
+2018/08/07 15:53:03 - 54.244.201.15:   Checking software installation completed.
+2018/08/07 15:53:04 - 54.244.201.15:   Software installation finished.
+2018/08/07 15:53:04 - 54.244.201.15:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 15:53:04 - 54.244.201.15:   Checking file contents.
+2018/08/07 15:53:04 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 15:53:05 - 54.244.201.15:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 15:53:05 - 54.244.201.15:   tlh. Completed check of node 54.244.201.15.
+2018/08/07 15:53:05 - tlh. Determining availability zone.
+2018/08/07 15:53:05 - tlh. Gathering public and private ip addresses.
+2018/08/07 15:53:05 - Connecting to node 54.244.201.15 for cluster configuration.
+2018/08/07 15:53:05 - Connecting via SSH.
+2018/08/07 15:53:07 - Checking software installation completed.
+2018/08/07 15:53:07 - Software installation finished.
+2018/08/07 15:53:07 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 15:53:07 - Checking file contents.
+2018/08/07 15:53:08 - Remote file contents confirmed.
+2018/08/07 15:53:08 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 15:53:08 - Writing cluster private ip addresses to file on instance.
+2018/08/07 15:53:08 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 15:53:09 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 15:53:09 - Checking file contents.
+2018/08/07 15:53:09 - Remote file contents confirmed.
+2018/08/07 15:53:09 - Running envgen
+2018/08/07 15:53:10 - Reading the config file.
+2018/08/07 15:53:10 - Retrieving IP address of ESP Server.
+2018/08/07 15:53:10 - ESP Server private IP address: 10.123.38.135.
+2018/08/07 15:53:10 - tlh. ESP Server public IP address: 54.244.201.15.
+2018/08/07 15:53:11 - 54.244.201.15:   Starting node configuration.
+2018/08/07 15:53:11 - 54.244.201.15:   Connecting via SSH.
+2018/08/07 15:53:12 - 54.244.201.15:   Checking software installation completed.
+2018/08/07 15:53:12 - 54.244.201.15:   Software installation finished.
+2018/08/07 15:53:12 - 54.244.201.15:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 15:53:13 - 54.244.201.15:   Checking file contents.
+2018/08/07 15:53:13 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 15:53:14 - 54.244.201.15:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 15:53:14 - 54.244.201.15:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/07 15:53:14 - 54.244.201.15:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/07 15:53:15 - 54.244.201.15:   Checking file contents.
+2018/08/07 15:53:15 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 15:53:15 - 54.244.201.15:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/07 15:53:37 - 54.244.201.15:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting mydali ...            [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting mydfuserver ...       [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting myeclagent ...        [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting myeclccserver ...     [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting myesp ...             [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting mysasha ...           [   OK    ]   
+2018/08/07 15:53:37 - 54.244.201.15:   Starting mythor ...            [   OK    ]  
+2018/08/07 15:53:37 - 54.244.201.15:   Start node is complete.
+2018/08/07 15:53:37 - tlh. Done.
+2018/08/07 15:56:45 - tlh. Terminating cluster.
+2018/08/07 15:56:45 - tlh. Connecting to AWS region us-west-2.
+2018/08/07 15:56:45 - tlh. Gathering instances for Hpcc-VZYR.
+2018/08/07 15:56:45 - tlh. Terminating instances.
+2018/08/07 15:56:46 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:56:51 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:56:56 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:01 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:06 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:11 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:16 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:22 - tlh. Waiting for 1 instances to terminate.
+2018/08/07 15:57:27 - tlh. Deleting Access Key Hpcc-VZYR.
+2018/08/07 15:57:27 - tlh. Deleting Security group Hpcc-VZYR.
+2018/08/07 15:57:27 - tlh. Done.

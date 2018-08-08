@@ -1,0 +1,94 @@
+2016/04/27 09:25:39 - Connecting to AWS region eu-central-1.
+2016/04/27 09:25:39 - Calculating new unique cluster name for request 1221.
+2016/04/27 09:25:40 - Creating new cluster name, Hpcc-K3PX.
+2016/04/27 09:25:40 - Creating Hpcc-K3PX security group.
+2016/04/27 09:25:42 - Creating Hpcc-K3PX key pair.
+2016/04/27 09:25:43 - Launching 1 m3.large nodes using ami-7ee60611.
+2016/04/27 09:25:43 - Reservation ID r-9a803026 created.
+2016/04/27 09:25:43 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:25:49 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:25:54 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:25:59 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:04 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:09 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:14 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:20 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:25 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:30 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:35 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:40 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:45 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:51 - Waiting for 1 of 1 nodes to launch.
+2016/04/27 09:26:56 - Pending instances have completed.
+2016/04/27 09:26:56 - Checking each node launched properly.
+2016/04/27 09:26:56 - 52.58.150.117:   Checking EC2 instance i-b250350e.
+2016/04/27 09:26:56 - 52.58.150.117:   Checking EC2 instance is running.
+2016/04/27 09:26:56 - 52.58.150.117:   Connecting via SSH.
+2016/04/27 09:27:04 - 52.58.150.117:   Checking software installation completed.
+2016/04/27 09:27:04 - 52.58.150.117:   Software installation finished.
+2016/04/27 09:27:04 - 52.58.150.117:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/27 09:27:04 - 52.58.150.117:   Checking file contents.
+2016/04/27 09:27:05 - 52.58.150.117:   Remote file contents confirmed.
+2016/04/27 09:27:05 - 52.58.150.117:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/27 09:27:05 - 52.58.150.117:   Completed check of node 52.58.150.117.
+2016/04/27 09:27:05 - Determining availability zone.
+2016/04/27 09:27:05 - Gathering public and private ip addresses.
+2016/04/27 09:27:05 - Connecting to node 52.58.150.117 for cluster configuration.
+2016/04/27 09:27:05 - Connecting via SSH.
+2016/04/27 09:27:07 - Checking software installation completed.
+2016/04/27 09:27:07 - Software installation finished.
+2016/04/27 09:27:07 - Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/27 09:27:08 - Checking file contents.
+2016/04/27 09:27:08 - Remote file contents confirmed.
+2016/04/27 09:27:09 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/27 09:27:09 - Writing cluster private ip addresses to file on instance.
+2016/04/27 09:27:09 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2016/04/27 09:27:09 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2016/04/27 09:27:10 - Checking file contents.
+2016/04/27 09:27:10 - Remote file contents confirmed.
+2016/04/27 09:27:10 - Running envgen
+2016/04/27 09:27:10 - Reading the config file.
+2016/04/27 09:27:11 - Retrieving IP address of ESP Server.
+2016/04/27 09:27:11 - ESP Server private IP address: 172.31.7.252.
+2016/04/27 09:27:11 - ESP Server public IP address: 52.58.150.117.
+2016/04/27 09:27:11 - 52.58.150.117:   Starting node configuration.
+2016/04/27 09:27:11 - 52.58.150.117:   Connecting via SSH.
+2016/04/27 09:27:13 - 52.58.150.117:   Checking software installation completed.
+2016/04/27 09:27:13 - 52.58.150.117:   Software installation finished.
+2016/04/27 09:27:13 - 52.58.150.117:   Sending /home/ubuntu/node_health_script via SFTP.
+2016/04/27 09:27:13 - 52.58.150.117:   Checking file contents.
+2016/04/27 09:27:14 - 52.58.150.117:   Remote file contents confirmed.
+2016/04/27 09:27:15 - 52.58.150.117:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2016/04/27 09:27:15 - 52.58.150.117:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2016/04/27 09:27:15 - 52.58.150.117:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2016/04/27 09:27:16 - 52.58.150.117:   Checking file contents.
+2016/04/27 09:27:16 - 52.58.150.117:   Remote file contents confirmed.
+2016/04/27 09:27:16 - 52.58.150.117:   Starting HPCC Platform Community Edition: 5.6.2-1.
+2016/04/27 09:27:29 - 52.58.150.117:   Starting mydafilesrv ...       [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting mydali ...            [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting mydfuserver ...       [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting myeclagent ...        [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting myeclccserver ...     [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting myeclscheduler ...    [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting myesp ...             [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting mysasha ...           [   OK    ]   
+2016/04/27 09:27:29 - 52.58.150.117:   Starting mythor ...            [   OK    ]  
+2016/04/27 09:27:29 - 52.58.150.117:   Start node is complete.
+2016/04/27 09:27:29 - Done.
+2016/04/27 09:28:19 - Terminating cluster.
+2016/04/27 09:28:19 - Connecting to AWS region eu-central-1.
+2016/04/27 09:28:19 - Gathering instances for Hpcc-K3PX.
+2016/04/27 09:28:20 - Terminating instances.
+2016/04/27 09:28:20 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:25 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:30 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:36 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:41 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:46 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:51 - Waiting for 1 instances to terminate.
+2016/04/27 09:28:56 - Waiting for 1 instances to terminate.
+2016/04/27 09:29:01 - Waiting for 1 instances to terminate.
+2016/04/27 09:29:06 - Waiting for 1 instances to terminate.
+2016/04/27 09:29:12 - Deleting Access Key Hpcc-K3PX.
+2016/04/27 09:29:12 - Deleting Security group Hpcc-K3PX.
+2016/04/27 09:29:12 - Done.

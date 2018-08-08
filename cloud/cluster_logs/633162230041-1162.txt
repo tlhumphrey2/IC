@@ -1,0 +1,82 @@
+2015/11/05 14:11:01 - Connecting to AWS region eu-central-1.
+2015/11/05 14:11:01 - Calculating new unique cluster name for request 1162.
+2015/11/05 14:11:02 - Creating new cluster name, Hpcc-V7MC.
+2015/11/05 14:11:02 - Creating Hpcc-V7MC security group.
+2015/11/05 14:11:04 - Creating Hpcc-V7MC key pair.
+2015/11/05 14:11:04 - Launching 1 m3.large nodes using ami-5734273b.
+2015/11/05 14:11:05 - Reservation ID r-71203acb created.
+2015/11/05 14:11:05 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:10 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:15 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:20 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:26 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:31 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:36 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:41 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:46 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:51 - Waiting for 1 of 1 nodes to launch.
+2015/11/05 14:11:57 - Pending instances have completed.
+2015/11/05 14:11:57 - Checking each node launched properly.
+2015/11/05 14:11:57 - 52.28.201.99:    Checking EC2 instance i-3c56bd81.
+2015/11/05 14:11:57 - 52.28.201.99:    Checking EC2 instance is running.
+2015/11/05 14:11:57 - 52.28.201.99:    Connecting via SSH.
+2015/11/05 14:12:00 - 52.28.201.99:    Waiting on SSH connection.
+2015/11/05 14:12:09 - 52.28.201.99:    Checking software installation completed.
+2015/11/05 14:12:09 - 52.28.201.99:    Software installation finished.
+2015/11/05 14:12:09 - 52.28.201.99:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 14:12:10 - 52.28.201.99:    Checking file contents.
+2015/11/05 14:12:10 - 52.28.201.99:    Remote file contents confirmed.
+2015/11/05 14:12:11 - 52.28.201.99:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 14:12:11 - 52.28.201.99:    Completed check of node 52.28.201.99.
+2015/11/05 14:12:11 - Determining availability zone.
+2015/11/05 14:12:11 - Gathering public and private ip addresses.
+2015/11/05 14:12:11 - Connecting to node 52.28.201.99 for cluster configuration.
+2015/11/05 14:12:11 - Connecting via SSH.
+2015/11/05 14:12:12 - Checking software installation completed.
+2015/11/05 14:12:12 - Software installation finished.
+2015/11/05 14:12:12 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 14:12:13 - Checking file contents.
+2015/11/05 14:12:13 - Remote file contents confirmed.
+2015/11/05 14:12:14 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 14:12:14 - Writing cluster private ip addresses to file on instance.
+2015/11/05 14:12:14 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/11/05 14:12:15 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/11/05 14:12:15 - Checking file contents.
+2015/11/05 14:12:15 - Remote file contents confirmed.
+2015/11/05 14:12:15 - Running envgen
+2015/11/05 14:12:16 - Reading the config file.
+2015/11/05 14:12:16 - Retrieving IP address of ESP Server.
+2015/11/05 14:12:16 - ESP Server private IP address: 172.31.23.214.
+2015/11/05 14:12:16 - ESP Server public IP address: 52.28.201.99.
+2015/11/05 14:12:17 - 52.28.201.99:    Starting node configuration.
+2015/11/05 14:12:17 - 52.28.201.99:    Connecting via SSH.
+2015/11/05 14:12:18 - 52.28.201.99:    Checking software installation completed.
+2015/11/05 14:12:18 - 52.28.201.99:    Software installation finished.
+2015/11/05 14:12:18 - 52.28.201.99:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/11/05 14:12:19 - 52.28.201.99:    Checking file contents.
+2015/11/05 14:12:19 - 52.28.201.99:    Remote file contents confirmed.
+2015/11/05 14:12:20 - 52.28.201.99:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/11/05 14:12:20 - 52.28.201.99:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/11/05 14:12:20 - 52.28.201.99:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/11/05 14:12:21 - 52.28.201.99:    Checking file contents.
+2015/11/05 14:12:21 - 52.28.201.99:    Remote file contents confirmed.
+2015/11/05 14:12:21 - 52.28.201.99:    Starting HPCC Platform Community Edition: 5.4.4-1.
+2015/11/05 14:12:35 - 52.28.201.99:    Starting mydafilesrv ...       [   OK    ]   
+2015/11/05 14:12:35 - An exception occured.
+                      ClusterError: Service failed to start.
+2015/11/05 14:12:35 - 52.28.201.99:    Start node is complete.
+2015/11/05 14:12:35 - Service failed to start.
+2015/11/05 14:12:35 - Done.
+2015/11/05 14:14:00 - Terminating cluster.
+2015/11/05 14:14:00 - Connecting to AWS region eu-central-1.
+2015/11/05 14:14:00 - Gathering instances for Hpcc-V7MC.
+2015/11/05 14:14:00 - Terminating instances.
+2015/11/05 14:14:01 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:06 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:11 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:16 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:21 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:26 - Waiting for 1 instances to terminate.
+2015/11/05 14:14:32 - Deleting Access Key Hpcc-V7MC.
+2015/11/05 14:14:32 - Deleting Security group Hpcc-V7MC.
+2015/11/05 14:14:32 - Done.

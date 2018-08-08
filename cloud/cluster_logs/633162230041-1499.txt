@@ -1,0 +1,91 @@
+2018/08/08 09:42:16 - Connecting to AWS region us-west-2.
+2018/08/08 09:42:16 - Calculating new unique cluster name for request 1499.
+2018/08/08 09:42:17 - Creating new cluster name, Hpcc-YGBV.
+2018/08/08 09:42:17 - Creating Hpcc-YGBV security group.
+2018/08/08 09:42:21 - Creating Hpcc-YGBV key pair.
+2018/08/08 09:42:21 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/08 09:42:22 - Reservation ID r-0a58fd03c1a4f5290 created.
+2018/08/08 09:42:22 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:27 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:32 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:37 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:42 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:47 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:52 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:42:58 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:43:03 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:43:08 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:43:13 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:43:18 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:43:23 - Pending instances have completed.
+2018/08/08 09:43:23 - Checking each node launched properly.
+2018/08/08 09:43:23 - 52.42.252.206:   Checking EC2 instance i-03f06b06533a7197a.
+2018/08/08 09:43:24 - 52.42.252.206:   Checking EC2 instance is running.
+2018/08/08 09:43:24 - 52.42.252.206:   Connecting via SSH.
+2018/08/08 09:43:31 - 52.42.252.206:   Waiting on SSH connection.
+2018/08/08 09:43:43 - 52.42.252.206:   Checking software installation completed.
+2018/08/08 09:43:43 - 52.42.252.206:   Software installation finished.
+2018/08/08 09:43:43 - 52.42.252.206:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:43:43 - 52.42.252.206:   Checking file contents.
+2018/08/08 09:43:44 - 52.42.252.206:   Remote file contents confirmed.
+2018/08/08 09:43:44 - 52.42.252.206:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:43:44 - 52.42.252.206:   tlh. Completed check of node 52.42.252.206.
+2018/08/08 09:43:44 - Determining availability zone.
+2018/08/08 09:43:44 - Gathering public and private ip addresses.
+2018/08/08 09:43:44 - Connecting to node 52.42.252.206 for cluster configuration.
+2018/08/08 09:43:44 - Connecting via SSH.
+2018/08/08 09:43:45 - Checking software installation completed.
+2018/08/08 09:43:46 - Software installation finished.
+2018/08/08 09:43:46 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:43:46 - Checking file contents.
+2018/08/08 09:43:46 - Remote file contents confirmed.
+2018/08/08 09:43:47 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:43:47 - Writing cluster private ip addresses to file on instance.
+2018/08/08 09:43:47 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/08 09:43:48 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/08 09:43:48 - Checking file contents.
+2018/08/08 09:43:48 - Remote file contents confirmed.
+2018/08/08 09:43:48 - Running envgen
+2018/08/08 09:43:49 - Reading the config file.
+2018/08/08 09:43:49 - Retrieving IP address of ESP Server.
+2018/08/08 09:43:50 - ESP Server private IP address: 10.19.9.161.
+2018/08/08 09:43:50 - ESP Server public IP address: 52.42.252.206.
+2018/08/08 09:43:50 - 52.42.252.206:   Starting node configuration.
+2018/08/08 09:43:50 - 52.42.252.206:   Connecting via SSH.
+2018/08/08 09:43:51 - 52.42.252.206:   Checking software installation completed.
+2018/08/08 09:43:51 - 52.42.252.206:   Software installation finished.
+2018/08/08 09:43:51 - 52.42.252.206:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:43:52 - 52.42.252.206:   Checking file contents.
+2018/08/08 09:43:52 - 52.42.252.206:   Remote file contents confirmed.
+2018/08/08 09:43:53 - 52.42.252.206:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:43:53 - 52.42.252.206:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/08 09:43:54 - 52.42.252.206:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/08 09:43:54 - 52.42.252.206:   Checking file contents.
+2018/08/08 09:43:55 - 52.42.252.206:   Remote file contents confirmed.
+2018/08/08 09:43:55 - 52.42.252.206:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/08 09:44:19 - 52.42.252.206:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting mydali ...            [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting mydfuserver ...       [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting myeclagent ...        [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting myeclccserver ...     [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting myesp ...             [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting mysasha ...           [   OK    ]   
+2018/08/08 09:44:19 - 52.42.252.206:   Starting mythor ...            [   OK    ]  
+2018/08/08 09:44:19 - 52.42.252.206:   Start node is complete.
+2018/08/08 09:44:19 - Done.
+2018/08/08 09:51:48 - Terminating cluster.
+2018/08/08 09:51:48 - Connecting to AWS region us-west-2.
+2018/08/08 09:51:48 - Gathering instances for Hpcc-YGBV.
+2018/08/08 09:51:49 - Terminating instances.
+2018/08/08 09:51:49 - Waiting for 1 instances to terminate.
+2018/08/08 09:51:54 - Waiting for 1 instances to terminate.
+2018/08/08 09:51:59 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:04 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:10 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:15 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:20 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:25 - Waiting for 1 instances to terminate.
+2018/08/08 09:52:30 - Deleting Access Key Hpcc-YGBV.
+2018/08/08 09:52:30 - Deleting Security group Hpcc-YGBV.
+2018/08/08 09:52:31 - Done.

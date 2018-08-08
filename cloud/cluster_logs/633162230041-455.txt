@@ -1,0 +1,99 @@
+2012/12/05 11:09:45 - Connecting to AWS region us-west-2.
+2012/12/05 11:09:45 - Calculating new unique cluster name for request 455.
+2012/12/05 11:09:46 - Creating new cluster name, Hpcc-E3VK.
+2012/12/05 11:09:46 - Creating Hpcc-E3VK security group.
+2012/12/05 11:09:49 - Creating Hpcc-E3VK key pair.
+2012/12/05 11:09:50 - Launching 1 m1.large nodes using ami-e01698d0.
+2012/12/05 11:09:51 - Reservation ID r-630b3950 created.
+2012/12/05 11:09:51 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:09:56 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:02 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:07 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:12 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:18 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:23 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:28 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:34 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:39 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:44 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:50 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:10:55 - Waiting for 1 of 1 nodes to launch.
+2012/12/05 11:11:01 - Pending instances have completed.
+2012/12/05 11:11:01 - Checking each node launched properly.
+2012/12/05 11:11:01 - 54.245.147.146:  Checking EC2 instance i-62c93c50.
+2012/12/05 11:11:01 - 54.245.147.146:  Checking EC2 instance is running.
+2012/12/05 11:11:01 - 54.245.147.146:  Connecting via SSH.
+2012/12/05 11:11:01 - 54.245.147.146:  Waiting on SSH connection.
+2012/12/05 11:11:12 - 54.245.147.146:  Checking software installation completed.
+2012/12/05 11:11:13 - 54.245.147.146:  Software installation finished.
+2012/12/05 11:11:13 - 54.245.147.146:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/12/05 11:11:13 - 54.245.147.146:  Checking file contents.
+2012/12/05 11:11:14 - 54.245.147.146:  Remote file contents confirmed.
+2012/12/05 11:11:15 - 54.245.147.146:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/12/05 11:11:15 - 54.245.147.146:  Completed check of node 54.245.147.146.
+2012/12/05 11:11:15 - Determining availability zone.
+2012/12/05 11:11:15 - Gathering public and private ip addresses.
+2012/12/05 11:11:15 - Connecting to node 54.245.147.146 for cluster configuration.
+2012/12/05 11:11:15 - Connecting via SSH.
+2012/12/05 11:11:17 - Checking software installation completed.
+2012/12/05 11:11:17 - Software installation finished.
+2012/12/05 11:11:17 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/12/05 11:11:17 - Checking file contents.
+2012/12/05 11:11:18 - Remote file contents confirmed.
+2012/12/05 11:11:19 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/12/05 11:11:19 - Writing cluster private ip addresses to file on instance.
+2012/12/05 11:11:19 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/12/05 11:11:19 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/12/05 11:11:19 - Checking file contents.
+2012/12/05 11:11:20 - Remote file contents confirmed.
+2012/12/05 11:11:20 - Running envgen
+2012/12/05 11:11:21 - Reading the config file.
+2012/12/05 11:11:21 - Retrieving IP address of ESP Server.
+2012/12/05 11:11:21 - ESP Server private IP address: 10.254.9.55.
+2012/12/05 11:11:21 - ESP Server public IP address: 54.245.147.146.
+2012/12/05 11:11:22 - 54.245.147.146:  Starting node configuration.
+2012/12/05 11:11:22 - 54.245.147.146:  Connecting via SSH.
+2012/12/05 11:11:23 - 54.245.147.146:  Checking software installation completed.
+2012/12/05 11:11:23 - 54.245.147.146:  Software installation finished.
+2012/12/05 11:11:23 - 54.245.147.146:  Sending /home/ubuntu/node_health_script via SFTP.
+2012/12/05 11:11:24 - 54.245.147.146:  Checking file contents.
+2012/12/05 11:11:24 - 54.245.147.146:  Remote file contents confirmed.
+2012/12/05 11:11:25 - 54.245.147.146:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/12/05 11:11:25 - 54.245.147.146:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/12/05 11:11:26 - 54.245.147.146:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/12/05 11:11:26 - 54.245.147.146:  Checking file contents.
+2012/12/05 11:11:27 - 54.245.147.146:  Remote file contents confirmed.
+2012/12/05 11:11:27 - 54.245.147.146:  Starting HPCC Platform Community Edition: 3.8.2-2.
+2012/12/05 11:11:53 - 54.245.147.146:  Starting mydafilesrv....       [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting mydali....            [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting mydfuserver....       [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting myeclagent....        [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting myeclccserver....     [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting myeclscheduler....    [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting myesp....             [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting mysasha....           [  OK  ]   
+2012/12/05 11:11:53 - 54.245.147.146:  Starting mythor....            [  OK  ]  
+2012/12/05 11:11:53 - 54.245.147.146:  Start node is complete.
+2012/12/05 11:11:53 - Done.
+2012/12/05 11:33:08 - Terminating cluster.
+2012/12/05 11:33:08 - Connecting to AWS region us-west-2.
+2012/12/05 11:33:08 - Gathering instances for Hpcc-E3VK.
+2012/12/05 11:33:09 - Terminating instances.
+2012/12/05 11:33:10 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:15 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:20 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:26 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:31 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:36 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:42 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:47 - Waiting for 1 instances to terminate.
+2012/12/05 11:33:52 - Deleting attached EBS volumes.
+2012/12/05 11:33:52 - Deleting volume vol-ee7982d7
+2012/12/05 11:33:52 - Volume vol-ee7982d7 failed to delete.
+2012/12/05 11:33:52 - An exception occured.
+                      Amazon Error: Client.VolumeInUse
+                      Volume vol-ee7982d7 is currently attached to i-62c93c50
+                      requestId: 08f7136a-169e-414d-a5e8-fd622fa88174
+2012/12/05 11:33:52 - Deleting Access Key Hpcc-E3VK.
+2012/12/05 11:33:53 - Deleting Security group Hpcc-E3VK.
+2012/12/05 11:33:54 - Done.

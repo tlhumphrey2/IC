@@ -1,0 +1,95 @@
+2014/06/29 11:50:30 - Connecting to AWS region us-west-2.
+2014/06/29 11:50:31 - Calculating new unique cluster name for request 832.
+2014/06/29 11:50:31 - Creating new cluster name, Hpcc-UMKS.
+2014/06/29 11:50:31 - Creating Hpcc-UMKS security group.
+2014/06/29 11:50:33 - Creating Hpcc-UMKS key pair.
+2014/06/29 11:50:34 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/06/29 11:50:35 - Reservation ID r-41fb354a created.
+2014/06/29 11:50:35 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:50:40 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:50:45 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:50:50 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:50:56 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:01 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:06 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:11 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:16 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:21 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:26 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:32 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:37 - Waiting for 1 of 1 nodes to launch.
+2014/06/29 11:51:42 - Pending instances have completed.
+2014/06/29 11:51:42 - Checking each node launched properly.
+2014/06/29 11:51:42 - 54.212.115.100:  Checking EC2 instance i-ca79fec1.
+2014/06/29 11:51:42 - 54.212.115.100:  Checking EC2 instance is running.
+2014/06/29 11:51:42 - 54.212.115.100:  Connecting via SSH.
+2014/06/29 11:51:46 - 54.212.115.100:  Waiting on SSH connection.
+2014/06/29 11:51:57 - 54.212.115.100:  Checking software installation completed.
+2014/06/29 11:51:57 - 54.212.115.100:  Software installation finished.
+2014/06/29 11:51:57 - 54.212.115.100:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/29 11:51:58 - 54.212.115.100:  Checking file contents.
+2014/06/29 11:51:58 - 54.212.115.100:  Remote file contents confirmed.
+2014/06/29 11:51:59 - 54.212.115.100:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/29 11:51:59 - 54.212.115.100:  Completed check of node 54.212.115.100.
+2014/06/29 11:51:59 - Determining availability zone.
+2014/06/29 11:51:59 - Gathering public and private ip addresses.
+2014/06/29 11:51:59 - Connecting to node 54.212.115.100 for cluster configuration.
+2014/06/29 11:51:59 - Connecting via SSH.
+2014/06/29 11:52:00 - Checking software installation completed.
+2014/06/29 11:52:00 - Software installation finished.
+2014/06/29 11:52:00 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/29 11:52:00 - Checking file contents.
+2014/06/29 11:52:01 - Remote file contents confirmed.
+2014/06/29 11:52:01 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/29 11:52:01 - Writing cluster private ip addresses to file on instance.
+2014/06/29 11:52:01 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/06/29 11:52:02 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/06/29 11:52:02 - Checking file contents.
+2014/06/29 11:52:02 - Remote file contents confirmed.
+2014/06/29 11:52:02 - Running envgen
+2014/06/29 11:52:03 - Reading the config file.
+2014/06/29 11:52:03 - Retrieving IP address of ESP Server.
+2014/06/29 11:52:04 - ESP Server private IP address: 10.254.73.6.
+2014/06/29 11:52:04 - ESP Server public IP address: 54.212.115.100.
+2014/06/29 11:52:04 - 54.212.115.100:  Starting node configuration.
+2014/06/29 11:52:04 - 54.212.115.100:  Connecting via SSH.
+2014/06/29 11:52:05 - 54.212.115.100:  Checking software installation completed.
+2014/06/29 11:52:05 - 54.212.115.100:  Software installation finished.
+2014/06/29 11:52:05 - 54.212.115.100:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/06/29 11:52:06 - 54.212.115.100:  Checking file contents.
+2014/06/29 11:52:06 - 54.212.115.100:  Remote file contents confirmed.
+2014/06/29 11:52:06 - 54.212.115.100:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/06/29 11:52:06 - 54.212.115.100:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/06/29 11:52:07 - 54.212.115.100:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/06/29 11:52:07 - 54.212.115.100:  Checking file contents.
+2014/06/29 11:52:08 - 54.212.115.100:  Remote file contents confirmed.
+2014/06/29 11:52:08 - 54.212.115.100:  Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/06/29 11:52:35 - 54.212.115.100:  Starting mydafilesrv....       [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting mydali....            [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting mydfuserver....       [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting myeclagent....        [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting myeclccserver....     [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting myeclscheduler....    [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting myesp....             [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting mysasha....           [  OK  ]   
+2014/06/29 11:52:35 - 54.212.115.100:  Starting mythor....            [  OK  ]  
+2014/06/29 11:52:35 - 54.212.115.100:  Start node is complete.
+2014/06/29 11:52:35 - Done.
+2014/06/29 13:35:06 - Terminating cluster.
+2014/06/29 13:35:06 - Connecting to AWS region us-west-2.
+2014/06/29 13:35:06 - Gathering instances for Hpcc-UMKS.
+2014/06/29 13:35:06 - Terminating instances.
+2014/06/29 13:35:07 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:12 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:17 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:22 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:27 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:32 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:38 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:43 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:48 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:53 - Waiting for 1 instances to terminate.
+2014/06/29 13:35:58 - Waiting for 1 instances to terminate.
+2014/06/29 13:36:03 - Deleting Access Key Hpcc-UMKS.
+2014/06/29 13:36:04 - Deleting Security group Hpcc-UMKS.
+2014/06/29 13:36:04 - Done.

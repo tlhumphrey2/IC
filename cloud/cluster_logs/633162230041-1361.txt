@@ -1,0 +1,185 @@
+2018/01/03 10:03:56 - Connecting to AWS region us-west-2.
+2018/01/03 10:03:56 - Calculating new unique cluster name for request 1361.
+2018/01/03 10:03:57 - Creating new cluster name, Hpcc-EZV4.
+2018/01/03 10:03:57 - Creating Hpcc-EZV4 security group.
+2018/01/03 10:03:59 - Creating Hpcc-EZV4 key pair.
+2018/01/03 10:03:59 - Launching 1 m1.large nodes using ami-4f00c837.
+2018/01/03 10:04:00 - Reservation ID r-0e8a33bc10091c80e created.
+2018/01/03 10:04:00 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:05 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:10 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:15 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:20 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:26 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:31 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:36 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:41 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:46 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:51 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:04:56 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:01 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:06 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:12 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:17 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:22 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:05:27 - Pending instances have completed.
+2018/01/03 10:05:27 - Checking each node launched properly.
+2018/01/03 10:05:27 - 54.189.94.156:   Checking EC2 instance i-00fec8462470bb517.
+2018/01/03 10:05:27 - 54.189.94.156:   Checking EC2 instance is running.
+2018/01/03 10:05:27 - 54.189.94.156:   Connecting via SSH.
+2018/01/03 10:05:43 - 54.189.94.156:   Waiting on SSH connection.
+2018/01/03 10:05:48 - 54.189.94.156:   Waiting on SSH connection.
+2018/01/03 10:06:00 - 54.189.94.156:   Checking software installation completed.
+2018/01/03 10:06:00 - 54.189.94.156:   Software installation finished.
+2018/01/03 10:06:00 - 54.189.94.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/03 10:06:00 - 54.189.94.156:   Checking file contents.
+2018/01/03 10:06:01 - 54.189.94.156:   Remote file contents confirmed.
+2018/01/03 10:06:02 - Unhandled error occured when checking for bad instances
+2018/01/03 10:06:02 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Jan  3 15:05:47 ip-10-217-244-194 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  3 15:05:47 ip-10-217-244-194 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/01/03 10:06:02 - 54.189.94.156:   Completed check of node 54.189.94.156.
+2018/01/03 10:06:02 - Error messages found in system logs:
+/var/log/syslog:Jan  3 15:05:47 ip-10-217-244-194 kernel: [    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  3 15:05:47 ip-10-217-244-194 kernel: [    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308000] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308000]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/01/03 10:06:02 - Terminating 1 bad instances.
+2018/01/03 10:06:02 - Terminating instances.
+2018/01/03 10:06:02 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:07 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:12 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:18 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:23 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:28 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:33 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:38 - Waiting for 1 instances to terminate.
+2018/01/03 10:06:44 - Reservation ID r-052d89c591de9c5bc created.
+2018/01/03 10:06:44 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:06:49 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:06:55 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:00 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:05 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:10 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:15 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:20 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:25 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:30 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:35 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:40 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:45 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:51 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:07:56 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:08:01 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:08:06 - Pending instances have completed.
+2018/01/03 10:08:06 - Checking each node launched properly.
+2018/01/03 10:08:06 - 54.189.94.156:   Checking EC2 instance i-0c3eb3c490649528b.
+2018/01/03 10:08:06 - 54.189.94.156:   Checking EC2 instance is running.
+2018/01/03 10:08:06 - 54.189.94.156:   Connecting via SSH.
+2018/01/03 10:08:44 - 54.189.94.156:   Checking software installation completed.
+2018/01/03 10:08:44 - 54.189.94.156:   Software installation finished.
+2018/01/03 10:08:44 - 54.189.94.156:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/01/03 10:08:45 - 54.189.94.156:   Checking file contents.
+2018/01/03 10:08:45 - 54.189.94.156:   Remote file contents confirmed.
+2018/01/03 10:08:46 - Unhandled error occured when checking for bad instances
+2018/01/03 10:08:46 - An exception occured.
+                      ClusterError: Error messages found in system logs:
+/var/log/syslog:Jan  3 15:08:31 ip-10-217-244-194 kernel: [    0.308057] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  3 15:08:31 ip-10-217-244-194 kernel: [    0.308057]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308057] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308057]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+2018/01/03 10:08:46 - 54.189.94.156:   Completed check of node 54.189.94.156.
+2018/01/03 10:08:46 - Error messages found in system logs:
+/var/log/syslog:Jan  3 15:08:31 ip-10-217-244-194 kernel: [    0.308057] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/syslog:Jan  3 15:08:31 ip-10-217-244-194 kernel: [    0.308057]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+/var/log/dmesg:[    0.308057] WARNING: CPU: 1 PID: 0 at /build/buildd/linux-3.13.0/arch/x86/xen/time.c:124 xen_timer_interrupt+0x13d/0x150()
+/var/log/dmesg:[    0.308057]  [<ffffffff8100a0bd>] xen_timer_interrupt+0x13d/0x150
+Total of 1 anomalies detected.
+
+2018/01/03 10:08:46 - Terminating 1 bad instances.
+2018/01/03 10:08:46 - Terminating instances.
+2018/01/03 10:08:47 - Waiting for 1 instances to terminate.
+2018/01/03 10:08:52 - Waiting for 1 instances to terminate.
+2018/01/03 10:08:57 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:02 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:07 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:13 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:18 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:23 - Waiting for 1 instances to terminate.
+2018/01/03 10:09:29 - Reservation ID r-0206ae21d853a3ee7 created.
+2018/01/03 10:09:29 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:34 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:39 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:44 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:49 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:54 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:09:59 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:04 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:09 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:15 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:20 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:24 - Terminating cluster.
+2018/01/03 10:10:24 - Connecting to AWS region us-west-2.
+2018/01/03 10:10:24 - Gathering instances for Hpcc-EZV4.
+2018/01/03 10:10:25 - Terminating instances.
+2018/01/03 10:10:25 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:10:26 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:30 - Pending instances have completed.
+2018/01/03 10:10:30 - Checking each node launched properly.
+2018/01/03 10:10:30 - 54.189.94.156:   Checking EC2 instance i-026bb5b9a5814b9ae.
+2018/01/03 10:10:30 - 54.189.94.156:   Checking EC2 instance is running.
+2018/01/03 10:10:30 - 54.189.94.156:   Node 54.189.94.156 failed to launch properly.
+2018/01/03 10:10:30 - 54.189.94.156:   Error - Node 54.189.94.156 failed check.
+2018/01/03 10:10:30 - 54.189.94.156:   Completed check of node 54.189.94.156.
+2018/01/03 10:10:30 - Terminating 1 bad instances.
+2018/01/03 10:10:30 - Terminating instances.
+2018/01/03 10:10:30 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:31 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:35 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:36 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:40 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:41 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:46 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:46 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:51 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:51 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:56 - Waiting for 1 instances to terminate.
+2018/01/03 10:10:56 - Waiting for 1 instances to terminate.
+2018/01/03 10:11:01 - Waiting for 1 instances to terminate.
+2018/01/03 10:11:01 - Waiting for 1 instances to terminate.
+2018/01/03 10:11:06 - Deleting Access Key Hpcc-EZV4.
+2018/01/03 10:11:07 - Deleting Security group Hpcc-EZV4.
+2018/01/03 10:11:07 - Reservation ID r-081072042d9a0aef0 created.
+2018/01/03 10:11:07 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:07 - An exception occured.
+                      Amazon Error: InvalidGroup.InUse
+                      There are active instances using security group 'Hpcc-EZV4'
+                      requestId: 6dfbdf25-7506-4558-82ec-f84356b585fe
+2018/01/03 10:11:12 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:17 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:22 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:27 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:32 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:37 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:43 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:48 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:54 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:11:59 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:04 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:09 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:14 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:19 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:24 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:29 - Waiting for 1 of 1 nodes to launch.
+2018/01/03 10:12:35 - Pending instances have completed.
+2018/01/03 10:12:35 - Checking each node launched properly.
+2018/01/03 10:12:35 - 54.189.94.156:   Checking EC2 instance i-0b43241b10afe9899.
+2018/01/03 10:12:35 - 54.189.94.156:   Checking EC2 instance is running.
+2018/01/03 10:12:35 - 54.189.94.156:   Connecting via SSH.

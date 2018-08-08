@@ -1,0 +1,95 @@
+2014/05/29 08:58:39 - Connecting to AWS region us-west-2.
+2014/05/29 08:58:39 - Checking storage IDs exist in region us-west-2: snap-64393d96
+2014/05/29 08:58:39 - Calculating new unique cluster name for request 791.
+2014/05/29 08:58:40 - Creating new cluster name, Hpcc-GPS8.
+2014/05/29 08:58:40 - Creating Hpcc-GPS8 security group.
+2014/05/29 08:58:43 - Creating Hpcc-GPS8 key pair.
+2014/05/29 08:58:44 - Launching 1 m1.large nodes using ami-2aadc71a.
+2014/05/29 08:58:44 - Reservation ID r-16688c1d created.
+2014/05/29 08:58:44 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:58:50 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:58:55 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:00 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:05 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:10 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:15 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:21 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:26 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:31 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:36 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:41 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:47 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:52 - Waiting for 1 of 1 nodes to launch.
+2014/05/29 08:59:57 - Pending instances have completed.
+2014/05/29 08:59:57 - Checking each node launched properly.
+2014/05/29 08:59:57 - 54.187.31.155:   Checking EC2 instance i-467bb34d.
+2014/05/29 08:59:57 - 54.187.31.155:   Checking EC2 instance is running.
+2014/05/29 08:59:57 - 54.187.31.155:   Connecting via SSH.
+2014/05/29 08:59:57 - 54.187.31.155:   Waiting on SSH connection.
+2014/05/29 09:00:04 - 54.187.31.155:   Checking software installation completed.
+2014/05/29 09:00:05 - 54.187.31.155:   Waiting for software to install.
+2014/05/29 09:00:15 - 54.187.31.155:   Software installation finished.
+2014/05/29 09:00:15 - 54.187.31.155:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/05/29 09:00:15 - 54.187.31.155:   Checking file contents.
+2014/05/29 09:00:16 - 54.187.31.155:   Remote file contents confirmed.
+2014/05/29 09:00:16 - 54.187.31.155:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/05/29 09:00:16 - 54.187.31.155:   Completed check of node 54.187.31.155.
+2014/05/29 09:00:16 - Determining availability zone.
+2014/05/29 09:00:16 - Gathering public and private ip addresses.
+2014/05/29 09:00:16 - Connecting to node 54.187.31.155 for cluster configuration.
+2014/05/29 09:00:16 - Connecting via SSH.
+2014/05/29 09:00:22 - Checking software installation completed.
+2014/05/29 09:00:23 - Software installation finished.
+2014/05/29 09:00:23 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/05/29 09:00:23 - Checking file contents.
+2014/05/29 09:00:23 - Remote file contents confirmed.
+2014/05/29 09:00:24 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/05/29 09:00:24 - Writing cluster private ip addresses to file on instance.
+2014/05/29 09:00:24 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/05/29 09:00:25 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/05/29 09:00:25 - Checking file contents.
+2014/05/29 09:00:25 - Remote file contents confirmed.
+2014/05/29 09:00:25 - Running envgen
+2014/05/29 09:00:26 - Reading the config file.
+2014/05/29 09:00:27 - Retrieving IP address of ESP Server.
+2014/05/29 09:00:27 - ESP Server private IP address: 172.31.34.175.
+2014/05/29 09:00:27 - ESP Server public IP address: 54.187.31.155.
+2014/05/29 09:00:27 - Attaching storage devices to the Landing Zone: snap-64393d96
+2014/05/29 09:00:28 - Waiting for volumes to become available.
+2014/05/29 09:00:34 - Connecting via SSH.
+2014/05/29 09:00:36 - Waiting for EC2 instance to see storage device.
+2014/05/29 09:00:43 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-64393d96/.
+2014/05/29 09:00:43 - 54.187.31.155:   Starting node configuration.
+2014/05/29 09:00:43 - 54.187.31.155:   Connecting via SSH.
+2014/05/29 09:00:45 - 54.187.31.155:   Checking software installation completed.
+2014/05/29 09:00:45 - 54.187.31.155:   Software installation finished.
+2014/05/29 09:00:45 - 54.187.31.155:   Sending /home/ubuntu/node_health_script via SFTP.
+2014/05/29 09:00:45 - 54.187.31.155:   Checking file contents.
+2014/05/29 09:00:46 - 54.187.31.155:   Remote file contents confirmed.
+2014/05/29 09:00:46 - 54.187.31.155:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/05/29 09:00:46 - 54.187.31.155:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/05/29 09:00:47 - 54.187.31.155:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/05/29 09:00:47 - 54.187.31.155:   Checking file contents.
+2014/05/29 09:00:48 - 54.187.31.155:   Remote file contents confirmed.
+2014/05/29 09:00:48 - 54.187.31.155:   Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/05/29 09:01:15 - 54.187.31.155:   Starting mydafilesrv....       [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting mydali....            [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting mydfuserver....       [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting myeclagent....        [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting myeclccserver....     [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting myeclscheduler....    [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting myesp....             [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting mysasha....           [  OK  ]   
+2014/05/29 09:01:15 - 54.187.31.155:   Starting mythor....            [  OK  ]  
+2014/05/29 09:01:15 - 54.187.31.155:   Start node is complete.
+2014/05/29 09:01:15 - Done.
+2014/05/29 17:02:52 - Terminating cluster.
+2014/05/29 17:02:52 - Connecting to AWS region us-west-2.
+2014/05/29 17:02:52 - Gathering instances for Hpcc-GPS8.
+2014/05/29 17:02:53 - Terminating instances.
+2014/05/29 17:02:53 - Deleting Access Key Hpcc-GPS8.
+2014/05/29 17:02:53 - Deleting Security group Hpcc-GPS8.
+2014/05/29 17:02:53 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-33d57456 has a dependent object
+                      requestId: a4c18c97-976c-4c58-a7fb-2de41d8f0a1a

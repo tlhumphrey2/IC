@@ -1,0 +1,90 @@
+2015/07/05 11:53:06 - Connecting to AWS region us-west-2.
+2015/07/05 11:53:06 - Checking storage IDs exist in region us-west-2: snap-eb0a33ba
+2015/07/05 11:53:07 - Calculating new unique cluster name for request 1125.
+2015/07/05 11:53:07 - Creating new cluster name, Hpcc-HNU2.
+2015/07/05 11:53:07 - Creating Hpcc-HNU2 security group.
+2015/07/05 11:53:09 - Creating Hpcc-HNU2 key pair.
+2015/07/05 11:53:09 - Launching 1 m1.large nodes using ami-610d2351.
+2015/07/05 11:53:10 - Reservation ID r-d50dd5d8 created.
+2015/07/05 11:53:10 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:15 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:20 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:26 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:31 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:36 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:41 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:46 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:51 - Waiting for 1 of 1 nodes to launch.
+2015/07/05 11:53:56 - Pending instances have completed.
+2015/07/05 11:53:56 - Checking each node launched properly.
+2015/07/05 11:53:56 - 52.10.35.22:     Checking EC2 instance i-db3c072c.
+2015/07/05 11:53:57 - 52.10.35.22:     Checking EC2 instance is running.
+2015/07/05 11:53:57 - 52.10.35.22:     Connecting via SSH.
+2015/07/05 11:54:00 - 52.10.35.22:     Waiting on SSH connection.
+2015/07/05 11:54:11 - 52.10.35.22:     Checking software installation completed.
+2015/07/05 11:54:12 - 52.10.35.22:     Software installation finished.
+2015/07/05 11:54:12 - 52.10.35.22:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/05 11:54:12 - 52.10.35.22:     Checking file contents.
+2015/07/05 11:54:12 - 52.10.35.22:     Remote file contents confirmed.
+2015/07/05 11:54:13 - 52.10.35.22:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/05 11:54:13 - 52.10.35.22:     Completed check of node 52.10.35.22.
+2015/07/05 11:54:13 - Determining availability zone.
+2015/07/05 11:54:13 - Gathering public and private ip addresses.
+2015/07/05 11:54:13 - Connecting to node 52.10.35.22 for cluster configuration.
+2015/07/05 11:54:13 - Connecting via SSH.
+2015/07/05 11:54:14 - Checking software installation completed.
+2015/07/05 11:54:14 - Software installation finished.
+2015/07/05 11:54:14 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/05 11:54:15 - Checking file contents.
+2015/07/05 11:54:15 - Remote file contents confirmed.
+2015/07/05 11:54:16 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/05 11:54:16 - Writing cluster private ip addresses to file on instance.
+2015/07/05 11:54:16 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/07/05 11:54:16 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/07/05 11:54:17 - Checking file contents.
+2015/07/05 11:54:17 - Remote file contents confirmed.
+2015/07/05 11:54:17 - Running envgen
+2015/07/05 11:54:18 - Reading the config file.
+2015/07/05 11:54:18 - Retrieving IP address of ESP Server.
+2015/07/05 11:54:18 - ESP Server private IP address: 172.31.46.142.
+2015/07/05 11:54:18 - ESP Server public IP address: 52.10.35.22.
+2015/07/05 11:54:18 - Attaching storage devices to the Landing Zone: snap-eb0a33ba
+2015/07/05 11:54:19 - Waiting for volumes to become available.
+2015/07/05 11:54:24 - Waiting for volumes to become available.
+2015/07/05 11:54:30 - Connecting via SSH.
+2015/07/05 11:54:31 - Waiting for EC2 instance to see storage device.
+2015/07/05 11:54:46 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-eb0a33ba/.
+2015/07/05 11:54:46 - 52.10.35.22:     Starting node configuration.
+2015/07/05 11:54:46 - 52.10.35.22:     Connecting via SSH.
+2015/07/05 11:54:48 - 52.10.35.22:     Checking software installation completed.
+2015/07/05 11:54:48 - 52.10.35.22:     Software installation finished.
+2015/07/05 11:54:48 - 52.10.35.22:     Sending /home/ubuntu/node_health_script via SFTP.
+2015/07/05 11:54:48 - 52.10.35.22:     Checking file contents.
+2015/07/05 11:54:49 - 52.10.35.22:     Remote file contents confirmed.
+2015/07/05 11:54:49 - 52.10.35.22:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/07/05 11:54:49 - 52.10.35.22:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/07/05 11:54:50 - 52.10.35.22:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/07/05 11:54:50 - 52.10.35.22:     Checking file contents.
+2015/07/05 11:54:50 - 52.10.35.22:     Remote file contents confirmed.
+2015/07/05 11:54:50 - 52.10.35.22:     Starting HPCC Platform Community Edition: 5.2.0-1.
+2015/07/05 11:55:08 - 52.10.35.22:     Starting mydafilesrv....       [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting mydali....            [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting mydfuserver....       [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting myeclagent....        [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting myeclccserver....     [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting myeclscheduler....    [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting myesp....             [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting mysasha....           [  OK  ]   
+2015/07/05 11:55:08 - 52.10.35.22:     Starting mythor....            [  OK  ]  
+2015/07/05 11:55:08 - 52.10.35.22:     Start node is complete.
+2015/07/05 11:55:08 - Done.
+2015/07/05 14:00:39 - Terminating cluster.
+2015/07/05 14:00:39 - Connecting to AWS region us-west-2.
+2015/07/05 14:00:39 - Gathering instances for Hpcc-HNU2.
+2015/07/05 14:00:39 - Terminating instances.
+2015/07/05 14:00:39 - Deleting Access Key Hpcc-HNU2.
+2015/07/05 14:00:39 - Deleting Security group Hpcc-HNU2.
+2015/07/05 14:00:40 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-25b24841 has a dependent object
+                      requestId: 62ed2f0d-0e6b-4723-83bd-7a9ec823afa1

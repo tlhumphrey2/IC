@@ -1,0 +1,95 @@
+2012/03/14 15:22:04 - Connecting to AWS region us-west-2.
+2012/03/14 15:22:04 - Checking storage IDs exist in region us-west-2: snap-92711bfa
+2012/03/14 15:22:04 - Calculating new unique cluster name for request 204.
+2012/03/14 15:22:05 - Creating new cluster name, Thor-K3RY.
+2012/03/14 15:22:05 - Creating Thor-K3RY security group.
+2012/03/14 15:22:09 - Creating Thor-K3RY key pair.
+2012/03/14 15:22:10 - Launching 1 m1.large nodes using ami-8e2ca1be.
+2012/03/14 15:22:11 - Reservation ID r-d66536e6 created.
+2012/03/14 15:22:11 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:17 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:22 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:27 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:32 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:38 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:43 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:48 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:54 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:22:59 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:23:04 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:23:09 - Waiting for 1 of 1 nodes to launch.
+2012/03/14 15:23:15 - Pending instances have completed.
+2012/03/14 15:23:15 - Checking each node launched properly.
+2012/03/14 15:23:15 - 50.112.57.118:   Checking EC2 instance i-22227812.
+2012/03/14 15:23:15 - 50.112.57.118:   Checking EC2 instance is running.
+2012/03/14 15:23:15 - 50.112.57.118:   Connecting via SSH.
+2012/03/14 15:23:17 - 50.112.57.118:   Checking software installation completed.
+2012/03/14 15:23:17 - 50.112.57.118:   Software installation finished.
+2012/03/14 15:23:17 - 50.112.57.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 15:23:17 - 50.112.57.118:   Checking file contents.
+2012/03/14 15:23:18 - 50.112.57.118:   Remote file contents confirmed.
+2012/03/14 15:23:19 - 50.112.57.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 15:23:19 - 50.112.57.118:   Completed check of node 50.112.57.118.
+2012/03/14 15:23:19 - Determining availability zone.
+2012/03/14 15:23:19 - Gathering public and private ip addresses.
+2012/03/14 15:23:19 - Connecting to node 50.112.57.118 for cluster configuration.
+2012/03/14 15:23:19 - Connecting via SSH.
+2012/03/14 15:23:20 - Checking software installation completed.
+2012/03/14 15:23:20 - Software installation finished.
+2012/03/14 15:23:20 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 15:23:21 - Checking file contents.
+2012/03/14 15:23:21 - Remote file contents confirmed.
+2012/03/14 15:23:22 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 15:23:22 - Writing cluster private ip addresses to file on instance.
+2012/03/14 15:23:22 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/14 15:23:23 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/14 15:23:23 - Checking file contents.
+2012/03/14 15:23:23 - Remote file contents confirmed.
+2012/03/14 15:23:23 - Running envgen
+2012/03/14 15:23:24 - Reading the config file.
+2012/03/14 15:23:25 - Retrieving IP address of ESP Server.
+2012/03/14 15:23:25 - ESP Server private IP address: 10.252.11.166.
+2012/03/14 15:23:25 - ESP Server public IP address: 50.112.57.118.
+2012/03/14 15:23:25 - Attaching storage devices to the Landing Zone: snap-92711bfa
+2012/03/14 15:23:27 - Connecting via SSH.
+2012/03/14 15:23:29 - Waiting for EC2 instance to see storage device.
+2012/03/14 15:23:35 - /dev/xvdf is mounted to /mnt/dropzone/snap-92711bfa/.
+2012/03/14 15:23:35 - 50.112.57.118:   Starting node configuration.
+2012/03/14 15:23:35 - 50.112.57.118:   Connecting via SSH.
+2012/03/14 15:23:37 - 50.112.57.118:   Checking software installation completed.
+2012/03/14 15:23:37 - 50.112.57.118:   Software installation finished.
+2012/03/14 15:23:37 - 50.112.57.118:   Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/14 15:23:38 - 50.112.57.118:   Checking file contents.
+2012/03/14 15:23:38 - 50.112.57.118:   Remote file contents confirmed.
+2012/03/14 15:23:39 - 50.112.57.118:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/14 15:23:39 - 50.112.57.118:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/14 15:23:40 - 50.112.57.118:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/14 15:23:40 - 50.112.57.118:   Checking file contents.
+2012/03/14 15:23:41 - 50.112.57.118:   Remote file contents confirmed.
+2012/03/14 15:23:41 - 50.112.57.118:   Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/14 15:24:07 - 50.112.57.118:   Starting mydafilesrv....       [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting mydali....            [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting mydfuserver....       [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting myeclagent....        [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting myeclccserver....     [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting myeclscheduler....    [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting myesp....             [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting mysasha....           [  OK  ]   
+2012/03/14 15:24:07 - 50.112.57.118:   Starting mythor....            [  OK  ]  
+2012/03/14 15:24:07 - 50.112.57.118:   Start node is complete.
+2012/03/14 15:24:07 - Done.
+2012/03/14 15:27:05 - Terminating cluster.
+2012/03/14 15:27:05 - Connecting to AWS region us-west-2.
+2012/03/14 15:27:05 - Gathering instances for Thor-K3RY.
+2012/03/14 15:27:05 - Terminating instances.
+2012/03/14 15:27:06 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:11 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:17 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:22 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:27 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:32 - Waiting for 1 instances to terminate.
+2012/03/14 15:27:38 - Deleting attached EBS volumes.
+2012/03/14 15:27:38 - Deleting volume vol-6d302c06
+2012/03/14 15:27:38 - Deleting Access Key Thor-K3RY.
+2012/03/14 15:27:39 - Deleting Security group Thor-K3RY.
+2012/03/14 15:27:39 - Done.

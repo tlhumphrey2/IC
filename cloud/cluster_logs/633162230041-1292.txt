@@ -1,0 +1,104 @@
+2017/03/13 14:02:52 - Connecting to AWS region ap-northeast-1.
+2017/03/13 14:02:52 - Calculating new unique cluster name for request 1292.
+2017/03/13 14:02:53 - Creating new cluster name, Hpcc-VHPR.
+2017/03/13 14:02:53 - Creating Hpcc-VHPR security group.
+2017/03/13 14:02:57 - Creating Hpcc-VHPR key pair.
+2017/03/13 14:02:58 - Launching 1 m1.large nodes using ami-e1500386.
+2017/03/13 14:03:01 - Reservation ID r-048f242ac6ef889a4 created.
+2017/03/13 14:03:01 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:06 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:12 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:17 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:22 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:28 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:33 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:38 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:43 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:49 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:54 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:03:59 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:05 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:10 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:15 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:20 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:26 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:32 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:37 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:42 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:48 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:53 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:04:58 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:05:04 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:05:09 - Waiting for 1 of 1 nodes to launch.
+2017/03/13 14:05:14 - Pending instances have completed.
+2017/03/13 14:05:14 - Checking each node launched properly.
+2017/03/13 14:05:14 - 54.150.210.173:  Checking EC2 instance i-04a8c6146d8d27cb0.
+2017/03/13 14:05:15 - 54.150.210.173:  Checking EC2 instance is running.
+2017/03/13 14:05:15 - 54.150.210.173:  Connecting via SSH.
+2017/03/13 14:05:22 - 54.150.210.173:  Waiting on SSH connection.
+2017/03/13 14:05:33 - 54.150.210.173:  Checking software installation completed.
+2017/03/13 14:05:34 - 54.150.210.173:  Software installation finished.
+2017/03/13 14:05:34 - 54.150.210.173:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/13 14:05:34 - 54.150.210.173:  Checking file contents.
+2017/03/13 14:05:35 - 54.150.210.173:  Remote file contents confirmed.
+2017/03/13 14:05:36 - 54.150.210.173:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/13 14:05:36 - 54.150.210.173:  Completed check of node 54.150.210.173.
+2017/03/13 14:05:36 - Determining availability zone.
+2017/03/13 14:05:36 - Gathering public and private ip addresses.
+2017/03/13 14:05:36 - Connecting to node 54.150.210.173 for cluster configuration.
+2017/03/13 14:05:36 - Connecting via SSH.
+2017/03/13 14:05:38 - Checking software installation completed.
+2017/03/13 14:05:39 - Software installation finished.
+2017/03/13 14:05:39 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/13 14:05:39 - Checking file contents.
+2017/03/13 14:05:40 - Remote file contents confirmed.
+2017/03/13 14:05:41 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/13 14:05:41 - Writing cluster private ip addresses to file on instance.
+2017/03/13 14:05:41 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/03/13 14:05:42 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/03/13 14:05:43 - Checking file contents.
+2017/03/13 14:05:43 - Remote file contents confirmed.
+2017/03/13 14:05:43 - Running envgen
+2017/03/13 14:05:44 - Reading the config file.
+2017/03/13 14:05:45 - Retrieving IP address of ESP Server.
+2017/03/13 14:05:45 - ESP Server private IP address: 10.185.130.165.
+2017/03/13 14:05:45 - ESP Server public IP address: 54.150.210.173.
+2017/03/13 14:05:45 - 54.150.210.173:  Starting node configuration.
+2017/03/13 14:05:45 - 54.150.210.173:  Connecting via SSH.
+2017/03/13 14:05:47 - 54.150.210.173:  Checking software installation completed.
+2017/03/13 14:05:48 - 54.150.210.173:  Software installation finished.
+2017/03/13 14:05:48 - 54.150.210.173:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/03/13 14:05:49 - 54.150.210.173:  Checking file contents.
+2017/03/13 14:05:49 - 54.150.210.173:  Remote file contents confirmed.
+2017/03/13 14:05:50 - 54.150.210.173:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/03/13 14:05:50 - 54.150.210.173:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/03/13 14:05:52 - 54.150.210.173:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/03/13 14:05:52 - 54.150.210.173:  Checking file contents.
+2017/03/13 14:05:53 - 54.150.210.173:  Remote file contents confirmed.
+2017/03/13 14:05:53 - 54.150.210.173:  Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/03/13 14:06:09 - 54.150.210.173:  Starting mydafilesrv ...       [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting mydali ...            [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting mydfuserver ...       [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting myeclagent ...        [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting myeclccserver ...     [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting myeclscheduler ...    [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting myesp ...             [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting mysasha ...           [   OK    ]   
+2017/03/13 14:06:09 - 54.150.210.173:  Starting mythor ...            [   OK    ]  
+2017/03/13 14:06:09 - 54.150.210.173:  Start node is complete.
+2017/03/13 14:06:09 - Done.
+2017/03/13 14:08:51 - Terminating cluster.
+2017/03/13 14:08:51 - Connecting to AWS region ap-northeast-1.
+2017/03/13 14:08:51 - Gathering instances for Hpcc-VHPR.
+2017/03/13 14:08:52 - Terminating instances.
+2017/03/13 14:08:53 - Waiting for 1 instances to terminate.
+2017/03/13 14:08:58 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:04 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:09 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:15 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:20 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:25 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:31 - Waiting for 1 instances to terminate.
+2017/03/13 14:09:36 - Deleting Access Key Hpcc-VHPR.
+2017/03/13 14:09:36 - Deleting Security group Hpcc-VHPR.
+2017/03/13 14:09:37 - Done.

@@ -1,0 +1,89 @@
+2018/08/08 09:51:06 - Connecting to AWS region us-west-2.
+2018/08/08 09:51:06 - Calculating new unique cluster name for request 1500.
+2018/08/08 09:51:07 - Creating new cluster name, Hpcc-9G52.
+2018/08/08 09:51:07 - Creating Hpcc-9G52 security group.
+2018/08/08 09:51:11 - Creating Hpcc-9G52 key pair.
+2018/08/08 09:51:11 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/08 09:51:12 - Reservation ID r-0b1d7fbbe83350d3c created.
+2018/08/08 09:51:12 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:18 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:23 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:28 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:33 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:38 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:43 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:48 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:53 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:51:59 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 09:52:04 - Pending instances have completed.
+2018/08/08 09:52:04 - Checking each node launched properly.
+2018/08/08 09:52:04 - 34.217.132.229:  Checking EC2 instance i-0bf76e302785e4662.
+2018/08/08 09:52:04 - 34.217.132.229:  Checking EC2 instance is running.
+2018/08/08 09:52:04 - 34.217.132.229:  Connecting via SSH.
+2018/08/08 09:52:11 - 34.217.132.229:  Waiting on SSH connection.
+2018/08/08 09:52:22 - 34.217.132.229:  Checking software installation completed.
+2018/08/08 09:52:23 - 34.217.132.229:  Software installation finished.
+2018/08/08 09:52:23 - 34.217.132.229:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:52:23 - 34.217.132.229:  Checking file contents.
+2018/08/08 09:52:24 - 34.217.132.229:  Remote file contents confirmed.
+2018/08/08 09:52:24 - 34.217.132.229:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:52:24 - 34.217.132.229:  tlh. Completed check of node 34.217.132.229.
+2018/08/08 09:52:24 - Determining availability zone.
+2018/08/08 09:52:24 - Gathering public and private ip addresses.
+2018/08/08 09:52:24 - Connecting to node 34.217.132.229 for cluster configuration.
+2018/08/08 09:52:24 - Connecting via SSH.
+2018/08/08 09:52:25 - Checking software installation completed.
+2018/08/08 09:52:26 - Software installation finished.
+2018/08/08 09:52:26 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:52:26 - Checking file contents.
+2018/08/08 09:52:26 - Remote file contents confirmed.
+2018/08/08 09:52:27 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:52:27 - Writing cluster private ip addresses to file on instance.
+2018/08/08 09:52:27 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/08 09:52:28 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/08 09:52:28 - Checking file contents.
+2018/08/08 09:52:28 - Remote file contents confirmed.
+2018/08/08 09:52:28 - Running envgen
+2018/08/08 09:52:29 - Reading the config file.
+2018/08/08 09:52:29 - Retrieving IP address of ESP Server.
+2018/08/08 09:52:29 - ESP Server private IP address: 172.31.25.98.
+2018/08/08 09:52:29 - ESP Server public IP address: 34.217.132.229.
+2018/08/08 09:52:30 - 34.217.132.229:  Starting node configuration.
+2018/08/08 09:52:30 - 34.217.132.229:  Connecting via SSH.
+2018/08/08 09:52:31 - 34.217.132.229:  Checking software installation completed.
+2018/08/08 09:52:31 - 34.217.132.229:  Software installation finished.
+2018/08/08 09:52:31 - 34.217.132.229:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 09:52:32 - 34.217.132.229:  Checking file contents.
+2018/08/08 09:52:32 - 34.217.132.229:  Remote file contents confirmed.
+2018/08/08 09:52:32 - 34.217.132.229:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 09:52:32 - 34.217.132.229:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/08 09:52:33 - 34.217.132.229:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/08 09:52:33 - 34.217.132.229:  Checking file contents.
+2018/08/08 09:52:34 - 34.217.132.229:  Remote file contents confirmed.
+2018/08/08 09:52:34 - 34.217.132.229:  Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/08 09:52:56 - 34.217.132.229:  Starting mydafilesrv ...       [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting mydali ...            [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting mydfuserver ...       [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting myeclagent ...        [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting myeclccserver ...     [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting myeclscheduler ...    [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting myesp ...             [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting mysasha ...           [   OK    ]   
+2018/08/08 09:52:56 - 34.217.132.229:  Starting mythor ...            [   OK    ]  
+2018/08/08 09:52:56 - 34.217.132.229:  Start node is complete.
+2018/08/08 09:52:56 - Done.
+2018/08/08 09:55:17 - Terminating cluster.
+2018/08/08 09:55:17 - Connecting to AWS region us-west-2.
+2018/08/08 09:55:17 - Gathering instances for Hpcc-9G52.
+2018/08/08 09:55:18 - Terminating instances.
+2018/08/08 09:55:18 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:23 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:28 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:34 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:39 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:44 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:49 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:54 - Waiting for 1 instances to terminate.
+2018/08/08 09:55:59 - Deleting Access Key Hpcc-9G52.
+2018/08/08 09:56:00 - Deleting Security group Hpcc-9G52.
+2018/08/08 09:56:00 - Done.

@@ -1,0 +1,74 @@
+2018/08/08 10:34:45 - Connecting to AWS region us-west-2.
+2018/08/08 10:34:45 - Calculating new unique cluster name for request 1502.
+2018/08/08 10:34:46 - Creating new cluster name, Hpcc-2EM4.
+2018/08/08 10:34:46 - Creating Hpcc-2EM4 security group.
+2018/08/08 10:34:50 - Creating Hpcc-2EM4 key pair.
+2018/08/08 10:34:50 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/08 10:34:51 - Reservation ID r-0fae0895dc242790f created.
+2018/08/08 10:34:51 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:34:56 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:02 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:07 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:12 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:17 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:22 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:27 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:32 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:37 - Waiting for 1 of 1 nodes to launch.
+2018/08/08 10:35:43 - Pending instances have completed.
+2018/08/08 10:35:43 - Checking each node launched properly.
+2018/08/08 10:35:43 - 54.203.38.135:   Checking EC2 instance i-0cf7ffc5d2df060d8.
+2018/08/08 10:35:43 - 54.203.38.135:   Checking EC2 instance is running.
+2018/08/08 10:35:43 - 54.203.38.135:   Connecting via SSH.
+2018/08/08 10:35:50 - 54.203.38.135:   Waiting on SSH connection.
+2018/08/08 10:36:01 - 54.203.38.135:   Checking software installation completed.
+2018/08/08 10:36:02 - 54.203.38.135:   Software installation finished.
+2018/08/08 10:36:02 - 54.203.38.135:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:36:02 - 54.203.38.135:   Checking file contents.
+2018/08/08 10:36:02 - 54.203.38.135:   Remote file contents confirmed.
+2018/08/08 10:36:03 - 54.203.38.135:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:36:03 - 54.203.38.135:   tlh. Completed check of node 54.203.38.135.
+2018/08/08 10:36:03 - Determining availability zone.
+2018/08/08 10:36:03 - Gathering public and private ip addresses.
+2018/08/08 10:36:03 - Connecting to node 54.203.38.135 for cluster configuration.
+2018/08/08 10:36:03 - Connecting via SSH.
+2018/08/08 10:36:04 - Checking software installation completed.
+2018/08/08 10:36:05 - Software installation finished.
+2018/08/08 10:36:05 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:36:05 - Checking file contents.
+2018/08/08 10:36:05 - Remote file contents confirmed.
+2018/08/08 10:36:06 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:36:06 - Writing cluster private ip addresses to file on instance.
+2018/08/08 10:36:06 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/08 10:36:07 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/08 10:36:07 - Checking file contents.
+2018/08/08 10:36:07 - Remote file contents confirmed.
+2018/08/08 10:36:07 - Running envgen
+2018/08/08 10:36:08 - Reading the config file.
+2018/08/08 10:36:08 - Retrieving IP address of ESP Server.
+2018/08/08 10:36:08 - ESP Server private IP address: 10.18.25.188.
+2018/08/08 10:36:08 - ESP Server public IP address: 54.203.38.135.
+2018/08/08 10:36:08 - 54.203.38.135:   Starting node configuration.
+2018/08/08 10:36:08 - 54.203.38.135:   Connecting via SSH.
+2018/08/08 10:36:10 - 54.203.38.135:   Checking software installation completed.
+2018/08/08 10:36:10 - 54.203.38.135:   Software installation finished.
+2018/08/08 10:36:10 - 54.203.38.135:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/08 10:36:11 - 54.203.38.135:   Checking file contents.
+2018/08/08 10:36:11 - 54.203.38.135:   Remote file contents confirmed.
+2018/08/08 10:36:12 - 54.203.38.135:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/08 10:36:12 - 54.203.38.135:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/08 10:36:13 - 54.203.38.135:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/08 10:36:13 - 54.203.38.135:   Checking file contents.
+2018/08/08 10:36:13 - 54.203.38.135:   Remote file contents confirmed.
+2018/08/08 10:36:13 - 54.203.38.135:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/08 10:36:34 - 54.203.38.135:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting mydali ...            [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting mydfuserver ...       [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting myeclagent ...        [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting myeclccserver ...     [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting myesp ...             [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting mysasha ...           [   OK    ]   
+2018/08/08 10:36:34 - 54.203.38.135:   Starting mythor ...            [   OK    ]  
+2018/08/08 10:36:34 - 54.203.38.135:   Start node is complete.
+2018/08/08 10:36:34 - Done.

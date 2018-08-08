@@ -1,0 +1,104 @@
+2017/10/17 07:50:02 - Connecting to AWS region eu-central-1.
+2017/10/17 07:50:02 - Calculating new unique cluster name for request 1324.
+2017/10/17 07:50:03 - Creating new cluster name, Hpcc-ZU6H.
+2017/10/17 07:50:03 - Creating Hpcc-ZU6H security group.
+2017/10/17 07:50:05 - Creating Hpcc-ZU6H key pair.
+2017/10/17 07:50:06 - Launching 1 m3.large nodes using ami-fe6ad991.
+2017/10/17 07:50:06 - Reservation ID r-0e117187536d1e826 created.
+2017/10/17 07:50:06 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:12 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:17 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:22 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:27 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:32 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:37 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:42 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:48 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:53 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:50:58 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:03 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:08 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:13 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:18 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:23 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:29 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:34 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:39 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:44 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:49 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:54 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:51:59 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:52:04 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:52:10 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:52:15 - Waiting for 1 of 1 nodes to launch.
+2017/10/17 07:52:20 - Pending instances have completed.
+2017/10/17 07:52:20 - Checking each node launched properly.
+2017/10/17 07:52:20 - 18.194.106.70:   Checking EC2 instance i-00cc60b75fdd38ebd.
+2017/10/17 07:52:20 - 18.194.106.70:   Checking EC2 instance is running.
+2017/10/17 07:52:20 - 18.194.106.70:   Connecting via SSH.
+2017/10/17 07:52:23 - 18.194.106.70:   Waiting on SSH connection.
+2017/10/17 07:52:32 - 18.194.106.70:   Checking software installation completed.
+2017/10/17 07:52:32 - 18.194.106.70:   Software installation finished.
+2017/10/17 07:52:32 - 18.194.106.70:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/10/17 07:52:33 - 18.194.106.70:   Checking file contents.
+2017/10/17 07:52:33 - 18.194.106.70:   Remote file contents confirmed.
+2017/10/17 07:52:34 - 18.194.106.70:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/10/17 07:52:34 - 18.194.106.70:   Completed check of node 18.194.106.70.
+2017/10/17 07:52:34 - Determining availability zone.
+2017/10/17 07:52:34 - Gathering public and private ip addresses.
+2017/10/17 07:52:34 - Connecting to node 18.194.106.70 for cluster configuration.
+2017/10/17 07:52:34 - Connecting via SSH.
+2017/10/17 07:52:35 - Checking software installation completed.
+2017/10/17 07:52:35 - Software installation finished.
+2017/10/17 07:52:35 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/10/17 07:52:36 - Checking file contents.
+2017/10/17 07:52:36 - Remote file contents confirmed.
+2017/10/17 07:52:37 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/10/17 07:52:37 - Writing cluster private ip addresses to file on instance.
+2017/10/17 07:52:37 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/10/17 07:52:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/10/17 07:52:38 - Checking file contents.
+2017/10/17 07:52:38 - Remote file contents confirmed.
+2017/10/17 07:52:38 - Running envgen
+2017/10/17 07:52:39 - Reading the config file.
+2017/10/17 07:52:39 - Retrieving IP address of ESP Server.
+2017/10/17 07:52:39 - ESP Server private IP address: 172.31.18.253.
+2017/10/17 07:52:39 - ESP Server public IP address: 18.194.106.70.
+2017/10/17 07:52:40 - 18.194.106.70:   Starting node configuration.
+2017/10/17 07:52:40 - 18.194.106.70:   Connecting via SSH.
+2017/10/17 07:52:41 - 18.194.106.70:   Checking software installation completed.
+2017/10/17 07:52:41 - 18.194.106.70:   Software installation finished.
+2017/10/17 07:52:41 - 18.194.106.70:   Sending /home/ubuntu/node_health_script via SFTP.
+2017/10/17 07:52:42 - 18.194.106.70:   Checking file contents.
+2017/10/17 07:52:42 - 18.194.106.70:   Remote file contents confirmed.
+2017/10/17 07:52:43 - 18.194.106.70:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/10/17 07:52:43 - 18.194.106.70:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/10/17 07:52:44 - 18.194.106.70:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/10/17 07:52:44 - 18.194.106.70:   Checking file contents.
+2017/10/17 07:52:44 - 18.194.106.70:   Remote file contents confirmed.
+2017/10/17 07:52:44 - 18.194.106.70:   Starting HPCC Platform Community Edition: 6.4.2-1.
+2017/10/17 07:53:14 - 18.194.106.70:   Starting mydafilesrv ...       [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting mydali ...            [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting mydfuserver ...       [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting myeclagent ...        [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting myeclccserver ...     [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting myeclscheduler ...    [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting myesp ...             [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting mysasha ...           [   OK    ]   
+2017/10/17 07:53:14 - 18.194.106.70:   Starting mythor ...            [   OK    ]  
+2017/10/17 07:53:14 - 18.194.106.70:   Start node is complete.
+2017/10/17 07:53:14 - Done.
+2017/10/19 09:05:13 - Terminating cluster.
+2017/10/19 09:05:13 - Connecting to AWS region eu-central-1.
+2017/10/19 09:05:13 - Gathering instances for Hpcc-ZU6H.
+2017/10/19 09:05:13 - Terminating instances.
+2017/10/19 09:05:13 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:19 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:24 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:29 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:34 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:39 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:44 - Waiting for 1 instances to terminate.
+2017/10/19 09:05:49 - Deleting Access Key Hpcc-ZU6H.
+2017/10/19 09:05:50 - Deleting Security group Hpcc-ZU6H.
+2017/10/19 09:05:50 - Done.

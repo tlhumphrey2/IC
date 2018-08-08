@@ -1,0 +1,93 @@
+2012/09/11 08:08:25 - Connecting to AWS region us-west-2.
+2012/09/11 08:08:25 - Calculating new unique cluster name for request 317.
+2012/09/11 08:08:26 - Creating new cluster name, Hpcc-SNJM.
+2012/09/11 08:08:26 - Creating Hpcc-SNJM security group.
+2012/09/11 08:08:29 - Creating Hpcc-SNJM key pair.
+2012/09/11 08:08:30 - Launching 1 m1.large nodes using ami-bcd4588c.
+2012/09/11 08:08:31 - Reservation ID r-7b911c48 created.
+2012/09/11 08:08:31 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:08:36 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:08:42 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:08:47 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:08:52 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:08:57 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:03 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:08 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:13 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:18 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:24 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:29 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:34 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:40 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:45 - Waiting for 1 of 1 nodes to launch.
+2012/09/11 08:09:50 - Pending instances have completed.
+2012/09/11 08:09:50 - Checking each node launched properly.
+2012/09/11 08:09:50 - 54.245.31.82:    Checking EC2 instance i-1929412a.
+2012/09/11 08:09:50 - 54.245.31.82:    Checking EC2 instance is running.
+2012/09/11 08:09:50 - 54.245.31.82:    Connecting via SSH.
+2012/09/11 08:09:52 - 54.245.31.82:    Waiting on SSH connection.
+2012/09/11 08:09:58 - 54.245.31.82:    Checking software installation completed.
+2012/09/11 08:09:58 - 54.245.31.82:    Software installation finished.
+2012/09/11 08:09:58 - 54.245.31.82:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/11 08:09:59 - 54.245.31.82:    Checking file contents.
+2012/09/11 08:09:59 - 54.245.31.82:    Remote file contents confirmed.
+2012/09/11 08:10:00 - 54.245.31.82:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/11 08:10:00 - 54.245.31.82:    Completed check of node 54.245.31.82.
+2012/09/11 08:10:00 - Determining availability zone.
+2012/09/11 08:10:00 - Gathering public and private ip addresses.
+2012/09/11 08:10:00 - Connecting to node 54.245.31.82 for cluster configuration.
+2012/09/11 08:10:00 - Connecting via SSH.
+2012/09/11 08:10:02 - Checking software installation completed.
+2012/09/11 08:10:02 - Software installation finished.
+2012/09/11 08:10:02 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/11 08:10:02 - Checking file contents.
+2012/09/11 08:10:03 - Remote file contents confirmed.
+2012/09/11 08:10:04 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/11 08:10:04 - Writing cluster private ip addresses to file on instance.
+2012/09/11 08:10:04 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/09/11 08:10:04 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/09/11 08:10:05 - Checking file contents.
+2012/09/11 08:10:05 - Remote file contents confirmed.
+2012/09/11 08:10:05 - Running envgen
+2012/09/11 08:10:06 - Reading the config file.
+2012/09/11 08:10:06 - Retrieving IP address of ESP Server.
+2012/09/11 08:10:07 - ESP Server private IP address: 10.252.41.83.
+2012/09/11 08:10:07 - ESP Server public IP address: 54.245.31.82.
+2012/09/11 08:10:07 - 54.245.31.82:    Starting node configuration.
+2012/09/11 08:10:07 - 54.245.31.82:    Connecting via SSH.
+2012/09/11 08:10:08 - 54.245.31.82:    Checking software installation completed.
+2012/09/11 08:10:09 - 54.245.31.82:    Software installation finished.
+2012/09/11 08:10:09 - 54.245.31.82:    Sending /home/ubuntu/node_health_script via SFTP.
+2012/09/11 08:10:09 - 54.245.31.82:    Checking file contents.
+2012/09/11 08:10:10 - 54.245.31.82:    Remote file contents confirmed.
+2012/09/11 08:10:10 - 54.245.31.82:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/09/11 08:10:10 - 54.245.31.82:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/09/11 08:10:11 - 54.245.31.82:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/09/11 08:10:12 - 54.245.31.82:    Checking file contents.
+2012/09/11 08:10:12 - 54.245.31.82:    Remote file contents confirmed.
+2012/09/11 08:10:12 - 54.245.31.82:    Starting HPCC Platform Community Edition: 3.6.0-1.
+2012/09/11 08:10:38 - 54.245.31.82:    Starting mydafilesrv....       [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting mydali....            [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting mydfuserver....       [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting myeclagent....        [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting myeclccserver....     [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting myeclscheduler....    [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting myesp....             [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting mysasha....           [  OK  ]   
+2012/09/11 08:10:38 - 54.245.31.82:    Starting mythor....            [  OK  ]  
+2012/09/11 08:10:38 - 54.245.31.82:    Start node is complete.
+2012/09/11 08:10:38 - Done.
+2012/09/11 08:23:07 - Terminating cluster.
+2012/09/11 08:23:07 - Connecting to AWS region us-west-2.
+2012/09/11 08:23:07 - Gathering instances for Hpcc-SNJM.
+2012/09/11 08:23:08 - Terminating instances.
+2012/09/11 08:23:08 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:14 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:19 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:24 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:30 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:35 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:40 - Waiting for 1 instances to terminate.
+2012/09/11 08:23:45 - Deleting Access Key Hpcc-SNJM.
+2012/09/11 08:23:46 - Deleting Security group Hpcc-SNJM.
+2012/09/11 08:23:46 - Done.

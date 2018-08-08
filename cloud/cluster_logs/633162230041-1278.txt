@@ -1,0 +1,97 @@
+2017/02/01 11:07:16 - Connecting to AWS region ap-southeast-2.
+2017/02/01 11:07:16 - Calculating new unique cluster name for request 1278.
+2017/02/01 11:07:17 - Creating new cluster name, Hpcc-PNB9.
+2017/02/01 11:07:17 - Creating Hpcc-PNB9 security group.
+2017/02/01 11:07:22 - Creating Hpcc-PNB9 key pair.
+2017/02/01 11:07:22 - Launching 1 m1.large nodes using ami-43434520.
+2017/02/01 11:07:23 - Reservation ID r-0b1867c397e2c0c57 created.
+2017/02/01 11:07:23 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:28 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:34 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:39 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:44 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:49 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:07:55 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:00 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:05 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:11 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:16 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:21 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:26 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:32 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:37 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:42 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:47 - Waiting for 1 of 1 nodes to launch.
+2017/02/01 11:08:53 - Pending instances have completed.
+2017/02/01 11:08:53 - Checking each node launched properly.
+2017/02/01 11:08:53 - 54.253.232.183:  Checking EC2 instance i-083508ec17d381690.
+2017/02/01 11:08:53 - 54.253.232.183:  Checking EC2 instance is running.
+2017/02/01 11:08:53 - 54.253.232.183:  Connecting via SSH.
+2017/02/01 11:08:57 - 54.253.232.183:  Waiting on SSH connection.
+2017/02/01 11:09:11 - 54.253.232.183:  Checking software installation completed.
+2017/02/01 11:09:11 - 54.253.232.183:  Software installation finished.
+2017/02/01 11:09:11 - 54.253.232.183:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 11:09:13 - 54.253.232.183:  Checking file contents.
+2017/02/01 11:09:13 - 54.253.232.183:  Remote file contents confirmed.
+2017/02/01 11:09:15 - 54.253.232.183:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 11:09:15 - 54.253.232.183:  Completed check of node 54.253.232.183.
+2017/02/01 11:09:15 - Determining availability zone.
+2017/02/01 11:09:15 - Gathering public and private ip addresses.
+2017/02/01 11:09:15 - Connecting to node 54.253.232.183 for cluster configuration.
+2017/02/01 11:09:15 - Connecting via SSH.
+2017/02/01 11:09:17 - Checking software installation completed.
+2017/02/01 11:09:18 - Software installation finished.
+2017/02/01 11:09:18 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 11:09:19 - Checking file contents.
+2017/02/01 11:09:20 - Remote file contents confirmed.
+2017/02/01 11:09:21 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 11:09:21 - Writing cluster private ip addresses to file on instance.
+2017/02/01 11:09:21 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/02/01 11:09:23 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/02/01 11:09:24 - Checking file contents.
+2017/02/01 11:09:24 - Remote file contents confirmed.
+2017/02/01 11:09:24 - Running envgen
+2017/02/01 11:09:25 - Reading the config file.
+2017/02/01 11:09:27 - Retrieving IP address of ESP Server.
+2017/02/01 11:09:27 - ESP Server private IP address: 10.249.5.180.
+2017/02/01 11:09:27 - ESP Server public IP address: 54.253.232.183.
+2017/02/01 11:09:27 - 54.253.232.183:  Starting node configuration.
+2017/02/01 11:09:27 - 54.253.232.183:  Connecting via SSH.
+2017/02/01 11:09:30 - 54.253.232.183:  Checking software installation completed.
+2017/02/01 11:09:30 - 54.253.232.183:  Software installation finished.
+2017/02/01 11:09:30 - 54.253.232.183:  Sending /home/ubuntu/node_health_script via SFTP.
+2017/02/01 11:09:32 - 54.253.232.183:  Checking file contents.
+2017/02/01 11:09:32 - 54.253.232.183:  Remote file contents confirmed.
+2017/02/01 11:09:34 - 54.253.232.183:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/02/01 11:09:34 - 54.253.232.183:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/02/01 11:09:36 - 54.253.232.183:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/02/01 11:09:37 - 54.253.232.183:  Checking file contents.
+2017/02/01 11:09:38 - 54.253.232.183:  Remote file contents confirmed.
+2017/02/01 11:09:38 - 54.253.232.183:  Starting HPCC Platform Community Edition: 6.2.4-1.
+2017/02/01 11:09:58 - 54.253.232.183:  Starting mydafilesrv ...       [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting mydali ...            [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting mydfuserver ...       [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting myeclagent ...        [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting myeclccserver ...     [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting myeclscheduler ...    [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting myesp ...             [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting mysasha ...           [   OK    ]   
+2017/02/01 11:09:58 - 54.253.232.183:  Starting mythor ...            [   OK    ]  
+2017/02/01 11:09:58 - 54.253.232.183:  Start node is complete.
+2017/02/01 11:09:58 - Done.
+2017/02/01 11:12:57 - Terminating cluster.
+2017/02/01 11:12:57 - Connecting to AWS region ap-southeast-2.
+2017/02/01 11:12:57 - Gathering instances for Hpcc-PNB9.
+2017/02/01 11:12:58 - Terminating instances.
+2017/02/01 11:12:59 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:04 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:09 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:14 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:20 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:25 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:30 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:36 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:41 - Waiting for 1 instances to terminate.
+2017/02/01 11:13:46 - Deleting Access Key Hpcc-PNB9.
+2017/02/01 11:13:47 - Deleting Security group Hpcc-PNB9.
+2017/02/01 11:13:48 - Done.

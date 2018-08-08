@@ -1,0 +1,92 @@
+2014/07/13 15:08:03 - Connecting to AWS region us-east-1.
+2014/07/13 15:08:03 - Calculating new unique cluster name for request 850.
+2014/07/13 15:08:03 - Creating new cluster name, Hpcc-R7K9.
+2014/07/13 15:08:03 - Creating Hpcc-R7K9 security group.
+2014/07/13 15:08:05 - Creating Hpcc-R7K9 key pair.
+2014/07/13 15:08:06 - Launching 1 m1.large nodes using ami-738e911a.
+2014/07/13 15:08:07 - Reservation ID r-8b496af4 created.
+2014/07/13 15:08:07 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:12 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:17 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:22 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:27 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:33 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:38 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:43 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:48 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:53 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:08:58 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:03 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:08 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:13 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:18 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:23 - Waiting for 1 of 1 nodes to launch.
+2014/07/13 15:09:29 - Pending instances have completed.
+2014/07/13 15:09:29 - Checking each node launched properly.
+2014/07/13 15:09:29 - 23.23.39.244:    Checking EC2 instance i-cc86a3e7.
+2014/07/13 15:09:29 - 23.23.39.244:    Checking EC2 instance is running.
+2014/07/13 15:09:29 - 23.23.39.244:    Connecting via SSH.
+2014/07/13 15:09:29 - 23.23.39.244:    Waiting on SSH connection.
+2014/07/13 15:09:40 - 23.23.39.244:    Checking software installation completed.
+2014/07/13 15:09:40 - 23.23.39.244:    Software installation finished.
+2014/07/13 15:09:40 - 23.23.39.244:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/13 15:09:40 - 23.23.39.244:    Checking file contents.
+2014/07/13 15:09:40 - 23.23.39.244:    Remote file contents confirmed.
+2014/07/13 15:09:41 - 23.23.39.244:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/13 15:09:41 - 23.23.39.244:    Completed check of node 23.23.39.244.
+2014/07/13 15:09:41 - Determining availability zone.
+2014/07/13 15:09:41 - Gathering public and private ip addresses.
+2014/07/13 15:09:41 - Connecting to node 23.23.39.244 for cluster configuration.
+2014/07/13 15:09:41 - Connecting via SSH.
+2014/07/13 15:09:41 - Checking software installation completed.
+2014/07/13 15:09:41 - Software installation finished.
+2014/07/13 15:09:41 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/13 15:09:41 - Checking file contents.
+2014/07/13 15:09:41 - Remote file contents confirmed.
+2014/07/13 15:09:42 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/13 15:09:42 - Writing cluster private ip addresses to file on instance.
+2014/07/13 15:09:42 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/07/13 15:09:42 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/07/13 15:09:42 - Checking file contents.
+2014/07/13 15:09:42 - Remote file contents confirmed.
+2014/07/13 15:09:42 - Running envgen
+2014/07/13 15:09:43 - Reading the config file.
+2014/07/13 15:09:43 - Retrieving IP address of ESP Server.
+2014/07/13 15:09:43 - ESP Server private IP address: 10.136.11.211.
+2014/07/13 15:09:43 - ESP Server public IP address: 23.23.39.244.
+2014/07/13 15:09:43 - 23.23.39.244:    Starting node configuration.
+2014/07/13 15:09:43 - 23.23.39.244:    Connecting via SSH.
+2014/07/13 15:09:44 - 23.23.39.244:    Checking software installation completed.
+2014/07/13 15:09:44 - 23.23.39.244:    Software installation finished.
+2014/07/13 15:09:44 - 23.23.39.244:    Sending /home/ubuntu/node_health_script via SFTP.
+2014/07/13 15:09:44 - 23.23.39.244:    Checking file contents.
+2014/07/13 15:09:44 - 23.23.39.244:    Remote file contents confirmed.
+2014/07/13 15:09:44 - 23.23.39.244:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/07/13 15:09:44 - 23.23.39.244:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/07/13 15:09:44 - 23.23.39.244:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/07/13 15:09:44 - 23.23.39.244:    Checking file contents.
+2014/07/13 15:09:44 - 23.23.39.244:    Remote file contents confirmed.
+2014/07/13 15:09:44 - 23.23.39.244:    Starting HPCC Platform Community Edition: 4.2.2-1.
+2014/07/13 15:10:01 - Terminating cluster.
+2014/07/13 15:10:01 - Connecting to AWS region us-east-1.
+2014/07/13 15:10:01 - Gathering instances for Hpcc-R7K9.
+2014/07/13 15:10:01 - Terminating instances.
+2014/07/13 15:10:02 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:02 - An exception occured.
+                      ClusterError
+2014/07/13 15:10:02 - 23.23.39.244:    Start node is complete.
+2014/07/13 15:10:02 - 
+2014/07/13 15:10:02 - Done.
+2014/07/13 15:10:07 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:12 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:17 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:22 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:28 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:33 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:38 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:43 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:48 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:53 - Waiting for 1 instances to terminate.
+2014/07/13 15:10:58 - Deleting Access Key Hpcc-R7K9.
+2014/07/13 15:10:58 - Deleting Security group Hpcc-R7K9.
+2014/07/13 15:10:59 - Done.

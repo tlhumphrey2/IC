@@ -1,0 +1,157 @@
+2015/03/26 18:01:14 - Connecting to AWS region us-west-2.
+2015/03/26 18:01:14 - Checking storage IDs exist in region us-west-2: snap-aab24cf5
+2015/03/26 18:01:14 - Calculating new unique cluster name for request 1038.
+2015/03/26 18:01:15 - Creating new cluster name, Hpcc-29ME.
+2015/03/26 18:01:15 - Creating Hpcc-29ME security group.
+2015/03/26 18:01:17 - Creating Hpcc-29ME key pair.
+2015/03/26 18:01:17 - Launching 3 m1.large nodes using ami-c1fdbff1.
+2015/03/26 18:01:18 - Reservation ID r-a427bfae created.
+2015/03/26 18:01:18 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:23 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:28 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:34 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:39 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:45 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:50 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:01:55 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:02:01 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:02:06 - Waiting for 3 of 3 nodes to launch.
+2015/03/26 18:02:12 - Waiting for 2 of 3 nodes to launch.
+2015/03/26 18:02:17 - Pending instances have completed.
+2015/03/26 18:02:17 - Checking each node launched properly.
+2015/03/26 18:02:17 - 54.202.31.76:    Checking EC2 instance i-85c86f88.
+2015/03/26 18:02:17 - 54.190.236.112:  Checking EC2 instance i-94c86f99.
+2015/03/26 18:02:17 - 54.245.163.4:    Checking EC2 instance i-97c86f9a.
+2015/03/26 18:02:17 - 54.202.31.76:    Checking EC2 instance is running.
+2015/03/26 18:02:17 - 54.202.31.76:    Connecting via SSH.
+2015/03/26 18:02:17 - 54.202.31.76:    Waiting on SSH connection.
+2015/03/26 18:02:17 - 54.190.236.112:  Checking EC2 instance is running.
+2015/03/26 18:02:17 - 54.190.236.112:  Connecting via SSH.
+2015/03/26 18:02:17 - 54.245.163.4:    Checking EC2 instance is running.
+2015/03/26 18:02:17 - 54.245.163.4:    Connecting via SSH.
+2015/03/26 18:02:19 - 54.190.236.112:  Checking software installation completed.
+2015/03/26 18:02:19 - 54.190.236.112:  Waiting for software to install.
+2015/03/26 18:02:24 - 54.245.163.4:    Waiting on SSH connection.
+2015/03/26 18:02:29 - 54.202.31.76:    Checking software installation completed.
+2015/03/26 18:02:29 - 54.202.31.76:    Software installation finished.
+2015/03/26 18:02:29 - 54.202.31.76:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:02:29 - 54.190.236.112:  Software installation finished.
+2015/03/26 18:02:29 - 54.190.236.112:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:02:30 - 54.202.31.76:    Checking file contents.
+2015/03/26 18:02:30 - 54.190.236.112:  Checking file contents.
+2015/03/26 18:02:30 - 54.202.31.76:    Remote file contents confirmed.
+2015/03/26 18:02:30 - 54.190.236.112:  Remote file contents confirmed.
+2015/03/26 18:02:31 - 54.202.31.76:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:02:31 - 54.202.31.76:    Completed check of node 54.202.31.76.
+2015/03/26 18:02:31 - 54.190.236.112:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:02:31 - 54.190.236.112:  Completed check of node 54.190.236.112.
+2015/03/26 18:02:31 - 54.245.163.4:    Checking software installation completed.
+2015/03/26 18:02:31 - 54.245.163.4:    Waiting for software to install.
+2015/03/26 18:02:42 - 54.245.163.4:    Software installation finished.
+2015/03/26 18:02:42 - 54.245.163.4:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:02:42 - 54.245.163.4:    Checking file contents.
+2015/03/26 18:02:42 - 54.245.163.4:    Remote file contents confirmed.
+2015/03/26 18:02:43 - 54.245.163.4:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:02:43 - 54.245.163.4:    Completed check of node 54.245.163.4.
+2015/03/26 18:02:43 - Determining availability zone.
+2015/03/26 18:02:43 - Gathering public and private ip addresses.
+2015/03/26 18:02:43 - Connecting to node 54.202.31.76 for cluster configuration.
+2015/03/26 18:02:43 - Connecting via SSH.
+2015/03/26 18:02:44 - Checking software installation completed.
+2015/03/26 18:02:45 - Software installation finished.
+2015/03/26 18:02:45 - Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:02:45 - Checking file contents.
+2015/03/26 18:02:45 - Remote file contents confirmed.
+2015/03/26 18:02:46 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:02:46 - Writing cluster private ip addresses to file on instance.
+2015/03/26 18:02:46 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2015/03/26 18:02:47 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2015/03/26 18:02:47 - Checking file contents.
+2015/03/26 18:02:47 - Remote file contents confirmed.
+2015/03/26 18:02:47 - Running envgen
+2015/03/26 18:02:48 - Reading the config file.
+2015/03/26 18:02:49 - Retrieving IP address of ESP Server.
+2015/03/26 18:02:49 - ESP Server private IP address: 10.253.100.19.
+2015/03/26 18:02:49 - ESP Server public IP address: 54.202.31.76.
+2015/03/26 18:02:49 - Attaching storage devices to the Landing Zone: snap-aab24cf5
+2015/03/26 18:02:50 - Waiting for volumes to become available.
+2015/03/26 18:02:55 - Waiting for volumes to become available.
+2015/03/26 18:03:00 - Waiting for volumes to become available.
+2015/03/26 18:03:05 - Connecting via SSH.
+2015/03/26 18:03:13 - /dev/xvdf is mounted to /var/lib/HPCCSystems/mydropzone/snap-aab24cf5/.
+2015/03/26 18:03:13 - 54.202.31.76:    Starting node configuration.
+2015/03/26 18:03:13 - 54.202.31.76:    Connecting via SSH.
+2015/03/26 18:03:13 - 54.190.236.112:  Starting node configuration.
+2015/03/26 18:03:13 - 54.190.236.112:  Connecting via SSH.
+2015/03/26 18:03:13 - 54.245.163.4:    Starting node configuration.
+2015/03/26 18:03:13 - 54.245.163.4:    Connecting via SSH.
+2015/03/26 18:03:15 - 54.202.31.76:    Checking software installation completed.
+2015/03/26 18:03:15 - 54.190.236.112:  Checking software installation completed.
+2015/03/26 18:03:15 - 54.202.31.76:    Software installation finished.
+2015/03/26 18:03:15 - 54.202.31.76:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:03:15 - 54.190.236.112:  Software installation finished.
+2015/03/26 18:03:15 - 54.190.236.112:  Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:03:15 - 54.202.31.76:    Checking file contents.
+2015/03/26 18:03:15 - 54.190.236.112:  Checking file contents.
+2015/03/26 18:03:16 - 54.202.31.76:    Remote file contents confirmed.
+2015/03/26 18:03:16 - 54.190.236.112:  Remote file contents confirmed.
+2015/03/26 18:03:16 - 54.190.236.112:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:03:16 - 54.190.236.112:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/26 18:03:16 - 54.202.31.76:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:03:16 - 54.202.31.76:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/26 18:03:17 - 54.190.236.112:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/26 18:03:17 - 54.202.31.76:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/26 18:03:17 - 54.190.236.112:  Checking file contents.
+2015/03/26 18:03:17 - 54.202.31.76:    Checking file contents.
+2015/03/26 18:03:18 - 54.190.236.112:  Remote file contents confirmed.
+2015/03/26 18:03:18 - 54.190.236.112:  Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/26 18:03:18 - 54.202.31.76:    Remote file contents confirmed.
+2015/03/26 18:03:18 - 54.202.31.76:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/26 18:03:19 - 54.245.163.4:    Checking software installation completed.
+2015/03/26 18:03:20 - 54.245.163.4:    Software installation finished.
+2015/03/26 18:03:20 - 54.245.163.4:    Sending /home/ubuntu/node_health_script via SFTP.
+2015/03/26 18:03:20 - 54.245.163.4:    Checking file contents.
+2015/03/26 18:03:20 - 54.245.163.4:    Remote file contents confirmed.
+2015/03/26 18:03:21 - 54.245.163.4:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2015/03/26 18:03:21 - 54.245.163.4:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2015/03/26 18:03:21 - 54.245.163.4:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2015/03/26 18:03:22 - 54.245.163.4:    Checking file contents.
+2015/03/26 18:03:22 - 54.245.163.4:    Remote file contents confirmed.
+2015/03/26 18:03:22 - 54.245.163.4:    Starting HPCC Platform Community Edition: 5.0.2-1.
+2015/03/26 18:03:26 - 54.202.31.76:    Starting mydafilesrv....       [  OK  ]   
+2015/03/26 18:03:26 - 54.202.31.76:    Starting myeclagent....        [  OK  ]   
+2015/03/26 18:03:26 - 54.202.31.76:    Starting myesp....             [  OK  ]   
+2015/03/26 18:03:26 - 54.202.31.76:    Starting myroxie....           [  OK  ]   
+2015/03/26 18:03:26 - 54.202.31.76:    Starting mysasha....           [  OK  ]  
+2015/03/26 18:03:26 - 54.202.31.76:    Start node is complete.
+2015/03/26 18:03:28 - 54.245.163.4:    Starting mydafilesrv....       [  OK  ]   
+2015/03/26 18:03:28 - 54.245.163.4:    Starting mydfuserver....       [  OK  ]   
+2015/03/26 18:03:28 - 54.245.163.4:    Starting myeclscheduler....    [  OK  ]  
+2015/03/26 18:03:28 - 54.245.163.4:    Start node is complete.
+2015/03/26 18:03:39 - 54.190.236.112:  Starting mydafilesrv....       [  OK  ]   
+2015/03/26 18:03:39 - 54.190.236.112:  Starting mydali....            [  OK  ]   
+2015/03/26 18:03:39 - 54.190.236.112:  Starting myeclccserver....     [  OK  ]   
+2015/03/26 18:03:39 - 54.190.236.112:  Starting mythor....            [  OK  ]  
+2015/03/26 18:03:39 - 54.190.236.112:  Start node is complete.
+2015/03/26 18:03:39 - Done.
+2015/03/26 20:00:22 - Terminating cluster.
+2015/03/26 20:00:22 - Connecting to AWS region us-west-2.
+2015/03/26 20:00:22 - Gathering instances for Hpcc-29ME.
+2015/03/26 20:00:22 - Terminating instances.
+2015/03/26 20:00:24 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:29 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:35 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:40 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:45 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:51 - Waiting for 3 instances to terminate.
+2015/03/26 20:00:56 - Waiting for 3 instances to terminate.
+2015/03/26 20:01:01 - Waiting for 3 instances to terminate.
+2015/03/26 20:01:07 - Waiting for 3 instances to terminate.
+2015/03/26 20:01:12 - Waiting for 2 instances to terminate.
+2015/03/26 20:01:18 - Waiting for 1 instances to terminate.
+2015/03/26 20:01:23 - Waiting for 1 instances to terminate.
+2015/03/26 20:01:28 - Deleting attached EBS volumes.
+2015/03/26 20:01:28 - Deleting volume vol-f49aa3e5
+2015/03/26 20:01:28 - Deleting Access Key Hpcc-29ME.
+2015/03/26 20:01:28 - Deleting Security group Hpcc-29ME.
+2015/03/26 20:01:29 - Done.

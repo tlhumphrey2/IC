@@ -1,0 +1,92 @@
+2014/02/28 15:35:15 - Connecting to AWS region us-west-2.
+2014/02/28 15:35:15 - Calculating new unique cluster name for request 748.
+2014/02/28 15:35:16 - Creating new cluster name, Hpcc-4PW8.
+2014/02/28 15:35:16 - Creating Hpcc-4PW8 security group.
+2014/02/28 15:35:26 - Creating Hpcc-4PW8 key pair.
+2014/02/28 15:35:28 - Launching 1 m1.large nodes using ami-bc49248c.
+2014/02/28 15:35:29 - Reservation ID r-c762fccf created.
+2014/02/28 15:35:29 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:35:34 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:35:39 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:35:44 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:35:50 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:35:55 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:00 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:05 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:11 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:16 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:21 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:26 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:32 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:37 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:42 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:47 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:53 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:36:58 - Waiting for 1 of 1 nodes to launch.
+2014/02/28 15:37:03 - Pending instances have completed.
+2014/02/28 15:37:03 - Checking each node launched properly.
+2014/02/28 15:37:03 - 54.186.0.41:     Checking EC2 instance i-d51882dd.
+2014/02/28 15:37:03 - 54.186.0.41:     Checking EC2 instance is running.
+2014/02/28 15:37:03 - 54.186.0.41:     Connecting via SSH.
+2014/02/28 15:37:07 - 54.186.0.41:     Checking software installation completed.
+2014/02/28 15:37:07 - 54.186.0.41:     Waiting for software to install.
+2014/02/28 15:37:17 - 54.186.0.41:     Software installation finished.
+2014/02/28 15:37:17 - 54.186.0.41:     Sending /home/ubuntu/node_health_script via SFTP.
+2014/02/28 15:37:18 - 54.186.0.41:     Checking file contents.
+2014/02/28 15:37:18 - 54.186.0.41:     Remote file contents confirmed.
+2014/02/28 15:37:19 - 54.186.0.41:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/02/28 15:37:19 - 54.186.0.41:     Completed check of node 54.186.0.41.
+2014/02/28 15:37:19 - Determining availability zone.
+2014/02/28 15:37:19 - Gathering public and private ip addresses.
+2014/02/28 15:37:19 - Connecting to node 54.186.0.41 for cluster configuration.
+2014/02/28 15:37:19 - Connecting via SSH.
+2014/02/28 15:37:25 - Checking software installation completed.
+2014/02/28 15:37:25 - Software installation finished.
+2014/02/28 15:37:25 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/02/28 15:37:26 - Checking file contents.
+2014/02/28 15:37:26 - Remote file contents confirmed.
+2014/02/28 15:37:27 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/02/28 15:37:27 - Writing cluster private ip addresses to file on instance.
+2014/02/28 15:37:27 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/02/28 15:37:27 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/02/28 15:37:28 - Checking file contents.
+2014/02/28 15:37:28 - Remote file contents confirmed.
+2014/02/28 15:37:28 - Running envgen
+2014/02/28 15:37:29 - Reading the config file.
+2014/02/28 15:37:29 - Retrieving IP address of ESP Server.
+2014/02/28 15:37:30 - ESP Server private IP address: 172.31.1.109.
+2014/02/28 15:37:30 - ESP Server public IP address: 54.186.0.41.
+2014/02/28 15:37:30 - 54.186.0.41:     Starting node configuration.
+2014/02/28 15:37:30 - 54.186.0.41:     Connecting via SSH.
+2014/02/28 15:37:31 - 54.186.0.41:     Checking software installation completed.
+2014/02/28 15:37:32 - 54.186.0.41:     Software installation finished.
+2014/02/28 15:37:32 - 54.186.0.41:     Sending /home/ubuntu/node_health_script via SFTP.
+2014/02/28 15:37:32 - 54.186.0.41:     Checking file contents.
+2014/02/28 15:37:33 - 54.186.0.41:     Remote file contents confirmed.
+2014/02/28 15:37:33 - 54.186.0.41:     No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/02/28 15:37:33 - 54.186.0.41:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/02/28 15:37:34 - 54.186.0.41:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/02/28 15:37:35 - 54.186.0.41:     Checking file contents.
+2014/02/28 15:37:35 - 54.186.0.41:     Remote file contents confirmed.
+2014/02/28 15:37:35 - 54.186.0.41:     Starting HPCC Platform Community Edition: 4.2.2-rc8.
+2014/02/28 15:38:02 - 54.186.0.41:     Starting mydafilesrv....       [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting mydali....            [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting mydfuserver....       [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting myeclagent....        [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting myeclccserver....     [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting myeclscheduler....    [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting myesp....             [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting mysasha....           [  OK  ]   
+2014/02/28 15:38:02 - 54.186.0.41:     Starting mythor....            [  OK  ]  
+2014/02/28 15:38:02 - 54.186.0.41:     Start node is complete.
+2014/02/28 15:38:02 - Done.
+2014/03/03 08:39:58 - Terminating cluster.
+2014/03/03 08:39:58 - Connecting to AWS region us-west-2.
+2014/03/03 08:39:58 - Gathering instances for Hpcc-4PW8.
+2014/03/03 08:39:59 - Terminating instances.
+2014/03/03 08:39:59 - Deleting Access Key Hpcc-4PW8.
+2014/03/03 08:39:59 - Deleting Security group Hpcc-4PW8.
+2014/03/03 08:40:00 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-4f23d72a has a dependent object
+                      requestId: 682f3d32-42be-4cbe-a9d2-520814bcea57

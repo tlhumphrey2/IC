@@ -1,0 +1,106 @@
+2012/03/09 13:13:09 - Connecting to AWS region us-east-1.
+2012/03/09 13:13:09 - Checking storage IDs exist in region us-east-1: snap-d203feb5
+2012/03/09 13:13:09 - Calculating new unique cluster name for request 181.
+2012/03/09 13:13:09 - Creating new cluster name, Thor-D9Z3.
+2012/03/09 13:13:09 - Creating Thor-D9Z3 security group.
+2012/03/09 13:13:10 - Creating Thor-D9Z3 key pair.
+2012/03/09 13:13:11 - Launching 1 m1.large nodes using ami-7a2cf113.
+2012/03/09 13:13:11 - Reservation ID r-1d61697d created.
+2012/03/09 13:13:11 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:17 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:22 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:27 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:32 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:37 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:42 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:47 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:52 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:13:57 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:02 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:07 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:12 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:17 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:23 - Waiting for 1 of 1 nodes to launch.
+2012/03/09 13:14:28 - Pending instances have completed.
+2012/03/09 13:14:28 - Checking each node launched properly.
+2012/03/09 13:14:28 - 174.129.177.204: Checking EC2 instance i-e7269783.
+2012/03/09 13:14:28 - 174.129.177.204: Checking EC2 instance is running.
+2012/03/09 13:14:28 - 174.129.177.204: Connecting via SSH.
+2012/03/09 13:14:31 - 174.129.177.204: Waiting on SSH connection.
+2012/03/09 13:14:36 - 174.129.177.204: Checking software installation completed.
+2012/03/09 13:14:36 - 174.129.177.204: Software installation finished.
+2012/03/09 13:14:36 - 174.129.177.204: Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/09 13:14:37 - 174.129.177.204: Checking file contents.
+2012/03/09 13:14:37 - 174.129.177.204: Remote file contents confirmed.
+2012/03/09 13:14:37 - 174.129.177.204: No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/09 13:14:37 - 174.129.177.204: Completed check of node 174.129.177.204.
+2012/03/09 13:14:37 - Determining availability zone.
+2012/03/09 13:14:37 - Gathering public and private ip addresses.
+2012/03/09 13:14:37 - Connecting to node 174.129.177.204 for cluster configuration.
+2012/03/09 13:14:37 - Connecting via SSH.
+2012/03/09 13:14:37 - Checking software installation completed.
+2012/03/09 13:14:37 - Software installation finished.
+2012/03/09 13:14:37 - Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/09 13:14:37 - Checking file contents.
+2012/03/09 13:14:37 - Remote file contents confirmed.
+2012/03/09 13:14:38 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/09 13:14:38 - Writing cluster private ip addresses to file on instance.
+2012/03/09 13:14:38 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/03/09 13:14:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/03/09 13:14:38 - Checking file contents.
+2012/03/09 13:14:38 - Remote file contents confirmed.
+2012/03/09 13:14:38 - Running envgen
+2012/03/09 13:14:38 - Reading the config file.
+2012/03/09 13:14:38 - Retrieving IP address of ESP Server.
+2012/03/09 13:14:38 - ESP Server private IP address: 10.80.147.181.
+2012/03/09 13:14:38 - ESP Server public IP address: 174.129.177.204.
+2012/03/09 13:14:39 - Attaching storage devices to the Landing Zone: snap-d203feb5
+2012/03/09 13:14:42 - Connecting via SSH.
+2012/03/09 13:14:43 - Waiting for EC2 instance to see storage device.
+2012/03/09 13:14:48 - Waiting for EC2 instance to see storage device.
+2012/03/09 13:14:55 - /dev/xvdf is mounted to /mnt/dropzone/snap-d203feb5/.
+2012/03/09 13:14:55 - 174.129.177.204: Starting node configuration.
+2012/03/09 13:14:55 - 174.129.177.204: Connecting via SSH.
+2012/03/09 13:14:56 - 174.129.177.204: Checking software installation completed.
+2012/03/09 13:14:56 - 174.129.177.204: Software installation finished.
+2012/03/09 13:14:56 - 174.129.177.204: Sending /home/ubuntu/node_health_script via SFTP.
+2012/03/09 13:14:56 - 174.129.177.204: Checking file contents.
+2012/03/09 13:14:56 - 174.129.177.204: Remote file contents confirmed.
+2012/03/09 13:14:56 - 174.129.177.204: No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2012/03/09 13:14:56 - 174.129.177.204: Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/03/09 13:14:56 - 174.129.177.204: Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/03/09 13:14:56 - 174.129.177.204: Checking file contents.
+2012/03/09 13:14:56 - 174.129.177.204: Remote file contents confirmed.
+2012/03/09 13:14:56 - 174.129.177.204: Starting HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/03/09 13:15:22 - 174.129.177.204: Starting mydafilesrv....       [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting mydali....            [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting mydfuserver....       [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting myeclagent....        [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting myeclccserver....     [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting myeclscheduler....    [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting myesp....             [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting mysasha....           [  OK  ]   
+2012/03/09 13:15:22 - 174.129.177.204: Starting mythor....            [  OK  ]  
+2012/03/09 13:15:22 - 174.129.177.204: Start node is complete.
+2012/03/09 13:15:22 - Done.
+2012/03/10 09:53:29 - Terminating cluster.
+2012/03/10 09:53:29 - Connecting to AWS region us-east-1.
+2012/03/10 09:53:29 - Gathering instances for Thor-D9Z3.
+2012/03/10 09:53:30 - Terminating instances.
+2012/03/10 09:53:30 - Waiting for 1 instances to terminate.
+2012/03/10 09:53:35 - Waiting for 1 instances to terminate.
+2012/03/10 09:53:40 - Waiting for 1 instances to terminate.
+2012/03/10 09:53:45 - Waiting for 1 instances to terminate.
+2012/03/10 09:53:50 - Waiting for 1 instances to terminate.
+2012/03/10 09:53:55 - Waiting for 1 instances to terminate.
+2012/03/10 09:54:00 - Waiting for 1 instances to terminate.
+2012/03/10 09:54:05 - Deleting attached EBS volumes.
+2012/03/10 09:54:05 - Deleting volume vol-8deda9e1
+2012/03/10 09:54:05 - Volume vol-8deda9e1 failed to delete.
+2012/03/10 09:54:05 - An exception occured.
+                      Amazon Error: Client.VolumeInUse
+                      Volume vol-8deda9e1 is currently attached to i-e7269783
+                      requestId: 831495d2-c962-4539-8abc-6ef664db4b26
+2012/03/10 09:54:05 - Deleting Access Key Thor-D9Z3.
+2012/03/10 09:54:06 - Deleting Security group Thor-D9Z3.
+2012/03/10 09:54:06 - Done.

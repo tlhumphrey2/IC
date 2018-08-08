@@ -1,0 +1,103 @@
+2017/07/28 08:44:25 - Connecting to AWS region us-east-1.
+2017/07/28 08:44:25 - Calculating new unique cluster name for request 1311.
+2017/07/28 08:44:25 - Creating new cluster name, Hpcc-VNZ5.
+2017/07/28 08:44:25 - Creating Hpcc-VNZ5 security group.
+2017/07/28 08:44:27 - Creating Hpcc-VNZ5 key pair.
+2017/07/28 08:44:27 - Launching 1 m1.large nodes using ami-d7e0a7c1.
+2017/07/28 08:44:29 - Reservation ID r-0153d26b691b98309 created.
+2017/07/28 08:44:29 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:34 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:39 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:44 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:49 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:54 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:44:59 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:04 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:09 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:14 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:19 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:24 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:29 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:34 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:39 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:44 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:50 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:45:55 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:00 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:05 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:10 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:15 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:20 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:25 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:30 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:35 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:40 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:45 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:50 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:46:55 - Waiting for 1 of 1 nodes to launch.
+2017/07/28 08:47:00 - Pending instances have completed.
+2017/07/28 08:47:00 - Checking each node launched properly.
+2017/07/28 08:47:00 - 52.23.215.89:    Checking EC2 instance i-0d9bf2baf1f1a1956.
+2017/07/28 08:47:00 - 52.23.215.89:    Checking EC2 instance is running.
+2017/07/28 08:47:00 - 52.23.215.89:    Connecting via SSH.
+2017/07/28 08:47:36 - 52.23.215.89:    Checking software installation completed.
+2017/07/28 08:47:36 - 52.23.215.89:    Software installation finished.
+2017/07/28 08:47:36 - 52.23.215.89:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 08:47:37 - 52.23.215.89:    Checking file contents.
+2017/07/28 08:47:37 - 52.23.215.89:    Remote file contents confirmed.
+2017/07/28 08:47:37 - 52.23.215.89:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 08:47:37 - 52.23.215.89:    Completed check of node 52.23.215.89.
+2017/07/28 08:47:37 - Determining availability zone.
+2017/07/28 08:47:37 - Gathering public and private ip addresses.
+2017/07/28 08:47:37 - Connecting to node 52.23.215.89 for cluster configuration.
+2017/07/28 08:47:37 - Connecting via SSH.
+2017/07/28 08:47:38 - Checking software installation completed.
+2017/07/28 08:47:38 - Software installation finished.
+2017/07/28 08:47:38 - Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 08:47:38 - Checking file contents.
+2017/07/28 08:47:38 - Remote file contents confirmed.
+2017/07/28 08:47:38 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 08:47:38 - Writing cluster private ip addresses to file on instance.
+2017/07/28 08:47:38 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2017/07/28 08:47:38 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2017/07/28 08:47:38 - Checking file contents.
+2017/07/28 08:47:38 - Remote file contents confirmed.
+2017/07/28 08:47:38 - Running envgen
+2017/07/28 08:47:38 - Reading the config file.
+2017/07/28 08:47:38 - Retrieving IP address of ESP Server.
+2017/07/28 08:47:39 - ESP Server private IP address: 172.31.37.99.
+2017/07/28 08:47:39 - ESP Server public IP address: 52.23.215.89.
+2017/07/28 08:47:39 - 52.23.215.89:    Starting node configuration.
+2017/07/28 08:47:39 - 52.23.215.89:    Connecting via SSH.
+2017/07/28 08:47:39 - 52.23.215.89:    Checking software installation completed.
+2017/07/28 08:47:39 - 52.23.215.89:    Software installation finished.
+2017/07/28 08:47:39 - 52.23.215.89:    Sending /home/ubuntu/node_health_script via SFTP.
+2017/07/28 08:47:40 - 52.23.215.89:    Checking file contents.
+2017/07/28 08:47:40 - 52.23.215.89:    Remote file contents confirmed.
+2017/07/28 08:47:40 - 52.23.215.89:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2017/07/28 08:47:40 - 52.23.215.89:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2017/07/28 08:47:40 - 52.23.215.89:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2017/07/28 08:47:40 - 52.23.215.89:    Checking file contents.
+2017/07/28 08:47:40 - 52.23.215.89:    Remote file contents confirmed.
+2017/07/28 08:47:40 - 52.23.215.89:    Starting HPCC Platform Community Edition: 6.2.14-1.
+2017/07/28 08:47:56 - 52.23.215.89:    Starting mydafilesrv ...       [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting mydali ...            [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting mydfuserver ...       [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting myeclagent ...        [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting myeclccserver ...     [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting myeclscheduler ...    [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting myesp ...             [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting mysasha ...           [   OK    ]   
+2017/07/28 08:47:56 - 52.23.215.89:    Starting mythor ...            [   OK    ]  
+2017/07/28 08:47:56 - 52.23.215.89:    Start node is complete.
+2017/07/28 08:47:56 - Done.
+2017/07/28 09:08:19 - Terminating cluster.
+2017/07/28 09:08:19 - Connecting to AWS region us-east-1.
+2017/07/28 09:08:19 - Gathering instances for Hpcc-VNZ5.
+2017/07/28 09:08:19 - Terminating instances.
+2017/07/28 09:08:19 - Deleting Access Key Hpcc-VNZ5.
+2017/07/28 09:08:19 - Deleting Security group Hpcc-VNZ5.
+2017/07/28 09:08:19 - An exception occured.
+                      Amazon Error: DependencyViolation
+                      resource sg-ad3d3edc has a dependent object
+                      requestId: 2992269a-961b-4496-9f10-cad0184de861

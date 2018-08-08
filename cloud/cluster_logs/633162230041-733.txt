@@ -1,0 +1,94 @@
+2014/01/24 16:20:00 - Connecting to AWS region us-west-2.
+2014/01/24 16:20:00 - Calculating new unique cluster name for request 733.
+2014/01/24 16:20:01 - Creating new cluster name, Hpcc-RHYV.
+2014/01/24 16:20:01 - Creating Hpcc-RHYV security group.
+2014/01/24 16:20:06 - Creating Hpcc-RHYV key pair.
+2014/01/24 16:20:07 - Launching 1 m1.large nodes using ami-4480e174.
+2014/01/24 16:20:08 - Reservation ID r-2675d92f created.
+2014/01/24 16:20:08 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:13 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:18 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:24 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:29 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:34 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:40 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:45 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:50 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:20:55 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:01 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:06 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:11 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:16 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:22 - Waiting for 1 of 1 nodes to launch.
+2014/01/24 16:21:27 - Pending instances have completed.
+2014/01/24 16:21:27 - Checking each node launched properly.
+2014/01/24 16:21:27 - 54.244.171.244:  Checking EC2 instance i-92a8029b.
+2014/01/24 16:21:27 - 54.244.171.244:  Checking EC2 instance is running.
+2014/01/24 16:21:27 - 54.244.171.244:  Connecting via SSH.
+2014/01/24 16:21:28 - 54.244.171.244:  Waiting on SSH connection.
+2014/01/24 16:21:39 - 54.244.171.244:  Checking software installation completed.
+2014/01/24 16:21:39 - 54.244.171.244:  Software installation finished.
+2014/01/24 16:21:39 - 54.244.171.244:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:21:40 - 54.244.171.244:  Checking file contents.
+2014/01/24 16:21:40 - 54.244.171.244:  Remote file contents confirmed.
+2014/01/24 16:21:41 - 54.244.171.244:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:21:41 - 54.244.171.244:  Completed check of node 54.244.171.244.
+2014/01/24 16:21:41 - Determining availability zone.
+2014/01/24 16:21:41 - Gathering public and private ip addresses.
+2014/01/24 16:21:41 - Connecting to node 54.244.171.244 for cluster configuration.
+2014/01/24 16:21:41 - Connecting via SSH.
+2014/01/24 16:21:43 - Checking software installation completed.
+2014/01/24 16:21:43 - Software installation finished.
+2014/01/24 16:21:43 - Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:21:43 - Checking file contents.
+2014/01/24 16:21:44 - Remote file contents confirmed.
+2014/01/24 16:21:44 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:21:44 - Writing cluster private ip addresses to file on instance.
+2014/01/24 16:21:44 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2014/01/24 16:21:45 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2014/01/24 16:21:45 - Checking file contents.
+2014/01/24 16:21:46 - Remote file contents confirmed.
+2014/01/24 16:21:46 - Running envgen
+2014/01/24 16:21:47 - Reading the config file.
+2014/01/24 16:21:47 - Retrieving IP address of ESP Server.
+2014/01/24 16:21:47 - ESP Server private IP address: 10.232.19.166.
+2014/01/24 16:21:47 - ESP Server public IP address: 54.244.171.244.
+2014/01/24 16:21:48 - 54.244.171.244:  Starting node configuration.
+2014/01/24 16:21:48 - 54.244.171.244:  Connecting via SSH.
+2014/01/24 16:21:49 - 54.244.171.244:  Checking software installation completed.
+2014/01/24 16:21:49 - 54.244.171.244:  Software installation finished.
+2014/01/24 16:21:49 - 54.244.171.244:  Sending /home/ubuntu/node_health_script via SFTP.
+2014/01/24 16:21:50 - 54.244.171.244:  Checking file contents.
+2014/01/24 16:21:50 - 54.244.171.244:  Remote file contents confirmed.
+2014/01/24 16:21:51 - 54.244.171.244:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2014/01/24 16:21:51 - 54.244.171.244:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2014/01/24 16:21:52 - 54.244.171.244:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2014/01/24 16:21:52 - 54.244.171.244:  Checking file contents.
+2014/01/24 16:21:52 - 54.244.171.244:  Remote file contents confirmed.
+2014/01/24 16:21:52 - 54.244.171.244:  Starting HPCC Platform Community Edition: 4.2.0-4.
+2014/01/24 16:22:19 - 54.244.171.244:  Starting mydafilesrv....       [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting mydali....            [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting mydfuserver....       [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting myeclagent....        [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting myeclccserver....     [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting myeclscheduler....    [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting myesp....             [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting mysasha....           [  OK  ]   
+2014/01/24 16:22:19 - 54.244.171.244:  Starting mythor....            [  OK  ]  
+2014/01/24 16:22:19 - 54.244.171.244:  Start node is complete.
+2014/01/24 16:22:19 - Done.
+2014/01/24 16:32:14 - Terminating cluster.
+2014/01/24 16:32:14 - Connecting to AWS region us-west-2.
+2014/01/24 16:32:14 - Gathering instances for Hpcc-RHYV.
+2014/01/24 16:32:14 - Terminating instances.
+2014/01/24 16:32:15 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:20 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:26 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:31 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:36 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:41 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:46 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:52 - Waiting for 1 instances to terminate.
+2014/01/24 16:32:57 - Deleting Access Key Hpcc-RHYV.
+2014/01/24 16:32:57 - Deleting Security group Hpcc-RHYV.
+2014/01/24 16:32:58 - Done.

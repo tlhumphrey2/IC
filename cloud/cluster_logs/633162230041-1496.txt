@@ -1,0 +1,89 @@
+2018/08/07 16:57:30 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:57:30 - Calculating new unique cluster name for request 1496.
+2018/08/07 16:57:32 - TLH. Creating new cluster name, Hpcc-U5HG.
+2018/08/07 16:57:32 - TLH. Creating Hpcc-U5HG security group.
+2018/08/07 16:57:35 - TLH. Creating Hpcc-U5HG key pair.
+2018/08/07 16:57:35 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/08/07 16:57:36 - TLH. Reservation ID r-0206e6bb2c8775705 created.
+2018/08/07 16:57:36 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:57:41 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:57:46 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:57:51 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:57:57 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:02 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:07 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:12 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:17 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:22 - Waiting for 1 of 1 nodes to launch.
+2018/08/07 16:58:27 - TLH. Pending instances have completed.
+2018/08/07 16:58:27 - TLH. Checking each node launched properly.
+2018/08/07 16:58:27 - 54.244.201.15:   Checking EC2 instance i-052139f6467b603ff.
+2018/08/07 16:58:27 - 54.244.201.15:   Checking EC2 instance is running.
+2018/08/07 16:58:27 - 54.244.201.15:   Connecting via SSH.
+2018/08/07 16:58:35 - 54.244.201.15:   Waiting on SSH connection.
+2018/08/07 16:58:48 - 54.244.201.15:   Checking software installation completed.
+2018/08/07 16:58:49 - 54.244.201.15:   Software installation finished.
+2018/08/07 16:58:49 - 54.244.201.15:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:58:49 - 54.244.201.15:   Checking file contents.
+2018/08/07 16:58:49 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 16:58:50 - 54.244.201.15:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:58:50 - 54.244.201.15:   tlh. Completed check of node 54.244.201.15.
+2018/08/07 16:58:50 - TLH. Determining availability zone.
+2018/08/07 16:58:50 - TLH. Gathering public and private ip addresses.
+2018/08/07 16:58:50 - Connecting to node 54.244.201.15 for cluster configuration.
+2018/08/07 16:58:50 - Connecting via SSH.
+2018/08/07 16:58:51 - Checking software installation completed.
+2018/08/07 16:58:51 - Software installation finished.
+2018/08/07 16:58:51 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:58:52 - Checking file contents.
+2018/08/07 16:58:52 - Remote file contents confirmed.
+2018/08/07 16:58:53 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:58:53 - Writing cluster private ip addresses to file on instance.
+2018/08/07 16:58:53 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/08/07 16:58:53 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/08/07 16:58:54 - Checking file contents.
+2018/08/07 16:58:54 - Remote file contents confirmed.
+2018/08/07 16:58:54 - Running envgen
+2018/08/07 16:58:54 - Reading the config file.
+2018/08/07 16:58:55 - Retrieving IP address of ESP Server.
+2018/08/07 16:58:55 - ESP Server private IP address: 10.123.38.135.
+2018/08/07 16:58:55 - TLH. ESP Server public IP address: 54.244.201.15.
+2018/08/07 16:58:55 - 54.244.201.15:   Starting node configuration.
+2018/08/07 16:58:55 - 54.244.201.15:   Connecting via SSH.
+2018/08/07 16:58:56 - 54.244.201.15:   Checking software installation completed.
+2018/08/07 16:58:57 - 54.244.201.15:   Software installation finished.
+2018/08/07 16:58:57 - 54.244.201.15:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/08/07 16:58:57 - 54.244.201.15:   Checking file contents.
+2018/08/07 16:58:57 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 16:58:58 - 54.244.201.15:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/08/07 16:58:58 - 54.244.201.15:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/08/07 16:58:59 - 54.244.201.15:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/08/07 16:58:59 - 54.244.201.15:   Checking file contents.
+2018/08/07 16:59:00 - 54.244.201.15:   Remote file contents confirmed.
+2018/08/07 16:59:00 - 54.244.201.15:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/08/07 16:59:21 - 54.244.201.15:   Starting mydafilesrv ...       [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting mydali ...            [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting mydfuserver ...       [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting myeclagent ...        [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting myeclccserver ...     [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting myeclscheduler ...    [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting myesp ...             [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting mysasha ...           [   OK    ]   
+2018/08/07 16:59:21 - 54.244.201.15:   Starting mythor ...            [   OK    ]  
+2018/08/07 16:59:21 - 54.244.201.15:   Start node is complete.
+2018/08/07 16:59:21 - TLH. Done.
+2018/08/07 16:59:55 - TLH. Terminating cluster.
+2018/08/07 16:59:55 - TLH. Connecting to AWS region us-west-2.
+2018/08/07 16:59:55 - TLH. Gathering instances for Hpcc-U5HG.
+2018/08/07 16:59:55 - TLH. Terminating instances.instance1="Instance:i-052139f6467b603ff"
+2018/08/07 16:59:56 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:01 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:06 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:11 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:16 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:21 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:26 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:31 - TLH. Waiting for 1 instances to terminate.
+2018/08/07 17:00:37 - TLH. Deleting Access Key Hpcc-U5HG.
+2018/08/07 17:00:37 - TLH. Deleting Security group Hpcc-U5HG.
+2018/08/07 17:00:37 - TLH. Done.

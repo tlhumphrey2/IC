@@ -1,0 +1,87 @@
+2018/07/30 12:27:42 - Connecting to AWS region eu-central-1.
+2018/07/30 12:27:42 - Calculating new unique cluster name for request 1459.
+2018/07/30 12:27:43 - Creating new cluster name, Hpcc-Y4UX.
+2018/07/30 12:27:43 - Creating Hpcc-Y4UX security group.
+2018/07/30 12:27:47 - Creating Hpcc-Y4UX key pair.
+2018/07/30 12:27:47 - Launching 1 m3.large nodes using ami-00808b7c144b828f1.
+2018/07/30 12:27:48 - Reservation ID r-0607436cff757413b created.
+2018/07/30 12:27:48 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:27:53 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:27:58 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:04 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:09 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:14 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:19 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:24 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:29 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:34 - Waiting for 1 of 1 nodes to launch.
+2018/07/30 12:28:40 - Pending instances have completed.
+2018/07/30 12:28:40 - Checking each node launched properly.
+2018/07/30 12:28:40 - 54.93.248.178:   Checking EC2 instance i-048cd2b7376526b7a.
+2018/07/30 12:28:40 - 54.93.248.178:   Checking EC2 instance is running.
+2018/07/30 12:28:40 - 54.93.248.178:   Connecting via SSH.
+2018/07/30 12:28:41 - 54.93.248.178:   Waiting on SSH connection.
+2018/07/30 12:28:50 - 54.93.248.178:   Checking software installation completed.
+2018/07/30 12:28:50 - 54.93.248.178:   Software installation finished.
+2018/07/30 12:28:50 - 54.93.248.178:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/30 12:28:50 - 54.93.248.178:   Checking file contents.
+2018/07/30 12:28:51 - 54.93.248.178:   Remote file contents confirmed.
+2018/07/30 12:28:51 - 54.93.248.178:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/30 12:28:51 - 54.93.248.178:   Completed check of node 54.93.248.178.
+2018/07/30 12:28:51 - Determining availability zone.
+2018/07/30 12:28:51 - Gathering public and private ip addresses.
+2018/07/30 12:28:51 - Connecting to node 54.93.248.178 for cluster configuration.
+2018/07/30 12:28:51 - Connecting via SSH.
+2018/07/30 12:28:52 - Checking software installation completed.
+2018/07/30 12:28:53 - Software installation finished.
+2018/07/30 12:28:53 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/30 12:28:53 - Checking file contents.
+2018/07/30 12:28:54 - Remote file contents confirmed.
+2018/07/30 12:28:54 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/30 12:28:54 - Writing cluster private ip addresses to file on instance.
+2018/07/30 12:28:54 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/07/30 12:28:55 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/07/30 12:28:55 - Checking file contents.
+2018/07/30 12:28:55 - Remote file contents confirmed.
+2018/07/30 12:28:55 - Running envgen
+2018/07/30 12:28:56 - Reading the config file.
+2018/07/30 12:28:56 - Retrieving IP address of ESP Server.
+2018/07/30 12:28:57 - ESP Server private IP address: 172.31.0.247.
+2018/07/30 12:28:57 - ESP Server public IP address: 54.93.248.178.
+2018/07/30 12:28:57 - 54.93.248.178:   Starting node configuration.
+2018/07/30 12:28:57 - 54.93.248.178:   Connecting via SSH.
+2018/07/30 12:28:58 - 54.93.248.178:   Checking software installation completed.
+2018/07/30 12:28:58 - 54.93.248.178:   Software installation finished.
+2018/07/30 12:28:58 - 54.93.248.178:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/07/30 12:28:59 - 54.93.248.178:   Checking file contents.
+2018/07/30 12:28:59 - 54.93.248.178:   Remote file contents confirmed.
+2018/07/30 12:29:00 - 54.93.248.178:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/07/30 12:29:00 - 54.93.248.178:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/07/30 12:29:00 - 54.93.248.178:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/07/30 12:29:01 - 54.93.248.178:   Checking file contents.
+2018/07/30 12:29:01 - 54.93.248.178:   Remote file contents confirmed.
+2018/07/30 12:29:01 - 54.93.248.178:   Starting HPCC Platform Community Edition: 6.4.4-1.
+2018/07/30 12:29:15 - 54.93.248.178:   Starting mydafilesrv ...       [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting mydali ...            [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting mydfuserver ...       [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting myeclagent ...        [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting myeclccserver ...     [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting myeclscheduler ...    [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting myesp ...             [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting mysasha ...           [   OK    ]   
+2018/07/30 12:29:15 - 54.93.248.178:   Starting mythor ...            [   OK    ]  
+2018/07/30 12:29:15 - 54.93.248.178:   Start node is complete.
+2018/07/30 12:29:15 - Done.
+2018/07/30 12:59:51 - Terminating cluster.
+2018/07/30 12:59:51 - Connecting to AWS region eu-central-1.
+2018/07/30 12:59:51 - Gathering instances for Hpcc-Y4UX.
+2018/07/30 12:59:52 - Terminating instances.
+2018/07/30 12:59:52 - Waiting for 1 instances to terminate.
+2018/07/30 12:59:58 - Waiting for 1 instances to terminate.
+2018/07/30 13:00:03 - Waiting for 1 instances to terminate.
+2018/07/30 13:00:08 - Waiting for 1 instances to terminate.
+2018/07/30 13:00:13 - Waiting for 1 instances to terminate.
+2018/07/30 13:00:18 - Waiting for 1 instances to terminate.
+2018/07/30 13:00:23 - Deleting Access Key Hpcc-Y4UX.
+2018/07/30 13:00:24 - Deleting Security group Hpcc-Y4UX.
+2018/07/30 13:00:24 - Done.

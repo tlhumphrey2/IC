@@ -1,0 +1,131 @@
+2012/02/08 13:56:04 - Connecting to AWS region us-west-2.
+2012/02/08 13:56:04 - Calculating new unique cluster name for request 107.
+2012/02/08 13:56:05 - Creating new cluster name, Thor-6NGZ.
+2012/02/08 13:56:05 - Creating Thor-6NGZ security group.
+2012/02/08 13:56:09 - Creating Thor-6NGZ key pair.
+2012/02/08 13:56:10 - Launching 3 m1.large nodes using ami-94b33ea4.
+2012/02/08 13:56:10 - Reservation ID r-181e6428 created
+2012/02/08 13:56:10 - Waiting for 3 of 3 nodes to launch.
+2012/02/08 13:56:16 - Waiting for 3 of 3 nodes to launch.
+2012/02/08 13:56:22 - Waiting for 3 of 3 nodes to launch.
+2012/02/08 13:56:28 - Waiting for 3 of 3 nodes to launch.
+2012/02/08 13:56:34 - Waiting for 1 of 3 nodes to launch.
+2012/02/08 13:56:39 - Pending instances have completed.
+2012/02/08 13:56:39 - Checking each node launched properly.
+2012/02/08 13:56:39 - 50.112.47.150:   Checking EC2 instance i-485f1f78.
+2012/02/08 13:56:39 - 50.112.2.162:    Checking EC2 instance i-4a5f1f7a.
+2012/02/08 13:56:39 - 50.112.7.47:     Checking EC2 instance i-4c5f1f7c.
+2012/02/08 13:56:39 - 50.112.47.150:   Checking EC2 instance is running.
+2012/02/08 13:56:39 - 50.112.47.150:   Connecting via SSH.
+2012/02/08 13:56:40 - 50.112.7.47:     Checking EC2 instance is running.
+2012/02/08 13:56:40 - 50.112.7.47:     Connecting via SSH.
+2012/02/08 13:56:40 - 50.112.2.162:    Checking EC2 instance is running.
+2012/02/08 13:56:40 - 50.112.2.162:    Connecting via SSH.
+2012/02/08 13:56:40 - 50.112.7.47:     Waiting on SSH connection.
+2012/02/08 13:56:40 - 50.112.2.162:    Waiting on SSH connection.
+2012/02/08 13:56:41 - 50.112.47.150:   Waiting on SSH connection.
+2012/02/08 13:56:49 - 50.112.2.162:    Checking disk I/O
+2012/02/08 13:56:49 - 50.112.7.47:     Checking disk I/O
+2012/02/08 13:56:49 - 50.112.2.162:    Checking software installation completed.
+2012/02/08 13:56:49 - 50.112.7.47:     Checking software installation completed.
+2012/02/08 13:56:49 - 50.112.2.162:    Waiting for software to install.
+2012/02/08 13:56:50 - 50.112.7.47:     Waiting for software to install.
+2012/02/08 13:56:50 - 50.112.47.150:   Checking disk I/O
+2012/02/08 13:56:50 - 50.112.47.150:   Checking software installation completed.
+2012/02/08 13:56:50 - 50.112.47.150:   Waiting for software to install.
+2012/02/08 13:56:59 - 50.112.2.162:    Waiting for software to install.
+2012/02/08 13:57:00 - 50.112.7.47:     Waiting for software to install.
+2012/02/08 13:57:00 - 50.112.47.150:   Waiting for software to install.
+2012/02/08 13:57:10 - 50.112.2.162:    Waiting for software to install.
+2012/02/08 13:57:10 - 50.112.7.47:     Waiting for software to install.
+2012/02/08 13:57:11 - 50.112.47.150:   Waiting for software to install.
+2012/02/08 13:57:20 - 50.112.2.162:    Waiting for software to install.
+2012/02/08 13:57:20 - 50.112.7.47:     Waiting for software to install.
+2012/02/08 13:57:21 - 50.112.47.150:   Waiting for software to install.
+2012/02/08 13:57:30 - 50.112.2.162:    Waiting for software to install.
+2012/02/08 13:57:31 - 50.112.7.47:     Waiting for software to install.
+2012/02/08 13:57:31 - 50.112.47.150:   Waiting for software to install.
+2012/02/08 13:57:40 - 50.112.2.162:    Software installation finished.
+2012/02/08 13:57:40 - 50.112.2.162:    Completed check of node 50.112.2.162.
+2012/02/08 13:57:41 - 50.112.7.47:     Software installation finished.
+2012/02/08 13:57:41 - 50.112.7.47:     Completed check of node 50.112.7.47.
+2012/02/08 13:57:41 - 50.112.47.150:   Software installation finished.
+2012/02/08 13:57:41 - 50.112.47.150:   Completed check of node 50.112.47.150.
+2012/02/08 13:57:41 - Determining availability zone.
+2012/02/08 13:57:41 - Gathering public and private ip addresses.
+2012/02/08 13:57:41 - Connecting to node 50.112.47.150 for cluster configuration.
+2012/02/08 13:57:41 - Connecting via SSH.
+2012/02/08 13:57:43 - Checking disk I/O
+2012/02/08 13:57:43 - Checking software installation completed.
+2012/02/08 13:57:43 - Software installation finished.
+2012/02/08 13:57:43 - Writing cluster private ip addresses to file on instance.
+2012/02/08 13:57:43 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2012/02/08 13:57:44 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2012/02/08 13:57:44 - Checking file contents.
+2012/02/08 13:57:45 - Remote file contents confirmed.
+2012/02/08 13:57:45 - Running envgen
+2012/02/08 13:57:45 - Reading the config file.
+2012/02/08 13:57:46 - Retrieving IP address of ESP Server.
+2012/02/08 13:57:46 - ESP Server private IP address: 10.252.40.117.
+2012/02/08 13:57:46 - ESP Server public IP address: 50.112.47.150.
+2012/02/08 13:57:46 - 50.112.2.162:    Starting node configuration.
+2012/02/08 13:57:46 - 50.112.47.150:   Starting node configuration.
+2012/02/08 13:57:46 - 50.112.47.150:   Connecting via SSH.
+2012/02/08 13:57:46 - 50.112.2.162:    Connecting via SSH.
+2012/02/08 13:57:46 - 50.112.7.47:     Starting node configuration.
+2012/02/08 13:57:46 - 50.112.7.47:     Connecting via SSH.
+2012/02/08 13:57:48 - 50.112.47.150:   Checking disk I/O
+2012/02/08 13:57:48 - 50.112.2.162:    Checking disk I/O
+2012/02/08 13:57:48 - 50.112.7.47:     Checking disk I/O
+2012/02/08 13:57:48 - 50.112.47.150:   Checking software installation completed.
+2012/02/08 13:57:48 - 50.112.2.162:    Checking software installation completed.
+2012/02/08 13:57:48 - 50.112.7.47:     Checking software installation completed.
+2012/02/08 13:57:48 - 50.112.47.150:   Software installation finished.
+2012/02/08 13:57:48 - 50.112.47.150:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/08 13:57:49 - 50.112.2.162:    Software installation finished.
+2012/02/08 13:57:49 - 50.112.2.162:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/08 13:57:49 - 50.112.7.47:     Software installation finished.
+2012/02/08 13:57:49 - 50.112.7.47:     Sending /etc/HPCCSystems/environment.xml via SFTP.
+2012/02/08 13:57:49 - 50.112.47.150:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/08 13:57:50 - 50.112.7.47:     Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/08 13:57:50 - 50.112.2.162:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2012/02/08 13:57:50 - 50.112.47.150:   Checking file contents.
+2012/02/08 13:57:50 - 50.112.2.162:    Checking file contents.
+2012/02/08 13:57:50 - 50.112.7.47:     Checking file contents.
+2012/02/08 13:57:50 - 50.112.47.150:   Remote file contents confirmed.
+2012/02/08 13:57:50 - 50.112.47.150:   Starting HPCC services.
+2012/02/08 13:57:50 - 50.112.47.150:   HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/08 13:57:51 - 50.112.7.47:     Remote file contents confirmed.
+2012/02/08 13:57:51 - 50.112.7.47:     Starting HPCC services.
+2012/02/08 13:57:51 - 50.112.7.47:     HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/08 13:57:51 - 50.112.2.162:    Remote file contents confirmed.
+2012/02/08 13:57:51 - 50.112.2.162:    Starting HPCC services.
+2012/02/08 13:57:51 - 50.112.2.162:    HPCC Systems Thor Community Edition: 3.4.2-1.
+2012/02/08 13:57:55 - 50.112.2.162:    Starting mydafilesrv....       [  OK  ]   
+2012/02/08 13:57:55 - 50.112.2.162:    Starting mydali....            [  OK  ]   
+2012/02/08 13:57:55 - 50.112.2.162:    Starting myeclccserver....     [  OK  ]   
+2012/02/08 13:57:55 - 50.112.2.162:    Setting mythor....             [  OK  ]  
+2012/02/08 13:57:55 - 50.112.2.162:    Start node is complete.
+2012/02/08 13:57:55 - 50.112.7.47:     Starting mydafilesrv....       [  OK  ]   
+2012/02/08 13:57:55 - 50.112.7.47:     Starting mydfuserver....       [  OK  ]   
+2012/02/08 13:57:55 - 50.112.7.47:     Starting myeclscheduler....    [  OK  ]   
+2012/02/08 13:57:55 - 50.112.7.47:     Setting mythor....             [  OK  ]  
+2012/02/08 13:57:55 - 50.112.7.47:     Start node is complete.
+2012/02/08 13:58:12 - 50.112.47.150:   Starting mydafilesrv....       [  OK  ]   
+2012/02/08 13:58:12 - 50.112.47.150:   Starting myeclagent....        [  OK  ]   
+2012/02/08 13:58:12 - 50.112.47.150:   Starting myesp....             [  OK  ]   
+2012/02/08 13:58:12 - 50.112.47.150:   Starting mysasha....           [  OK  ]   
+2012/02/08 13:58:12 - 50.112.47.150:   Starting mythor....            [  OK  ]  
+2012/02/08 13:58:12 - 50.112.47.150:   Start node is complete.
+2012/02/08 13:58:12 - Done.
+2012/02/08 14:18:30 - Terminating cluster.
+2012/02/08 14:18:30 - Connecting to AWS region us-west-2.
+2012/02/08 14:18:31 - Gathering instances for Thor-6NGZ.
+2012/02/08 14:18:31 - Terminating instances.
+2012/02/08 14:18:33 - Waiting for 3 instances to terminate.
+2012/02/08 14:18:39 - Waiting for 3 instances to terminate.
+2012/02/08 14:18:44 - Waiting for 3 instances to terminate.
+2012/02/08 14:18:50 - Waiting for 2 instances to terminate.
+2012/02/08 14:18:56 - Deleting Access Key Thor-6NGZ.
+2012/02/08 14:18:56 - Deleting Security group Thor-6NGZ.
+2012/02/08 14:18:57 - Done.
