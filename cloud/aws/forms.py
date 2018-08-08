@@ -172,7 +172,7 @@ class EnhancedLaunchForm(LaunchForm):
         ('us-east-1_m1.large_instance','Virginia'),              
         ('us-west-1_m1.large_instance','N. California'), 
         ('eu-west-1_m1.large_instance','Ireland'),
-        ('eu-central-1_m1.large_instance','Frankfurt'),
+        ('eu-central-1_m3.large_instance','Frankfurt'),
         ('ap-southeast-1_m1.large_instance','Singapore'),
         ('ap-northeast-1_m1.large_instance','Tokyo'),
         ('sa-east-1_m1.large_instance','Sao Paulo'),
