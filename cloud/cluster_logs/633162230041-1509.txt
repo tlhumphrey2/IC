@@ -1,0 +1,151 @@
+2018/11/06 09:20:21 - Connecting to AWS region us-east-1.
+2018/11/06 09:20:21 - Calculating new unique cluster name for request 1509.
+2018/11/06 09:20:22 - Creating new cluster name, Hpcc-STB2.
+2018/11/06 09:20:22 - Creating Hpcc-STB2 security group.
+2018/11/06 09:20:24 - Creating Hpcc-STB2 key pair.
+2018/11/06 09:20:24 - Launching 3 m1.large nodes using ami-03414033ccff72f98.
+2018/11/06 09:20:25 - Reservation ID r-02e8a8434ae94aa88 created.
+2018/11/06 09:20:25 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:31 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:36 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:41 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:46 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:52 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:20:57 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:02 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:07 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:13 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:18 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:23 - Waiting for 3 of 3 nodes to launch.
+2018/11/06 09:21:28 - Waiting for 2 of 3 nodes to launch.
+2018/11/06 09:21:34 - Waiting for 1 of 3 nodes to launch.
+2018/11/06 09:21:39 - Waiting for 1 of 3 nodes to launch.
+2018/11/06 09:21:44 - Waiting for 1 of 3 nodes to launch.
+2018/11/06 09:21:49 - Waiting for 1 of 3 nodes to launch.
+2018/11/06 09:21:54 - Pending instances have completed.
+2018/11/06 09:21:54 - Checking each node launched properly.
+2018/11/06 09:21:54 - 54.196.138.208:  Checking EC2 instance i-0b2d5017bc9d01f31.
+2018/11/06 09:21:54 - 54.92.194.170:   Checking EC2 instance i-0d9fd74fb6d8ade7a.
+2018/11/06 09:21:54 - 54.221.150.117:  Checking EC2 instance i-074be916d1734a94e.
+2018/11/06 09:21:54 - 54.196.138.208:  Checking EC2 instance is running.
+2018/11/06 09:21:54 - 54.196.138.208:  Connecting via SSH.
+2018/11/06 09:21:54 - 54.92.194.170:   Checking EC2 instance is running.
+2018/11/06 09:21:54 - 54.92.194.170:   Connecting via SSH.
+2018/11/06 09:21:54 - 54.221.150.117:  Checking EC2 instance is running.
+2018/11/06 09:21:54 - 54.221.150.117:  Connecting via SSH.
+2018/11/06 09:21:54 - 54.221.150.117:  Waiting on SSH connection.
+2018/11/06 09:21:55 - 54.196.138.208:  Waiting on SSH connection.
+2018/11/06 09:21:55 - 54.92.194.170:   Waiting on SSH connection.
+2018/11/06 09:22:01 - 54.196.138.208:  Checking software installation completed.
+2018/11/06 09:22:01 - 54.196.138.208:  Waiting for software to install.
+2018/11/06 09:22:02 - 54.92.194.170:   Checking software installation completed.
+2018/11/06 09:22:02 - 54.92.194.170:   Waiting for software to install.
+2018/11/06 09:22:05 - 54.221.150.117:  Checking software installation completed.
+2018/11/06 09:22:05 - 54.221.150.117:  Software installation finished.
+2018/11/06 09:22:05 - 54.221.150.117:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:05 - 54.221.150.117:  Checking file contents.
+2018/11/06 09:22:05 - 54.221.150.117:  Remote file contents confirmed.
+2018/11/06 09:22:05 - 54.221.150.117:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:05 - 54.221.150.117:  tlh. Completed check of node 54.221.150.117.
+2018/11/06 09:22:11 - 54.196.138.208:  Software installation finished.
+2018/11/06 09:22:11 - 54.196.138.208:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:11 - 54.196.138.208:  Checking file contents.
+2018/11/06 09:22:11 - 54.196.138.208:  Remote file contents confirmed.
+2018/11/06 09:22:12 - 54.196.138.208:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:12 - 54.196.138.208:  tlh. Completed check of node 54.196.138.208.
+2018/11/06 09:22:12 - 54.92.194.170:   Software installation finished.
+2018/11/06 09:22:12 - 54.92.194.170:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:12 - 54.92.194.170:   Checking file contents.
+2018/11/06 09:22:12 - 54.92.194.170:   Remote file contents confirmed.
+2018/11/06 09:22:12 - 54.92.194.170:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:12 - 54.92.194.170:   tlh. Completed check of node 54.92.194.170.
+2018/11/06 09:22:12 - Determining availability zone.
+2018/11/06 09:22:12 - Gathering public and private ip addresses.
+2018/11/06 09:22:12 - Connecting to node 54.196.138.208 for cluster configuration.
+2018/11/06 09:22:12 - Connecting via SSH.
+2018/11/06 09:22:17 - Checking software installation completed.
+2018/11/06 09:22:18 - Software installation finished.
+2018/11/06 09:22:18 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:18 - Checking file contents.
+2018/11/06 09:22:18 - Remote file contents confirmed.
+2018/11/06 09:22:18 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:18 - Writing cluster private ip addresses to file on instance.
+2018/11/06 09:22:18 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/11/06 09:22:18 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/11/06 09:22:18 - Checking file contents.
+2018/11/06 09:22:18 - Remote file contents confirmed.
+2018/11/06 09:22:18 - Running envgen
+2018/11/06 09:22:19 - Reading the config file.
+2018/11/06 09:22:19 - Retrieving IP address of ESP Server.
+2018/11/06 09:22:19 - ESP Server private IP address: 10.7.209.112.
+2018/11/06 09:22:19 - ESP Server public IP address: 54.196.138.208.
+2018/11/06 09:22:19 - 54.196.138.208:  Starting node configuration.
+2018/11/06 09:22:19 - 54.196.138.208:  Connecting via SSH.
+2018/11/06 09:22:19 - 54.92.194.170:   Starting node configuration.
+2018/11/06 09:22:19 - 54.92.194.170:   Connecting via SSH.
+2018/11/06 09:22:19 - 54.221.150.117:  Starting node configuration.
+2018/11/06 09:22:19 - 54.221.150.117:  Connecting via SSH.
+2018/11/06 09:22:20 - 54.196.138.208:  Checking software installation completed.
+2018/11/06 09:22:20 - 54.196.138.208:  Software installation finished.
+2018/11/06 09:22:20 - 54.196.138.208:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:20 - 54.221.150.117:  Checking software installation completed.
+2018/11/06 09:22:20 - 54.221.150.117:  Software installation finished.
+2018/11/06 09:22:20 - 54.221.150.117:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:20 - 54.196.138.208:  Checking file contents.
+2018/11/06 09:22:20 - 54.196.138.208:  Remote file contents confirmed.
+2018/11/06 09:22:20 - 54.221.150.117:  Checking file contents.
+2018/11/06 09:22:20 - 54.221.150.117:  Remote file contents confirmed.
+2018/11/06 09:22:20 - 54.196.138.208:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:20 - 54.196.138.208:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/11/06 09:22:20 - 54.221.150.117:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:20 - 54.221.150.117:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/11/06 09:22:20 - 54.221.150.117:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/11/06 09:22:20 - 54.196.138.208:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/11/06 09:22:21 - 54.221.150.117:  Checking file contents.
+2018/11/06 09:22:21 - 54.196.138.208:  Checking file contents.
+2018/11/06 09:22:21 - 54.196.138.208:  Remote file contents confirmed.
+2018/11/06 09:22:21 - 54.196.138.208:  Starting HPCC Platform Community Edition: 7.0.0-1.
+2018/11/06 09:22:21 - 54.221.150.117:  Remote file contents confirmed.
+2018/11/06 09:22:21 - 54.221.150.117:  Starting HPCC Platform Community Edition: 7.0.0-1.
+2018/11/06 09:22:24 - 54.221.150.117:  Starting mydafilesrv ...       [   OK    ]  
+2018/11/06 09:22:24 - 54.221.150.117:  Start node is complete.
+2018/11/06 09:22:27 - 54.92.194.170:   Checking software installation completed.
+2018/11/06 09:22:27 - 54.92.194.170:   Software installation finished.
+2018/11/06 09:22:27 - 54.92.194.170:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/11/06 09:22:27 - 54.92.194.170:   Checking file contents.
+2018/11/06 09:22:27 - 54.92.194.170:   Remote file contents confirmed.
+2018/11/06 09:22:27 - 54.92.194.170:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/11/06 09:22:27 - 54.92.194.170:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/11/06 09:22:27 - 54.92.194.170:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/11/06 09:22:27 - 54.92.194.170:   Checking file contents.
+2018/11/06 09:22:28 - 54.92.194.170:   Remote file contents confirmed.
+2018/11/06 09:22:28 - 54.92.194.170:   Starting HPCC Platform Community Edition: 7.0.0-1.
+2018/11/06 09:22:34 - 54.92.194.170:   Starting mydafilesrv ...       [   OK    ]   
+2018/11/06 09:22:34 - 54.92.194.170:   Starting myroxie ...           [   OK    ]  
+2018/11/06 09:22:34 - 54.92.194.170:   Start node is complete.
+2018/11/06 09:22:40 - 54.196.138.208:  Starting mydafilesrv ...       [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting mydali ...            [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting mydfuserver ...       [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting myeclagent ...        [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting myeclccserver ...     [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting myeclscheduler ...    [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting myesp ...             [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting mysasha ...           [   OK    ]   
+2018/11/06 09:22:40 - 54.196.138.208:  Starting mythor ...            [   OK    ]  
+2018/11/06 09:22:40 - 54.196.138.208:  Start node is complete.
+2018/11/06 09:22:40 - Done.
+2018/11/06 09:31:45 - Terminating cluster.
+2018/11/06 09:31:45 - Connecting to AWS region us-east-1.
+2018/11/06 09:31:45 - Gathering instances for Hpcc-STB2.
+2018/11/06 09:31:46 - Terminating instances.
+2018/11/06 09:31:46 - Waiting for 3 instances to terminate.
+2018/11/06 09:31:52 - Waiting for 3 instances to terminate.
+2018/11/06 09:31:57 - Waiting for 3 instances to terminate.
+2018/11/06 09:32:02 - Waiting for 3 instances to terminate.
+2018/11/06 09:32:08 - Waiting for 3 instances to terminate.
+2018/11/06 09:32:13 - Waiting for 3 instances to terminate.
+2018/11/06 09:32:18 - Waiting for 3 instances to terminate.
+2018/11/06 09:32:24 - Waiting for 1 instances to terminate.
+2018/11/06 09:32:29 - Deleting Access Key Hpcc-STB2.
+2018/11/06 09:32:29 - Deleting Security group Hpcc-STB2.
+2018/11/06 09:32:29 - Done.

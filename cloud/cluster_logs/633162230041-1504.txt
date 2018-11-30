@@ -1,0 +1,95 @@
+2018/10/04 09:47:04 - Connecting to AWS region us-west-2.
+2018/10/04 09:47:04 - Calculating new unique cluster name for request 1504.
+2018/10/04 09:47:05 - Creating new cluster name, Hpcc-MDHU.
+2018/10/04 09:47:05 - Creating Hpcc-MDHU security group.
+2018/10/04 09:47:08 - Creating Hpcc-MDHU key pair.
+2018/10/04 09:47:09 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/10/04 09:47:10 - Reservation ID r-060bb69dc94245d25 created.
+2018/10/04 09:47:10 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:15 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:20 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:25 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:30 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:35 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:40 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:46 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:51 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:47:56 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:01 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:06 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:11 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:16 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:22 - Waiting for 1 of 1 nodes to launch.
+2018/10/04 09:48:27 - Pending instances have completed.
+2018/10/04 09:48:27 - Checking each node launched properly.
+2018/10/04 09:48:27 - 54.184.195.13:   Checking EC2 instance i-0949a0d10829acc66.
+2018/10/04 09:48:27 - 54.184.195.13:   Checking EC2 instance is running.
+2018/10/04 09:48:27 - 54.184.195.13:   Connecting via SSH.
+2018/10/04 09:48:58 - 54.184.195.13:   Waiting on SSH connection.
+2018/10/04 09:49:10 - 54.184.195.13:   Checking software installation completed.
+2018/10/04 09:49:10 - 54.184.195.13:   Software installation finished.
+2018/10/04 09:49:10 - 54.184.195.13:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/04 09:49:11 - 54.184.195.13:   Checking file contents.
+2018/10/04 09:49:11 - 54.184.195.13:   Remote file contents confirmed.
+2018/10/04 09:49:12 - 54.184.195.13:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/04 09:49:12 - 54.184.195.13:   tlh. Completed check of node 54.184.195.13.
+2018/10/04 09:49:12 - Determining availability zone.
+2018/10/04 09:49:12 - Gathering public and private ip addresses.
+2018/10/04 09:49:12 - Connecting to node 54.184.195.13 for cluster configuration.
+2018/10/04 09:49:12 - Connecting via SSH.
+2018/10/04 09:49:13 - Checking software installation completed.
+2018/10/04 09:49:13 - Software installation finished.
+2018/10/04 09:49:13 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/04 09:49:14 - Checking file contents.
+2018/10/04 09:49:14 - Remote file contents confirmed.
+2018/10/04 09:49:15 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/04 09:49:15 - Writing cluster private ip addresses to file on instance.
+2018/10/04 09:49:15 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/10/04 09:49:15 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/10/04 09:49:16 - Checking file contents.
+2018/10/04 09:49:16 - Remote file contents confirmed.
+2018/10/04 09:49:16 - Running envgen
+2018/10/04 09:49:17 - Reading the config file.
+2018/10/04 09:49:17 - Retrieving IP address of ESP Server.
+2018/10/04 09:49:17 - ESP Server private IP address: 10.227.4.155.
+2018/10/04 09:49:17 - ESP Server public IP address: 54.184.195.13.
+2018/10/04 09:49:18 - 54.184.195.13:   Starting node configuration.
+2018/10/04 09:49:18 - 54.184.195.13:   Connecting via SSH.
+2018/10/04 09:49:19 - 54.184.195.13:   Checking software installation completed.
+2018/10/04 09:49:19 - 54.184.195.13:   Software installation finished.
+2018/10/04 09:49:19 - 54.184.195.13:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/04 09:49:20 - 54.184.195.13:   Checking file contents.
+2018/10/04 09:49:20 - 54.184.195.13:   Remote file contents confirmed.
+2018/10/04 09:49:21 - 54.184.195.13:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/04 09:49:21 - 54.184.195.13:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/10/04 09:49:21 - 54.184.195.13:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/10/04 09:49:22 - 54.184.195.13:   Checking file contents.
+2018/10/04 09:49:22 - 54.184.195.13:   Remote file contents confirmed.
+2018/10/04 09:49:22 - 54.184.195.13:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/10/04 09:49:58 - 54.184.195.13:   Starting mydafilesrv ...       [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting mydali ...            [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting mydfuserver ...       [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting myeclagent ...        [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting myeclccserver ...     [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting myeclscheduler ...    [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting myesp ...             [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting mysasha ...           [   OK    ]   
+2018/10/04 09:49:58 - 54.184.195.13:   Starting mythor ...            [   OK    ]  
+2018/10/04 09:49:58 - 54.184.195.13:   Start node is complete.
+2018/10/04 09:49:58 - Done.
+2018/10/04 10:10:53 - Terminating cluster.
+2018/10/04 10:10:53 - Connecting to AWS region us-west-2.
+2018/10/04 10:10:53 - Gathering instances for Hpcc-MDHU.
+2018/10/04 10:10:54 - Terminating instances.
+2018/10/04 10:10:54 - Waiting for 1 instances to terminate.
+2018/10/04 10:10:59 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:04 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:10 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:15 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:20 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:25 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:30 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:35 - Waiting for 1 instances to terminate.
+2018/10/04 10:11:40 - Deleting Access Key Hpcc-MDHU.
+2018/10/04 10:11:41 - Deleting Security group Hpcc-MDHU.
+2018/10/04 10:11:41 - Done.

@@ -1,0 +1,85 @@
+2018/10/05 11:19:33 - Connecting to AWS region eu-central-1.
+2018/10/05 11:19:33 - Calculating new unique cluster name for request 1505.
+2018/10/05 11:19:34 - Creating new cluster name, Hpcc-ZUW4.
+2018/10/05 11:19:34 - Creating Hpcc-ZUW4 security group.
+2018/10/05 11:19:37 - Creating Hpcc-ZUW4 key pair.
+2018/10/05 11:19:38 - Launching 1 m3.large nodes using ami-00808b7c144b828f1.
+2018/10/05 11:19:39 - Reservation ID r-011fcdac2fd8c9474 created.
+2018/10/05 11:19:39 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:19:44 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:19:49 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:19:54 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:20:00 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:20:05 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:20:10 - Waiting for 1 of 1 nodes to launch.
+2018/10/05 11:20:15 - Pending instances have completed.
+2018/10/05 11:20:15 - Checking each node launched properly.
+2018/10/05 11:20:15 - 35.158.189.202:  Checking EC2 instance i-025831ac851d6d42e.
+2018/10/05 11:20:15 - 35.158.189.202:  Checking EC2 instance is running.
+2018/10/05 11:20:15 - 35.158.189.202:  Connecting via SSH.
+2018/10/05 11:20:16 - 35.158.189.202:  Waiting on SSH connection.
+2018/10/05 11:20:25 - 35.158.189.202:  Checking software installation completed.
+2018/10/05 11:20:25 - 35.158.189.202:  Software installation finished.
+2018/10/05 11:20:25 - 35.158.189.202:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/05 11:20:26 - 35.158.189.202:  Checking file contents.
+2018/10/05 11:20:26 - 35.158.189.202:  Remote file contents confirmed.
+2018/10/05 11:20:27 - 35.158.189.202:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/05 11:20:27 - 35.158.189.202:  tlh. Completed check of node 35.158.189.202.
+2018/10/05 11:20:27 - Determining availability zone.
+2018/10/05 11:20:27 - Gathering public and private ip addresses.
+2018/10/05 11:20:27 - Connecting to node 35.158.189.202 for cluster configuration.
+2018/10/05 11:20:27 - Connecting via SSH.
+2018/10/05 11:20:28 - Checking software installation completed.
+2018/10/05 11:20:28 - Software installation finished.
+2018/10/05 11:20:28 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/05 11:20:29 - Checking file contents.
+2018/10/05 11:20:29 - Remote file contents confirmed.
+2018/10/05 11:20:30 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/05 11:20:30 - Writing cluster private ip addresses to file on instance.
+2018/10/05 11:20:30 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/10/05 11:20:30 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/10/05 11:20:31 - Checking file contents.
+2018/10/05 11:20:31 - Remote file contents confirmed.
+2018/10/05 11:20:31 - Running envgen
+2018/10/05 11:20:31 - Reading the config file.
+2018/10/05 11:20:32 - Retrieving IP address of ESP Server.
+2018/10/05 11:20:32 - ESP Server private IP address: 172.31.15.53.
+2018/10/05 11:20:32 - ESP Server public IP address: 35.158.189.202.
+2018/10/05 11:20:32 - 35.158.189.202:  Starting node configuration.
+2018/10/05 11:20:32 - 35.158.189.202:  Connecting via SSH.
+2018/10/05 11:20:33 - 35.158.189.202:  Checking software installation completed.
+2018/10/05 11:20:34 - 35.158.189.202:  Software installation finished.
+2018/10/05 11:20:34 - 35.158.189.202:  Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/05 11:20:34 - 35.158.189.202:  Checking file contents.
+2018/10/05 11:20:34 - 35.158.189.202:  Remote file contents confirmed.
+2018/10/05 11:20:35 - 35.158.189.202:  No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/05 11:20:35 - 35.158.189.202:  Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/10/05 11:20:36 - 35.158.189.202:  Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/10/05 11:20:36 - 35.158.189.202:  Checking file contents.
+2018/10/05 11:20:37 - 35.158.189.202:  Remote file contents confirmed.
+2018/10/05 11:20:37 - 35.158.189.202:  Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/10/05 11:20:52 - 35.158.189.202:  Starting mydafilesrv ...       [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting mydali ...            [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting mydfuserver ...       [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting myeclagent ...        [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting myeclccserver ...     [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting myeclscheduler ...    [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting myesp ...             [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting mysasha ...           [   OK    ]   
+2018/10/05 11:20:52 - 35.158.189.202:  Starting mythor ...            [   OK    ]  
+2018/10/05 11:20:52 - 35.158.189.202:  Start node is complete.
+2018/10/05 11:20:52 - Done.
+2018/10/05 11:21:24 - Terminating cluster.
+2018/10/05 11:21:24 - Connecting to AWS region eu-central-1.
+2018/10/05 11:21:24 - Gathering instances for Hpcc-ZUW4.
+2018/10/05 11:21:25 - Terminating instances.
+2018/10/05 11:21:25 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:30 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:35 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:41 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:46 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:51 - Waiting for 1 instances to terminate.
+2018/10/05 11:21:56 - Waiting for 1 instances to terminate.
+2018/10/05 11:22:01 - Deleting Access Key Hpcc-ZUW4.
+2018/10/05 11:22:01 - Deleting Security group Hpcc-ZUW4.
+2018/10/05 11:22:02 - Done.

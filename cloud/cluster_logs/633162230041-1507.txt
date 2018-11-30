@@ -1,0 +1,91 @@
+2018/10/24 14:27:26 - Connecting to AWS region eu-central-1.
+2018/10/24 14:27:26 - Calculating new unique cluster name for request 1507.
+2018/10/24 14:27:27 - Creating new cluster name, Hpcc-X8WB.
+2018/10/24 14:27:27 - Creating Hpcc-X8WB security group.
+2018/10/24 14:27:31 - Creating Hpcc-X8WB key pair.
+2018/10/24 14:27:31 - Launching 1 m3.large nodes using ami-0788975e7c1f96d36.
+2018/10/24 14:27:32 - Reservation ID r-0f2f7ef2bc2525692 created.
+2018/10/24 14:27:32 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:27:37 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:27:42 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:27:48 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:27:53 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:27:58 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:03 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:08 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:13 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:18 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:24 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:29 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:34 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:39 - Waiting for 1 of 1 nodes to launch.
+2018/10/24 14:28:44 - Pending instances have completed.
+2018/10/24 14:28:44 - Checking each node launched properly.
+2018/10/24 14:28:44 - 3.120.140.19:    Checking EC2 instance i-0b246af5fc777d335.
+2018/10/24 14:28:44 - 3.120.140.19:    Checking EC2 instance is running.
+2018/10/24 14:28:44 - 3.120.140.19:    Connecting via SSH.
+2018/10/24 14:28:55 - 3.120.140.19:    Checking software installation completed.
+2018/10/24 14:28:56 - 3.120.140.19:    Software installation finished.
+2018/10/24 14:28:56 - 3.120.140.19:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/24 14:28:56 - 3.120.140.19:    Checking file contents.
+2018/10/24 14:28:56 - 3.120.140.19:    Remote file contents confirmed.
+2018/10/24 14:28:57 - 3.120.140.19:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/24 14:28:57 - 3.120.140.19:    tlh. Completed check of node 3.120.140.19.
+2018/10/24 14:28:57 - Determining availability zone.
+2018/10/24 14:28:57 - Gathering public and private ip addresses.
+2018/10/24 14:28:57 - Connecting to node 3.120.140.19 for cluster configuration.
+2018/10/24 14:28:57 - Connecting via SSH.
+2018/10/24 14:28:58 - Checking software installation completed.
+2018/10/24 14:28:59 - Software installation finished.
+2018/10/24 14:28:59 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/24 14:28:59 - Checking file contents.
+2018/10/24 14:28:59 - Remote file contents confirmed.
+2018/10/24 14:29:00 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/24 14:29:00 - Writing cluster private ip addresses to file on instance.
+2018/10/24 14:29:00 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/10/24 14:29:01 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/10/24 14:29:01 - Checking file contents.
+2018/10/24 14:29:01 - Remote file contents confirmed.
+2018/10/24 14:29:01 - Running envgen
+2018/10/24 14:29:02 - Reading the config file.
+2018/10/24 14:29:02 - Retrieving IP address of ESP Server.
+2018/10/24 14:29:02 - ESP Server private IP address: 172.31.2.107.
+2018/10/24 14:29:02 - ESP Server public IP address: 3.120.140.19.
+2018/10/24 14:29:03 - 3.120.140.19:    Starting node configuration.
+2018/10/24 14:29:03 - 3.120.140.19:    Connecting via SSH.
+2018/10/24 14:29:04 - 3.120.140.19:    Checking software installation completed.
+2018/10/24 14:29:04 - 3.120.140.19:    Software installation finished.
+2018/10/24 14:29:04 - 3.120.140.19:    Sending /home/ubuntu/node_health_script via SFTP.
+2018/10/24 14:29:04 - 3.120.140.19:    Checking file contents.
+2018/10/24 14:29:05 - 3.120.140.19:    Remote file contents confirmed.
+2018/10/24 14:29:05 - 3.120.140.19:    No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/10/24 14:29:05 - 3.120.140.19:    Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/10/24 14:29:06 - 3.120.140.19:    Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/10/24 14:29:06 - 3.120.140.19:    Checking file contents.
+2018/10/24 14:29:07 - 3.120.140.19:    Remote file contents confirmed.
+2018/10/24 14:29:07 - 3.120.140.19:    Starting HPCC Platform Community Edition: 6.4.26-1.
+2018/10/24 14:29:22 - 3.120.140.19:    Starting mydafilesrv ...       [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting mydali ...            [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting mydfuserver ...       [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting myeclagent ...        [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting myeclccserver ...     [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting myeclscheduler ...    [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting myesp ...             [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting mysasha ...           [   OK    ]   
+2018/10/24 14:29:22 - 3.120.140.19:    Starting mythor ...            [   OK    ]  
+2018/10/24 14:29:22 - 3.120.140.19:    Start node is complete.
+2018/10/24 14:29:22 - Done.
+2018/10/24 14:30:51 - Terminating cluster.
+2018/10/24 14:30:51 - Connecting to AWS region eu-central-1.
+2018/10/24 14:30:51 - Gathering instances for Hpcc-X8WB.
+2018/10/24 14:30:52 - Terminating instances.
+2018/10/24 14:30:52 - Waiting for 1 instances to terminate.
+2018/10/24 14:30:57 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:02 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:07 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:13 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:18 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:23 - Waiting for 1 instances to terminate.
+2018/10/24 14:31:28 - Deleting Access Key Hpcc-X8WB.
+2018/10/24 14:31:28 - Deleting Security group Hpcc-X8WB.
+2018/10/24 14:31:29 - Done.

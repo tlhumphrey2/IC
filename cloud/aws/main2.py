@@ -96,7 +96,8 @@ REGION = 'us-east-1'
 AVAILABILITY_ZONE = 'us-east-1b'
 AMI_LARGE = 'ami-fbbf7892'
 AMI_MICRO = 'ami-63be790a'
-SIZE_LARGE = 'm1.large'
+#SIZE_LARGE = 'm1.large'
+SIZE_LARGE = 'm3.large'
 SIZE_MICRO = 't1.micro'
 CLUSTER_SIZE = 10
 
