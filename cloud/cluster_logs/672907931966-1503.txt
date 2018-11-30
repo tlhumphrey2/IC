@@ -1,0 +1,72 @@
+2018/09/03 22:15:15 - Connecting to AWS region us-west-2.
+2018/09/03 22:15:15 - Calculating new unique cluster name for request 1503.
+2018/09/03 22:15:16 - Creating new cluster name, Hpcc-UHER.
+2018/09/03 22:15:16 - Creating Hpcc-UHER security group.
+2018/09/03 22:15:19 - Creating Hpcc-UHER key pair.
+2018/09/03 22:15:19 - Launching 1 m1.large nodes using ami-0337bb24bd2165b44.
+2018/09/03 22:15:21 - Reservation ID r-08fe81d98650e7127 created.
+2018/09/03 22:15:21 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:26 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:31 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:36 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:41 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:46 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:51 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:15:57 - Waiting for 1 of 1 nodes to launch.
+2018/09/03 22:16:02 - Pending instances have completed.
+2018/09/03 22:16:02 - Checking each node launched properly.
+2018/09/03 22:16:02 - 34.217.101.11:   Checking EC2 instance i-01fa62fd95a00db44.
+2018/09/03 22:16:02 - 34.217.101.11:   Checking EC2 instance is running.
+2018/09/03 22:16:02 - 34.217.101.11:   Connecting via SSH.
+2018/09/03 22:16:09 - 34.217.101.11:   Waiting on SSH connection.
+2018/09/03 22:16:21 - 34.217.101.11:   Checking software installation completed.
+2018/09/03 22:16:21 - 34.217.101.11:   Software installation finished.
+2018/09/03 22:16:21 - 34.217.101.11:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/09/03 22:16:22 - 34.217.101.11:   Checking file contents.
+2018/09/03 22:16:22 - 34.217.101.11:   Remote file contents confirmed.
+2018/09/03 22:16:23 - 34.217.101.11:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/09/03 22:16:23 - 34.217.101.11:   tlh. Completed check of node 34.217.101.11.
+2018/09/03 22:16:23 - Determining availability zone.
+2018/09/03 22:16:23 - Gathering public and private ip addresses.
+2018/09/03 22:16:23 - Connecting to node 34.217.101.11 for cluster configuration.
+2018/09/03 22:16:23 - Connecting via SSH.
+2018/09/03 22:16:24 - Checking software installation completed.
+2018/09/03 22:16:24 - Software installation finished.
+2018/09/03 22:16:24 - Sending /home/ubuntu/node_health_script via SFTP.
+2018/09/03 22:16:25 - Checking file contents.
+2018/09/03 22:16:25 - Remote file contents confirmed.
+2018/09/03 22:16:26 - No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/09/03 22:16:26 - Writing cluster private ip addresses to file on instance.
+2018/09/03 22:16:26 - Sending /etc/HPCCSystems/source/ips.txt via SFTP.
+2018/09/03 22:16:26 - Copying /etc/HPCCSystems/source/ips.txt to desitnation.
+2018/09/03 22:16:26 - Checking file contents.
+2018/09/03 22:16:27 - Remote file contents confirmed.
+2018/09/03 22:16:27 - Running envgen
+2018/09/03 22:16:27 - Reading the config file.
+2018/09/03 22:16:28 - Retrieving IP address of ESP Server.
+2018/09/03 22:16:28 - ESP Server private IP address: 172.31.21.40.
+2018/09/03 22:16:28 - ESP Server public IP address: 34.217.101.11.
+2018/09/03 22:16:28 - 34.217.101.11:   Starting node configuration.
+2018/09/03 22:16:28 - 34.217.101.11:   Connecting via SSH.
+2018/09/03 22:16:30 - 34.217.101.11:   Checking software installation completed.
+2018/09/03 22:16:30 - 34.217.101.11:   Software installation finished.
+2018/09/03 22:16:30 - 34.217.101.11:   Sending /home/ubuntu/node_health_script via SFTP.
+2018/09/03 22:16:30 - 34.217.101.11:   Checking file contents.
+2018/09/03 22:16:31 - 34.217.101.11:   Remote file contents confirmed.
+2018/09/03 22:16:31 - 34.217.101.11:   No Packet, Sys logs, free memory, free disk, or disk I/O errors
+2018/09/03 22:16:31 - 34.217.101.11:   Sending /etc/HPCCSystems/environment.xml via SFTP.
+2018/09/03 22:16:32 - 34.217.101.11:   Copying /etc/HPCCSystems/environment.xml to desitnation.
+2018/09/03 22:16:32 - 34.217.101.11:   Checking file contents.
+2018/09/03 22:16:33 - 34.217.101.11:   Remote file contents confirmed.
+2018/09/03 22:16:33 - 34.217.101.11:   Starting HPCC Platform Community Edition: 6.4.24-1.
+2018/09/03 22:16:56 - 34.217.101.11:   Starting mydafilesrv ...       [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting mydali ...            [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting mydfuserver ...       [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting myeclagent ...        [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting myeclccserver ...     [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting myeclscheduler ...    [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting myesp ...             [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting mysasha ...           [   OK    ]   
+2018/09/03 22:16:56 - 34.217.101.11:   Starting mythor ...            [   OK    ]  
+2018/09/03 22:16:56 - 34.217.101.11:   Start node is complete.
+2018/09/03 22:16:56 - Done.

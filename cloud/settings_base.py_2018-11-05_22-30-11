@@ -36,7 +36,7 @@ DJANGO_ROOT = dirname(realpath(django.__file__).replace('\\','/'))
 VERSIONS = {
     'front': '0.1.23',
     'back': '0.1.31',
-    'hpcc': '7.0.0-1'
+    'hpcc': '6.4.28-1'
 }
 
 MAX_NODES = 200
@@ -169,7 +169,7 @@ CSRF_FAILURE_VIEW = 'django.views.csrf.csrf_failure'
 AWS_LAUNCH_CONFIGS = {
      # Virginia
      'us-east-1_m1.large_instance':{
-         'ami': 'ami-03414033ccff72f98',
+         'ami': 'ami-034fd60284013c81c',
          'hpcc_global_memory_size': 4096,
          'hpcc_large_mem_size': 3064,
          'install_timeout': 300,
@@ -183,7 +183,7 @@ AWS_LAUNCH_CONFIGS = {
      },    
      # Oregon
     'us-west-2_m1.large_instance':{
-        'ami': 'ami-00b7e084a5780a825',
+        'ami': 'ami-06e2705309aa11368',
         'hpcc_global_memory_size': 4096,
         'hpcc_large_mem_size': 3064,
         'install_timeout': 300,
@@ -197,7 +197,7 @@ AWS_LAUNCH_CONFIGS = {
     },    
     # N. California
     'us-west-1_m1.large_instance':{
-        'ami': 'ami-026ccacba9c0a7b7b',
+        'ami': 'ami-0fa5fac8e39b47331',
         'hpcc_global_memory_size': 4096,
         'hpcc_large_mem_size': 3064,
         'install_timeout': 300,
@@ -211,7 +211,7 @@ AWS_LAUNCH_CONFIGS = {
     },
     # Ireland
      'eu-west-1_m1.large_instance':{
-         'ami': 'ami-0b92aeeea04994aa9',
+         'ami': 'ami-0dad19cc27da4a2a7',
          'hpcc_global_memory_size': 4096,
          'hpcc_large_mem_size': 3064,
          'install_timeout': 300,
@@ -225,7 +225,7 @@ AWS_LAUNCH_CONFIGS = {
      },
     # Frankfurt
      'eu-central-1_m3.large_instance':{
-         #'ami': 'ami-0b780ffc995572b2e',
+         #'ami': 'ami-0788975e7c1f96d36',
          'ami': 'ami-00808b7c144b828f1',
          'hpcc_global_memory_size': 4096,
          'hpcc_large_mem_size': 3064,
@@ -240,7 +240,7 @@ AWS_LAUNCH_CONFIGS = {
      },
      # Singapore
       'ap-southeast-1_m1.large_instance':{
-          'ami': 'ami-02431a020b207662a',
+          'ami': 'ami-098ef47dee281274b',
           'hpcc_global_memory_size': 4096,
           'hpcc_large_mem_size': 3064,
           'install_timeout': 300,
@@ -254,7 +254,7 @@ AWS_LAUNCH_CONFIGS = {
      },
      # Tokyo
       'ap-northeast-1_m1.large_instance':{
-          'ami': 'ami-0a6fdeefec333154d',
+          'ami': 'ami-0b1fde2680bf61f1b',
           'hpcc_global_memory_size': 4096,
           'hpcc_large_mem_size': 3064,
           'install_timeout': 300,
@@ -268,7 +268,7 @@ AWS_LAUNCH_CONFIGS = {
       },
       # Sao Paulo
        'sa-east-1_m1.large_instance':{
-            'ami': 'ami-0a2cc77e5bbb59db2',
+            'ami': 'ami-0484e80a3802a69a0',
             'hpcc_global_memory_size': 4096,
             'hpcc_large_mem_size': 3064,
             'install_timeout': 300,
@@ -282,7 +282,7 @@ AWS_LAUNCH_CONFIGS = {
         },
 	# Sydney
         'ap-southeast-2_m1.large_instance':{
-            'ami': 'ami-0031735c6adc6528c',
+            'ami': 'ami-06792e6a0534ae534',
             'hpcc_global_memory_size': 4096,
             'hpcc_large_mem_size': 3064,
             'install_timeout': 300,
